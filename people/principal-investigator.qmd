@@ -6,7 +6,7 @@ execute:
   echo: false
 about:
   template: trestles
-  image: files/site/Payton_Eric_2_crop.jpg
+  image: "../files/site/Payton_Eric_2_crop.jpg"
   image-alt: "photograph of Prof Eric Payton taken at the University of Cincinnati in August 2022"
   image-shape: round
   links:
