@@ -14,6 +14,10 @@ about:
       url: https://www.linkedin.com/in/dohg020904
     - text: "![](https://flagcdn.com/vn.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Socialist_Republic_of_Viet_Nam
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 

@@ -5,14 +5,16 @@ author: Since
 date: 2025-08-15 00:00:00
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Weihao_Li.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
+  image: ../../files/photos/People/Weihao_Li.jpg
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/weihao-li-9b957b379
 
 ---
+
+
 

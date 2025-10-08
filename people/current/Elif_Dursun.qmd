@@ -5,16 +5,22 @@ author: Since
 date: 2025-08-15 00:00:00
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Elif_Dursun.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
+  image: ../../files/photos/People/Elif_Dursun.jpg
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/elif-betül-şahin-a8403620a
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0002-3019-2536
+    - text: "![](https://flagcdn.com/tr.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Republic_of_T%C3%BCrkiye
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 

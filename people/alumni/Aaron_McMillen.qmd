@@ -16,6 +16,8 @@ about:
       url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![](https://flagcdn.com/us-tx.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Texas
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
     - text: "![](https://flagcdn.com/us-ga.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Georgia
     - text: "![](https://flagcdn.com/us-ok.svg){width=0.25in}"

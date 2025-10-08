@@ -4,10 +4,10 @@ categories: ["PhD - Primary Advisee"]
 date: 2025-05-15 00:00:00
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Sravya_Josyula.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
+  image: ../../files/photos/People/Sravya_Josyula.jpg
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

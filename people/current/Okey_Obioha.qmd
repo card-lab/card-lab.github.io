@@ -15,6 +15,12 @@ about:
       url: https://www.linkedin.com/in/okechukwuobioha
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0000-7452-426X
+    - text: "![](https://flagcdn.com/ng.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Federal_Republic_of_Nigeria
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 

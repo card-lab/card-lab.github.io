@@ -27,6 +27,12 @@ about:
 # Thesis/Dissertation
 
 ```{=html}
+<?xml version="1.0"?>
+<div class="csl-bib-body" style="line-height: 1.35; ">
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">D. M. Timberlake, &#x201C;Effects of SEM Distortions on EBSD Grain Size Measurements,&#x201D; MS Thesis, University of Cincinnati, Cincinnati, OH, USA, 2025. [Online]. Available: http://rave.ohiolink.edu/etdc/view?acc_num=ucin1758106355968781</div>
+  </div>
+</div>
 ```
 
 # Publications

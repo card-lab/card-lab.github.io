@@ -5,7 +5,6 @@ format: html
 listing:
   type: grid
   contents: current
-  date: updated
   sort: "date asc"
   image-placeholder: files/images/anon.jpg
   date-format: "MMM YYYY"
@@ -15,17 +14,17 @@ listing:
   fields: [image, date, title, author, categories]
   filter-ui: [categories, date]
   include-in-header:
-    text: |
-        <style>
-        /* Dashboard grid listing tweaks! /*
+text: |
+    <style>
+    /* Dashboard grid listing tweaks! /*
 
-        /* Hide pop-out / maximize controls for listing items */
-        .quarto-listing .listing-item .card-header-actions {
-        display: none !important;
-        }
+    /* Hide pop-out / maximize controls for listing items */
+    .quarto-listing .listing-item .card-header-actions {
+    display: none !important;
+    }
 
-        .quarto-listing .listing-item .card-header {
-        cursor: default;
-        }
-        </style>
+    .quarto-listing .listing-item .card-header {
+    cursor: default;
+    }
+    </style>
 ---
