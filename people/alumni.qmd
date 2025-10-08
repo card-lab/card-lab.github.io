@@ -7,23 +7,22 @@ listing:
   contents: alumni
   sort: "date asc"
   image-placeholder: files/images/anon.jpg
-  date: updated
   date-format: "MMM YYYY"
   image-height: 200px
   grid-columns: 4
   categories: numbered
   fields: [image, date, title, author, categories]
   filter-ui: [categories, date]
-  include-in-header:
-    text: |
-        <style>
-        /* Hide pop-out / maximize controls for listing items */
-        .quarto-listing .listing-item .card-header-actions {
-        display: none !important;
-        }
+include-in-header:
+  text: |
+      <style>
+      /* Hide pop-out / maximize controls for listing items */
+      .quarto-listing .listing-item .card-header-actions {
+      display: none !important;
+      }
 
-        .quarto-listing .listing-item .card-header {
-        cursor: default;
-        }
-        </style>
+      .quarto-listing .listing-item .card-header {
+      cursor: default;
+      }
+      </style>
 ---

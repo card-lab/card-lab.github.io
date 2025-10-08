@@ -1,5 +1,5 @@
 ---
-title: "Pictures"
+title: "CARD Lab Timeline in Photos"
 format: html
 toc: false
 jupyter: card-lab
