@@ -25,7 +25,7 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -71,6 +71,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -264,38 +267,46 @@ ul.task-list li input[type="checkbox"] {
 </style>
 <section id="at-a-glance" class="level2">
 <h2 class="anchored" data-anchor-id="at-a-glance">At a glance</h2>
-<div id="54168d71" class="cell" data-execution_count="2">
-<div class="cell-output cell-output-error">
-<div class="ansi-escaped-output">
-<pre><span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">TypeError</span>                                 Traceback (most recent call last)
-Cell <span class="ansi-green-fg">In[2], line 73</span>
-<span class="ansi-green-fg ansi-bold">     68</span> ncod <span style="color:rgb(98,98,98)">=</span> count_in_bib(file_path, entrytypelist<span style="color:rgb(98,98,98)">=</span>[<span style="color:rgb(175,0,0)">'</span><span style="color:rgb(175,0,0)">@software</span><span style="color:rgb(175,0,0)">'</span>])
-<span class="ansi-green-fg ansi-bold">     70</span> <span style="font-style:italic;color:rgb(95,135,135)"># Build multiple boxes</span>
-<span class="ansi-green-fg ansi-bold">     71</span> boxes_html <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(175,0,0)">f</span><span style="color:rgb(175,0,0)">"""</span>
-<span class="ansi-green-fg ansi-bold">     72</span> <span style="color:rgb(175,0,0)">&lt;div style=</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">&gt;</span>
-<span class="ansi-green-fg">---&gt; 73</span> <span style="color:rgb(175,0,0)">  </span><span style="font-weight:bold;color:rgb(175,95,135)">{</span><span class="ansi-yellow-bg">make_value_box</span><span class="ansi-yellow-bg">(</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">"</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">Peer-reviewed papers published since 2022</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">"</span><span class="ansi-yellow-bg">,</span><span style="color:rgb(188,188,188)" class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">npapers</span><span class="ansi-yellow-bg">,</span><span style="color:rgb(188,188,188)" class="ansi-yellow-bg"> </span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">"</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">fluent:document-sparkle-24-regular</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">"</span><span class="ansi-yellow-bg">,</span><span style="color:rgb(188,188,188)" class="ansi-yellow-bg"> </span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">"</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">success</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">"</span><span class="ansi-yellow-bg">,</span><span style="color:rgb(188,188,188)" class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">decimals</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">0</span><span class="ansi-yellow-bg">)</span><span style="font-weight:bold;color:rgb(175,95,135)">}</span>
-<span class="ansi-green-fg ansi-bold">     74</span> <span style="color:rgb(175,0,0)">  </span><span style="font-weight:bold;color:rgb(175,95,135)">{</span>make_value_box(<span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">Conference presentations given since 2022</span><span style="color:rgb(175,0,0)">"</span>,<span style="color:rgb(188,188,188)"> </span>npres,<span style="color:rgb(188,188,188)"> </span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">hugeicons:presentation-online</span><span style="color:rgb(175,0,0)">"</span>,<span style="color:rgb(188,188,188)"> </span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">info</span><span style="color:rgb(175,0,0)">"</span>,<span style="color:rgb(188,188,188)"> </span>decimals<span style="color:rgb(98,98,98)">=</span><span style="color:rgb(98,98,98)">0</span>)<span style="font-weight:bold;color:rgb(175,95,135)">}</span>
-<span class="ansi-green-fg ansi-bold">     75</span> <span style="color:rgb(175,0,0)">  </span><span style="font-weight:bold;color:rgb(175,95,135)">{</span>make_value_box(<span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">Theses &amp; dissertations published since 2022</span><span style="color:rgb(175,0,0)">"</span>,<span style="color:rgb(188,188,188)"> </span>ntheses,<span style="color:rgb(188,188,188)"> </span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">lets-icons:book-fill</span><span style="color:rgb(175,0,0)">"</span>,<span style="color:rgb(188,188,188)"> </span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">warning</span><span style="color:rgb(175,0,0)">"</span>,<span style="color:rgb(188,188,188)"> </span>decimals<span style="color:rgb(98,98,98)">=</span><span style="color:rgb(98,98,98)">0</span>)<span style="font-weight:bold;color:rgb(175,95,135)">}</span>
-<span class="ansi-green-fg ansi-bold">     76</span> <span style="color:rgb(175,0,0)">  </span><span style="font-weight:bold;color:rgb(175,95,135)">{</span>make_value_box(<span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">Datasets and open-source codes published since 2022</span><span style="color:rgb(175,0,0)">"</span>,<span style="color:rgb(188,188,188)"> </span>ncod,<span style="color:rgb(188,188,188)"> </span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">carbon:db2-data-sharing-group</span><span style="color:rgb(175,0,0)">"</span>,<span style="color:rgb(188,188,188)"> </span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">danger</span><span style="color:rgb(175,0,0)">"</span>,<span style="color:rgb(188,188,188)"> </span>decimals<span style="color:rgb(98,98,98)">=</span><span style="color:rgb(98,98,98)">0</span>)<span style="font-weight:bold;color:rgb(175,95,135)">}</span>
-<span class="ansi-green-fg ansi-bold">     77</span> <span style="color:rgb(175,0,0)">&lt;/div&gt;</span>
-<span class="ansi-green-fg ansi-bold">     78</span> <span style="color:rgb(175,0,0)">"""</span>
-<span class="ansi-green-fg ansi-bold">     80</span> HTML(boxes_html)
+<div id="54168d71" class="cell" data-execution_count="4">
+<div class="cell-output cell-output-display" data-execution_count="4">
 
-Cell <span class="ansi-green-fg">In[2], line 27</span>, in <span class="ansi-cyan-fg">make_value_box</span><span class="ansi-blue-fg">(title, value, icon_name, theme, decimals)</span>
-<span class="ansi-green-fg ansi-bold">     25</span> <span style="font-weight:bold;color:rgb(0,135,0)">def</span><span style="color:rgb(188,188,188)"> </span><span style="color:rgb(0,0,255)">make_value_box</span>(title, value, icon_name, theme, decimals<span style="color:rgb(98,98,98)">=</span><span style="color:rgb(98,98,98)">1</span>):
-<span class="ansi-green-fg ansi-bold">     26</span> <span style="color:rgb(188,188,188)">    </span><span style="font-style:italic;color:rgb(175,0,0)">"""Return HTML for a value box with an icon."""</span>
-<span class="ansi-green-fg">---&gt; 27</span>     <span style="font-weight:bold;color:rgb(0,135,0)">return</span> <span style="color:rgb(175,0,0)">f</span><span style="color:rgb(175,0,0)">"""</span>
-<span class="ansi-green-fg ansi-bold">     28</span> <span style="color:rgb(175,0,0)">    &lt;div class=</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">value-box </span><span style="font-weight:bold;color:rgb(175,95,135)">{</span>theme<span style="font-weight:bold;color:rgb(175,95,135)">}</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">&gt;</span>
-<span class="ansi-green-fg ansi-bold">     29</span> <span style="color:rgb(175,0,0)">      &lt;div class=</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">top-row</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">&gt;</span>
-<span class="ansi-green-fg ansi-bold">     30</span> <span style="color:rgb(175,0,0)">        &lt;div class=</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">label</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">&gt;</span><span style="font-weight:bold;color:rgb(175,95,135)">{</span>title<span style="font-weight:bold;color:rgb(175,95,135)">}</span><span style="color:rgb(175,0,0)">&lt;/div&gt;</span>
-<span class="ansi-green-fg ansi-bold">     31</span> <span style="color:rgb(175,0,0)">        &lt;iconify-icon icon=</span><span style="color:rgb(175,0,0)">"</span><span style="font-weight:bold;color:rgb(175,95,135)">{</span>icon_name<span style="font-weight:bold;color:rgb(175,95,135)">}</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">&gt;&lt;/iconify-icon&gt;</span>
-<span class="ansi-green-fg ansi-bold">     32</span> <span style="color:rgb(175,0,0)">      &lt;/div&gt;</span>
-<span class="ansi-green-fg ansi-bold">     33</span> <span style="color:rgb(175,0,0)">      &lt;div class=</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">value</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">&gt;</span><span style="font-weight:bold;color:rgb(175,95,135)">{</span>value<span style="font-weight:bold;color:rgb(175,95,135)">:</span><span style="color:rgb(175,0,0)">.</span><span style="font-weight:bold;color:rgb(175,95,135)">{</span>decimals<span style="font-weight:bold;color:rgb(175,95,135)">}</span><span style="color:rgb(175,0,0)">f</span><span style="font-weight:bold;color:rgb(175,95,135)">}</span><span style="color:rgb(175,0,0)">&lt;/div&gt;</span>
-<span class="ansi-green-fg ansi-bold">     34</span> <span style="color:rgb(175,0,0)">    &lt;/div&gt;</span>
-<span class="ansi-green-fg ansi-bold">     35</span> <span style="color:rgb(175,0,0)">    </span><span style="color:rgb(175,0,0)">"""</span>
-
-<span class="ansi-red-fg">TypeError</span>: unsupported format string passed to NoneType.__format__</pre>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;">
+  
+    <div class="value-box success">
+      <div class="top-row">
+        <div class="label">Peer-reviewed papers published since 2022</div>
+        <iconify-icon icon="fluent:document-sparkle-24-regular"></iconify-icon>
+      </div>
+      <div class="value">15</div>
+    </div>
+    
+  
+    <div class="value-box info">
+      <div class="top-row">
+        <div class="label">Conference presentations given since 2022</div>
+        <iconify-icon icon="hugeicons:presentation-online"></iconify-icon>
+      </div>
+      <div class="value">57</div>
+    </div>
+    
+  
+    <div class="value-box warning">
+      <div class="top-row">
+        <div class="label">Theses &amp; dissertations published since 2022</div>
+        <iconify-icon icon="lets-icons:book-fill"></iconify-icon>
+      </div>
+      <div class="value">8</div>
+    </div>
+    
+  
+    <div class="value-box danger">
+      <div class="top-row">
+        <div class="label">Datasets and open-source codes published since 2022</div>
+        <iconify-icon icon="carbon:db2-data-sharing-group"></iconify-icon>
+      </div>
+      <div class="value">2</div>
+    </div>
+    
 </div>
 </div>
 </div>
