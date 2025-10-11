@@ -5,12 +5,13 @@ format: html
 listing:
   type: grid
   contents: current
-  sort: "date asc"
+  sort: "date desc"
   image-placeholder: files/images/anon.jpg
   date-format: "MMM YYYY"
   categories: numbered
   image-height: 200px
   grid-columns: 4
+  max-items: 100 # Show all items
   fields: [image, date, title, author, categories]
   filter-ui: [categories, date]
   include-in-header:

@@ -12,10 +12,10 @@ about:
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/priam-tyagi-0993b5256
-    - text: "![](https://flagcdn.com/sa.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/Kingdom_of_Saudi_Arabia
     - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/sa.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Kingdom_of_Saudi_Arabia
     - text: "![](https://flagcdn.com/in.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Republic_of_India
     - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"

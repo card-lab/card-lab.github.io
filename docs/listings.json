@@ -4,6 +4,7 @@
     "items": [
       "/people/alumni/Mikki_Keller_(von_Schaumberg).html",
       "/people/alumni/Jesus_Acosta.html",
+      "/people/alumni/Anh_Nguyen.html",
       "/people/alumni/Yuval_Noiman.html",
       "/people/alumni/Zoey_Jestude.html",
       "/people/alumni/Likun_Sun.html",
@@ -13,7 +14,6 @@
       "/people/alumni/Phillisity_Neal.html",
       "/people/alumni/Tobi_Oriola.html",
       "/people/alumni/Bill_Voellmecke.html",
-      "/people/alumni/Anh_Nguyen.html",
       "/people/alumni/Emilie_Maddox.html",
       "/people/alumni/Sravya_Josyula.html",
       "/people/alumni/Josh_Maile.html",
@@ -39,20 +39,20 @@
   {
     "listing": "/people/current.html",
     "items": [
-      "/people/current/Okey_Obioha.html",
-      "/people/current/Praise_Robert.html",
-      "/people/current/Nishat_Sultana.html",
-      "/people/current/Sajjad_Hasan.html",
-      "/people/current/Philip_Ochieze.html",
-      "/people/current/Ananth_Balasubramanian.html",
-      "/people/current/Yateendra_Guthula.html",
-      "/people/current/Alice_Oladipo.html",
-      "/people/current/Zach_Miller.html",
       "/people/current/Elif_Dursun.html",
       "/people/current/Chris_Le.html",
       "/people/current/Yuval_Noiman.html",
       "/people/current/Nick_Jackson.html",
-      "/people/current/Weihao_Li.html"
+      "/people/current/Weihao_Li.html",
+      "/people/current/Zach_Miller.html",
+      "/people/current/Alice_Oladipo.html",
+      "/people/current/Yateendra_Guthula.html",
+      "/people/current/Ananth_Balasubramanian.html",
+      "/people/current/Philip_Ochieze.html",
+      "/people/current/Okey_Obioha.html",
+      "/people/current/Praise_Robert.html",
+      "/people/current/Nishat_Sultana.html",
+      "/people/current/Sajjad_Hasan.html"
     ]
   }
 ]

@@ -1,7 +1,7 @@
 ---
 title: "Anh Nguyen"
 categories: ["BS - Experiential Exploration Program Researcher (Full-Time for Credit)"]
-date: 2025-05-15 00:00:00
+date: 2024-05-15 00:00:00
 execute:
   echo: false
 image: ../../files/photos/People/anon.jpg
@@ -22,13 +22,13 @@ about:
 <?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. T. Oriola, J. D. Maile, A. Nguyen, and E. J. Payton, &#x201C;Toward an index for predicting additive manufacturability of refractory high-entropy alloys,&#x201D; <i>JOM</i>, vol. 77, pp. 7222&#x2013;7234, July 2025, doi: 10.1007/s11837-025-07552-3.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">J. D. Maile, A. T. Oriola, I. P. Giblin, A. Nguyen, and E. J. Payton, &#x201C;Assessment of hot cracking susceptibility through interdendritic feeding simulations,&#x201D; <i>Integrated Materials and Manufacturing Innovation</i>, vol. 14, pp. 212&#x2013;226, June 2025, doi: 10.1007/s40192-025-00403-8.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. T. Oriola, J. D. Maile, A. Nguyen, H. Do, R. Kumar, and E. J. Payton, &#x201C;Screening of Refractory High-Entropy Alloy Solidification Behavior Through Laser Glazing,&#x201D; <i>JOM</i>, vol. 77, pp. 7247&#x2013;7263, Aug. 2025, doi: 10.1007/s11837-025-07620-8.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. T. Oriola, J. D. Maile, A. Nguyen, and E. J. Payton, &#x201C;Toward an index for predicting additive manufacturability of refractory high-entropy alloys,&#x201D; <i>JOM</i>, vol. 77, pp. 7222&#x2013;7234, July 2025, doi: 10.1007/s11837-025-07552-3.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">J. D. Maile, A. T. Oriola, I. P. Giblin, A. Nguyen, and E. J. Payton, &#x201C;Assessment of hot cracking susceptibility through interdendritic feeding simulations,&#x201D; <i>Integrated Materials and Manufacturing Innovation</i>, vol. 14, pp. 212&#x2013;226, June 2025, doi: 10.1007/s40192-025-00403-8.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. T. Oriola, J. D. Maile, A. Nguyen, H. Do, R. Kumar, and E. J. Payton, &#x201C;Screening of Refractory High-Entropy Alloy Solidification Behavior Through Laser Glazing,&#x201D; <i>JOM</i>, vol. 77, pp. 7247&#x2013;7263, Aug. 2025, doi: 10.1007/s11837-025-07620-8.</div>
   </div>
 </div>
 ```

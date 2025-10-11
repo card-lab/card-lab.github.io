@@ -4,14 +4,18 @@ categories: ["BS - Research Volunteer"]
 date: 2024-12-15 00:00:00
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Phillisity_Neal.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
+  image: ../../files/photos/People/Phillisity_Neal.jpg
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/phillisity-neal-636bb8283
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 
