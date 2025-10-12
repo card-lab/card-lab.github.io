@@ -10,7 +10,7 @@ listing:
   date-format: "MMM YYYY"
   image-height: 200px
   grid-columns: 4
-  max-items: 100
+  page-size: 100
   categories: numbered
   fields: [image, date, title, author, categories]
   filter-ui: [categories, date]
