@@ -4,10 +4,10 @@ categories: ["BS - Experiential Exploration Program Researcher (Full-Time for Cr
 date: 2025-08-08 00:00:00
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Alan_Do.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
+  image: ../../files/photos/People/Alan_Do.jpg
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"
