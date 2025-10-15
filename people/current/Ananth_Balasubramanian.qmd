@@ -5,10 +5,10 @@ author: Since
 date: 2024-08-15 00:00:00
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Ananth_Balasubramanian.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
+  image: ../../files/photos/People/Ananth_Balasubramanian.jpg
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

@@ -5,10 +5,10 @@ author: Since
 date: 2023-08-15 00:00:00
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Okey_Obioha.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
+  image: ../../files/photos/People/Okey_Obioha.jpg
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"
