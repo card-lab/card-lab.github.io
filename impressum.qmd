@@ -11,7 +11,7 @@ author:
     given: Eric J.
     family: Payton
     degrees: PhD
-  affiliation: Department of Mechanical and Materials Engineering, College of Engineering and Applied Science, University of Cincinnati
+  affiliation: Department of Mechanical and Materials Engineering<br>College of Engineering and Applied Science<br> University of Cincinnati
   email: paytonej@ucmail.uc.edu
   orcid: "0000-0001-7478-9372"
 ---
@@ -19,19 +19,16 @@ author:
 
 | Website URL   | <https://card-lab.github.io>             |
 |---------------|---------------------------------------------------|
-| Organization  | Critical Alloy Research & Discovery Laboratory<br>Department of Mechanical and Materials Engineering<br>College of Engineering and Applied Science<br>University of Cincinnati |
-| Address       | 2901 Woodside Drive<br>CEAS MME - Rhodes Hall 504<br>Cincinnati, OH 45221-0072 USA |
+| Postal Address       | 2901 Woodside Drive<br>CEAS MME - Rhodes Hall 504<br>Cincinnati, OH 45221-0072 USA |
 | Contact       | Eric J. Payton                                    |
 | Tel:          | +1 513 556 0260                                   |
 | Fax:          | +1 513 556 3390                                   |
-| E-mail:       | paytonej[at]ucmail.uc.edu                         |
 
 
 ```{python}
 #| echo: false
 #| output: true
 
-!conda install -y folium
 import folium
 
 # Create a base map centered around the marker
@@ -50,7 +47,7 @@ m
 
 This website was created using [Quarto](https://quarto.org) and is hosted at <https://card-lab.github.io>). 
 
-[The University of Cincinnati](https://en.wikipedia.org/wiki/University_of_Cincinnati), the second largest university in the state of Ohio, USA. The University of Cincinnati is a public research university founded in 1819 and is part of the [University System of Ohio](https://highered.ohio.gov). The University of Cincinnati is located at 2600 Clifton Ave, Cincinnati, OH 45221.
+[The University of Cincinnati](https://en.wikipedia.org/wiki/University_of_Cincinnati) is a public research university founded in 1819 and is part of the [University System of Ohio](https://highered.ohio.gov). It is the second largest university in the state of Ohio, USA. The University of Cincinnati is located at 2600 Clifton Ave, Cincinnati, OH 45221.
 
 ---
 
