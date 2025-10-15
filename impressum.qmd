@@ -17,15 +17,10 @@ author:
 ---
 
 
-| Website URL   | https://homepages.uc.edu/~paytonej                |
+| Website URL   | <https://card-lab.github.io>             |
 |---------------|---------------------------------------------------|
-| Organization  | Critical Alloy Research & Discovery Laboratory    |
-|               | Department of Mechanical and Materials Engineering|
-|               | College of Engineering and Applied Science        |
-|               | University of Cincinnati                          |
-| Address       | 2901 Woodside Drive                               |
-|               | CEAS MME - Rhodes Hall 504                        |
-|               | Cincinnati, OH 45221-0072 USA                     |
+| Organization  | Critical Alloy Research & Discovery Laboratory<br>Department of Mechanical and Materials Engineering<br>College of Engineering and Applied Science<br>University of Cincinnati |
+| Address       | 2901 Woodside Drive<br>CEAS MME - Rhodes Hall 504<br>Cincinnati, OH 45221-0072 USA |
 | Contact       | Eric J. Payton                                    |
 | Tel:          | +1 513 556 0260                                   |
 | Fax:          | +1 513 556 3390                                   |
@@ -33,6 +28,9 @@ author:
 
 
 ```{python}
+#| echo: false
+#| output: true
+
 !conda install -y folium
 import folium
 
@@ -50,7 +48,9 @@ m
 <br><br>
 ```
 
-This website was created using [Quarto](https://quarto.org) and is hosted at [https://homepages.uc.edu/~paytonej](https://homepages.uc.edu/~paytonej/). [This domain](https://net.educause.edu/whois.htm) is owned and operated by [The University of Cincinnati](https://en.wikipedia.org/wiki/University_of_Cincinnati), the second largest university in the state of Ohio, USA. The University of Cincinnati is a public research university founded in 1819 and is part of the [University System of Ohio](https://highered.ohio.gov). The University of Cincinnati is located at 2600 Clifton Ave, Cincinnati, OH 45221.
+This website was created using [Quarto](https://quarto.org) and is hosted at <https://card-lab.github.io>). 
+
+[The University of Cincinnati](https://en.wikipedia.org/wiki/University_of_Cincinnati), the second largest university in the state of Ohio, USA. The University of Cincinnati is a public research university founded in 1819 and is part of the [University System of Ohio](https://highered.ohio.gov). The University of Cincinnati is located at 2600 Clifton Ave, Cincinnati, OH 45221.
 
 ---
 

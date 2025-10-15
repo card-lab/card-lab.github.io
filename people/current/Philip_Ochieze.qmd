@@ -5,10 +5,10 @@ author: Since
 date: 2024-01-01 00:00:00
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Philip_Ochieze.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
+  image: ../../files/photos/People/Philip_Ochieze.jpg
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

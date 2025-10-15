@@ -15,14 +15,14 @@ about:
       url: https://www.linkedin.com/in/yuvalnoiman
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0005-1868-2737
-    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![](https://flagcdn.com/il.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/State_of_Israel
-    - text: "![](https://flagcdn.com/us-ca.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/California
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio
+    - text: "![](https://flagcdn.com/us-ca.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/California
 
 ---
 
