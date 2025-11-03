@@ -15,10 +15,10 @@ about:
       url: https://www.linkedin.com/in/elif-betül-şahin-a8403620a
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0002-3019-2536
-    - text: "![](https://flagcdn.com/tr.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/Republic_of_T%C3%BCrkiye
     - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/tr.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Republic_of_T%C3%BCrkiye
     - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio
 

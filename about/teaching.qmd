@@ -1,0 +1,118 @@
+---
+title: "Teaching"
+format: html
+---
+
+# Materials Thermodynamics
+
+*Offered annually in fall semesters*
+
+**Materials thermodynamics** is an dual-listed graduate and upper-level undergraduate course. It is part of the core curriculum for the PhD degree in Materials Science. Prior familiarity with multivariable calculus is expected.
+
+Code           | MTEN 5105 (Undergraduate)                          | MTEN 6005 (Graduate) |
+---------------|----------------------------------------------------|----------------------|
+Prerequisites | Enrolled in a CEAS degree program or the MTEN Minor | Graduate standing    |
+              | Academic level > Pre-Junior                         |                      |
+              | C- or better in MATH2063 (Multivariable calculus) or equivalent                                            |                      |
+
+## Description
+
+Materials Thermodynamics applies the concept of equilibrium as a driving force to predict the presence of phases in the solid state. Interpretations of energy and entropy presented along with solid-state materials interpretation of the zeroth through third classical laws of thermodynamics. The concepts are applied toward the development of phase diagrams for binary and ternary metallic, ceramic, and polymeric systems. The limits and conservation of energy and entropy are used as a foundation for predicting the conditions for stability of microstructure and interpreting experimental data. Students will get hands-on experience with software tools used in industry to predict phase diagrams well as insights into prediction of phase stability using density functional theory.
+
+## Learning outcomes
+
+* Demonstrate an understanding of materials thermodynamic concepts which form an essential cornerstone for materials design and processing.
+* Relate the zeroth through third laws of thermodynamics concepts to solid state materials, developing relationships that produce models for chemical solutions, define phase diagrams from models of internal energy and entropy, and develop potential diagrams from treatments of chemical reactions.
+* Relate energetic driving forces to the stability of phases and defects comprising the microstructures of materials.
+
+# Materials Kinetics
+* Offered annually in spring semesters*
+
+**Materials kinetics** is an dual-listed graduate and upper-level undergraduate course. It is part of the core curriculum for the PhD degree in Materials Science. Prior familiarity with the principles of thermodynamics is a prerequisite.
+
+Code          | MTEN 5120 (Undergraduate)                           | MTEN 6020 (Graduate) |
+--------------|-----------------------------------------------------|----------------------|
+Prerequisites | Enrolled in a CEAS degree program or the MTEN Minor | Graduate standing    |
+              | Academic level > Pre-Junior                         |                      |
+              | C- or better in a thermodynamics course (AEEM 2022, CHE 3062, CHEM 3020, MECH 2010, MET 2060, MTEN 5105, PHYS 3030)                       |                      |
+
+## Description
+
+Materials Kinetics applies atomic mechanisms of the mobility of molecules and defects to predict the rates and pathways of solid-state phase transformations. Atomic exchange mechanisms are presented along with methods for coupling of fluxes with chemo-mechanical forces for a formal mathematical treatment of the time evolution of chemistry, charge, and defect concentration. Students will get hands-on experience with software tools used in industry for the study of the kinetics of materials processing, as well as insights into prediction of the kinetics of phase transformations using molecular dynamics.
+
+## Learning Outcomes
+
+* Demonstrate an understanding of materials kinetics concepts which form an essential cornerstone for materials design and processing.
+* Relate thermodynamic driving forces to atomic mobilities, using Fick’s laws and Onsager relations to produce models for the time evolution of chemical composition, electrical charge, and defect concentrations.
+* Relate kinetic limitations to reaching equilibrium to chemical reactions involving at least one solid-state phase and the stability of phases and defects comprising the microstructures of materials.
+
+# Engineering Materials
+* Offered annually in both fall and spring semesters*
+
+**Engineering materials** is a second-year undergraduate course designed to introduce engineering students to the materials used in engineering applications. It is required of students majoring in Mechanical Engineering and Mechanical Engineering Technology, and may be taken as an elective toward the minor in Materials Engineering.
+
+Code          | MTEN/MET/MECH 2032 (cross-listed)                   |
+--------------|-----------------------------------------------------|
+Prerequisites | Enrolled in a CEAS degree program or the MTEN Minor |
+              | Academic level > Pre-Junior                         |
+              | C- or better in introductory chemistry sequence (CHEM1030 and CHEM1040) |
+              | C- or better in Calculus I (MATH 1060) 
+
+## Course description
+
+This course introduces the role that materials play in engineering; the basic physical and chemical properties of materials; how different materials are classified by properties, composition, and processing; how the properties of materials are determined through testing methods and how these are used in design specifications; and how to select appropriate materials and heat treatments from a menu of available materials. Students are introduced to the influence that atomic bonds, arrangements, and defects have in determining mechanical, electrical, thermal, magnetic, and environmental resistance properties of engineering materials, as well as the limitations of production processes of polymers, metals, ceramics, and composites. Students will learn different strengthening mechanisms that are used to improve the mechanical properties, how microstructures evolve during thermomechanical processing and service through phase transformations, and the foundational principles of materials sustainability in engineering design. The course provides a foundation and context for subsequent required and elective in-depth courses including materials selection, manufacturing processes, mechanical design, system dynamics, heat transfer, motors, optics, electronics, and product development.
+
+## Learning outcomes
+
+* Describe how engineering materials including metals, polymers, ceramics, and composites are related in origin and structural characteristics, such as atomic bonding, crystal structure, chemical composition, defects, and properties
+* Explain the mechanical properties that must be reviewed when making materials selections including hardness, modulus of elasticity, tensile strength, yield strength, and shear strength.
+* Distinguish failures of materials on a property basis, including between overloading, cycling failure, overheating, and environmental effects
+* Describe typical processing sequences for families of materials; for example, how steels and other alloys are made through primary processing such as melting, casting, hot rolling, and cold rolling followed by secondary processing such as heat treating, forging, and machining
+* Describe how modifying chemical compositions, cold working, and heat treatments alter material properties
+* Use phase diagrams, materials selection charts, materials property data sheets, stress-strain curves, S/N curves, hardness values, creep curves, costs, and other property measurements to select appropriate classes of materials for an engineering application, and critique materials selection choices in a case study on a material class and design requirements basis
+
+# The global technical workforce
+*Offered annually in spring semesters*
+
+This course introduces students to team work and team management involving team members from different cultures across different time zones. Students participate in a 10-day study abroad trip to visit industry and universities, and talk to practicing engineers about their experiences working across national borders in the technical fields.
+
+Code          | ENGR 3001                                           |
+--------------|-----------------------------------------------------|
+Prerequisites | None; students must apply through study abroad office |
+
+## Description
+
+As firms become increasingly global and the technical workforce more diverse, students need to develop competencies to contribute to the global technical workforce. This class develops students' awareness and ability of cultural issues, communication, teamwork, and collaboration tools. In some years, addition students will participate in a short term study abroad program visiting one of the University's strategic international partners. On the visit students will interact with the host university and students and local business as well as explore local culture.  In other years, students will work on virtual teams with students from an international partner university.  Students will complete one or more projects and develop competencies for working in global teams.
+
+## Learning outcomes
+
+At the completion of the course students will:
+
+* Describe the implications of personality type preferences on their workplace effectiveness
+* List the steps needed to develop effective teams and the attributes needed to be an effective team member, including a global team
+* Describe and apply Hofstede's Dimensions of Values to particular cultures
+* Describe and demonstrate the skills needed to function on a virtual team
+* Describe the complexities of global work teams
+
+# Green Gold Rush: Critical materials in the race to a sustainable future
+*Offered only occasionally*
+
+This course is an interdisciplinary *honors seminar* exploring the complex interplay between embodied energy, society, materials, and sustainable usage of resources critical to energy production and utilization.
+
+
+Code          | MTEN/ENGR/INTR 3015 (cross-listed)                  |
+--------------|-----------------------------------------------------|
+Prerequisites | University honors program participant               |
+
+## Description
+
+Hundreds of billions of dollars are currently being invested within a day’s drive of Cincinnati to develop domestic manufacturing capabilities for the ‘clean energy’ future. Electric vehicles, wind turbines, solar panels, microchips, and carbon capture devices are all dependent on minerals that are of limited availability worldwide. In this honors seminar, we will explore the geopolitical, national security, economic security, and climate implications of the transition from a fuel-based to a materials-based energy economy. We will trace the supply chains of a few regionally important critical materials from where they are mined through their role in key technologies for the clean energy transition. Students will gain knowledge of how and where critical materials are processed, the role of specific elements in conferring desirable material properties, and the environmental implications of expanded mining and secondary processing operations in developing countries. Students will explore the strengths and limitations of emerging alternative materials, perform an assessment of the ubiquity of interactions with critical materials in their daily lives, and learn to design for recyclability and conservation of products containing critical materials.
+
+## Learning outcomes
+
+* Students will exhibit an ability to recognize broader impacts (ethical, environmental, economic, societal) of the transition from a fuels-based to a materials-based energy system, to include consideration of the mining and primary processing required for materials in the creation of renewable energy facilities, electric vehicles, and data centers.
+* The students will exercise their ability to analyze embodied CO$_2$ in materials and draw conclusions about the effect of these materials on the sustainability of structures and products.
+* Students will advance their ability to provide leadership in facilitating collaborative and inclusive discussions of complex interdisciplinary challenges involving sustainability, critical materials, and global impacts of manufacturing.
+* Students will be able to identify the four biggest contributors to CO2 emissions for which decarbonization is most challenging, and upon which modern societies are dependent.
+* Student will be able to identify key minerals from the US critical minerals list, describe the reason for their inclusion in the list, and identify which green energy technologies are dependent on these minerals.
+* Students demonstrate the ability to think critically about the sustainability of their energy and transportation usage, taking the full lifecycle of materials into consideration, and will be able to make recommendations to others on how to reduce their long-term environmental impacts.
