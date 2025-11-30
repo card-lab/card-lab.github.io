@@ -4,10 +4,10 @@ categories: ["BS - Research Experience for Undergraduates (Full-Time Paid)"]
 date: 2024-08-15 00:00:00
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Zoey_Jestude.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
+  image: ../../files/photos/People/Zoey_Jestude.jpg
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

@@ -1,36 +1,8 @@
 [
   {
-    "listing": "/people/current.html",
-    "items": [
-      "/people/current/Okey_Obioha.html",
-      "/people/current/Praise_Robert.html",
-      "/people/current/Nishat_Sultana.html",
-      "/people/current/Sajjad_Hasan.html",
-      "/people/current/Philip_Ochieze.html",
-      "/people/current/Ananth_Balasubramanian.html",
-      "/people/current/Yateendra_Guthula.html",
-      "/people/current/Alice_Oladipo.html",
-      "/people/current/Zach_Miller.html",
-      "/people/current/Elif_Dursun.html",
-      "/people/current/Chris_Le.html",
-      "/people/current/Yuval_Noiman.html",
-      "/people/current/Nick_Jackson.html",
-      "/people/current/Weihao_Li.html"
-    ]
-  },
-  {
-    "listing": "/capabilities/index.html",
-    "items": [
-      "/capabilities/arcmelting.html",
-      "/capabilities/fea.html",
-      "/capabilities/rollingmill.html",
-      "/capabilities/calphad.html",
-      "/capabilities/cfd.html"
-    ]
-  },
-  {
     "listing": "/people/alumni.html",
     "items": [
+      "/people/alumni/Nishat_Sultana.html",
       "/people/alumni/Vinay_Oruganti.html",
       "/people/alumni/Meiyan_Timberlake.html",
       "/people/alumni/Priam_Tyagi.html",
@@ -52,6 +24,35 @@
       "/people/alumni/Jesus_Acosta.html",
       "/people/alumni/Anh_Nguyen.html",
       "/people/alumni/Mikki_Keller_(von_Schaumberg).html"
+    ]
+  },
+  {
+    "listing": "/capabilities/index.html",
+    "items": [
+      "/capabilities/arcmelting.html",
+      "/capabilities/fea.html",
+      "/capabilities/rollingmill.html",
+      "/capabilities/calphad.html",
+      "/capabilities/cfd.html"
+    ]
+  },
+  {
+    "listing": "/people/current.html",
+    "items": [
+      "/people/current/Okey_Obioha.html",
+      "/people/current/Praise_Robert.html",
+      "/people/current/Nishat_Sultana.html",
+      "/people/current/Sajjad_Hasan.html",
+      "/people/current/Philip_Ochieze.html",
+      "/people/current/Ananth_Balasubramanian.html",
+      "/people/current/Yateendra_Guthula.html",
+      "/people/current/Alice_Oladipo.html",
+      "/people/current/Zach_Miller.html",
+      "/people/current/Elif_Dursun.html",
+      "/people/current/Chris_Le.html",
+      "/people/current/Yuval_Noiman.html",
+      "/people/current/Nick_Jackson.html",
+      "/people/current/Weihao_Li.html"
     ]
   }
 ]
