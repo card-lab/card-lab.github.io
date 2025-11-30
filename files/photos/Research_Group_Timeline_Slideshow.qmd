@@ -1,5 +1,5 @@
 ---
-title: "Critical Alloy Research & Discovery Lab Timeline Slideshow"
+title: "Critical Alloy Research & Discovery Lab Slideshow"
 format:
   revealjs:
     transition: fade
@@ -11,14 +11,16 @@ format:
     center: true
     pagetitle: "CARD Lab Timeline in Photos"
     title-slide: false
-jupyter: card-lab
+jupyter:
+  kernel: card-lab
 ---
 
 ```{python}
 #| output: false
 #| echo: false
 #| eval: true
-%conda install -y xattr
+
+#%conda install -y xattr
 
 # Copy MacOS Finder comments to image captions using exiftool
 # This requires exiftool, which you can get by 'brew install exiftool'
@@ -28,7 +30,7 @@ from pathlib import Path
 import xattr
 import plistlib
 
-IMAGE_DIR = Path("Research_Group/")
+IMAGE_DIR = Path("files/photos/Research_Group/")
 FINDER_COMMENT_ATTR = "com.apple.metadata:kMDItemFinderComment"
 SUPPORTED_EXTENSIONS = [".jpg", ".jpeg", ".png", ".tif", ".tiff"]
 
