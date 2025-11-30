@@ -30,7 +30,7 @@ from pathlib import Path
 import xattr
 import plistlib
 
-IMAGE_DIR = Path("files/photos/Research_Group/")
+IMAGE_DIR = Path("Research_Group/")
 FINDER_COMMENT_ATTR = "com.apple.metadata:kMDItemFinderComment"
 SUPPORTED_EXTENSIONS = [".jpg", ".jpeg", ".png", ".tif", ".tiff"]
 
