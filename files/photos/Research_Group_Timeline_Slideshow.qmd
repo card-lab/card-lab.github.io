@@ -1,5 +1,5 @@
 ---
-title: "Critical Alloy Research & Discovery Lab Slideshow"
+title: "CARD Lab Timeline in Photos"
 format:
   revealjs:
     transition: fade
