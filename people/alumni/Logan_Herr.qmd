@@ -8,6 +8,7 @@ image: ../../files/photos/People/Logan_Herr.jpg
 about:
   template: trestles
   image: ../../files/photos/People/Logan_Herr.jpg
+  image-alt: "Photo of Logan Herr"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

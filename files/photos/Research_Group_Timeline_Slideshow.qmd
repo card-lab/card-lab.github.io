@@ -11,7 +11,7 @@ format:
     center: true
     pagetitle: "CARD Lab Timeline in Photos"
     title-slide: false
-jupyter:
+jupyter: 
   kernel: card-lab
 ---
 

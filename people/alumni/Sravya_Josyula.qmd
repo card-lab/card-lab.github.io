@@ -8,6 +8,7 @@ image: ../../files/photos/People/Sravya_Josyula.jpg
 about:
   template: trestles
   image: ../../files/photos/People/Sravya_Josyula.jpg
+  image-alt: "Photo of Sravya Josyula"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

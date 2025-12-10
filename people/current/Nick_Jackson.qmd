@@ -9,6 +9,7 @@ image: ../../files/photos/People/Nick_Jackson.jpg
 about:
   template: trestles
   image: ../../files/photos/People/Nick_Jackson.jpg
+  image-alt: "Photo of Nick Jackson"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

@@ -8,6 +8,7 @@ image: ../../files/photos/People/Ian_Giblin.jpg
 about:
   template: trestles
   image: ../../files/photos/People/Ian_Giblin.jpg
+  image-alt: "Photo of Ian Giblin"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

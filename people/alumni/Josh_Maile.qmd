@@ -4,16 +4,23 @@ categories: ["MS - Primary Advisee"]
 date: 2025-05-15 00:00:00
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Josh_Maile.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
+  image: ../../files/photos/People/Josh_Maile.jpg
+  image-alt: "Photo of Josh Maile"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/joshua-maile-a21b17150
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0000-8914-944X
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
+    - text: "![](https://flagcdn.com/us-hi.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Hawaii
 
 ---
 

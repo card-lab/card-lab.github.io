@@ -8,6 +8,7 @@ image: ../../files/photos/People/Phillisity_Neal.jpg
 about:
   template: trestles
   image: ../../files/photos/People/Phillisity_Neal.jpg
+  image-alt: "Photo of Phillisity Neal"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

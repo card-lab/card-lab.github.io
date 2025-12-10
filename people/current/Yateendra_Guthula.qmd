@@ -9,6 +9,7 @@ image: ../../files/photos/People/Yateendra_Guthula.jpg
 about:
   template: trestles
   image: ../../files/photos/People/Yateendra_Guthula.jpg
+  image-alt: "Photo of Yateendra Guthula"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

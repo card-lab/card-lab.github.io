@@ -9,6 +9,7 @@ image: ../../files/photos/People/Elif_Dursun.jpg
 about:
   template: trestles
   image: ../../files/photos/People/Elif_Dursun.jpg
+  image-alt: "Photo of Elif Dursun"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

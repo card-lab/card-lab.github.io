@@ -8,6 +8,7 @@ image: ../../files/photos/People/Ravi_Kumar.jpg
 about:
   template: trestles
   image: ../../files/photos/People/Ravi_Kumar.jpg
+  image-alt: "Photo of Ravi Kumar"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

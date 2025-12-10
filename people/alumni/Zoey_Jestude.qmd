@@ -8,6 +8,7 @@ image: ../../files/photos/People/Zoey_Jestude.jpg
 about:
   template: trestles
   image: ../../files/photos/People/Zoey_Jestude.jpg
+  image-alt: "Photo of Zoey Jestude"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

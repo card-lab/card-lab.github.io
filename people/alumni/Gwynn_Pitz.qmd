@@ -4,14 +4,19 @@ categories: ["BS - Experiential Exploration Program Researcher (Full-Time for Cr
 date: 2025-05-15 00:00:00
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Gwynn_Pitz.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
+  image: ../../files/photos/People/Gwynn_Pitz.jpg
+  image-alt: "Photo of Gwynn Pitz"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/gwynn-pitz-9a017a2b8
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 

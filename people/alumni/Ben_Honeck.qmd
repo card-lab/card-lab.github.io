@@ -8,6 +8,7 @@ image: ../../files/photos/People/anon.jpg
 about:
   template: trestles
   image: ../../files/photos/People/anon.jpg
+  image-alt: "Stock photo of a dog wearing glasses."
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

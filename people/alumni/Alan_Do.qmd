@@ -8,6 +8,7 @@ image: ../../files/photos/People/Alan_Do.jpg
 about:
   template: trestles
   image: ../../files/photos/People/Alan_Do.jpg
+  image-alt: "Photo of Alan Do"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

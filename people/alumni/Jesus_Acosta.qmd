@@ -8,6 +8,7 @@ image: ../../files/photos/People/Jesus_Acosta.jpg
 about:
   template: trestles
   image: ../../files/photos/People/Jesus_Acosta.jpg
+  image-alt: "Photo of Jesus Acosta"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

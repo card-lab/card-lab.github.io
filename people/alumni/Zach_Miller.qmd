@@ -1,0 +1,35 @@
+---
+title: "Zach Miller"
+categories: ["BS - Undergraduate Independent Study Researcher (Part Time for Credit)"]
+date: 2025-12-15 00:00:00
+execute:
+  echo: false
+image: ../../files/photos/People/Zach_Miller.jpg
+about:
+  template: trestles
+  image: ../../files/photos/People/Zach_Miller.jpg
+  image-alt: "Photo of Zach Miller"
+  image-shape: round
+  links:
+    - text: "{{< iconify mdi linkedin >}}"
+      url: https://www.linkedin.com/in/zach-d-miller
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
+
+---
+
+
+# Presentations
+
+```{=html}
+<?xml version="1.0"?>
+<div class="csl-bib-body" style="line-height: 1.35; ">
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">Z. D. C. Miller, &#x201C;SPU-32: Development of a new CALPHAD database for the Fe-Ni-P system,&#x201D; presented at the MS&amp;T25: Materials Science &amp; Technology, Columbus, OH, USA, Sept. 30, 2025.</div>
+  </div>
+</div>
+```
+
+

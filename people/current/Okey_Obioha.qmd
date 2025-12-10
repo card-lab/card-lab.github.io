@@ -9,6 +9,7 @@ image: ../../files/photos/People/Okey_Obioha.jpg
 about:
   template: trestles
   image: ../../files/photos/People/Okey_Obioha.jpg
+  image-alt: "Photo of Okey Obioha"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"

@@ -8,12 +8,17 @@ image: ../../files/photos/People/Tobi_Oriola.jpg
 about:
   template: trestles
   image: ../../files/photos/People/Tobi_Oriola.jpg
+  image-alt: "Photo of Tobi Oriola"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/oriolatobi3
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0006-8293-3438
+    - text: "![](https://flagcdn.com/ng.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Federal_Republic_of_Nigeria
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
 
 ---
 

@@ -9,6 +9,7 @@ image: ../../files/photos/People/Ananth_Balasubramanian.jpg
 about:
   template: trestles
   image: ../../files/photos/People/Ananth_Balasubramanian.jpg
+  image-alt: "Photo of Ananth Balasubramanian"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"
