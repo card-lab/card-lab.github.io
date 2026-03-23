@@ -26,7 +26,7 @@ function formatMemberDate(value) {
 function membershipLabel(item) {
   const isAlumni = (item.path || '').includes('/alumni/');
   const hasEnd = !!(item['member-to'] || (isAlumni && item.date));
-  return hasEnd ? 'from' : 'joined';
+  return hasEnd ? '' : 'joined';
 }
 
 function membershipValue(item) {

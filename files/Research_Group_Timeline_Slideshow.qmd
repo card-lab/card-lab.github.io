@@ -3,7 +3,7 @@ title: " "
 format:
     revealjs:
         transition: fade
-        logo: brand/uc-monogram.png
+        logo: files/brand/uc-monogram.png
         auto-slide: 3500
         smaller: true
         loop: true

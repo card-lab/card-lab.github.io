@@ -15,6 +15,21 @@
     flex-wrap: wrap;
 }
 
+.quarto-about-trestles .quarto-title-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.quarto-about-trestles .quarto-title-meta > div:first-child {
+    order: 2;
+}
+
+.quarto-about-trestles .quarto-title-meta > div:nth-child(2) {
+    order: 1;
+}
+
 .quarto-about-trestles .quarto-title-meta .quarto-title-meta-heading,
 .quarto-about-trestles .quarto-title-meta .quarto-title-meta-contents {
     display: inline;
