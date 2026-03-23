@@ -6,7 +6,7 @@ toc: false
 date: today
 date-format: "DD MMMM YYYY"
 language:
-  title-block-published: "Last updated"
+  title-block-published: "Updated"
 include-in-header:
     text: |
         <style>

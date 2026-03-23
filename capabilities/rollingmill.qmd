@@ -1,5 +1,5 @@
 ---
-title: "Fenn Rolling Mill"
+title: "Hot rolling mill"
 categories: [equipment, "secondary processing", "905C Rhodes Hall"]
 ---
 

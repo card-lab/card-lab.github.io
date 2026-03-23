@@ -1,5 +1,5 @@
 ---
-title: "DEFORM Premier 2025"
+title: "Forming simulations with custom material models"
 categories: [software, FEM, "905C Rhodes Hall"]
 ---
 

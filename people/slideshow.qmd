@@ -4,7 +4,7 @@ format: html
 date: today
 date-format: "DD MMMM YYYY"
 language:
-  title-block-published: "Last updated"
+  title-block-published: "Updated"
 toc: false
 jupyter: card-lab
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Pandat 2025"
+title: "High throughput thermodynamic calculations"
 categories: [software, CALPHAD, "449 Mantei Center"]
 ---
 

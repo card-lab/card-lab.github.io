@@ -1,5 +1,5 @@
 ---
-title: "ProCAST 2025"
+title: "High fidelity casting simulations"
 categories: [software, CFD, "905C Rhodes Hall"]
 ---
 

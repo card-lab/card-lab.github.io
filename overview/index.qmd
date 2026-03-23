@@ -1,5 +1,9 @@
 ---
 title: "Overview"
 listing: default
+date: today
+date-format: "DD MMMM YYYY"
+language:
+  title-block-published: "Updated"
 ---
 

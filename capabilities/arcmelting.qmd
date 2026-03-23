@@ -1,12 +1,14 @@
 ---
-title: "Arc 200 Melter"
+title: "Vacuum arc melting and gas atomization"
 categories: [equipment, "primary processing", "449 Mantei Center"]
 ---
 
 Arcast 200 vacuum arc melter
 
+::: {.callout-note}
 Vacuum arc melting
 : the use of an electric arc between a thoriated tungsten electrode and a water-cooled copper crucible to melt conductive materials in a vacuum environment, producing high quality ingots with low contamination and controlled composition.
+:::
 
 Accessories:
 

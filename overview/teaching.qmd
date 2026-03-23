@@ -1,5 +1,9 @@
 ---
 title: "Teaching"
+date: today
+date-format: "DD MMMM YYYY"
+language:
+  title-block-published: "Updated"
 format: html
 ---
 

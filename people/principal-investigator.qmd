@@ -4,7 +4,7 @@ categories: ["Principal Investigator"]
 date: today
 date-format: "DD MMMM YYYY"
 language:
-  title-block-published: "Last updated"
+  title-block-published: "Updated"
 execute:
   echo: false
 about:

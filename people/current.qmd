@@ -4,7 +4,7 @@ title: "Current Group Members"
 date: today
 date-format: "DD MMMM YYYY"
 language:
-  title-block-published: "Last updated"
+  title-block-published: "Updated"
 format: html
 listing:
   type: grid
