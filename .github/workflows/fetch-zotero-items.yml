@@ -2,7 +2,7 @@ name: Fetch Zotero Items
 
 on:
   schedule:
-    - cron: '0 0 * * 0'
+    - cron: '0 0 * * 0' # Runs every Sunday at midnight
   workflow_dispatch:
 
 permissions:

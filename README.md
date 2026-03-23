@@ -68,3 +68,12 @@ Automatic encryption on render is also enabled via `_quarto.yaml`:
 Use an environment variable for the passphrase:
 
 - `export CARD_LAB_PEOPLE_SHEET_PASSPHRASE='your-passphrase'`
+
+## TO DO
+
+* Update the "places we have called home" map to be created in plotly
+* Make the formatting of the references on people pages match the work products page, including citation counts and links to open access
+* Improve the citation map to be only from CARD lab
+* Move current citation map over to PI page
+* Create collaborators list
+* 
