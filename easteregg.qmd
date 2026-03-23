@@ -6,7 +6,7 @@ format: html
 > *You've managed to find an [Easter Egg](https://en.wikipedia.org/wiki/Easter_egg_(media))!*
 
 
-::: {style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;"}
+::: {style="background-color: #f0f0f0; padding: 10px; border-radius: 10px;"}
 
 Cartomancy
 : fortune-telling by means of playing cards
@@ -17,7 +17,9 @@ Cartomancy
 
 The decision to pursue graduate studies should not be taken lightly. The initial excitement of the opportunity will inevitably give way to strains as you challenge yourself, confronting multiple stressors simultaneously. Expanding your horizons changes your mind irreversibly. When you complete your graduate journey, you will find yourself transformed. You will not only gain deep knowledge about a specific topic, but you should develop skills in communicating, thinking critically, paying attention to detail, managing your time and efforts, understanding the roles of power and incentive structures in people's motivations, ethical behaviors and responsibilities, how technical progress can be accelerated toward a societal need, and much more. I take my role as a mentor and advisor in this journey very seriously, and I treat our research meetings as a weekly [seminar](https://www.merriam-webster.com/dictionary/seminar) covering topics in which you should be informed in your journey to become a scientist. I call this "the process" in homage to [Sam Hinkie](https://www.si.com/nba/2018/05/02/trust-the-process-meaning-philadelphia-76ers-team-motto). Scientific training is a process. You have to [Trust the Process](https://bleacherreport.com/articles/2729018-the-definitive-history-of-trust-the-process). I meet with researchers in the Critical Alloy Research & Discovery (CARD) lab twice most weeks. The university calendar has 15 weeks for each of 3 semesters in which students in the CARD lab enroll in research credits, leaving a remainder of 7. We also meet in most of these seven weeks that fall outside of the course enrollment periods. The process can't easily conform to the university academic calendar. There are 52 weeks in a year and 52 cards in a standard deck. 13 cards for each of four seasons.
 
+::: {style="text-align: center;"}
 ❈ ❈ ❈
+:::
 
 I came up with the acronym "CARD" for our lab before I tried to find a connection to cards the physical objects. I brainstormed many much more complicated acronyms first before settling on CARD. For years before returning to academia, I described my research areas as threefold: (1) metals processing science; (2) alloy discovery and design; and (3) microstructure metrology. The first two cannot be done without the third. As I returned to academia, I wanted to concentrate my research focus on materials that were critical for economic and energy security, explicitly acknowledging the role that supply chain complexity and economic relationships play in determining *what* is critical, for *whom*, *when*, and *where*. As materials engineers, our role in the ecosystem mostly addresses *how* and *why* through incremental progress in design. As materials scientists, our objective is to understand the physics that can be used to unlock disruptive changes in criticality.
 
