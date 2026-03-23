@@ -5,12 +5,13 @@ format: html
 
 > *You've managed to find an [Easter Egg](https://en.wikipedia.org/wiki/Easter_egg_(media))!*
 
-❈ ❈ ❈
+
+::: {style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;"}
 
 Cartomancy
 : fortune-telling by means of playing cards
 
-❈ ❈ ❈
+:::
 
 [The last major wave of the Europe's bubonic plague pandemic hit London in 1665](https://en.wikipedia.org/wiki/Great_Plague_of_London). Cambridge University shut down as a precautiouary measure, and one of its students, Isaac Newton, retreated to his mother's countryside home in Woolsthorpe. It was during this time that he developed the mathematical theories that later became calculus, and he developed his theories on optics and gravitation. In the same year, Robert Hooke published [*Micrographia*](https://www.gutenberg.org/ebooks/15491), establishing the new science of microscopy and coining the word "cell." It was a year that is well deserving of the title [*annus mirabilis*](https://en.wikipedia.org/wiki/Annus_mirabilis). Isaac Newton's [*Philosophiæ Naturalis Principia Mathematica*](https://www.gutenberg.org/ebooks/28233) tore down curtains of superstition about the way the world works, and Robert Hooke's [*Micrographia*](https://www.gutenberg.org/ebooks/15491) established techniques that we now follow for making observations to draw physical conclusions about the way materials behave. Coincidentally, this is also the year in which John Lenhall published the [first deck of cards designed specifically for cartomancy](https://gamesetal.shop/fortune-telling-playing-cards/).
 
