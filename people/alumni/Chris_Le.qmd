@@ -5,7 +5,7 @@ member-from: 2025-08-15 00:00:00
 member-to: 2026-01-01 00:00:00
 date: today
 date-modified: 2025-08-15 00:00:00
-date-format: "MMMM YYYY"
+date-format: "MMM YYYY"
 language:
   title-block-published: "Updated"
   title-block-modified: "Member from"

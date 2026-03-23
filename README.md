@@ -26,7 +26,8 @@ My vision for this site is to:
    + Work products now use a repository cache file at `files/zotero-items.json`.
    + The cache refreshes weekly (and on demand) via the GitHub Action workflow `.github/workflows/fetch-zotero-items.yml`.
    + To force a refresh, run the `Fetch Zotero Items` workflow from the Actions tab.
-* The pictures section does not yet pull from a private shared folder, but does pull from a local folder. This requires manual re-rendering in quarto for now.
+* Group member profile photos now sync from `private/Group Member Photos/` into `files/photos/People/` during pre-render.
+* Timeline slideshow photos now sync from `private/Timeline Slideshow Photos/` into `files/photos/Timeline Slideshow Photos/` during pre-render.
 * A remaining challenge for re-use is reverse chronological ordering of items from Zotero, as well as display of all authors from presentations.
 
 # CARD Lab Website Python and Quarto Environments

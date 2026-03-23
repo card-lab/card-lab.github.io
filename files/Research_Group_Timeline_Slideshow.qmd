@@ -1,18 +1,18 @@
 ---
 title: " "
 format:
-  revealjs:
-    transition: fade
-    logo: ../brand/uc-monogram.png
-    auto-slide: 3500
-    smaller: true
-    loop: true
-    fig-align: center
-    center: true
-    pagetitle: "CARD Lab Timeline in Photos"
-    title-slide: false
-jupyter: 
-  kernel: card-lab
+    revealjs:
+        transition: fade
+        logo: brand/uc-monogram.png
+        auto-slide: 3500
+        smaller: true
+        loop: true
+        fig-align: center
+        center: true
+        pagetitle: "CARD Lab Timeline in Photos"
+        title-slide: false
+jupyter:
+    kernel: card-lab
 ---
 
 ```{python}
@@ -30,7 +30,8 @@ from pathlib import Path
 import xattr
 import plistlib
 
-IMAGE_DIR = Path("../../private/Timeline Slideshow Photos")
+PRIVATE_IMAGE_DIR = Path("../private/Timeline Slideshow Photos")
+PUBLIC_IMAGE_DIR = Path("photos/Timeline Slideshow Photos")
 FINDER_COMMENT_ATTR = "com.apple.metadata:kMDItemFinderComment"
 SUPPORTED_EXTENSIONS = [".jpg", ".jpeg", ".png", ".tif", ".tiff"]
 
@@ -59,10 +60,13 @@ def write_caption_with_exiftool(image_path, comment):
         print(f"Error updating {image_path.name}: {e}")
 
 def main():
-    for img_path in IMAGE_DIR.rglob("*"):
+    for img_path in PRIVATE_IMAGE_DIR.rglob("*"):
         if img_path.suffix.lower() in SUPPORTED_EXTENSIONS:
             comment = get_finder_comment(str(img_path))
-            write_caption_with_exiftool(img_path, comment)
+            rel_path = img_path.relative_to(PRIVATE_IMAGE_DIR)
+            public_path = PUBLIC_IMAGE_DIR / rel_path
+            if public_path.exists():
+                write_caption_with_exiftool(public_path, comment)
 
 if __name__ == "__main__":
     main()
@@ -81,6 +85,8 @@ from PIL import Image
 from PIL.ExifTags import TAGS
 import json
 import subprocess
+
+IMAGE_DIR = Path("photos/Timeline Slideshow Photos")
 
 # Supported image extensions
 IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.tif', '.tiff',
@@ -159,7 +165,8 @@ def generate_markdown(images):
         title = str(rel_path).split('.')[0]
         title = title[10:]
         caption = get_caption(img_path)
-        lines.append(f":::{{.center style=\"text-align: center;\"}}\n## {title}\n\n![{caption}]({IMAGE_DIR}{os.sep}{rel_path})\n:::\n")
+        image_path = (IMAGE_DIR / rel_path).as_posix()
+        lines.append(f":::{{.center style=\"text-align: center;\"}}\n## {title}\n\n![{caption}]({image_path})\n:::\n")
     return "\n".join(lines)
 
 images = sorted([

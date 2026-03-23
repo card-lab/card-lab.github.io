@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: docs
   pre-render:
+    - scripts/pre-render-timeline-slideshow-photos.sh
     - scripts/pre-render-people-action.sh
   post-render:
     - scripts/post-render-encrypt-private.sh
@@ -27,12 +28,14 @@ website:
     right:
       - href: index.qmd
         text: Home
+      - href: overview/index.qmd
+        text: Overview
       - href: people/current.qmd
         text: People
-      - href: research/workproducts.qmd
-        text: Work Products
       - href: capabilities/index.qmd
         text: Capabilities
+      - href: research/workproducts.qmd
+        text: Work Products
     tools:
       - icon: github
         menu:
@@ -42,12 +45,29 @@ website:
             href:  https://github.com/paytonej/card-lab-website/issues
 			
   sidebar:
+    - title: "Overview"
+      style: "docked"
+      contents:
+        - href: overview/index.qmd
+          text: "About the Lab"
+        - href: overview/cincinnati.qmd
+          text: "Cincinnati, OH"
+        - href: overview/service.qmd
+          text: "Service & Outreach"
+        - href: overview/teaching.qmd
+          text: "Teaching"
+      background: light
+      logo: files/site/academic-cap.svg
+      border: true
     - title: "People"
       style: "docked"
       contents: 
         - href: people/current.qmd
-        - people/alumni.qmd
-        - people/demographics.ipynb
+          text: "Current Members"
+        - href: people/alumni.qmd
+          text: "Alumni"
+        - href: people/demographics.ipynb
+          text: "Demographics"
         - href: people/slideshow.qmd
           text: "Photo Slideshow"
         - href: people/timeline.ipynb
@@ -69,11 +89,9 @@ website:
       style: "docked"
       contents: 
         - capabilities/index.qmd
-        - cincinnati.qmd
       background: light
       logo: files/site/game-icons--materials-science.svg
       border: true
-				
   page-footer:
     background: primary
     right: 

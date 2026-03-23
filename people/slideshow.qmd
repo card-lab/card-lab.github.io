@@ -9,4 +9,4 @@ toc: false
 jupyter: card-lab
 ---
 
-{{< revealjs "../files/photos/Research_Group_Timeline_Slideshow.html" >}}
+{{< revealjs "../files/Research_Group_Timeline_Slideshow.html" >}}
