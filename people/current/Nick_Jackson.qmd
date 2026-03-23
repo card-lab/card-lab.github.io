@@ -1,8 +1,11 @@
 ---
 title: "Nick Jackson"
 categories: ["PhD - Primary Advisee"]
-author: Since
+member-since: 2025-08-15 00:00:00
 date: 2025-08-15 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member since"
 execute:
   echo: false
 image: ../../files/photos/People/Nick_Jackson.jpg

@@ -1,7 +1,14 @@
 ---
 title: "Gwynn Pitz"
 categories: ["BS - Experiential Exploration Program Researcher (Full-Time for Credit)"]
+member-from: 2025-01-01 00:00:00
+member-to: 2025-05-15 00:00:00
 date: 2025-05-15 00:00:00
+date-modified: 2025-01-01 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member to"
+  title-block-modified: "Member from"
 execute:
   echo: false
 image: ../../files/photos/People/Gwynn_Pitz.jpg

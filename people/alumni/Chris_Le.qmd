@@ -1,0 +1,27 @@
+---
+title: "Chris Le"
+categories: ["PhD - Primary Advisee"]
+member-from: 2025-08-15 00:00:00
+member-to: 2026-01-01 00:00:00
+date: 2026-01-01 00:00:00
+date-modified: 2025-08-15 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member to"
+  title-block-modified: "Member from"
+execute:
+  echo: false
+image: ../../files/photos/People/Chris_Le.jpg
+about:
+  template: trestles
+  image: ../../files/photos/People/Chris_Le.jpg
+  image-alt: "Photo of Chris Le"
+  image-shape: round
+  links:
+    - text: "{{< iconify mdi linkedin >}}"
+      url: https://www.linkedin.com/in/chris-le-4263bb1b2
+
+---
+
+
+

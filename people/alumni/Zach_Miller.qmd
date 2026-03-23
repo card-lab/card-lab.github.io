@@ -1,7 +1,14 @@
 ---
 title: "Zach Miller"
-categories: ["BS - Undergraduate Independent Study Researcher (Part Time for Credit)"]
+categories: ["BS - Undergraduate Independent Study Researcher (Part Time for Credit)", "BS - Undergraduate Full-Time Research (Paid)"]
+member-from: 2025-08-08 00:00:00
+member-to: 2025-12-15 00:00:00
 date: 2025-12-15 00:00:00
+date-modified: 2025-08-08 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member to"
+  title-block-modified: "Member from"
 execute:
   echo: false
 image: ../../files/photos/People/Zach_Miller.jpg
@@ -24,10 +31,9 @@ about:
 # Presentations
 
 ```{=html}
-<?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">Z. D. C. Miller, &#x201C;SPU-32: Development of a new CALPHAD database for the Fe-Ni-P system,&#x201D; presented at the MS&amp;T25: Materials Science &amp; Technology, Columbus, OH, USA, Sept. 30, 2025.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>Z. D. C. Miller (presenter)</em>, U. P. Ochieze, E. J. Payton, M. A. Steiner. (2025-09-30). SPU-32: Development of a new CALPHAD database for the Fe-Ni-P system. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
   </div>
 </div>
 ```

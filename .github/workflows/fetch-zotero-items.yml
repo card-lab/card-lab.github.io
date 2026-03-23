@@ -1,0 +1,40 @@
+name: Fetch Zotero Items
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-zotero-items:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch Zotero items cache
+        run: node scripts/fetch-zotero-items.mjs
+
+      - name: Commit updated cache file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add files/zotero-items.json
+
+          if git diff --cached --quiet; then
+            echo "No cache changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: refresh Zotero items cache"
+          git push

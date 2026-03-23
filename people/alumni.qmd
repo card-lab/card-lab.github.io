@@ -5,6 +5,7 @@ format: html
 listing:
   type: grid
   contents: alumni
+  template: _partials/people-listing.ejs.md
   sort: "date desc"
   image-placeholder: files/images/anon.jpg
   date-format: "MMM YYYY"
@@ -12,8 +13,7 @@ listing:
   grid-columns: 4
   page-size: 100
   categories: numbered
-  fields: [image, date, title, author, categories]
-  filter-ui: [categories, date]
+  filter-ui: [categories, date, title]
 include-in-header:
   text: |
       <style>

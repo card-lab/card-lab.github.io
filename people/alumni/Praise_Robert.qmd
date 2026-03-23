@@ -1,0 +1,45 @@
+---
+title: "Praise Robert"
+categories: ["MS - Primary Advisee"]
+member-from: 2023-08-15 00:00:00
+member-to: 2025-12-22 00:00:00
+date: 2025-12-22 00:00:00
+date-modified: 2023-08-15 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member to"
+  title-block-modified: "Member from"
+execute:
+  echo: false
+image: ../../files/photos/People/Praise_Robert.jpg
+about:
+  template: trestles
+  image: ../../files/photos/People/Praise_Robert.jpg
+  image-alt: "Photo of Praise Robert"
+  image-shape: round
+  links:
+    - text: "{{< iconify mdi linkedin >}}"
+      url: https://www.linkedin.com/in/robertpraise
+    - text: "{{< iconify simple-icons orcid >}}"
+      url: https://orcid.org/0009-0006-1778-8991
+    - text: "![](https://flagcdn.com/ng.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Federal_Republic_of_Nigeria
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
+
+---
+
+
+# Presentations
+
+```{=html}
+<div class="csl-bib-body" style="line-height: 1.35; ">
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>P. Robert (presenter)</em>, E. J. Payton. (2024-10-08). SPG-39: Exploring the Recyclability of Electrical Steel. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
+  </div>
+</div>
+```
+
+

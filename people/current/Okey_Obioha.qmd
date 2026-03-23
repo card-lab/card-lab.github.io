@@ -1,8 +1,11 @@
 ---
 title: "Okey Obioha"
 categories: ["MS - Primary Advisee"]
-author: Since
+member-since: 2023-08-15 00:00:00
 date: 2023-08-15 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member since"
 execute:
   echo: false
 image: ../../files/photos/People/Okey_Obioha.jpg
@@ -29,13 +32,12 @@ about:
 # Presentations
 
 ```{=html}
-<?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">O. C. Obioha, &#x201C;SPG-45: Improved Constitutive Descriptions of the Flow Behavior of Aluminum Alloy 2618,&#x201D; presented at the MS&amp;T24: Materials Science &amp; Technology, Pittsburgh, PA, Oct. 08, 2024. [Online]. Available: https://www.matscitech.org/MST24</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">O. C. Obioha, C. A. Calhoun, Y. Guthula, M. A. Steiner, <em>E. J. Payton (presenter)</em>. (2026-03-17). Improving the constitutive modeling of AA2618 through strain rate jump testing and parameter optimization. <em>The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">E. J. Payton, &#x201C;Improving the constitutive modeling of AA2618 through strain rate jump testing and parameter optimization,&#x201D; presented at the The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition, San Diego, CA, Mar. 2026. [Online]. Available: https://www.tms.org/TMS2026/</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>O. C. Obioha (presenter)</em>, J. Kolar, P. C. Neal, J. Acosta, N. Thompson, M. A. Steiner, C. A. Calhoun, E. J. Payton. (2024-10-08). SPG-45: Improved Constitutive Descriptions of the Flow Behavior of Aluminum Alloy 2618. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
 </div>
 ```

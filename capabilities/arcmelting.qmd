@@ -3,6 +3,18 @@ title: "Arc 200 Melter"
 categories: [equipment, "primary processing", "449 Mantei Center"]
 ---
 
-Arcast 200 vacuum arc melter with continuous material feeding unit, tilt-pour casting, 800A power supply, turbo-pump, electromagnetic stirring, and free-fall gas atomization unit.
+Arcast 200 vacuum arc melter
+
+Vacuum arc melting
+: the use of an electric arc between a thoriated tungsten electrode and a water-cooled copper crucible to melt conductive materials in a vacuum environment, producing high quality ingots with low contamination and controlled composition.
+
+Accessories:
+
+* continuous material feeding unit
+* tilt-pour casting
+* 800A power supply
+* turbo-pump
+* electromagnetic stirring
+* free-fall gas atomization unit
 
 

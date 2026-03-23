@@ -1,7 +1,14 @@
 ---
 title: "Priam Tyagi"
-categories: ["BS - Experiential Exploration Program Researcher (Full-Time for Credit)"]
+categories: ["BS - Experiential Exploration Program Researcher (Full-Time for Credit)", "BS - Undergrad Co-Op Research Fellowship"]
+member-from: 2025-05-01 00:00:00
+member-to: 2025-08-08 00:00:00
 date: 2025-08-08 00:00:00
+date-modified: 2025-05-01 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member to"
+  title-block-modified: "Member from"
 execute:
   echo: false
 image: ../../files/photos/People/anon.jpg
@@ -13,10 +20,10 @@ about:
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/priam-tyagi-0993b5256
-    - text: "![](https://flagcdn.com/sa.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/Kingdom_of_Saudi_Arabia
     - text: "![](https://flagcdn.com/in.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Republic_of_India
+    - text: "![](https://flagcdn.com/sa.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Kingdom_of_Saudi_Arabia
     - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
@@ -31,7 +38,7 @@ about:
 <?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">K. S. Evans, D. M. Timberlake, P. Tyagi, V. M. Miller, and E. J. Payton, &#x201C;On the sources of discrepancies between grain size measurements,&#x201D; <i>Metallogr. Microstruct. Anal.</i>, vol. 13, no. 5, pp. 966&#x2013;982, Sept. 2024, doi: 10.1007/s13632-024-01124-8.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">K. S. Evans, D. M. Timberlake, P. Tyagi, V. M. Miller, and E. J. Payton, &#x201C;On the sources of discrepancies between grain size measurements,&#x201D; <i>Metallogr. Microstruct. Anal.</i>, vol. 13, no. 5, pp. 966&#x2013;982, Sep. 2024, doi: 10.1007/s13632-024-01124-8.</div>
   </div>
 </div>
 ```
@@ -39,13 +46,12 @@ about:
 # Presentations
 
 ```{=html}
-<?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">D. M. Timberlake, &#x201C;SPU-23: On the Sources of Discrepancies between EBSD, SEM, and Optical Grain Size Measurements,&#x201D; presented at the MS&amp;T24: Materials Science &amp; Technology, Pittsburgh, PA, Oct. 08, 2024. [Online]. Available: https://www.matscitech.org/MST24</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">K. S. Evans, <em>D. M. Timberlake (presenter)</em>, P. Tyagi, V. M. Miller, E. J. Payton. (2024-10-08). SPU-23: On the Sources of Discrepancies between EBSD, SEM, and Optical Grain Size Measurements. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. A. Oladipo, &#x201C;SPG-44: Effect of Texture on Residual Stress Induced during Surface Modification in Ti6Al4V Rolled Plate,&#x201D; presented at the MS&amp;T24: Materials Science &amp; Technology, Pittsburgh, PA, Oct. 08, 2024. [Online]. Available: https://www.matscitech.org/MST24</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. A. Oladipo (presenter)</em>, L. Sun, P. Tyagi, D. M. Timberlake, A. L. Pilchak, M. A. Steiner, E. J. Payton. (2024-10-08). SPG-44: Effect of Texture on Residual Stress Induced during Surface Modification in Ti6Al4V Rolled Plate. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
 </div>
 ```

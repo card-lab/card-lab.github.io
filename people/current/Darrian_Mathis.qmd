@@ -1,0 +1,21 @@
+---
+title: "Darrian Mathis"
+categories: ["BS - Experiential Exploration Program Researcher (Full-Time for Credit)"]
+member-since: 2026-01-15 00:00:00
+date: 2026-01-15 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member since"
+execute:
+  echo: false
+image: ../../files/photos/People/anon.jpg
+about:
+  template: trestles
+  image: ../../files/photos/People/anon.jpg
+  image-alt: "Stock photo of a dog wearing glasses."
+  image-shape: round
+
+---
+
+
+

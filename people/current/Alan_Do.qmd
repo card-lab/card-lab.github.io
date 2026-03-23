@@ -1,0 +1,54 @@
+---
+title: "Alan Do"
+categories: ["BS - Experiential Exploration Program Researcher (Full-Time for Credit)"]
+member-since: 2026-01-01 00:00:00
+date: 2026-01-01 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member since"
+execute:
+  echo: false
+image: ../../files/photos/People/Alan_Do.jpg
+about:
+  template: trestles
+  image: ../../files/photos/People/Alan_Do.jpg
+  image-alt: "Photo of Alan Do"
+  image-shape: round
+  links:
+    - text: "{{< iconify mdi linkedin >}}"
+      url: https://www.linkedin.com/in/dohg020904
+    - text: "![](https://flagcdn.com/vn.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Socialist_Republic_of_Viet_Nam
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
+
+---
+
+
+# Publications
+
+```{=html}
+<?xml version="1.0"?>
+<div class="csl-bib-body" style="line-height: 1.35; ">
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. T. Oriola, J. D. Maile, A. Nguyen, H. Do, R. Kumar, and E. J. Payton, &#x201C;Screening of Refractory High-Entropy Alloy Solidification Behavior Through Laser Glazing,&#x201D; <i>JOM</i>, vol. 77, pp. 7247&#x2013;7263, Aug. 2025, doi: 10.1007/s11837-025-07620-8.</div>
+  </div>
+</div>
+```
+
+# Presentations
+
+```{=html}
+<div class="csl-bib-body" style="line-height: 1.35; ">
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. T. Oriola (presenter)</em>, A. Nguyen, U. P. Ochieze, S. Josyula, H. Do, J. Maile, A. T. McMillen, W. C. Voellmecke, E. J. Payton. (2024-10-07). Additive manufacturing feasibility of refractory high entropy alloys. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
+  </div>
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>E. J. Payton (presenter)</em>, A. T. Oriola, A. Nguyen, H. Do, L. Sun, J. Maile. (2024-08-20). Additive manufacturing feasibility of refractory high entropy alloys. <em>32nd International Materials Research Congress (IMRC2024)</em>.</div>
+  </div>
+</div>
+```
+
+

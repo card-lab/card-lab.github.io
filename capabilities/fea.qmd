@@ -3,7 +3,17 @@ title: "DEFORM Premier 2025"
 categories: [software, FEM, "905C Rhodes Hall"]
 ---
 
-DEFORM Premier 2025 from Scientific Forming Technologies Corporation.
+DEFORM Premier 2025 from Scientific Forming Technologies Corporation
+
+Finite element modeling
+: A method for simulating the deformation of materials under various loading conditions, used for optimizing forming processes and predicting material behavior.
+
+Modules:
+
+* DEFORM-3D: A general-purpose 3D finite element solver for simulating a wide range of forming processes, including forging, extrusion, and sheet metal forming.
+* DEFORM-2D: A 2D finite element solver for simulating axisymmetric forming processes, such as deep drawing and tube hydroforming.
+
+
 
 
 

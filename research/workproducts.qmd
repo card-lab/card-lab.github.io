@@ -200,9 +200,9 @@ include-in-header:
             }
         }
         
-        // Set loading message dynamically based on group ID
+        // Set loading message dynamically based on cache source
         document.addEventListener('DOMContentLoaded', () => {
-            document.getElementById('loadingMessage').innerHTML = `<em>Please wait. Loading content from the <a href="https://www.zotero.org/groups/${ZOTERO_GROUP_ID}/" target="_blank">CARD group Zotero library...</a></em>`;});
+            document.getElementById('loadingMessage').innerHTML = `<em>Please wait. Loading content from the cached CARD group library...</em>`;});
         </script>
 ---
 
@@ -278,9 +278,18 @@ include-in-header:
     };
     
     async function fetchZoteroItems() {
-    const response = await fetch(`https://api.zotero.org/groups/${ZOTERO_GROUP_ID}/items?format=json&limit=5000`);
-    if (!response.ok) throw new Error(`Error fetching data: ${response.statusText}`);
-    return response.json();
+    try {
+        const localResponse = await fetch('./files/zotero-items.json');
+        if (!localResponse.ok) {
+            throw new Error(`Cache fetch failed: ${localResponse.status} ${localResponse.statusText}`);
+        }
+        return localResponse.json();
+    } catch (cacheError) {
+        console.warn('Falling back to live Zotero API:', cacheError.message);
+        const response = await fetch(`https://api.zotero.org/groups/${ZOTERO_GROUP_ID}/items?format=json&limit=5000`);
+        if (!response.ok) throw new Error(`Error fetching live data: ${response.statusText}`);
+        return response.json();
+    }
     }
     
     function parseDate(dateStr) {

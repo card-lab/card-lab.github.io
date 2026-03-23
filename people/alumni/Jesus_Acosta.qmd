@@ -1,7 +1,14 @@
 ---
 title: "Jesus Acosta"
-categories: ["BS - Undergraduate Part-Time Research (Paid)"]
+categories: ["BS - Undergraduate Part-Time Research (Paid)", "BS - Research Experience for Undergraduates (Full-Time Paid)"]
+member-from: 2023-08-15 00:00:00
+member-to: 2024-05-15 00:00:00
 date: 2024-05-15 00:00:00
+date-modified: 2023-08-15 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member to"
+  title-block-modified: "Member from"
 execute:
   echo: false
 image: ../../files/photos/People/Jesus_Acosta.jpg
@@ -24,25 +31,24 @@ about:
 # Presentations
 
 ```{=html}
-<?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">J. Acosta, &#x201C;Toward tailoring properties of thin nanocrystals for high-speed electronic devices of the future,&#x201D; presented at the AFRL Summer Visitor Research Exhibition, Wright-Patterson AFB, OH, Aug. 03, 2023.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[6]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Hasan (presenter)</em>, N. Sultana, P. C. Neal, J. Acosta, E. J. Payton. (2025-10-01). Comparison of thermodynamic prediction with experimental observations of refractory metal carbides synthesized using CVD. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">P. C. Neal, &#x201C;What MXenes can be made by chemical vapor deposition?,&#x201D; presented at the 2023 Annual Louis Stokes Midwestern Research Center of Excellence, Oak Brook, IL, Nov. 04, 2023.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[5]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>O. C. Obioha (presenter)</em>, J. Kolar, P. C. Neal, J. Acosta, N. Thompson, M. A. Steiner, C. A. Calhoun, E. J. Payton. (2024-10-08). SPG-45: Improved Constitutive Descriptions of the Flow Behavior of Aluminum Alloy 2618. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">E. J. Payton, &#x201C;Chemical vapor deposition synthesis of 2D refractory metal carbides,&#x201D; presented at the The Minerals Metals and Materials Society Annual Meeting and Exhibition 2024, Orlando, FL, Mar. 04, 2024.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">J. Acosta, P. C. Neal, <em>S. Hasan (presenter)</em>, E. J. Payton. (2024-10-08). SPG-63: X-Ray Diffraction Analysis of the Effect of Hydrogen and Methane Partial Pressures on the Chemical Vapor Deposition Synthesis of Refractory Metal Carbides. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">O. C. Obioha, &#x201C;SPG-45: Improved Constitutive Descriptions of the Flow Behavior of Aluminum Alloy 2618,&#x201D; presented at the MS&amp;T24: Materials Science &amp; Technology, Pittsburgh, PA, Oct. 08, 2024. [Online]. Available: https://www.matscitech.org/MST24</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>E. J. Payton (presenter)</em>, P. C. Neal, J. Acosta, A. Ruditskiy, A. N. Giordano, W. J. Kennedy. (2024-03-04). Chemical vapor deposition synthesis of 2D refractory metal carbides. <em>The Minerals Metals and Materials Society Annual Meeting and Exhibition 2024</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[5]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">S. Hasan, &#x201C;SPG-63: X-Ray Diffraction Analysis of the Effect of Hydrogen and Methane Partial Pressures on the Chemical Vapor Deposition Synthesis of Refractory Metal Carbides,&#x201D; presented at the MS&amp;T24: Materials Science &amp; Technology, Pittsburgh, PA, Oct. 08, 2024. [Online]. Available: https://www.matscitech.org/MST24</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>P. C. Neal (presenter)</em>, J. Acosta, E. J. Payton. (2023-11-04). What MXenes can be made by chemical vapor deposition?. <em>2023 Annual Louis Stokes Midwestern Research Center of Excellence</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[6]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">S. Hasan, &#x201C;Comparison of thermodynamic prediction with experimental observations of refractory metal carbides synthesized using CVD,&#x201D; presented at the MS&amp;T25: Materials Science &amp; Technology, Columbus, OH, USA, Oct. 01, 2025. [Online]. Available: https://www.matscitech.org/mst25</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>J. Acosta (presenter)</em>, P. C. Neal, E. J. Payton. (2023-08-03). Toward tailoring properties of thin nanocrystals for high-speed electronic devices of the future. <em>AFRL Summer Visitor Research Exhibition</em>.</div>
   </div>
 </div>
 ```

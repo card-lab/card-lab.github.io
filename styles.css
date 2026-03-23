@@ -7,3 +7,15 @@
 .category {
     font-size: 0.8rem; 
     }
+
+.quarto-about-trestles .quarto-title-meta .quarto-title-meta-contents .date {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--bs-secondary-color);
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.listing-date {
+    text-transform: uppercase;
+}

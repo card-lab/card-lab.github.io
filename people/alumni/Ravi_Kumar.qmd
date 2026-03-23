@@ -1,7 +1,14 @@
 ---
 title: "Ravi Kumar"
 categories: ["MS - Primary Advisee"]
+member-from: 2022-08-15 00:00:00
+member-to: 2024-12-15 00:00:00
 date: 2024-12-15 00:00:00
+date-modified: 2022-08-15 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member to"
+  title-block-modified: "Member from"
 execute:
   echo: false
 image: ../../files/photos/People/Ravi_Kumar.jpg
@@ -50,31 +57,30 @@ about:
 # Presentations
 
 ```{=html}
-<?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">S. Josyula, &#x201C;Fabricating Nitinol Microtubes via Gas-Phase Alloying: A Computational and Experimental Feasibility Study,&#x201D; presented at the The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology, Columbus, OH, Oct. 04, 2023.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[8]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>R. Kumar (presenter)</em>, K. Schlaak, S. J. Watzman, E. J. Payton. (2024-10-08). Effect of Nb on the Superconducting Properties of Mo-Ti-V-Based RCCAs. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">R. Kumar, &#x201C;Thermal, Electrical, and Magnetic Properties of Multi-Principal Element Alloys,&#x201D; presented at the The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology, Columbus, OH, Oct. 03, 2023.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[7]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">W. C. Voellmecke, M. von Schaumburg, M. A. Steiner, C. A. Calhoun, E. J. Payton, <em>R. Kumar (presenter)</em>. (2024-10-08). SPG-9: Surface Color Relation to Alpha Case Formation in Ti-6Al- 4V. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">U. P. Ochieze, &#x201C;Effects of Laser Shock Peening Surface Modification on Oxidation Behavior of NbTi-X Refractory Complex Concentrated Alloys,&#x201D; presented at the The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology, Columbus, OH, Oct. 03, 2023.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[6]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>V. Oruganti (presenter)</em>, S. Josyula, R. Kumar, A. E. P. Y. Puente, E. J. Payton. (2024-10-08). SPG-50: Phase field modelling of microtubes formation in NiTi shape memory alloys. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. T. Oriola, &#x201C;Additive manufacturing feasibility of MoNbTi Refractory Complex Concentrated Alloys,&#x201D; presented at the The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology, Columbus, OH, Oct. 03, 2023.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[5]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>U. P. Ochieze (presenter)</em>, R. Kumar, S. Josyula, A. T. Oriola, M. A. Steiner, E. J. Payton. (2023-11-13). Laser Shock Peening Surface Modification Effects on Microstructure and Oxidation Behavior of NbTiCoCrNi Refractory Complex Concentrated Alloys. <em>High Entropy Alloys 2023</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[5]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">U. P. Ochieze, &#x201C;Laser Shock Peening Surface Modification Effects on Microstructure and Oxidation Behavior of NbTiCoCrNi Refractory Complex Concentrated Alloys,&#x201D; presented at the High Entropy Alloys 2023, Pittsburgh, PA, Nov. 13, 2023.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Josyula (presenter)</em>, R. Kumar, U. P. Ochieze, A. T. Oriola, E. J. Payton, A. E. P. Y. Puente. (2023-10-04). Fabricating Nitinol Microtubes via Gas-Phase Alloying: A Computational and Experimental Feasibility Study. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[6]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">R. Kumar, &#x201C;Effect of Nb on the Superconducting Properties of Mo-Ti-V-Based RCCAs,&#x201D; presented at the MS&amp;T24: Materials Science &amp; Technology, Pittsburgh, PA, Oct. 08, 2024. [Online]. Available: https://www.matscitech.org/MST24</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>R. Kumar (presenter)</em>, U. P. Ochieze, B. K. Adhikari, A. T. Oriola, S. Josyula, S. J. Watzman, E. J. Payton. (2023-10-03). Thermal, Electrical, and Magnetic Properties of Multi-Principal Element Alloys. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[7]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">R. Kumar, &#x201C;SPG-9: Surface Color Relation to Alpha Case Formation in Ti-6Al- 4V,&#x201D; presented at the MS&amp;T24: Materials Science &amp; Technology, Pittsburgh, PA, Oct. 08, 2024. [Online]. Available: https://www.matscitech.org/MST24</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>U. P. Ochieze (presenter)</em>, A. T. Oriola, R. Kumar, S. Josyula, M. A. Steiner, E. J. Payton. (2023-10-03). Effects of Laser Shock Peening Surface Modification on Oxidation Behavior of NbTi-X Refractory Complex Concentrated Alloys. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[8]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">V. Oruganti, &#x201C;SPG-50: Phase field modelling of microtubes formation in NiTi shape memory alloys,&#x201D; presented at the MS&amp;T24: Materials Science &amp; Technology, Pittsburgh, PA, Oct. 08, 2024. [Online]. Available: https://www.matscitech.org/MST24</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. T. Oriola (presenter)</em>, R. Kumar, U. P. Ochieze, S. Josyula, G. H. Balbus, A. E. P. Y. Puente, E. J. Payton. (2023-10-03). Additive manufacturing feasibility of MoNbTi Refractory Complex Concentrated Alloys. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>.</div>
   </div>
 </div>
 ```

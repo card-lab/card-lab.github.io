@@ -1,8 +1,11 @@
 ---
 title: "Yateendra Guthula"
 categories: ["MS - Secondary Advisee"]
-author: Since
+member-since: 2025-05-01 00:00:00
 date: 2025-05-01 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member since"
 execute:
   echo: false
 image: ../../files/photos/People/Yateendra_Guthula.jpg
@@ -27,10 +30,9 @@ about:
 # Presentations
 
 ```{=html}
-<?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">E. J. Payton, &#x201C;Improving the constitutive modeling of AA2618 through strain rate jump testing and parameter optimization,&#x201D; presented at the The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition, San Diego, CA, Mar. 2026. [Online]. Available: https://www.tms.org/TMS2026/</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">O. C. Obioha, C. A. Calhoun, Y. Guthula, M. A. Steiner, <em>E. J. Payton (presenter)</em>. (2026-03-17). Improving the constitutive modeling of AA2618 through strain rate jump testing and parameter optimization. <em>The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition</em>.</div>
   </div>
 </div>
 ```

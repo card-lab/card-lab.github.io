@@ -1,8 +1,11 @@
 ---
 title: "Ananth Balasubramanian"
-categories: ["PhD - Primary Advisee"]
-author: Since
+categories: ["PhD - Primary Advisee", "PhD - Secondary Advisee"]
+member-since: 2024-08-15 00:00:00
 date: 2024-08-15 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member since"
 execute:
   echo: false
 image: ../../files/photos/People/Ananth_Balasubramanian.jpg
@@ -27,13 +30,12 @@ about:
 # Presentations
 
 ```{=html}
-<?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. Balasubramanian, &#x201C;SPG-8: Multi-Modal and Multi-Material Metal Additive Manufacturing - A Review,&#x201D; presented at the MS&amp;T24: Materials Science &amp; Technology, Pittsburgh, PA, Oct. 08, 2024. [Online]. Available: https://www.matscitech.org/MST24</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. Balasubramanian (presenter)</em>, A. A. Oladipo, E. J. Payton. (2025-09-30). Microstructural Characterization and Mechanical Behavior of Ti6Al4V After Hybrid Directed Energy Deposition (DED) - Wrought Processing. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. Balasubramanian, &#x201C;Microstructural Characterization and Mechanical Behavior of Ti6Al4V After Hybrid Directed Energy Deposition (DED) - Wrought Processing,&#x201D; presented at the MS&amp;T25: Materials Science &amp; Technology, Columbus, OH, USA, Sept. 30, 2025. [Online]. Available: https://www.matscitech.org/mst25</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. Balasubramanian (presenter)</em>, A. E. Paz y Puente, E. J. Payton. (2024-10-08). SPG-8: Multi-Modal and Multi-Material Metal Additive Manufacturing - A Review. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
 </div>
 ```

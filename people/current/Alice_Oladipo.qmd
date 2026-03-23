@@ -1,8 +1,11 @@
 ---
 title: "Alice Oladipo"
-categories: ["MS - Primary Advisee"]
-author: Since
+categories: ["MS - Primary Advisee", "PhD - Primary Advisee", "PhD - Secondary Advisee"]
+member-since: 2025-05-15 00:00:00
 date: 2025-05-15 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member since"
 execute:
   echo: false
 image: ../../files/photos/People/Alice_Oladipo.jpg
@@ -29,16 +32,15 @@ about:
 # Presentations
 
 ```{=html}
-<?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. A. Oladipo, &#x201C;SPG-44: Effect of Texture on Residual Stress Induced during Surface Modification in Ti6Al4V Rolled Plate,&#x201D; presented at the MS&amp;T24: Materials Science &amp; Technology, Pittsburgh, PA, Oct. 08, 2024. [Online]. Available: https://www.matscitech.org/MST24</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. Balasubramanian (presenter)</em>, A. A. Oladipo, E. J. Payton. (2025-09-30). Microstructural Characterization and Mechanical Behavior of Ti6Al4V After Hybrid Directed Energy Deposition (DED) - Wrought Processing. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. Balasubramanian, &#x201C;Microstructural Characterization and Mechanical Behavior of Ti6Al4V After Hybrid Directed Energy Deposition (DED) - Wrought Processing,&#x201D; presented at the MS&amp;T25: Materials Science &amp; Technology, Columbus, OH, USA, Sept. 30, 2025. [Online]. Available: https://www.matscitech.org/mst25</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. A. Oladipo (presenter)</em>, M. A. Steiner, E. J. Payton. (2025-09-30). Forensic Metallurgy of Pipeline Steel Thermal Histories - Prospects through EBSD Characterization. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. A. Oladipo, &#x201C;Forensic Metallurgy of Pipeline Steel Thermal Histories - Prospects through EBSD Characterization,&#x201D; presented at the MS&amp;T25: Materials Science &amp; Technology, Columbus, OH, USA, Sept. 30, 2025. [Online]. Available: https://www.matscitech.org/mst25</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. A. Oladipo (presenter)</em>, L. Sun, P. Tyagi, D. M. Timberlake, A. L. Pilchak, M. A. Steiner, E. J. Payton. (2024-10-08). SPG-44: Effect of Texture on Residual Stress Induced during Surface Modification in Ti6Al4V Rolled Plate. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
 </div>
 ```

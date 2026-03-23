@@ -1,7 +1,14 @@
 ---
 title: "Ian Giblin"
 categories: ["BS - Research Experience for Undergraduates (Full-Time Paid)"]
+member-from: 2024-05-15 00:00:00
+member-to: 2024-10-15 00:00:00
 date: 2024-10-15 00:00:00
+date-modified: 2024-05-15 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member to"
+  title-block-modified: "Member from"
 execute:
   echo: false
 image: ../../files/photos/People/Ian_Giblin.jpg
@@ -27,7 +34,7 @@ about:
 <?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">J. D. Maile, A. T. Oriola, I. P. Giblin, A. Nguyen, and E. J. Payton, &#x201C;Assessment of hot cracking susceptibility through interdendritic feeding simulations,&#x201D; <i>Integrated Materials and Manufacturing Innovation</i>, vol. 14, pp. 212&#x2013;226, June 2025, doi: 10.1007/s40192-025-00403-8.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">J. D. Maile, A. T. Oriola, I. P. Giblin, A. Nguyen, and E. J. Payton, &#x201C;Assessment of hot cracking susceptibility through interdendritic feeding simulations,&#x201D; <i>Integr. Mater. Manuf. Innov.</i>, vol. 14, pp. 212&#x2013;226, Jun. 2025, doi: 10.1007/s40192-025-00403-8.</div>
   </div>
 </div>
 ```
@@ -35,10 +42,9 @@ about:
 # Presentations
 
 ```{=html}
-<?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">I. P. Giblin, &#x201C;SPU-37: The Design of Alloys for the Circular Economy,&#x201D; presented at the MS&amp;T24: Materials Science &amp; Technology, Pittsburgh, PA, Oct. 08, 2024. [Online]. Available: https://www.matscitech.org/MST24</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>I. P. Giblin (presenter)</em>, J. D. Maile, Y. Noiman, E. J. Payton. (2024-10-08). SPU-37: The Design of Alloys for the Circular Economy. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
 </div>
 ```

@@ -1,7 +1,14 @@
 ---
 title: "Ben Honeck"
 categories: ["BS - Undergraduate Independent Study Researcher (Part Time for Credit)"]
+member-from: 2024-08-15 00:00:00
+member-to: 2024-12-15 00:00:00
 date: 2024-12-15 00:00:00
+date-modified: 2024-08-15 00:00:00
+date-format: "MMM YYYY"
+language:
+  title-block-published: "Member to"
+  title-block-modified: "Member from"
 execute:
   echo: false
 image: ../../files/photos/People/anon.jpg

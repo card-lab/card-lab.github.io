@@ -3,6 +3,15 @@ title: "Fenn Rolling Mill"
 categories: [equipment, "secondary processing", "905C Rhodes Hall"]
 ---
 
-International Rolling Mills IRM-2050. Rolls temperatures up to 230°C and adjacent furnace up to 1250°C. Accommodates samples 8” wide with a maximum pressure of 50,000 lbs. 
+International Rolling Mills IRM-2050. 
 
+Rolling
+: A metal forming process that involves passing a material through a pair of rolls to reduce its thickness, improve its surface finish, and enhance its mechanical properties. Used for producing sheet metal, plates, and structural components.
+
+Features:
+
+* Heated rollers with temperatures up to 230 °C
+* Adjacent furnace up to 1250°C
+* Accommodates samples 8” wide with a maximum pressure of 50,000 lbs.
+* Instrumented with a load cell and thermocouples for precise control and monitoring of the rolling process.
 
