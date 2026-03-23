@@ -448,11 +448,30 @@ include-in-header:
         });
     }
 
+    function formatCreatorName(creator) {
+        if (!creator) return '';
+        if (creator.name) return creator.name;
+        if (creator.firstName && creator.lastName) {
+            return `${creator.firstName.split(/\s+/).map(name => name.charAt(0).toUpperCase() + '.').join(' ')} ${creator.lastName}`;
+        }
+        return creator.lastName || creator.firstName || '';
+    }
+
     function formatAuthors(creators) {
         if (!creators) return '';
-        return creators.map(c => c.name ? c.name : c.firstName && c.lastName ?
-            `${c.firstName.split(/\s+/).map(name => name.charAt(0).toUpperCase() + '.').join(' ')} ${c.lastName}` :
-            c.lastName || c.firstName || '').filter(name => name.trim() !== '').join(', ');
+        return creators.map(formatCreatorName).filter(name => name.trim() !== '').join(', ');
+    }
+
+    function formatPresentationCreators(creators) {
+        if (!creators) return '';
+        return creators.map((creator) => {
+            const name = formatCreatorName(creator);
+            if (!name.trim()) return '';
+            if (creator.creatorType === 'presenter') {
+                return `<span class="italic">${name}</span> (presenter)`;
+            }
+            return name;
+        }).filter(name => name.trim() !== '').join(', ');
     }
 
     function escapeBibTeX(str) { return str?.replace(/([{}%&_#])/g, '\\$1') || ''; }
@@ -460,7 +479,9 @@ include-in-header:
     function formatCitation(item, index, total) {
         const d = item.data, creators = d.creators || [], authors = creators.filter(c => c.creatorType === 'author'), editors = creators.filter(c => c.creatorType === 'editor');
         let mainContributors = (d.itemType === 'computerProgram' || d.itemType === "presentation") ? creators : authors;
-        const formattedAuthors = formatAuthors(mainContributors);
+        const formattedAuthors = d.itemType === 'presentation'
+            ? formatPresentationCreators(mainContributors)
+            : formatAuthors(mainContributors);
         const formattedEditors = editors.length > 0 ? formatAuthors(editors) : null;
         const year = extractYear(d.date), number = total - index, sentenceTitle = toSentenceCasePreserveBracesAcronymsElements(d.title);
         let citation = `[${number}] ${formattedAuthors}`;
