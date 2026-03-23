@@ -3,11 +3,9 @@ title: "Likun Sun"
 categories: ["Postdoctoral Researcher"]
 member-from: 2024-05-15 00:00:00
 member-to: 2024-09-01 00:00:00
-date: 2024-09-01 00:00:00
 date-modified: 2024-05-15 00:00:00
 date-format: "MMM YYYY"
 language:
-  title-block-published: "Member to"
   title-block-modified: "Member from"
 execute:
   echo: false
@@ -33,12 +31,11 @@ about:
 # Publications
 
 ```{=html}
-<?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">U. P. Ochieze <i>et al.</i>, &#x201C;Microstructural, oxidation, and mechanical behavior of NbTi-based refractory alloys with 5 to 10 pct Co, Cr, and Ni additions,&#x201D; <i>Metall. Mater. Trans. A</i>, vol. 56, no. 4, pp. 1150&#x2013;1170, Apr. 2025, doi: 10.1007/s11661-025-07705-8.</div>
-  </div>
-</div>
+
+<div class="csl-entry" style="clear: left; ">
+<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">U. P. Ochieze <i>et al.</i>, “Microstructural, oxidation, and mechanical behavior of NbTi-based refractory alloys with 5 to 10 pct Co, Cr, and Ni additions,” <i>Metall. Mater. Trans. A</i>, vol. 56, no. 4, pp. 1150–1170, Apr. 2025, doi: 10.1007/s11661-025-07705-8.</div>
+</div></div>
 ```
 
 # Presentations

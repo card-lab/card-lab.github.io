@@ -1,6 +1,6 @@
 ---
 title: "Alice Oladipo"
-categories: ["MS - Primary Advisee", "PhD - Primary Advisee", "PhD - Secondary Advisee"]
+categories: ["MS - Primary Advisee"]
 member-since: 2025-05-15 00:00:00
 date: 2025-05-15 00:00:00
 date-format: "MMM YYYY"

@@ -5,18 +5,20 @@ categories: [software, CALPHAD, "449 Mantei Center"]
 
 Pandat 2025 Calculation of Phase Diagrams (CALPHAD) software
 
-CALPHAD
-: a powerful computational technique used to predict phase diagrams and thermodynamic properties of multicomponent systems. It is widely used for designing new materials and optimizing existing ones.
+::: {.callout-note}
+CALPHAD is used to predict phase diagrams and thermodynamic properties of multicomponent systems, enabling the design and optimization of new and existing materials.
+:::
 
 ## Databases
----------|------|
-PanAl    | 2024 |
-PanNi    | 2024 |
-PanHEA   | 2025 |
-PanRHEA  | 2024 |
-PanNoble | 2024 |
-PanTi    | 2024 |
-PanIron  | 2024 |
+
+|----------|------|
+| PanAl    | 2024 |
+| PanNi    | 2024 |
+| PanHEA   | 2025 |
+| PanRHEA  | 2024 |
+| PanNoble | 2024 |
+| PanTi    | 2024 |
+| PanIron  | 2024 |
 
 ## Modules
 

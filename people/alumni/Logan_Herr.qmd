@@ -3,11 +3,9 @@ title: "Logan Herr"
 categories: ["MEng - Primary Advisee"]
 member-from: 2024-08-15 00:00:00
 member-to: 2025-08-08 00:00:00
-date: 2025-08-08 00:00:00
 date-modified: 2024-08-15 00:00:00
 date-format: "MMM YYYY"
 language:
-  title-block-published: "Member to"
   title-block-modified: "Member from"
 execute:
   echo: false

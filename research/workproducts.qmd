@@ -590,7 +590,7 @@ include-in-header:
                 citationbadge.appendChild(dimensionsBadge);
 
                 if (typeof _altmetric_embed_init === 'function') _altmetric_embed_init();
-                if (window.DimensionsBadge?.render) window.DimensionsBadge.render();
+                if (window.__dimensions_embed?.addBadges) window.__dimensions_embed.addBadges();
             }
 
             // --- OA icon & PDF detection ---

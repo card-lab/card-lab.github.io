@@ -5,13 +5,14 @@ categories: [equipment, "secondary processing", "905C Rhodes Hall"]
 
 International Rolling Mills IRM-2050. 
 
-Rolling
-: A metal forming process that involves passing a material through a pair of rolls to reduce its thickness, improve its surface finish, and enhance its mechanical properties. Used for producing sheet metal, plates, and structural components.
+::: {.callout-note}
+*Rolling* is a metal forming process that involves passing a material through a pair of rolls to reduce its thickness, improve its surface finish, and enhance its mechanical properties. This shaping process is used for producing sheet metal, plates, and structural components. Some 90% of all metal products go through a rolling process at some point in their manufacturing.
+:::
 
 Features:
 
 * Heated rollers with temperatures up to 230 °C
-* Adjacent furnace up to 1250°C
+* Adjacent furnace up to 1250 °C
 * Accommodates samples 8” wide with a maximum pressure of 50,000 lbs.
 * Instrumented with a load cell and thermocouples for precise control and monitoring of the rolling process.
 

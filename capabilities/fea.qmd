@@ -5,8 +5,9 @@ categories: [software, FEM, "905C Rhodes Hall"]
 
 DEFORM Premier 2025 from Scientific Forming Technologies Corporation
 
-Finite element modeling
-: A method for simulating the deformation of materials under various loading conditions, used for optimizing forming processes and predicting material behavior.
+::: {.callout-note}
+*Finite element modeling* is a method for simulating the deformation of materials under various loading conditions, used for optimizing forming processes and predicting material behavior.
+:::
 
 Modules:
 

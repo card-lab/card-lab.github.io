@@ -3,11 +3,9 @@ title: "Zoey Jestude"
 categories: ["BS - Research Experience for Undergraduates (Full-Time Paid)"]
 member-from: 2024-05-15 00:00:00
 member-to: 2024-08-15 00:00:00
-date: 2024-08-15 00:00:00
 date-modified: 2024-05-15 00:00:00
 date-format: "MMM YYYY"
 language:
-  title-block-published: "Member to"
   title-block-modified: "Member from"
 execute:
   echo: false
@@ -33,12 +31,11 @@ about:
 # Publications
 
 ```{=html}
-<?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">U. P. Ochieze, N. Simpson, Z. Jestude, M. A. Steiner, and E. J. Payton, &#x201C;High-Temperature Oxidation and Thermal Expansion Behavior of NbTi&#x2013;X (X&#x2009;=&#x2009;5Co, 10Cr, 10Ni, 10CoCrNi) Refractory Medium Entropy Alloys,&#x201D; <i>Metall. Mater. Trans. A</i>, vol. 56, pp. 4436&#x2013;4453, Jul. 2025, doi: 10.1007/s11661-025-07911-4.</div>
-  </div>
-</div>
+
+<div class="csl-entry" style="clear: left; ">
+<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">U. P. Ochieze, N. Simpson, Z. Jestude, M. A. Steiner, and E. J. Payton, “High-Temperature Oxidation and Thermal Expansion Behavior of NbTi–X (X = 5Co, 10Cr, 10Ni, 10CoCrNi) Refractory Medium Entropy Alloys,” <i>Metall. Mater. Trans. A</i>, vol. 56, pp. 4436–4453, Jul. 2025, doi: 10.1007/s11661-025-07911-4.</div>
+</div></div>
 ```
 
 

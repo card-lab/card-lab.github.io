@@ -1,6 +1,6 @@
 ---
 title: "Yuval Noiman"
-categories: ["MS - Primary Advisee", "BS - Research Experience for Undergraduates (Full-Time Paid)"]
+categories: ["MS - Primary Advisee"]
 member-since: 2025-08-15 00:00:00
 date: 2025-08-15 00:00:00
 date-format: "MMM YYYY"
@@ -34,12 +34,11 @@ about:
 # Publications
 
 ```{=html}
-<?xml version="1.0"?>
 <div class="csl-bib-body" style="line-height: 1.35; ">
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">S. Josyula, Y. Noiman, E. Payton, and T. Giovannelli, &#x201C;Comparison of derivative-free and gradient-based minimization for multi-objective compositional design of shape memory alloys,&#x201D; <i>Comp. Mater. Sci.</i>, vol. 261, p. 114297, Jan. 2026, doi: 10.1016/j.commatsci.2025.114297.</div>
-  </div>
-</div>
+
+<div class="csl-entry" style="clear: left; ">
+<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">S. Josyula, Y. Noiman, E. Payton, and T. Giovannelli, “Comparison of derivative-free and gradient-based minimization for multi-objective compositional design of shape memory alloys,” <i>Comp. Mater. Sci.</i>, vol. 261, p. 114297, Jan. 2026, doi: 10.1016/j.commatsci.2025.114297.</div>
+</div></div>
 ```
 
 # Presentations
