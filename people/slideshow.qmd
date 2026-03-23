@@ -1,6 +1,10 @@
 ---
 title: "CARD Lab Timeline in Photos"
 format: html
+date: today
+date-format: "DD MMMM YYYY"
+language:
+  title-block-published: "Last updated"
 toc: false
 jupyter: card-lab
 ---

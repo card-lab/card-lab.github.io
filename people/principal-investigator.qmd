@@ -1,7 +1,10 @@
 ---
 title: "About the PI"
 categories: ["Principal Investigator"]
-date: 2022-08-13 00:00:00
+date: today
+date-format: "DD MMMM YYYY"
+language:
+  title-block-published: "Last updated"
 execute:
   echo: false
 about:

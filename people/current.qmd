@@ -1,6 +1,10 @@
 
 ---
 title: "Current Group Members"
+date: today
+date-format: "DD MMMM YYYY"
+language:
+  title-block-published: "Last updated"
 format: html
 listing:
   type: grid

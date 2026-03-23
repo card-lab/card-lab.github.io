@@ -1,5 +1,9 @@
 ---
 title: "Service Activities"
+date: today
+date-format: "DD MMMM YYYY"
+language:
+  title-block-published: "Last updated"
 format: html
 ---
 

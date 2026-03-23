@@ -3,9 +3,11 @@ title: "Priam Tyagi"
 categories: ["BS - Experiential Exploration Program Researcher (Full-Time for Credit)", "BS - Undergrad Co-Op Research Fellowship"]
 member-from: 2025-05-01 00:00:00
 member-to: 2025-08-08 00:00:00
+date: 2025-08-08 00:00:00
 date-modified: 2025-05-01 00:00:00
 date-format: "MMM YYYY"
 language:
+  title-block-published: "Updated"
   title-block-modified: "Member from"
 execute:
   echo: false

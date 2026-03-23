@@ -5,7 +5,7 @@ member-since: 2024-01-01 00:00:00
 date: 2024-01-01 00:00:00
 date-format: "MMM YYYY"
 language:
-  title-block-published: "Member since"
+  title-block-published: "Updated"
 execute:
   echo: false
 image: ../../files/photos/People/Philip_Ochieze.jpg

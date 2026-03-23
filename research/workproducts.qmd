@@ -3,6 +3,10 @@ title: "Work Products"
 jupyter: "card-lab"
 format: html
 toc: false
+date: today
+date-format: "DD MMMM YYYY"
+language:
+  title-block-published: "Last updated"
 include-in-header:
     text: |
         <style>

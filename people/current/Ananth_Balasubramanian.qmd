@@ -5,7 +5,7 @@ member-since: 2024-08-15 00:00:00
 date: 2024-08-15 00:00:00
 date-format: "MMM YYYY"
 language:
-  title-block-published: "Member since"
+  title-block-published: "Updated"
 execute:
   echo: false
 image: ../../files/photos/People/Ananth_Balasubramanian.jpg

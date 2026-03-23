@@ -3,9 +3,11 @@ title: "Zach Miller"
 categories: ["BS - Undergraduate Independent Study Researcher (Part Time for Credit)", "BS - Undergraduate Full-Time Research (Paid)"]
 member-from: 2025-08-08 00:00:00
 member-to: 2025-12-15 00:00:00
+date: 2025-12-15 00:00:00
 date-modified: 2025-08-08 00:00:00
 date-format: "MMM YYYY"
 language:
+  title-block-published: "Updated"
   title-block-modified: "Member from"
 execute:
   echo: false

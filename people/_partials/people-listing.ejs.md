@@ -26,7 +26,7 @@ function formatMemberDate(value) {
 function membershipLabel(item) {
   const isAlumni = (item.path || '').includes('/alumni/');
   const hasEnd = !!(item['member-to'] || (isAlumni && item.date));
-  return hasEnd ? 'CARD group member from' : 'CARD group member since';
+  return hasEnd ? 'from' : 'since';
 }
 
 function membershipValue(item) {
@@ -90,8 +90,7 @@ function categoriesArray(item) {
         </p>
         <% } %>
 
-        <p class="small text-uppercase fw-semibold text-body-secondary mb-1"><span class="listing-membership-label"><%- membershipLabel(item) %></span></p>
-        <p class="small fw-semibold text-body-secondary mb-0"><span class="listing-date"><%- membershipValue(item) %></span></p>
+        <p class="small text-uppercase fw-semibold text-body-secondary mb-0"><span class="listing-membership-label"><%- membershipLabel(item).toUpperCase() %></span> <span class="listing-date"><%- membershipValue(item) %></span></p>
       </div>
     </article>
   </div>

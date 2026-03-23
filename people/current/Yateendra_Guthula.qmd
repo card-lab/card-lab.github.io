@@ -5,7 +5,7 @@ member-since: 2025-05-01 00:00:00
 date: 2025-05-01 00:00:00
 date-format: "MMM YYYY"
 language:
-  title-block-published: "Member since"
+  title-block-published: "Updated"
 execute:
   echo: false
 image: ../../files/photos/People/Yateendra_Guthula.jpg

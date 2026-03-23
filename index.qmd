@@ -1,5 +1,5 @@
 ---
-title: "The Critical Alloy Research & Discovery Laboratory"
+
 ---
 
 {{< revealjs "files/photos/Research_Group_Timeline_Slideshow.html" >}}

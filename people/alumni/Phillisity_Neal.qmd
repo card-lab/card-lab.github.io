@@ -3,9 +3,11 @@ title: "Phillisity Neal"
 categories: ["BS - Research Volunteer", "BS - Undergraduate Part-Time Research (Paid)", "BS - Research Experience for Undergraduates (Full-Time Paid)"]
 member-from: 2023-12-15 00:00:00
 member-to: 2024-12-15 00:00:00
+date: 2024-12-15 00:00:00
 date-modified: 2023-12-15 00:00:00
 date-format: "MMM YYYY"
 language:
+  title-block-published: "Updated"
   title-block-modified: "Member from"
 execute:
   echo: false

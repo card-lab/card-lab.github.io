@@ -2,6 +2,10 @@
 ---
 title: "Alumni"
 format: html
+date: today
+date-format: "DD MMMM YYYY"
+language:
+  title-block-published: "Last updated"
 listing:
   type: grid
   contents: alumni

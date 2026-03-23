@@ -3,9 +3,11 @@ title: "Aaron McMillen"
 categories: ["MS - Secondary Advisee", "MS - Primary Advisee"]
 member-from: 2023-12-15 00:00:00
 member-to: 2025-08-06 00:00:00
+date: 2025-08-06 00:00:00
 date-modified: 2023-12-15 00:00:00
 date-format: "MMM YYYY"
 language:
+  title-block-published: "Updated"
   title-block-modified: "Member from"
 execute:
   echo: false
