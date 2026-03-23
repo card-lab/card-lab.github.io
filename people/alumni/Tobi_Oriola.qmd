@@ -3,9 +3,9 @@ title: "Tobi Oriola"
 categories: ["MS - Primary Advisee"]
 member-from: 2022-08-15 00:00:00
 member-to: 2024-12-15 00:00:00
-date: 2024-12-15 00:00:00
+date: today
 date-modified: 2022-08-15 00:00:00
-date-format: "MMM YYYY"
+date-format: "MMMM YYYY"
 language:
   title-block-published: "Updated"
   title-block-modified: "Member from"
@@ -28,6 +28,27 @@ about:
       url: https://en.wikipedia.org/wiki/United_States_of_America
 
 ---
+
+```{=html}
+<div class="member-range-source" data-member-range="August 2022 to December 2024"></div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const source = document.querySelector(".member-range-source");
+  const modified = document.querySelector(".quarto-title-meta .date-modified");
+  if (source && modified) {
+    const range = source.dataset.memberRange || modified.textContent;
+    const contents = modified.closest(".quarto-title-meta-contents");
+    const heading = contents ? contents.previousElementSibling : null;
+    if (heading && heading.classList.contains("quarto-title-meta-heading")) {
+      heading.textContent = `Member from ${range}`;
+      if (contents) { contents.remove(); }
+    } else {
+      modified.textContent = range;
+    }
+  }
+});
+</script>
+```
 
 
 # Thesis/Dissertation

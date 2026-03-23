@@ -3,9 +3,9 @@ title: "Chris Le"
 categories: ["PhD - Primary Advisee"]
 member-from: 2025-08-15 00:00:00
 member-to: 2026-01-01 00:00:00
-date: 2026-01-01 00:00:00
+date: today
 date-modified: 2025-08-15 00:00:00
-date-format: "MMM YYYY"
+date-format: "MMMM YYYY"
 language:
   title-block-published: "Updated"
   title-block-modified: "Member from"
@@ -22,6 +22,27 @@ about:
       url: https://www.linkedin.com/in/chris-le-4263bb1b2
 
 ---
+
+```{=html}
+<div class="member-range-source" data-member-range="August 2025 to January 2026"></div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const source = document.querySelector(".member-range-source");
+  const modified = document.querySelector(".quarto-title-meta .date-modified");
+  if (source && modified) {
+    const range = source.dataset.memberRange || modified.textContent;
+    const contents = modified.closest(".quarto-title-meta-contents");
+    const heading = contents ? contents.previousElementSibling : null;
+    if (heading && heading.classList.contains("quarto-title-meta-heading")) {
+      heading.textContent = `Member from ${range}`;
+      if (contents) { contents.remove(); }
+    } else {
+      modified.textContent = range;
+    }
+  }
+});
+</script>
+```
 
 
 

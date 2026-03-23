@@ -2,10 +2,12 @@
 title: "Elif Dursun"
 categories: ["PhD - Primary Advisee"]
 member-since: 2025-08-15 00:00:00
-date: 2025-08-15 00:00:00
-date-format: "MMM YYYY"
+date: today
+date-modified: 2025-08-15 00:00:00
+date-format: "MMMM YYYY"
 language:
   title-block-published: "Updated"
+  title-block-modified: "Joined"
 execute:
   echo: false
 image: ../../files/photos/People/Elif_Dursun.jpg

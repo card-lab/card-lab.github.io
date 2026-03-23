@@ -1,5 +1,5 @@
 ---
-
+title: "CARD Lab Timeline in Photos"
 ---
 
 {{< revealjs "files/photos/Research_Group_Timeline_Slideshow.html" >}}

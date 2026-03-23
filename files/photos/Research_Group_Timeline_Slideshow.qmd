@@ -1,5 +1,5 @@
 ---
-title: "CARD Lab Timeline in Photos"
+title: " "
 format:
   revealjs:
     transition: fade
@@ -30,7 +30,7 @@ from pathlib import Path
 import xattr
 import plistlib
 
-IMAGE_DIR = Path("Research_Group/")
+IMAGE_DIR = Path("../../private/Timeline Slideshow Photos")
 FINDER_COMMENT_ATTR = "com.apple.metadata:kMDItemFinderComment"
 SUPPORTED_EXTENSIONS = [".jpg", ".jpeg", ".png", ".tif", ".tiff"]
 

@@ -8,12 +8,55 @@
     font-size: 0.8rem; 
     }
 
-.quarto-about-trestles .quarto-title-meta .quarto-title-meta-contents .date {
-    font-size: 0.875rem;
-    font-weight: 600;
+.quarto-about-trestles .quarto-title-meta > div {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+}
+
+.quarto-about-trestles .quarto-title-meta .quarto-title-meta-heading,
+.quarto-about-trestles .quarto-title-meta .quarto-title-meta-contents {
+    display: inline;
+    margin-bottom: 0;
+}
+
+.quarto-about-trestles .quarto-title-meta .quarto-title-meta-contents .date,
+.quarto-about-trestles .quarto-title-meta .quarto-title-meta-contents .date-modified {
+    display: inline;
+}
+
+.quarto-about-trestles .quarto-title-meta .quarto-title-meta-contents .date,
+.quarto-about-trestles .quarto-title-meta .quarto-title-meta-contents .date-modified {
     color: var(--bs-secondary-color);
     margin-bottom: 0;
     text-transform: uppercase;
+}
+
+.member-range-source {
+    display: none;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta > div {
+    display: block !important;
+    margin-bottom: 0.15rem;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta-heading,
+#title-block-header.quarto-title-block.default .quarto-title-meta-contents {
+    display: inline !important;
+    font-size: .8em !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    white-space: normal !important;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta-contents p {
+    display: inline !important;
+    font-size: inherit !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    white-space: normal !important;
 }
 
 .listing-date {

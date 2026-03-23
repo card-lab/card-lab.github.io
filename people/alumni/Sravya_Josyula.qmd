@@ -3,9 +3,9 @@ title: "Sravya Josyula"
 categories: ["PhD - Primary Advisee", "PhD - Secondary Advisee"]
 member-from: 2024-05-15 00:00:00
 member-to: 2025-05-15 00:00:00
-date: 2025-05-15 00:00:00
+date: today
 date-modified: 2024-05-15 00:00:00
-date-format: "MMM YYYY"
+date-format: "MMMM YYYY"
 language:
   title-block-published: "Updated"
   title-block-modified: "Member from"
@@ -36,6 +36,27 @@ about:
       url: https://en.wikipedia.org/wiki/Texas
 
 ---
+
+```{=html}
+<div class="member-range-source" data-member-range="May 2024 to May 2025"></div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const source = document.querySelector(".member-range-source");
+  const modified = document.querySelector(".quarto-title-meta .date-modified");
+  if (source && modified) {
+    const range = source.dataset.memberRange || modified.textContent;
+    const contents = modified.closest(".quarto-title-meta-contents");
+    const heading = contents ? contents.previousElementSibling : null;
+    if (heading && heading.classList.contains("quarto-title-meta-heading")) {
+      heading.textContent = `Member from ${range}`;
+      if (contents) { contents.remove(); }
+    } else {
+      modified.textContent = range;
+    }
+  }
+});
+</script>
+```
 
 
 # Thesis/Dissertation

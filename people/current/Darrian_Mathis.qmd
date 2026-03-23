@@ -2,10 +2,12 @@
 title: "Darrian Mathis"
 categories: ["BS - Experiential Exploration Program Researcher (Full-Time for Credit)"]
 member-since: 2026-01-15 00:00:00
-date: 2026-01-15 00:00:00
-date-format: "MMM YYYY"
+date: today
+date-modified: 2026-01-15 00:00:00
+date-format: "MMMM YYYY"
 language:
   title-block-published: "Updated"
+  title-block-modified: "Joined"
 execute:
   echo: false
 image: ../../files/photos/People/anon.jpg

@@ -169,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Aug 2024</p>
+      <p class="date">March 2026</p>
     </div>
   </div>
     <div>
@@ -197,6 +197,24 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="about-contents"><main class="content" id="quarto-document-content">
 
+<div class="member-range-source" data-member-range="May 2024 to August 2024"></div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const source = document.querySelector(".member-range-source");
+  const modified = document.querySelector(".quarto-title-meta .date-modified");
+  if (source && modified) {
+    const range = source.dataset.memberRange || modified.textContent;
+    const contents = modified.closest(".quarto-title-meta-contents");
+    const heading = contents ? contents.previousElementSibling : null;
+    if (heading && heading.classList.contains("quarto-title-meta-heading")) {
+      heading.textContent = `Member from ${range}`;
+      if (contents) { contents.remove(); }
+    } else {
+      modified.textContent = range;
+    }
+  }
+});
+</script>
 <section id="publications" class="level1">
 <h1>Publications</h1>
 <div class="csl-bib-body" style="line-height: 1.35; ">
@@ -630,7 +648,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- © Aug 2024 Eric J Payton | 
+ © March 2026 Eric J Payton | 
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="../../impressum.html">

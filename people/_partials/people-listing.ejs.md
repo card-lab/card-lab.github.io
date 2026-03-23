@@ -6,7 +6,7 @@ function formatMemberDate(value) {
 
   const parsed = new Date(text);
   if (!isNaN(parsed)) {
-    return parsed.toLocaleString('en-US', { month: 'short', year: 'numeric' });
+    return parsed.toLocaleString('en-US', { month: 'long', year: 'numeric' });
   }
 
   const yearMonthMatch = text.match(/^(\d{4})-(\d{2})/);
@@ -14,7 +14,7 @@ function formatMemberDate(value) {
     const year = Number(yearMonthMatch[1]);
     const month = Number(yearMonthMatch[2]) - 1;
     const synthetic = new Date(year, month, 1);
-    return synthetic.toLocaleString('en-US', { month: 'short', year: 'numeric' });
+    return synthetic.toLocaleString('en-US', { month: 'long', year: 'numeric' });
   }
 
   const yearMatch = text.match(/(19|20)\d{2}/);
@@ -26,7 +26,7 @@ function formatMemberDate(value) {
 function membershipLabel(item) {
   const isAlumni = (item.path || '').includes('/alumni/');
   const hasEnd = !!(item['member-to'] || (isAlumni && item.date));
-  return hasEnd ? 'from' : 'since';
+  return hasEnd ? 'from' : 'joined';
 }
 
 function membershipValue(item) {

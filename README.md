@@ -71,12 +71,13 @@ Use an environment variable for the passphrase:
 
 ## TO DO
 
-* Current group members do not have "Joined" on their pages.
-* New "group roles" visualization with the number of MS, PhD, and undergraduates working in the group as a treemap.
+* Swap locations of "Joined" and "Updated" on people pages
 * Make the formatting of the references on people pages match the work products page, including citation counts and links to open access
+* New "group roles" visualization with the number of MS, PhD, and undergraduates working in the group as a treemap.
 * Update the "places we have called home" map to be created in plotly
 * Improve the citation map to be only from CARD lab
 * Move current citation map over to PI page
 * Create collaborators list/map/network visualization
 * Add pictures to equipment
-* Add 
+* Add AMCC to the facilities
+* Add regional facilities and shared facilities
