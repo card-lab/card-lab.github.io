@@ -39,6 +39,20 @@
     display: none;
 }
 
+#title-block-header.quarto-title-block.default .quarto-title-meta > div {
+    display: block !important;
+    margin-bottom: 0.15rem;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta-heading,
+#title-block-header.quarto-title-block.default .quarto-title-meta-contents,
+#title-block-header.quarto-title-block.default .quarto-title-meta-contents p {
+    display: inline !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    white-space: normal !important;
+}
+
 .listing-date {
     text-transform: uppercase;
 }
