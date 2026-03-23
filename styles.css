@@ -28,8 +28,6 @@
 
 .quarto-about-trestles .quarto-title-meta .quarto-title-meta-contents .date,
 .quarto-about-trestles .quarto-title-meta .quarto-title-meta-contents .date-modified {
-    font-size: 0.875rem;
-    font-weight: 600;
     color: var(--bs-secondary-color);
     margin-bottom: 0;
     text-transform: uppercase;
@@ -45,9 +43,17 @@
 }
 
 #title-block-header.quarto-title-block.default .quarto-title-meta-heading,
-#title-block-header.quarto-title-block.default .quarto-title-meta-contents,
+#title-block-header.quarto-title-block.default .quarto-title-meta-contents {
+    display: inline !important;
+    font-size: .8em !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    white-space: normal !important;
+}
+
 #title-block-header.quarto-title-block.default .quarto-title-meta-contents p {
     display: inline !important;
+    font-size: inherit !important;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
     white-space: normal !important;

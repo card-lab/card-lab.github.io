@@ -77,6 +77,6 @@ Use an environment variable for the passphrase:
 * Update the "places we have called home" map to be created in plotly
 * Improve the citation map to be only from CARD lab
 * Move current citation map over to PI page
-* Create collaborators list
+* Create collaborators list/map/network visualization
 * Add pictures to equipment
 * Add 
