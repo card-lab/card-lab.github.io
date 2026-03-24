@@ -1,10 +1,6 @@
 
 ---
 title: "Current Group Members"
-date: today
-date-format: "DD MMMM YYYY"
-language:
-  title-block-published: "Updated"
 format: html
 listing:
   type: grid
@@ -14,7 +10,7 @@ listing:
   image-placeholder: files/images/anon.jpg
   date-format: "MMM YYYY"
   categories: numbered
-  image-height: 200px
+  image-height: 225px
   grid-columns: 4
   max-items: 100 # Show all items
   filter-ui: [categories, date, title]

@@ -2,10 +2,6 @@
 ---
 title: "Alumni"
 format: html
-date: today
-date-format: "DD MMMM YYYY"
-language:
-  title-block-published: "Updated"
 listing:
   type: grid
   contents: alumni
@@ -13,7 +9,7 @@ listing:
   sort: "member-to desc"
   image-placeholder: files/images/anon.jpg
   date-format: "MMM YYYY"
-  image-height: 200px
+  image-height: 225px
   grid-columns: 4
   page-size: 100
   categories: numbered

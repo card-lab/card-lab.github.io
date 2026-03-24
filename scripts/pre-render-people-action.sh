@@ -13,6 +13,15 @@ SPREADSHEET_PATH="private/CARD Group Timeline.xlsx"
 STAMP_PATH=".quarto/people-sheet.sha256"
 PRIVATE_PHOTOS_DIR="private/Group Member Photos"
 PUBLIC_PHOTOS_DIR="files/photos/People"
+NOTEBOOKS=(
+  "_people-action.ipynb"
+  "people/demographics.ipynb"
+  "people/timeline.ipynb"
+)
+CACHE_KEY_FILES=(
+  "_people-action.ipynb"
+  "scripts/pre-render-people-action.sh"
+)
 
 sync_group_member_photos() {
   mkdir -p "$PUBLIC_PHOTOS_DIR"
@@ -46,25 +55,42 @@ compute_photos_hash() {
   done | shasum -a 256 | awk '{print $1}'
 }
 
+compute_files_hash() {
+  local files=("$@")
+  if [[ ${#files[@]} -eq 0 ]]; then
+    echo "none"
+    return
+  fi
+
+  local hash_input=""
+  local f
+  for f in "${files[@]}"; do
+    if [[ -f "$f" ]]; then
+      hash_input+="$(shasum -a 256 -- "$f")"$'\n'
+    else
+      hash_input+="$f missing"$'\n'
+    fi
+  done
+
+  printf '%s' "$hash_input" | shasum -a 256 | awk '{print $1}'
+}
+
 current_sheet_hash="$(shasum -a 256 "$SPREADSHEET_PATH" | awk '{print $1}')"
 current_photos_hash="$(compute_photos_hash "$PRIVATE_PHOTOS_DIR")"
+current_notebooks_hash="$(compute_files_hash "${CACHE_KEY_FILES[@]}")"
 previous_sheet_hash=""
 previous_photos_hash=""
+previous_notebooks_hash=""
 if [[ -f "$STAMP_PATH" ]]; then
   previous_sheet_hash="$(sed -n '1p' "$STAMP_PATH")"
   previous_photos_hash="$(sed -n '2p' "$STAMP_PATH")"
+  previous_notebooks_hash="$(sed -n '3p' "$STAMP_PATH")"
 fi
 
-if [[ "$current_sheet_hash" == "$previous_sheet_hash" && "$current_photos_hash" == "$previous_photos_hash" ]]; then
-  echo "[pre-render] People spreadsheet and photos unchanged; skipping people notebooks"
+if [[ "$current_sheet_hash" == "$previous_sheet_hash" && "$current_photos_hash" == "$previous_photos_hash" && "$current_notebooks_hash" == "$previous_notebooks_hash" ]]; then
+  echo "[pre-render] People spreadsheet, photos, and notebooks unchanged; skipping people notebooks"
   exit 0
 fi
-
-NOTEBOOKS=(
-  "_people-action.ipynb"
-  "people/demographics.ipynb"
-  "people/timeline.ipynb"
-)
 
 for notebook in "${NOTEBOOKS[@]}"; do
   echo "[pre-render] Executing $notebook"
@@ -72,7 +98,7 @@ for notebook in "${NOTEBOOKS[@]}"; do
 done
 
 mkdir -p "$(dirname "$STAMP_PATH")"
-printf '%s\n%s\n' "$current_sheet_hash" "$current_photos_hash" > "$STAMP_PATH"
+printf '%s\n%s\n%s\n' "$current_sheet_hash" "$current_photos_hash" "$current_notebooks_hash" > "$STAMP_PATH"
 
 # The notebook is executed for its side effects only; keep the site root clean.
 rm -f _people-action.html
