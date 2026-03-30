@@ -70,6 +70,12 @@ Use an environment variable for the passphrase:
 
 - `export CARD_LAB_PEOPLE_SHEET_PASSPHRASE='your-passphrase'`
 
+## Usage
+
+Generally, just:
+
+`quarto publish gh-pages`
+
 ## TO DO
 
 * Make slideshow.qmd date format in all caps like the other pages
