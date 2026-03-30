@@ -72,6 +72,13 @@ Use an environment variable for the passphrase:
 
 ## TO DO
 
+* Make slideshow.qmd date format in all caps like the other pages
+* Updated descriptions of equipment/capabilities was lost on recent commits
+* Make sure all bibliography rendering refers to the same Zotero resource in the repository
+* Downsample images upon copy from private folder for faster page loading
+* About UC page
+* Local saving of citation counts and trees
+* Github action to re-render once a week for updating citation counts and people's pages
 * Add links to conferences for presentations on people's pages
 * Add links to DOIs and dissertations on people's pages
 * Make the icons for citation metrics and open access in-line with the citation for people's pages
