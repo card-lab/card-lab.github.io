@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-03-23">
+<meta name="dcterms.date" content="2026-03-30">
 <meta name="description" content="The Critical Alloy Research &amp; Discovery Lab (CARD Lab) at the University of Cincinnati develops and designs metallic materials critical for future economic and energy security.">
 
 <title>Work Products – Critical Alloy Research &amp; Discovery Lab</title>
@@ -397,9 +397,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
     <div>
-    <div class="quarto-title-meta-heading">Last updated</div>
+    <div class="quarto-title-meta-heading">Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">23 March 2026</p>
+      <p class="date">30 March 2026</p>
     </div>
   </div>
   
@@ -649,11 +649,30 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function formatCreatorName(creator) {
+        if (!creator) return '';
+        if (creator.name) return creator.name;
+        if (creator.firstName && creator.lastName) {
+            return `${creator.firstName.split(/\s+/).map(name => name.charAt(0).toUpperCase() + '.').join(' ')} ${creator.lastName}`;
+        }
+        return creator.lastName || creator.firstName || '';
+    }
+
     function formatAuthors(creators) {
         if (!creators) return '';
-        return creators.map(c => c.name ? c.name : c.firstName && c.lastName ?
-            `${c.firstName.split(/\s+/).map(name => name.charAt(0).toUpperCase() + '.').join(' ')} ${c.lastName}` :
-            c.lastName || c.firstName || '').filter(name => name.trim() !== '').join(', ');
+        return creators.map(formatCreatorName).filter(name => name.trim() !== '').join(', ');
+    }
+
+    function formatPresentationCreators(creators) {
+        if (!creators) return '';
+        return creators.map((creator) => {
+            const name = formatCreatorName(creator);
+            if (!name.trim()) return '';
+            if (creator.creatorType === 'presenter') {
+                return `<span class="italic">${name}</span> (presenter)`;
+            }
+            return name;
+        }).filter(name => name.trim() !== '').join(', ');
     }
 
     function escapeBibTeX(str) { return str?.replace(/([{}%&_#])/g, '\\$1') || ''; }
@@ -661,7 +680,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function formatCitation(item, index, total) {
         const d = item.data, creators = d.creators || [], authors = creators.filter(c => c.creatorType === 'author'), editors = creators.filter(c => c.creatorType === 'editor');
         let mainContributors = (d.itemType === 'computerProgram' || d.itemType === "presentation") ? creators : authors;
-        const formattedAuthors = formatAuthors(mainContributors);
+        const formattedAuthors = d.itemType === 'presentation'
+            ? formatPresentationCreators(mainContributors)
+            : formatAuthors(mainContributors);
         const formattedEditors = editors.length > 0 ? formatAuthors(editors) : null;
         const year = extractYear(d.date), number = total - index, sentenceTitle = toSentenceCasePreserveBracesAcronymsElements(d.title);
         let citation = `[${number}] ${formattedAuthors}`;
@@ -1336,7 +1357,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- © 23 March 2026 Eric J Payton | 
+ © 30 March 2026 Eric J Payton | 
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="../impressum.html">

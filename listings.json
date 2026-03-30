@@ -31,11 +31,11 @@
   {
     "listing": "/capabilities/index.html",
     "items": [
-      "/capabilities/arcmelting.html",
       "/capabilities/fea.html",
-      "/capabilities/rollingmill.html",
+      "/capabilities/cfd.html",
       "/capabilities/calphad.html",
-      "/capabilities/cfd.html"
+      "/capabilities/rollingmill.html",
+      "/capabilities/arcmelting.html"
     ]
   },
   {
