@@ -1,5 +1,348 @@
 [
   {
+    "key": "WGYNQHV6",
+    "version": 1291,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/WGYNQHV6",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/WGYNQHV6",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/5985739/items/C4TNTUM9",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      }
+    },
+    "data": {
+      "key": "WGYNQHV6",
+      "version": 1291,
+      "parentItem": "C4TNTUM9",
+      "itemType": "attachment",
+      "linkMode": "imported_url",
+      "title": "ScienceDirect Snapshot",
+      "accessDate": "2026-04-08T03:21:09Z",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0010938X25003993",
+      "note": "",
+      "contentType": "text/html",
+      "charset": "utf-8",
+      "filename": "S0010938X25003993.html",
+      "md5": null,
+      "mtime": null,
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-08T03:21:09Z",
+      "dateModified": "2026-04-08T03:21:09Z"
+    }
+  },
+  {
+    "key": "6YIC2KG7",
+    "version": 1288,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/6YIC2KG7",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/6YIC2KG7",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Miller et al.",
+      "parsedDate": "2025-12-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "6YIC2KG7",
+      "version": 1288,
+      "itemType": "manuscript",
+      "title": "Improved Fe-Ni-P thermodynamic models with revised phosphide equilibria",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Z. D. C.",
+          "lastName": "Miller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "U. P.",
+          "lastName": "Ochieze"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M. A.",
+          "lastName": "Steiner"
+        }
+      ],
+      "abstractNote": "",
+      "manuscriptType": "",
+      "institution": "",
+      "place": "",
+      "date": "2025-12-01",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10076",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2026-04-06T13:33:47Z",
+      "dateModified": "2026-04-06T14:22:23Z"
+    }
+  },
+  {
+    "key": "X5EIIH4M",
+    "version": 1287,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/X5EIIH4M",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/X5EIIH4M",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Josyula et al.",
+      "parsedDate": "2025-12-15",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "X5EIIH4M",
+      "version": 1287,
+      "itemType": "manuscript",
+      "title": "Physics-augmented machine learning for predicting martensite transformation temperatures in shape memory alloys",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Sravya",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuval",
+          "lastName": "Noiman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthew Alan",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning (ML) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of ML models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor (ETR) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the ML model, an R2 value of 0.99 can be reached.",
+      "manuscriptType": "",
+      "institution": "",
+      "place": "Under review at Computational Materials Today",
+      "date": "2025-12-15",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "josyulaPhysicsaugmentedMachineLearning2025",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2025-08-18T09:31:33Z",
+      "dateModified": "2026-04-06T14:21:48Z"
+    }
+  },
+  {
+    "key": "3EJASXZF",
+    "version": 1286,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/3EJASXZF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/3EJASXZF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Balasubramanian et al.",
+      "parsedDate": "2026-04-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "3EJASXZF",
+      "version": 1286,
+      "itemType": "preprint",
+      "title": "Mechanical behavior and characterization of the interface between wrought and wire-laser DED-processed Ti-6Al-4V",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Balasubramanian"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A. A.",
+          "lastName": "Oladipo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "",
+      "genre": "",
+      "repository": "",
+      "archiveID": "",
+      "place": "Under review at Journal of Materials Engineering and Performance",
+      "date": "2026-04-01",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.2139/ssrn.6141445",
+      "citationKey": "balasubramanianMechanicalBehaviorCharacterization2025",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2026-01-24T13:58:39Z",
+      "dateModified": "2026-04-06T14:21:04Z"
+    }
+  },
+  {
     "key": "SXXCV5GW",
     "version": 1279,
     "library": {
@@ -221,96 +564,6 @@
       "relations": {},
       "dateAdded": "2025-05-14T18:47:56Z",
       "dateModified": "2026-04-04T12:20:59Z"
-    }
-  },
-  {
-    "key": "3EJASXZF",
-    "version": 1277,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/3EJASXZF",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/3EJASXZF",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Balasubramanian et al.",
-      "parsedDate": "2026-04-01",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "3EJASXZF",
-      "version": 1277,
-      "itemType": "manuscript",
-      "title": "Mechanical behavior and characterization of the interface between wrought and wire-laser DED-processed Ti-6Al-4V",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "A.",
-          "lastName": "Balasubramanian"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "A. A.",
-          "lastName": "Oladipo"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "",
-      "manuscriptType": "",
-      "institution": "",
-      "place": "Under review at Journal of Materials Engineering and Performance",
-      "date": "2026-04-01",
-      "numPages": "",
-      "number": "",
-      "DOI": "10.2139/ssrn.6141445",
-      "citationKey": "balasubramanianMechanicalBehaviorCharacterization2025",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2026-01-24T13:58:39Z",
-      "dateModified": "2026-04-02T21:41:47Z"
     }
   },
   {
@@ -2267,101 +2520,6 @@
       "relations": {},
       "dateAdded": "2026-02-23T16:21:25Z",
       "dateModified": "2026-02-23T16:23:50Z"
-    }
-  },
-  {
-    "key": "X5EIIH4M",
-    "version": 1176,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/X5EIIH4M",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/X5EIIH4M",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Josyula et al.",
-      "parsedDate": "2025-12-15",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "X5EIIH4M",
-      "version": 1176,
-      "itemType": "manuscript",
-      "title": "Physics-augmented Machine Learning for Predicting Martensite Transformation Temperatures in Shape Memory Alloys",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Sravya",
-          "lastName": "Josyula"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Yuval",
-          "lastName": "Noiman"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matthew Alan",
-          "lastName": "Steiner"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning (ML) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of ML models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor (ETR) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the ML model, an R2 value of 0.99 can be reached.",
-      "manuscriptType": "",
-      "institution": "",
-      "place": "Under review at Computational Materials Today",
-      "date": "2025-12-15",
-      "numPages": "",
-      "number": "",
-      "DOI": "",
-      "citationKey": "josyulaPhysicsaugmentedMachineLearning2025",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2025-08-18T09:31:33Z",
-      "dateModified": "2025-12-30T18:14:22Z"
     }
   },
   {
