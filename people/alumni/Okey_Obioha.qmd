@@ -1,26 +1,27 @@
 ---
-title: "Alice Oladipo"
-categories: ["PhD - Secondary Advisee"]
-member-since: 2026-05-01 00:00:00
+title: "Okey Obioha"
+categories: ["MS - Primary Advisee"]
+member-from: 2023-08-15 00:00:00
+member-to: 2026-05-01 00:00:00
 date: today
-date-modified: 2026-05-01 00:00:00
-date-format: "MMMM YYYY"
+date-modified: 2023-08-15 00:00:00
+date-format: "MMM YYYY"
 language:
   title-block-published: "Updated"
-  title-block-modified: "Joined"
+  title-block-modified: "Member from"
 execute:
   echo: false
-image: ../../files/photos/People/Alice_Oladipo.jpg
+image: ../../files/photos/People/Okey_Obioha.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/Alice_Oladipo.jpg
-  image-alt: "Photo of Alice Oladipo"
+  image: ../../files/photos/People/Okey_Obioha.jpg
+  image-alt: "Photo of Okey Obioha"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"
-      url: https://www.linkedin.com/in/ayobamialiceoladipo
+      url: https://www.linkedin.com/in/okechukwuobioha
     - text: "{{< iconify simple-icons orcid >}}"
-      url: https://orcid.org/0009-0007-0684-174X
+      url: https://orcid.org/0009-0000-7452-426X
     - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![](https://flagcdn.com/ng.svg){width=0.25in}"
@@ -29,6 +30,27 @@ about:
       url: https://en.wikipedia.org/wiki/Ohio
 
 ---
+
+```{=html}
+<div class="member-range-source" data-member-range="August 2023 to May 2026"></div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const source = document.querySelector(".member-range-source");
+  const modified = document.querySelector(".quarto-title-meta .date-modified");
+  if (source && modified) {
+    const range = source.dataset.memberRange || modified.textContent;
+    const contents = modified.closest(".quarto-title-meta-contents");
+    const heading = contents ? contents.previousElementSibling : null;
+    if (heading && heading.classList.contains("quarto-title-meta-heading")) {
+      heading.textContent = `Member from ${range}`;
+      if (contents) { contents.remove(); }
+    } else {
+      modified.textContent = range;
+    }
+  }
+});
+</script>
+```
 
 
 ```{=html}
@@ -50,17 +72,7 @@ about:
 <div class="csl-bib-body" style="line-height: 1.35; ">
 
 <div class="csl-entry" style="clear: left; ">
-<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. A. Oladipo, “Forensic metallurgy of steel thermal histories: Prospects through EBSD characterization,” MS Thesis, University of Cincinnati, Cincinnati, OH, USA, 2026.</div>
-</div></div>
-```
-
-# Publications
-
-```{=html}
-<div class="csl-bib-body" style="line-height: 1.35; ">
-
-<div class="csl-entry" style="clear: left; ">
-<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">S. Josyula <i>et al.</i>, “Computational discovery of medium-entropy SMAs using CALPHAD, machine learning, and economic analysis,” <i>Journal of Phase Equilibria and Diffusion</i>, vol. in press, Apr. 2026, doi: 10.1007/s11669-026-01250-6.</div>
+<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">O. C. Obioha, “Improved constitutive descriptions of the flow behavior of aluminum alloy 2618,” MS Thesis, University of Cincinnati, Cincinnati, OH, USA, 2026.</div>
 </div></div>
 ```
 
@@ -69,13 +81,10 @@ about:
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. Balasubramanian</em> (presenter), A. A. Oladipo, E. J. Payton. (2025-09-30). Microstructural Characterization and Mechanical Behavior of Ti6Al4V After Hybrid Directed Energy Deposition (DED) - Wrought Processing. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">O. C. Obioha, C. A. Calhoun, Y. Guthula, M. A. Steiner, <em>E. J. Payton</em> (presenter). (2026-03-17). Improving the constitutive modeling of AA2618 through strain rate jump testing and parameter optimization. <em>The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. A. Oladipo</em> (presenter), M. A. Steiner, E. J. Payton. (2025-09-30). Forensic Metallurgy of Pipeline Steel Thermal Histories - Prospects through EBSD Characterization. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
-  </div>
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. A. Oladipo</em> (presenter), L. Sun, P. Tyagi, D. M. Timberlake, A. L. Pilchak, M. A. Steiner, E. J. Payton. (2024-10-08). SPG-44: Effect of Texture on Residual Stress Induced during Surface Modification in Ti6Al4V Rolled Plate. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>O. C. Obioha</em> (presenter), J. Kolar, P. C. Neal, J. Acosta, N. Thompson, M. A. Steiner, C. A. Calhoun, E. J. Payton. (2024-10-08). SPG-45: Improved Constitutive Descriptions of the Flow Behavior of Aluminum Alloy 2618. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
 </div>
 ```

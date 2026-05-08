@@ -1,9 +1,9 @@
 ---
 title: "Elif Dursun"
-categories: ["PhD - Primary Advisee"]
-member-since: 2025-08-15 00:00:00
+categories: ["PhD - Secondary Advisee"]
+member-since: 2026-05-01 00:00:00
 date: today
-date-modified: 2025-08-15 00:00:00
+date-modified: 2026-05-01 00:00:00
 date-format: "MMMM YYYY"
 language:
   title-block-published: "Updated"

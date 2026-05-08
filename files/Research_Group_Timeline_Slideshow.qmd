@@ -29,11 +29,21 @@ import subprocess
 from pathlib import Path
 import xattr
 import plistlib
+import shutil
+from PIL import Image, ImageOps
 
 PRIVATE_IMAGE_DIR = Path("../private/Timeline Slideshow Photos")
 PUBLIC_IMAGE_DIR = Path("photos/Timeline Slideshow Photos")
 FINDER_COMMENT_ATTR = "com.apple.metadata:kMDItemFinderComment"
 SUPPORTED_EXTENSIONS = [".jpg", ".jpeg", ".png", ".tif", ".tiff"]
+
+# Reveal.js defaults to a 1050px wide slide. We keep enough pixels for crisp
+# display on high-density screens, but avoid oversized source images.
+SLIDE_WIDTH_PX = 1050
+IMAGE_WIDTH_FRACTION = 0.9
+RETINA_SCALE = 2
+MAX_IMAGE_WIDTH_PX = int(SLIDE_WIDTH_PX * IMAGE_WIDTH_FRACTION * RETINA_SCALE)
+WEB_DPI = 96
 
 def get_finder_comment(file_path):
     try:
@@ -59,12 +69,48 @@ def write_caption_with_exiftool(image_path, comment):
     except subprocess.CalledProcessError as e:
         print(f"Error updating {image_path.name}: {e}")
 
+def copy_and_downsample_image(src_path, dst_path, max_width_px=MAX_IMAGE_WIDTH_PX, web_dpi=WEB_DPI):
+    dst_path.parent.mkdir(parents=True, exist_ok=True)
+    suffix = src_path.suffix.lower()
+
+    # Rebuild image with normalized orientation and web-sized width.
+    try:
+        with Image.open(src_path) as img:
+            exif = img.getexif()
+            img = ImageOps.exif_transpose(img)
+
+            if img.width > max_width_px:
+                new_height = int(img.height * (max_width_px / img.width))
+                img = img.resize((max_width_px, new_height), Image.Resampling.LANCZOS)
+
+            save_kwargs = {"dpi": (web_dpi, web_dpi)}
+            if suffix in [".jpg", ".jpeg"]:
+                if img.mode not in ("RGB", "L"):
+                    img = img.convert("RGB")
+                save_kwargs.update({"quality": 85, "optimize": True, "exif": exif.tobytes()})
+            elif suffix == ".png":
+                save_kwargs.update({"optimize": True, "compress_level": 9})
+            elif suffix in [".tif", ".tiff"]:
+                save_kwargs.update({"compression": "tiff_lzw"})
+
+            img.save(dst_path, **save_kwargs)
+            print(f"Synced: {src_path.name} -> {dst_path.name} ({img.width}px wide)")
+    except Exception as e:
+        # Fallback to raw copy if Pillow cannot process this file.
+        shutil.copy2(src_path, dst_path)
+        print(f"Copied without downsampling: {src_path.name} ({e})")
+
 def main():
     for img_path in PRIVATE_IMAGE_DIR.rglob("*"):
         if img_path.suffix.lower() in SUPPORTED_EXTENSIONS:
             comment = get_finder_comment(str(img_path))
             rel_path = img_path.relative_to(PRIVATE_IMAGE_DIR)
             public_path = PUBLIC_IMAGE_DIR / rel_path
+
+            needs_sync = (not public_path.exists()) or (img_path.stat().st_mtime > public_path.stat().st_mtime)
+            if needs_sync:
+                copy_and_downsample_image(img_path, public_path)
+
             if public_path.exists():
                 write_caption_with_exiftool(public_path, comment)
 

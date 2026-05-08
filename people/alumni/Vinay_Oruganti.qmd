@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="csl-bib-body" style="line-height: 1.35; ">
 
 <div class="csl-entry" style="clear: left; ">
-<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">V. Oruganti, “A Thermodynamic and Kinetic Modelling Study of {K}irkendall Porosity Formation in Binary Systems,” MS Thesis, University of Cincinnati, Cincinnati, OH, USA, 2025. [Online]. Available: http://rave.ohiolink.edu/etdc/view?acc_num=ucin1758121287531617</div>
+<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">V. K. Y. Oruganti, “A Thermodynamic and Kinetic Modelling Study of {K}irkendall Porosity Formation in Binary Systems,” MS Thesis, University of Cincinnati, Cincinnati, OH, USA, 2025. [Online]. Available: http://rave.ohiolink.edu/etdc/view?acc_num=ucin1758121287531617</div>
 </div></div>
 ```
 

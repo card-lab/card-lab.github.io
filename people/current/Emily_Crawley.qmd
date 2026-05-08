@@ -1,28 +1,21 @@
 ---
-title: "Darrian Mathis"
-categories: ["BS - Experiential Exploration Program Researcher (Full-Time for Credit)"]
-member-since: 2026-01-15 00:00:00
+title: "Emily Crawley"
+categories: ["MEng - Primary Advisee"]
+member-since: 2026-05-01 00:00:00
 date: today
-date-modified: 2026-01-15 00:00:00
+date-modified: 2026-05-01 00:00:00
 date-format: "MMMM YYYY"
 language:
   title-block-published: "Updated"
   title-block-modified: "Joined"
 execute:
   echo: false
-image: ../../files/photos/People/Darrian_Mathis.jpg
+image: ../../files/photos/People/anon.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/Darrian_Mathis.jpg
-  image-alt: "Photo of Darrian Mathis"
+  image: ../../files/photos/People/anon.jpg
+  image-alt: "Stock photo of a dog wearing glasses."
   image-shape: round
-  links:
-    - text: "{{< iconify mdi linkedin >}}"
-      url: https://www.linkedin.com/in/darrianjjmathis
-    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/United_States_of_America
-    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 
