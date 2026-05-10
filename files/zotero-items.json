@@ -1,7 +1,7 @@
 [
   {
     "key": "5ZYQZ36M",
-    "version": 1300,
+    "version": 1324,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -41,7 +41,7 @@
     },
     "data": {
       "key": "5ZYQZ36M",
-      "version": 1300,
+      "version": 1324,
       "itemType": "journalArticle",
       "title": "Computational discovery of medium-entropy SMAs using CALPHAD, machine learning, and economic analysis",
       "creators": [
@@ -96,7 +96,7 @@
       "seriesTitle": "",
       "seriesText": "",
       "journalAbbreviation": "",
-      "DOI": "",
+      "DOI": "10.1007/s11669-026-01250-6",
       "citationKey": "josyulaComputationalDiscoveryMediumentropy2026",
       "url": "",
       "accessDate": "",
@@ -117,7 +117,7 @@
       ],
       "relations": {},
       "dateAdded": "2025-12-16T00:00:44Z",
-      "dateModified": "2026-04-28T01:03:36Z"
+      "dateModified": "2026-05-07T15:02:14Z"
     }
   },
   {
@@ -1505,7 +1505,7 @@
   },
   {
     "key": "HL2LX7KH",
-    "version": 1222,
+    "version": 1313,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -1547,7 +1547,7 @@
     },
     "data": {
       "key": "HL2LX7KH",
-      "version": 1222,
+      "version": 1313,
       "parentItem": "4DHP7ND7",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -1558,8 +1558,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Sultana - 2025 - Ab initio investigation of Nb$_2$C and Nb$_2$CO$_2$ {MX}enes as anode materials for sodium- and lith.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "d0e584211e0d7bf8bf97a38f26fec831",
+      "mtime": 1772777029767,
       "tags": [],
       "relations": {},
       "dateAdded": "2026-03-06T06:03:49Z",
@@ -1856,7 +1856,7 @@
   },
   {
     "key": "KJ2T6RA9",
-    "version": 1215,
+    "version": 1318,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -1898,7 +1898,7 @@
     },
     "data": {
       "key": "KJ2T6RA9",
-      "version": 1215,
+      "version": 1318,
       "parentItem": "DHV8U7T8",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -1909,8 +1909,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Timberlake and Payton - 2026 - Effects of SEM Distortions on EBSD Grain Size Measurements.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "8ce65ff60058afd4872839178ade1500",
+      "mtime": 1771877826654,
       "tags": [],
       "relations": {},
       "dateAdded": "2026-02-23T20:17:06Z",
@@ -3066,7 +3066,7 @@
   },
   {
     "key": "3SKM7GWK",
-    "version": 1087,
+    "version": 1302,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -3108,7 +3108,7 @@
     },
     "data": {
       "key": "3SKM7GWK",
-      "version": 1087,
+      "version": 1302,
       "parentItem": "CG8AKBXL",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -3119,8 +3119,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Payton et al. - This work and its defense approved by.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "cb685cf0c7a54701f48b954c0fa4d179",
+      "mtime": 1763234410999,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-11-15T19:20:08Z",
@@ -3129,7 +3129,7 @@
   },
   {
     "key": "RSSIUCPP",
-    "version": 1085,
+    "version": 1321,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -3171,7 +3171,7 @@
     },
     "data": {
       "key": "RSSIUCPP",
-      "version": 1085,
+      "version": 1321,
       "parentItem": "277FFIZD",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -3182,8 +3182,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Oruganti - 2025 - A Thermodynamic and Kinetic Modelling Study of {K}irkendall Porosity Formation in Binary Systems.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "f257ad9359c00a64aed083d6fd1c02ca",
+      "mtime": 1763234366797,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-11-15T19:19:26Z",
@@ -3192,7 +3192,7 @@
   },
   {
     "key": "35DQHNFJ",
-    "version": 1084,
+    "version": 1305,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -3234,7 +3234,7 @@
     },
     "data": {
       "key": "35DQHNFJ",
-      "version": 1084,
+      "version": 1305,
       "parentItem": "5QYYI8P3",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -3245,8 +3245,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Voellmecke - 2025 - Surface Color Relation to Oxide and Alpha Case Formation in Ti-6Al-4V.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "ea87ad83d262680f4d61cac5e56bd8e1",
+      "mtime": 1763234317393,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-11-15T19:18:37Z",
@@ -3393,7 +3393,7 @@
   },
   {
     "key": "FHT69NUR",
-    "version": 1048,
+    "version": 1312,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -3435,7 +3435,7 @@
     },
     "data": {
       "key": "FHT69NUR",
-      "version": 1048,
+      "version": 1312,
       "parentItem": "CGKWSAA4",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -3446,8 +3446,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Josyula et al. - 2025 - Comparison of derivative-free and gradient-based minimization for multi-objective compositional desi.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "52e715a72ac4c4d9d989f6bf3d3c0eee",
+      "mtime": 1760093142270,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-10-10T10:45:42Z",
@@ -3703,7 +3703,7 @@
   },
   {
     "key": "7GC5E4W9",
-    "version": 1024,
+    "version": 1306,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -3745,7 +3745,7 @@
     },
     "data": {
       "key": "7GC5E4W9",
-      "version": 1024,
+      "version": 1306,
       "parentItem": "VURCKT9I",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -3756,8 +3756,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Sultana et al. - 2026 - Prediction of Raman signatures, electronic structure, and ion transport mechanisms in Nb2C and Nb2CO.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "dae8b6152e9e12b7f319c5753e299f3b",
+      "mtime": 1759322114303,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-10-01T12:35:14Z",
@@ -7056,7 +7056,7 @@
   },
   {
     "key": "FR6TI2CW",
-    "version": 886,
+    "version": 1311,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -7098,7 +7098,7 @@
     },
     "data": {
       "key": "FR6TI2CW",
-      "version": 886,
+      "version": 1311,
       "parentItem": "N797KHD9",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -7109,8 +7109,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Senkov et al. - 2024 - Influence of eutectoid structures on the mechanical properties and oxidation behavior of Hf-27%Ta an.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "12f4decb57c49ac525344a1c49d0a07d",
+      "mtime": 1757335000564,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-09-08T12:36:40Z",
@@ -7119,7 +7119,7 @@
   },
   {
     "key": "IT52T83H",
-    "version": 885,
+    "version": 1315,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -7161,7 +7161,7 @@
     },
     "data": {
       "key": "IT52T83H",
-      "version": 885,
+      "version": 1315,
       "parentItem": "2PD4QF2N",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -7172,8 +7172,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Thome et al. - 2023 - Local maxima in martensite start temperatures in the transition region between lath and plate marten.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "822f1c67d3552a5ac761960677b9a852",
+      "mtime": 1757334919503,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-09-08T12:35:19Z",
@@ -7273,7 +7273,7 @@
   },
   {
     "key": "44WR4MHN",
-    "version": 829,
+    "version": 1304,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -7315,7 +7315,7 @@
     },
     "data": {
       "key": "44WR4MHN",
-      "version": 829,
+      "version": 1304,
       "parentItem": "UASFFCE8",
       "itemType": "attachment",
       "linkMode": "imported_url",
@@ -7326,8 +7326,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Sinha et al. - 2025 - Microstructural Refinement in a Low Alloy High Strength Martensitic Steel.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "e09194f2eb7d10595d855c1e62fbbff6",
+      "mtime": 1755081538286,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-08-13T10:38:58Z",
@@ -7336,7 +7336,7 @@
   },
   {
     "key": "C8GAIFXW",
-    "version": 826,
+    "version": 1307,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -7378,7 +7378,7 @@
     },
     "data": {
       "key": "C8GAIFXW",
-      "version": 826,
+      "version": 1307,
       "parentItem": "JQLZ8GEZ",
       "itemType": "attachment",
       "linkMode": "imported_url",
@@ -7389,8 +7389,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Oriola et al. - 2025 - Screening of Refractory High-Entropy Alloy Solidification Behavior Through Laser Glazing.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "1aac9d1372e60ecd9eb3999930bade2d",
+      "mtime": 1755035863376,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-08-12T21:57:43Z",
@@ -7616,7 +7616,7 @@
   },
   {
     "key": "A6M9IAWY",
-    "version": 775,
+    "version": 1309,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -7658,7 +7658,7 @@
     },
     "data": {
       "key": "A6M9IAWY",
-      "version": 775,
+      "version": 1309,
       "parentItem": "LZQZ95FG",
       "itemType": "attachment",
       "linkMode": "imported_url",
@@ -7669,8 +7669,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Ochieze et al. - 2025 - High-Temperature Oxidation and Thermal Expansion Behavior of NbTi–X (X = 5Co, 10Cr, 10Ni, 10CoCrNi).pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "33108fd849e2dde529f8165b1621e696",
+      "mtime": 1753392682376,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-07-24T21:31:22Z",
@@ -10323,7 +10323,7 @@
   },
   {
     "key": "CE8V44GK",
-    "version": 441,
+    "version": 1308,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -10365,7 +10365,7 @@
     },
     "data": {
       "key": "CE8V44GK",
-      "version": 441,
+      "version": 1308,
       "parentItem": "SRUK3595",
       "itemType": "attachment",
       "linkMode": "imported_url",
@@ -10376,8 +10376,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Oriola et al. - 2025 - Toward an Index for Predicting Additive Manufacturability of Refractory High-Entropy Alloys.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "34a6b5f2da80cd0ce284beb0e7ca1e4a",
+      "mtime": 1751568194740,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-07-03T18:43:14Z",
@@ -10386,7 +10386,7 @@
   },
   {
     "key": "WIWIE87B",
-    "version": 386,
+    "version": 1322,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -10428,7 +10428,7 @@
     },
     "data": {
       "key": "WIWIE87B",
-      "version": 386,
+      "version": 1322,
       "parentItem": "JLGS7NHC",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -10439,8 +10439,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Maile - 2025 - Assessment of a Hot Cracking Susceptibility of Refractory Alloys through Interdendritic Feeding Simu.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "2520ce3cebcba69767f4c4b1215963a6",
+      "mtime": 1750791771972,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-06-24T19:02:51Z",
@@ -10449,7 +10449,7 @@
   },
   {
     "key": "H4ZBUXGG",
-    "version": 385,
+    "version": 1314,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -10491,7 +10491,7 @@
     },
     "data": {
       "key": "H4ZBUXGG",
-      "version": 385,
+      "version": 1314,
       "parentItem": "XXIZ4ZPU",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -10502,8 +10502,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Josyula - 2025 - CALPHAD and Machine Learning Driven Design of High-Temperature Shape Memory Alloys.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "61fb5c84f40587e215989b24cb397171",
+      "mtime": 1750791749010,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-06-24T19:02:28Z",
@@ -10512,7 +10512,7 @@
   },
   {
     "key": "EJXTF8P6",
-    "version": 383,
+    "version": 1310,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -10554,7 +10554,7 @@
     },
     "data": {
       "key": "EJXTF8P6",
-      "version": 383,
+      "version": 1310,
       "parentItem": "4NIZMBD9",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -10565,8 +10565,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Maile et al. - 2025 - Assessment of Hot Cracking Susceptibility through Interdendritic Feeding Simulations.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "66bbac650a4b80cc9432c099f626b0f0",
+      "mtime": 1750791629452,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-06-24T19:00:29Z",
@@ -11061,7 +11061,7 @@
   },
   {
     "key": "PYIFH47H",
-    "version": 35,
+    "version": 1319,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -11103,7 +11103,7 @@
     },
     "data": {
       "key": "PYIFH47H",
-      "version": 35,
+      "version": 1319,
       "parentItem": "SCZQAUW8",
       "itemType": "attachment",
       "linkMode": "imported_url",
@@ -11114,8 +11114,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Pilchak et al. - 2024 - Cold Dwell Fatigue of Titanium Alloys History, Current State, and Aviation Industry Perspective.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "7f62bd9bd85ba66bc4ccd1a3659e7d8f",
+      "mtime": 1747167032081,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-05-13T20:10:32Z",
@@ -11124,7 +11124,7 @@
   },
   {
     "key": "XMB56HRY",
-    "version": 16,
+    "version": 1323,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -11166,7 +11166,7 @@
     },
     "data": {
       "key": "XMB56HRY",
-      "version": 16,
+      "version": 1323,
       "parentItem": "AR22LUBA",
       "itemType": "attachment",
       "linkMode": "imported_url",
@@ -11177,8 +11177,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Oriola - 2024 - On the Hot Cracking Susceptibility of Refractory High Entropy Alloys (RHEAs) During Solidification.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "9064137835c74111e21bb259625c3b03",
+      "mtime": 1746976322197,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-05-11T15:12:02Z",
@@ -11187,7 +11187,7 @@
   },
   {
     "key": "HW6BUMSR",
-    "version": 384,
+    "version": 1316,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -11229,7 +11229,7 @@
     },
     "data": {
       "key": "HW6BUMSR",
-      "version": 384,
+      "version": 1316,
       "parentItem": "ANTNJA7I",
       "itemType": "attachment",
       "linkMode": "imported_url",
@@ -11240,8 +11240,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Payton et al. - 2024 - Isotropic Growth on {Cartesian} Voxel Grids with {von Neumann} Neighborhoods for Rapid Generation of.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "f93d3349281912f64d9fe6cec9cee057",
+      "mtime": 1750791679514,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-05-11T15:07:59Z",
@@ -11250,7 +11250,7 @@
   },
   {
     "key": "3ZZCA865",
-    "version": 8,
+    "version": 1303,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -11292,7 +11292,7 @@
     },
     "data": {
       "key": "3ZZCA865",
-      "version": 8,
+      "version": 1303,
       "parentItem": "JNBJUMSL",
       "itemType": "attachment",
       "linkMode": "imported_url",
@@ -11303,8 +11303,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Ochieze et al. - 2025 - Microstructural, Oxidation, and Mechanical Behavior of NbTi-Based Refractory Alloys with 5 to 10 Pct.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "2a35b24a0d7d59144620357df36af3c7",
+      "mtime": 1746976057743,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-05-11T15:07:37Z",
@@ -11313,7 +11313,7 @@
   },
   {
     "key": "TTJECPPP",
-    "version": 7,
+    "version": 1320,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -11355,7 +11355,7 @@
     },
     "data": {
       "key": "TTJECPPP",
-      "version": 7,
+      "version": 1320,
       "parentItem": "CII5PFFW",
       "itemType": "attachment",
       "linkMode": "imported_url",
@@ -11366,8 +11366,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Evans et al. - 2024 - On the Sources of Discrepancies Between Grain Size Measurements.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "3d2457bda7f38abdb9fba03449474dde",
+      "mtime": 1746976036913,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-05-11T15:07:16Z",
@@ -11376,7 +11376,7 @@
   },
   {
     "key": "P25X9JGQ",
-    "version": 5,
+    "version": 1317,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -11418,7 +11418,7 @@
     },
     "data": {
       "key": "P25X9JGQ",
-      "version": 5,
+      "version": 1317,
       "parentItem": "852BK8FY",
       "itemType": "attachment",
       "linkMode": "imported_url",
@@ -11429,8 +11429,8 @@
       "contentType": "application/pdf",
       "charset": "",
       "filename": "Kumar - 2024 - On The Relationship Between Valence Electron Concentration and Superconducting Properties of Refract.pdf",
-      "md5": null,
-      "mtime": null,
+      "md5": "01572ad234651504227c2541b7001853",
+      "mtime": 1746975643213,
       "tags": [],
       "relations": {},
       "dateAdded": "2025-05-11T15:00:43Z",
