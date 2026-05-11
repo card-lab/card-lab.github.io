@@ -1,25 +1,170 @@
+@article{josyulaComputationalDiscoveryMediumentropy2026,
+	title = {Computational discovery of medium-entropy {SMAs} using {CALPHAD}, machine learning, and economic analysis},
+	volume = {in press},
+	doi = {10.1007/s11669-026-01250-6},
+	journaltitle = {Journal of Phase Equilibria and Diffusion},
+	author = {Josyula, S. and Oladipo, A. A. and Ochieze, U. P. and Maile, J. D. and Noiman, Y. and Simpson, N. and Payton, E. J.},
+	date = {2026-04-27},
+}
+
+@unpublished{zotero-item-10076,
+	title = {Improved Fe-Ni-P thermodynamic models with revised phosphide equilibria},
+	author = {Miller, Z. D. C. and Ochieze, U. P. and Payton, E. J. and Steiner, M. A.},
+	date = {2025-12-01},
+}
+
+@unpublished{josyulaPhysicsaugmentedMachineLearning2025,
+	location = {Under review at Computational Materials Today},
+	title = {Physics-augmented machine learning for predicting martensite transformation temperatures in shape memory alloys},
+	abstract = {The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning ({ML}) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of {ML} models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor ({ETR}) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the {ML} model, an R2 value of 0.99 can be reached.},
+	author = {Josyula, Sravya and Noiman, Yuval and Steiner, Matthew Alan and Payton, Eric John},
+	date = {2025-12-15},
+}
+
+@misc{balasubramanianMechanicalBehaviorCharacterization2025,
+	location = {Under review at Journal of Materials Engineering and Performance},
+	title = {Mechanical behavior and characterization of the interface between wrought and wire-laser {DED}-processed Ti-6Al-4V},
+	doi = {10.2139/ssrn.6141445},
+	author = {Balasubramanian, A. and Oladipo, A. A. and Payton, E. J.},
+	date = {2026-04-01},
+}
+
 @unpublished{paytonEffectCreepLocal2025,
-	location = {Manuscript submitted to Advanced Engineering Materials},
+	location = {Under review at Advanced Engineering Materials},
 	title = {On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstructures},
 	author = {Payton, E. J. and Dursun, E. B. and Eggeler, G. and Agudo Jácome, L.},
 	date = {2025-12-31},
 }
 
-@unpublished{josyulaComputationalDiscoveryMediumentropy2026,
-	location = {Accepted pending revisions to Journal of Phase Equilibria and Diffusion},
-	title = {Computational discovery of medium-entropy {SMAs} using {CALPHAD}, machine learning, and economic analysis},
-	author = {Josyula, S. and Oladipo, A. A. and Ochieze, U. P. and Maile, J. D. and Noiman, Y. and Simpson, N. and Payton, E. J.},
-	date = {2026-03-13},
+@article{maileAssessmentHotCracking2025a,
+	title = {Assessment of hot cracking susceptibility through interdendritic feeding simulations},
+	volume = {14},
+	url = {https://doi.org/10.1007/s40192-025-00403-8},
+	doi = {10.1007/s40192-025-00403-8},
+	abstract = {Established indexes for predicting hot cracking susceptibility exhibit limited agreement with experiments for additive manufacturing of new refractory alloys. A recent publication from Giorjao et al. proposes a new index based on the physics of liquid feeding into the interdendritic channels. Laminar flow simulations are performed with the Scheil solidification profile mirrored about a central axis, creating a funnel which is assumed can represent the interdendritic wall geometry. The pressure difference developed from flow in this geometry is hypothesized to correlate with cracking susceptibility, as it is expected that this parameter should scale with the ability of the interdendritic liquid to backfill shrinkage porosity. The approach has the advantage of utilizing parameters that can be predicted using {CALPHAD} software and databases; however, it exhibits a drawback that pressure drop is a function of geometry and simulation scale. In the present work, sensitivity studies were performed on geometric and viscosity parameters. An alternative to the constant flow rate assumption used by Giorjao et al. is proposed, in which the flow rate that results from the pressure difference imposed by solidification shrinkage is used as the crack susceptibility criterion. Results are subsequently compared to laser glazing experiments on four {RHEAs}, a set of stainless steels, and several Al alloys. It is found that the constant flow rate assumption produces better agreement with experiments than the model with a physics-based feeding pressure. Observations are discussed in the context of current literature and physical understanding of solidification in additive manufacturing.},
+	pages = {212--226},
+	journaltitle = {Integrated Materials and Manufacturing Innovation},
+	shortjournal = {Integr. Mater. Manuf. Innov.},
+	author = {Maile, Joshua D. and Oriola, Abdulquadri Tobi and Giblin, Ian P. and Nguyen, Anh and Payton, Eric J.},
+	date = {2025-06-10},
+	keywords = {Cracking susceptibility, High entropy alloys, Hot cracking, Refractory alloys, Solidification},
 }
 
-@thesis{sultanaInitioInvestigationNb$_2$C2025,
+@article{josyulaComparisonDerivativefreeGradientbased2026,
+	title = {Comparison of derivative-free and gradient-based minimization for multi-objective compositional design of shape memory alloys},
+	volume = {261},
+	url = {https://doi.org/10.1016/j.commatsci.2025.114297},
+	doi = {10.1016/j.commatsci.2025.114297},
+	abstract = {Designing shape memory alloys ({SMAs}) that meet performance targets while remaining affordable and sustainable is a complex challenge. In this work, we focus on optimizing {SMA} compositions to achieve a desired martensitic start temperature (Ms) while minimizing cost. To do this, we use machine learning models as surrogate predictors and apply numerical optimization methods to search for suitable alloy combinations. We trained two types of machine learning models, a tree-based ensemble and a neural network, using a dataset of experimentally characterized alloys and physics-informed features. The tree-based model was used with a derivative-free optimizer ({COBYLA}), while the neural network, which provides gradient information, was paired with a gradient-based optimizer ({TRUST}-{CONSTR}). Our results show that while both models predict Ms with similar accuracy, the optimizer paired with the neural network finds better solutions more consistently. {COBYLA} often converged to suboptimal results, especially when the starting guess was far from the target. The {TRUST}-{CONSTR} method showed more stable behavior and was better at reaching alloy compositions that met both objectives. This study demonstrates a practical approach to exploring new {SMA} compositions by combining physics-informed data, machine learning models, and optimization algorithms. Although the scale of our dataset is smaller than simulation-based efforts, the use of experimental data improves the reliability of the predictions. The approach can be extended to other materials where design trade-offs must be made with limited data.},
+	pages = {114297},
+	journaltitle = {Computational Materials Science},
+	shortjournal = {Comp. Mater. Sci.},
+	author = {Josyula, Sravya and Noiman, Yuval and Payton, Eric J. and Giovannelli, Tomasso},
+	date = {2026-01-01},
+	keywords = {alloy design, derivative-free optimization, gradient-based optimization, martensitic transformation, multi-objective optimization, neural network, shape memory alloys, surrogate model},
+}
+
+@thesis{sultanaInitioInvestigationNb2C2025,
 	location = {Cincinnati, {OH}, {USA}},
 	title = {Ab initio investigation of Nb\$\_2\$C and Nb\$\_2\${CO}\$\_2\$ \{{MX}\}enes as anode materials for sodium- and lithium-ion batteries},
 	url = {http://rave.ohiolink.edu/etdc/view?acc_num=ucin1771499426151741},
+	abstract = {This thesis presents a first-principles study on the electrochemical behavior of Nb2C and Nb2CO2 {MXenes} as prospective anode materials for sodium-ion ({SIBs}) and lithium-ion batteries ({LIBs}). Density functional theory ({DFT}) calculations were employed to examine the impact of Li and Na intercalation on structural stability, adsorption energetics, ion diffusion, electronic properties, and open-circuit voltage ({OCV}). The analysis indicates that intercalation modifies the electronic structure of Nb2C without significant lattice distortion, consistent with Raman spectral variations. Adsorption energy evaluations reveal a preference for T4 and H3 surface sites, with Nb2CO2 demonstrating enhanced metal binding due to surface oxygen functionalization. Diffusion barrier calculations show that Nb2C offers lower migration resistance, particularly for Na ions, suggesting its suitability for high-rate charging in {SIBs}. Conversely, Nb2CO2 enhances charge retention via stronger electrostatic interactions but incurs higher diffusion barriers. Electronic structure analyses confirm the intrinsic metallicity of both {MXenes}, supporting efficient electron transport in battery applications. {OCV} calculations indicate that Nb2CO2 exhibits higher voltage output than Nb2C, underscoring the role of surface chemistry in tuning electrochemical properties. While Li-based systems exhibit marginally higher theoretical capacities, Na-based counterparts demonstrate comparable performance, endorsing their potential as a cost-effective and sustainable alternative. Overall, this work provides atomic-scale insights into the structure–property relationships of Nb-based {MXenes}, establishing design principles for optimizing anode materials in next-generation energy storage systems.},
 	institution = {University of Cincinnati},
 	type = {{MS} Thesis},
 	author = {Sultana, Nishat},
 	date = {2025-12-12},
+}
+
+@thesis{obiohaImprovedConstitutiveDescriptions2026,
+	location = {Cincinnati, {OH}, {USA}},
+	title = {Improved constitutive descriptions of the flow behavior of aluminum alloy 2618},
+	abstract = {Aluminum alloy 2618 ({AA}2618) is a high-strength, heat-treatable alloy used widely in the aerospace and automotive sectors due to its excellent mechanical properties at elevated temperatures. The present research investigates the hot working behavior of {AA}2618
+through uniaxial compression from 300 to 500 °C and strain-rates of 0.001 and 1 s-1. Flow stress increases with strain-rate and decreases with increasing temperature, as in similar alloys. However, strain-hardening rates remain very low across three orders of magnitude of strain-rate. Microstructural analyses suggest limited continuous dynamic recrystallization occurs. Dynamic recovery dominates, with new grain clusters forming locally and incompletely replacing the deformed grains after hot deformation. Secondary phase precipitates are observed to persist through deformation and recrystallization. The Lin-Wagoner constitutive model captured the measured flow behavior well, outperforming the Johnson-Cook and power law models in this temperature and strain-rate regime.},
+	institution = {University of Cincinnati},
+	type = {{MS} Thesis},
+	author = {Obioha, Okechukwu Chikwado},
+	date = {2026-05-01},
+}
+
+@thesis{oladipoForensicMetallurgySteel2026,
+	location = {Cincinnati, {OH}, {USA}},
+	title = {Forensic metallurgy of steel thermal histories: Prospects through {EBSD} characterization},
+	abstract = {The orientation relationship ({OR}) between the crystallographic variants of martensite in prior austenite grains is a function of austenite composition at the time of transformation, making the {OR} indicative of a material’s thermal history. The peak temperature reached in the intercritical region of a steel weld alters the composition of the transformed phase. This, in turn, influences material performance. To investigate whether the highest temperature reached could be predicted from a measurement of the {OR}, electron backscatter diffraction ({EBSD}) was utilized to investigate the crystallographic features of martensite of a plain carbon steel after quenching from temperatures in the intercritical region. The {EBSD} data of the characterized regions were analyzed within the {MTEX} tool to obtain the orientation relationships. The {OR} was quantified by the small angular deviations from Bain correspondence. Sparse scattering about the nominal “Kurdjumov-Sachs-like” (i.e. exhibiting 24 distinct clusters on the pole figure) {OR} was attributed to plasticity during the transformation. The deviation from Bain correspondence of the {OR} was found to vary systematically with carbon concentration, but the trend differed significantly from that predicted by the phenomenological theory of martensitic transformations ({PTMT}). A fitted empirical model successfully predicted intercritical annealing temperature from the experimentally observed {OR}–carbon relationship. This study concludes that the relationship between {OR} parameters and composition must be known a priori to use {OR} measurements for a “forensic” investigation of the maximum temperature reached in a heat-affected zone of a steel weld.},
+	institution = {University of Cincinnati},
+	type = {{MS} Thesis},
+	author = {Oladipo, Ayobami Alice},
+	date = {2026-05-01},
+}
+
+@thesis{orugantiThermodynamicKineticModelling2025,
+	location = {Cincinnati, {OH}, {USA}},
+	title = {A Thermodynamic and Kinetic Modelling Study of \{K\}irkendall Porosity Formation in Binary Systems},
+	url = {http://rave.ohiolink.edu/etdc/view?acc_num=ucin1758121287531617},
+	abstract = {The Kirkendall effect, which arises from unequal atomic diffusion rates in alloys, can lead to the formation of detrimental porosity at material interfaces. However, the precise conditions that determine whether a system gives rise to the resulting vacancy flux through nucleation of pores are not fully understood. This research utilizes a theoretical and computational approach to investigate these factors in a simple A-B binary alloy system, establishing a relationship between a material’s intrinsic defect structure and the macroscopic outcomes of interdiffusion. This study employs the Multi-component Diffusion with Vacancies ({MDV}) model, which treats vacancies as a dynamic, non-equilibrium component, in a parametric study of a one-dimensional A-B diffusion couple. The vacancy sink intensity coefficient, k\_\{sink\}, exhibits a significant influence on the predicted material response. Low sink intensities lead to classic Kirkendall porosity driven by vacancy supersaturation. Conversely, high intensities suppress supersaturation and induce a powerful lattice contraction that causes an inversion of the Kirkendall marker shift, while intermediate intensities produce a kinetically hindered diffusion regime characterized by a distinct "kink" in the concentration profile. Ultimately, this research provides a unified framework demonstrating that Kirkendall porosity and lattice contraction are two competing outcomes on a continuum governed by a material's internal sink efficiency. By treating k\_\{sink\} as a key physical variable rather than a simple fitting parameter, this work offers critical insights into the factors controlling microstructural evolution and stability in diffusion-critical systems.},
+	institution = {University of Cincinnati},
+	type = {{MS} Thesis},
+	author = {Oruganti, Vinay Kumar Yadav},
+	date = {2025-08-08},
+}
+
+@thesis{josyulaCALPHADMachineLearning2025,
+	location = {Cincinnati, {OH}, {USA}},
+	title = {{CALPHAD} and Machine Learning Driven Design of High-Temperature Shape Memory Alloys},
+	url = {http://rave.ohiolink.edu/etdc/view?acc_num=ucin1747651904213303},
+	abstract = {The demand for high-performance materials, especially high-temperature shape memory alloys ({SMAs}), has driven significant progress in materials design. This study focuses on predicting the Martensitic Start (Ms) temperature of {SMAs}, a crucial factor in determining their suitability for high-temperature applications. To achieve this, {CALPHAD} was used to simulate phase diagrams across different alloy compositions, while machine learning techniques—specifically regression models were applied to predict the Ms temperature based on compositional and physics-based descriptors. By utilizing a large and diverse dataset, machine learning significantly enhanced the predictive accuracy for Ms temperature. The vast amount of data allowed the models to learn complex, nonlinear relationships between various alloying elements and transformation temperatures, resulting in accurate and reliable predictions. In addition, this study highlights the importance of considering sustainability and supply risk analysis in alloy design. The integration of these analyses with the predictive modeling framework allows for the identification of alloys that not only exhibit desirable properties but also minimize reliance on critical and scarce materials. This contributes to more sustainable materials development, helping ensure a stable supply of raw materials for high-performance alloys. The combination of {CALPHAD}, machine learning, and supply risk analysis offers a comprehensive approach for designing alloys that are not only high-performing but also economically and environmentally sustainable, paving the way for better materials with broader applications in the future.},
+	institution = {University of Cincinnati},
+	type = {phdthesis},
+	author = {Josyula, Sravya},
+	date = {2025-05-01},
+}
+
+@thesis{kumarRelationshipValenceElectron2024,
+	location = {Cincinnati, {OH}, {USA}},
+	title = {On The Relationship Between Valence Electron Concentration and Superconducting Properties of Refractory Complex Concentrated Alloys},
+	url = {http://rave.ohiolink.edu/etdc/view?acc_num=ucin1733838870033528},
+	abstract = {Refractory complex concentrated alloys ({RCCAs}) are known for their high-temperature mechanical properties, but less attention has been given to their low-temperature thermophysical behavior. High-throughput calculation of phase diagrams ({CALPHAD}) was used to study the body centered cubic ({BCC}) phase dominance within the Nbx({MoTi}2V4)100-x alloy system by adding Niobium (Nb) at atomic concentrations of x=9\%,23\%,and 37\%, and two additional alloys where vanadium (V) is substituted with hafnium (Hf) and zirconium (Zr) to form Hf10Mo24Nb38Ti28 and Mo24Nb38Ti28Zr10 alloys. Alloys were tested to see the effect of Nb content on the superconducting transition temperature ({TC}) and the effect of substituting V with Hf or Zr on {TC}. This approach tests the common assumption of the correlation between {VEC} with {TC}, to clarify the role of composition relative to {VEC}. Button specimens were cast via vacuum arc melting and were measured for electrical resistivity at different temperatures using a Quantum Design {DynaCool} system. X-ray diffraction ({XRD}) was used to confirm the formation of the phases predicted by {CALPHAD}. Five out of the six alloy samples exhibited superconductivity, with some anomalies observed and addressed in this study. These results are compared to literature to enhance understanding of the results.},
+	institution = {University of Cincinnati},
+	type = {{MS} Thesis},
+	author = {Kumar, Ravi},
+	urldate = {2025-05-11},
+	date = {2024-12-13},
+	langid = {english},
+}
+
+@thesis{oriolaHotCrackingSusceptibility2024,
+	location = {Cincinnati, {OH}, {USA}},
+	title = {On the Hot Cracking Susceptibility of Refractory High Entropy Alloys ({RHEAs}) During Solidification: Toward a Crack Susceptibility Index for Additive Manufacturing},
+	url = {http://rave.ohiolink.edu/etdc/view?acc_num=ucin1733351818521435},
+	shorttitle = {On the Hot Cracking Susceptibility of Refractory High Entropy Alloys ({RHEAs}) During Solidification},
+	abstract = {Refractory high entropy alloys ({RHEAs}) have received significant attention for their remarkable strength at very high temperatures. However, even for ductile compositions, conventional thermomechanical processing remains extremely challenging due to the very same elevated temperature strength properties that make this family of alloys interesting for extreme environmental applications. Many researchers have proposed additive manufacturing as a potential solution for fabrication of components as a possible route for taking advantage of {RHEA} properties. This research thesis investigates screening metrics through which the additive manufacturability of {RHEAs} can be assessed and their hot crack susceptibility. Crack susceptibility criteria are calculated using parameters derived from a calculation of phase diagrams ({CALPHAD}) approach, using commercially available databases. Solidification predictions are used to predict possible phases, alloy compositions, and freezing ranges for a database of alloys published in the literature. It is found that different castability metrics can differ substantially from one another. The computational predictions are then assessed using laser glazing at two laser powers and eight laser scan speeds for arc-melted alloy pairs at opposite extremes of the solidification crack susceptibility and castability metrics. Cracking susceptibility differences and melt pool behavior are quantified and compared for key alloy pairs, and the correlation between crack propagation and microstructure are analyzed using scanning electron microscopy, and energy dispersive spectroscopy. An assessment of prospects for additive manufacturing processability prediction for refractory high entropy alloys will be presented, along with observations relevant to alloy design strategies for solidification crack tolerant complex compositions of refractory alloys.},
+	institution = {University of Cincinnati},
+	type = {{MS} Thesis},
+	author = {Oriola, Abdulquadri Tobi},
+	urldate = {2025-05-11},
+	date = {2024-12-13},
+	langid = {english},
+}
+
+@thesis{maileAssessmentHotCracking2025,
+	location = {Cincinnati, {OH}, {USA}},
+	title = {Assessment of a Hot Cracking Susceptibility of Refractory Alloys through Interdendritic Feeding Simulations},
+	url = {http://rave.ohiolink.edu/etdc/view?acc_num=ucin1746702473849514},
+	abstract = {Established indexes for predicting hot cracking susceptibility exhibit limited agreement with experiments for additive manufacturing of new refractory alloys. A recent publication from Giorjao et al. proposes a new index based on the physics of liquid feeding into the interdendritic channels. Laminar flow simulations are performed with the Scheil solidification profile mirrored about a central axis, creating a funnel which is assumed can represent the interdendritic wall geometry. The pressure difference developed from flow in this geometry is hypothesized to correlate with cracking susceptibility, as it is expected that this parameter should scale with the ability of the interdendritic liquid to backfill shrinkage porosity. The approach has the advantage of utilizing parameters that can be predicted using {CALPHAD} software and databases; however, it exhibits a drawback that pressure drop is a function of geometry and simulation scale. In the present work, sensitivity studies were performed on geometric and viscosity parameters. An alternative to the constant flow rate assumption used by Giorjao et al is proposed, in which the flow rate that results from the pressure difference imposed by solidification shrinkage is used as the crack susceptibility criterion. Results are subsequently compared to laser glazing experiments on four {RHEAs}, a set of stainless steels, and several Al alloys. It is found that the constant flow rate assumption produces better agreement with experiments than the model with a physics-based feeding pressure. Observations are discussed in the context of current literature and physical understanding of solidification in additive manufacturing.},
+	institution = {University of Cincinnati},
+	type = {{MS} Thesis},
+	author = {Maile, Joshua D.},
+	date = {2025-05-01},
+}
+
+@thesis{timberlakeEffectsSEMDistortions2025,
+	location = {Cincinnati, {OH}, {USA}},
+	title = {Effects of {SEM} Distortions on {EBSD} Grain Size Measurements},
+	url = {http://rave.ohiolink.edu/etdc/view?acc_num=ucin1758106355968781},
+	abstract = {Accurate grain size measurements are important for predicting the mechanical properties and ensuring the reliability of materials. While standardized methods such as {ASTM} E 112 and E 2627 exist to improve consistency across optical and {EBSD}-based techniques, systematic discrepancies persist between approaches due to differences in imaging physics, resolution limits, grain boundary definitions, and post-processing practices. This work develops and applies synthetic microstructure modeling to evaluate grain size measurement methods under controlled conditions. An underexplored method, the Triple Point Count ({TPC}), is also proposed and validated, demonstrating consistent and balanced performance across varying resolutions and sampling conditions. Geometric distortions and drift effects in {SEM} imaging are systematically modeled to assess their impact on {EBSD}-based grain size measurement accuracy. Results show that most distortion types introduce minimal bias under typical imaging conditions. Further analysis quantifies the combined sources of discrepancies between optical and {SEM}-based measurements. These studies uncover the roles of misorientation threshold definitions, resolution differences, and post-processing algorithms in producing systematic variation. A new empirical relationship between {ASTM} G and lineal intercept is also proposed. These findings underscore the need for careful method selection and standard refinement to ensure reliable grain size measurements.},
+	institution = {University of Cincinnati},
+	type = {{MS} Thesis},
+	author = {Timberlake, D. Meiyan},
+	date = {2025-08-08},
 }
 
 @article{sinhaMicrostructuralRefinementLow2025a,
@@ -117,35 +262,6 @@ between 0.001/s and 1.0/s using strain rate jump compression tests on a Gleeble 
 	date = {2026-03-16},
 }
 
-@article{maileAssessmentHotCracking2025a,
-	title = {Assessment of hot cracking susceptibility through interdendritic feeding simulations},
-	volume = {14},
-	url = {https://doi.org/10.1007/s40192-025-00403-8},
-	doi = {10.1007/s40192-025-00403-8},
-	abstract = {Established indexes for predicting hot cracking susceptibility exhibit limited agreement with experiments for additive manufacturing of new refractory alloys. A recent publication from Giorjao et al. proposes a new index based on the physics of liquid feeding into the interdendritic channels. Laminar flow simulations are performed with the Scheil solidification profile mirrored about a central axis, creating a funnel which is assumed can represent the interdendritic wall geometry. The pressure difference developed from flow in this geometry is hypothesized to correlate with cracking susceptibility, as it is expected that this parameter should scale with the ability of the interdendritic liquid to backfill shrinkage porosity. The approach has the advantage of utilizing parameters that can be predicted using {CALPHAD} software and databases; however, it exhibits a drawback that pressure drop is a function of geometry and simulation scale. In the present work, sensitivity studies were performed on geometric and viscosity parameters. An alternative to the constant flow rate assumption used by Giorjao et al. is proposed, in which the flow rate that results from the pressure difference imposed by solidification shrinkage is used as the crack susceptibility criterion. Results are subsequently compared to laser glazing experiments on four {RHEAs}, a set of stainless steels, and several Al alloys. It is found that the constant flow rate assumption produces better agreement with experiments than the model with a physics-based feeding pressure. Observations are discussed in the context of current literature and physical understanding of solidification in additive manufacturing.},
-	pages = {212--226},
-	journaltitle = {Integrated Materials and Manufacturing Innovation},
-	shortjournal = {Integr. Mater. Manuf. Innov.},
-	author = {Maile, Joshua D. and Oriola, Abdulquadri Tobi and Giblin, Ian P. and Nguyen, Anh and Payton, Eric John},
-	date = {2025-06-10},
-	keywords = {Cracking susceptibility, High entropy alloys, Hot cracking, Refractory alloys, Solidification},
-}
-
-@unpublished{balasubramanianMechanicalBehaviorCharacterization2025,
-	location = {Under review Materials Science and Engineering A},
-	title = {Mechanical behavior and characterization of the interface between wrought and wire-laser {DED}-processed Ti-6Al-4V},
-	author = {Balasubramanian, A. and Oladipo, A. A. and Payton, E. J.},
-	date = {2025-01-24},
-}
-
-@unpublished{josyulaPhysicsaugmentedMachineLearning2025,
-	location = {Under review at Computational Materials Today},
-	title = {Physics-augmented Machine Learning for Predicting Martensite Transformation Temperatures in Shape Memory Alloys},
-	abstract = {The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning ({ML}) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of {ML} models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor ({ETR}) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the {ML} model, an R2 value of 0.99 can be reached.},
-	author = {Josyula, Sravya and Noiman, Yuval and Steiner, Matthew Alan and Payton, Eric John},
-	date = {2025-12-15},
-}
-
 @article{sultanaPredictionRamanSignatures2026,
 	title = {Prediction of \{Raman\} signatures, electronic structure, and ion transport mechanisms in Nb\$\_2\$C and Nb\$\_2\${CO}\$\_2\$ \{{MXenes}\} for \{Li\}/\{Na\}-ion batteries: An \textit{Ab Initio} study},
 	volume = {209},
@@ -161,20 +277,6 @@ between 0.001/s and 1.0/s using strain rate jump compression tests on a Gleeble 
 	urldate = {2025-10-01},
 	date = {2026-02-01},
 	langid = {english},
-}
-
-@article{josyulaComparisonDerivativefreeGradientbased2026,
-	title = {Comparison of derivative-free and gradient-based minimization for multi-objective compositional design of shape memory alloys},
-	volume = {261},
-	url = {https://doi.org/10.1016/j.commatsci.2025.114297},
-	doi = {10.1016/j.commatsci.2025.114297},
-	abstract = {Designing shape memory alloys ({SMAs}) that meet performance targets while remaining affordable and sustainable is a complex challenge. In this work, we focus on optimizing {SMA} compositions to achieve a desired martensitic start temperature (Ms) while minimizing cost. To do this, we use machine learning models as surrogate predictors and apply numerical optimization methods to search for suitable alloy combinations. We trained two types of machine learning models, a tree-based ensemble and a neural network, using a dataset of experimentally characterized alloys and physics-informed features. The tree-based model was used with a derivative-free optimizer ({COBYLA}), while the neural network, which provides gradient information, was paired with a gradient-based optimizer ({TRUST}-{CONSTR}). Our results show that while both models predict Ms with similar accuracy, the optimizer paired with the neural network finds better solutions more consistently. {COBYLA} often converged to suboptimal results, especially when the starting guess was far from the target. The {TRUST}-{CONSTR} method showed more stable behavior and was better at reaching alloy compositions that met both objectives. This study demonstrates a practical approach to exploring new {SMA} compositions by combining physics-informed data, machine learning models, and optimization algorithms. Although the scale of our dataset is smaller than simulation-based efforts, the use of experimental data improves the reliability of the predictions. The approach can be extended to other materials where design trade-offs must be made with limited data.},
-	pages = {114297},
-	journaltitle = {Computational Materials Science},
-	shortjournal = {Comp. Mater. Sci.},
-	author = {Josyula, Sravya and Noiman, Yuval and Payton, Eric and Giovannelli, Tomasso},
-	date = {2026-01-01},
-	keywords = {alloy design, derivative-free optimization, gradient-based optimization, martensitic transformation, multi-objective optimization, neural network, shape memory alloys, surrogate model},
 }
 
 @article{ochiezeHighTemperatureOxidationThermal2025,
@@ -301,26 +403,6 @@ between 0.001/s and 1.0/s using strain rate jump compression tests on a Gleeble 
 	urldate = {2025-08-12},
 	date = {2025-08-12},
 	langid = {english},
-}
-
-@thesis{orugantiThermodynamicKineticModelling2025,
-	location = {Cincinnati, {OH}, {USA}},
-	title = {A Thermodynamic and Kinetic Modelling Study of \{K\}irkendall Porosity Formation in Binary Systems},
-	url = {http://rave.ohiolink.edu/etdc/view?acc_num=ucin1758121287531617},
-	institution = {University of Cincinnati},
-	type = {{MS} Thesis},
-	author = {Oruganti, Vinay},
-	date = {2025-08-08},
-}
-
-@thesis{timberlakeEffectsSEMDistortions2025,
-	location = {Cincinnati, {OH}, {USA}},
-	title = {Effects of {SEM} Distortions on {EBSD} Grain Size Measurements},
-	url = {http://rave.ohiolink.edu/etdc/view?acc_num=ucin1758106355968781},
-	institution = {University of Cincinnati},
-	type = {{MS} Thesis},
-	author = {Timberlake, D. Meiyan},
-	date = {2025-08-08},
 }
 
 @unpublished{millerSPU32DevelopmentNew2025,
@@ -1162,50 +1244,5 @@ formation of carbides. The synthesis products were characterized using Rietveld 
 	editora = {Sultana, Nishat and Neal, Phillicity C. and Acosta, Jesus and Payton, Eric J.},
 	editoratype = {collaborator},
 	date = {2025-10-01},
-}
-
-@thesis{maileAssessmentHotCracking2025,
-	location = {Cincinnati, {OH}, {USA}},
-	title = {Assessment of a Hot Cracking Susceptibility of Refractory Alloys through Interdendritic Feeding Simulations},
-	url = {http://rave.ohiolink.edu/etdc/view?acc_num=ucin1746702473849514},
-	institution = {University of Cincinnati},
-	type = {{MS} Thesis},
-	author = {Maile, Joshua D.},
-	date = {2025-05-01},
-}
-
-@thesis{oriolaHotCrackingSusceptibility2024,
-	location = {Cincinnati, {OH}, {USA}},
-	title = {On the Hot Cracking Susceptibility of Refractory High Entropy Alloys ({RHEAs}) During Solidification: Toward a Crack Susceptibility Index for Additive Manufacturing},
-	url = {http://rave.ohiolink.edu/etdc/view?acc_num=ucin1733351818521435},
-	shorttitle = {On the Hot Cracking Susceptibility of Refractory High Entropy Alloys ({RHEAs}) During Solidification},
-	institution = {University of Cincinnati},
-	type = {{MS} Thesis},
-	author = {Oriola, Abdulquadri Tobi},
-	urldate = {2025-05-11},
-	date = {2024-12-13},
-	langid = {english},
-}
-
-@thesis{kumarRelationshipValenceElectron2024,
-	location = {Cincinnati, {OH}, {USA}},
-	title = {On The Relationship Between Valence Electron Concentration and Superconducting Properties of Refractory Complex Concentrated Alloys},
-	url = {http://rave.ohiolink.edu/etdc/view?acc_num=ucin1733838870033528},
-	institution = {University of Cincinnati},
-	type = {{MS} Thesis},
-	author = {Kumar, Ravi},
-	urldate = {2025-05-11},
-	date = {2024-12-13},
-	langid = {english},
-}
-
-@thesis{josyulaCALPHADMachineLearning2025,
-	location = {Cincinnati, {OH}, {USA}},
-	title = {{CALPHAD} and Machine Learning Driven Design of High-Temperature Shape Memory Alloys},
-	url = {http://rave.ohiolink.edu/etdc/view?acc_num=ucin1747651904213303},
-	institution = {University of Cincinnati},
-	type = {phdthesis},
-	author = {Josyula, Sravya},
-	date = {2025-05-01},
 }
 
