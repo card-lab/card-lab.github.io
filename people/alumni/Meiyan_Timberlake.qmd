@@ -22,6 +22,14 @@ about:
       url: https://www.linkedin.com/in/meiyan-timberlake
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0009-3414-4700
+    - text: "![](https://flagcdn.com/cn.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/People%27s_Republic_of_China
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-ca.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/California
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 
@@ -83,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </div></div>
 ```
 
-# Presentations
+# Contributions
 
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">

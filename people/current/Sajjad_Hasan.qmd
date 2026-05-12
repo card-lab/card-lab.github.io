@@ -21,10 +21,10 @@ about:
       url: https://www.linkedin.com/in/sajjadsourav
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0000-0003-2042-1016
-    - text: "![](https://flagcdn.com/bd.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/People%27s_Republic_of_Bangladesh
     - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/bd.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/People%27s_Republic_of_Bangladesh
     - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio
 
@@ -49,19 +49,26 @@ about:
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[5]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">S. Hasan, <em>E. J. Payton</em> (presenter), P. C. Neal, N. Sultana. (2026-03-17). Experimental and thermodynamic analysis of CVD-based MXene synthesis. <em>The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition</em>.</div>
-  </div>
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>E. J. Payton</em> (presenter), S. Hasan. (2026-02-10). Experimental and thermodynamic analysis of CVD-based MXene synthesis. <em>Graduate Colloquia in the Department of Materials Science and Engineering at Case Western Reserve University [virtual]</em>.</div>
-  </div>
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Hasan</em> (presenter), N. Sultana, P. C. Neal, J. Acosta, E. J. Payton. (2025-10-01). Comparison of thermodynamic prediction with experimental observations of refractory metal carbides synthesized using CVD. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
-  </div>
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>E. J. Payton</em> (presenter), S. Hasan, N. Sultana. (2025-03-25). ICME in chemical vapor deposition synthesis and characterization of 2D refractory metal carbides. <em>The Minerals Metals and Materials Society 2025 Annual Meeting and Exhibition</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Hasan</em> (presenter), N. Sultana, P. C. Neal, J. Acosta, E. J. Payton. (2025-10-01). Comparison of thermodynamic prediction with experimental observations of refractory metal carbides synthesized using CVD. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
     <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">J. Acosta, P. C. Neal, <em>S. Hasan</em> (presenter), E. J. Payton. (2024-10-08). SPG-63: X-Ray Diffraction Analysis of the Effect of Hydrogen and Methane Partial Pressures on the Chemical Vapor Deposition Synthesis of Refractory Metal Carbides. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
+  </div>
+</div>
+```
+
+# Contributions
+
+```{=html}
+<div class="csl-bib-body" style="line-height: 1.35; ">
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">S. Hasan, <em>E. J. Payton</em> (presenter), P. C. Neal, N. Sultana. (2026-03-17). Experimental and thermodynamic analysis of CVD-based MXene synthesis. <em>The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition</em>.</div>
+  </div>
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>E. J. Payton</em> (presenter), S. Hasan. (2026-02-10). Experimental and thermodynamic analysis of CVD-based MXene synthesis. <em>Graduate Colloquia in the Department of Materials Science and Engineering at Case Western Reserve University [virtual]</em>.</div>
+  </div>
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>E. J. Payton</em> (presenter), S. Hasan, N. Sultana. (2025-03-25). ICME in chemical vapor deposition synthesis and characterization of 2D refractory metal carbides. <em>The Minerals Metals and Materials Society 2025 Annual Meeting and Exhibition</em>.</div>
   </div>
 </div>
 ```

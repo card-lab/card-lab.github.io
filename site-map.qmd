@@ -1,0 +1,119 @@
+---
+title: "Site Map"
+format: html
+---
+
+```{=html}
+<div id="sitemap-meta" style="margin-bottom: 1rem; font-size: 0.95rem;"></div>
+<div id="sitemap-network" style="height: 70vh; min-height: 520px; border: 1px solid #d9d9d9; border-radius: 10px;"></div>
+<div id="sitemap-selected" style="margin-top: 1rem;"></div>
+
+<script src="https://unpkg.com/vis-network@9.1.8/standalone/umd/vis-network.min.js"></script>
+<script>
+(async function () {
+  const meta = document.getElementById("sitemap-meta");
+  const container = document.getElementById("sitemap-network");
+  const selected = document.getElementById("sitemap-selected");
+
+  function escapeHtml(str) {
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/\"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
+  try {
+    const res = await fetch("files/site/sitemap-data.json", { cache: "no-store" });
+    if (!res.ok) {
+      throw new Error(`Unable to load sitemap-data.json (${res.status})`);
+    }
+
+    const data = await res.json();
+    const nodes = data.nodes.map((n) => ({
+      id: n.id,
+      label: n.label,
+      title:
+        `<b>${escapeHtml(n.label)}</b><br>` +
+        `Path: ${escapeHtml(n.path)}<br>` +
+        `In links: ${n.indegree}<br>` +
+        `Out links: ${n.outdegree}`,
+      value: Math.max(1, n.degree),
+      shape: "dot"
+    }));
+
+    const edges = data.edges.map((e) => ({
+      from: e.source,
+      to: e.target,
+      arrows: "to",
+      color: { color: "#8a8f98", opacity: 0.55 },
+      width: 1.25,
+      smooth: { enabled: true, type: "dynamic" }
+    }));
+
+    const network = new vis.Network(
+      container,
+      { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) },
+      {
+        autoResize: true,
+        interaction: {
+          hover: true,
+          tooltipDelay: 100,
+          navigationButtons: true,
+          keyboard: true
+        },
+        physics: {
+          stabilization: { iterations: 250 },
+          barnesHut: { gravitationalConstant: -4800, springLength: 130, springConstant: 0.03 }
+        },
+        nodes: {
+          borderWidth: 1,
+          color: {
+            border: "#1f2937",
+            background: "#9ec5fe",
+            highlight: { border: "#0f172a", background: "#f59e0b" }
+          },
+          scaling: {
+            min: 8,
+            max: 36,
+            label: { enabled: true, min: 12, max: 24, drawThreshold: 8 }
+          },
+          font: { size: 12, face: "Helvetica Neue, Helvetica, Arial, sans-serif", strokeWidth: 2, strokeColor: "#ffffff" }
+        },
+        edges: {
+          selectionWidth: 2.5,
+          hoverWidth: 2.2
+        }
+      }
+    );
+
+    meta.innerHTML = `<strong>Pages:</strong> ${data.nodeCount} | <strong>Internal links:</strong> ${data.edgeCount}`;
+
+    network.on("click", (params) => {
+      if (!params.nodes.length) {
+        selected.innerHTML = "";
+        return;
+      }
+      const id = params.nodes[0];
+      const node = data.nodes.find((n) => n.id === id);
+      if (!node) {
+        selected.innerHTML = "";
+        return;
+      }
+
+      selected.innerHTML =
+        `<div style=\"padding:0.7rem 0.9rem;border:1px solid #e5e7eb;border-radius:8px;background:#f9fafb;\">` +
+        `<strong>${escapeHtml(node.label)}</strong><br>` +
+        `<a href=\"${escapeHtml(id)}\">Open page</a><br>` +
+        `Path: ${escapeHtml(node.path)}<br>` +
+        `Incoming links: ${node.indegree} | Outgoing links: ${node.outdegree}` +
+        `</div>`;
+    });
+  } catch (err) {
+    meta.innerHTML = `<span style="color:#b91c1c;">Sitemap data not available yet. Run a full site render to generate it.</span>`;
+    container.innerHTML = `<div style="padding:1rem;color:#374151;">${escapeHtml(err.message)}</div>`;
+  }
+})();
+</script>
+```

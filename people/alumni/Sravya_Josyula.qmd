@@ -22,6 +22,18 @@ about:
       url: https://www.linkedin.com/in/sravyajosyula
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0001-6998-0559
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/in.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Republic_of_India
+    - text: "![](https://flagcdn.com/us-ca.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/California
+    - text: "![](https://flagcdn.com/us-pa.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Pennsylvania
+    - text: "![](https://flagcdn.com/us-tx.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Texas
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 
@@ -91,25 +103,32 @@ document.addEventListener("DOMContentLoaded", function () {
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[10]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>Y. Noiman</em> (presenter), S. Josyula, E. J. Payton. (2026-03-16). SPG-35: Computational Discovery of Medium-Entropy SMAs Using CALPHAD, Machine Learning, and Economic Analysis. <em>2026 TMS Annual Meeting &amp; Exhibition</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Josyula</em> (presenter), R. Kumar, U. P. Ochieze, A. T. Oriola, E. J. Payton, A. E. P. Y. Puente. (2023-10-04). Fabricating Nitinol Microtubes via Gas-Phase Alloying: A Computational and Experimental Feasibility Study. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>.</div>
+  </div>
+</div>
+```
+
+# Contributions
+
+```{=html}
+<div class="csl-bib-body" style="line-height: 1.35; ">
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[9]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>Y. Noiman</em> (presenter), S. Josyula, E. J. Payton. (2026-03-16). SPG-35: Computational Discovery of Medium-Entropy SMAs Using CALPHAD, Machine Learning, and Economic Analysis. <em>2026 TMS Annual Meeting &amp; Exhibition</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[9]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">S. Josyula, <em>Y. Noiman</em> (presenter), E. J. Payton, T. Giovannelli. (2025-09-30). Comparison of derivative-free and gradient-based minimization for multi-objective compositional design of shape memory alloys. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[8]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">S. Josyula, <em>Y. Noiman</em> (presenter), E. J. Payton, T. Giovannelli. (2025-09-30). Comparison of derivative-free and gradient-based minimization for multi-objective compositional design of shape memory alloys. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[8]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>U. P. Ocheize</em> (presenter), L. Sun, N. Simpson, S. Josyula, M. A. Steiner, E. J. Payton. (2024-10-08). Influence of Co, Cr, and Ni Alloying Elements on the Microstructural, Oxidation and Mechanical behavior of NbTi-Based Alloys. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[7]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>U. P. Ocheize</em> (presenter), L. Sun, N. Simpson, S. Josyula, M. A. Steiner, E. J. Payton. (2024-10-08). Influence of Co, Cr, and Ni Alloying Elements on the Microstructural, Oxidation and Mechanical behavior of NbTi-Based Alloys. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[7]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>V. Oruganti</em> (presenter), S. Josyula, R. Kumar, A. E. P. Y. Puente, E. J. Payton. (2024-10-08). SPG-50: Phase field modelling of microtubes formation in NiTi shape memory alloys. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[6]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>V. Oruganti</em> (presenter), S. Josyula, R. Kumar, A. E. P. Y. Puente, E. J. Payton. (2024-10-08). SPG-50: Phase field modelling of microtubes formation in NiTi shape memory alloys. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[6]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. T. Oriola</em> (presenter), A. Nguyen, U. P. Ochieze, S. Josyula, H. Do, J. Maile, A. T. McMillen, W. C. Voellmecke, E. J. Payton. (2024-10-07). Additive manufacturing feasibility of refractory high entropy alloys. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[5]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. T. Oriola</em> (presenter), A. Nguyen, U. P. Ochieze, S. Josyula, H. Do, J. Maile, A. T. McMillen, W. C. Voellmecke, E. J. Payton. (2024-10-07). Additive manufacturing feasibility of refractory high entropy alloys. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[5]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>U. P. Ochieze</em> (presenter), R. Kumar, S. Josyula, A. T. Oriola, M. A. Steiner, E. J. Payton. (2023-11-13). Laser Shock Peening Surface Modification Effects on Microstructure and Oxidation Behavior of NbTiCoCrNi Refractory Complex Concentrated Alloys. <em>High Entropy Alloys 2023</em>.</div>
-  </div>
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Josyula</em> (presenter), R. Kumar, U. P. Ochieze, A. T. Oriola, E. J. Payton, A. E. P. Y. Puente. (2023-10-04). Fabricating Nitinol Microtubes via Gas-Phase Alloying: A Computational and Experimental Feasibility Study. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>U. P. Ochieze</em> (presenter), R. Kumar, S. Josyula, A. T. Oriola, M. A. Steiner, E. J. Payton. (2023-11-13). Laser Shock Peening Surface Modification Effects on Microstructure and Oxidation Behavior of NbTiCoCrNi Refractory Complex Concentrated Alloys. <em>High Entropy Alloys 2023</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
     <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>R. Kumar</em> (presenter), U. P. Ochieze, B. K. Adhikari, A. T. Oriola, S. Josyula, S. J. Watzman, E. J. Payton. (2023-10-03). Thermal, Electrical, and Magnetic Properties of Multi-Principal Element Alloys. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>.</div>

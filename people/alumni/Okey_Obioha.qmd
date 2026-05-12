@@ -22,6 +22,12 @@ about:
       url: https://www.linkedin.com/in/okechukwuobioha
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0000-7452-426X
+    - text: "![](https://flagcdn.com/ng.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Federal_Republic_of_Nigeria
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 
@@ -75,10 +81,17 @@ document.addEventListener("DOMContentLoaded", function () {
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">O. C. Obioha, C. A. Calhoun, Y. Guthula, M. A. Steiner, <em>E. J. Payton</em> (presenter). (2026-03-17). Improving the constitutive modeling of AA2618 through strain rate jump testing and parameter optimization. <em>The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition</em>.</div>
-  </div>
-  <div class="csl-entry" style="clear: left; ">
     <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>O. C. Obioha</em> (presenter), J. Kolar, P. C. Neal, J. Acosta, N. Thompson, M. A. Steiner, C. A. Calhoun, E. J. Payton. (2024-10-08). SPG-45: Improved Constitutive Descriptions of the Flow Behavior of Aluminum Alloy 2618. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
+  </div>
+</div>
+```
+
+# Contributions
+
+```{=html}
+<div class="csl-bib-body" style="line-height: 1.35; ">
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">O. C. Obioha, C. A. Calhoun, Y. Guthula, M. A. Steiner, <em>E. J. Payton</em> (presenter). (2026-03-17). Improving the constitutive modeling of AA2618 through strain rate jump testing and parameter optimization. <em>The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition</em>.</div>
   </div>
 </div>
 ```

@@ -20,6 +20,10 @@ about:
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/jesus-acosta1908
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 
@@ -63,22 +67,29 @@ document.addEventListener("DOMContentLoaded", function () {
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[6]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Hasan</em> (presenter), N. Sultana, P. C. Neal, J. Acosta, E. J. Payton. (2025-10-01). Comparison of thermodynamic prediction with experimental observations of refractory metal carbides synthesized using CVD. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
-  </div>
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[5]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>O. C. Obioha</em> (presenter), J. Kolar, P. C. Neal, J. Acosta, N. Thompson, M. A. Steiner, C. A. Calhoun, E. J. Payton. (2024-10-08). SPG-45: Improved Constitutive Descriptions of the Flow Behavior of Aluminum Alloy 2618. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
-  </div>
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">J. Acosta, P. C. Neal, <em>S. Hasan</em> (presenter), E. J. Payton. (2024-10-08). SPG-63: X-Ray Diffraction Analysis of the Effect of Hydrogen and Methane Partial Pressures on the Chemical Vapor Deposition Synthesis of Refractory Metal Carbides. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
-  </div>
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>E. J. Payton</em> (presenter), P. C. Neal, J. Acosta, A. Ruditskiy, A. N. Giordano, W. J. Kennedy. (2024-03-04). Chemical vapor deposition synthesis of 2D refractory metal carbides. <em>The Minerals Metals and Materials Society Annual Meeting and Exhibition 2024</em>.</div>
-  </div>
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>P. C. Neal</em> (presenter), J. Acosta, E. J. Payton. (2023-11-04). What MXenes can be made by chemical vapor deposition?. <em>2023 Annual Louis Stokes Midwestern Research Center of Excellence</em>.</div>
-  </div>
-  <div class="csl-entry" style="clear: left; ">
     <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>J. Acosta</em> (presenter), P. C. Neal, E. J. Payton. (2023-08-03). Toward tailoring properties of thin nanocrystals for high-speed electronic devices of the future. <em>AFRL Summer Visitor Research Exhibition</em>.</div>
+  </div>
+</div>
+```
+
+# Contributions
+
+```{=html}
+<div class="csl-bib-body" style="line-height: 1.35; ">
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[5]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Hasan</em> (presenter), N. Sultana, P. C. Neal, J. Acosta, E. J. Payton. (2025-10-01). Comparison of thermodynamic prediction with experimental observations of refractory metal carbides synthesized using CVD. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
+  </div>
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>O. C. Obioha</em> (presenter), J. Kolar, P. C. Neal, J. Acosta, N. Thompson, M. A. Steiner, C. A. Calhoun, E. J. Payton. (2024-10-08). SPG-45: Improved Constitutive Descriptions of the Flow Behavior of Aluminum Alloy 2618. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
+  </div>
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">J. Acosta, P. C. Neal, <em>S. Hasan</em> (presenter), E. J. Payton. (2024-10-08). SPG-63: X-Ray Diffraction Analysis of the Effect of Hydrogen and Methane Partial Pressures on the Chemical Vapor Deposition Synthesis of Refractory Metal Carbides. <em>MS&amp;T24: Materials Science &amp; Technology</em>.</div>
+  </div>
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>E. J. Payton</em> (presenter), P. C. Neal, J. Acosta, A. Ruditskiy, A. N. Giordano, W. J. Kennedy. (2024-03-04). Chemical vapor deposition synthesis of 2D refractory metal carbides. <em>The Minerals Metals and Materials Society Annual Meeting and Exhibition 2024</em>.</div>
+  </div>
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>P. C. Neal</em> (presenter), J. Acosta, E. J. Payton. (2023-11-04). What MXenes can be made by chemical vapor deposition?. <em>2023 Annual Louis Stokes Midwestern Research Center of Excellence</em>.</div>
   </div>
 </div>
 ```

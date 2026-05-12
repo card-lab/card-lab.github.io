@@ -62,7 +62,7 @@ about:
 </div></div>
 ```
 
-# Presentations
+# Contributions
 
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">

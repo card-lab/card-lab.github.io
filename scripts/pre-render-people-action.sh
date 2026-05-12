@@ -9,6 +9,49 @@ if [[ "${CARD_LAB_SKIP_PEOPLE_ACTION_PRE_RENDER:-}" == "1" || "${CARD_LAB_SKIP_P
   exit 0
 fi
 
+# Resolve the top Quarto render command from this script's process ancestry.
+find_quarto_render_command() {
+  local pid="$PPID"
+  local cmd=""
+  local i
+
+  for i in {1..10}; do
+    if [[ -z "$pid" || "$pid" -le 1 ]]; then
+      break
+    fi
+
+    cmd="$(ps -o command= -p "$pid" 2>/dev/null || true)"
+    if [[ "$cmd" == *"quarto render"* ]]; then
+      echo "$cmd"
+      return 0
+    fi
+
+    pid="$(ps -o ppid= -p "$pid" 2>/dev/null | tr -d '[:space:]')"
+  done
+
+  return 1
+}
+
+quarto_render_cmd="$(find_quarto_render_command || true)"
+if [[ -n "$quarto_render_cmd" ]]; then
+  if [[ "${CARD_LAB_DEBUG_PRE_RENDER_CONTEXT:-}" == "1" ]]; then
+    echo "[pre-render][debug] detected quarto command: $quarto_render_cmd"
+  fi
+
+  render_tail="${quarto_render_cmd#*quarto render}"
+  render_tail="$(echo "$render_tail" | sed 's/^[[:space:]]*//')"
+  first_render_arg="${render_tail%% *}"
+
+  # If 'quarto render' has a positional input target, this is a single-file render.
+  if [[ -n "$first_render_arg" && "$first_render_arg" != -* ]]; then
+    if [[ "${CARD_LAB_DEBUG_PRE_RENDER_CONTEXT:-}" == "1" ]]; then
+      echo "[pre-render][debug] single-file render detected via command arg: $first_render_arg"
+    fi
+    echo "[pre-render] Individual file render detected; skipping people action pre-render"
+    exit 0
+  fi
+fi
+
 SPREADSHEET_PATH="private/CARD Group Timeline.xlsx"
 STAMP_PATH=".quarto/people-sheet.sha256"
 PRIVATE_PHOTOS_DIR="private/Group Member Photos"

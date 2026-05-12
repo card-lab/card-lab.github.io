@@ -22,6 +22,18 @@ about:
       url: https://www.linkedin.com/in/nishat-sultana-phd-941a16106
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0000-0002-4922-8300
+    - text: "![](https://flagcdn.com/nz.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/New_Zealand
+    - text: "![](https://flagcdn.com/au.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Australia
+    - text: "![](https://flagcdn.com/bd.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/People%27s_Republic_of_Bangladesh
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-il.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Illinois
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 
@@ -85,10 +97,17 @@ document.addEventListener("DOMContentLoaded", function () {
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">S. Hasan, <em>E. J. Payton</em> (presenter), P. C. Neal, N. Sultana. (2026-03-17). Experimental and thermodynamic analysis of CVD-based MXene synthesis. <em>The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>N. Sultana</em> (presenter), A. Al Amin, E. J. Payton, W. K. Kim. (2025-10-01). Ab Initio Investigation of 2D-Nb$_2$C and Nb$_2$CO$_2$ {MXenes} as High-Performance Anode Materials for Na- and Li-Ion Batteries. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
   </div>
+</div>
+```
+
+# Contributions
+
+```{=html}
+<div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>N. Sultana</em> (presenter), A. Al Amin, E. J. Payton, W. K. Kim. (2025-10-01). Ab Initio Investigation of 2D-Nb$_2$C and Nb$_2$CO$_2$ {MXenes} as High-Performance Anode Materials for Na- and Li-Ion Batteries. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">S. Hasan, <em>E. J. Payton</em> (presenter), P. C. Neal, N. Sultana. (2026-03-17). Experimental and thermodynamic analysis of CVD-based MXene synthesis. <em>The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
     <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Hasan</em> (presenter), N. Sultana, P. C. Neal, J. Acosta, E. J. Payton. (2025-10-01). Comparison of thermodynamic prediction with experimental observations of refractory metal carbides synthesized using CVD. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
