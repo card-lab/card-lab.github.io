@@ -43,9 +43,18 @@ function membershipValue(item) {
 }
 
 function categoriesArray(item) {
-  if (Array.isArray(item.categories)) return item.categories;
-  if (!item.categories) return [];
-  return [item.categories];
+  const isCurrentMember = (item.path || '').includes('/current/');
+  const categories = Array.isArray(item.categories)
+    ? item.categories
+    : item.categories
+      ? [item.categories]
+      : [];
+
+  if (isCurrentMember) {
+    return categories.length ? [categories[0]] : [];
+  }
+
+  return categories;
 }
 %>
 <style>
