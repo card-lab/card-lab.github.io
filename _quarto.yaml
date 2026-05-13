@@ -29,16 +29,14 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: overview/index.qmd
-        text: Overview
+      - href: research/workproducts.qmd
+        text: Work Products
       - href: people/current.qmd
         text: People
       - href: capabilities/index.qmd
         text: Capabilities
-      - href: research/workproducts.qmd
-        text: Work Products
-      - href: site-map.qmd
-        text: Site Map
+      - href: overview/index.qmd
+        text: Overview
     tools:
       - icon: github
         menu:
@@ -48,20 +46,6 @@ website:
             href:  https://github.com/paytonej/card-lab-website/issues
 			
   sidebar:
-    - title: "Overview"
-      style: "docked"
-      contents:
-        - href: overview/index.qmd
-          text: "About the Lab"
-        - href: overview/cincinnati.qmd
-          text: "Cincinnati, OH"
-        - href: overview/service.qmd
-          text: "Service & Outreach"
-        - href: overview/teaching.qmd
-          text: "Teaching"
-      background: light
-      logo: files/site/academic-cap.svg
-      border: true
     - title: "People"
       style: "docked"
       contents: 
@@ -84,6 +68,7 @@ website:
       style: "docked"
       contents:
         - research/workproducts.qmd
+        - research/bibliometrics.ipynb
         - research/scientometrics.ipynb
         - research/collaboration-network.ipynb
       background: light
@@ -96,12 +81,28 @@ website:
       background: light
       logo: files/site/game-icons--materials-science.svg
       border: true
+    - title: "Overview"
+      style: "docked"
+      contents:
+        - href: overview/index.qmd
+          text: "About the Lab"
+        - href: overview/cincinnati.qmd
+          text: "Cincinnati, OH"
+        - href: overview/service.qmd
+          text: "Service & Outreach"
+        - href: overview/teaching.qmd
+          text: "Teaching"
+      background: light
+      logo: files/site/academic-cap.svg
+      border: true
   page-footer:
     background: primary
     right: 
       - text: "© {{< meta date >}} Eric J Payton | "
       - text: Impressum
         href: impressum.qmd
+      - text: Site Map
+        href: site-map.qmd
  
     left: 
       - text: "{{< iconify game-icons card-jack-diamonds >}}{{< iconify game-icons card-ace-spades >}}{{< iconify game-icons card-9-diamonds >}}"
@@ -110,7 +111,7 @@ website:
         href: https://www.zotero.org/groups/5985739/uc_card_lab/
         target: _blank
       - text: "{{< iconify uiw github >}}"
-        href: https://github.com/paytonej
+        href: https://github.com/card-lab
         target: _blank
 
 format:

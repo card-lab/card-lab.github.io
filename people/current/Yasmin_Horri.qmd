@@ -1,9 +1,9 @@
 ---
 title: "Yasmin Horri"
 categories: ["BS - Research Experience for Undergraduates (Full-Time Paid)"]
-member-since: NaT
+member-since: 2026-05-18 00:00:00
 date: today
-date-modified: NaT
+date-modified: 2026-05-18 00:00:00
 date-format: "MMMM YYYY"
 language:
   title-block-published: "Updated"
