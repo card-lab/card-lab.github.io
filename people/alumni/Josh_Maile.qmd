@@ -83,10 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
 <div class="csl-entry" style="clear: left; ">
-<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">S. Josyula <i>et al.</i>, “Computational discovery of medium-entropy SMAs using CALPHAD, machine learning, and economic analysis,” <i>Journal of Phase Equilibria and Diffusion</i>, vol. in press, Apr. 2026, doi: 10.1007/s11669-026-01250-6.</div>
-</div><div class="csl-entry" style="clear: left; ">
 <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. T. Oriola, J. D. Maile, A. Nguyen, H. Do, R. Kumar, and E. J. Payton, “Screening of Refractory High-Entropy Alloy Solidification Behavior Through Laser Glazing,” <i>JOM</i>, vol. 77, pp. 7247–7263, Aug. 2025, doi: 10.1007/s11837-025-07620-8.</div>
 </div><div class="csl-entry" style="clear: left; ">
 <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. T. Oriola, J. D. Maile, A. Nguyen, and E. J. Payton, “Toward an index for predicting additive manufacturability of refractory high-entropy alloys,” <i>JOM</i>, vol. 77, pp. 7222–7234, Jul. 2025, doi: 10.1007/s11837-025-07552-3.</div>

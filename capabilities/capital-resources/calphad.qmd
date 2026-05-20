@@ -1,0 +1,36 @@
+---
+title: "High throughput thermodynamic calculations"
+image: "/files/photos/Capabilities/Images_4.png"
+categories: [software, CALPHAD, "449 Mantei Center"]
+---
+
+Pandat 2025 Calculation of Phase Diagrams (CALPHAD) software
+
+[*Computherm, LLC, Madison, WI, USA*](https://www.computherm.com/)
+
+::: {.callout-note}
+CALPHAD is used to predict phase diagrams and thermodynamic properties of multicomponent systems, enabling the design and optimization of new and existing materials.
+:::
+
+![](/files/photos/Capabilities/Images_1.png){image-alt="Pandat CALPHAD simulation of a phase diagram"}
+
+## Thermodynamic and Mobility Databases
+
+| Database | Version | Scope                                                                                            |
+| -------- | ------- | ------------------------------------------------------------------------------------------------ |
+| PanAl    | 2024    | Aluminum alloys                                                                                  |
+| PanNi    | 2024    | Nickel alloys, including superalloys                                                             |
+| PanHEA   | 2025    | FCC high- and medium- entropy alloys, e.g. for corrosive environments and cryogenic applications |
+| PanRHEA  | 2024    | BCC high- and medium- entropy alloys, e.g. refractory complex concentrated alloys                |
+| PanNoble | 2024    | Copper alloys, Pb- and Sn-rich solders, and Ag-, Au-, Cu-, Ir-, Pd- and Pt-based noble alloys    |
+| PanTi    | 2024    | Titanium alloys                                                                                  |
+| PanIron  | 2024    | Steels                                                                                           |
+
+## Modules
+
+* PanPython SDK: Software development kit enabling custom Python interfacing with CALPHAD databases and calculations
+* PanPhaseDiagram: Phase diagram calculation and visualization
+* PanSolidification: Solidification path calculation and visualization
+* PanPhaseField: Phase field simulation of microstructure evolution
+* PanOptimizer: Optimization of CALPHAD model parameters
+* PanEvolution: Simulation of phase transformations and microstructure evolution

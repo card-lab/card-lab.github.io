@@ -29,21 +29,19 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: research/workproducts.qmd
-        text: Work Products
       - href: people/current.qmd
         text: People
-      - href: capabilities/index.qmd
+      - href: research/workproducts.qmd
+        text: Work Products
+      - href: capabilities/facilities.qmd
         text: Capabilities
-      - href: overview/index.qmd
-        text: Overview
     tools:
       - icon: github
         menu:
           - text: Source Code
-            href:  https://github.com/paytonej/card-lab-website
+            href: https://github.com/paytonej/card-lab-website
           - text: Report a Bug
-            href:  https://github.com/paytonej/card-lab-website/issues
+            href: https://github.com/paytonej/card-lab-website/issues
 			
   sidebar:
     - title: "People"
@@ -77,31 +75,20 @@ website:
     - title: "Capabilities"
       style: "docked"
       contents: 
-        - capabilities/index.qmd
+        - capabilities/facilities.qmd
+        - capabilities/cincinnati.qmd
+        - capabilities/teaching.qmd
+        - capabilities/service.qmd
       background: light
       logo: files/site/game-icons--materials-science.svg
-      border: true
-    - title: "Overview"
-      style: "docked"
-      contents:
-        - href: overview/index.qmd
-          text: "About the Lab"
-        - href: overview/cincinnati.qmd
-          text: "Cincinnati, OH"
-        - href: overview/service.qmd
-          text: "Service & Outreach"
-        - href: overview/teaching.qmd
-          text: "Teaching"
-      background: light
-      logo: files/site/academic-cap.svg
       border: true
   page-footer:
     background: primary
     right: 
       - text: "© {{< meta date >}} Eric J Payton | "
-      - text: Impressum
+      - text: Impressum |
         href: impressum.qmd
-      - text: Site Map
+      - text: Site Map |
         href: site-map.qmd
  
     left: 

@@ -1,13 +1,18 @@
 ---
 title: "Forming simulations with custom material models"
+image: "/files/photos/Capabilities/Forming Die Stroke.png"
 categories: [software, FEM, "905C Rhodes Hall"]
 ---
 
-DEFORM Premier 2025 from Scientific Forming Technologies Corporation
+# DEFORM Premier 2025
+
+[*Scientific Forming Technologies Corporation, Columbus, OH, USA*](https://www.deform.com/)
 
 ::: {.callout-note}
 *Finite element modeling* is a method for simulating the deformation of materials under various loading conditions, used for optimizing forming processes and predicting material behavior.
 :::
+
+![](/files/photos/Capabilities/deform with Yuval 0.001.mp4){image-alt="DEFORM simulation of a forming process"}
 
 Modules:
 

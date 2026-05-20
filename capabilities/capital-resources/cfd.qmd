@@ -1,0 +1,26 @@
+---
+title: "High fidelity casting simulations"
+image: "/files/photos/Capabilities/REMADE_PROCAST.gif"
+categories: ["software", "computational fluid dynamics (CFD)", "905C Rhodes Hall"]
+---
+
+
+
+# ProCAST 2025
+
+[*Keysight, Inc., Santa Rosa, CA, USA*](https://www.keysight.com/us/en/products/design-engineering-software/computer-aided-engineering-software/casting.html)
+
+::: {.callout-note}
+*Computational fluid dynamics* is a method for simulating fluid flow and heat transfer in complex geometries, used for optimizing casting processes and predicting defects.
+:::
+
+![](/files/photos/Capabilities/REMADE_PROCAST.gif){image-alt="ProCAST computational fluid dynamics simulation of a casting process, created for the REMADE Institute's Education and Workforce Development program"}
+
+* CFD simulations are typically used in the design and optimization of casting processes, allowing engineers to predict and mitigate defects such as porosity, shrinkage, and hot tearing before physical prototypes are made.
+* ProCAST is a general-purpose CFD solver for simulating a wide range of casting processes, including sand casting, die casting, and investment casting.
+* ProCAST includes advanced features for modeling solidification, microstructure evolution, and defect formation.
+
+
+
+
+

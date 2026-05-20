@@ -10,12 +10,19 @@ language:
   title-block-modified: "Joined"
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Yasmin_Horri.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
-  image-alt: "Stock photo of a dog wearing glasses."
+  image: ../../files/photos/People/Yasmin_Horri.jpg
+  image-alt: "Photo of Yasmin Horri"
   image-shape: round
+  links:
+    - text: "{{< iconify mdi linkedin >}}"
+      url: https://www.linkedin.com/in/yasmin-horri-6932652b6
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-ca.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/California
 
 ---
 

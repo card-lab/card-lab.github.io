@@ -24,13 +24,44 @@ format: html
       .replace(/'/g, "&#039;");
   }
 
-  try {
-    const res = await fetch("files/site/sitemap-data.json", { cache: "no-store" });
-    if (!res.ok) {
-      throw new Error(`Unable to load sitemap-data.json (${res.status})`);
+  async function loadSitemapData() {
+    // Try multiple path variants so this page works for root, subpath, and local preview URLs.
+    const candidates = [
+      "files/site/sitemap-data.json",
+      "./files/site/sitemap-data.json",
+      "/files/site/sitemap-data.json",
+      "../files/site/sitemap-data.json"
+    ];
+
+    const errors = [];
+    for (const url of candidates) {
+      try {
+        const res = await fetch(url, { cache: "no-store" });
+        if (!res.ok) {
+          errors.push(`${url}: HTTP ${res.status}`);
+          continue;
+        }
+        const data = await res.json();
+        if (!data || !Array.isArray(data.nodes) || !Array.isArray(data.edges)) {
+          errors.push(`${url}: invalid JSON schema`);
+          continue;
+        }
+        return data;
+      } catch (err) {
+        errors.push(`${url}: ${err.message}`);
+      }
     }
 
-    const data = await res.json();
+    throw new Error(`Unable to load sitemap-data.json. Tried: ${errors.join(" | ")}`);
+  }
+
+  try {
+    const data = await loadSitemapData();
+
+    if (!window.vis || !window.vis.Network || !window.vis.DataSet) {
+      throw new Error("vis-network library failed to load; check network/content blockers.");
+    }
+
     const nodes = data.nodes.map((n) => ({
       id: n.id,
       label: n.label,
@@ -111,7 +142,7 @@ format: html
         `</div>`;
     });
   } catch (err) {
-    meta.innerHTML = `<span style="color:#b91c1c;">Sitemap data not available yet. Run a full site render to generate it.</span>`;
+    meta.innerHTML = `<span style="color:#b91c1c;">Sitemap could not be loaded.</span>`;
     container.innerHTML = `<div style="padding:1rem;color:#374151;">${escapeHtml(err.message)}</div>`;
   }
 })();

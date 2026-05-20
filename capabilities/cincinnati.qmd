@@ -1,0 +1,36 @@
+---
+title: "Cincinnati"
+date: today
+date-format: "DD MMMM YYYY"
+language:
+  title-block-published: "Updated"
+format: html
+---
+
+The CARD lab is located at the University of Cincinnati, in the Clifton neighborhood of Cincinnati, Ohio. The Cincinnati-Dayton metropolitan region has a rich history in manufacturing and materials science, making it an ideal location for our research -- *and inseparable from our capabilities*.
+
+The Cincinnati metropolitan area is the 28th largest in the United States, with a population of over 2 million people. 
+
+Historic architecture:
+
+* Ingalls Building, built in 1903, is the world's first reinforced concrete skyscraper. 
+* Cincinnati Union Terminal, a *National Historic Landmark* built in 1933, is an Art Deco train station that now houses museums and a shopping mall.
+* Carew Tower, completed in 1930, is the second tallest building in Cincinnati and features an observation deck with panoramic views of the city.
+* Roebling Suspension Bridge, completed in 1866, is a historic bridge that connects Cincinnati to Covington, Kentucky, and was the longest suspension bridge in the world at the time of its completion.
+* Music Hall, built in 1878, is a historic concert hall that hosts a variety of performances, including classical music, opera, and ballet.
+* Findlay Market, established in 1852, is Ohio's oldest continuously operated public market and offers a wide variety of fresh produce, meats, and artisanal goods.
+* Cincinnati Observatory, founded in 1842, is one of the oldest observatories in the United States and offers public stargazing events and educational programs.
+* Cincinnati Museum Center at Union Terminal, which includes the Cincinnati History Museum, the Museum of Natural History & Science, and the Children's Museum, offers a wide range of exhibits and educational programs for visitors of all ages.
+* Cincinnati Public Library, designed by renowned architect Zaha Hadid and opened in 2004, is a striking modern building that offers a vast collection of books and resources for the community.
+
+Tourist attractions:
+
+* Cincinnati Zoo & Botanical Garden: Home to Fiona the hippo and a wide variety of animals and plants.
+* Great American Ball Park: Home of the Cincinnati Reds, the first professional baseball team.
+* Cincinnati Museum Center at Union Terminal: A complex of museums including the Cincinnati History Museum, the Museum of Natural History & Science, and the Children's Museum. The art museum alone is worth the trip, featuring over 67,000 works of art spanning 6,000 years of history.
+* Newport Aquarium: Located just across the river in Newport, Kentucky, it features a wide variety of aquatic animals and interactive exhibits.
+* Cincinnati Riverwalk: A scenic walkway along the Ohio River with parks, restaurants, and entertainment venues.
+* Cincinnati Music Hall: A historic concert hall that hosts a variety of performances, including classical music, opera, and ballet.
+* Fountain Square: A central gathering place in downtown Cincinnati with a large fountain, restaurants, and live entertainment.
+* Cincinnati Nature Center: A 1,600-acre nature preserve with hiking trails, gardens, and educational programs.
+* Cincinnati Reds Hall of Fame and Museum: A museum dedicated to the history of the Cincinnati Reds baseball team, featuring exhibits, memorabilia, and interactive displays. 

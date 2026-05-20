@@ -1,14 +1,19 @@
 ---
 title: "Vacuum arc melting and gas atomization"
-categories: [equipment, "primary processing", "449 Mantei Center"]
+image: "/files/photos/Capabilities/MME-Critical Alloy Research and Discovery Lab-Payton-22.jpg"
+categories: ["equipment", "primary processing", "449 Mantei Center"]
 ---
 
-Arcast 200 vacuum arc melter
+# ARC200 vacuum arc melter
+
+*[Arcast, Inc, Oxford, ME, USA](https://www.arcast.com/)*
 
 ::: {.callout-note}
 Vacuum arc melting
 : the use of an electric arc between a thoriated tungsten electrode and a water-cooled copper crucible to melt conductive materials in a vacuum environment, producing high quality ingots with low contamination and controlled composition.
 :::
+
+![](/files/photos/Capabilities/MME-Critical Alloy Research and Discovery Lab-Payton-22.jpg){img-alt="Students using vacuum arc melter and gas atomization equipment in the CARD Lab at the University of Cincinnati"}
 
 Accessories:
 
@@ -18,5 +23,4 @@ Accessories:
 * turbo-pump
 * electromagnetic stirring
 * free-fall gas atomization unit
-
 
