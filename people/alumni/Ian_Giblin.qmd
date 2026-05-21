@@ -20,10 +20,6 @@ about:
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/ian-giblin
-    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/United_States_of_America
-    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 

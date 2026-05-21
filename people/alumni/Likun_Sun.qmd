@@ -20,12 +20,6 @@ about:
   links:
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0006-3353-6305
-    - text: "![](https://flagcdn.com/cn.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/People%27s_Republic_of_China
-    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/United_States_of_America
-    - text: "![](https://flagcdn.com/us-oh,.svg){width=0.25in}"
-      url: None
 
 ---
 
