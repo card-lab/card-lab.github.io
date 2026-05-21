@@ -1,7 +1,37 @@
 [
   {
+    "listing": "/people/current.html",
+    "items": [
+      "/people/current/Elif_Dursun.html",
+      "/people/current/Yasmin_Horri.html",
+      "/people/current/Cameron_Gulley.html",
+      "/people/current/Alice_Oladipo.html",
+      "/people/current/Yateendra_Guthula.html",
+      "/people/current/Yuval_Noiman.html",
+      "/people/current/Talan_Saucedo-Lovejoy.html",
+      "/people/current/Alan_Do.html",
+      "/people/current/Philip_Ochieze.html",
+      "/people/current/Nick_Jackson.html",
+      "/people/current/Weihao_Li.html",
+      "/people/current/Ananth_Balasubramanian.html",
+      "/people/current/Emily_Crawley.html",
+      "/people/current/Sajjad_Hasan.html"
+    ]
+  },
+  {
+    "listing": "/capabilities/facilities.html",
+    "items": [
+      "/capabilities/capital-resources/fea.html",
+      "/capabilities/capital-resources/cfd.html",
+      "/capabilities/capital-resources/calphad.html",
+      "/capabilities/capital-resources/rollingmill.html",
+      "/capabilities/capital-resources/arcmelting.html"
+    ]
+  },
+  {
     "listing": "/people/alumni.html",
     "items": [
+      "/people/alumni/Okey_Obioha.html",
       "/people/alumni/Chris_Le.html",
       "/people/alumni/Praise_Robert.html",
       "/people/alumni/Zach_Miller.html",
@@ -13,6 +43,7 @@
       "/people/alumni/Aaron_McMillen.html",
       "/people/alumni/Bill_Voellmecke.html",
       "/people/alumni/Emilie_Maddox.html",
+      "/people/alumni/Darrian_Mathis.html",
       "/people/alumni/Sravya_Josyula.html",
       "/people/alumni/Josh_Maile.html",
       "/people/alumni/Gwynn_Pitz.html",
@@ -26,41 +57,6 @@
       "/people/alumni/Jesus_Acosta.html",
       "/people/alumni/Anh_Nguyen.html",
       "/people/alumni/Mikki_Keller_(von_Schaumberg).html"
-    ]
-  },
-  {
-    "listing": "/capabilities/index.html",
-    "items": [
-      "/capabilities/fea.html",
-      "/capabilities/cfd.html",
-      "/capabilities/calphad.html",
-      "/capabilities/rollingmill.html",
-      "/capabilities/arcmelting.html"
-    ]
-  },
-  {
-    "listing": "/people/current.html",
-    "items": [
-      "/people/current/Elif_Dursun.html",
-      "/people/current/Okey_Obioha.html",
-      "/people/current/Alice_Oladipo.html",
-      "/people/current/Yateendra_Guthula.html",
-      "/people/current/Yuval_Noiman.html",
-      "/people/current/Darrian_Mathis.html",
-      "/people/current/Alan_Do.html",
-      "/people/current/Philip_Ochieze.html",
-      "/people/current/Nick_Jackson.html",
-      "/people/current/Weihao_Li.html",
-      "/people/current/Ananth_Balasubramanian.html",
-      "/people/current/Sajjad_Hasan.html"
-    ]
-  },
-  {
-    "listing": "/overview/index.html",
-    "items": [
-      "/overview/cincinnati.html",
-      "/overview/service.html",
-      "/overview/teaching.html"
     ]
   }
 ]
