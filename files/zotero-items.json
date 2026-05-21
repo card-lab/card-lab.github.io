@@ -1,7 +1,7 @@
 [
   {
-    "key": "5ZYQZ36M",
-    "version": 1324,
+    "key": "9TT9RV3X",
+    "version": 1439,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -15,11 +15,299 @@
     },
     "links": {
       "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/5ZYQZ36M",
+        "href": "https://api.zotero.org/groups/5985739/items/9TT9RV3X",
         "type": "application/json"
       },
       "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/5ZYQZ36M",
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/9TT9RV3X",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Balasubramanian",
+      "parsedDate": "2026-10-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "9TT9RV3X",
+      "version": 1439,
+      "itemType": "presentation",
+      "title": "Microstructural characterization and mechanical behavior of Ti-Ti6Al4V layered structures produced by wrought-laser wire DED hybrid manufacturing",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Ananth",
+          "lastName": "Balasubramanian"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Nicholas",
+          "lastName": "Jackson"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Darrian J. J.",
+          "lastName": "Mathis"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Hybrid manufacturing may enable efficient production of novel complex components compared to either conventional wrought processing or additive manufacturing alone. Most studies to date have employed uniaxial tensile tests to predict interface strength, often overlooking how bulk deformation redistributes stress, masking interface behavior. In this work, 3-point bend testing and corresponding simulations were performed to assess interfacial\nstrength. The results demonstrated that the loading direction and position of the interface affect stress-strain behavior. Flexural strength increased when the wrought side is in compression. The AM side under tension fractured due to its low fracture toughness. Conversely, when the AM side is in compression, the flexural strength decreased, and crack growth was inhibited, preventing\nsample separation. Microstructure investigation revealed coarse equiaxed elongated grains in wrought CP-Ti, a mixture of fine equiaxed and martensitic grains along the interface, and fully martensitic grains on the AM side.",
+      "presentationType": "Submitted for student oral presentation in the symposium \"Additive Manufacturing: Design, Materials, Manufacturing, Challenges, and Applications\"",
+      "date": "2026-10-06",
+      "meetingName": "MS&T26: Materials Science & Technology",
+      "place": "Pittsburgh, PA, USA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10461",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-12T21:24:47Z",
+      "dateModified": "2026-05-16T15:47:45Z"
+    }
+  },
+  {
+    "key": "YX8DA6N5",
+    "version": 1438,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/YX8DA6N5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/YX8DA6N5",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Golsorkhi",
+      "parsedDate": "2026-10-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "YX8DA6N5",
+      "version": 1438,
+      "itemType": "presentation",
+      "title": "EBSD-Based Study of Recovery and Recrystallization in Ni-Rich NiTi During Minute-Scale Aging",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Syed Aref",
+          "lastName": "Golsorkhi"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Ayobami Alice",
+          "lastName": "Oladipo"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Melodie",
+          "lastName": "Fickenscher"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Matthew Alan",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Dinc",
+          "lastName": "Erdeniz"
+        }
+      ],
+      "abstractNote": "Recovery and recrystallization strongly influence the functional response of Ni-rich NiTi shape memory alloys by modifying defect density, grain structure, texture, and transformation pathways. In this study, hot-rolled Ni-rich NiTi was aged at 560 ºC for 1, 2, 4, 8, and 15 minutes to evaluate microstructural evolution during short-time heat treatment. Electron backscatter diffraction was used to quantify grain structure, grain kernel average misorientation, grain image quality, and crystallographic texture. The as-rolled condition exhibited high local misorientation and reduced pattern quality, consistent with stored deformation from hot rolling. After 1–2 minutes of aging, reduced local misorientation with retained deformation heterogeneity indicated recovery-dominated behavior. Near 4 minutes, improved pattern quality, lower misorientation, and clearer grain definition suggested active recrystallization. At 8 and 15 minutes, the microstructure approached a more stabilized recrystallized condition, with grain growth reducing orientation gradients and texture selectivity.",
+      "presentationType": "Submitted for student oral presentation in the symposium \"Microstructural Control in Materials Processing: Role of Phase Transformation Pathways\"",
+      "date": "2026-10-06",
+      "meetingName": "MS&T26: Materials Science & Technology",
+      "place": "Pittsburgh, PA, USA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10463",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-15T03:12:02Z",
+      "dateModified": "2026-05-16T15:47:40Z"
+    }
+  },
+  {
+    "key": "8E7V2LMI",
+    "version": 1437,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/8E7V2LMI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/8E7V2LMI",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Hasan",
+      "parsedDate": "2026-10-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "8E7V2LMI",
+      "version": 1437,
+      "itemType": "presentation",
+      "title": "Thermodynamic Modeling and CVD Synthesis of Mo, Nb, and V MXene Precursors",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Sajjad",
+          "lastName": "Hasan"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Nishat",
+          "lastName": "Sultana"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Jesus",
+          "lastName": "Acosta"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Phillisity C.",
+          "lastName": "Neal"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "MXenes promise for a wide variety of applications such as energy generation and\nstorage. Chemical Vapor Deposition (CVD) is a surface deposition technique that\ncan be used to form thin layers of carbides as precursors to MXense without the\nuse of hydrofluoric acid for etch exfoliation. In this research, we demonstrate\nthe CVD approach to develop stable MXene precursors in the form of MxC(x-1)\n(M=Mo, Nb, and V). A computational and theoretical approach was used to evaluate\nthe possibility of the formation of the materials, then experimental synthesis was performed to evaluate the predictions. The formation and composition of carbides was investigated using XRD, EDS and Raman spectroscopy. The\nresults demonstrate the potential of this technique to design and produce modified\nMXene for versatile applications, as well as fundamental challenges in understanding the thermodynamics and kinetics of the synthesis process.",
+      "presentationType": "Submitted for student oral presentation in the symposium \" Advances in Emerging Electronic Nanomaterials: Towards Next-Generation Microelectronics\"",
+      "date": "2026-10-06",
+      "meetingName": "MS&T26: Materials Science and Technology",
+      "place": "Pittsburgh, PA, USA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10468",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-16T15:44:39Z",
+      "dateModified": "2026-05-16T15:47:28Z"
+    }
+  },
+  {
+    "key": "UYWAIBVI",
+    "version": 1423,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/UYWAIBVI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/UYWAIBVI",
         "type": "text/html"
       }
     },
@@ -36,14 +324,14 @@
         }
       },
       "creatorSummary": "Josyula et al.",
-      "parsedDate": "2026-04-27",
-      "numChildren": 0
+      "parsedDate": "2026-05-15",
+      "numChildren": 1
     },
     "data": {
-      "key": "5ZYQZ36M",
-      "version": 1324,
+      "key": "UYWAIBVI",
+      "version": 1423,
       "itemType": "journalArticle",
-      "title": "Computational discovery of medium-entropy SMAs using CALPHAD, machine learning, and economic analysis",
+      "title": "Computational Discovery of Medium-Entropy SMAs using CALPHAD, Machine Learning, and Economic Analysis",
       "creators": [
         {
           "creatorType": "author",
@@ -81,12 +369,12 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "",
+      "abstractNote": "Abstract\n            High-temperature shape memory alloys (SMAs) are essential for advanced actuation in aerospace and energy systems, yet their continued development is constrained by challenges in both equilibrium and metastable phase prediction, transformation temperature control, and material sustainability. This study presents a data-driven framework for discovery and multi-objective optimization of novel, concentrated, multi-component SMA compositions that integrates high-throughput CALPHAD (calculation of phase diagrams) with machine learning (ML). The framework is used to identify regions of B2 phase which have potential for exhibiting transitions to the B19’ phase upon cooling. An Extra Trees regression model was trained to predict martensitic and austenitic transformation temperatures. Compositions were selected for experimental validation using cost and supply chain risk metrics to promote practical viability. Selected compositions were synthesized via arc melting for experimental validation using differential scanning calorimetry and dilatometry. The integrated approach enables rapid exploration of complex compositional spaces, linking thermodynamic calculations with functional behavior and real-world constraints. Strengths and limitations of ML in the alloy optimization context are exposed and discussed, along with prospects of such a framework as a scalable pathway for accelerating the discovery and optimization of high-performance SMAs with tailored transformation behavior.",
       "publicationTitle": "Journal of Phase Equilibria and Diffusion",
       "publisher": "",
       "place": "",
-      "date": "2026-04-27",
-      "volume": "in press",
+      "date": "2026-05-15",
+      "volume": "",
       "issue": "",
       "section": "",
       "partNumber": "",
@@ -95,14 +383,649 @@
       "series": "",
       "seriesTitle": "",
       "seriesText": "",
-      "journalAbbreviation": "",
+      "journalAbbreviation": "J. Phase Equilib. Diffus.",
       "DOI": "10.1007/s11669-026-01250-6",
-      "citationKey": "josyulaComputationalDiscoveryMediumentropy2026",
-      "url": "",
-      "accessDate": "",
+      "citationKey": "josyulaComputationalDiscoveryMediumEntropy2026",
+      "url": "https://link.springer.com/10.1007/s11669-026-01250-6",
+      "accessDate": "2026-05-15T18:10:17Z",
       "PMID": "",
       "PMCID": "",
-      "ISSN": "",
+      "ISSN": "1547-7037, 1863-7345",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CALPHAD"
+        },
+        {
+          "tag": "machine learning"
+        },
+        {
+          "tag": "martensitic transformation"
+        },
+        {
+          "tag": "materials characterization"
+        },
+        {
+          "tag": "metastability"
+        },
+        {
+          "tag": "phase transitions"
+        },
+        {
+          "tag": "shape memory alloys"
+        }
+      ],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-15T18:10:17Z",
+      "dateModified": "2026-05-15T18:13:00Z"
+    }
+  },
+  {
+    "key": "9Q4YRSZ4",
+    "version": 1417,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/9Q4YRSZ4",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/9Q4YRSZ4",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/5985739/items/UYWAIBVI",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "9Q4YRSZ4",
+      "version": 1417,
+      "parentItem": "UYWAIBVI",
+      "itemType": "attachment",
+      "linkMode": "imported_file",
+      "title": "PDF",
+      "accessDate": "",
+      "url": "",
+      "note": "",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "Josyula et al. - 2026 - Computational Discovery of Medium-Entropy SMAs using CALPHAD, Machine Learning, and Economic Analysi.pdf",
+      "md5": "6991fa0210c9eb65806c715f54f7b24e",
+      "mtime": 1778868684309,
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-05-15T18:11:24Z",
+      "dateModified": "2026-05-15T18:11:24Z"
+    }
+  },
+  {
+    "key": "WSTRQYF3",
+    "version": 1406,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/WSTRQYF3",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/WSTRQYF3",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Li",
+      "parsedDate": "2026-10-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "WSTRQYF3",
+      "version": 1406,
+      "itemType": "presentation",
+      "title": "Heterogeneous Deformation in Al/Ti Laminated Composites Processed by ARB: Role of Microstructure and Interface Evolution",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Weihao",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Syed Aref",
+          "lastName": "Golsorkhi"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Nicholas",
+          "lastName": "Jackson"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Ananth",
+          "lastName": "Balasubramanian"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Poster presentation in the symposium \"2026 Graduate Student Poster Contest\"",
+      "date": "2026-10-06",
+      "meetingName": "MS&T26: Materials Science & Technology",
+      "place": "Pittsburgh, PA, USA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10462",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-12T21:27:30Z",
+      "dateModified": "2026-05-15T03:13:07Z"
+    }
+  },
+  {
+    "key": "Y4AEX93Q",
+    "version": 1378,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/Y4AEX93Q",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/Y4AEX93Q",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Noiman",
+      "parsedDate": "2026-10-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "Y4AEX93Q",
+      "version": 1378,
+      "itemType": "presentation",
+      "title": "Supply risk and cost-aware multi-objective materials discovery",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Yuval",
+          "lastName": "Noiman"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Sravya",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Rapid exploration of complex compositional spaces through linking thermodynamic\ncalculations with functional behavior and real-world constraints is desired to develop novel material for applications such as aerospace or electronics. We designed a data-driven framework for doing multi-objective optimization based on material properties, supply risk, cost and integrating high-throughput CALPHAD (calculation of phase diagrams) with machine learning (ML). The\ntechnique is sufficiently general to be applicable to any material family for which data is available. We demonstrate the approach through composition optimization of shape memory alloys (SMAs), then validate the result on\nseveral novel compositions predicted by the approach. The technique and its validation will be discussed in the context of machine learning predicted trends on future stability of supply chain and price.",
+      "presentationType": "Submitted for student oral presentation in the symposium \"Progress in High Entropy Materials: Integrating Experiments, Computation, and Machine Learning\"",
+      "date": "2026-10-06",
+      "meetingName": "MS&T26: Materials Science & Technology",
+      "place": "Pittsburgh, PA, USA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10460",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-12T21:21:56Z",
+      "dateModified": "2026-05-12T21:24:11Z"
+    }
+  },
+  {
+    "key": "P8EQX2FC",
+    "version": 1369,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/P8EQX2FC",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/P8EQX2FC",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Jackson",
+      "parsedDate": "2026-10-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "P8EQX2FC",
+      "version": 1369,
+      "itemType": "presentation",
+      "title": "Characterization of forged axe microstructure",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Nicholas",
+          "lastName": "Jackson"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Yuval",
+          "lastName": "Noiman"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Weihao",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Nicholas",
+          "lastName": "Simpson"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "The microstructure of a forged steel axe produced for the FIERF forging\ncompetition is characterized using scanning electron microscopy (SEM), electron\nbackscatter diffraction (EBSD), and energy dispersive X-ray spectroscopy (EDS).\nSEM provides high resolution imaging of deformation features, carbide distributions, and forging induced heterogeneities. EDS is used to verify elemental composition and assess chemical uniformity throughout the forged\ncomponent. EBSD mapping enables quantitative evaluation of grain size, crystallographic texture, and phase distribution, offering insight into\nstrain partitioning, recrystallization behavior, and the effectiveness of the thermomechanical processing route. Together, these techniques reveal the microstructural refinement and phase evolution generated during forging and establish clear links between processing conditions and the resulting material state. This integrated SEM EBSD EDS approach demonstrates the value of\nmultimodal characterization for understanding microstructure–property relationships in forged steels.",
+      "presentationType": "Poster presentation in the symposium \"2026 Graduate Student Poster Contest\"",
+      "date": "2026-10-06",
+      "meetingName": "MS&T26: Materials Science & Technology",
+      "place": "Pittsburgh, PA, USA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10459",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-12T21:19:01Z",
+      "dateModified": "2026-05-12T21:21:56Z"
+    }
+  },
+  {
+    "key": "3NAFNSSY",
+    "version": 1358,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/3NAFNSSY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/3NAFNSSY",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Oladipo",
+      "parsedDate": "2026-10-05",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "3NAFNSSY",
+      "version": 1358,
+      "itemType": "presentation",
+      "title": "Correlation of the effect of carbon on the orientation relationship in the intercritical annealing temperature range of steel",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Ayobami Alice",
+          "lastName": "Oladipo"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Matthew Alan",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "he equilibrium carbon concentration of austenite is a function of the temperature at time of transformation, causing a variation in the\norientation relationship (OR) between the parent and transformed phase. In the intercritical region of a steel weld, the highest temperature reached induces partial austenization which influences the composition of austenite. As a\nresult, the crystallography of the transformed martensite phase is impacted, therefore the performance of the steel component. To ascertain if the peak temperature could be determined from the OR of a plain carbon steel\nquenched from intercritical temperature range. This study investigates the correlation of the measured OR with the atomic carbon content of austenite. The crystallographic characteristics are characterized using electron backscatter\ndiffraction (EBSD) and presented in terms of angular deviation from Bain correspondence. The OR demonstrates a progressive variation with the equilibrium atomic content which is indicative of the temperature at transformation.",
+      "presentationType": "Accepted for oral presentation in the symposium \"Developments in Plate and Line Pipe Steels\"",
+      "date": "2026-10-05",
+      "meetingName": "MS&T26: Materials Science & Technology",
+      "place": "Pittsburgh, PA, USA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10457",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-12T21:07:57Z",
+      "dateModified": "2026-05-12T21:17:33Z"
+    }
+  },
+  {
+    "key": "9S56CUF5",
+    "version": 1357,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/9S56CUF5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/9S56CUF5",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Dursun",
+      "parsedDate": "2026-10-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "9S56CUF5",
+      "version": 1357,
+      "itemType": "presentation",
+      "title": "Investigation of the local lattice orientations on single crystal Ni-based superalloy microstructures after creep exposure",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Elif Betun",
+          "lastName": "Dursun"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Gunther",
+          "lastName": "Eggeler"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Leonardo",
+          "lastName": "Agudo Jácome"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Local misorientations evolve during creep while microstructure evolves. In this study, we used EBSD to study the evolution of local misorientations in the γ/γ´microstructure of a single crystal after exposures to high temperature, low stress creep. We analyzed fields corresponding to almost 1000 γ´ particles\nin the initial state and employed a new method that allows for differentiation between diffraction signals from γ and γ´ phase regions. We examined the spatial relationships between locations where misorientation accumulation\noccurs for dendritic and interdendritic regions for different loading directions. It is observed that intra- and inter-phase misorientations\nincrease as dislocation density increases, then saturates. The dislocation densities were higher in γ channels than in γ´ particles on the micron size. Geometrically necessary misorientations on the microscale are observed to cancel each other out, resulting in undetectable macroscopic change in crystal orientation for accumulated plastic strains of 6%.",
+      "presentationType": "Poster presentation in the symposium \"2026 Graduate Student Poster Contest\"",
+      "date": "2026-10-06",
+      "meetingName": "MS&T26: Materials Science & Technology",
+      "place": "Pittsburgh, PA, USA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10458",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-12T21:14:08Z",
+      "dateModified": "2026-05-12T21:17:16Z"
+    }
+  },
+  {
+    "key": "C4V6F5LV",
+    "version": 1334,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/C4V6F5LV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/C4V6F5LV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ochieze et al.",
+      "parsedDate": "2026-05-12",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "C4V6F5LV",
+      "version": 1334,
+      "itemType": "manuscript",
+      "title": "Anomalous Behavior of Dilute Phosphorus Alloying on Phase Transformations in the Fe-Ni System",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "U. P.",
+          "lastName": "Ochieze"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A. S.",
+          "lastName": "Golsorkhi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M. A.",
+          "lastName": "Steiner"
+        }
+      ],
+      "abstractNote": "",
+      "manuscriptType": "",
+      "institution": "",
+      "place": "",
+      "date": "2026-05-12",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10456",
+      "url": "",
+      "accessDate": "",
       "archive": "",
       "archiveLocation": "",
       "shortTitle": "",
@@ -113,11 +1036,106 @@
       "extra": "",
       "tags": [],
       "collections": [
-        "DYSCMR9B"
+        "W788PN5I"
       ],
       "relations": {},
-      "dateAdded": "2025-12-16T00:00:44Z",
-      "dateModified": "2026-05-07T15:02:14Z"
+      "dateAdded": "2026-05-12T10:07:50Z",
+      "dateModified": "2026-05-12T10:09:58Z"
+    }
+  },
+  {
+    "key": "X5EIIH4M",
+    "version": 1325,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/X5EIIH4M",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/X5EIIH4M",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Josyula et al.",
+      "parsedDate": "2025-12-15",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "X5EIIH4M",
+      "version": 1325,
+      "itemType": "manuscript",
+      "title": "Physics-augmented machine learning for predicting martensite transformation temperatures in shape memory alloys",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Sravya",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuval",
+          "lastName": "Noiman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthew Alan",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning (ML) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of ML models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor (ETR) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the ML model, an R2 value of 0.99 can be reached.",
+      "manuscriptType": "",
+      "institution": "",
+      "place": "Prepared for submission to IMMI",
+      "date": "2025-12-15",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "josyulaPhysicsaugmentedMachineLearning2025",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2025-08-18T09:31:33Z",
+      "dateModified": "2026-05-12T10:05:34Z"
     }
   },
   {
@@ -213,101 +1231,6 @@
       "relations": {},
       "dateAdded": "2026-04-06T13:33:47Z",
       "dateModified": "2026-04-06T14:22:23Z"
-    }
-  },
-  {
-    "key": "X5EIIH4M",
-    "version": 1287,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/X5EIIH4M",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/X5EIIH4M",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Josyula et al.",
-      "parsedDate": "2025-12-15",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "X5EIIH4M",
-      "version": 1287,
-      "itemType": "manuscript",
-      "title": "Physics-augmented machine learning for predicting martensite transformation temperatures in shape memory alloys",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Sravya",
-          "lastName": "Josyula"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Yuval",
-          "lastName": "Noiman"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matthew Alan",
-          "lastName": "Steiner"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning (ML) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of ML models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor (ETR) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the ML model, an R2 value of 0.99 can be reached.",
-      "manuscriptType": "",
-      "institution": "",
-      "place": "Under review at Computational Materials Today",
-      "date": "2025-12-15",
-      "numPages": "",
-      "number": "",
-      "DOI": "",
-      "citationKey": "josyulaPhysicsaugmentedMachineLearning2025",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2025-08-18T09:31:33Z",
-      "dateModified": "2026-04-06T14:21:48Z"
     }
   },
   {
