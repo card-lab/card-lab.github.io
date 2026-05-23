@@ -79,14 +79,9 @@ Generally, just:
 ## TO DO
 
 * Make slideshow.qmd date format in all caps like the other pages
-* Updated descriptions of equipment/capabilities was lost on recent commits
 * About UC page
-* Add links to conferences for presentations on people's pages
-* Add links to DOIs and dissertations on people's pages
-* Make the icons for citation metrics and open access in-line with the citation for people's pages
 * Order the pages by number of publications, presentations, and citations
 * New "group roles" visualization with the number of MS, PhD, and undergraduates working in the group as a treemap.
 * Move current citation map over to PI page
-* Add pictures to equipment
 * Add AMCC to the facilities
 * Add regional facilities and shared facilities

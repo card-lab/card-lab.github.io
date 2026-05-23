@@ -10,7 +10,7 @@ listing:
   image-placeholder: files/images/anon.jpg
   date-format: "MMM YYYY"
   categories: numbered
-  image-height: 225px
+  image-height: 250px
   grid-columns: 4
   max-items: 100 # Show all items
   filter-ui: [categories, date, title]

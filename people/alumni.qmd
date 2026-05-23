@@ -9,7 +9,7 @@ listing:
   sort: "member-to desc"
   image-placeholder: files/images/anon.jpg
   date-format: "MMM YYYY"
-  image-height: 225px
+  image-height: 250px
   grid-columns: 4
   page-size: 100
   categories: numbered

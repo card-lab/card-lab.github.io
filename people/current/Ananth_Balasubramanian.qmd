@@ -21,10 +21,10 @@ about:
       url: https://www.linkedin.com/in/ananthbala95
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0001-0431-5822
-    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![](https://flagcdn.com/in.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Republic_of_India
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio
 

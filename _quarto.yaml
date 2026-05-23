@@ -5,6 +5,7 @@ project:
     - scripts/pre-render-timeline-slideshow-photos.sh
     - scripts/pre-render-people-action.sh
   post-render:
+    - scripts/post-render-sync-site-assets.sh
     - scripts/post-render-encrypt-private.sh
     - python3 scripts/post-render-generate-sitemap.py
 

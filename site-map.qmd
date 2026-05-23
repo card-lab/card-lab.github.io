@@ -4,16 +4,156 @@ format: html
 ---
 
 ```{=html}
-<div id="sitemap-meta" style="margin-bottom: 1rem; font-size: 0.95rem;"></div>
-<div id="sitemap-network" style="height: 70vh; min-height: 520px; border: 1px solid #d9d9d9; border-radius: 10px;"></div>
-<div id="sitemap-selected" style="margin-top: 1rem;"></div>
+<style>
+  .sitemap-shell {
+    display: grid;
+    gap: 1rem;
+  }
 
-<script src="https://unpkg.com/vis-network@9.1.8/standalone/umd/vis-network.min.js"></script>
+  .sitemap-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.8rem;
+  }
+
+  .sitemap-stat {
+    border: 1px solid #d9d9d9;
+    border-radius: 12px;
+    padding: 0.9rem 1rem;
+    background: #fafafa;
+  }
+
+  .sitemap-stat-label {
+    display: block;
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 0.25rem;
+  }
+
+  .sitemap-stat-value {
+    font-size: 1.45rem;
+    font-weight: 700;
+    color: #111827;
+  }
+
+  .sitemap-note {
+    margin: 0;
+    color: #4b5563;
+  }
+
+  .sitemap-groups {
+    display: grid;
+    gap: 0.9rem;
+  }
+
+  .sitemap-group {
+    border: 1px solid #d9d9d9;
+    border-radius: 12px;
+    background: #fff;
+    overflow: hidden;
+  }
+
+  .sitemap-group summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 0.95rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background: linear-gradient(180deg, #fbfbfb 0%, #f4f4f4 100%);
+  }
+
+  .sitemap-group summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .sitemap-group-title {
+    font-weight: 700;
+    color: #111827;
+  }
+
+  .sitemap-group-count {
+    color: #6b7280;
+    font-size: 0.92rem;
+    white-space: nowrap;
+  }
+
+  .sitemap-list {
+    display: grid;
+    gap: 0;
+  }
+
+  .sitemap-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.75rem;
+    padding: 0.9rem 1rem;
+    border-top: 1px solid #ececec;
+    align-items: start;
+  }
+
+  .sitemap-item:first-child {
+    border-top: 0;
+  }
+
+  .sitemap-link {
+    color: #8b0000;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .sitemap-link:hover,
+  .sitemap-link:focus {
+    text-decoration: underline;
+  }
+
+  .sitemap-path {
+    margin-top: 0.15rem;
+    font-size: 0.92rem;
+    color: #6b7280;
+    word-break: break-word;
+  }
+
+  .sitemap-badges {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .sitemap-badge {
+    border-radius: 999px;
+    background: #f3f4f6;
+    color: #374151;
+    font-size: 0.78rem;
+    padding: 0.2rem 0.55rem;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 700px) {
+    .sitemap-item {
+      grid-template-columns: 1fr;
+    }
+
+    .sitemap-badges {
+      justify-content: flex-start;
+    }
+  }
+</style>
+
+<div class="sitemap-shell">
+  <div id="sitemap-meta" class="sitemap-summary"></div>
+  <p class="sitemap-note">This page lists the published pages on the site grouped by section, with basic internal link counts.</p>
+  <div id="sitemap-groups" class="sitemap-groups"></div>
+</div>
+
 <script>
 (async function () {
   const meta = document.getElementById("sitemap-meta");
-  const container = document.getElementById("sitemap-network");
-  const selected = document.getElementById("sitemap-selected");
+  const groupsContainer = document.getElementById("sitemap-groups");
 
   function escapeHtml(str) {
     return String(str)
@@ -58,92 +198,85 @@ format: html
   try {
     const data = await loadSitemapData();
 
-    if (!window.vis || !window.vis.Network || !window.vis.DataSet) {
-      throw new Error("vis-network library failed to load; check network/content blockers.");
+    function normalizeLabel(label) {
+      return String(label)
+        .replace(/\s+[\u2013-]\s+Critical Alloy Research &amp; Discovery Lab$/i, "")
+        .replace(/\s+[\u2013-]\s+Critical Alloy Research & Discovery Lab$/i, "")
+        .trim();
     }
 
-    const nodes = data.nodes.map((n) => ({
-      id: n.id,
-      label: n.label,
-      title:
-        `<b>${escapeHtml(n.label)}</b><br>` +
-        `Path: ${escapeHtml(n.path)}<br>` +
-        `In links: ${n.indegree}<br>` +
-        `Out links: ${n.outdegree}`,
-      value: Math.max(1, n.degree),
-      shape: "dot"
-    }));
-
-    const edges = data.edges.map((e) => ({
-      from: e.source,
-      to: e.target,
-      arrows: "to",
-      color: { color: "#8a8f98", opacity: 0.55 },
-      width: 1.25,
-      smooth: { enabled: true, type: "dynamic" }
-    }));
-
-    const network = new vis.Network(
-      container,
-      { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) },
-      {
-        autoResize: true,
-        interaction: {
-          hover: true,
-          tooltipDelay: 100,
-          navigationButtons: true,
-          keyboard: true
-        },
-        physics: {
-          stabilization: { iterations: 250 },
-          barnesHut: { gravitationalConstant: -4800, springLength: 130, springConstant: 0.03 }
-        },
-        nodes: {
-          borderWidth: 1,
-          color: {
-            border: "#1f2937",
-            background: "#9ec5fe",
-            highlight: { border: "#0f172a", background: "#f59e0b" }
-          },
-          scaling: {
-            min: 8,
-            max: 36,
-            label: { enabled: true, min: 12, max: 24, drawThreshold: 8 }
-          },
-          font: { size: 12, face: "Helvetica Neue, Helvetica, Arial, sans-serif", strokeWidth: 2, strokeColor: "#ffffff" }
-        },
-        edges: {
-          selectionWidth: 2.5,
-          hoverWidth: 2.2
-        }
-      }
-    );
-
-    meta.innerHTML = `<strong>Pages:</strong> ${data.nodeCount} | <strong>Internal links:</strong> ${data.edgeCount}`;
-
-    network.on("click", (params) => {
-      if (!params.nodes.length) {
-        selected.innerHTML = "";
-        return;
-      }
-      const id = params.nodes[0];
-      const node = data.nodes.find((n) => n.id === id);
-      if (!node) {
-        selected.innerHTML = "";
-        return;
+    function groupNameForPath(path) {
+      const clean = String(path || "").replace(/^\/+/, "");
+      const segments = clean.split("/");
+      if (!clean || clean === "index.html" || segments.length === 1) {
+        return "Main Pages";
       }
 
-      selected.innerHTML =
-        `<div style=\"padding:0.7rem 0.9rem;border:1px solid #e5e7eb;border-radius:8px;background:#f9fafb;\">` +
-        `<strong>${escapeHtml(node.label)}</strong><br>` +
-        `<a href=\"${escapeHtml(id)}\">Open page</a><br>` +
-        `Path: ${escapeHtml(node.path)}<br>` +
-        `Incoming links: ${node.indegree} | Outgoing links: ${node.outdegree}` +
-        `</div>`;
-    });
+      const root = segments[0];
+      const labels = {
+        capabilities: "Capabilities",
+        people: "People",
+        research: "Research",
+        files: "Files"
+      };
+      return labels[root] || root.replace(/[-_]/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+    }
+
+    const grouped = new Map();
+    const nodes = [...data.nodes].sort((a, b) => a.path.localeCompare(b.path));
+    for (const node of nodes) {
+      const groupName = groupNameForPath(node.path);
+      if (!grouped.has(groupName)) {
+        grouped.set(groupName, []);
+      }
+      grouped.get(groupName).push(node);
+    }
+
+    const maxDegree = nodes.reduce((max, node) => Math.max(max, Number(node.degree || 0)), 0);
+    const topPage = nodes.find((node) => Number(node.degree || 0) === maxDegree);
+
+    meta.innerHTML = [
+      `<div class="sitemap-stat"><span class="sitemap-stat-label">Pages</span><span class="sitemap-stat-value">${data.nodeCount}</span></div>`,
+      `<div class="sitemap-stat"><span class="sitemap-stat-label">Internal Links</span><span class="sitemap-stat-value">${data.edgeCount}</span></div>`,
+      `<div class="sitemap-stat"><span class="sitemap-stat-label">Sections</span><span class="sitemap-stat-value">${grouped.size}</span></div>`,
+      `<div class="sitemap-stat"><span class="sitemap-stat-label">Most Connected</span><span class="sitemap-stat-value" style="font-size:1rem;line-height:1.35;">${topPage ? escapeHtml(normalizeLabel(topPage.label)) : "N/A"}</span></div>`
+    ].join("");
+
+    groupsContainer.innerHTML = Array.from(grouped.entries())
+      .sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([groupName, groupNodes]) => {
+        const items = groupNodes
+          .map((node) => {
+            const label = normalizeLabel(node.label);
+            return (
+              `<div class="sitemap-item">` +
+              `<div>` +
+              `<a class="sitemap-link" href="${escapeHtml(node.id)}">${escapeHtml(label)}</a>` +
+              `<div class="sitemap-path">${escapeHtml(node.path)}</div>` +
+              `</div>` +
+              `<div class="sitemap-badges">` +
+              `<span class="sitemap-badge">In ${node.indegree}</span>` +
+              `<span class="sitemap-badge">Out ${node.outdegree}</span>` +
+              `</div>` +
+              `</div>`
+            );
+          })
+          .join("");
+
+        return (
+          `<details class="sitemap-group" open>` +
+          `<summary>` +
+          `<span class="sitemap-group-title">${escapeHtml(groupName)}</span>` +
+          `<span class="sitemap-group-count">${groupNodes.length} page${groupNodes.length === 1 ? "" : "s"}</span>` +
+          `</summary>` +
+          `<div class="sitemap-list">${items}</div>` +
+          `</details>`
+        );
+      })
+      .join("");
   } catch (err) {
     meta.innerHTML = `<span style="color:#b91c1c;">Sitemap could not be loaded.</span>`;
-    container.innerHTML = `<div style="padding:1rem;color:#374151;">${escapeHtml(err.message)}</div>`;
+    groupsContainer.innerHTML = `<div style="padding:1rem;color:#374151;border:1px solid #d9d9d9;border-radius:10px;">${escapeHtml(err.message)}</div>`;
   }
 })();
 </script>
