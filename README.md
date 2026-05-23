@@ -80,20 +80,13 @@ Generally, just:
 
 * Make slideshow.qmd date format in all caps like the other pages
 * Updated descriptions of equipment/capabilities was lost on recent commits
-* Make sure all bibliography rendering refers to the same Zotero resource in the repository
-* Downsample images upon copy from private folder for faster page loading
 * About UC page
-* Local saving of citation counts and trees
-* Github action to re-render once a week for updating citation counts and people's pages
 * Add links to conferences for presentations on people's pages
 * Add links to DOIs and dissertations on people's pages
 * Make the icons for citation metrics and open access in-line with the citation for people's pages
 * Order the pages by number of publications, presentations, and citations
 * New "group roles" visualization with the number of MS, PhD, and undergraduates working in the group as a treemap.
-* Update the "places we have called home" map to be created in plotly
-* Improve the citation map to be only from CARD lab
 * Move current citation map over to PI page
-* Create collaborators list/map/network visualization
 * Add pictures to equipment
 * Add AMCC to the facilities
 * Add regional facilities and shared facilities

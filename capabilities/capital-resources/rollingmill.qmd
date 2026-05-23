@@ -1,5 +1,6 @@
 ---
 title: "Hot rolling mill"
+image: "/files/photos/Capabilities/IMG_3098.jpeg"
 categories: [equipment, "secondary processing", "905C Rhodes Hall"]
 ---
 
@@ -8,6 +9,8 @@ International Rolling Mills IRM-2050.
 ::: {.callout-note}
 *Rolling* is a metal forming process that involves passing a material through a pair of rolls to reduce its thickness, improve its surface finish, and enhance its mechanical properties. This shaping process is used for producing sheet metal, plates, and structural components. Some 90% of all metal products go through a rolling process at some point in their manufacturing.
 :::
+
+![](/files/photos/Capabilities/IMG_3098.jpeg){image-alt="IRM-2050 Hot rolling mill in CARD Lab, 905C Rhodes Hall"}
 
 Features:
 

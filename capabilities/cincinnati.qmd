@@ -7,7 +7,7 @@ language:
 format: html
 ---
 
-The CARD lab is located at the University of Cincinnati, in the Clifton neighborhood of Cincinnati, Ohio. The Cincinnati-Dayton metropolitan region has a rich history in manufacturing and materials science, making it an ideal location for our research -- *and inseparable from our capabilities*.
+The CARD lab is located at the University of Cincinnati, in the Clifton neighborhood of Cincinnati, Ohio. The Cincinnati-Dayton metropolitan region has a rich history in manufacturing and materials science, making it an ideal location for our research.
 
 The Cincinnati metropolitan area is the 28th largest in the United States, with a population of over 2 million people. 
 

@@ -265,7 +265,7 @@ include-in-header:
     'artwork','audioRecording','bill','blogPost','book','bookSection','case','computerProgram',
     'conferencePaper','dictionaryEntry','document','email','encyclopediaArticle','film','forumPost',
     'hearing','instantMessage','interview','journalArticle','letter','magazineArticle','manuscript',
-    'map','newspaperArticle','patent','podcast','presentation','radioBroadcast','report','statute',
+    'map','newspaperArticle','patent','podcast','preprint','presentation','radioBroadcast','report','statute',
     'thesis','tvBroadcast','videoRecording','webpage'
     ]);
 
@@ -276,8 +276,8 @@ include-in-header:
     email: 'Email', encyclopediaArticle: 'Encyclopedia Article', film: 'Film', forumPost: 'Forum Post',
     hearing: 'Hearing', instantMessage: 'Instant Message', interview: 'Interview', journalArticle: 'Journal Article',
     letter: 'Letter', magazineArticle: 'Magazine Article', manuscript: 'Manuscript', map: 'Map',
-    newspaperArticle: 'Newspaper Article', patent: 'Patent', podcast: 'Podcast', presentation: 'Presentation',
-    radioBroadcast: 'Radio Broadcast', report: 'Report', statute: 'Statute', thesis: 'Thesis',
+    newspaperArticle: 'Newspaper Article', patent: 'Patent', podcast: 'Podcast', preprint: 'Preprint',
+    presentation: 'Presentation', radioBroadcast: 'Radio Broadcast', report: 'Report', statute: 'Statute', thesis: 'Thesis',
     tvBroadcast: 'TV Broadcast', videoRecording: 'Video Recording', webpage: 'Web Page'
     };
     
@@ -440,6 +440,7 @@ include-in-header:
         typeFilter.appendChild(allTypeOption);
 
         Array.from(types).sort().forEach(type => {
+            if (type === 'preprint') return;
             const option = document.createElement('option');
             option.value = type;
             option.textContent = typeLabels[type] || type;
@@ -484,23 +485,31 @@ include-in-header:
             : formatAuthors(mainContributors);
         const formattedEditors = editors.length > 0 ? formatAuthors(editors) : null;
         const year = extractYear(d.date), number = total - index, sentenceTitle = toSentenceCasePreserveBracesAcronymsElements(d.title);
+        const fullDate = (d.date || '').toString().trim();
+        const isManuscriptLike = d.itemType === 'manuscript' || d.itemType === 'preprint';
         let citation = `[${number}] ${formattedAuthors}`;
         if (d.itemType === 'computerProgram') citation += ` (${mainContributors.length === 1 ? 'contributor' : 'contributors'})`;
         citation += `. “${sentenceTitle}.”`;
         if (d.itemType === 'book') citation += ` <span class="underline">${d.bookTitle || d.title}</span>`;
         if (d.itemType === 'thesis') { citation += ` ${d.thesisType || "Thesis"}`; if (d.university) citation += `, ${d.university}`; if (d.place) citation += `, ${d.place}`; }
         if (d.itemType === 'report') { if (d.reportNumber) citation += ` Report No. ${d.reportNumber}`; if (d.place) citation += `, ${d.place}`; if (d.institution) citation += `: ${d.institution}.`; }
+        if (isManuscriptLike) { if (d.place) citation += `, ${d.place}`; if (fullDate) citation += ` (${fullDate})`; }
         if (d.itemType === 'computerProgram') { if (d.version) citation += ` Version ${d.version}`; if (d.date) citation += ` ${d.date}`; if (d.place) citation += `, ${d.place}`; if (d.institution) citation += `: ${d.institution}.`; }
         if (d.itemType === 'conferencePaper' || d.itemType === 'proceedingsArticle') { if (d.proceedingsTitle) citation += ` In <span class="italic">${d.proceedingsTitle}</span>`; if (editors.length > 0) citation += `. ${formattedEditors} (${editors.length === 1 ? 'ed.' : 'eds.'})`; if (d.place) citation += `. ${d.place}`; if (d.publisher) citation += `: ${d.publisher}`; }
         if (d.publicationTitle) citation += ` <span class="italic">${d.publicationTitle}</span>`;
         if (d.volume) citation += ` <span class="bold">${d.volume}</span>`;
         if (d.issue) citation += `(${d.issue})`;
         if (d.itemType === 'presentation') { if (d.presentationType) citation += ` ${d.presentationType}`; if (d.meetingName) citation += ` at <span class="italic">${d.meetingName}</span>`; if (d.place) citation += `, ${d.place}`; if (d.date) citation += `, ${d.date}`; }
-        if (year) citation += ` (${year})`;
+        if (isManuscriptLike) {
+            if (d.DOI) citation += ` <a href="https://doi.org/${d.DOI}" target="_blank">doi:${d.DOI}</a>`;
+            else if (d.url) citation += ` <a href="${d.url}" target="_blank">${d.url}</a>`;
+        } else if (year) citation += ` (${year})`;
         if (d.pages) citation += ` p.${d.pages}`;
         if (!citation.trim().endsWith('.')) citation += '.';
-        if (d.DOI) citation += ` <a href="https://doi.org/${d.DOI}" target="_blank">doi:${d.DOI}</a>`;
-        else if (d.url) citation += ` <a href="${d.url}" target="_blank">${d.url}</a>`;
+        if (!isManuscriptLike) {
+            if (d.DOI) citation += ` <a href="https://doi.org/${d.DOI}" target="_blank">doi:${d.DOI}</a>`;
+            else if (d.url) citation += ` <a href="${d.url}" target="_blank">${d.url}</a>`;
+        }
         return `<div class="citation">${citation}</div>`;
     }
 
@@ -531,7 +540,11 @@ include-in-header:
         const d = item.data;
         const year = extractYear(d.date);
         const matchesYear = yearVal ? year === yearVal : true;
-        const matchesType = typeVal ? d.itemType === typeVal : true;
+        const matchesType = typeVal
+        ? (typeVal === 'manuscript'
+            ? (d.itemType === 'manuscript' || d.itemType === 'preprint')
+            : d.itemType === typeVal)
+        : true;
         const authors = formatAuthors(d.creators).toLowerCase();
         const title = (d.title || '').toLowerCase();
         const pub = (d.publicationTitle || '').toLowerCase();
@@ -683,7 +696,11 @@ include-in-header:
         const d = item.data;
         const year = extractYear(d.date);
         const matchesYear = yearVal ? year === yearVal : true;
-        const matchesType = typeVal ? d.itemType === typeVal : true;
+        const matchesType = typeVal
+        ? (typeVal === 'manuscript'
+            ? (d.itemType === 'manuscript' || d.itemType === 'preprint')
+            : d.itemType === typeVal)
+        : true;
         return matchesYear && matchesType;
     });
 
