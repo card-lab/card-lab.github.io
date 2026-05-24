@@ -10,9 +10,9 @@ project:
   post-render:
     - scripts/post-render-sync-site-assets.sh
     - scripts/post-render-encrypt-private.sh
-    - python3 scripts/post-render-generate-sitemap.py
-    - python3 scripts/qc_check.py
-    - python3 -c "import shutil; shutil.copy('scripts/qc_report.html', 'docs/qc_report.html')"
+    - conda run -n card-lab python scripts/post-render-generate-sitemap.py
+    - conda run -n card-lab python scripts/qc_check.py
+    - conda run -n card-lab python -c "import shutil; shutil.copy('scripts/qc_report.html', 'docs/qc_report.html')"
 
 execute:
   echo: false  # Hide all code by default
@@ -87,8 +87,10 @@ website:
       contents: 
         - href: capabilities/facilities.qmd
           text: "Facilities"
+        - href: capabilities/mmie-research.qmd
+          text: "Research @ UC MMIE"
         - href: capabilities/cincinnati.qmd
-          text: "Cincinnati"
+          text: "Cincinnati, OH"
         - href: capabilities/teaching.qmd
           text: "Teaching"
         - href: capabilities/service.qmd

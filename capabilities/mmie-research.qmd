@@ -1,0 +1,358 @@
+---
+title: "Mechanical, Materials, and Industrial Engineering Research at the University of Cincinnati"
+date: today
+format:
+  html:
+    embed-resources: true
+    link-external-newwindow: true
+jupyter: card-lab
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+<!-- ============================================================
+     HOW TO UPDATE THIS PAGE
+     ============================================================
+     Fact/value boxes and key statistics are stored in the YAML
+     data file  `_mmie_data.yml`  (created alongside this .qmd).
+
+     Option A – Manual update (fastest, no API key needed):
+       1. Open `_mmie_data.yml` and edit the values directly.
+       2. Re-render: `quarto render uc_mmie_overview.qmd`
+
+     Option B – AI-assisted update (recommended every semester):
+       1. Make sure the environment variable ANTHROPIC_API_KEY is set.
+       2. Run the helper script:
+              python update_mmie_data.py
+          The script scrapes the UC/CEAS websites, sends the raw
+          text to Claude, and writes a fresh `_mmie_data.yml`.
+       3. Re-render: `quarto render uc_mmie_overview.qmd`
+
+     The companion files `_mmie_data.yml` and `update_mmie_data.py`
+     live in the same directory as this .qmd.
+     ============================================================ -->
+
+```{python}
+#| label: load-data
+import yaml, pathlib, datetime
+
+data_file = pathlib.Path("_mmie_data.yml")
+if data_file.exists():
+    with open(data_file) as f:
+        d = yaml.safe_load(f)
+else:
+    # Fallback defaults so the page still renders without the data file
+    d = {
+        "last_updated": "2025",
+        "uc_facts": {
+            "founded": "1819",
+            "enrollment": "~53,000",
+            "research_expenditure": "$740 million",
+            "nsf_rank_public": "31st",
+            "coop_rank": "Top 5 (U.S. News)",
+            "student_coop_earnings": "$94 million/year",
+            "carnegie_class": "R1 (Very High Research Activity)",
+        },
+        "ceas_facts": {
+            "undergrad_enrollment": "~4,300",
+            "grad_enrollment": "~1,340",
+            "annual_grants": "$17+ million",
+            "coop_founded": "1906",
+        },
+        "mmie_facts": {
+            "research_centers": "6",
+            "degree_programs": "7",
+            "research_areas_count": "15+",
+        },
+        "highlights": [
+            "Birthplace of cooperative education (Herman Schneider, 1906)",
+            "R1 Carnegie classification — Very High Research Activity",
+            "SDRC faculty spin-off became the foundation of Siemens Digital Industries Software",
+            "Albert Sabin (UC) developed the first oral polio vaccine",
+            "George Rieveschl (UC) invented Benadryl — the first antihistamine",
+            "CEAS Cleanroom: a regional hub for semiconductor & micro/nano fabrication R&D",
+            "Research partnership with Thales (defense, space, aeronautics) at Digital Futures",
+        ],
+        "research_areas": [
+            "Intelligent Manufacturing & Industry 4.0/5.0",
+            "Additive Manufacturing & 3D-Printed Metallic Materials",
+            "Thermal & Fluid Systems",
+            "Structural Dynamics & Acoustics",
+            "Nano/Biomechanics & Nanomaterials",
+            "Energy Materials & Nanodevices",
+            "Metallurgy & Phase Transformations",
+            "Nuclear Engineering & Materials",
+            "Polymers & Soft Matter",
+            "Computational Materials Modeling",
+            "Dynamics & Controls",
+            "Data Analytics & AI for Engineering",
+        ],
+        "degree_list": [
+            "B.S. Mechanical Engineering",
+            "B.S. Industrial & Systems Engineering",
+            "B.S. Mechanical Engineering Technology",
+            "Minor in Materials Science & Engineering",
+            "M.S. / M.Eng. Mechanical Engineering",
+            "M.S. / M.Eng. Materials Science & Engineering",
+            "Ph.D. Mechanical Engineering",
+            "Ph.D. Materials Science & Engineering",
+        ],
+        "industry_partners": [
+            "GE Aerospace",
+            "Siemens Digital Industries",
+            "Thales",
+            "Procter & Gamble",
+            "Cincinnati Incorporated",
+            "Materion",
+            "Air Force Research Laboratory (AFRL)",
+        ],
+    }
+```
+
+```{python}
+#| label: helper-functions
+
+def stat_box(label, value, icon=""):
+    """Return an HTML stat card (works inside ::: columns divs)."""
+    return f"""
+<div class="stat-card">
+  <div class="stat-icon">{icon}</div>
+  <div class="stat-value">{value}</div>
+  <div class="stat-label">{label}</div>
+</div>
+"""
+
+from IPython.display import HTML
+```
+
+<!-- ============================================================
+     HERO SECTION
+     ============================================================ -->
+
+:::: {.hero-band}
+
+# *Next Lives Here.*
+
+The University of Cincinnati's Department of **Mechanical, Materials, and Industrial Engineering (MMIE)** is a research-intensive home for engineers who want to build things that matter — from high-temperature alloys for jet engines to smart manufacturing systems for the factory floor. Located inside CEAS, the college that invented cooperative education, MMIE graduates leave ready to lead.
+
+[Explore Graduate Programs →](https://www.ceas.uc.edu/academics/departments/mechanical-materials-engineering/degrees-programs.html){.btn .btn-primary}
+[Partner with MMIE →](https://www.ceas.uc.edu/research.html){.btn .btn-secondary}
+
+::::
+
+
+## At a Glance
+
+```{python}
+#| label: stat-cards
+#| output: asis
+
+uf = d["uc_facts"]
+cf = d["ceas_facts"]
+mf = d["mmie_facts"]
+
+cards_html = """
+<div class="stats-grid">
+"""
+cards_html += stat_box("UC Research Expenditure (2024)", uf["research_expenditure"], "🔬")
+cards_html += stat_box("NSF Rank — Public Universities", uf["nsf_rank_public"], "📊")
+cards_html += stat_box("Co-op Earnings (students, 2024–25)", uf["student_coop_earnings"], "💼")
+cards_html += stat_box("Co-op Program National Rank", uf["coop_rank"], "🏆")
+cards_html += stat_box("MMIE Research Centers", mf["research_centers"], "🏛")
+cards_html += stat_box("MMIE Degree Programs", mf["degree_programs"], "🎓")
+cards_html += stat_box("CEAS Annual Grants & Contracts", cf["annual_grants"], "📋")
+cards_html += stat_box("Carnegie Classification", uf["carnegie_class"], "⭐")
+cards_html += """
+</div>
+"""
+print(cards_html)
+```
+
+::: {.update-note}
+*Statistics last refreshed: **`{python} d.get("last_updated", "see _mmie_data.yml")`***.  
+:::
+
+
+## Why UC? A Legacy of Firsts
+
+![Mantei Engineering Research Center, home of the College of Engineering and Applied Science, on UC's main campus. *Photo by Warren LeMay. License: CC BY-SA 2.0.*](/files/photos/Capabilities/52955411548_a088cd4b39_c.jpg){.img-full fig-alt="Mantei Engineering Research Center, University of Cincinnati, CUF, Cincinnati, OH. Photo by Warren LeMay, 6 May 2023. License: CC BY-SA 2.0"}
+
+The University of Cincinnati was founded in **1819** and today enrolls **`{python} d['uc_facts']['enrollment']`** students across three campuses.  Its Carnegie R1 designation reflects a sustained commitment to high-impact research.
+
+```{python}
+#| label: highlights-list
+#| output: asis
+
+items = "\n".join(f"- {h}" for h in d["highlights"])
+print(items)
+```
+
+Herman Schneider's "Cincinnati Plan" — launched in 1906 from what is now CEAS — pioneered a model of paid, full-time work rotations integrated directly into degree programs.  That same ethos shapes how MMIE faculty approach research partnerships today: industry sponsors don't just write checks, they co-create knowledge alongside students and faculty.
+
+## Research in MMIE
+
+```{python}
+#| label: research-areas
+#| output: asis
+
+areas = d["research_areas"]
+mid  = len(areas) // 2
+
+col1 = "\n".join(f"- {a}" for a in areas[:mid])
+col2 = "\n".join(f"- {a}" for a in areas[mid:])
+
+print(f"""
+:::{{.columns}}
+::{{.column width="50%"}}
+{col1}
+::
+::{{.column width="50%"}}
+{col2}
+::
+:::
+""")
+```
+
+Research in MMIE is organized around **`{python} d['mmie_facts']['research_centers']` major centers** and more than a dozen specialized laboratories.  Signature themes include:
+
+**Advanced Manufacturing** — MMIE is a regional leader in additive manufacturing research, including gas-phase alloying and sintering kinetics of 3D-printed metals and magnetic-field assisted laser metal deposition of oriented nickel superalloys.  The college's Digital Fabrication Laboratory supports both fundamental science and technology-transfer projects.
+
+**Materials Characterization & Modeling** — High-resolution TEM, thermomechanical testing, electron backscatter diffraction, CALPHAD-based thermodynamic and kinetic modeling, and phase-field simulation capabilities allow faculty to study materials from the atomic scale up.
+
+**Energy & Nuclear Materials** — Growing investments in high temperature alloy performance, metals process modeling, rare-earth-free magnet materials, and energy device materials connect MMIE to national laboratory, Department of Defense, and Department of Energy priorities.
+
+**Smart Systems & Industry 4.0/5.0** — Faculty in dynamics, controls, structural health monitoring, and data analytics partner with regional manufacturers to deploy AI-driven inspection and process-optimization tools.
+
+## Degree Programs
+
+```{python}
+#| label: degree-table
+#| output: asis
+
+rows = "\n".join(f"| {deg} |" for deg in d["degree_list"])
+print(f"""
+| Program |
+|:--------|
+{rows}
+""")
+```
+
+Graduate students in MMIE have access to the full breadth of CEAS facilities, a rich seminar series, and UC's professional-development infrastructure.  Many research assistantships are funded through external grants from NSF, DOE, DOD/AFRL, and industrial sponsors.
+
+
+## Industry & Sponsor Engagement
+
+```{python}
+#| label: partner-logos
+#| output: asis
+
+partners = d["industry_partners"]
+badges = "  ".join(f"`{p}`{{.badge}}" for p in partners)
+print(f"> **Current and recent industrial partners include:** {badges}")
+```
+
+MMIE's industrial engagement model mirrors the broader UC co-op philosophy: deep, long-term relationships rather than transactional sponsorships.  Mechanisms for engagement include:
+
+- **Sponsored Research Agreements** — fund specific graduate student projects with IP rights negotiated upfront.
+- **Consortium Research** — cost-shared access to pre-competitive results (contact the CEAS Research Office).
+- **Student Talent Pipeline** — co-op rotations and direct-hire relationships with graduating M.S./Ph.D. students.
+- **Shared-Use Facilities** — external access to the Cleanroom, characterization instruments, and computational clusters.
+
+> "Our research agenda at the University of Cincinnati has grown incredibly, thanks to the talents of our faculty researchers and their passion for discovery."  
+> — **Neville Pinto, PhD**, President, University of Cincinnati
+
+For sponsorship inquiries, contact the [CEAS Research Office](https://www.ceas.uc.edu/research.html).
+
+
+## Cincinnati: A City Built for Engineers
+
+![Cincinnati viewed from Devou Park in Covington, KY. *Photo by Ynsalh. License: CC BY-SA 4.0.*](/files/photos/Capabilities/Cincinnati_Skyline_from_Devou_Park.jpg){.img-full fig-alt="Cincinnati viewed from Devou Park in Covington, KY, by Ynsalh. License: CC BY-SA 4.0."}
+
+Cincinnati is home to a dense cluster of advanced-manufacturing and aerospace companies, giving MMIE researchers unmatched access to real-world problems and industry networking.  The city's cost of living is well below coastal research hubs, and students' co-op earnings substantially offset the costs of tuition.
+
+## Connect with MMIE
+
+| | |
+|:--|:--|
+| **Department website** | [ceas.uc.edu/mmie](https://www.ceas.uc.edu/academics/departments/mechanical-materials-engineering.html) |
+| **Graduate admissions** | [ceas.uc.edu/graduate-admissions](https://www.ceas.uc.edu/academics/departments/mechanical-materials-engineering/degrees-programs.html) |
+| **Research labs** | [ceas.uc.edu/mmie/research](https://www.ceas.uc.edu/academics/departments/mechanical-materials-engineering/research.html) |
+| **CEAS research office** | [ceas.uc.edu/research](https://www.ceas.uc.edu/research.html) |
+
+
+<style>
+/* ---- Stat cards ---- */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.stat-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.1rem 1rem;
+  text-align: center;
+  background: #f8f9fa;
+}
+.stat-icon { font-size: 1.6rem; }
+.stat-value {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #e00122;   /* UC red */
+  margin: 0.25rem 0;
+}
+.stat-label {
+  font-size: 0.78rem;
+  color: #555;
+  line-height: 1.3;
+}
+
+/* ---- Hero band ---- */
+.hero-band {
+  background: #e00122;
+  color: white;
+  padding: 2rem 2.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+.hero-band h1 { color: white; font-style: italic; }
+.hero-band p  { color: #ffe; }
+
+/* ---- Buttons ---- */
+.btn {
+  display: inline-block;
+  padding: 0.45rem 1rem;
+  border-radius: 4px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+.btn-primary  { background: white; color: #e00122; }
+.btn-secondary{ background: transparent; color: white;
+                border: 2px solid white; }
+
+/* ---- Images ---- */
+.img-full { width: 100%; border-radius: 6px; margin: 1rem 0; }
+
+/* ---- Update note ---- */
+.update-note {
+  font-size: 0.78rem;
+  color: #777;
+  border-left: 3px solid #e00122;
+  padding-left: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+/* ---- Badges ---- */
+code.badge {
+  background: #e8e8e8;
+  color: #333;
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+</style>

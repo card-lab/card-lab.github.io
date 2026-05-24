@@ -1,0 +1,586 @@
+---
+title: "Publications"
+date: today
+date-format: "DD MMMM YYYY"
+language:
+  title-block-published: "Updated"
+execute:
+  echo: false
+  warning: false
+  message: false
+jupyter: card-lab
+---
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+
+from collections import defaultdict
+from html import escape
+from pathlib import Path
+import csv
+import datetime as dt
+import html
+import json
+import re
+
+from IPython.display import HTML, display
+
+
+def parse_date(text):
+    if not text or not isinstance(text, str):
+        return None
+    text = text.strip()
+    if not text:
+        return None
+    season = re.match(r"(spring|summer|fall|autumn|winter)\s+(\d{4})", text, flags=re.I)
+    if season:
+        season_map = {"spring": "03-01", "summer": "06-01", "fall": "09-01", "autumn": "09-01", "winter": "12-01"}
+        return dt.date.fromisoformat(f"{season.group(2)}-{season_map[season.group(1).lower()]}")
+    if re.match(r"^\d{4}-\d{2}-\d{2}", text):
+        try:
+            return dt.date.fromisoformat(text[:10])
+        except Exception:
+            return None
+    if re.match(r"^\d{4}-\d{2}$", text):
+        try:
+            return dt.date.fromisoformat(f"{text}-01")
+        except Exception:
+            return None
+    if re.match(r"^\d{4}$", text):
+        try:
+            return dt.date.fromisoformat(f"{text}-01-01")
+        except Exception:
+            return None
+    try:
+        return dt.datetime.fromisoformat(text).date()
+    except Exception:
+        return None
+
+
+def extract_year(text):
+    d = parse_date(text)
+    return d.year if d else None
+
+
+def date_parts_to_iso(date_parts):
+    if not isinstance(date_parts, list) or not date_parts or not isinstance(date_parts[0], list):
+        return ""
+    parts = date_parts[0]
+    try:
+        year = int(parts[0]) if len(parts) > 0 and parts[0] not in (None, "") else 0
+        month = int(parts[1]) if len(parts) > 1 and parts[1] not in (None, "") else 1
+        day = int(parts[2]) if len(parts) > 2 and parts[2] not in (None, "") else 1
+    except Exception:
+        return ""
+    if year <= 0:
+        return ""
+    return f"{year:04d}-{month:02d}-{day:02d}"
+
+
+def normalize_csl_people(csl_people, creator_type):
+    if not isinstance(csl_people, list):
+        return []
+    out = []
+    for person in csl_people:
+        out.append(
+            {
+                "creatorType": creator_type,
+                "firstName": (person.get("given") or "").strip() if isinstance(person, dict) else "",
+                "lastName": (person.get("family") or "").strip() if isinstance(person, dict) else "",
+                "name": str(person.get("literal") or "").strip() if isinstance(person, dict) else "",
+            }
+        )
+    return out
+
+
+def map_csl_type_to_zotero(type_name):
+    key = (type_name or "").lower()
+    mapping = {
+        "article-journal": "journalArticle",
+        "article-magazine": "magazineArticle",
+        "paper-conference": "conferencePaper",
+        "speech": "presentation",
+        "thesis": "thesis",
+        "report": "report",
+        "book": "book",
+        "chapter": "bookSection",
+    }
+    return mapping.get(key, "document")
+
+
+def normalize_pre_uc_item(item):
+    creators = []
+    creators.extend(normalize_csl_people(item.get("author"), "author"))
+    creators.extend(normalize_csl_people(item.get("contributor"), "contributor"))
+    creators.extend(normalize_csl_people(item.get("editor"), "editor"))
+    issued = item.get("issued") or {}
+    date_parts = issued.get("date-parts") or issued.get("dateParts") or issued.get("dateparts") or issued
+    return {
+        "key": item.get("id") or item.get("citation-key") or "",
+        "data": {
+            "librarySource": "pre-uc",
+            "itemType": map_csl_type_to_zotero(item.get("type")),
+            "title": item.get("title") or "",
+            "creators": creators,
+            "date": date_parts_to_iso(date_parts) or "",
+            "abstractNote": item.get("abstract") or item.get("abstractNote") or "",
+            "keywords": item.get("keyword") or [],
+            "publicationTitle": item.get("container-title") or "",
+            "proceedingsTitle": item.get("container-title") or "",
+            "meetingName": item.get("event-title") or "",
+            "publisher": item.get("publisher") or "",
+            "place": item.get("publisher-place") or "",
+            "volume": item.get("volume") or "",
+            "issue": item.get("issue") or "",
+            "pages": item.get("page") or "",
+            "reportType": item.get("genre") or "",
+            "reportNumber": item.get("number") or "",
+            "url": item.get("URL") or "",
+            "DOI": item.get("DOI") or "",
+        },
+    }
+
+
+def normalize_doi(text):
+    if not text or not isinstance(text, str):
+        return ""
+    return re.sub(r"^https?://(dx\.)?doi\.org/", "", text.strip(), flags=re.I).lower()
+
+
+def dedupe_items(items):
+    out = []
+    by_key = {}
+
+    def _is_empty(value):
+        if value is None:
+            return True
+        if isinstance(value, str):
+            return not value.strip()
+        if isinstance(value, (list, tuple, dict, set)):
+            return len(value) == 0
+        return False
+
+    for item in items:
+        data = item.get("data") or {}
+        doi_key = normalize_doi(data.get("DOI", ""))
+        source = str(data.get("librarySource") or "zotero").strip().lower()
+        item_type = str(data.get("itemType") or "").strip()
+        is_pre_uc_conference_presentation = source == "pre-uc" and item_type == "conferencePaper"
+        is_presentation_like = item_type == "presentation" or bool(data.get("presentationType")) or is_pre_uc_conference_presentation
+        item_key = str(item.get("key") or data.get("key") or data.get("citationKey") or data.get("citation-key") or "").strip()
+        if doi_key:
+            key = f"doi-pres::{doi_key}" if is_presentation_like else f"doi::{doi_key}"
+        elif item_key:
+            key = f"id::{source}::{item_key.lower()}"
+        else:
+            key = "raw::" + "||".join(
+                [
+                    source,
+                    (data.get("itemType") or "").strip().lower(),
+                    (data.get("title") or "").strip().lower(),
+                    str(data.get("date") or "").strip(),
+                    (data.get("meetingName") or "").strip().lower(),
+                    (data.get("proceedingsTitle") or "").strip().lower(),
+                    (data.get("url") or "").strip().lower(),
+                ]
+            )
+        if not key:
+            continue
+        if key not in by_key:
+            clone = dict(item)
+            clone["data"] = dict(data)
+            by_key[key] = clone
+            out.append(clone)
+            continue
+
+        existing = by_key[key].get("data") or {}
+        existing_source = str(existing.get("librarySource") or "").strip().lower()
+        incoming_source = str(data.get("librarySource") or "").strip().lower()
+        if incoming_source == "pre-uc" and existing_source != "pre-uc":
+            existing["librarySource"] = "pre-uc"
+
+        for field, value in data.items():
+            if _is_empty(existing.get(field)) and not _is_empty(value):
+                existing[field] = value
+    return out
+
+
+def creator_name(c):
+    if not isinstance(c, dict):
+        return ""
+    if c.get("name"):
+        return str(c["name"]).strip()
+    return f"{str(c.get('firstName') or '').strip()} {str(c.get('lastName') or '').strip()}".strip()
+
+
+def has_payton_author(item):
+    creators = item.get("data", {}).get("creators") or []
+    for author in creators:
+        last = str(author.get("lastName") or "").strip().lower()
+        full = creator_name(author).lower()
+        if last == "payton" or re.search(r"\bpayton\b", full):
+            return True
+    return False
+
+
+def is_presentation_record(item):
+    data = item.get("data") or {}
+    item_type = str(data.get("itemType") or "").strip()
+    source = str(data.get("librarySource") or "").strip().lower()
+    is_pre_uc_conference_presentation = source == "pre-uc" and item_type == "conferencePaper"
+    return item_type == "presentation" or bool(data.get("presentationType")) or is_pre_uc_conference_presentation
+
+
+def load_json_candidates(candidates):
+    for candidate in candidates:
+        path = Path(candidate)
+        if path.exists():
+            with path.open("r", encoding="utf-8") as handle:
+                return json.load(handle)
+    raise FileNotFoundError(f"Could not find any of: {candidates}")
+
+
+def pub_creator_name(creator):
+    creator = creator if isinstance(creator, dict) else {}
+    if creator.get("name"):
+        return str(creator.get("name")).strip()
+    first = str(creator.get("firstName") or "").strip()
+    last = str(creator.get("lastName") or "").strip()
+    if first and last:
+        initials = " ".join(f"{part[0].upper()}." for part in first.split() if part)
+        return f"{initials} {last}".strip()
+    return last or first
+
+
+def pub_authors(creators):
+    return ", ".join([name for name in (pub_creator_name(c) for c in (creators or [])) if name])
+
+
+def render_text_with_sub_and_math(text):
+    raw = str(text or "")
+    while True:
+        decoded = html.unescape(raw)
+        if decoded == raw:
+            break
+        raw = decoded
+    while True:
+        unwrapped = re.sub(r"\{([^{}]+)\}", r"\1", raw)
+        if unwrapped == raw:
+            break
+        raw = unwrapped
+    if not raw:
+        return ""
+    token_re = re.compile(r"(<sub>.*?</sub>|<i>.*?</i>|\$[^$]+\$)", flags=re.I | re.S)
+    rendered = []
+    pos = 0
+    for match in token_re.finditer(raw):
+        if match.start() > pos:
+            rendered.append(escape(raw[pos:match.start()]))
+        token = match.group(0)
+        if token.lower().startswith("<sub>"):
+            inner = re.sub(r"^<sub>|</sub>$", "", token, flags=re.I)
+            rendered.append(f"<sub>{escape(inner)}</sub>")
+        elif token.lower().startswith("<i>"):
+            inner = re.sub(r"^<i>|</i>$", "", token, flags=re.I)
+            rendered.append(f"<span class='italic'>{escape(inner)}</span>")
+        else:
+            math_inner = token[1:-1]
+            if re.fullmatch(r"_[^\s]+", math_inner):
+                rendered.append(f"<sub>{escape(math_inner[1:])}</sub>")
+            elif re.fullmatch(r"\^[^\s]+", math_inner):
+                rendered.append(f"<sup>{escape(math_inner[1:])}</sup>")
+            else:
+                rendered.append(f"${math_inner}$")
+        pos = match.end()
+    if pos < len(raw):
+        rendered.append(escape(raw[pos:]))
+    return "".join(rendered)
+
+
+def pub_year(date_text):
+    year = extract_year(date_text)
+    return str(year) if year else ""
+
+
+def format_display_date(date_text):
+    parsed = parse_date(str(date_text or ""))
+    if parsed:
+        return f"{parsed.day} {parsed.strftime('%b %Y')}"
+    return str(date_text or "").strip()
+
+
+def presentation_creator_text(creators, use_initials=False):
+    rendered = []
+    for creator in creators or []:
+        name = pub_creator_name(creator)
+        if not name:
+            continue
+        safe_name = escape(name)
+        creator_type = str(creator.get("creatorType") or "").strip().lower()
+        if creator_type == "presenter":
+            rendered.append(f"<em>{safe_name}</em> (presenter)")
+        else:
+            rendered.append(safe_name)
+    return ", ".join(rendered) if rendered else "Unknown author"
+
+
+def _creator_is_payton(creator):
+    last = str(creator.get("lastName") or "").strip().lower()
+    full = creator_name(creator).lower()
+    return last == "payton" or re.search(r"\bpayton\b", full)
+
+
+def presentation_role(item):
+    creators = item.get("data", {}).get("creators") or []
+    for creator in creators:
+        if _creator_is_payton(creator):
+            return str(creator.get("creatorType") or "").strip().lower()
+    return None
+
+
+def presentation_citation(item, idx, total, use_initials=False):
+    data = item.get("data") or {}
+    creators = data.get("creators") or []
+    title = render_text_with_sub_and_math(data.get("title") or "Untitled")
+    meeting = str(data.get("meetingName") or data.get("proceedingsTitle") or "").strip()
+    place = str(data.get("place") or "").strip()
+    presentation_type = str(data.get("presentationType") or "").strip()
+    full_date = format_display_date(data.get("date"))
+    url = str(data.get("url") or "").strip()
+
+    bits = [f"[{total - idx}] {presentation_creator_text(creators, use_initials=use_initials)}. \"{title}.\""]
+    if presentation_type:
+        bits.append(escape(presentation_type))
+    if meeting:
+        bits.append(f"at <span class='italic'>{render_text_with_sub_and_math(meeting)}</span>")
+    if place and full_date:
+        bits.append(f"{escape(place)}, {escape(full_date)}")
+    elif place:
+        bits.append(escape(place))
+    elif full_date:
+        bits.append(escape(full_date))
+    if url:
+        bits.append(f"<a href='{escape(url, quote=True)}' target='_blank'>{escape(url)}</a>")
+
+    text = " ".join([bit for bit in bits if bit]).strip()
+    if not text.endswith("."):
+        text += "."
+    return f"<div class='citation'>{text}</div>"
+
+
+def is_software_dataset(item):
+    data = item.get("data") or {}
+    item_type = str(data.get("itemType") or "").strip().lower()
+    title = str(data.get("title") or "").lower()
+    pub_title = str(data.get("publicationTitle") or "").lower()
+    extra = str(data.get("extra") or "").lower()
+    if item_type in {"computerprogram", "dataset"}:
+        return True
+    if "software" in title or "dataset" in title or "software" in extra or "dataset" in extra:
+        return True
+    if "data in brief" in pub_title or "dataset" in pub_title:
+        return True
+    return False
+
+
+def is_manuscript(item):
+    data = item.get("data") or {}
+    item_type = str(data.get("itemType") or "").strip().lower()
+    title = str(data.get("title") or "").lower()
+    pub_title = str(data.get("publicationTitle") or "").lower()
+    extra = str(data.get("extra") or "").lower()
+    if item_type == "manuscript":
+        return True
+    return any("manuscript" in text for text in (title, pub_title, extra))
+
+
+def pub_sort_key(item):
+    data = item.get("data") or {}
+    date_value = parse_date(data.get("date"))
+    if date_value is None:
+        return (dt.date.min, str(data.get("title") or "").lower())
+    return (date_value, str(data.get("title") or "").lower())
+
+
+def pub_citation(item, idx, total):
+    data = item.get("data") or {}
+    creators = data.get("creators") or []
+    authors = [creator for creator in creators if creator.get("creatorType") == "author"]
+    editors = [creator for creator in creators if creator.get("creatorType") == "editor"]
+    main = creators if data.get("itemType") in ("computerProgram", "presentation") else authors
+    names = pub_authors(main) or "Unknown author"
+    title = render_text_with_sub_and_math(data.get("title") or "Untitled")
+    year = pub_year(data.get("date"))
+    journal = str(data.get("publicationTitle") or data.get("proceedingsTitle") or "").strip()
+    proceedings = str(data.get("proceedingsTitle") or "").strip()
+    meeting = str(data.get("meetingName") or "").strip()
+    place = str(data.get("place") or "").strip()
+    publisher = str(data.get("publisher") or "").strip()
+    institution = str(data.get("institution") or "").strip()
+    report_number = str(data.get("reportNumber") or "").strip()
+    report_type = str(data.get("reportType") or "").strip()
+    series_title = str(data.get("seriesTitle") or "").strip()
+    presentation_type = str(data.get("presentationType") or "").strip()
+    full_date = str(data.get("date") or "").strip()
+    volume = str(data.get("volume") or "").strip()
+    issue = str(data.get("issue") or "").strip()
+    pages = str(data.get("pages") or "").strip()
+    doi = normalize_doi(str(data.get("DOI") or "").strip())
+    url = str(data.get("url") or "").strip()
+
+    bits = [f"[{total - idx}] {escape(names)}. \"{title}.\""]
+    if data.get("itemType") == "conferencePaper" and proceedings:
+        bits.append(f"In <span class='italic'>{render_text_with_sub_and_math(proceedings)}</span>")
+        if editors:
+            bits.append(f"{escape(pub_authors(editors))} ({'ed.' if len(editors) == 1 else 'eds.'})")
+        if publisher:
+            bits.append(f"Published by {escape(publisher)}")
+        if place:
+            bits.append(escape(place))
+    if data.get("itemType") == "report":
+        if report_type:
+            bits.append(escape(report_type))
+        if report_number:
+            bits.append(f"No. {escape(report_number)}")
+        if series_title:
+            bits.append(f"<span class='italic'>{escape(series_title)}</span>")
+        if institution:
+            bits.append(escape(institution))
+        if editors:
+            bits.append(f"Edited by {escape(pub_authors(editors))}")
+        if publisher:
+            bits.append(f"Published by {escape(publisher)}")
+        if place:
+            bits.append(escape(place))
+    if data.get("itemType") == "presentation":
+        if presentation_type:
+            bits.append(escape(presentation_type))
+        if meeting:
+            bits.append(f"at <span class='italic'>{render_text_with_sub_and_math(meeting)}</span>")
+        if place:
+            bits.append(escape(place))
+        if full_date:
+            bits.append(escape(full_date))
+    if journal:
+        bits.append(f"<span class='italic'>{render_text_with_sub_and_math(journal)}</span>")
+    if data.get("itemType") == "magazineArticle" and publisher:
+        bits.append(f"Published by {escape(publisher)}")
+    if data.get("itemType") == "magazineArticle" and editors:
+        bits.append(f"Edited by {escape(pub_authors(editors))}")
+    if volume:
+        bits.append(f"<span class='bold'>{escape(volume)}</span>")
+    if issue:
+        bits.append(f"({escape(issue)})")
+    if year:
+        bits.append(f"({escape(year)})")
+    if pages:
+        bits.append(f"p.{escape(pages)}")
+    if doi:
+        bits.append(f"<a href='https://doi.org/{escape(doi, quote=True)}' target='_blank'>doi:{escape(doi)}</a>")
+    include_url = (not doi) or str(data.get("itemType") or "") != "journalArticle"
+    if include_url and url and (not doi or normalize_doi(url) != doi):
+        bits.append(f"<a href='{escape(url, quote=True)}' target='_blank'>{escape(url)}</a>")
+
+    text = " ".join([bit for bit in bits if bit]).strip()
+    if not text.endswith("."):
+        text += "."
+    return f"<div class='citation'>{text}</div>"
+
+
+def render_pub_section(title, items):
+    if not items:
+        return f"<section class='pub-section'><h3>{escape(title)}</h3><p>No entries found.</p></section>"
+    lines = "".join(pub_citation(item, idx, len(items)) for idx, item in enumerate(items))
+    return f"<section class='pub-section'><h3>{escape(title)}</h3><div class='pub-list'>{lines}</div></section>"
+
+
+def render_presentation_section(title, items):
+    if not items:
+        return f"<section class='pub-section'><h3>{escape(title)}</h3><p>No entries found.</p></section>"
+    use_initials = title.strip().lower() in {"presentation contributions", "presentations given"}
+    lines = "".join(presentation_citation(item, idx, len(items), use_initials=use_initials) for idx, item in enumerate(items))
+    return f"<section class='pub-section'><h3>{escape(title)}</h3><div class='pub-list'>{lines}</div></section>"
+
+
+zotero_raw = load_json_candidates(["../files/zotero-items.json", "files/zotero-items.json"])
+pre_uc_raw = load_json_candidates(["../files/Pre-UC.json", "files/Pre-UC.json"])
+
+zotero_items = [item for item in (zotero_raw or []) if isinstance(item, dict) and item.get("data")]
+pre_uc_items = [normalize_pre_uc_item(item) for item in (pre_uc_raw or []) if isinstance(item, dict)]
+merged_items = [
+    item
+    for item in dedupe_items(zotero_items + pre_uc_items)
+    if has_payton_author(item)
+    or (
+        str((item.get("data") or {}).get("librarySource") or "").strip().lower() == "pre-uc"
+        and is_presentation_record(item)
+    )
+]
+
+peer_reviewed = sorted(
+    [item for item in merged_items if str((item.get("data") or {}).get("itemType") or "").strip() == "journalArticle"],
+    key=pub_sort_key,
+    reverse=True,
+)
+reports_conf_mag = sorted(
+    [
+        item
+        for item in merged_items
+        if str((item.get("data") or {}).get("itemType") or "").strip() not in {"journalArticle", "presentation"}
+        and not is_manuscript(item)
+        and not is_software_dataset(item)
+    ],
+    key=pub_sort_key,
+    reverse=True,
+)
+software_datasets = sorted([item for item in merged_items if is_software_dataset(item)], key=pub_sort_key, reverse=True)
+presentations_given = sorted(
+    [item for item in merged_items if is_presentation_record(item) and presentation_role(item) == "presenter"],
+    key=pub_sort_key,
+    reverse=True,
+)
+presentation_contributions = sorted(
+    [item for item in merged_items if is_presentation_record(item) and presentation_role(item) != "presenter"],
+    key=pub_sort_key,
+    reverse=True,
+)
+
+display(
+    HTML(
+        """
+<style>
+  #pi-publications-page {
+    max-width: 100%;
+  }
+  #pi-publications-page .pub-section {
+    margin-top: 1.25rem;
+  }
+  #pi-publications-page h3 {
+    margin-top: 1.1rem;
+    margin-bottom: 0.55rem;
+  }
+  #pi-publications-page .citation {
+    margin-bottom: 0.9rem;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+  #pi-publications-page .italic { font-style: italic; }
+  #pi-publications-page .bold { font-weight: 700; }
+  #pi-publications-page .pub-list { margin-bottom: 0.75rem; }
+</style>
+<div id="pi-publications-page">
+  <h2>Complete List of Publications</h2>
+  <p>This page reproduces the publication list from the PI page using the same Zotero and archived pre-UC sources.</p>
+"""
+        + render_pub_section("Peer-Reviewed Publications", peer_reviewed)
+        + render_pub_section("Reports, Conference Papers, and Magazine Articles", reports_conf_mag)
+        + render_pub_section("Software and Datasets", software_datasets)
+        + render_presentation_section("Presentations Given", presentations_given)
+        + render_presentation_section("Presentation Contributions", presentation_contributions)
+        + "</div>"
+    )
+)
+```

@@ -97,7 +97,7 @@ except ImportError:
 
 # ── constants ──────────────────────────────────────────────────────────────
 VERSION = "1.2.0"
-DEFAULT_SITE_DIR = "_site"
+FALLBACK_SITE_DIR = "_site"
 DEFAULT_LOG_FILE = "_quarto_render.log"   # pipe `quarto render 2>&1 | tee _quarto_render.log`
 DEFAULT_QMD_FILE = "qc_report.qmd"        # written to project root; rendered by Quarto
 DEFAULT_HTML_FILE = "qc_report.html"      # standalone fallback
@@ -113,6 +113,51 @@ UNFENCED_CODE_RE = re.compile(r"```[a-zA-Z0-9]*\n")   # raw fences in HTML = ren
 # Quarto log patterns
 LOG_WARNING_RE = re.compile(r"\bWARN(?:ING)?\b", re.IGNORECASE)
 LOG_ERROR_RE   = re.compile(r"\bERROR\b",         re.IGNORECASE)
+
+
+def detect_quarto_output_dir(project_root: Path) -> str:
+    """Best-effort parse of project.output-dir from _quarto.yaml/_quarto.yml."""
+    candidates = [project_root / "_quarto.yaml", project_root / "_quarto.yml"]
+    for cfg in candidates:
+        if not cfg.is_file():
+            continue
+
+        in_project = False
+        project_indent = 0
+        try:
+            lines = cfg.read_text(encoding="utf-8", errors="replace").splitlines()
+        except OSError:
+            continue
+
+        for raw in lines:
+            # Ignore blank/comment-only lines for simple structure tracking.
+            if not raw.strip() or raw.lstrip().startswith("#"):
+                continue
+
+            indent = len(raw) - len(raw.lstrip(" "))
+            stripped = raw.strip()
+
+            if not in_project:
+                if re.match(r"^project\s*:\s*$", stripped):
+                    in_project = True
+                    project_indent = indent
+                continue
+
+            # Leaving the project block when a new top-level key starts.
+            if indent <= project_indent and re.match(r"^[A-Za-z0-9_-]+\s*:", stripped):
+                in_project = False
+                continue
+
+            m = re.match(r"^output-dir\s*:\s*(.+)\s*$", stripped)
+            if m:
+                val = m.group(1).strip().strip('"\'')
+                if val:
+                    return val
+
+    return FALLBACK_SITE_DIR
+
+
+DEFAULT_SITE_DIR = detect_quarto_output_dir(Path.cwd())
 
 # ── data structures ────────────────────────────────────────────────────────
 
@@ -151,6 +196,10 @@ def _normalise_href(href: str, page_path: Path, site_dir: Path) -> Path | None:
     """Resolve a relative/absolute href to an absolute filesystem path."""
     href = href.split("#")[0].split("?")[0]   # strip fragment & query
     if not href:
+        return None
+    parsed = urllib.parse.urlparse(href)
+    if parsed.scheme:
+        # Ignore non-filesystem URI schemes (e.g., data:, mailto:, javascript:).
         return None
     if _is_external(href):
         return None
@@ -196,7 +245,11 @@ def check_links_and_images(
                 target = _normalise_href(href, page, site_dir)
                 if target is None:
                     continue
-                if not target.exists():
+                try:
+                    exists = target.exists()
+                except OSError:
+                    exists = False
+                if not exists:
                     issues.append(Issue(
                         "error", "broken-link", rel_page,
                         f"Internal link target not found: <code>{href}</code>",
@@ -219,7 +272,14 @@ def check_links_and_images(
                 external_urls.add(src)
             else:
                 target = _normalise_href(src, page, site_dir)
-                if target and not target.exists():
+                if target:
+                    try:
+                        exists = target.exists()
+                    except OSError:
+                        exists = False
+                else:
+                    exists = True
+                if target and not exists:
                     issues.append(Issue(
                         "error", "image", rel_page,
                         f"Missing image file: <code>{src}</code>",

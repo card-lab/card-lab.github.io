@@ -79,10 +79,7 @@ Generally, just:
 ## TO DO
 
 * Overview of what the group does instead of photos
-* About UC page
 * Improved site map
-* Broken links checker
-* Create a common blocked words list for all word clouds
 * Order the pages by number of publications, presentations, and citations
 * New "group roles" visualization with the number of MS, PhD, and undergraduates working in the group as a treemap.
 * Add AMCC to the facilities
