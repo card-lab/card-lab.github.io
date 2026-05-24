@@ -19,7 +19,7 @@ author:
 
 | Website URL   | <https://card-lab.github.io>             |
 |---------------|---------------------------------------------------|
-| Postal Address       | 2901 Woodside Drive<br>CEAS MME - Rhodes Hall 504<br>Cincinnati, OH 45221-0072 USA |
+| Postal Address       | 2901 Woodside Drive<br>CEAS MMIE - Rhodes Hall 504<br>Cincinnati, OH 45221-0072 USA |
 | Contact       | Eric J. Payton                                    |
 | Tel:          | +1 513 556 0260                                   |
 | Fax:          | +1 513 556 3390                                   |

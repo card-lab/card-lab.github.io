@@ -50,7 +50,7 @@ jupyter: python3
 
 #### {{< iconify material-symbols mobile-chat-rounded >}} &nbsp; +1 (513) 549-5346
 
-#### {{< fa map-location-dot >}} &nbsp; Department of Mechanical and Materials Engineering, 2901 Woodside Drive, Cincinnati, OH 45221-0072 USA
+#### {{< fa map-location-dot >}} &nbsp; Department of Mechanical, Materials, and Industrial Engineering, 2901 Woodside Drive, Cincinnati, OH 45221-0072 USA
 
 :::
 
@@ -58,6 +58,2147 @@ jupyter: python3
 
 Dr. Payton’s laboratory addresses the sustainability of critical materials through fundamental research into alloy design, discovery, and processing, enabling design engineers to balance performance with responsible resource utilization. Employing state-of-the-art computational and quantitative characterization techniques, his group seeks to lend insights into microstructure evolution during processing and chemo-mechanical environmental interactions in service, then use this knowledge to develop practical tools for predicting material properties. Prior to joining the faculty of the University of Cincinnati in 2022, Dr. Payton served for five years as the Research Leader for the Metallic Materials and Processing Team at the Air Force Research Laboratory, Materials and Manufacturing Directorate. Before entering government service, he was an Assistant Professor of Materials Science and Engineering at the New York State College of Ceramics at Alfred University, and held post-doctoral positions at both Ruhr University in Bochum, Germany and the Federal Institute for Materials Research and Testing (BAM) in Berlin, Germany. He obtained his doctorate in Materials Science and Engineering from The Ohio State University. Dr. Payton’s colleagues suspect he would be a good addition to their trivia night team; however, his area of trivia mastery may be limited to turn-of-the century musicians. Dr. Payton is an enthusiastic advocate of scientific collaboration, structured programming, learner-centered pedagogy, and vegetables.
 
-The PI's complete list of publications (including those prior to establishing the CARD Lab) can be found at [{{< iconify academicons zotero-square >}} zotero.org/paytone](https://www.zotero.org/paytone "Zotero") or [{{< iconify simple-icons orcid >}} orcid.org/0000-0001-7478-9372](https://orcid.org/0000-0001-7478-9372 "ORCID").
+<!--The PI's complete list of publications (including those prior to establishing the CARD Lab) can be found at [{{< iconify academicons zotero-square >}} zotero.org/paytone](https://www.zotero.org/paytone "Zotero") or [{{< iconify simple-icons orcid >}} orcid.org/0000-0001-7478-9372](https://orcid.org/0000-0001-7478-9372 "ORCID").-->
+
+## Scientometrics
+
+```{python}
+#| echo: false
+#| warning: false
+
+from pathlib import Path
+from collections import Counter, defaultdict
+import base64
+import io
+import html
+from html import escape
+import datetime as dt
+import csv
+import json
+import re
+import urllib.parse
+import urllib.request
+import urllib.error
+import math
+import random
+import time
+
+from IPython.display import HTML, Markdown, display
+
+
+def parse_date(text):
+    if not text or not isinstance(text, str):
+        return None
+    text = text.strip()
+    if not text:
+        return None
+    season = re.match(r"(spring|summer|fall|autumn|winter)\s+(\d{4})", text, flags=re.I)
+    if season:
+        season_map = {"spring": "03-01", "summer": "06-01", "fall": "09-01", "autumn": "09-01", "winter": "12-01"}
+        return dt.date.fromisoformat(f"{season.group(2)}-{season_map[season.group(1).lower()]}")
+    if re.match(r"^\d{4}-\d{2}-\d{2}", text):
+        try:
+            return dt.date.fromisoformat(text[:10])
+        except Exception:
+            return None
+    if re.match(r"^\d{4}-\d{2}$", text):
+        try:
+            return dt.date.fromisoformat(f"{text}-01")
+        except Exception:
+            return None
+    if re.match(r"^\d{4}$", text):
+        try:
+            return dt.date.fromisoformat(f"{text}-01-01")
+        except Exception:
+            return None
+    try:
+        return dt.datetime.fromisoformat(text).date()
+    except Exception:
+        return None
+
+
+def extract_year(text):
+    d = parse_date(text)
+    return d.year if d else None
+
+
+def date_parts_to_iso(date_parts):
+    if not isinstance(date_parts, list) or not date_parts or not isinstance(date_parts[0], list):
+        return ""
+    p = date_parts[0]
+    try:
+        y = int(p[0]) if len(p) > 0 and p[0] not in (None, "") else 0
+        m = int(p[1]) if len(p) > 1 and p[1] not in (None, "") else 1
+        d = int(p[2]) if len(p) > 2 and p[2] not in (None, "") else 1
+    except Exception:
+        return ""
+    if y <= 0:
+        return ""
+    return f"{y:04d}-{m:02d}-{d:02d}"
+
+
+def normalize_csl_people(csl_people, creator_type):
+    if not isinstance(csl_people, list):
+        return []
+    out = []
+    for p in csl_people:
+        out.append(
+            {
+                "creatorType": creator_type,
+                "firstName": (p.get("given") or "").strip() if isinstance(p, dict) else "",
+                "lastName": (p.get("family") or "").strip() if isinstance(p, dict) else "",
+                "name": (str(p.get("literal") or "").strip() if isinstance(p, dict) else ""),
+            }
+        )
+    return out
+
+
+def map_csl_type_to_zotero(type_name):
+    key = (type_name or "").lower()
+    mapping = {
+        "article-journal": "journalArticle",
+        "article-magazine": "magazineArticle",
+        "paper-conference": "conferencePaper",
+        "speech": "presentation",
+        "thesis": "thesis",
+        "report": "report",
+        "book": "book",
+        "chapter": "bookSection",
+    }
+    return mapping.get(key, "document")
+
+
+def normalize_pre_uc_item(item):
+    creators = []
+    creators.extend(normalize_csl_people(item.get("author"), "author"))
+    creators.extend(normalize_csl_people(item.get("contributor"), "contributor"))
+    creators.extend(normalize_csl_people(item.get("editor"), "editor"))
+    issued = item.get("issued") or {}
+    date_parts = (
+        issued.get("date-parts")
+        or issued.get("dateParts")
+        or issued.get("dateparts")
+        or issued
+    )
+    return {
+        "key": item.get("id") or item.get("citation-key") or "",
+        "data": {
+            "librarySource": "pre-uc",
+            "itemType": map_csl_type_to_zotero(item.get("type")),
+            "title": item.get("title") or "",
+            "creators": creators,
+            "date": date_parts_to_iso(date_parts) or "",
+            "abstractNote": item.get("abstract") or item.get("abstractNote") or "",
+            "keywords": item.get("keyword") or [],
+            "publicationTitle": item.get("container-title") or "",
+            "proceedingsTitle": item.get("container-title") or "",
+            "meetingName": item.get("event-title") or "",
+            "publisher": item.get("publisher") or "",
+            "place": item.get("publisher-place") or "",
+            "volume": item.get("volume") or "",
+            "issue": item.get("issue") or "",
+            "pages": item.get("page") or "",
+            "reportType": item.get("genre") or "",
+            "reportNumber": item.get("number") or "",
+            "url": item.get("URL") or "",
+            "DOI": item.get("DOI") or "",
+        },
+    }
+
+
+def normalize_doi(text):
+    if not text or not isinstance(text, str):
+        return ""
+    return re.sub(r"^https?://(dx\\.)?doi\\.org/", "", text.strip(), flags=re.I).lower()
+
+
+def dedupe_items(items):
+    out = []
+    by_key = {}
+
+    def _is_empty(v):
+        if v is None:
+            return True
+        if isinstance(v, str):
+            return not v.strip()
+        if isinstance(v, (list, tuple, dict, set)):
+            return len(v) == 0
+        return False
+
+    for item in items:
+        data = item.get("data") or {}
+        doi_key = normalize_doi(data.get("DOI", ""))
+        source = str(data.get("librarySource") or "zotero").strip().lower()
+        item_type = str(data.get("itemType") or "").strip()
+        is_pre_uc_conference_presentation = source == "pre-uc" and item_type == "conferencePaper"
+        is_presentation_like = item_type == "presentation" or bool(data.get("presentationType")) or is_pre_uc_conference_presentation
+        item_key = str(item.get("key") or data.get("key") or data.get("citationKey") or data.get("citation-key") or "").strip()
+        if doi_key:
+            key = f"doi-pres::{doi_key}" if is_presentation_like else f"doi::{doi_key}"
+        elif item_key:
+            key = f"id::{source}::{item_key.lower()}"
+        else:
+            key = "raw::" + "||".join(
+                [
+                    source,
+                    (data.get("itemType") or "").strip().lower(),
+                    (data.get("title") or "").strip().lower(),
+                    str(data.get("date") or "").strip(),
+                    (data.get("meetingName") or "").strip().lower(),
+                    (data.get("proceedingsTitle") or "").strip().lower(),
+                    (data.get("url") or "").strip().lower(),
+                ]
+            )
+        if not key:
+            continue
+        if key not in by_key:
+            clone = dict(item)
+            clone["data"] = dict(data)
+            by_key[key] = clone
+            out.append(clone)
+            continue
+
+        existing = by_key[key].get("data") or {}
+
+        # Preserve pre-UC provenance when a Zotero item and a pre-UC item collapse to one record.
+        existing_source = str(existing.get("librarySource") or "").strip().lower()
+        incoming_source = str(data.get("librarySource") or "").strip().lower()
+        if incoming_source == "pre-uc" and existing_source != "pre-uc":
+            existing["librarySource"] = "pre-uc"
+
+        for field, value in data.items():
+            if _is_empty(existing.get(field)) and not _is_empty(value):
+                existing[field] = value
+    return out
+
+
+def creator_name(c):
+    if not isinstance(c, dict):
+        return ""
+    if c.get("name"):
+        return str(c["name"]).strip()
+    return f"{str(c.get('firstName') or '').strip()} {str(c.get('lastName') or '').strip()}".strip()
+
+
+def has_payton_author(item):
+    creators = item.get("data", {}).get("creators") or []
+    for a in creators:
+        last = str(a.get("lastName") or "").strip().lower()
+        full = creator_name(a).lower()
+        if last == "payton" or re.search(r"\bpayton\b", full):
+            return True
+    return False
+
+
+def is_presentation_record(item):
+    d = item.get("data") or {}
+    item_type = str(d.get("itemType") or "").strip()
+    source = str(d.get("librarySource") or "").strip().lower()
+    is_pre_uc_conference_presentation = source == "pre-uc" and item_type == "conferencePaper"
+    return item_type == "presentation" or bool(d.get("presentationType")) or is_pre_uc_conference_presentation
+
+
+def top_collaborators(items, n=10):
+    counts = Counter()
+    label_votes = defaultdict(Counter)
+
+    def _initial_tokens(text):
+        return re.findall(r"[A-Za-z]+", str(text or ""))
+
+    def _literal_parts(literal):
+        literal = str(literal or "").strip()
+        if not literal:
+            return [], ""
+        if "," in literal:
+            surname, given = [p.strip() for p in literal.split(",", 1)]
+            return _initial_tokens(given), surname
+        parts = re.split(r"\s+", literal)
+        if len(parts) == 1:
+            return [], parts[0]
+        return _initial_tokens(" ".join(parts[:-1])), parts[-1]
+
+    def _canonical_collaborator(creator):
+        first = str(creator.get("firstName") or "").strip()
+        last = str(creator.get("lastName") or "").strip()
+        if first and last:
+            return f"{first[0].upper()}. {last}"
+
+        initials, surname = _literal_parts(creator.get("name"))
+        if initials and surname:
+            return f"{initials[0][0].upper()}. {surname}"
+        return surname
+
+    def _display_collaborator(creator):
+        first = str(creator.get("firstName") or "").strip()
+        last = str(creator.get("lastName") or "").strip()
+        if first and last:
+            tokens = _initial_tokens(first)
+            if tokens:
+                initials = " ".join(f"{t[0].upper()}." for t in tokens)
+                return f"{initials} {last}"
+            return f"{first[0].upper()}. {last}"
+
+        initials, surname = _literal_parts(creator.get("name"))
+        if initials and surname:
+            joined = " ".join(f"{t[0].upper()}." for t in initials)
+            return f"{joined} {surname}"
+        return surname
+
+    def _is_pi(creator):
+        last = str(creator.get("lastName") or "").strip().lower()
+        if last == "payton":
+            return True
+        full = creator_name(creator).lower()
+        return bool(re.search(r"\bpayton\b", full))
+
+    for item in items:
+        authors = [x for x in (item.get("data", {}).get("creators") or []) if x.get("creatorType") == "author"]
+        unique_this_paper = set()
+        for a in authors:
+            name = _canonical_collaborator(a)
+            if not name or _is_pi(a):
+                continue
+            key = name.lower()
+            if key in unique_this_paper:
+                continue
+            unique_this_paper.add(key)
+            counts[key] += 1
+            display_name = _display_collaborator(a) or name
+            label_votes[key][display_name] += 1
+
+    resolved = []
+    for key, count in counts.items():
+        labels = label_votes.get(key) or Counter()
+        best_label = sorted(labels.items(), key=lambda x: (-x[1], x[0].lower()))[0][0] if labels else key
+        resolved.append((best_label, count, key))
+
+    ranked = sorted(resolved, key=lambda x: (-x[1], x[2]))
+    ranked = [(label, count) for label, count, _ in ranked]
+    if len(ranked) <= n:
+        return ranked
+    threshold = ranked[n - 1][1]
+    return [row for row in ranked if row[1] >= threshold]
+
+
+def word_frequency(items, n=18):
+    stop_words = {
+        "about", "after", "all", "also", "and", "are", "been", "between", "but", "can", "from", "for",
+        "into", "its", "not", "of", "on", "or", "our", "such", "than", "that", "the", "their",
+        "there", "these", "this", "those", "through", "using", "via", "was", "were", "with", "within",
+        "without", "study", "effect", "effects", "analysis", "investigation", "properties", "property",
+        "alloy", "alloys", "material", "materials", "microstructure", "microstructures",
+        "based", "toward", "towards", "during", "characterization", "mechanical", "behavior",
+        "model", "models", "modeling", "approach", "approaches", "processing", "phase",
+        "high", "low", "new", "novel", "using", "through", "toward", "results", "result",
+        "two", "used", "due", "use", "uses", "utilized", "utilize",
+    }
+    low_uniqueness_words = {
+        "two", "used", "due", "use", "uses", "utilized", "utilize",
+    }
+    raw_counts = Counter()
+
+    def _tag_text(tags):
+        if not isinstance(tags, list):
+            return ""
+        out = []
+        for t in tags:
+            if isinstance(t, dict):
+                val = str(t.get("tag") or "").strip()
+            else:
+                val = str(t).strip()
+            if val:
+                out.append(val)
+        return " ".join(out)
+
+    def _keyword_text(val):
+        if isinstance(val, list):
+            return " ".join(str(x).strip() for x in val if str(x).strip())
+        return str(val or "")
+
+    def _canonical_word(word, vocabulary):
+        if word.endswith("ies") and len(word) > 4:
+            candidate = word[:-3] + "y"
+            if candidate in vocabulary:
+                return candidate
+        if word.endswith("s") and len(word) > 3 and not word.endswith(("ss", "us", "is")):
+            candidate = word[:-1]
+            if candidate in vocabulary:
+                return candidate
+        return word
+
+    for item in items:
+        d = item.get("data", {})
+        blob = " ".join(
+            [
+                str(d.get("title") or ""),
+                str(d.get("abstractNote") or d.get("abstract") or ""),
+                _tag_text(d.get("tags")),
+                _keyword_text(d.get("keywords")),
+            ]
+        ).lower()
+        words = re.findall(r"[a-z]{3,}", blob)
+        for w in words:
+            raw_counts[w] += 1
+
+    vocabulary = set(raw_counts)
+    counts = Counter()
+    for word, count in raw_counts.items():
+        canonical = _canonical_word(word, vocabulary)
+        if canonical in stop_words or canonical in low_uniqueness_words:
+            continue
+        counts[canonical] += count
+    return counts.most_common(n)
+
+
+def load_json_candidates(candidates):
+    for candidate in candidates:
+        p = Path(candidate)
+        if p.exists():
+            with p.open("r", encoding="utf-8") as f:
+                return json.load(f)
+    raise FileNotFoundError(f"Could not find any of: {candidates}")
+
+
+def _openalex_budget_exhausted(payload):
+    if not isinstance(payload, dict):
+        return False
+    message = " ".join(
+        [
+            str(payload.get("message") or ""),
+            str(payload.get("error") or ""),
+        ]
+    ).lower()
+    return "insufficient budget" in message or "dailyremainingusd" in message
+
+
+def fetch_openalex_for_doi(doi, request_timeout=8, max_attempts=3, budget_state=None):
+    doi = normalize_doi(doi)
+    if not doi:
+        return None
+    params = {
+        "filter": f"doi:{doi}",
+        "select": "doi,cited_by_count,counts_by_year,publication_year,open_access,best_oa_location",
+        "per-page": 1,
+        "mailto": "paytonej@ucmail.uc.edu",
+    }
+    q = "https://api.openalex.org/works?" + urllib.parse.urlencode(params, quote_via=urllib.parse.quote)
+    headers = {
+        "User-Agent": "CARD Lab scientometrics (mailto:paytonej@ucmail.uc.edu)",
+        "From": "paytonej@ucmail.uc.edu",
+        "Accept": "application/json",
+    }
+
+    for attempt in range(max_attempts):
+        try:
+            req = urllib.request.Request(q, headers=headers)
+            with urllib.request.urlopen(req, timeout=request_timeout) as resp:
+                if resp.status != 200:
+                    continue
+                payload = json.loads(resp.read().decode("utf-8"))
+                if _openalex_budget_exhausted(payload):
+                    if isinstance(budget_state, dict):
+                        budget_state["exhausted"] = True
+                    return None
+                rows = payload.get("results") or []
+                if not rows:
+                    return None
+                row = dict(rows[0])
+                # Keep the queried DOI for robust downstream joins when API DOI fields are sparse.
+                row["_query_doi"] = doi
+                return row
+        except urllib.error.HTTPError as err:
+            try:
+                body = err.read().decode("utf-8")
+                payload = json.loads(body)
+                if _openalex_budget_exhausted(payload) and isinstance(budget_state, dict):
+                    budget_state["exhausted"] = True
+            except Exception:
+                pass
+            if err.code in (408, 409, 425, 429, 500, 502, 503, 504) and attempt < (max_attempts - 1):
+                time.sleep(0.8 + (attempt * 1.1))
+                continue
+            return None
+        except Exception:
+            if attempt < (max_attempts - 1):
+                time.sleep(0.6 + (attempt * 0.9))
+                continue
+            return None
+    return None
+
+
+def fetch_openalex_work_endpoint(doi, request_timeout=8, max_attempts=2, budget_state=None):
+    doi = normalize_doi(doi)
+    if not doi:
+        return None
+    url = "https://api.openalex.org/works/https://doi.org/" + urllib.parse.quote(doi, safe="")
+    headers = {
+        "User-Agent": "CARD Lab scientometrics (mailto:paytonej@ucmail.uc.edu)",
+        "From": "paytonej@ucmail.uc.edu",
+        "Accept": "application/json",
+    }
+    for attempt in range(max_attempts):
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=request_timeout) as resp:
+                if resp.status != 200:
+                    continue
+                row = json.loads(resp.read().decode("utf-8"))
+                if _openalex_budget_exhausted(row):
+                    if isinstance(budget_state, dict):
+                        budget_state["exhausted"] = True
+                    return None
+                if not isinstance(row, dict):
+                    return None
+                row["_query_doi"] = doi
+                return row
+        except urllib.error.HTTPError as err:
+            try:
+                body = err.read().decode("utf-8")
+                payload = json.loads(body)
+                if _openalex_budget_exhausted(payload) and isinstance(budget_state, dict):
+                    budget_state["exhausted"] = True
+            except Exception:
+                pass
+            if err.code in (408, 409, 425, 429, 500, 502, 503, 504) and attempt < (max_attempts - 1):
+                time.sleep(0.8 + attempt)
+                continue
+            return None
+        except Exception:
+            if attempt < (max_attempts - 1):
+                time.sleep(0.6 + attempt)
+                continue
+            return None
+    return None
+
+
+def fetch_all_profiles(dois, max_doi=120, total_time_budget_sec=130):
+    unique = []
+    seen = set()
+    for d in dois:
+        nd = normalize_doi(d)
+        if nd and nd not in seen:
+            seen.add(nd)
+            unique.append(nd)
+    selected = unique[:max_doi]
+    out = []
+    citation_by_doi = {}
+    profile_by_doi = {}
+
+    cache_candidates = [Path("../files/references_citing_pi.csv"), Path("files/references_citing_pi.csv")]
+    cache_path = cache_candidates[0] if cache_candidates[0].parent.exists() else cache_candidates[1]
+    start_ts = time.monotonic()
+    budget_state = {"exhausted": False}
+
+    def _time_budget_exceeded():
+        return (time.monotonic() - start_ts) >= float(total_time_budget_sec)
+
+    def _load_cache(path):
+        if not path.exists():
+            return {}
+        loaded = {}
+        try:
+            with path.open("r", encoding="utf-8", newline="") as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    row_type = str(row.get("row_type") or "").strip().lower()
+                    has_cache_payload = bool(
+                        str(row.get("cited_by_count") or "").strip()
+                        or str(row.get("counts_by_year_json") or "").strip()
+                        or str(row.get("open_access_json") or "").strip()
+                    )
+                    if row_type and row_type != "cache":
+                        continue
+                    if (not row_type) and (not has_cache_payload):
+                        continue
+                    doi = normalize_doi(row.get("doi") or "")
+                    if not doi:
+                        doi = normalize_doi(row.get("ref_doi") or row.get("cited_doi") or "")
+                    if not doi:
+                        continue
+                    try:
+                        counts_by_year = json.loads(row.get("counts_by_year_json") or "[]")
+                    except Exception:
+                        counts_by_year = []
+                    try:
+                        open_access = json.loads(row.get("open_access_json") or "{}")
+                    except Exception:
+                        open_access = {}
+                    try:
+                        best_oa_location = json.loads(row.get("best_oa_location_json") or "{}")
+                    except Exception:
+                        best_oa_location = {}
+                    loaded[doi] = {
+                        "doi": doi,
+                        "_query_doi": doi,
+                        "cited_by_count": int(row.get("cited_by_count") or 0),
+                        "publication_year": int(row.get("publication_year") or 0) or None,
+                        "counts_by_year": counts_by_year if isinstance(counts_by_year, list) else [],
+                        "open_access": open_access if isinstance(open_access, dict) else {},
+                        "best_oa_location": best_oa_location if isinstance(best_oa_location, dict) else {},
+                        "_cache_updated_utc": row.get("updated_utc") or "",
+                    }
+        except Exception:
+            return {}
+        return loaded
+
+    cache_records = _load_cache(cache_path)
+
+    def _fetch_openalex_batch(chunk):
+        if budget_state.get("exhausted"):
+            return []
+        filter_expr = "doi:" + "|".join(chunk)
+        params = {
+            "filter": filter_expr,
+            "select": "doi,cited_by_count,counts_by_year,publication_year,open_access,best_oa_location",
+            "per-page": len(chunk),
+            "mailto": "paytonej@ucmail.uc.edu",
+        }
+        q = "https://api.openalex.org/works?" + urllib.parse.urlencode(params, quote_via=urllib.parse.quote)
+        headers = {
+            "User-Agent": "CARD Lab scientometrics (mailto:paytonej@ucmail.uc.edu)",
+            "From": "paytonej@ucmail.uc.edu",
+            "Accept": "application/json",
+        }
+        for attempt in range(3):
+            try:
+                if _time_budget_exceeded():
+                    return []
+                req = urllib.request.Request(q, headers=headers)
+                with urllib.request.urlopen(req, timeout=10) as resp:
+                    if resp.status != 200:
+                        continue
+                    payload = json.loads(resp.read().decode("utf-8"))
+                    if _openalex_budget_exhausted(payload):
+                        budget_state["exhausted"] = True
+                        return []
+                    return payload.get("results") or []
+            except urllib.error.HTTPError as err:
+                try:
+                    body = err.read().decode("utf-8")
+                    payload = json.loads(body)
+                    if _openalex_budget_exhausted(payload):
+                        budget_state["exhausted"] = True
+                        return []
+                except Exception:
+                    pass
+                if err.code in (408, 409, 425, 429, 500, 502, 503, 504) and attempt < 2:
+                    time.sleep(0.9 + (attempt * 1.2))
+                    continue
+                return []
+            except Exception:
+                if attempt < 2:
+                    time.sleep(0.7 + (attempt * 0.9))
+                    continue
+                return []
+        return []
+
+    for i in range(0, len(selected), 25):
+        if _time_budget_exceeded() or budget_state.get("exhausted"):
+            break
+        chunk = selected[i : i + 25]
+        chunk_set = set(chunk)
+        matched = set()
+        for row in _fetch_openalex_batch(chunk):
+            nd = normalize_doi(str(row.get("doi") or ""))
+            if not nd or nd not in chunk_set:
+                continue
+            rec = dict(row)
+            rec["_query_doi"] = nd
+            profile_by_doi[nd] = rec
+            citation_by_doi[nd] = int(rec.get("cited_by_count") or 0)
+            matched.add(nd)
+
+        # Fall back to single DOI requests for unresolved rows in the chunk.
+        unresolved = [d for d in chunk if d not in matched]
+        for doi in unresolved:
+            if _time_budget_exceeded() or budget_state.get("exhausted"):
+                break
+            row = fetch_openalex_for_doi(doi, request_timeout=8, max_attempts=2, budget_state=budget_state)
+            if not row:
+                row = fetch_openalex_work_endpoint(doi, request_timeout=8, max_attempts=2, budget_state=budget_state)
+            if row:
+                profile_by_doi[doi] = row
+                citation_by_doi[doi] = int(row.get("cited_by_count") or 0)
+            time.sleep(0.15)
+
+    # Cache fallback for unresolved DOIs when OpenAlex is unavailable or rate limited.
+    for doi in selected:
+        if doi in profile_by_doi:
+            continue
+        cached = cache_records.get(doi)
+        if cached:
+            profile_by_doi[doi] = cached
+            citation_by_doi[doi] = int(cached.get("cited_by_count") or 0)
+
+    # Update in-memory cache with newest successful profile rows.
+    for doi, rec in profile_by_doi.items():
+        cache_records[doi] = {
+            "doi": doi,
+            "cited_by_count": int(rec.get("cited_by_count") or 0),
+            "publication_year": rec.get("publication_year"),
+            "counts_by_year": rec.get("counts_by_year") or [],
+            "open_access": rec.get("open_access") or {},
+            "best_oa_location": rec.get("best_oa_location") or {},
+        }
+
+    out = list(profile_by_doi.values())
+
+    return out, citation_by_doi, len(selected), len(unique) > max_doi, cache_records, bool(budget_state.get("exhausted"))
+
+
+def cumulative_series(profiles, start_year=None, end_year=None):
+    year_counts = defaultdict(int)
+    for p in profiles:
+        for row in p.get("counts_by_year") or []:
+            y = row.get("year")
+            c = row.get("cited_by_count") or 0
+            if isinstance(y, int):
+                year_counts[y] += int(c)
+
+    if not year_counts:
+        return []
+
+    min_year = min(year_counts.keys()) if start_year is None else int(start_year)
+    max_year = max(year_counts.keys()) if end_year is None else int(end_year)
+    if max_year < min_year:
+        min_year, max_year = max_year, min_year
+
+    years = list(range(min_year, max_year + 1))
+    cumulative = 0
+    result = []
+    for y in years:
+        cumulative += year_counts.get(y, 0)
+        result.append((y, cumulative))
+    return result
+
+
+def h_index(citation_counts):
+    arr = sorted([int(x) for x in citation_counts if isinstance(x, (int, float))], reverse=True)
+    h = 0
+    for i, c in enumerate(arr, start=1):
+        if c >= i:
+            h = i
+        else:
+            break
+    return h
+
+
+def g_index(citation_counts):
+    arr = sorted([int(x) for x in citation_counts if isinstance(x, (int, float))], reverse=True)
+    g = 0
+    running = 0
+    for i, c in enumerate(arr, start=1):
+        running += c
+        if running >= (i * i):
+            g = i
+        else:
+            break
+    return g
+
+
+def make_value_box(label, value, icon, theme):
+    return (
+        f"<div class='value-box {theme}'>"
+        f"<div class='top-row'><div class='label'>{escape(label)}</div><iconify-icon icon='{escape(icon)}'></iconify-icon></div>"
+        f"<div class='value'>{escape(value)}</div>"
+        "</div>"
+    )
+
+
+def cumulative_chart_svg(series, width=980, height=340):
+    if not series:
+        return "<p>No citation time-series data available.</p>"
+    pad_l, pad_r, pad_t, pad_b = 56, 20, 18, 36
+    plot_w = width - pad_l - pad_r
+    plot_h = height - pad_t - pad_b
+    xs = [x for x, _ in series]
+    ys = [y for _, y in series]
+    min_x, max_x = min(xs), max(xs)
+    max_y = max(max(ys), 1)
+
+    def sx(x):
+        if max_x == min_x:
+            return pad_l + plot_w / 2
+        return pad_l + ((x - min_x) / (max_x - min_x)) * plot_w
+
+    def sy(y):
+        return pad_t + plot_h - (y / max_y) * plot_h
+
+    poly = " ".join(f"{sx(x):.2f},{sy(y):.2f}" for x, y in series)
+    x_ticks = sorted({min_x, int((min_x + max_x) / 2), max_x})
+    y_ticks = [int(round((i / 4) * max_y)) for i in range(5)]
+
+    parts = [
+        f"<svg viewBox='0 0 {width} {height}' width='100%' role='img' aria-label='Cumulative citations over time'>",
+        "<rect x='0' y='0' width='100%' height='100%' fill='white'/>",
+        f"<line x1='{pad_l}' y1='{pad_t+plot_h}' x2='{pad_l+plot_w}' y2='{pad_t+plot_h}' stroke='#d9e1ea'/>",
+        f"<line x1='{pad_l}' y1='{pad_t}' x2='{pad_l}' y2='{pad_t+plot_h}' stroke='#d9e1ea'/>",
+    ]
+    for v in y_ticks:
+        y = sy(v)
+        parts.append(f"<line x1='{pad_l}' y1='{y:.2f}' x2='{pad_l+plot_w}' y2='{y:.2f}' stroke='#eef2f6' />")
+        parts.append(f"<text x='8' y='{y+5:.2f}' fill='#5a6776' font-size='14'>{v}</text>")
+    for yr in x_ticks:
+        x = sx(yr)
+        parts.append(f"<line x1='{x:.2f}' y1='{pad_t}' x2='{x:.2f}' y2='{pad_t+plot_h}' stroke='#eef2f6' />")
+        parts.append(f"<text x='{x-17:.2f}' y='{height-10}' fill='#5a6776' font-size='14'>{yr}</text>")
+    parts.append(f"<text x='{width/2 - 40:.2f}' y='{height-6:.2f}' fill='#475467' font-size='15'>Year</text>")
+    parts.append(f"<text x='14' y='20' fill='#475467' font-size='15'>Cumulative citations</text>")
+    parts.append(f"<polyline fill='none' stroke='#2f6fb7' stroke-width='2.4' points='{poly}'/>")
+    for x, y in series:
+        parts.append(f"<circle cx='{sx(x):.2f}' cy='{sy(y):.2f}' r='2.4' fill='#2f6fb7' />")
+    parts.append("</svg>")
+    return "".join(parts)
+
+
+def cumulative_chart_plotly(series):
+    if not series:
+        return "<p>No citation time-series data available.</p>"
+
+    try:
+        import plotly.graph_objects as go
+    except Exception:
+        return "<p>Plotly is unavailable for the cumulative citations chart.</p>"
+
+    x_vals = [x for x, _ in series]
+    y_vals = [y for _, y in series]
+    current_year = dt.date.today().year
+    is_ytd_segment = len(x_vals) >= 2 and x_vals[-1] == current_year and x_vals[-1] > x_vals[-2]
+
+    fig = go.Figure()
+    if is_ytd_segment:
+        fig.add_trace(
+            go.Scatter(
+                x=x_vals[:-1],
+                y=y_vals[:-1],
+                mode="lines+markers",
+                line=dict(color="#2f6fb7", width=2.5),
+                marker=dict(color="#2f6fb7", size=6),
+                hovertemplate="Year %{x}<br>Cumulative citations %{y}<extra></extra>",
+            )
+        )
+        fig.add_trace(
+            go.Scatter(
+                x=x_vals[-2:],
+                y=y_vals[-2:],
+                mode="lines",
+                line=dict(color="#2f6fb7", width=2.5, dash="dash"),
+                hovertemplate="Year %{x}<br>Cumulative citations %{y}<extra></extra>",
+            )
+        )
+        fig.add_trace(
+            go.Scatter(
+                x=[x_vals[-1]],
+                y=[y_vals[-1]],
+                mode="markers",
+                marker=dict(symbol="circle-open", color="#2f6fb7", size=10, line=dict(color="#2f6fb7", width=2)),
+                hovertemplate="Year %{x}<br>Cumulative citations %{y}<extra></extra>",
+            )
+        )
+    else:
+        fig.add_trace(
+            go.Scatter(
+                x=x_vals,
+                y=y_vals,
+                mode="lines+markers",
+                line=dict(color="#2f6fb7", width=2.5),
+                marker=dict(color="#2f6fb7", size=6),
+                hovertemplate="Year %{x}<br>Cumulative citations %{y}<extra></extra>",
+            )
+        )
+    fig.update_layout(
+        height=360,
+        margin={"l": 10, "r": 10, "t": 20, "b": 10},
+        paper_bgcolor="#ffffff",
+        plot_bgcolor="#ffffff",
+        font=dict(size=14, color="#233447"),
+        xaxis=dict(
+            title="Year",
+            title_font=dict(size=15),
+            tickfont=dict(size=13),
+            gridcolor="#eef2f6",
+            zeroline=False,
+        ),
+        yaxis=dict(
+            title="Cumulative citations",
+            title_font=dict(size=15),
+            tickfont=dict(size=13),
+            gridcolor="#eef2f6",
+            zeroline=False,
+        ),
+        annotations=(
+            [
+                dict(
+                    x=x_vals[-1],
+                    y=y_vals[-1],
+                    text="(year to date)",
+                    showarrow=False,
+                    xanchor="left",
+                    yanchor="bottom",
+                    xshift=10,
+                    yshift=8,
+                    font=dict(size=12, color="#475467"),
+                )
+            ]
+            if is_ytd_segment
+            else []
+        ),
+        showlegend=False,
+    )
+    return fig.to_html(include_plotlyjs="cdn", full_html=False)
+
+
+def word_cloud_svg(freq_items, width=980, height=420):
+    if not freq_items:
+        return "<p>No title-word data available.</p>"
+    try:
+        from wordcloud import STOPWORDS, WordCloud
+    except Exception:
+        STOPWORDS = set()
+        WordCloud = None
+
+    freq_map = {word: int(count) for word, count in freq_items if word}
+    if not freq_map:
+        return "<p>No title-word data available.</p>"
+
+    stop_words = set(STOPWORDS)
+    stop_words.update({"card", "lab", "labs", "work", "works", "paper", "papers", "study", "studies", "using", "based", "via", "analysis"})
+
+    if WordCloud is None:
+        # Lightweight deterministic fallback when the wordcloud package is unavailable.
+        top = sorted(freq_map.items(), key=lambda kv: kv[1], reverse=True)[:60]
+        max_c = max(c for _, c in top) if top else 1
+        cols = 6
+        margin_x = 20
+        margin_y = 24
+        cell_w = max(120, int((width - 2 * margin_x) / cols))
+        row_count = max(1, math.ceil(len(top) / cols))
+        cell_h = max(26, int((height - 2 * margin_y) / row_count))
+        random.seed(42)
+        parts = [f"<svg viewBox='0 0 {width} {height}' width='100%' role='img' aria-label='Word cloud fallback from publication titles, abstracts, and keywords'>"]
+        parts.append(f"<rect x='0' y='0' width='{width}' height='{height}' fill='white' />")
+        for idx, (word, count) in enumerate(top):
+            r = idx // cols
+            c = idx % cols
+            size = 12 + int(20 * (count / max_c))
+            x = margin_x + c * cell_w + random.randint(4, 16)
+            y = margin_y + r * cell_h + random.randint(16, max(18, cell_h - 4))
+            color = "#2f6fb7" if idx < 12 else "#5b6e82"
+            parts.append(f"<text x='{x}' y='{y}' font-size='{size}' fill='{color}'>{escape(word)}</text>")
+        parts.append("</svg>")
+        return "".join(parts)
+
+    wc = WordCloud(
+        width=1600,
+        height=800,
+        background_color="white",
+        max_words=200,
+        collocations=False,
+        stopwords=stop_words,
+        random_state=42,
+    ).generate_from_frequencies(freq_map)
+
+    image = wc.to_image()
+    buffer = io.BytesIO()
+    image.save(buffer, format="PNG")
+    encoded = base64.b64encode(buffer.getvalue()).decode("ascii")
+    return (
+        f"<img src='data:image/png;base64,{encoded}' "
+        f"style='width:100%; height:auto; display:block;' "
+        f"alt='Word cloud from publication titles, abstracts, and keywords' />"
+    )
+
+
+def build_pi_citation_csv_rows(pi_dois, cache_records=None):
+    source_candidates = [Path("../files/references_citing_us.csv"), Path("files/references_citing_us.csv")]
+    source = next((p for p in source_candidates if p.exists()), None)
+    if not source:
+        return [], None
+
+    filtered_rows = []
+    fieldnames = None
+    with source.open("r", encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        fieldnames = reader.fieldnames or []
+        for row in reader:
+            ref_doi = normalize_doi(row.get("ref_doi") or "")
+            if ref_doi and ref_doi in pi_dois:
+                filtered_rows.append(row)
+
+    filtered_rows = _backfill_citation_geo_rows(filtered_rows)
+
+    target = Path("../files/references_citing_pi.csv")
+    if not target.parent.exists():
+        target = Path("files/references_citing_pi.csv")
+    cache_records = cache_records if isinstance(cache_records, dict) else {}
+    if fieldnames:
+        cache_cols = [
+            "row_type",
+            "doi",
+            "cited_by_count",
+            "publication_year",
+            "counts_by_year_json",
+            "open_access_json",
+            "best_oa_location_json",
+            "updated_utc",
+        ]
+        out_fieldnames = list(fieldnames)
+        for c in cache_cols:
+            if c not in out_fieldnames:
+                out_fieldnames.append(c)
+
+        stamp = dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
+        cache_rows = []
+        for doi in sorted(cache_records.keys()):
+            rec = cache_records.get(doi) or {}
+            cache_rows.append(
+                {
+                    "row_type": "cache",
+                    "doi": doi,
+                    "cited_by_count": int(rec.get("cited_by_count") or 0),
+                    "publication_year": int(rec.get("publication_year") or 0) or "",
+                    "counts_by_year_json": json.dumps(rec.get("counts_by_year") or [], ensure_ascii=False),
+                    "open_access_json": json.dumps(rec.get("open_access") or {}, ensure_ascii=False),
+                    "best_oa_location_json": json.dumps(rec.get("best_oa_location") or {}, ensure_ascii=False),
+                    "updated_utc": stamp,
+                }
+            )
+
+        map_rows = []
+        for row in filtered_rows:
+            out_row = dict(row)
+            ref_doi = normalize_doi(out_row.get("ref_doi") or out_row.get("cited_doi") or "")
+            rec = cache_records.get(ref_doi) if ref_doi else None
+            out_row["row_type"] = "map"
+            out_row["doi"] = ref_doi
+            if rec:
+                out_row["cited_by_count"] = int(rec.get("cited_by_count") or 0)
+                out_row["publication_year"] = int(rec.get("publication_year") or 0) or ""
+                out_row["counts_by_year_json"] = json.dumps(rec.get("counts_by_year") or [], ensure_ascii=False)
+                out_row["open_access_json"] = json.dumps(rec.get("open_access") or {}, ensure_ascii=False)
+                out_row["best_oa_location_json"] = json.dumps(rec.get("best_oa_location") or {}, ensure_ascii=False)
+                out_row["updated_utc"] = stamp
+            else:
+                out_row["cited_by_count"] = ""
+                out_row["publication_year"] = ""
+                out_row["counts_by_year_json"] = ""
+                out_row["open_access_json"] = ""
+                out_row["best_oa_location_json"] = ""
+                out_row["updated_utc"] = ""
+            map_rows.append(out_row)
+
+        with target.open("w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=out_fieldnames)
+            writer.writeheader()
+            writer.writerows(map_rows + cache_rows)
+    return filtered_rows, target
+
+
+def _split_semicolon_values(value):
+    text = str(value or "").strip()
+    if not text:
+        return []
+    return [part.strip() for part in text.split(";") if part.strip()]
+
+
+def _search_openalex_institution_geo(affiliation_text, country_hint=None, cache=None):
+    affiliation_text = str(affiliation_text or "").strip()
+    if not affiliation_text:
+        return None
+
+    hint = str(country_hint or "").strip().upper()
+    cache_key = (affiliation_text.lower(), hint)
+    if cache is not None and cache_key in cache:
+        return cache[cache_key]
+
+    def _query(filter_value=None):
+        params = {"search": affiliation_text, "per-page": 5}
+        if filter_value:
+            params["filter"] = filter_value
+        url = "https://api.openalex.org/institutions?" + urllib.parse.urlencode(params, quote_via=urllib.parse.quote)
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "CARD Lab scientometrics (mailto:paytonej@ucmail.uc.edu)"},
+        )
+        with urllib.request.urlopen(req, timeout=12) as resp:
+            if resp.status != 200:
+                return None
+            return json.loads(resp.read().decode("utf-8"))
+
+    payload = None
+    try:
+        payload = _query(f"country_code:{hint}") if hint else _query()
+    except Exception:
+        payload = None
+
+    if not payload and hint:
+        try:
+            payload = _query()
+        except Exception:
+            payload = None
+
+    result = None
+    for inst in (payload or {}).get("results") or []:
+        geo = inst.get("geo") or {}
+        lat = geo.get("latitude")
+        lon = geo.get("longitude")
+        if lat is None or lon is None:
+            continue
+        result = (float(lat), float(lon), str(inst.get("display_name") or "").strip())
+        break
+
+    if cache is not None:
+        cache[cache_key] = result
+    return result
+
+
+def _backfill_citation_geo_rows(rows):
+    cache = {}
+    output = []
+    for row in rows:
+        row = dict(row)
+        try:
+            lat_value = float(str(row.get("citing_latitude_mean") or "").strip())
+            lon_value = float(str(row.get("citing_longitude_mean") or "").strip())
+            has_geo = -90 <= lat_value <= 90 and -180 <= lon_value <= 180
+        except Exception:
+            has_geo = False
+            lat_value = None
+            lon_value = None
+
+        if not has_geo:
+            affiliations = _split_semicolon_values(row.get("citing_affiliations"))
+            countries = _split_semicolon_values(row.get("citing_affiliation_countries"))
+            resolved = []
+            for index, affiliation in enumerate(affiliations):
+                country_hint = countries[index] if index < len(countries) else (countries[0] if len(countries) == 1 else None)
+                geo = _search_openalex_institution_geo(affiliation, country_hint=country_hint, cache=cache)
+                if geo:
+                    resolved.append(geo)
+            if resolved:
+                lat_value = sum(lat for lat, _, _ in resolved) / len(resolved)
+                lon_value = sum(lon for _, lon, _ in resolved) / len(resolved)
+                row["citing_latitude_mean"] = f"{lat_value:.6f}"
+                row["citing_longitude_mean"] = f"{lon_value:.6f}"
+        output.append(row)
+    return output
+
+
+def citation_map_svg(rows):
+    citing_points = {}
+    counts = Counter()
+    for row in rows:
+        citing_doi = normalize_doi(row.get("citing_doi") or "")
+        if not citing_doi:
+            continue
+        try:
+            lat = float(str(row.get("citing_latitude_mean") or "").strip())
+            lon = float(str(row.get("citing_longitude_mean") or "").strip())
+        except Exception:
+            continue
+        if not (-90 <= lat <= 90 and -180 <= lon <= 180):
+            continue
+        # One marker contribution per citing paper; avoids overcount from multi-reference rows.
+        citing_points[citing_doi] = (round(lat, 2), round(lon, 2))
+
+    points = list(citing_points.values())
+    for key in points:
+        counts[key] += 1
+
+    if not points:
+        return "<p>No mappable latitude/longitude data found for PI citation references.</p>"
+
+    try:
+        import pandas as pd
+        import plotly.express as px
+    except Exception:
+        return "<p>Plotly is unavailable for the PI citation map.</p>"
+
+    df_map = pd.DataFrame(
+        [{"latitude": lat, "longitude": lon, "count": count} for (lat, lon), count in counts.items()]
+    )
+    fig = px.scatter_geo(
+        df_map,
+        lat="latitude",
+        lon="longitude",
+        size="count",
+        projection="natural earth",
+        title="Affiliations of Papers Citing the PI's Works",
+    )
+    fig.update_traces(
+        marker=dict(color="#2f80ed", line=dict(color="#1f5faf", width=0.8), opacity=0.42),
+        hovertemplate="Lat %{lat:.2f}<br>Lon %{lon:.2f}<br>Citations %{marker.size}<extra></extra>",
+    )
+    fig.update_geos(
+        showcountries=True,
+        showcoastlines=True,
+        showland=True,
+        landcolor="#f3f6f9",
+        oceancolor="#dceaf7",
+        showocean=True,
+        coastlinecolor="#9db4cc",
+        countrycolor="#ffffff",
+        projection_type="natural earth",
+    )
+    fig.update_layout(height=650, margin={"l": 0, "r": 0, "t": 60, "b": 0})
+    return fig.to_html(include_plotlyjs="cdn", full_html=False)
+
+
+zotero_raw = load_json_candidates(["../files/zotero-items.json", "files/zotero-items.json"])
+pre_uc_raw = load_json_candidates(["../files/Pre-UC.json", "files/Pre-UC.json"])
+
+zotero_items = [x for x in (zotero_raw or []) if isinstance(x, dict) and x.get("data")]
+pre_uc_items = [normalize_pre_uc_item(x) for x in (pre_uc_raw or []) if isinstance(x, dict)]
+merged_items = [
+    x
+    for x in dedupe_items(zotero_items + pre_uc_items)
+    if has_payton_author(x)
+    or (
+        str((x.get("data") or {}).get("librarySource") or "").strip().lower() == "pre-uc"
+        and is_presentation_record(x)
+    )
+]
+pi_dois = {normalize_doi(x.get("data", {}).get("DOI") or "") for x in merged_items}
+pi_dois = {x for x in pi_dois if x}
+
+dois = [x.get("data", {}).get("DOI") or "" for x in merged_items]
+profiles, citation_by_doi, queried_count, capped, cache_records, openalex_budget_exhausted = fetch_all_profiles(dois)
+profile_by_doi = {
+    normalize_doi((p.get("_query_doi") or p.get("doi") or "")): p
+    for p in profiles
+    if normalize_doi((p.get("_query_doi") or p.get("doi") or ""))
+}
+citation_counts = [int(p.get("cited_by_count") or 0) for p in profiles]
+total_citations = int(sum(citation_counts))
+h_idx = h_index(citation_counts)
+g_idx = g_index(citation_counts)
+i10_idx = sum(1 for c in citation_counts if c >= 10)
+peer_reviewed_publication_count = sum(
+    1
+    for x in merged_items
+    if str((x.get("data") or {}).get("itemType") or "").strip() == "journalArticle"
+)
+peer_reviewed_items = [
+    x
+    for x in merged_items
+    if str((x.get("data") or {}).get("itemType") or "").strip() == "journalArticle"
+]
+
+pub_years = [extract_year(x.get("data", {}).get("date")) for x in merged_items]
+pub_years = [y for y in pub_years if isinstance(y, int)]
+first_year = min(pub_years) if pub_years else dt.date.today().year
+career_years = max(1, dt.date.today().year - first_year + 1)
+m_quotient = h_idx / career_years
+
+
+def top_cited_superset_rows(items, citation_by_doi, n=10):
+
+    rows = []
+    seen = set()
+    for item in items:
+        d = item.get("data") or {}
+        doi = normalize_doi(d.get("DOI") or "")
+        if not doi or doi in seen:
+            continue
+        seen.add(doi)
+        rows.append(
+            {
+                "title": str(d.get("title") or "Untitled").strip(),
+                "year": extract_year(d.get("date")),
+                "doi": doi,
+                "citations": int(citation_by_doi.get(doi, 0)),
+            }
+        )
+
+    rows.sort(key=lambda r: (r["citations"], r["year"] or -1, r["title"].lower()), reverse=True)
+    return rows[:n]
+
+
+def render_top_cited_table(rows):
+    if not rows:
+        return "<p>No DOI-linked records available for a citation table.</p>"
+
+    def _render_title_keep_braces_math(raw):
+        text = str(raw or "")
+        while True:
+            dec = html.unescape(text)
+            if dec == text:
+                break
+            text = dec
+        while True:
+            unwrapped = re.sub(r"\{([^{}]+)\}", r"\1", text)
+            if unwrapped == text:
+                break
+            text = unwrapped
+        token_re = re.compile(r"(\$[^$]+\$)")
+        rendered = []
+        pos = 0
+        for m in token_re.finditer(text):
+            if m.start() > pos:
+                rendered.append(escape(text[pos:m.start()]))
+            rendered.append(m.group(1))
+            pos = m.end()
+        if pos < len(text):
+            rendered.append(escape(text[pos:]))
+        return "".join(rendered)
+
+    body = []
+    for i, r in enumerate(rows, start=1):
+        title = _render_title_keep_braces_math(r.get("title") or "Untitled")
+        year = r.get("year")
+        year_text = str(year) if isinstance(year, int) else ""
+        citations = int(r.get("citations") or 0)
+        doi = str(r.get("doi") or "")
+        doi_link = f"<a href='https://doi.org/{escape(doi, quote=True)}' target='_blank'>doi:{escape(doi)}</a>" if doi else ""
+        paper_with_doi = title + (f"<br><span class='top-cited-doi'>{doi_link}</span>" if doi_link else "")
+        body.append(
+            "<tr>"
+            + f"<td>{i}</td>"
+            + f"<td>{paper_with_doi}</td>"
+            + f"<td>{escape(year_text)}</td>"
+            + f"<td>{citations}</td>"
+            + "</tr>"
+        )
+
+    return (
+        "<div class='top-cited-wrap'><table class='top-cited-table'>"
+        + "<colgroup><col class='col-rank'><col class='col-paper'><col class='col-year'><col class='col-cites'></colgroup>"
+        + "<thead><tr><th>#</th><th>Paper</th><th>Year</th><th>Citations</th></tr></thead>"
+        + "<tbody>"
+        + "".join(body)
+        + "</tbody></table></div>"
+    )
+
+value_boxes_html = "".join(
+    [
+        make_value_box("Peer-reviewed publications", str(peer_reviewed_publication_count), "mdi:file-document-multiple-outline", "kpi-peer-reviewed"),
+        make_value_box("Total citations", str(total_citations), "mdi:format-list-numbered", "kpi-total-citations"),
+        make_value_box("H-index", str(h_idx), "mdi:chart-bell-curve-cumulative", "kpi-h-index"),
+        make_value_box("G-index", str(g_idx), "mdi:chart-areaspline", "kpi-g-index"),
+        make_value_box("i10-index", str(i10_idx), "mdi:numeric-10-box-outline", "kpi-i10-index"),
+        make_value_box("m-quotient", f"{m_quotient:.2f}", "mdi:chart-line", "kpi-m-quotient"),
+    ]
+)
+
+display(
+    HTML(
+                """
+<style>
+  #pi-scientometrics-built { margin-top: 1rem; }
+    #pi-scientometrics-built .value-box-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(250px, 1fr));
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+    }
+    @media (max-width: 700px) {
+      #pi-scientometrics-built .value-box-grid {
+          grid-template-columns: 1fr;
+      }
+    }
+    #pi-scientometrics-built .value-box {
+        border-radius: 1rem;
+        padding: 0.9rem 1rem;
+        color: #fff;
+        box-shadow: 0 5px 16px rgba(0, 0, 0, 0.15);
+        min-height: 120px;
+    }
+    #pi-scientometrics-built .value-box .top-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.35rem;
+    }
+    #pi-scientometrics-built .value-box .label {
+        font-size: 0.92rem;
+        opacity: 0.94;
+    }
+    #pi-scientometrics-built .value-box .value {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.1;
+    }
+    #pi-scientometrics-built .value-box iconify-icon {
+        font-size: 1.6rem;
+        opacity: 0.9;
+    }
+    #pi-scientometrics-built .kpi-peer-reviewed { background: linear-gradient(90deg, #0f766e, #14b8a6); }
+    #pi-scientometrics-built .kpi-total-citations { background: linear-gradient(90deg, #b45309, #f59e0b); }
+    #pi-scientometrics-built .kpi-h-index { background: linear-gradient(90deg, #1d4ed8, #3b82f6); }
+    #pi-scientometrics-built .kpi-g-index { background: linear-gradient(90deg, #7c3aed, #a78bfa); }
+    #pi-scientometrics-built .kpi-i10-index { background: linear-gradient(90deg, #be123c, #fb7185); }
+    #pi-scientometrics-built .kpi-m-quotient { background: linear-gradient(90deg, #166534, #22c55e); }
+  #pi-scientometrics-built .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  #pi-scientometrics-built .kpi-card {
+    border: 1px solid #d8dde3;
+    border-radius: 0.7rem;
+    padding: 0.9rem 1rem;
+    background: #fbfdff;
+  }
+  #pi-scientometrics-built .kpi-label {
+    font-size: 0.9rem;
+    color: #4a5968;
+    margin-bottom: 0.35rem;
+  }
+  #pi-scientometrics-built .kpi-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #10243a;
+  }
+  #pi-scientometrics-built .panel {
+    border: 1px solid #d8dde3;
+    border-radius: 0.7rem;
+    padding: 0.9rem 1rem;
+    margin-bottom: 1rem;
+    background: #fff;
+  }
+  #pi-scientometrics-built .word-bars,
+  #pi-scientometrics-built .collab-list {
+    display: grid;
+    gap: 0.5rem;
+  }
+  #pi-scientometrics-built .bar-row {
+    display: grid;
+        grid-template-columns: minmax(0, 290px) minmax(110px, 1fr) auto;
+    gap: 0.6rem;
+        align-items: start;
+    font-size: 0.92rem;
+  }
+    #pi-scientometrics-built .bar-row.bar-head {
+        font-weight: 700;
+        color: #233447;
+        font-size: 0.84rem;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        align-items: end;
+        margin-bottom: 0.15rem;
+    }
+    #pi-scientometrics-built .bar-row.bar-head .bar-track {
+        background: transparent;
+        height: 0;
+    }
+    #pi-scientometrics-built .bar-name {
+        line-height: 1.25;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+    #pi-scientometrics-built .bar-count {
+        white-space: nowrap;
+        text-align: right;
+        min-width: 2ch;
+    }
+    #pi-scientometrics-built .bar-row.bar-head .bar-count {
+        white-space: normal;
+    }
+  #pi-scientometrics-built .bar-track {
+    height: 0.8rem;
+    border-radius: 999px;
+    background: #eff3f8;
+    overflow: hidden;
+  }
+  #pi-scientometrics-built .bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #2c6eb6, #6aa4df);
+  }
+  #pi-scientometrics-built .mini-note {
+    font-size: 0.9rem;
+    color: #4a5968;
+    margin-top: 0.45rem;
+  }
+    #pi-scientometrics-built .top-cited-wrap {
+        overflow-x: auto;
+    }
+    #pi-scientometrics-built .top-cited-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.92rem;
+        table-layout: fixed;
+    }
+    #pi-scientometrics-built .top-cited-table col.col-rank { width: 3ch; }
+    #pi-scientometrics-built .top-cited-table col.col-year { width: 6ch; }
+    #pi-scientometrics-built .top-cited-table col.col-cites { width: 9ch; }
+    #pi-scientometrics-built .top-cited-table col.col-paper { width: auto; }
+    #pi-scientometrics-built .top-cited-table th,
+    #pi-scientometrics-built .top-cited-table td {
+        border-bottom: 1px solid #e6ebf2;
+        padding: 0.4rem 0.35rem;
+        text-align: left;
+        vertical-align: top;
+        box-sizing: border-box;
+    }
+    #pi-scientometrics-built .top-cited-table th {
+        font-weight: 700;
+        color: #233447;
+        background: #f8fbff;
+    }
+    #pi-scientometrics-built .top-cited-table td:last-child,
+    #pi-scientometrics-built .top-cited-table th:last-child {
+        text-align: right;
+    }
+    #pi-scientometrics-built .top-cited-table th:nth-child(1),
+    #pi-scientometrics-built .top-cited-table td:nth-child(1) {
+        width: 3ch;
+        min-width: 3ch;
+        max-width: 3ch;
+        white-space: nowrap;
+    }
+    #pi-scientometrics-built .top-cited-table th:nth-child(3),
+    #pi-scientometrics-built .top-cited-table td:nth-child(3) {
+        width: 6ch;
+        min-width: 6ch;
+        max-width: 6ch;
+        white-space: nowrap;
+    }
+    #pi-scientometrics-built .top-cited-table th:nth-child(4),
+    #pi-scientometrics-built .top-cited-table td:nth-child(4) {
+        width: 9ch;
+        min-width: 9ch;
+        max-width: 9ch;
+        white-space: nowrap;
+    }
+    #pi-scientometrics-built .top-cited-table th:nth-child(2),
+    #pi-scientometrics-built .top-cited-table td:nth-child(2) {
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+    #pi-scientometrics-built .top-cited-doi {
+        font-size: 0.88rem;
+        color: #465869;
+    }
+    #pi-scientometrics-built .top-cited-doi a {
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+  #pi-scientometrics-built iframe {
+    width: 100%;
+    height: 480px;
+    border: 1px solid #edf1f5;
+    border-radius: 0.45rem;
+  }
+</style>
+<div id="pi-scientometrics-built">
+    <div class="value-box-grid">"""
+                                + value_boxes_html
+                                + """</div>
+</div>
+"""
+    )
+)
+
+series = cumulative_series(profiles, start_year=first_year, end_year=dt.date.today().year)
+
+cap_note = " DOI query capped at 120 for page performance." if capped else ""
+openalex_note = ""
+if openalex_budget_exhausted:
+    openalex_note = " OpenAlex API budget was exhausted during this render; unresolved DOI metadata used local cache fallback where available."
+display(Markdown(f"OpenAlex DOI matches: {len(profiles)} of {queried_count} queried works.{cap_note}{openalex_note}"))
+
+display(Markdown("### Top 10 Highest Cited Papers"))
+top_cited_rows = top_cited_superset_rows(merged_items, citation_by_doi, n=10)
+display(HTML("<div id='pi-scientometrics-built'><div class='panel'>" + render_top_cited_table(top_cited_rows) + "</div></div>"))
+
+display(Markdown("### Top 10 Collaborators"))
+collabs = top_collaborators(peer_reviewed_items, n=10)
+if collabs:
+    collab_max = max(c for _, c in collabs)
+    collab_rows = [
+        '<div class="bar-row bar-head"><div class="bar-name">Collaborator</div><div class="bar-track"></div><div class="bar-count">Coauthored Papers</div></div>'
+    ]
+    for name, count in collabs:
+        pct = (count / collab_max) * 100 if collab_max else 0
+        collab_rows.append(
+            f'<div class="bar-row"><div class="bar-name">{escape(name)}</div><div class="bar-track"><div class="bar-fill" style="width:{pct:.1f}%"></div></div><div class="bar-count">{count}</div></div>'
+        )
+    display(HTML('<div id="pi-scientometrics-built"><div class="panel"><div class="collab-list">' + "".join(collab_rows) + "</div></div></div>"))
+else:
+    display(Markdown("No collaborator data available."))
+
+display(Markdown("### Word Cloud from Titles and Abstracts"))
+word_items = word_frequency(merged_items, n=120)
+display(HTML("<div id='pi-scientometrics-built'><div class='panel'>" + word_cloud_svg(word_items) + "</div></div>"))
+
+display(Markdown("### Cumulative Citations Over Time"))
+display(HTML("<div id='pi-scientometrics-built'><div class='panel'>" + cumulative_chart_plotly(series) + "</div></div>"))
+
+display(Markdown("### Citation Map"))
+pi_rows, pi_csv_path = build_pi_citation_csv_rows(pi_dois, cache_records=cache_records)
+map_html = citation_map_svg(pi_rows)
+note = f"Citation map source rows: {len(pi_rows)}"
+unique_citing = len({normalize_doi(r.get("citing_doi") or "") for r in pi_rows if normalize_doi(r.get("citing_doi") or "")})
+country_tokens = set()
+for r in pi_rows:
+    country_tokens.update({c.strip().upper() for c in str(r.get("citing_affiliation_countries") or "").split(";") if c.strip()})
+note += f". Unique citing papers: {unique_citing}"
+if "AU" not in country_tokens:
+    note += ". Source metadata currently contains no AU affiliations for this DOI-matched subset"
+if pi_csv_path is not None:
+    note += f". Wrote {pi_csv_path}."
+display(HTML(f'<div id="pi-scientometrics-built"><div class="panel">{map_html}<div class="mini-note">{escape(note)}</div></div></div>'))
+```
+
+## Complete List of Publications
+
+```{python}
+#| echo: false
+#| warning: false
+
+from html import escape
+
+
+def pub_creator_name(c):
+    c = c if isinstance(c, dict) else {}
+    if c.get("name"):
+        return str(c.get("name")).strip()
+    first = str(c.get("firstName") or "").strip()
+    last = str(c.get("lastName") or "").strip()
+    if first and last:
+        initials = " ".join(f"{p[0].upper()}." for p in first.split() if p)
+        return f"{initials} {last}".strip()
+    return last or first
+
+
+def pub_authors(creators):
+    return ", ".join([x for x in (pub_creator_name(c) for c in (creators or [])) if x])
+
+
+def pub_year(date_text):
+    y = extract_year(date_text)
+    return str(y) if y else ""
+
+
+def format_display_date(date_text):
+    parsed = parse_date(str(date_text or ""))
+    if parsed:
+        return f"{parsed.day} {parsed.strftime('%b %Y')}"
+    return str(date_text or "").strip()
+
+
+def render_text_with_sub_and_math(text):
+    raw = str(text or "")
+    while True:
+        dec = html.unescape(raw)
+        if dec == raw:
+            break
+        raw = dec
+    # Curly braces from Zotero/CSL protect capitalization; keep text, drop braces.
+    while True:
+        unwrapped = re.sub(r"\{([^{}]+)\}", r"\1", raw)
+        if unwrapped == raw:
+            break
+        raw = unwrapped
+    if not raw:
+        return ""
+    token_re = re.compile(r"(<sub>.*?</sub>|<i>.*?</i>|\$[^$]+\$)", flags=re.I | re.S)
+    rendered = []
+    pos = 0
+    for match in token_re.finditer(raw):
+        if match.start() > pos:
+            rendered.append(escape(raw[pos:match.start()]))
+        token = match.group(0)
+        if token.lower().startswith("<sub>"):
+            inner = re.sub(r"^<sub>|</sub>$", "", token, flags=re.I)
+            rendered.append(f"<sub>{escape(inner)}</sub>")
+        elif token.lower().startswith("<i>"):
+            inner = re.sub(r"^<i>|</i>$", "", token, flags=re.I)
+            rendered.append(f"<span class='italic'>{escape(inner)}</span>")
+        else:
+            # Render simple sub/sup tokens directly; keep other math expressions in inline math delimiters.
+            math_inner = token[1:-1]
+            if re.fullmatch(r"_[^\s]+", math_inner):
+                rendered.append(f"<sub>{escape(math_inner[1:])}</sub>")
+            elif re.fullmatch(r"\^[^\s]+", math_inner):
+                rendered.append(f"<sup>{escape(math_inner[1:])}</sup>")
+            else:
+                rendered.append(f"${math_inner}$")
+        pos = match.end()
+    if pos < len(raw):
+        rendered.append(escape(raw[pos:]))
+    return "".join(rendered)
+
+
+def creator_name_initials(creator):
+    creator = creator if isinstance(creator, dict) else {}
+    first = str(creator.get("firstName") or "").strip()
+    last = str(creator.get("lastName") or "").strip()
+    if first and last:
+        initials = " ".join(f"{part[0].upper()}." for part in first.split() if part)
+        return f"{initials} {last}".strip()
+
+    literal = str(creator.get("name") or "").strip()
+    if not literal:
+        return ""
+
+    parts = literal.split()
+    if len(parts) <= 1:
+        return literal
+    surname = parts[-1]
+    initials = " ".join(f"{part[0].upper()}." for part in parts[:-1] if part)
+    return f"{initials} {surname}".strip()
+
+
+def publication_indicators(d):
+    doi = normalize_doi(str(d.get("DOI") or "").strip())
+    if not doi:
+        return ""
+
+    prof_map = globals().get("profile_by_doi") or {}
+    profile = prof_map.get(doi) if isinstance(prof_map, dict) else None
+    if not isinstance(profile, dict):
+        return ""
+
+    chips = []
+    cited_by = int(profile.get("cited_by_count") or 0)
+    chips.append(f"<span class='metric-chip'>Cited by {cited_by}</span>")
+
+    open_access = profile.get("open_access") if isinstance(profile.get("open_access"), dict) else {}
+    oa_url = str(open_access.get("oa_url") or "").strip()
+    oa_status = str(open_access.get("oa_status") or "").strip().lower()
+    if oa_url:
+        oa_label = "Open Access"
+        if oa_status:
+            oa_label += f" ({oa_status})"
+        chips.append(
+            f"<a class='metric-chip oa-chip' href='{escape(oa_url, quote=True)}' target='_blank'>{escape(oa_label)}</a>"
+        )
+
+    pdf_url = ""
+    best_oa_location = profile.get("best_oa_location") if isinstance(profile.get("best_oa_location"), dict) else {}
+    if isinstance(best_oa_location, dict):
+        pdf_url = str(best_oa_location.get("pdf_url") or "").strip()
+    if not pdf_url and oa_url.lower().split("?", 1)[0].endswith(".pdf"):
+        pdf_url = oa_url
+    if pdf_url:
+        chips.append(
+            f"<a class='metric-chip pdf-chip' href='{escape(pdf_url, quote=True)}' target='_blank'>PDF</a>"
+        )
+
+    return (" " + " ".join(chips)) if chips else ""
+
+
+def pub_citation(item, idx, total):
+    d = item.get("data") or {}
+    creators = d.get("creators") or []
+    authors = [c for c in creators if c.get("creatorType") == "author"]
+    editors = [c for c in creators if c.get("creatorType") == "editor"]
+    presenters = [c for c in creators if c.get("creatorType") == "presenter"]
+    main = creators if d.get("itemType") in ("computerProgram", "presentation") else authors
+    names = pub_authors(main) or "Unknown author"
+    title = render_text_with_sub_and_math(d.get("title") or "Untitled")
+    year = pub_year(d.get("date"))
+    journal = str(d.get("publicationTitle") or d.get("proceedingsTitle") or "").strip()
+    proceedings = str(d.get("proceedingsTitle") or "").strip()
+    meeting = str(d.get("meetingName") or "").strip()
+    place = str(d.get("place") or "").strip()
+    publisher = str(d.get("publisher") or "").strip()
+    institution = str(d.get("institution") or "").strip()
+    report_number = str(d.get("reportNumber") or "").strip()
+    report_type = str(d.get("reportType") or "").strip()
+    series_title = str(d.get("seriesTitle") or "").strip()
+    presentation_type = str(d.get("presentationType") or "").strip()
+    full_date = str(d.get("date") or "").strip()
+    volume = str(d.get("volume") or "").strip()
+    issue = str(d.get("issue") or "").strip()
+    pages = str(d.get("pages") or "").strip()
+    doi = normalize_doi(str(d.get("DOI") or "").strip())
+    url = str(d.get("url") or "").strip()
+
+    bits = [f"[{total - idx}] {escape(names)}. \"{title}.\""]
+    if d.get("itemType") == "conferencePaper" and proceedings:
+        bits.append(f"In <span class='italic'>{render_text_with_sub_and_math(proceedings)}</span>")
+        if editors:
+            bits.append(f"{escape(pub_authors(editors))} ({'ed.' if len(editors)==1 else 'eds.'})")
+        if publisher:
+            bits.append(f"Published by {escape(publisher)}")
+        if place:
+            bits.append(escape(place))
+    if d.get("itemType") == "report":
+        if report_type:
+            bits.append(escape(report_type))
+        if report_number:
+            bits.append(f"No. {escape(report_number)}")
+        if series_title:
+            bits.append(f"<span class='italic'>{escape(series_title)}</span>")
+        if institution:
+            bits.append(escape(institution))
+        if editors:
+            bits.append(f"Edited by {escape(pub_authors(editors))}")
+        if publisher:
+            bits.append(f"Published by {escape(publisher)}")
+        if place:
+            bits.append(escape(place))
+    if d.get("itemType") == "presentation":
+        if presentation_type:
+            bits.append(escape(presentation_type))
+        if meeting:
+            bits.append(f"at <span class='italic'>{render_text_with_sub_and_math(meeting)}</span>")
+        if place:
+            bits.append(escape(place))
+        if full_date:
+            bits.append(escape(full_date))
+    if journal:
+        bits.append(f"<span class='italic'>{render_text_with_sub_and_math(journal)}</span>")
+    if d.get("itemType") == "magazineArticle" and publisher:
+        bits.append(f"Published by {escape(publisher)}")
+    if d.get("itemType") == "magazineArticle" and editors:
+        bits.append(f"Edited by {escape(pub_authors(editors))}")
+    if volume:
+        bits.append(f"<span class='bold'>{escape(volume)}</span>")
+    if issue:
+        bits.append(f"({escape(issue)})")
+    if year:
+        bits.append(f"({escape(year)})")
+    if pages:
+        bits.append(f"p.{escape(pages)}")
+    if doi:
+        bits.append(f"<a href='https://doi.org/{escape(doi, quote=True)}' target='_blank'>doi:{escape(doi)}</a>")
+    include_url = (not doi) or str(d.get("itemType") or "") != "journalArticle"
+    if include_url and url and (not doi or normalize_doi(url) != doi):
+        bits.append(f"<a href='{escape(url, quote=True)}' target='_blank'>{escape(url)}</a>")
+
+    text = " ".join([b for b in bits if b]).strip()
+    if not text.endswith("."):
+        text += "."
+    doi_attr = f" data-doi='{escape(doi, quote=True)}'" if doi else ""
+    return f"<div class='citation'{doi_attr}>{text}</div>"
+
+
+def _creator_is_payton(creator):
+    last = str(creator.get("lastName") or "").strip().lower()
+    full = creator_name(creator).lower()
+    return last == "payton" or re.search(r"\bpayton\b", full)
+
+
+def presentation_creator_text(creators, use_initials=False):
+    rendered = []
+    for creator in creators or []:
+        name = creator_name_initials(creator) if use_initials else creator_name(creator)
+        if not name:
+            continue
+        safe_name = escape(name)
+        creator_type = str(creator.get("creatorType") or "").strip().lower()
+        if creator_type == "presenter":
+            rendered.append(f"<em>{safe_name}</em> (presenter)")
+        else:
+            rendered.append(safe_name)
+    return ", ".join(rendered) if rendered else "Unknown author"
+
+
+def presentation_role(item):
+    creators = item.get("data", {}).get("creators") or []
+    for creator in creators:
+        if _creator_is_payton(creator):
+            return str(creator.get("creatorType") or "").strip().lower()
+    return None
+
+
+def presentation_citation(item, idx, total, use_initials=False):
+    d = item.get("data") or {}
+    creators = d.get("creators") or []
+    title = render_text_with_sub_and_math(d.get("title") or "Untitled")
+    meeting = str(d.get("meetingName") or d.get("proceedingsTitle") or "").strip()
+    place = str(d.get("place") or "").strip()
+    presentation_type = str(d.get("presentationType") or "").strip()
+    full_date = format_display_date(d.get("date"))
+    url = str(d.get("url") or "").strip()
+
+    bits = [f"[{total - idx}] {presentation_creator_text(creators, use_initials=use_initials)}. \"{title}.\""]
+    if presentation_type:
+        bits.append(escape(presentation_type))
+    if meeting:
+        bits.append(f"at <span class='italic'>{render_text_with_sub_and_math(meeting)}</span>")
+    if place and full_date:
+        bits.append(f"{escape(place)}, {escape(full_date)}")
+    elif place:
+        bits.append(escape(place))
+    elif full_date:
+        bits.append(escape(full_date))
+    if url:
+        bits.append(f"<a href='{escape(url, quote=True)}' target='_blank'>{escape(url)}</a>")
+
+    text = " ".join([b for b in bits if b]).strip()
+    if not text.endswith("."):
+        text += "."
+    return f"<div class='citation'>{text}</div>"
+
+
+def is_software_dataset(item):
+    d = item.get("data") or {}
+    item_type = str(d.get("itemType") or "").strip().lower()
+    title = str(d.get("title") or "").lower()
+    pub_title = str(d.get("publicationTitle") or "").lower()
+    extra = str(d.get("extra") or "").lower()
+    if item_type in {"computerprogram", "dataset"}:
+        return True
+    if "software" in title or "dataset" in title or "software" in extra or "dataset" in extra:
+        return True
+    if "data in brief" in pub_title or "dataset" in pub_title:
+        return True
+    return False
+
+
+def is_manuscript(item):
+    d = item.get("data") or {}
+    item_type = str(d.get("itemType") or "").strip().lower()
+    title = str(d.get("title") or "").lower()
+    pub_title = str(d.get("publicationTitle") or "").lower()
+    extra = str(d.get("extra") or "").lower()
+    if item_type == "manuscript":
+        return True
+    return any("manuscript" in text for text in (title, pub_title, extra))
+
+
+def pub_sort_key(item):
+    d = item.get("data") or {}
+    date_value = parse_date(d.get("date"))
+    if date_value is None:
+        return (dt.date.min, str(d.get("title") or "").lower())
+    return (date_value, str(d.get("title") or "").lower())
+
+
+peer_reviewed = []
+reports_conf_mag = []
+software_datasets = []
+presentations_given = []
+presentation_contributions = []
+
+for item in merged_items:
+    d = item.get("data") or {}
+    item_type = str(d.get("itemType") or "")
+    is_presentation_entry = is_presentation_record(item)
+    if is_presentation_entry:
+        if presentation_role(item) == "presenter":
+            presentations_given.append(item)
+        else:
+            presentation_contributions.append(item)
+        continue
+    if is_manuscript(item):
+        continue
+    elif is_software_dataset(item):
+        software_datasets.append(item)
+    elif item_type == "journalArticle":
+        peer_reviewed.append(item)
+    elif item_type == "presentation":
+        continue
+    else:
+        reports_conf_mag.append(item)
+
+peer_reviewed = sorted(peer_reviewed, key=pub_sort_key, reverse=True)
+reports_conf_mag = sorted(reports_conf_mag, key=pub_sort_key, reverse=True)
+software_datasets = sorted(software_datasets, key=pub_sort_key, reverse=True)
+presentations_given = sorted(presentations_given, key=pub_sort_key, reverse=True)
+presentation_contributions = sorted(presentation_contributions, key=pub_sort_key, reverse=True)
+
+
+def render_pub_section(title, items):
+    if not items:
+        return f"<h3>{escape(title)}</h3><p>No entries found.</p>"
+    lines = "".join(pub_citation(item, i, len(items)) for i, item in enumerate(items))
+    return f"<h3>{escape(title)}</h3><div class='pub-list'>{lines}</div>"
+
+
+def render_presentation_section(title, items):
+    if not items:
+        return f"<h3>{escape(title)}</h3><p>No entries found.</p>"
+    use_initials = title.strip().lower() in {"presentation contributions", "presentations given"}
+    lines = "".join(presentation_citation(item, i, len(items), use_initials=use_initials) for i, item in enumerate(items))
+    return f"<h3>{escape(title)}</h3><div class='pub-list'>{lines}</div>"
+
+
+display(
+    HTML(
+        """
+<style>
+  #pi-publications-final { margin-top: 0.25rem; }
+  #pi-publications-final h3 { margin-top: 1.1rem; margin-bottom: 0.55rem; }
+    #pi-publications-final .citation { margin-bottom: 0.9rem; line-height: 1.35; overflow-wrap: anywhere; word-break: break-word; }
+  #pi-publications-final .italic { font-style: italic; }
+  #pi-publications-final .bold { font-weight: 700; }
+    #pi-publications-final .oa-icon {
+        margin-left: 6px;
+        vertical-align: middle;
+        display: inline-flex;
+        align-items: center;
+    }
+    #pi-publications-final .oa-gold { color: #FFD700; }
+    #pi-publications-final .oa-green { color: #2e7d32; }
+    #pi-publications-final .oa-bronze { color: #cd7f32; }
+    #pi-publications-final .oa-hybrid { color: #ff8f00; }
+    #pi-publications-final .oa-diamond { color: #b9f2ff; }
+    #pi-publications-final .oa-unknown { color: #1e88e5; }
+    #pi-publications-final .pdf-icon {
+        margin-left: 4px;
+        color: #e00122;
+        vertical-align: middle;
+        display: inline-flex;
+        align-items: center;
+    }
+</style>
+<script type='text/javascript' src='//d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script async src='https://badge.dimensions.ai/badge.js' charset='utf-8'></script>
+<script src='https://code.iconify.design/2/2.2.1/iconify.min.js'></script>
+<script>
+    function oaColorClass(status) {
+        switch ((status || '').toLowerCase()) {
+            case 'gold': return 'oa-gold';
+            case 'green': return 'oa-green';
+            case 'bronze': return 'oa-bronze';
+            case 'hybrid': return 'oa-hybrid';
+            case 'diamond': return 'oa-diamond';
+            default: return 'oa-unknown';
+        }
+    }
+
+    (async function injectPiPublicationBadges() {
+        function addBaseBadges(citationEl, doi) {
+            if (!citationEl.querySelector('.altmetric-embed')) {
+                const altmetricBadge = document.createElement('span');
+                altmetricBadge.className = 'altmetric-embed';
+                altmetricBadge.setAttribute('data-badge-type', '4');
+                altmetricBadge.setAttribute('data-doi', doi);
+                altmetricBadge.setAttribute('data-hide-no-mentions', 'true');
+                altmetricBadge.style.display = 'inline-block';
+                altmetricBadge.style.marginLeft = '6px';
+                citationEl.appendChild(altmetricBadge);
+            }
+
+            if (!citationEl.querySelector('.__dimensions_badge_embed__')) {
+                const dimensionsBadge = document.createElement('span');
+                dimensionsBadge.className = '__dimensions_badge_embed__';
+                dimensionsBadge.setAttribute('data-style', 'small_rectangle');
+                dimensionsBadge.setAttribute('data-doi', doi);
+                dimensionsBadge.setAttribute('data-hide-zero-citations', 'true');
+                dimensionsBadge.style.display = 'inline-block';
+                dimensionsBadge.style.marginLeft = '6px';
+                citationEl.appendChild(dimensionsBadge);
+            }
+        }
+
+        let container = document.getElementById('pi-publications-final');
+        for (let i = 0; i < 20 && !container; i++) {
+            await new Promise((resolve) => setTimeout(resolve, 50));
+            container = document.getElementById('pi-publications-final');
+        }
+        if (!container) return;
+
+        const citationEls = Array.from(container.querySelectorAll('.citation[data-doi]'));
+        if (citationEls.length === 0) return;
+
+        const doiToElements = {};
+        citationEls.forEach((el) => {
+            const doi = (el.getAttribute('data-doi') || '').toLowerCase();
+            if (!doi) return;
+            if (!doiToElements[doi]) doiToElements[doi] = [];
+            doiToElements[doi].push(el);
+            addBaseBadges(el, doi);
+        });
+
+        if (typeof _altmetric_embed_init === 'function') _altmetric_embed_init();
+        if (window.__dimensions_embed?.addBadges) window.__dimensions_embed.addBadges();
+
+        const dois = Object.keys(doiToElements);
+        const chunkSize = 100;
+        const chunks = [];
+        for (let i = 0; i < dois.length; i += chunkSize) chunks.push(dois.slice(i, i + chunkSize));
+
+        const works = [];
+        let openalexUnavailable = false;
+        for (const chunk of chunks) {
+            if (openalexUnavailable) break;
+            const params = new URLSearchParams();
+            params.set('filter', `doi:${chunk.join('|')}`);
+            params.set('mailto', 'paytonej@ucmail.uc.edu');
+            params.set('per-page', String(chunk.length));
+            const apiUrl = `https://api.openalex.org/works?${params.toString()}`;
+            try {
+                const response = await fetch(apiUrl);
+                const payload = await response.json();
+                if (!response.ok) {
+                    const message = String(payload?.message || payload?.error || '').toLowerCase();
+                    if (message.includes('insufficient budget') || message.includes('dailyremainingusd')) {
+                        openalexUnavailable = true;
+                    }
+                    continue;
+                }
+                works.push(...(payload.results || []));
+            } catch (_) {
+                continue;
+            }
+        }
+
+        works.forEach((work) => {
+            const doi = String(work.doi || '').replace(/^https?:\/\/doi.org\//i, '').toLowerCase();
+            const targets = doiToElements[doi] || [];
+            if (!targets.length) return;
+
+            targets.forEach((citationEl) => {
+                if (work.open_access?.is_oa && work.open_access.oa_url) {
+                    const oaUrl = work.open_access.oa_url;
+                    const oaStatus = work.open_access.oa_status || 'unknown';
+
+                    const oaLink = document.createElement('a');
+                    oaLink.href = oaUrl;
+                    oaLink.target = '_blank';
+                    oaLink.className = 'oa-icon-link oa-icon ' + oaColorClass(oaStatus);
+
+                    const oaIcon = document.createElement('span');
+                    oaIcon.className = 'iconify';
+                    oaIcon.setAttribute('data-icon', 'academicons:open-access');
+                    oaIcon.setAttribute('data-width', '20');
+                    oaIcon.setAttribute('data-height', '20');
+                    oaLink.appendChild(oaIcon);
+                    citationEl.appendChild(oaLink);
+
+                    const oaUrls = work.open_access?.oa_urls || [];
+                    const pdfRegex = /\.pdf(\?|$)/i;
+                    let pdfUrl = null;
+                    const pdfEntry = oaUrls.find(entry => pdfRegex.test(entry.url));
+                    if (pdfEntry) pdfUrl = pdfEntry.url;
+                    if (!pdfUrl && pdfRegex.test(oaUrl)) pdfUrl = oaUrl;
+                    if (pdfUrl) {
+                        const pdfLink = document.createElement('a');
+                        pdfLink.href = pdfUrl;
+                        pdfLink.target = '_blank';
+                        pdfLink.className = 'pdf-icon-link pdf-icon';
+
+                        const pdfIcon = document.createElement('span');
+                        pdfIcon.className = 'iconify';
+                        pdfIcon.setAttribute('data-icon', 'mdi:file-pdf-box');
+                        pdfIcon.setAttribute('data-width', '20');
+                        pdfIcon.setAttribute('data-height', '20');
+                        pdfLink.appendChild(pdfIcon);
+                        citationEl.appendChild(pdfLink);
+                    }
+                }
+            });
+        });
+
+        if (window.Iconify?.scan) window.Iconify.scan();
+    })();
+</script>
+"""
+    )
+)
+
+display(
+    HTML(
+        "<div id='pi-publications-final'>"
+        + render_pub_section("Peer-Reviewed Publications", peer_reviewed)
+        + render_pub_section("Reports, Conference Papers, and Magazine Articles", reports_conf_mag)
+        + render_pub_section("Software and Datasets", software_datasets)
+        + render_presentation_section("Presentations Given", presentations_given)
+        + render_presentation_section("Presentation Contributions", presentation_contributions)
+        + "</div>"
+    )
+)
+```
+
+
 
  

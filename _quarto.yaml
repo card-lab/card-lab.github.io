@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - files/zotero-items.json
+    - files/Pre-UC.json
   pre-render:
     - scripts/pre-render-timeline-slideshow-photos.sh
     - scripts/pre-render-people-action.sh
@@ -8,6 +11,8 @@ project:
     - scripts/post-render-sync-site-assets.sh
     - scripts/post-render-encrypt-private.sh
     - python3 scripts/post-render-generate-sitemap.py
+    - python3 scripts/qc_check.py
+    - python3 -c "import shutil; shutil.copy('scripts/qc_report.html', 'docs/qc_report.html')"
 
 execute:
   echo: false  # Hide all code by default

@@ -78,10 +78,12 @@ Generally, just:
 
 ## TO DO
 
-* Make slideshow.qmd date format in all caps like the other pages
+* Overview of what the group does instead of photos
 * About UC page
+* Improved site map
+* Broken links checker
+* Create a common blocked words list for all word clouds
 * Order the pages by number of publications, presentations, and citations
 * New "group roles" visualization with the number of MS, PhD, and undergraduates working in the group as a treemap.
-* Move current citation map over to PI page
 * Add AMCC to the facilities
 * Add regional facilities and shared facilities

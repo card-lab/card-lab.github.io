@@ -10,12 +10,19 @@ language:
   title-block-modified: "Joined"
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Emily_Crawley.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
-  image-alt: "Stock photo of a dog wearing glasses."
+  image: ../../files/photos/People/Emily_Crawley.jpg
+  image-alt: "Photo of Emily Crawley"
   image-shape: round
+  links:
+    - text: "{{< iconify mdi linkedin >}}"
+      url: https://www.linkedin.com/in/emily-crawley-8282a7193
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 
