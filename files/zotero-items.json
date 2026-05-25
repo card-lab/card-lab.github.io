@@ -1,5 +1,96 @@
 [
   {
+    "key": "3EJASXZF",
+    "version": 1441,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/3EJASXZF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/3EJASXZF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Balasubramanian et al.",
+      "parsedDate": "2026-04-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "3EJASXZF",
+      "version": 1441,
+      "itemType": "preprint",
+      "title": "Mechanical behavior and characterization of the interface between wrought and wire-laser DED-processed Ti-6Al-4V",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Balasubramanian"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A. A.",
+          "lastName": "Oladipo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "",
+      "genre": "",
+      "repository": "SSRN",
+      "archiveID": "",
+      "place": "Under review at Journal of Materials Engineering and Performance",
+      "date": "2026-04-01",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.2139/ssrn.6141445",
+      "citationKey": "balasubramanianMechanicalBehaviorCharacterization2025",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2026-01-24T13:58:39Z",
+      "dateModified": "2026-05-22T18:48:47Z"
+    }
+  },
+  {
     "key": "9TT9RV3X",
     "version": 1439,
     "library": {
@@ -1231,97 +1322,6 @@
       "relations": {},
       "dateAdded": "2026-04-06T13:33:47Z",
       "dateModified": "2026-04-06T14:22:23Z"
-    }
-  },
-  {
-    "key": "3EJASXZF",
-    "version": 1286,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/3EJASXZF",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/3EJASXZF",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Balasubramanian et al.",
-      "parsedDate": "2026-04-01",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "3EJASXZF",
-      "version": 1286,
-      "itemType": "preprint",
-      "title": "Mechanical behavior and characterization of the interface between wrought and wire-laser DED-processed Ti-6Al-4V",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "A.",
-          "lastName": "Balasubramanian"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "A. A.",
-          "lastName": "Oladipo"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "",
-      "genre": "",
-      "repository": "",
-      "archiveID": "",
-      "place": "Under review at Journal of Materials Engineering and Performance",
-      "date": "2026-04-01",
-      "series": "",
-      "seriesNumber": "",
-      "DOI": "10.2139/ssrn.6141445",
-      "citationKey": "balasubramanianMechanicalBehaviorCharacterization2025",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2026-01-24T13:58:39Z",
-      "dateModified": "2026-04-06T14:21:04Z"
     }
   },
   {
