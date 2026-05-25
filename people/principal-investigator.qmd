@@ -1010,26 +1010,28 @@ def word_cloud_svg(freq_items, width=980, height=420):
 
 
 def build_pi_citation_csv_rows(pi_dois, cache_records=None):
-    source_candidates = [Path("../files/references_citing_us.csv"), Path("files/references_citing_us.csv")]
+    source_candidates = [Path("../files/references_citing_pre-uc.csv"), Path("files/references_citing_pre-uc.csv")]
     source = next((p for p in source_candidates if p.exists()), None)
     if not source:
         return [], None
 
     filtered_rows = []
+    passthrough_rows = []
     fieldnames = None
     with source.open("r", encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
         fieldnames = reader.fieldnames or []
         for row in reader:
+            if str(row.get("row_type") or "").strip().lower() == "cache":
+                passthrough_rows.append(row)
+                continue
             ref_doi = normalize_doi(row.get("ref_doi") or "")
-            if ref_doi and ref_doi in pi_dois:
+            if not pi_dois or (ref_doi and ref_doi in pi_dois):
                 filtered_rows.append(row)
 
     filtered_rows = _backfill_citation_geo_rows(filtered_rows)
 
-    target = Path("../files/references_citing_pi.csv")
-    if not target.parent.exists():
-        target = Path("files/references_citing_pi.csv")
+    target = source
     cache_records = cache_records if isinstance(cache_records, dict) else {}
     if fieldnames:
         cache_cols = [
@@ -1090,8 +1092,26 @@ def build_pi_citation_csv_rows(pi_dois, cache_records=None):
         with target.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=out_fieldnames)
             writer.writeheader()
-            writer.writerows(map_rows + cache_rows)
+            writer.writerows(map_rows + passthrough_rows + cache_rows)
     return filtered_rows, target
+
+
+def load_citation_rows_from_csv(path_candidates, pi_dois=None):
+    source = next((p for p in path_candidates if p.exists()), None)
+    if not source:
+        return []
+
+    rows = []
+    with source.open("r", encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            if str(row.get("row_type") or "").strip().lower() == "cache":
+                continue
+            ref_doi = normalize_doi(row.get("ref_doi") or row.get("cited_doi") or "")
+            if pi_dois and ref_doi and ref_doi not in pi_dois:
+                continue
+            rows.append(row)
+    return rows
 
 
 def _split_semicolon_values(value):
@@ -1212,7 +1232,7 @@ def _backfill_citation_geo_rows(rows):
     return output
 
 
-def citation_map_svg(rows):
+def citation_map_svg(rows, output_html_path=None):
     citing_points = {}
     counts = Counter()
     for row in rows:
@@ -1269,6 +1289,10 @@ def citation_map_svg(rows):
         projection_type="natural earth",
     )
     fig.update_layout(height=650, margin={"l": 0, "r": 0, "t": 60, "b": 0})
+    if output_html_path:
+        output_path = Path(output_html_path)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        fig.write_html(str(output_path), include_plotlyjs="cdn", full_html=True)
     return fig.to_html(include_plotlyjs="cdn", full_html=False)
 
 
@@ -1656,8 +1680,18 @@ display(Markdown("## Cumulative Citations Over Time"))
 display(HTML("<div id='pi-scientometrics-built'><div class='panel'>" + cumulative_chart_plotly(series) + "</div></div>"))
 
 display(Markdown("## Citation Map"))
-pi_rows, pi_csv_path = build_pi_citation_csv_rows(pi_dois, cache_records=cache_records)
-map_html = citation_map_svg(pi_rows)
+pi_rows_pre_uc, pi_csv_path = build_pi_citation_csv_rows(pi_dois, cache_records=cache_records)
+pi_rows_card_lab = load_citation_rows_from_csv(
+    [Path("../files/references_citing_card-lab.csv"), Path("files/references_citing_card-lab.csv")],
+    pi_dois=pi_dois,
+)
+pi_rows = _backfill_citation_geo_rows(pi_rows_pre_uc + pi_rows_card_lab)
+
+map_output_path = Path("../files/map_of_references_citing_lab-pi.html")
+if not map_output_path.parent.exists():
+    map_output_path = Path("files/map_of_references_citing_lab-pi.html")
+
+map_html = citation_map_svg(pi_rows, output_html_path=map_output_path)
 note = f"Citation map source rows: {len(pi_rows)}"
 unique_citing = len({normalize_doi(r.get("citing_doi") or "") for r in pi_rows if normalize_doi(r.get("citing_doi") or "")})
 country_tokens = set()
@@ -1667,6 +1701,7 @@ note += f". Unique citing papers: {unique_citing}"
 if "AU" not in country_tokens:
     note += ". Source metadata currently contains no AU affiliations for this DOI-matched subset"
 if pi_csv_path is not None:
-    note += f". Wrote {pi_csv_path}."
+    note += f". Updated {pi_csv_path}."
+note += f". Wrote {map_output_path}."
 display(HTML(f'<div id="pi-scientometrics-built"><div class="panel">{map_html}<div class="mini-note">{escape(note)}</div></div></div>'))
 ```
