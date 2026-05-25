@@ -1,15 +1,15 @@
 {
   "generated": true,
-  "nodeCount": 65,
-  "edgeCount": 536,
+  "nodeCount": 67,
+  "edgeCount": 558,
   "nodes": [
     {
       "id": "/",
       "label": "CARD Lab Timeline in Photos \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "index.html",
-      "indegree": 64,
+      "indegree": 66,
       "outdegree": 6,
-      "degree": 70
+      "degree": 72
     },
     {
       "id": "/404.html",
@@ -63,49 +63,57 @@
       "id": "/capabilities/cincinnati.html",
       "label": "Cincinnati \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "capabilities/cincinnati.html",
-      "indegree": 3,
-      "outdegree": 9,
-      "degree": 12
+      "indegree": 4,
+      "outdegree": 10,
+      "degree": 14
     },
     {
       "id": "/capabilities/facilities.html",
       "label": "Facilities and Equipment \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "capabilities/facilities.html",
-      "indegree": 64,
-      "outdegree": 14,
-      "degree": 78
+      "indegree": 66,
+      "outdegree": 15,
+      "degree": 81
+    },
+    {
+      "id": "/capabilities/mmie-research.html",
+      "label": "Mechanical, Materials, and Industrial Engineering Research at the University of Cincinnati \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "capabilities/mmie-research.html",
+      "indegree": 4,
+      "outdegree": 10,
+      "degree": 14
     },
     {
       "id": "/capabilities/service.html",
       "label": "Service Activities \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "capabilities/service.html",
-      "indegree": 3,
-      "outdegree": 9,
-      "degree": 12
+      "indegree": 4,
+      "outdegree": 10,
+      "degree": 14
     },
     {
       "id": "/capabilities/teaching.html",
       "label": "Teaching \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "capabilities/teaching.html",
-      "indegree": 3,
-      "outdegree": 9,
-      "degree": 12
+      "indegree": 4,
+      "outdegree": 10,
+      "degree": 14
     },
     {
       "id": "/easteregg.html",
       "label": "A Cartomancy Sequence Representing Graduate Studies \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "easteregg.html",
-      "indegree": 64,
+      "indegree": 66,
       "outdegree": 6,
-      "degree": 70
+      "degree": 72
     },
     {
       "id": "/impressum.html",
       "label": "Impressum \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "impressum.html",
-      "indegree": 64,
+      "indegree": 66,
       "outdegree": 6,
-      "degree": 70
+      "degree": 72
     },
     {
       "id": "/people/alumni.html",
@@ -327,9 +335,9 @@
       "id": "/people/current.html",
       "label": "Current Group Members \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/current.html",
-      "indegree": 64,
+      "indegree": 66,
       "outdegree": 25,
-      "degree": 89
+      "degree": 91
     },
     {
       "id": "/people/current/Alan_Do.html",
@@ -452,12 +460,20 @@
       "degree": 16
     },
     {
+      "id": "/people/pi-publications-list.html",
+      "label": "Publications \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/pi-publications-list.html",
+      "indegree": 1,
+      "outdegree": 7,
+      "degree": 8
+    },
+    {
       "id": "/people/principal-investigator.html",
       "label": "About the PI \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/principal-investigator.html",
       "indegree": 5,
-      "outdegree": 11,
-      "degree": 16
+      "outdegree": 12,
+      "degree": 17
     },
     {
       "id": "/people/slideshow.html",
@@ -476,6 +492,14 @@
       "degree": 16
     },
     {
+      "id": "/qc_report.html",
+      "label": "Site QC Report \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "qc_report.html",
+      "indegree": 0,
+      "outdegree": 7,
+      "degree": 7
+    },
+    {
       "id": "/research/bibliometrics.html",
       "label": "Bibliometrics \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "research/bibliometrics.html",
@@ -492,14 +516,6 @@
       "degree": 12
     },
     {
-      "id": "/research/scientometrics-secondary.html",
-      "label": "Less Useful Scientometrics \u2013 Critical Alloy Research &amp; Discovery Lab",
-      "path": "research/scientometrics-secondary.html",
-      "indegree": 0,
-      "outdegree": 7,
-      "degree": 7
-    },
-    {
       "id": "/research/scientometrics.html",
       "label": "Scientometrics \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "research/scientometrics.html",
@@ -511,17 +527,17 @@
       "id": "/research/workproducts.html",
       "label": "Work Products \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "research/workproducts.html",
-      "indegree": 64,
+      "indegree": 66,
       "outdegree": 9,
-      "degree": 73
+      "degree": 75
     },
     {
       "id": "/site-map.html",
       "label": "Site Map \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "site-map.html",
-      "indegree": 64,
+      "indegree": 66,
       "outdegree": 6,
-      "degree": 70
+      "degree": 72
     }
   ],
   "edges": [
@@ -727,6 +743,10 @@
     },
     {
       "source": "/capabilities/cincinnati.html",
+      "target": "/capabilities/mmie-research.html"
+    },
+    {
+      "source": "/capabilities/cincinnati.html",
       "target": "/capabilities/service.html"
     },
     {
@@ -783,6 +803,10 @@
     },
     {
       "source": "/capabilities/facilities.html",
+      "target": "/capabilities/mmie-research.html"
+    },
+    {
+      "source": "/capabilities/facilities.html",
       "target": "/capabilities/service.html"
     },
     {
@@ -810,6 +834,46 @@
       "target": "/site-map.html"
     },
     {
+      "source": "/capabilities/mmie-research.html",
+      "target": "/"
+    },
+    {
+      "source": "/capabilities/mmie-research.html",
+      "target": "/capabilities/cincinnati.html"
+    },
+    {
+      "source": "/capabilities/mmie-research.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/capabilities/mmie-research.html",
+      "target": "/capabilities/service.html"
+    },
+    {
+      "source": "/capabilities/mmie-research.html",
+      "target": "/capabilities/teaching.html"
+    },
+    {
+      "source": "/capabilities/mmie-research.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/capabilities/mmie-research.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/capabilities/mmie-research.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/capabilities/mmie-research.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/capabilities/mmie-research.html",
+      "target": "/site-map.html"
+    },
+    {
       "source": "/capabilities/service.html",
       "target": "/"
     },
@@ -820,6 +884,10 @@
     {
       "source": "/capabilities/service.html",
       "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/capabilities/service.html",
+      "target": "/capabilities/mmie-research.html"
     },
     {
       "source": "/capabilities/service.html",
@@ -856,6 +924,10 @@
     {
       "source": "/capabilities/teaching.html",
       "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/capabilities/teaching.html",
+      "target": "/capabilities/mmie-research.html"
     },
     {
       "source": "/capabilities/teaching.html",
@@ -2342,6 +2414,34 @@
       "target": "/site-map.html"
     },
     {
+      "source": "/people/pi-publications-list.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/pi-publications-list.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/pi-publications-list.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/pi-publications-list.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/pi-publications-list.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/pi-publications-list.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/pi-publications-list.html",
+      "target": "/site-map.html"
+    },
+    {
       "source": "/people/principal-investigator.html",
       "target": "/"
     },
@@ -2368,6 +2468,10 @@
     {
       "source": "/people/principal-investigator.html",
       "target": "/people/demographics.html"
+    },
+    {
+      "source": "/people/principal-investigator.html",
+      "target": "/people/pi-publications-list.html"
     },
     {
       "source": "/people/principal-investigator.html",
@@ -2471,6 +2575,34 @@
     },
     {
       "source": "/people/timeline.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/qc_report.html",
+      "target": "/"
+    },
+    {
+      "source": "/qc_report.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/qc_report.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/qc_report.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/qc_report.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/qc_report.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/qc_report.html",
       "target": "/site-map.html"
     },
     {
@@ -2543,34 +2675,6 @@
     },
     {
       "source": "/research/collaboration-network.html",
-      "target": "/site-map.html"
-    },
-    {
-      "source": "/research/scientometrics-secondary.html",
-      "target": "/"
-    },
-    {
-      "source": "/research/scientometrics-secondary.html",
-      "target": "/capabilities/facilities.html"
-    },
-    {
-      "source": "/research/scientometrics-secondary.html",
-      "target": "/easteregg.html"
-    },
-    {
-      "source": "/research/scientometrics-secondary.html",
-      "target": "/impressum.html"
-    },
-    {
-      "source": "/research/scientometrics-secondary.html",
-      "target": "/people/current.html"
-    },
-    {
-      "source": "/research/scientometrics-secondary.html",
-      "target": "/research/workproducts.html"
-    },
-    {
-      "source": "/research/scientometrics-secondary.html",
       "target": "/site-map.html"
     },
     {
