@@ -79,6 +79,7 @@ Generally, just:
 ## TO DO
 
 * Overview of what the group does instead of photos
+* Add alt text the group member photos
 * Improved site map
 * Order the pages by number of publications, presentations, and citations
 * New "group roles" visualization with the number of MS, PhD, and undergraduates working in the group as a treemap.

@@ -4,6 +4,8 @@ project:
   resources:
     - files/zotero-items.json
     - files/Pre-UC.json
+    - files/references_we_cited_map.html
+    - files/references_citing_us_map.html
   pre-render:
     - scripts/pre-render-timeline-slideshow-photos.sh
     - scripts/pre-render-people-action.sh

@@ -1152,6 +1152,24 @@ def _search_openalex_institution_geo(affiliation_text, country_hint=None, cache=
     return result
 
 
+# Fallback centroids (lat, lon) used when institution-level geocoding is unavailable.
+COUNTRY_CODE_COORDS = {
+    "US": (39.5, -98.35),
+    "CN": (35.0, 103.0),
+    "DE": (51.0, 10.0),
+    "GB": (54.0, -2.0),
+    "FR": (46.5, 2.5),
+    "CA": (56.1, -106.3),
+    "AU": (-25.3, 133.8),
+    "JP": (36.2, 138.3),
+    "IN": (22.6, 79.0),
+    "KR": (36.5, 127.9),
+    "CZ": (49.8, 15.5),
+    "RU": (61.5, 105.3),
+    "BR": (-14.2, -51.9),
+}
+
+
 def _backfill_citation_geo_rows(rows):
     cache = {}
     output = []
@@ -1175,6 +1193,16 @@ def _backfill_citation_geo_rows(rows):
                 geo = _search_openalex_institution_geo(affiliation, country_hint=country_hint, cache=cache)
                 if geo:
                     resolved.append(geo)
+            # If institution search yields nothing, fallback to country-code centroids.
+            if not resolved:
+                if not affiliations and countries:
+                    affiliations = countries[:]
+                for index, affiliation in enumerate(affiliations):
+                    country_hint = countries[index] if index < len(countries) else (countries[0] if countries else "")
+                    code = str(country_hint or "").strip().upper()
+                    if code in COUNTRY_CODE_COORDS:
+                        lat, lon = COUNTRY_CODE_COORDS[code]
+                        resolved.append((float(lat), float(lon), str(affiliation or code)))
             if resolved:
                 lat_value = sum(lat for lat, _, _ in resolved) / len(resolved)
                 lon_value = sum(lon for _, lon, _ in resolved) / len(resolved)
