@@ -22,12 +22,12 @@ about:
       url: https://www.linkedin.com/in/joshua-maile-a21b17150
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0000-8914-944X
-    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
-    - text: "![](https://flagcdn.com/us-hi.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/Hawaii
-    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+    - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio
+    - text: "![Flag of Hawaii](https://flagcdn.com/us-hi.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Hawaii
 
 ---
 

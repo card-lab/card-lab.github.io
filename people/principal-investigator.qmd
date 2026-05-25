@@ -21,22 +21,22 @@ about:
       url: https://scholar.google.com/citations?user=abYsKG8AAAAJ&hl=en
     - text: "{{< iconify mdi github >}}"
       url: https://github.com/paytonej
-    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
-    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
+    - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio
-    - text: "![](https://flagcdn.com/us-ny.svg){width=0.25in}"
+    - text: "![Flag of New York](https://flagcdn.com/us-ny.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/New_York_(state)
-    - text: "![](https://flagcdn.com/us-va.svg){width=0.25in}"
+    - text: "![Flag of Virginia](https://flagcdn.com/us-va.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Virginia
-    - text: "![](https://flagcdn.com/us-in.svg){width=0.25in}"
+    - text: "![Flag of Indiana](https://flagcdn.com/us-in.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Indiana
-    - text: "![](https://flagcdn.com/us-nd.svg){width=0.25in}"
+    - text: "![Flag of North Dakota](https://flagcdn.com/us-nd.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/North_Dakota
-    - text: "![](https://flagcdn.com/us-tx.svg){width=0.25in}"
+    - text: "![Flag of Texas](https://flagcdn.com/us-tx.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Texas
-    - text: "![](https://flagcdn.com/de.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/Germany  
+    - text: "![Flag of Germany](https://flagcdn.com/de.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Germany
 
 jupyter: card-lab
 ---
@@ -1115,18 +1115,31 @@ def load_citation_rows_from_csv(path_candidates, pi_dois=None):
 
 
 def _split_semicolon_values(value):
-    text = str(value or "").strip()
+    text = _safe_str(value).strip()
     if not text:
         return []
     return [part.strip() for part in text.split(";") if part.strip()]
 
 
+def _safe_str(value):
+    if value is None:
+        return ""
+    try:
+        import pandas as pd
+
+        if pd.isna(value):
+            return ""
+    except Exception:
+        pass
+    return str(value)
+
+
 def _search_openalex_institution_geo(affiliation_text, country_hint=None, cache=None):
-    affiliation_text = str(affiliation_text or "").strip()
+    affiliation_text = _safe_str(affiliation_text).strip()
     if not affiliation_text:
         return None
 
-    hint = str(country_hint or "").strip().upper()
+    hint = _safe_str(country_hint).strip().upper()
     cache_key = (affiliation_text.lower(), hint)
     if cache is not None and cache_key in cache:
         return cache[cache_key]
@@ -1196,8 +1209,8 @@ def _backfill_citation_geo_rows(rows):
     for row in rows:
         row = dict(row)
         try:
-            lat_value = float(str(row.get("citing_latitude_mean") or "").strip())
-            lon_value = float(str(row.get("citing_longitude_mean") or "").strip())
+            lat_value = float(_safe_str(row.get("citing_latitude_mean")).strip())
+            lon_value = float(_safe_str(row.get("citing_longitude_mean")).strip())
             has_geo = -90 <= lat_value <= 90 and -180 <= lon_value <= 180
         except Exception:
             has_geo = False
@@ -1219,7 +1232,7 @@ def _backfill_citation_geo_rows(rows):
                     affiliations = countries[:]
                 for index, affiliation in enumerate(affiliations):
                     country_hint = countries[index] if index < len(countries) else (countries[0] if countries else "")
-                    code = str(country_hint or "").strip().upper()
+                    code = _safe_str(country_hint).strip().upper()
                     if code in COUNTRY_CODE_COORDS:
                         lat, lon = COUNTRY_CODE_COORDS[code]
                         resolved.append((float(lat), float(lon), str(affiliation or code)))
@@ -1236,12 +1249,12 @@ def citation_map_svg(rows, output_html_path=None):
     citing_points = {}
     counts = Counter()
     for row in rows:
-        citing_doi = normalize_doi(row.get("citing_doi") or "")
+        citing_doi = normalize_doi(_safe_str(row.get("citing_doi")))
         if not citing_doi:
             continue
         try:
-            lat = float(str(row.get("citing_latitude_mean") or "").strip())
-            lon = float(str(row.get("citing_longitude_mean") or "").strip())
+            lat = float(_safe_str(row.get("citing_latitude_mean")).strip())
+            lon = float(_safe_str(row.get("citing_longitude_mean")).strip())
         except Exception:
             continue
         if not (-90 <= lat <= 90 and -180 <= lon <= 180):
@@ -1693,10 +1706,10 @@ if not map_output_path.parent.exists():
 
 map_html = citation_map_svg(pi_rows, output_html_path=map_output_path)
 note = f"Citation map source rows: {len(pi_rows)}"
-unique_citing = len({normalize_doi(r.get("citing_doi") or "") for r in pi_rows if normalize_doi(r.get("citing_doi") or "")})
+unique_citing = len({normalize_doi(_safe_str(r.get("citing_doi"))) for r in pi_rows if normalize_doi(_safe_str(r.get("citing_doi")))})
 country_tokens = set()
 for r in pi_rows:
-    country_tokens.update({c.strip().upper() for c in str(r.get("citing_affiliation_countries") or "").split(";") if c.strip()})
+    country_tokens.update({c.strip().upper() for c in _safe_str(r.get("citing_affiliation_countries")).split(";") if c.strip()})
 note += f". Unique citing papers: {unique_citing}"
 if "AU" not in country_tokens:
     note += ". Source metadata currently contains no AU affiliations for this DOI-matched subset"

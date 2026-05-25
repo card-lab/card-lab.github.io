@@ -140,6 +140,9 @@ for notebook in "${NOTEBOOKS[@]}"; do
   CARD_LAB_SKIP_PEOPLE_ACTION_PRE_RENDER=1 CARD_LAB_SKIP_PEOPLE_NOTEBOOKS_PRE_RENDER=1 quarto render "$notebook"
 done
 
+echo "[pre-render] Sanitizing people flag links"
+/Users/paytone/miniforge3/envs/card-lab/bin/python scripts/sanitize-people-flag-links.py
+
 mkdir -p "$(dirname "$STAMP_PATH")"
 printf '%s\n%s\n%s\n' "$current_sheet_hash" "$current_photos_hash" "$current_notebooks_hash" > "$STAMP_PATH"
 
