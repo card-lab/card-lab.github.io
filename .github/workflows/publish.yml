@@ -7,6 +7,9 @@ on:
 
 name: Quarto Publish
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -14,7 +17,19 @@ jobs:
       contents: write
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+
+      - name: Install Miniforge
+        run: |
+          curl -L -o miniforge.sh https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
+          bash miniforge.sh -b -p "$HOME/miniforge"
+          echo "$HOME/miniforge/bin" >> "$GITHUB_PATH"
+
+      - name: Create card-lab environment
+        run: |
+          eval "$($HOME/miniforge/bin/conda shell.bash hook)"
+          conda env create -f environment.yml
+          conda run -n card-lab python -m ipykernel install --user --name card-lab --display-name card-lab
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2

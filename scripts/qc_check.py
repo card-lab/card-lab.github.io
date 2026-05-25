@@ -67,6 +67,8 @@ import datetime
 import json
 import os
 import re
+import shlex
+import subprocess
 import sys
 import time
 import urllib.parse
@@ -1004,8 +1006,69 @@ def parse_args(argv=None):
     return p.parse_args(argv)
 
 
+def _find_quarto_render_command() -> str | None:
+    pid = os.getppid()
+    for _ in range(12):
+        if pid <= 1:
+            break
+
+        try:
+            cmd = subprocess.check_output(
+                ["ps", "-o", "command=", "-p", str(pid)],
+                text=True,
+                stderr=subprocess.DEVNULL,
+            ).strip()
+        except Exception:
+            break
+
+        if "quarto render" in cmd:
+            return cmd
+
+        try:
+            ppid = subprocess.check_output(
+                ["ps", "-o", "ppid=", "-p", str(pid)],
+                text=True,
+                stderr=subprocess.DEVNULL,
+            ).strip()
+            pid = int(ppid)
+        except Exception:
+            break
+
+    return None
+
+
+def _is_single_file_render(quarto_cmd: str) -> bool:
+    try:
+        tokens = shlex.split(quarto_cmd)
+    except Exception:
+        return False
+
+    for idx, tok in enumerate(tokens):
+        if tok == "render":
+            if idx + 1 >= len(tokens):
+                return False
+            arg = tokens[idx + 1]
+            return bool(arg) and not arg.startswith("-")
+    return False
+
+
 def main(argv=None):
     args = parse_args(argv)
+
+    # Skip QC when Quarto is rendering a single input file.
+    # Full-site renders should still run and gate on errors.
+    input_path = os.environ.get("QUARTO_PROJECT_INPUT_PATH")
+    if input_path:
+        print(
+            "[post-render] Individual file render detected; "
+            f"skipping QC checks ({input_path})"
+        )
+        sys.exit(0)
+
+    quarto_cmd = _find_quarto_render_command()
+    if quarto_cmd and _is_single_file_render(quarto_cmd):
+        print("[post-render] Individual file render detected; skipping QC checks")
+        sys.exit(0)
 
     site_dir = Path(args.site)
     log_path = Path(args.log)

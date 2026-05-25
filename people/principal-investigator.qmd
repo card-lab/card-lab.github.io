@@ -1598,13 +1598,13 @@ cap_note = " DOI query capped at 120 for page performance." if capped else ""
 openalex_note = ""
 if openalex_budget_exhausted:
     openalex_note = " OpenAlex API budget was exhausted during this render; unresolved DOI metadata used local cache fallback where available."
-display(Markdown(f"OpenAlex DOI matches: {len(profiles)} of {queried_count} queried works.{cap_note}{openalex_note}"))
+#display(Markdown(f"OpenAlex DOI matches: {len(profiles)} of {queried_count} queried works.{cap_note}{openalex_note}"))
 
-display(Markdown("### Top 10 Highest Cited Papers"))
+display(Markdown("## Top 10 Highest Cited Papers"))
 top_cited_rows = top_cited_superset_rows(merged_items, citation_by_doi, n=10)
 display(HTML("<div id='pi-scientometrics-built'><div class='panel'>" + render_top_cited_table(top_cited_rows) + "</div></div>"))
 
-display(Markdown("### Top 10 Collaborators"))
+display(Markdown("## Top 10 Collaborators"))
 collabs = top_collaborators(peer_reviewed_items, n=10)
 if collabs:
     collab_max = max(c for _, c in collabs)
@@ -1620,14 +1620,14 @@ if collabs:
 else:
     display(Markdown("No collaborator data available."))
 
-display(Markdown("### Word Cloud from Titles and Abstracts"))
+display(Markdown("## Word Cloud from Titles and Abstracts"))
 word_items = word_frequency(merged_items, n=120)
 display(HTML("<div id='pi-scientometrics-built'><div class='panel'>" + word_cloud_svg(word_items) + "</div></div>"))
 
-display(Markdown("### Cumulative Citations Over Time"))
+display(Markdown("## Cumulative Citations Over Time"))
 display(HTML("<div id='pi-scientometrics-built'><div class='panel'>" + cumulative_chart_plotly(series) + "</div></div>"))
 
-display(Markdown("### Citation Map"))
+display(Markdown("## Citation Map"))
 pi_rows, pi_csv_path = build_pi_citation_csv_rows(pi_dois, cache_records=cache_records)
 map_html = citation_map_svg(pi_rows)
 note = f"Citation map source rows: {len(pi_rows)}"
