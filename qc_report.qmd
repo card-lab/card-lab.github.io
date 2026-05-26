@@ -1,6 +1,6 @@
 ---
 title: "Site QC Report"
-subtitle: "Automated quality-control scan · 2026-05-25 17:57:32"
+subtitle: "Automated quality-control scan · 2026-05-25 18:07:30"
 date: "2026-05-25"
 date-format: "MMMM D, YYYY"
 toc: true
@@ -25,9 +25,9 @@ toc-title: "Checks"
 | Pages scanned | 72 |
 | 🔴 Errors | 0 |
 | 🟡 Warnings | 27 |
-| 🔵 Notes | 27 |
-| Total issues | 54 |
-| Checked | 2026-05-25 17:57:32 |
+| 🔵 Notes | 28 |
+| Total issues | 55 |
+| Checked | 2026-05-25 18:07:30 |
 
 
 External links were **skipped** — re-run with `--external` to include them.
@@ -96,9 +96,10 @@ External links were **skipped** — re-run with `--external` to include them.
 
 ### Performance {#performance}
 
-🔵 1
+🔵 2
 
-<table style="width:100%;border-collapse:collapse;font-size:.85rem;"><thead><tr style="background:#f3f4f6;"><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;white-space:nowrap;">Level</th><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;">Page / Source</th><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;">Detail</th></tr></thead><tbody><tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#dbeafe;color:#1e40af;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">info</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">capabilities/mmie-research.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Large page: 8389 KB (threshold 500 KB) — consider lazy-loading images or splitting content</td></tr></tbody></table>
+<table style="width:100%;border-collapse:collapse;font-size:.85rem;"><thead><tr style="background:#f3f4f6;"><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;white-space:nowrap;">Level</th><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;">Page / Source</th><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;">Detail</th></tr></thead><tbody><tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#dbeafe;color:#1e40af;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">info</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">capabilities/mmie-research.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Large page: 8389 KB (threshold 500 KB) — consider lazy-loading images or splitting content</td></tr>
+<tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#dbeafe;color:#1e40af;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">info</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">people/principal-investigator.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Large page: 1072 KB (threshold 500 KB) — consider lazy-loading images or splitting content</td></tr></tbody></table>
 
 ### Render Quality {#render}
 
