@@ -22,9 +22,9 @@ about:
       url: https://www.linkedin.com/in/ravi-kumar-sam
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0003-1760-5057
-    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
-    - text: "![Flag of India](https://flagcdn.com/in.svg){width=0.25in}"
+    - text: "![Flag of IN](https://flagcdn.com/in.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Republic_of_India
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio
