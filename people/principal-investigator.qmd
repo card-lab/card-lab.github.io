@@ -1716,5 +1716,9 @@ if "AU" not in country_tokens:
 if pi_csv_path is not None:
     note += f". Updated {pi_csv_path}."
 note += f". Wrote {map_output_path}."
-display(HTML(f'<div id="pi-scientometrics-built"><div class="panel">{map_html}<div class="mini-note">{escape(note)}</div></div></div>'))
+import os
+if not os.environ.get("QUARTO_RENDER"):
+    display(HTML(f'<div id="pi-scientometrics-built"><div class="panel">{map_html}<div class="mini-note">{escape(note)}</div></div></div>'))
+else:
+    display(HTML(f'<div id="pi-scientometrics-built"><div class="panel">{map_html}</div></div>'))
 ```
