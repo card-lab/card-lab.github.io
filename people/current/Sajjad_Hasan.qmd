@@ -21,11 +21,11 @@ about:
       url: https://www.linkedin.com/in/sajjadsourav
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0000-0003-2042-1016
-    - text: "![Flag of Bangladesh](https://flagcdn.com/bd.svg){width=0.25in}"
+    - text: "![](https://flagcdn.com/bd.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/People%27s_Republic_of_Bangladesh
-    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
-    - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
+    - text: "![](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio
 
 ---
@@ -47,6 +47,7 @@ about:
 <script src='https://code.iconify.design/2/2.2.1/iconify.min.js'></script>
 <script>(function(){function c(s){switch(s){case 'gold':return 'oa-gold';case 'green':return 'oa-green';case 'bronze':return 'oa-bronze';case 'hybrid':return 'oa-hybrid';case 'diamond':return 'oa-diamond';default:return 'oa-unknown';}}function d(t){if(!t)return null;const m=t.match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i);return m?m[0].toLowerCase().replace(/[.,;]$/,''):null;}async function e(){const n=[...document.querySelectorAll('.csl-entry,.citation')];const map=new Map();const dois=[];n.forEach((node)=>{let doi=null;for(const a of node.querySelectorAll('a[href]')){const h=a.getAttribute('href')||'';const k=h.includes('doi.org/')?h.split('doi.org/').pop():null;doi=d(k||a.textContent||h);if(doi)break;}if(!doi)doi=d(node.textContent||'');if(doi){map.set(doi,node);dois.push(doi);}});if(!dois.length)return;const chunks=[];for(let i=0;i<dois.length;i+=100)chunks.push(dois.slice(i,i+100));const works=[];for(const p of chunks){const f=p.map((x)=>encodeURIComponent(x)).join('|');try{const r=await fetch(`https://api.openalex.org/works?filter=doi:${f}`);if(!r.ok)continue;const j=await r.json();if(Array.isArray(j.results))works.push(...j.results);}catch(_){}}works.forEach((w)=>{const doi=(w.doi||'').replace(/^https?:\/\/doi.org\//i,'').toLowerCase();const node=map.get(doi);if(!node||node.querySelector('[data-people-citation-badges]'))return;const b=document.createElement('span');b.className='citation-badges';b.setAttribute('data-people-citation-badges','1');const a=document.createElement('span');a.className='altmetric-embed';a.setAttribute('data-badge-type','4');a.setAttribute('data-doi',doi);a.setAttribute('data-hide-no-mentions','true');b.appendChild(a);const dm=document.createElement('span');dm.className='__dimensions_badge_embed__';dm.setAttribute('data-style','small_rectangle');dm.setAttribute('data-doi',doi);dm.setAttribute('data-hide-zero-citations','true');b.appendChild(dm);if(w.open_access&&w.open_access.is_oa&&w.open_access.oa_url){const ol=document.createElement('a');ol.href=w.open_access.oa_url;ol.target='_blank';ol.className='oa-icon-link oa-icon '+c(w.open_access.oa_status||'unknown');const oi=document.createElement('span');oi.className='iconify';oi.setAttribute('data-icon','academicons:open-access');oi.setAttribute('data-width','20');oi.setAttribute('data-height','20');ol.appendChild(oi);b.appendChild(ol);const arr=w.open_access.oa_urls||[];const rx=/\.pdf(\?|$)/i;let pdf=null;if(Array.isArray(arr)){const pe=arr.find((x)=>rx.test((x&&x.url)||''));if(pe)pdf=pe.url;}if(!pdf&&rx.test(w.open_access.oa_url))pdf=w.open_access.oa_url;if(pdf){const pl=document.createElement('a');pl.href=pdf;pl.target='_blank';pl.className='pdf-icon-link pdf-icon';const pi=document.createElement('span');pi.className='iconify';pi.setAttribute('data-icon','mdi:file-pdf-box');pi.setAttribute('data-width','20');pi.setAttribute('data-height','20');pl.appendChild(pi);b.appendChild(pl);}}const inlineTarget=node.querySelector('.csl-right-inline')||node;inlineTarget.appendChild(b);});if(typeof _altmetric_embed_init==='function')_altmetric_embed_init();if(window.__dimensions_embed&&window.__dimensions_embed.addBadges)window.__dimensions_embed.addBadges();if(window.Iconify&&window.Iconify.scan)window.Iconify.scan();}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',e);}else{e();}})();</script>
 ```
+
 # Presentations
 
 ```{=html}
@@ -78,5 +79,3 @@ about:
   </div>
 </div>
 ```
-
-

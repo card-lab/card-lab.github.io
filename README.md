@@ -79,7 +79,7 @@ Generally, just:
 ## TO DO
 
 * Overview of what the group does instead of photos
-* Add alt text the flags. Requires resolving country code into a country name.
+* There is weird spacing that looks ugly between impressum and site map. Consider moving site map into the impressum.
 * Create a map and list of PI's references, for completeness
 * make pre-uc.json download programmatically for automatic updates, and remove capitalization
 * Improved site map
@@ -87,3 +87,4 @@ Generally, just:
 * New "group roles" visualization with the number of MS, PhD, and undergraduates working in the group as a treemap.
 * Add AMCC to the facilities
 * Add regional facilities and shared facilities
+* I want to re-think some of the workflow so that the private folder stays private. The images that are needed out of this folder will always be copied to the output folder upon full site rendering even if the folder is not checked in to the repository. Data is pulled from the excel file upon rendering the full site, but this data is not actually needed for the github workflow. The main purpose of our github workflow is to regularly update the publications list, the publications on peoples' pages, and the citation metrics. The _people-action.ipynb creates peoples pages with an initial publication list. What we need instead is a separate action to update their pages that focuses only on the publications list. Then we can remove the private folder from the repository, along with its history of being checked in. Everything that we don't necessarily want to publish is contained in that private folder. Nothing that we don't want to publish has been copied outside of that folder. Could you please write a script that will go through each file in the people/current and people/alumni directories and update the "# Thesis", "# Contributions", "# Publications", "# Presentations", and "# Code & Datasets" sections? The necessary logic for creating these sections can be copied directly from _people-action.ipynb.
