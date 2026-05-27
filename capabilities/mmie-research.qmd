@@ -38,13 +38,13 @@ execute:
 #| label: load-data
 import yaml, pathlib, datetime
 
-        data_file_candidates = [
-          pathlib.Path("files/site/_mmie_data.yml"),
-          pathlib.Path("../files/site/_mmie_data.yml"),
-        ]
-        data_file = next((path for path in data_file_candidates if path.exists()), None)
-        if data_file is not None:
-          with open(data_file) as f:
+data_file_candidates = [
+    pathlib.Path("files/site/_mmie_data.yml"),
+    pathlib.Path("../files/site/_mmie_data.yml"),
+]
+data_file = next((path for path in data_file_candidates if path.exists()), None)
+if data_file is not None:
+    with open(data_file) as f:
         d = yaml.safe_load(f)
 else:
     # Fallback defaults so the page still renders without the data file
@@ -280,10 +280,10 @@ Cincinnati is home to a dense cluster of advanced-manufacturing and aerospace co
 
 | | |
 |:--|:--|
-| **Department website** | [ceas.uc.edu/mmie](https://www.ceas.uc.edu/academics/departments/mechanical-materials-engineering.html) |
-| **Graduate admissions** | [ceas.uc.edu/graduate-admissions](https://www.ceas.uc.edu/academics/departments/mechanical-materials-engineering/degrees-programs.html) |
-| **Research labs** | [ceas.uc.edu/mmie/research](https://www.ceas.uc.edu/academics/departments/mechanical-materials-engineering/research.html) |
-| **CEAS research office** | [ceas.uc.edu/research](https://www.ceas.uc.edu/research.html) |
+[| **Department website** |](https://www.ceas.uc.edu/academics/departments/mechanical-materials-engineering.html) |
+[| **Graduate admissions** |](https://www.ceas.uc.edu/academics/departments/mechanical-materials-engineering/degrees-programs.html) |
+[| **Research labs** |](https://www.ceas.uc.edu/academics/departments/mechanical-materials-engineering/research.html) |
+[| **CEAS research office** |](https://www.ceas.uc.edu/research.html) |
 
 
 <style>

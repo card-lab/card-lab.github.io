@@ -1,7 +1,7 @@
 ---
 title: "Site QC Report"
-subtitle: "Automated quality-control scan · 2026-05-25 18:07:30"
-date: "2026-05-25"
+subtitle: "Automated quality-control scan · 2026-05-27 09:38:21"
+date: "2026-05-27"
 date-format: "MMMM D, YYYY"
 toc: true
 toc-depth: 2
@@ -27,7 +27,7 @@ toc-title: "Checks"
 | 🟡 Warnings | 27 |
 | 🔵 Notes | 28 |
 | Total issues | 55 |
-| Checked | 2026-05-25 18:07:30 |
+| Checked | 2026-05-27 09:38:21 |
 
 
 External links were **skipped** — re-run with `--external` to include them.

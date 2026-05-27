@@ -12,7 +12,6 @@ project:
     - scripts/pre-render-people-action.sh
   post-render:
     - scripts/post-render-sync-site-assets.sh
-    - scripts/post-render-encrypt-private.sh
     - conda run -n card-lab python scripts/post-render-generate-sitemap.py
     - conda run -n card-lab python scripts/qc_check.py
     - conda run -n card-lab python -c "from pathlib import Path; import shutil; src=Path('scripts/qc_report.html'); dst=Path('docs/qc_report.html'); print('[post-render] qc_report.html not found; skipping copy' if not src.exists() else (dst.parent.mkdir(parents=True, exist_ok=True) or shutil.copy(src, dst) or '[post-render] copied qc_report.html'))"

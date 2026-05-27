@@ -27,6 +27,9 @@ about:
 
 ---
 
+<!-- card-lab-authorship-name:  -->
+
+
 ```{=html}
 <div class="member-range-source" data-member-range="January 2023 to August 2023"></div>
 <script>

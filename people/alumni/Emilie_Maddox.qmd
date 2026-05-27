@@ -23,6 +23,9 @@ about:
 
 ---
 
+<!-- card-lab-authorship-name:  -->
+
+
 ```{=html}
 <div class="member-range-source" data-member-range="January 2025 to May 2025"></div>
 <script>
