@@ -1,6 +1,6 @@
 ---
 title: "Site QC Report"
-subtitle: "Automated quality-control scan · 2026-05-27 09:38:21"
+subtitle: "Automated quality-control scan · 2026-05-27 10:44:45"
 date: "2026-05-27"
 date-format: "MMMM D, YYYY"
 toc: true
@@ -15,7 +15,7 @@ toc-title: "Checks"
 ::: {.callout-warning}
 ## 🟡 Overall Status
 
-**27 warnings found.** No hard errors, but some issues need attention.
+**28 warnings found.** No hard errors, but some issues need attention.
 :::
 
 ## Summary
@@ -24,10 +24,10 @@ toc-title: "Checks"
 |:-------|------:|
 | Pages scanned | 72 |
 | 🔴 Errors | 0 |
-| 🟡 Warnings | 27 |
+| 🟡 Warnings | 28 |
 | 🔵 Notes | 28 |
-| Total issues | 55 |
-| Checked | 2026-05-27 09:38:21 |
+| Total issues | 56 |
+| Checked | 2026-05-27 10:44:45 |
 
 
 External links were **skipped** — re-run with `--external` to include them.
@@ -98,16 +98,17 @@ External links were **skipped** — re-run with `--external` to include them.
 
 🔵 2
 
-<table style="width:100%;border-collapse:collapse;font-size:.85rem;"><thead><tr style="background:#f3f4f6;"><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;white-space:nowrap;">Level</th><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;">Page / Source</th><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;">Detail</th></tr></thead><tbody><tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#dbeafe;color:#1e40af;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">info</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">capabilities/mmie-research.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Large page: 8389 KB (threshold 500 KB) — consider lazy-loading images or splitting content</td></tr>
-<tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#dbeafe;color:#1e40af;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">info</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">people/principal-investigator.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Large page: 1072 KB (threshold 500 KB) — consider lazy-loading images or splitting content</td></tr></tbody></table>
+<table style="width:100%;border-collapse:collapse;font-size:.85rem;"><thead><tr style="background:#f3f4f6;"><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;white-space:nowrap;">Level</th><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;">Page / Source</th><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;">Detail</th></tr></thead><tbody><tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#dbeafe;color:#1e40af;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">info</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">capabilities/mmie-research.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Large page: 8388 KB (threshold 500 KB) — consider lazy-loading images or splitting content</td></tr>
+<tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#dbeafe;color:#1e40af;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">info</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">people/principal-investigator.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Large page: 1073 KB (threshold 500 KB) — consider lazy-loading images or splitting content</td></tr></tbody></table>
 
 ### Render Quality {#render}
 
-🟡 8
+🟡 9
 
 <table style="width:100%;border-collapse:collapse;font-size:.85rem;"><thead><tr style="background:#f3f4f6;"><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;white-space:nowrap;">Level</th><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;">Page / Source</th><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;">Detail</th></tr></thead><tbody><tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">capabilities/mmie-research.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Page contains raw code fences (``` in HTML) — possible Quarto rendering failure</td></tr>
 <tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">capabilities/teaching.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Page may contain un-rendered LaTeX math (raw \[ or \begin{ found in body text)</td></tr>
 <tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">people/demographics.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Empty code-cell output block detected (cell executed but produced no output)</td></tr>
+<tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">people/principal-investigator.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Empty code-cell output block detected (cell executed but produced no output)</td></tr>
 <tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">people/timeline.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Empty code-cell output block detected (cell executed but produced no output)</td></tr>
 <tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">qc_report.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Page may contain un-rendered LaTeX math (raw \[ or \begin{ found in body text)</td></tr>
 <tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">research/bibliometrics.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Empty code-cell output block detected (cell executed but produced no output)</td></tr>
