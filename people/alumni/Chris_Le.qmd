@@ -20,7 +20,7 @@ about:
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/chris-le-4263bb1b2
-    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Virginia](https://flagcdn.com/us-va.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Virginia

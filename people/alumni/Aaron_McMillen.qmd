@@ -20,14 +20,14 @@ about:
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/aaronmcmillen
-    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![Flag of Oklahoma](https://flagcdn.com/us-ok.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Oklahoma
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio
     - text: "![Flag of Georgia](https://flagcdn.com/us-ga.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Georgia
-    - text: "![Flag of Oklahoma](https://flagcdn.com/us-ok.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/Oklahoma
     - text: "![Flag of Texas](https://flagcdn.com/us-tx.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Texas
 
