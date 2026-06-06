@@ -25,7 +25,7 @@ import html
 import json
 import re
 
-from IPython.display import HTML, display
+from IPython.display import HTML, Markdown, display
 
 
 def parse_date(text):
@@ -491,17 +491,17 @@ def pub_citation(item, idx, total):
 
 def render_pub_section(title, items):
     if not items:
-        return f"<section class='pub-section'><h3>{escape(title)}</h3><p>No entries found.</p></section>"
+        return f"\n### {title}\n\nNo entries found.\n"
     lines = "".join(pub_citation(item, idx, len(items)) for idx, item in enumerate(items))
-    return f"<section class='pub-section'><h3>{escape(title)}</h3><div class='pub-list'>{lines}</div></section>"
+    return f"\n### {title}\n\n<div class='pub-list'>{lines}</div>\n"
 
 
 def render_presentation_section(title, items):
     if not items:
-        return f"<section class='pub-section'><h3>{escape(title)}</h3><p>No entries found.</p></section>"
+        return f"\n### {title}\n\nNo entries found.\n"
     use_initials = title.strip().lower() in {"presentation contributions", "presentations given"}
     lines = "".join(presentation_citation(item, idx, len(items), use_initials=use_initials) for idx, item in enumerate(items))
-    return f"<section class='pub-section'><h3>{escape(title)}</h3><div class='pub-list'>{lines}</div></section>"
+    return f"\n### {title}\n\n<div class='pub-list'>{lines}</div>\n"
 
 
 zotero_raw = load_json_candidates(["../files/zotero-items.json", "files/zotero-items.json"])
@@ -548,39 +548,26 @@ presentation_contributions = sorted(
 )
 
 display(
-    HTML(
-        """
-<style>
-  #pi-publications-page {
-    max-width: 100%;
-  }
-  #pi-publications-page .pub-section {
-    margin-top: 1.25rem;
-  }
-  #pi-publications-page h3 {
-    margin-top: 1.1rem;
-    margin-bottom: 0.55rem;
-  }
-  #pi-publications-page .citation {
+    Markdown(
+        """<style>
+  .citation {
     margin-bottom: 0.9rem;
     line-height: 1.35;
     overflow-wrap: anywhere;
     word-break: break-word;
   }
-  #pi-publications-page .italic { font-style: italic; }
-  #pi-publications-page .bold { font-weight: 700; }
-  #pi-publications-page .pub-list { margin-bottom: 0.75rem; }
+  .italic { font-style: italic; }
+  .bold { font-weight: 700; }
+  .pub-list { margin-bottom: 0.75rem; }
 </style>
-<div id="pi-publications-page">
-  <h2>Complete List of Publications</h2>
-  <p>This page reproduces the publication list from the PI page using the same Zotero and archived pre-UC sources.</p>
+
+## Complete List of Publications
 """
         + render_pub_section("Peer-Reviewed Publications", peer_reviewed)
         + render_pub_section("Reports, Conference Papers, and Magazine Articles", reports_conf_mag)
         + render_pub_section("Software and Datasets", software_datasets)
         + render_presentation_section("Presentations Given", presentations_given)
         + render_presentation_section("Presentation Contributions", presentation_contributions)
-        + "</div>"
     )
 )
 ```

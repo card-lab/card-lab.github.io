@@ -71,7 +71,7 @@ website:
       background: light
       logo: files/site/fluent--people-community-48-regular-ucred.svg
       border: true
-    - title: "Research"
+    - title: "Work Products"
       style: "docked"
       contents:
         - href: research/workproducts.qmd
