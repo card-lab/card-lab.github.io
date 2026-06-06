@@ -30,6 +30,7 @@ jobs:
           eval "$($HOME/miniforge/bin/conda shell.bash hook)"
           conda env create -f environment.yml
           conda run -n card-lab python -m ipykernel install --user --name card-lab --display-name card-lab
+          echo "$HOME/miniforge/envs/card-lab/bin" >> "$GITHUB_PATH"
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
