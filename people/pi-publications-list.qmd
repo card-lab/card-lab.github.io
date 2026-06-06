@@ -4,6 +4,7 @@ date: today
 date-format: "DD MMMM YYYY"
 language:
   title-block-published: "Updated"
+toc-depth: 3
 execute:
   echo: false
   warning: false
@@ -25,7 +26,7 @@ import html
 import json
 import re
 
-from IPython.display import HTML, Markdown, display
+from IPython.display import HTML, display
 
 
 def parse_date(text):
@@ -489,19 +490,19 @@ def pub_citation(item, idx, total):
     return f"<div class='citation'>{text}</div>"
 
 
-def render_pub_section(title, items):
+def render_pub_section(items):
     if not items:
-        return f"\n### {title}\n\nNo entries found.\n"
+        return "<p>No entries found.</p>"
     lines = "".join(pub_citation(item, idx, len(items)) for idx, item in enumerate(items))
-    return f"\n### {title}\n\n<div class='pub-list'>{lines}</div>\n"
+    return f"<div class='pub-list'>{lines}</div>"
 
 
 def render_presentation_section(title, items):
     if not items:
-        return f"\n### {title}\n\nNo entries found.\n"
+        return "<p>No entries found.</p>"
     use_initials = title.strip().lower() in {"presentation contributions", "presentations given"}
     lines = "".join(presentation_citation(item, idx, len(items), use_initials=use_initials) for idx, item in enumerate(items))
-    return f"\n### {title}\n\n<div class='pub-list'>{lines}</div>\n"
+    return f"<div class='pub-list'>{lines}</div>"
 
 
 zotero_raw = load_json_candidates(["../files/zotero-items.json", "files/zotero-items.json"])
@@ -547,9 +548,9 @@ presentation_contributions = sorted(
     reverse=True,
 )
 
-display(
-    Markdown(
-        """<style>
+```
+
+<style>
   .citation {
     margin-bottom: 0.9rem;
     line-height: 1.35;
@@ -562,12 +563,38 @@ display(
 </style>
 
 ## Complete List of Publications
-"""
-        + render_pub_section("Peer-Reviewed Publications", peer_reviewed)
-        + render_pub_section("Reports, Conference Papers, and Magazine Articles", reports_conf_mag)
-        + render_pub_section("Software and Datasets", software_datasets)
-        + render_presentation_section("Presentations Given", presentations_given)
-        + render_presentation_section("Presentation Contributions", presentation_contributions)
-    )
-)
+
+### Peer-Reviewed Publications
+
+```{python}
+#| echo: false
+display(HTML(render_pub_section(peer_reviewed)))
+```
+
+### Reports, Conference Papers, and Magazine Articles
+
+```{python}
+#| echo: false
+display(HTML(render_pub_section(reports_conf_mag)))
+```
+
+### Software and Datasets
+
+```{python}
+#| echo: false
+display(HTML(render_pub_section(software_datasets)))
+```
+
+### Presentations Given
+
+```{python}
+#| echo: false
+display(HTML(render_presentation_section("Presentations Given", presentations_given)))
+```
+
+### Presentation Contributions
+
+```{python}
+#| echo: false
+display(HTML(render_presentation_section("Presentation Contributions", presentation_contributions)))
 ```
