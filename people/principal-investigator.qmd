@@ -584,7 +584,7 @@ def fetch_all_profiles(dois, max_doi=120, total_time_budget_sec=130):
     citation_by_doi = {}
     profile_by_doi = {}
 
-    cache_candidates = [Path("../files/references_citing_pi.csv"), Path("files/references_citing_pi.csv")]
+    cache_candidates = [Path("../files/references_citing_pre-uc.csv"), Path("files/references_citing_pre-uc.csv")]
     cache_path = cache_candidates[0] if cache_candidates[0].parent.exists() else cache_candidates[1]
     start_ts = time.monotonic()
     budget_state = {"exhausted": False}

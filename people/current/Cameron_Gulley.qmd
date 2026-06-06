@@ -10,16 +10,16 @@ language:
   title-block-modified: "Joined"
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Cameron_Gulley.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
-  image-alt: "Stock photo of a dog wearing glasses. (Unfortunately no photo of Cameron Gulley was available)"
+  image: ../../files/photos/People/Cameron_Gulley.jpg
+  image-alt: "Photo of Cameron Gulley"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/cameron-gulley-35653a144
-    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio

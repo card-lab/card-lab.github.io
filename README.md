@@ -78,6 +78,13 @@ Generally, just:
 
 ## TO DO
 
+* Reduce redundancy in writing and modifying photos. If there is no change, don't re-write.
+* quarto publish gh-pages giving the "Individual file render detected" error.
+* Error on publishing: ```[post-render] qc_report.html not found; skipping copy
+-z: -c: line 0: unexpected EOF while looking for matching `''
+-z: -c: line 1: syntax error: unexpected end of file```
+* Remove redundancy in writing people pages. If there is no change, don't re-write.
+* Restore card-lab authorship name and add alt-text to flag images on people pages
 * Overview of what the group does instead of photos
 * Add alt text the flags. Requires resolving country code into a country name.
 * Create a map and list of PI's references, for completeness

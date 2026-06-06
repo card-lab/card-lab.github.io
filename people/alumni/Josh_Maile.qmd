@@ -22,7 +22,7 @@ about:
       url: https://www.linkedin.com/in/joshua-maile-a21b17150
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0000-8914-944X
-    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio

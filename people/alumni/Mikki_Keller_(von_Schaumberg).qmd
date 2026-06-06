@@ -20,7 +20,7 @@ about:
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/michaela-von-schaumburg
-    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Florida](https://flagcdn.com/us-fl.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Florida
