@@ -66,11 +66,12 @@ jobs:
       - name: Render updated people and metrics pages
         if: steps.zotero_changed.outputs.changed == 'true'
         run: |
-          quarto render people/current.qmd --to html --no-execute
-          quarto render people/alumni.qmd --to html --no-execute
-          quarto render people/principal-investigator.qmd --to html
-          quarto render research/bibliometrics.ipynb --to html
-          quarto render research/scientometrics.ipynb --to html
+          eval "$($HOME/miniforge/bin/conda shell.bash hook)"
+          conda run -n card-lab quarto render people/current.qmd --to html --no-execute
+          conda run -n card-lab quarto render people/alumni.qmd --to html --no-execute
+          conda run -n card-lab quarto render people/principal-investigator.qmd --to html
+          conda run -n card-lab quarto render research/bibliometrics.ipynb --to html
+          conda run -n card-lab quarto render research/scientometrics.ipynb --to html
 
       - name: Commit updated cache file
         run: |
