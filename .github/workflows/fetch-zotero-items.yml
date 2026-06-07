@@ -68,7 +68,7 @@ jobs:
         run: |
           quarto render people/current.qmd --to html --no-execute
           quarto render people/alumni.qmd --to html --no-execute
-          quarto render people/principal-investigator.qmd --to html
+          quarto render people/principal-investigator.qmd --to html --no-execute
           quarto render research/bibliometrics.ipynb --to html
           quarto render research/scientometrics.ipynb --to html
 
