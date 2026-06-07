@@ -1,5 +1,679 @@
 [
   {
+    "key": "8E7V2LMI",
+    "version": 1459,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/8E7V2LMI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/8E7V2LMI",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Hasan",
+      "parsedDate": "2026-10-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "8E7V2LMI",
+      "version": 1459,
+      "itemType": "presentation",
+      "title": "Thermodynamic Modeling and CVD Synthesis of Mo, Nb, and V MXene Precursors",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Sajjad",
+          "lastName": "Hasan"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Nishat",
+          "lastName": "Sultana"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Jesus",
+          "lastName": "Acosta"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Phillisity C.",
+          "lastName": "Neal"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "MXenes promise for a wide variety of applications such as energy generation and\nstorage. Chemical Vapor Deposition (CVD) is a surface deposition technique that\ncan be used to form thin layers of carbides as precursors to MXense without the\nuse of hydrofluoric acid for etch exfoliation. In this research, we demonstrate\nthe CVD approach to develop stable MXene precursors in the form of MxC(x-1)\n(M=Mo, Nb, and V). A computational and theoretical approach was used to evaluate\nthe possibility of the formation of the materials, then experimental synthesis was performed to evaluate the predictions. The formation and composition of carbides was investigated using XRD, EDS and Raman spectroscopy. The\nresults demonstrate the potential of this technique to design and produce modified\nMXene for versatile applications, as well as fundamental challenges in understanding the thermodynamics and kinetics of the synthesis process.",
+      "presentationType": "Accepted for student oral presentation in the symposium \" Advances in Emerging Electronic Nanomaterials: Towards Next-Generation Microelectronics\"",
+      "date": "2026-10-06",
+      "meetingName": "MS&T26: Materials Science and Technology",
+      "place": "Pittsburgh, PA, USA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10468",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-16T15:44:39Z",
+      "dateModified": "2026-05-28T16:02:28Z"
+    }
+  },
+  {
+    "key": "2THWR7YH",
+    "version": 1458,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/2THWR7YH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/2THWR7YH",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Obioha et al.",
+      "parsedDate": "2025-05-25",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "2THWR7YH",
+      "version": 1458,
+      "itemType": "manuscript",
+      "title": "Improved constitutive descriptions of the flow behavior of AA2618",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Okechukwu Chikwado",
+          "lastName": "Obioha"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Joshua D.",
+          "lastName": "Maile"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ugochukwu Philip",
+          "lastName": "Ocheize"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuval",
+          "lastName": "Noiman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christopher A",
+          "lastName": "Calhoun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthew Alan",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Aluminum alloy 2618 (AA2618) is a high-strength, heat-treatable alloy used widely in the aerospace and automotive sectors due to its excellent mechanical properties at elevated temperatures. The present research investigates the hot working behavior of AA2618 through uniaxial compression from 300 to 500 °C and strain rates of 0.001 and 1 s-1. Flow stress increases with strain rate and decreases with increasing temperature, as in similar alloys. However, strain hardening rates remain very low across three orders of magnitude of strain rate. Microstructural analyses suggest limited continuous dynamic recrystallization occurs. Dynamic recovery dominates, with new grain clusters forming locally and incompletely replacing the deformed grains after hot deformation. Secondary phase precipitates are observed to persist through deformation and recrystallization. The Lin-Wagoner constitutive model captured the measured flow behavior well, outperforming the Johnson-Cook and power law models in this temperature and strain rate regime.",
+      "manuscriptType": "Journal Article",
+      "institution": "",
+      "place": "",
+      "date": "2025-05-25",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10500",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-26T01:28:55Z",
+      "dateModified": "2026-05-26T01:31:40Z"
+    }
+  },
+  {
+    "key": "6YIC2KG7",
+    "version": 1446,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/6YIC2KG7",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/6YIC2KG7",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Miller et al.",
+      "parsedDate": "2025-12-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "6YIC2KG7",
+      "version": 1446,
+      "itemType": "manuscript",
+      "title": "Improved Fe-Ni-P thermodynamic models with revised phosphide equilibria",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Z. D. C.",
+          "lastName": "Miller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "U. P.",
+          "lastName": "Ochieze"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M. A.",
+          "lastName": "Steiner"
+        }
+      ],
+      "abstractNote": "",
+      "manuscriptType": "Journal Article",
+      "institution": "",
+      "place": "",
+      "date": "2025-12-01",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10076",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2026-04-06T13:33:47Z",
+      "dateModified": "2026-05-25T13:26:03Z"
+    }
+  },
+  {
+    "key": "X5EIIH4M",
+    "version": 1445,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/X5EIIH4M",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/X5EIIH4M",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Josyula et al.",
+      "parsedDate": "2025-12-15",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "X5EIIH4M",
+      "version": 1445,
+      "itemType": "manuscript",
+      "title": "Physics-augmented machine learning for predicting martensite transformation temperatures in shape memory alloys",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Sravya",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuval",
+          "lastName": "Noiman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthew Alan",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning (ML) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of ML models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor (ETR) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the ML model, an R2 value of 0.99 can be reached.",
+      "manuscriptType": "Journal Article",
+      "institution": "",
+      "place": "Prepared for submission to IMMI",
+      "date": "2025-12-15",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "josyulaPhysicsaugmentedMachineLearning2025",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2025-08-18T09:31:33Z",
+      "dateModified": "2026-05-25T13:25:57Z"
+    }
+  },
+  {
+    "key": "SXXCV5GW",
+    "version": 1444,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/SXXCV5GW",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/SXXCV5GW",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton et al.",
+      "parsedDate": "2025-12-31",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "SXXCV5GW",
+      "version": 1444,
+      "itemType": "manuscript",
+      "title": "On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstructures",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. B.",
+          "lastName": "Dursun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Eggeler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "L.",
+          "lastName": "Agudo Jácome"
+        }
+      ],
+      "abstractNote": "",
+      "manuscriptType": "Journal Article",
+      "institution": "",
+      "place": "Under review at Advanced Engineering Materials",
+      "date": "2025-12-31",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "paytonEffectCreepLocal2025",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {
+        "owl:sameAs": "http://zotero.org/groups/6314892/items/5QAYMH8R"
+      },
+      "dateAdded": "2026-01-27T11:54:21Z",
+      "dateModified": "2026-05-25T13:25:52Z"
+    }
+  },
+  {
+    "key": "C4V6F5LV",
+    "version": 1443,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/C4V6F5LV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/C4V6F5LV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ochieze et al.",
+      "parsedDate": "2026-05-12",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "C4V6F5LV",
+      "version": 1443,
+      "itemType": "manuscript",
+      "title": "Anomalous Behavior of Dilute Phosphorus Alloying on Phase Transformations in the Fe-Ni System",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "U. P.",
+          "lastName": "Ochieze"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A. S.",
+          "lastName": "Golsorkhi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M. A.",
+          "lastName": "Steiner"
+        }
+      ],
+      "abstractNote": "",
+      "manuscriptType": "Journal Article",
+      "institution": "",
+      "place": "",
+      "date": "2026-05-12",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10456",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-12T10:07:50Z",
+      "dateModified": "2026-05-25T13:25:40Z"
+    }
+  },
+  {
+    "key": "Y4AEX93Q",
+    "version": 1442,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/Y4AEX93Q",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/Y4AEX93Q",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Noiman",
+      "parsedDate": "2026-10-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "Y4AEX93Q",
+      "version": 1442,
+      "itemType": "presentation",
+      "title": "Supply risk and cost-aware multi-objective materials discovery",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Yuval",
+          "lastName": "Noiman"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Sravya",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Rapid exploration of complex compositional spaces through linking thermodynamic\ncalculations with functional behavior and real-world constraints is desired to develop novel material for applications such as aerospace or electronics. We designed a data-driven framework for doing multi-objective optimization based on material properties, supply risk, cost and integrating high-throughput CALPHAD (calculation of phase diagrams) with machine learning (ML). The\ntechnique is sufficiently general to be applicable to any material family for which data is available. We demonstrate the approach through composition optimization of shape memory alloys (SMAs), then validate the result on\nseveral novel compositions predicted by the approach. The technique and its validation will be discussed in the context of machine learning predicted trends on future stability of supply chain and price.",
+      "presentationType": "Accepted for student oral presentation in the symposium \"Progress in High Entropy Materials: Integrating Experiments, Computation, and Machine Learning\"",
+      "date": "2026-10-06",
+      "meetingName": "MS&T26: Materials Science & Technology",
+      "place": "Pittsburgh, PA, USA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10460",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-12T21:21:56Z",
+      "dateModified": "2026-05-25T10:43:13Z"
+    }
+  },
+  {
     "key": "3EJASXZF",
     "version": 1441,
     "library": {
@@ -280,102 +954,6 @@
       "relations": {},
       "dateAdded": "2026-05-15T03:12:02Z",
       "dateModified": "2026-05-16T15:47:40Z"
-    }
-  },
-  {
-    "key": "8E7V2LMI",
-    "version": 1437,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/8E7V2LMI",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/8E7V2LMI",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Hasan",
-      "parsedDate": "2026-10-06",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "8E7V2LMI",
-      "version": 1437,
-      "itemType": "presentation",
-      "title": "Thermodynamic Modeling and CVD Synthesis of Mo, Nb, and V MXene Precursors",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Sajjad",
-          "lastName": "Hasan"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Nishat",
-          "lastName": "Sultana"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Jesus",
-          "lastName": "Acosta"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Phillisity C.",
-          "lastName": "Neal"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "MXenes promise for a wide variety of applications such as energy generation and\nstorage. Chemical Vapor Deposition (CVD) is a surface deposition technique that\ncan be used to form thin layers of carbides as precursors to MXense without the\nuse of hydrofluoric acid for etch exfoliation. In this research, we demonstrate\nthe CVD approach to develop stable MXene precursors in the form of MxC(x-1)\n(M=Mo, Nb, and V). A computational and theoretical approach was used to evaluate\nthe possibility of the formation of the materials, then experimental synthesis was performed to evaluate the predictions. The formation and composition of carbides was investigated using XRD, EDS and Raman spectroscopy. The\nresults demonstrate the potential of this technique to design and produce modified\nMXene for versatile applications, as well as fundamental challenges in understanding the thermodynamics and kinetics of the synthesis process.",
-      "presentationType": "Submitted for student oral presentation in the symposium \" Advances in Emerging Electronic Nanomaterials: Towards Next-Generation Microelectronics\"",
-      "date": "2026-10-06",
-      "meetingName": "MS&T26: Materials Science and Technology",
-      "place": "Pittsburgh, PA, USA",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10468",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2026-05-16T15:44:39Z",
-      "dateModified": "2026-05-16T15:47:28Z"
     }
   },
   {
@@ -681,92 +1259,6 @@
     }
   },
   {
-    "key": "Y4AEX93Q",
-    "version": 1378,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/Y4AEX93Q",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/Y4AEX93Q",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Noiman",
-      "parsedDate": "2026-10-06",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "Y4AEX93Q",
-      "version": 1378,
-      "itemType": "presentation",
-      "title": "Supply risk and cost-aware multi-objective materials discovery",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Yuval",
-          "lastName": "Noiman"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Sravya",
-          "lastName": "Josyula"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "Rapid exploration of complex compositional spaces through linking thermodynamic\ncalculations with functional behavior and real-world constraints is desired to develop novel material for applications such as aerospace or electronics. We designed a data-driven framework for doing multi-objective optimization based on material properties, supply risk, cost and integrating high-throughput CALPHAD (calculation of phase diagrams) with machine learning (ML). The\ntechnique is sufficiently general to be applicable to any material family for which data is available. We demonstrate the approach through composition optimization of shape memory alloys (SMAs), then validate the result on\nseveral novel compositions predicted by the approach. The technique and its validation will be discussed in the context of machine learning predicted trends on future stability of supply chain and price.",
-      "presentationType": "Submitted for student oral presentation in the symposium \"Progress in High Entropy Materials: Integrating Experiments, Computation, and Machine Learning\"",
-      "date": "2026-10-06",
-      "meetingName": "MS&T26: Materials Science & Technology",
-      "place": "Pittsburgh, PA, USA",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10460",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2026-05-12T21:21:56Z",
-      "dateModified": "2026-05-12T21:24:11Z"
-    }
-  },
-  {
     "key": "P8EQX2FC",
     "version": 1369,
     "library": {
@@ -1037,388 +1529,6 @@
       "relations": {},
       "dateAdded": "2026-05-12T21:14:08Z",
       "dateModified": "2026-05-12T21:17:16Z"
-    }
-  },
-  {
-    "key": "C4V6F5LV",
-    "version": 1334,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/C4V6F5LV",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/C4V6F5LV",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Ochieze et al.",
-      "parsedDate": "2026-05-12",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "C4V6F5LV",
-      "version": 1334,
-      "itemType": "manuscript",
-      "title": "Anomalous Behavior of Dilute Phosphorus Alloying on Phase Transformations in the Fe-Ni System",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "U. P.",
-          "lastName": "Ochieze"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "A. S.",
-          "lastName": "Golsorkhi"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "M. A.",
-          "lastName": "Steiner"
-        }
-      ],
-      "abstractNote": "",
-      "manuscriptType": "",
-      "institution": "",
-      "place": "",
-      "date": "2026-05-12",
-      "numPages": "",
-      "number": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10456",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2026-05-12T10:07:50Z",
-      "dateModified": "2026-05-12T10:09:58Z"
-    }
-  },
-  {
-    "key": "X5EIIH4M",
-    "version": 1325,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/X5EIIH4M",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/X5EIIH4M",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Josyula et al.",
-      "parsedDate": "2025-12-15",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "X5EIIH4M",
-      "version": 1325,
-      "itemType": "manuscript",
-      "title": "Physics-augmented machine learning for predicting martensite transformation temperatures in shape memory alloys",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Sravya",
-          "lastName": "Josyula"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Yuval",
-          "lastName": "Noiman"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matthew Alan",
-          "lastName": "Steiner"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning (ML) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of ML models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor (ETR) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the ML model, an R2 value of 0.99 can be reached.",
-      "manuscriptType": "",
-      "institution": "",
-      "place": "Prepared for submission to IMMI",
-      "date": "2025-12-15",
-      "numPages": "",
-      "number": "",
-      "DOI": "",
-      "citationKey": "josyulaPhysicsaugmentedMachineLearning2025",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2025-08-18T09:31:33Z",
-      "dateModified": "2026-05-12T10:05:34Z"
-    }
-  },
-  {
-    "key": "6YIC2KG7",
-    "version": 1288,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/6YIC2KG7",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/6YIC2KG7",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Miller et al.",
-      "parsedDate": "2025-12-01",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "6YIC2KG7",
-      "version": 1288,
-      "itemType": "manuscript",
-      "title": "Improved Fe-Ni-P thermodynamic models with revised phosphide equilibria",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Z. D. C.",
-          "lastName": "Miller"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "U. P.",
-          "lastName": "Ochieze"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "M. A.",
-          "lastName": "Steiner"
-        }
-      ],
-      "abstractNote": "",
-      "manuscriptType": "",
-      "institution": "",
-      "place": "",
-      "date": "2025-12-01",
-      "numPages": "",
-      "number": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10076",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2026-04-06T13:33:47Z",
-      "dateModified": "2026-04-06T14:22:23Z"
-    }
-  },
-  {
-    "key": "SXXCV5GW",
-    "version": 1279,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/SXXCV5GW",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/SXXCV5GW",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton et al.",
-      "parsedDate": "2025-12-31",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "SXXCV5GW",
-      "version": 1279,
-      "itemType": "manuscript",
-      "title": "On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstructures",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. B.",
-          "lastName": "Dursun"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "G.",
-          "lastName": "Eggeler"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "L.",
-          "lastName": "Agudo Jácome"
-        }
-      ],
-      "abstractNote": "",
-      "manuscriptType": "",
-      "institution": "",
-      "place": "Under review at Advanced Engineering Materials",
-      "date": "2025-12-31",
-      "numPages": "",
-      "number": "",
-      "DOI": "",
-      "citationKey": "paytonEffectCreepLocal2025",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {
-        "owl:sameAs": "http://zotero.org/groups/6314892/items/5QAYMH8R"
-      },
-      "dateAdded": "2026-01-27T11:54:21Z",
-      "dateModified": "2026-04-04T17:04:42Z"
     }
   },
   {
