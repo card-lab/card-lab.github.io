@@ -117,6 +117,49 @@ LOG_WARNING_RE = re.compile(r"\bWARN(?:ING)?\b", re.IGNORECASE)
 LOG_ERROR_RE   = re.compile(r"\bERROR\b",         re.IGNORECASE)
 
 
+def _filter_expected_ci_private_skip_issues(issues: list["Issue"]) -> list["Issue"]:
+    """Suppress expected QC errors when private-dependent render paths are skipped in CI."""
+    if os.environ.get("CARD_LAB_SKIP_PRIVATE_RENDER_PATHS") != "1":
+        return issues
+
+    expected_link_targets = {
+        "../people/demographics.html",
+        "../people/timeline.html",
+        "../files/Research_Group_Timeline_Slideshow.html",
+        "files/Research_Group_Timeline_Slideshow.html",
+    }
+
+    filtered: list[Issue] = []
+    suppressed = 0
+
+    for iss in issues:
+        is_expected_broken_link = (
+            iss.category == "broken-link"
+            and any(t in iss.detail for t in expected_link_targets)
+        )
+
+        is_expected_missing_image = (
+            iss.category == "image"
+            and "../files/photos/People/" in iss.detail
+        )
+
+        if is_expected_broken_link or is_expected_missing_image:
+            suppressed += 1
+            continue
+
+        filtered.append(iss)
+
+    if suppressed:
+        filtered.append(Issue(
+            "info",
+            "render",
+            "(ci-private-skip)",
+            f"Suppressed {suppressed} expected issue(s) from private-skip CI mode",
+        ))
+
+    return filtered
+
+
 def detect_quarto_output_dir(project_root: Path) -> str:
     """Best-effort parse of project.output-dir from _quarto.yaml/_quarto.yml."""
     candidates = [project_root / "_quarto.yaml", project_root / "_quarto.yml"]
@@ -1111,6 +1154,8 @@ def main(argv=None):
 
     print("  Checking for orphaned assets …")
     all_issues += check_missing_source_files(site_dir)
+
+    all_issues = _filter_expected_ci_private_skip_issues(all_issues)
 
     now = datetime.datetime.now()
 
