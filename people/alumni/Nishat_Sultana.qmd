@@ -22,14 +22,14 @@ about:
       url: https://www.linkedin.com/in/nishat-sultana-phd-941a16106
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0000-0002-4922-8300
-    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/United_States_of_America
+    - text: "![Flag of AU](https://flagcdn.com/au.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Australia
     - text: "![Flag of BD](https://flagcdn.com/bd.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/People%27s_Republic_of_Bangladesh
     - text: "![Flag of NZ](https://flagcdn.com/nz.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/New_Zealand
-    - text: "![Flag of AU](https://flagcdn.com/au.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/Australia
+    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio
     - text: "![Flag of Illinois](https://flagcdn.com/us-il.svg){width=0.25in}"
@@ -78,3 +78,53 @@ document.addEventListener("DOMContentLoaded", function () {
 <script src='https://code.iconify.design/2/2.2.1/iconify.min.js'></script>
 <script>(function(){function c(s){switch(s){case 'gold':return 'oa-gold';case 'green':return 'oa-green';case 'bronze':return 'oa-bronze';case 'hybrid':return 'oa-hybrid';case 'diamond':return 'oa-diamond';default:return 'oa-unknown';}}function d(t){if(!t)return null;const m=t.match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i);return m?m[0].toLowerCase().replace(/[.,;]$/,''):null;}async function e(){const n=[...document.querySelectorAll('.csl-entry,.citation')];const map=new Map();const dois=[];n.forEach((node)=>{let doi=null;for(const a of node.querySelectorAll('a[href]')){const h=a.getAttribute('href')||'';const k=h.includes('doi.org/')?h.split('doi.org/').pop():null;doi=d(k||a.textContent||h);if(doi)break;}if(!doi)doi=d(node.textContent||'');if(doi){map.set(doi,node);dois.push(doi);}});if(!dois.length)return;const chunks=[];for(let i=0;i<dois.length;i+=100)chunks.push(dois.slice(i,i+100));const works=[];for(const p of chunks){const f=p.map((x)=>encodeURIComponent(x)).join('|');try{const r=await fetch(`https://api.openalex.org/works?filter=doi:${f}`);if(!r.ok)continue;const j=await r.json();if(Array.isArray(j.results))works.push(...j.results);}catch(_){}}works.forEach((w)=>{const doi=(w.doi||'').replace(/^https?:\/\/doi.org\//i,'').toLowerCase();const node=map.get(doi);if(!node||node.querySelector('[data-people-citation-badges]'))return;const b=document.createElement('span');b.className='citation-badges';b.setAttribute('data-people-citation-badges','1');const a=document.createElement('span');a.className='altmetric-embed';a.setAttribute('data-badge-type','4');a.setAttribute('data-doi',doi);a.setAttribute('data-hide-no-mentions','true');b.appendChild(a);const dm=document.createElement('span');dm.className='__dimensions_badge_embed__';dm.setAttribute('data-style','small_rectangle');dm.setAttribute('data-doi',doi);dm.setAttribute('data-hide-zero-citations','true');b.appendChild(dm);if(w.open_access&&w.open_access.is_oa&&w.open_access.oa_url){const ol=document.createElement('a');ol.href=w.open_access.oa_url;ol.target='_blank';ol.className='oa-icon-link oa-icon '+c(w.open_access.oa_status||'unknown');const oi=document.createElement('span');oi.className='iconify';oi.setAttribute('data-icon','academicons:open-access');oi.setAttribute('data-width','20');oi.setAttribute('data-height','20');ol.appendChild(oi);b.appendChild(ol);const arr=w.open_access.oa_urls||[];const rx=/\.pdf(\?|$)/i;let pdf=null;if(Array.isArray(arr)){const pe=arr.find((x)=>rx.test((x&&x.url)||''));if(pe)pdf=pe.url;}if(!pdf&&rx.test(w.open_access.oa_url))pdf=w.open_access.oa_url;if(pdf){const pl=document.createElement('a');pl.href=pdf;pl.target='_blank';pl.className='pdf-icon-link pdf-icon';const pi=document.createElement('span');pi.className='iconify';pi.setAttribute('data-icon','mdi:file-pdf-box');pi.setAttribute('data-width','20');pi.setAttribute('data-height','20');pl.appendChild(pi);b.appendChild(pl);}}const inlineTarget=node.querySelector('.csl-right-inline')||node;inlineTarget.appendChild(b);});if(typeof _altmetric_embed_init==='function')_altmetric_embed_init();if(window.__dimensions_embed&&window.__dimensions_embed.addBadges)window.__dimensions_embed.addBadges();if(window.Iconify&&window.Iconify.scan)window.Iconify.scan();}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',e);}else{e();}})();</script>
 ```
+# Thesis/Dissertation
+
+```{=html}
+<div class="csl-bib-body" style="line-height: 1.35; ">
+
+<div class="csl-entry" style="clear: left; ">
+<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">N. Sultana, “Ab initio investigation of Nb$_2$C and Nb$_2$CO$_2$ {MX}enes as anode materials for sodium- and lithium-ion batteries,” MS Thesis, University of Cincinnati, Cincinnati, OH, USA, 2025. <a href="http://rave.ohiolink.edu/etdc/view?acc_num=ucin1771499426151741">http://rave.ohiolink.edu/etdc/view?acc_num=ucin1771499426151741</a></div>
+</div></div>
+```
+
+# Publications
+
+```{=html}
+<div class="csl-bib-body" style="line-height: 1.35; ">
+
+<div class="csl-entry" style="clear: left; ">
+<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">N. Sultana, A. A. Amin, E. J. Payton, and W. K. Kim, “Prediction of {Raman} signatures, electronic structure, and ion transport mechanisms in Nb$_2$C and Nb$_2$CO$_2$ {MXenes} for {Li}/{Na}-ion batteries: An <i>Ab Initio</i> study,” <i>J. Phys. Chem. Sol.</i>, vol. 209, p. 113218, Feb. 2026, doi: <a href="https://doi.org/10.1016/j.jpcs.2025.113218.">10.1016/j.jpcs.2025.113218.</a></div>
+</div></div>
+```
+
+# Presentations
+
+```{=html}
+<div class="csl-bib-body" style="line-height: 1.35; ">
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>N. Sultana</em> (presenter), A. Al Amin, E. J. Payton, W. K. Kim. (2025-10-01). Ab Initio Investigation of 2D-Nb$_2$C and Nb$_2$CO$_2$ {MXenes} as High-Performance Anode Materials for Na- and Li-Ion Batteries. <em>MS&amp;T25: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/mst25" target="_blank">https://www.matscitech.org/mst25</a>.</div>
+  </div>
+</div>
+```
+
+# Contributions
+
+```{=html}
+<div class="csl-bib-body" style="line-height: 1.35; ">
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Hasan</em> (presenter), N. Sultana, J. Acosta, P. C. Neal, E. J. Payton. (2026-10-06). Thermodynamic Modeling and CVD Synthesis of Mo, Nb, and V MXene Precursors. <em>MS&amp;T26: Materials Science and Technology</em>.</div>
+  </div>
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">S. Hasan, <em>E. J. Payton</em> (presenter), P. C. Neal, N. Sultana. (2026-03-17). Experimental and thermodynamic analysis of CVD-based MXene synthesis. <em>The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition</em>. <a href="https://www.tms.org/TMS2026/" target="_blank">https://www.tms.org/TMS2026/</a>.</div>
+  </div>
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Hasan</em> (presenter), N. Sultana, P. C. Neal, J. Acosta, E. J. Payton. (2025-10-01). Comparison of thermodynamic prediction with experimental observations of refractory metal carbides synthesized using CVD. <em>MS&amp;T25: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/mst25" target="_blank">https://www.matscitech.org/mst25</a>.</div>
+  </div>
+  <div class="csl-entry" style="clear: left; ">
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>E. J. Payton</em> (presenter), S. Hasan, N. Sultana. (2025-03-25). ICME in chemical vapor deposition synthesis and characterization of 2D refractory metal carbides. <em>The Minerals Metals and Materials Society 2025 Annual Meeting and Exhibition</em>.</div>
+  </div>
+</div>
+```
+
+

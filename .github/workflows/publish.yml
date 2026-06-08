@@ -40,4 +40,5 @@ jobs:
         with:
           target: gh-pages
         env:
+          CARD_LAB_SKIP_PRIVATE_RENDER_PATHS: "1"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

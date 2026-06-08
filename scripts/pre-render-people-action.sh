@@ -4,6 +4,12 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT_DIR"
 
+# Allow CI and other non-private contexts to skip private-dependent renders.
+if [[ "${CARD_LAB_SKIP_PRIVATE_RENDER_PATHS:-}" == "1" ]]; then
+  echo "[pre-render] Skipping private-dependent people pre-render path (CARD_LAB_SKIP_PRIVATE_RENDER_PATHS=1)"
+  exit 0
+fi
+
 # Prevent recursive pre-render execution when this script invokes Quarto.
 if [[ "${CARD_LAB_SKIP_PEOPLE_ACTION_PRE_RENDER:-}" == "1" || "${CARD_LAB_SKIP_PEOPLE_NOTEBOOKS_PRE_RENDER:-}" == "1" ]]; then
   exit 0

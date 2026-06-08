@@ -70,6 +70,33 @@ Use an environment variable for the passphrase:
 
 - `export CARD_LAB_PEOPLE_SHEET_PASSPHRASE='your-passphrase'`
 
+# GitHub Actions Render Behavior Without Private Resources
+
+When publishing from GitHub Actions, this repository now sets
+`CARD_LAB_SKIP_PRIVATE_RENDER_PATHS=1` in
+`.github/workflows/publish.yml`.
+
+This skips the private-dependent people pre-render path in
+`scripts/pre-render-people-action.sh`, which would otherwise execute:
+
+- `_people-action.ipynb`
+- `people/demographics.ipynb`
+- `people/timeline.ipynb`
+
+Private-dependent inputs include:
+
+- `private/CARD Group Timeline.xlsx`
+- `private/Group Member Photos/*`
+- `../private/hometown_coordinates.txt` (used by demographics notebook)
+
+Result in CI (no private folder available):
+
+- These private-dependent notebook steps are skipped.
+- Existing rendered resources already present in `docs/` remain unchanged.
+- The timeline photo pre-render sync already exits cleanly when
+   `private/Timeline Slideshow Photos` is missing, so it does not overwrite
+   generated output with empty content.
+
 ## Usage
 
 Generally, just:
