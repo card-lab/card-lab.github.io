@@ -35,6 +35,22 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Hide private-dependent standard render documents
+        run: |
+          mkdir -p .ci-hidden-render-paths
+          while IFS= read -r path; do
+            if [[ -f "$path" ]]; then
+              mkdir -p ".ci-hidden-render-paths/$(dirname "$path")"
+              mv "$path" ".ci-hidden-render-paths/$path"
+              echo "[ci-render] Hid private-dependent document: $path"
+            fi
+          done <<'EOF'
+          _people-action.ipynb
+          people/demographics.ipynb
+          people/timeline.ipynb
+          files/Research_Group_Timeline_Slideshow.qmd
+          EOF
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
@@ -42,3 +58,26 @@ jobs:
         env:
           CARD_LAB_SKIP_PRIVATE_RENDER_PATHS: "1"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Restore hidden standard render documents
+        if: ${{ always() }}
+        run: |
+          if [[ ! -d .ci-hidden-render-paths ]]; then
+            exit 0
+          fi
+
+          while IFS= read -r path; do
+            src=".ci-hidden-render-paths/$path"
+            if [[ -f "$src" ]]; then
+              mkdir -p "$(dirname "$path")"
+              mv "$src" "$path"
+              echo "[ci-render] Restored private-dependent document: $path"
+            fi
+          done <<'EOF'
+          _people-action.ipynb
+          people/demographics.ipynb
+          people/timeline.ipynb
+          files/Research_Group_Timeline_Slideshow.qmd
+          EOF
+
+          rm -rf .ci-hidden-render-paths

@@ -92,6 +92,11 @@ Private-dependent inputs include:
 Result in CI (no private folder available):
 
 - These private-dependent notebook steps are skipped.
+- These private-dependent standard render documents are temporarily hidden from Quarto during CI:
+   - `_people-action.ipynb`
+   - `people/demographics.ipynb`
+   - `people/timeline.ipynb`
+   - `files/Research_Group_Timeline_Slideshow.qmd`
 - Existing rendered resources already present in `docs/` remain unchanged.
 - The timeline photo pre-render sync already exits cleanly when
    `private/Timeline Slideshow Photos` is missing, so it does not overwrite
