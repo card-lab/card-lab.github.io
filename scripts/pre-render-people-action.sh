@@ -91,6 +91,11 @@ sync_group_member_photos() {
   echo "[pre-render] Synced $copied group member photo(s) to $PUBLIC_PHOTOS_DIR"
 }
 
+if [[ ! -f "$SPREADSHEET_PATH" ]]; then
+  echo "[pre-render] Spreadsheet not found; skipping private-dependent people pre-render: $SPREADSHEET_PATH"
+  exit 0
+fi
+
 sync_group_member_photos
 
 compute_photos_hash() {
