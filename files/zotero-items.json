@@ -1,5 +1,1265 @@
 [
   {
+    "key": "2PD4QF2N",
+    "version": 1474,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/2PD4QF2N",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/2PD4QF2N",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Thome et al.",
+      "parsedDate": "2023-02-13",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "2PD4QF2N",
+      "version": 1474,
+      "itemType": "journalArticle",
+      "title": "Local maxima in martensite start temperatures in the transition region between lath and plate martensite in {Fe-Ni} alloys",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Pascal",
+          "lastName": "Thome"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mike",
+          "lastName": "Schneider"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Victoria A.",
+          "lastName": "Yardley"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gunther",
+          "lastName": "Eggeler"
+        }
+      ],
+      "abstractNote": "In the binary Fe-rich Fe-Ni system, martensite start temperatures MS decrease from 500 to 200 K when Ni concentrations increase from 20 to 30 at.%. It is well known that alloys with Ni concentrations below 28.5 at.% exhibit lath martensite (LM) microstructures (athermal transformation, small crystals, accommodation by dislocations). Above this concentration, plate martensite (PM) forms (burst-like transformation, large crystals, accommodation by twins). The present work is based on a combination of (i) ingot metallurgy for the manufacturing of Fe-Ni alloys with varying Ni-concentrations, (ii) thermal analysis to measure phase transformation temperatures with a special focus on MS, and (iii) analytical orientation imaging scanning electron microscopy for a quantitative description of microstructures and crystallographic features. For Ni-concentrations close to 28.5 at.%, the descending MS-curve shows a local maximum, which has been overlooked in prior works. Beyond the local maximum, MS temperatures decrease again and follow the overall trend. The local maximum is associated with the formation of transition martensite (TM) microstructure, which exhibits LM and PM features. TM forms at higher MS temperatures, as it is accommodated by simultaneous twinning and dislocation slip. An adopted version of the Clausius-Clapeyron equation explains the correlation between simultaneous accommodation and increased transformation temperatures.",
+      "publicationTitle": "Materials",
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "place": "",
+      "date": "2023-02-13",
+      "volume": "16",
+      "issue": "4",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1549",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.3390/ma16041549",
+      "citationKey": "thomeLocalMaximaMartensite2023",
+      "url": "https://www.mdpi.com/1996-1944/16/4/1549",
+      "accessDate": "2023-10-15T16:21:35Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1996-1944",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "www.mdpi.com",
+      "callNumber": "",
+      "rights": "http://creativecommons.org/licenses/by/3.0/",
+      "extra": "Number: 4",
+      "tags": [
+        {
+          "tag": "Fe-Ni Alloys"
+        },
+        {
+          "tag": "Lath Martensite"
+        },
+        {
+          "tag": "Martensite Start Temperature"
+        },
+        {
+          "tag": "Martensitic Microstructures"
+        },
+        {
+          "tag": "Plate Martensite"
+        },
+        {
+          "tag": "Transition Martensite"
+        }
+      ],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {},
+      "dateAdded": "2025-05-11T14:59:40Z",
+      "dateModified": "2026-06-08T18:49:03Z"
+    }
+  },
+  {
+    "key": "JP7R2MEL",
+    "version": 1473,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/JP7R2MEL",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/JP7R2MEL",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Balbus et al.",
+      "parsedDate": "2024-01-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "JP7R2MEL",
+      "version": 1473,
+      "itemType": "journalArticle",
+      "title": "Orientation dependent plasticity of the refractory multi-principal element alloy {MoNbTi} investigated via micropillar compression",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "G. H.",
+          "lastName": "Balbus"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "S. I.",
+          "lastName": "Rao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "O. N.",
+          "lastName": "Senkov"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Refractory multi-principal element alloys (RMPEAs) are promising candidate materials for use in high temperature structural applications and other extreme environments. Recent experiments and simulations have highlighted the unusual deformation behavior of an equiatomic MoNbTi alloy, which exhibits slip on higher order planes and sluggish edge dislocation mobility. In this work, we utilize micropillar compression and postmortem transmission electron microscopy to elucidate the orientation dependent deformation behavior of MoNbTi. Our results suggest that deformation in this system is largely mediated by kink-migration of screw dislocations, as evidenced by the presence of long screw dislocations and significant dislocation debris in postmortem observations, and the absence of twinning/anti-twinning asymmetry. Moreover, we report an unusual orientation dependence of the yield strength, owing to the high stress required to facilitate slip on {110} type planes. These results further demonstrate the unconventional plasticity in BCC RMPEAs, and provide experimental verification that kink-migration is the rate limiting feature in this alloy at low temperatures.",
+      "publicationTitle": "Acta Materialia",
+      "publisher": "",
+      "place": "",
+      "date": "2024-01-01",
+      "volume": "262",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "119401",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Acta Mater.",
+      "DOI": "10.1016/j.actamat.2023.119401",
+      "citationKey": "balbusOrientationDependentPlasticity2024",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1359645423007310",
+      "accessDate": "2025-05-11T15:08:38Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1359-6454",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "ScienceDirect",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Dislocation Behavior"
+        },
+        {
+          "tag": "Mechanical Properties"
+        },
+        {
+          "tag": "Micropillar Compression"
+        },
+        {
+          "tag": "Orientation Effects"
+        },
+        {
+          "tag": "Refractory Multi-Principal Element Alloy"
+        },
+        {
+          "tag": "Transmission Electron Microscopy"
+        }
+      ],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {},
+      "dateAdded": "2025-05-11T15:08:38Z",
+      "dateModified": "2026-06-08T18:48:56Z"
+    }
+  },
+  {
+    "key": "N797KHD9",
+    "version": 1471,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/N797KHD9",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/N797KHD9",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Senkov et al.",
+      "parsedDate": "2024-01-01",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "N797KHD9",
+      "version": 1471,
+      "itemType": "journalArticle",
+      "title": "Influence of eutectoid structures on the mechanical properties and oxidation behavior of {Hf-27%Ta} and {Hf-42%Ta} alloys",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "O. N.",
+          "lastName": "Senkov"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "T. I.",
+          "lastName": "Daboiku"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "W. C.",
+          "lastName": "Voellmecke"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "S. J. M.",
+          "lastName": "Kuhr"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "T. M.",
+          "lastName": "Butler"
+        }
+      ],
+      "abstractNote": "Hf–Ta alloys have recently received much attention due to their favorable oxidation resistance and mechanical properties at temperatures beyond 1200 °C. However, at lower temperatures the oxidation resistance becomes poor and the alloys experience brittle to ductile transition. Both effects are likely due to their two-phase structure formed during eutectoid transformation. In the present work, we report mechanical properties and oxidation behavior of Hf-27%Ta and Hf-42%Ta (compositions are in atomic percent), which experience eutectoid transformation at ∼1083 °C and contain two phases, Hf-rich HCP and Ta-rich BCC, below this temperature. Alloys of the compositions corresponding to these two eutectoid phases, Hf-90%Ta (BCC) and Hf-3%Ta (HCP), were also produced and studied for comparison. The results show that in the temperature range of 25–1000 °C (i.e., below the eutectoid transformation) the compression strengths of Hf-90%Ta and Hf-3%Ta are considerably smaller than the strength of Hf-27%Ta or Hf-42%Ta, while above the eutectoid transformation, where the Hf-27%Ta and Hf-42%Ta alloys have single-phase BCC structures, the Hf-90%Ta and Hf-3%Ta become stronger than either Hf-27%Ta or Hf-42%Ta. It was concluded that the interfaces in the eutectoid structure of Hf-27%Ta produce considerable strengthening, which can exceed the strengths of the phases which comprise the microstructure. At 800 °C and 1000 °C, Hf-90%Ta oxidized rapidly in comparison to Hf-3%Ta due to the extensive formation of Ta2O5. It is suggested that the observed poor oxidation behavior of Hf-27%Ta below the temperature of the eutectoid transformation is likely controlled by the oxidation kinetics of the Hf-90%Ta BCC phase in the eutectoid structure of this alloy.",
+      "publicationTitle": "International Journal of Refractory Metals and Hard Materials",
+      "publisher": "",
+      "place": "",
+      "date": "2024-01-01",
+      "volume": "118",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "106462",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Int. J. Refract. Hard Met.",
+      "DOI": "10.1016/j.ijrmhm.2023.106462",
+      "citationKey": "senkovInfluenceEutectoidStructures2024",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0263436823003621",
+      "accessDate": "2024-05-07T15:03:12Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0263-4368",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "ScienceDirect",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Binary Hf–Ta alloys",
+          "type": 1
+        },
+        {
+          "tag": "Mechanical properties",
+          "type": 1
+        },
+        {
+          "tag": "Microstructure",
+          "type": 1
+        },
+        {
+          "tag": "Oxidation behavior",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {},
+      "dateAdded": "2025-05-11T14:59:40Z",
+      "dateModified": "2026-06-08T18:48:50Z"
+    }
+  },
+  {
+    "key": "JMRACVRP",
+    "version": 1470,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/JMRACVRP",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/JMRACVRP",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Lee et al.",
+      "parsedDate": "2024-02-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "JMRACVRP",
+      "version": 1470,
+      "itemType": "journalArticle",
+      "title": "Prevalence of heteroepitaxial recrystallization in the low solvus high refractory ({LSHR}) $\\gamma$-$\\gamma^\\prime$ superalloy",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Y.",
+          "lastName": "Lee"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E.",
+          "lastName": "Hershkovitz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "H.",
+          "lastName": "Kim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "K. N.",
+          "lastName": "Wertz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "V. M.",
+          "lastName": "Miller"
+        }
+      ],
+      "abstractNote": "Heteroepitaxial recrystallization (HeRX) is a recently discovered recrystallization mechanism that can occur during thermomechanical processing of Ni-base superalloys. It is important to understand this mechanism because it offers insights into grain size control, which is critical to the tensile, fatigue, and creep properties of superalloys. In this paper, HeRX activity in the low solvus high refractory (LSHR) is quantitatively characterized using combined energy-dispersive X-ray spectroscopy and electron backscatter diffraction. The formation of heteroepitaxially recrystallized grains is observed within the intermediate-misfit γ–γ′ superalloy LSHR; this suggests the HeRX is more widespread than initially thought. Microstructural imaging indicates that the presence of a coherent γ shell formed via inverse precipitation is not a necessary condition for the nucleation of HeRX grains. HeRX grains are found to comprise the large grain tail of the grain size distribution, regardless of processing condition. The extent of HeRX grain formation and growth in LSHR is determined as a function of strain, forging rate, and thermal history.",
+      "publicationTitle": "Metallography, Microstructure, and Analysis",
+      "publisher": "",
+      "place": "",
+      "date": "2024-02-01",
+      "volume": "13",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "114-129",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Metallogr. Microstruct. Anal.",
+      "DOI": "10.1007/s13632-023-01036-z",
+      "citationKey": "leePrevalenceHeteroepitaxialRecrystallization2024",
+      "url": "https://doi.org/10.1007/s13632-023-01036-z",
+      "accessDate": "2025-05-11T15:08:28Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "2192-9270",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Heteroepitaxial Recrystallization"
+        },
+        {
+          "tag": "Ni-Superalloys"
+        },
+        {
+          "tag": "Recrystallization"
+        }
+      ],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {},
+      "dateAdded": "2025-05-11T15:08:28Z",
+      "dateModified": "2026-06-08T18:48:38Z"
+    }
+  },
+  {
+    "key": "JNBJUMSL",
+    "version": 1469,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/JNBJUMSL",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/JNBJUMSL",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ochieze et al.",
+      "parsedDate": "2025-04-01",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "JNBJUMSL",
+      "version": 1469,
+      "itemType": "journalArticle",
+      "title": "Microstructural, oxidation, and mechanical behavior of {NbTi}-based refractory alloys with 5 to 10 pct {Co}, {Cr}, and {Ni} additions",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "U. P.",
+          "lastName": "Ochieze"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "L.",
+          "lastName": "Sun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "N. A.",
+          "lastName": "Simpson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "S.",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "T. K. J.",
+          "lastName": "Kim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. L. W.",
+          "lastName": "Carter"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M. A.",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "NbTi-based refractory alloys with additions of Co, Cr, and Ni represent an interesting medium-entropy alloy system with potential for protective oxide film formation, high strength, and ductility. This study investigates the microstructural evolution, oxidation behavior, and mechanical properties of NbTi-based alloys containing 5 to 10 at. pct Co, Cr, and Ni. CALPHAD predictions suggest that this composition range can be heat treated to obtain a predominantly body-centered cubic matrix phase. Mechanical properties, including microhardness, yield strength, maximum strength, and specific strength are evaluated through isothermal compression tests conducted between room temperature and 800 °C. The oxidation kinetics of these alloys are assessed through discontinuous oxidation tests. Parabolic oxidation kinetics were observed for NbTi–10Ni and NbTi–5Co, while linear oxidation kinetics were found for NbTi–10Cr and NbTi–10(CoCrNi). Microstructures and oxide layers are characterized using X-ray diffraction, electron backscatter diffraction, energy-dispersive X-ray spectroscopy, and scanning electron microscopy. All alloys exhibit significant mechanical softening between room temperature and 800 °C, with elastic-perfectly plastic flow observed at 800 °C. The addition of 10 pct Cr to NbTi resulted in two BCC phases up to 1050 °C, conflicting with CALPHAD predictions of a single-phase solid solution at this temperature, and resulting in higher flow stress at 800 °C. NbTi–10(CoCrNi) exhibited the lowest flow stress at 800 °C despite having more ‘cocktail effect’ potential and insufficient molar fractions of Co, Cr, or Ni to form a desirable protective oxide film.",
+      "publicationTitle": "Metallurgical and Materials Transactions A",
+      "publisher": "",
+      "place": "",
+      "date": "2025-04-01",
+      "volume": "56",
+      "issue": "4",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1150-1170",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Metall. Mater. Trans. A",
+      "DOI": "10.1007/s11661-025-07705-8",
+      "citationKey": "ochiezeMicrostructuralOxidationMechanical2025",
+      "url": "https://doi.org/10.1007/s11661-025-07705-8",
+      "accessDate": "2025-05-11T15:07:36Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1543-1940",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {},
+      "dateAdded": "2025-05-11T15:07:36Z",
+      "dateModified": "2026-06-08T18:48:26Z"
+    }
+  },
+  {
+    "key": "LZQZ95FG",
+    "version": 1467,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/LZQZ95FG",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/LZQZ95FG",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ochieze et al.",
+      "parsedDate": "2025-07-24",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "LZQZ95FG",
+      "version": 1467,
+      "itemType": "journalArticle",
+      "title": "High-Temperature Oxidation and Thermal Expansion Behavior of {NbTi–X (X = 5Co, 10Cr, 10Ni, 10CoCrNi)} Refractory Medium Entropy Alloys",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "U. P.",
+          "lastName": "Ochieze"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "N.",
+          "lastName": "Simpson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Z.",
+          "lastName": "Jestude"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M. A.",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "The formation of Nb2O5 and other oxides in NbTi–X (X = 5Co, 10Cr, 10Ni, 10CoCrNi) after exposure to 800 °C accelerates oxidation kinetics, shifting from a parabolic rate law to a power-law exponent of two at 1200 °C. Subsequent oxidation at 800 °C for material initially exposed to oxidation at 1200 °C shows that the retained TiNb2O7 and CrNbO4 oxide scale substantially improves oxidation kinetics, transitioning from linear to parabolic behavior at this temperature. The oxide scales were heterogeneous, exhibiting regions with thin oxide layers alongside areas of thick, porous scales due to the formation of discontinuous metal and complex oxide structures. Microstructural analysis using scanning electron microscopy (SEM) revealed that the formation of metal oxides and complex oxides plays a crucial role in oxidation resistance. In alloys containing Co and Ni, TiNb2O7 and Nb2O5 layers are observed. Additionally, NbTi–10(CoCrNi) exhibited significant internal corrosion zones composed of various oxides. Quantitative X-ray diffraction (XRD) analysis of the oxide scales formed after 16 hours of oxidation confirmed that Nb2O5 and TiO2 were the predominant phases when oxidation resistance is relatively poor and TiNb2O7 and CrNbO4 are present when oxidation weight gain rates are comparatively lower. Furthermore, it is found that these alloys exhibit low, stable thermal expansion, with hysteresis primarily in the as-cast state due to phase transitions and internal stresses, which largely disappear after homogenization due to single-phase stability and reduced partitioning effects. These findings may provide valuable insights into the oxidation behavior, structural evolution, and thermal stability of these alloys, particularly in environments involving thermal cycling between high and low temperatures.",
+      "publicationTitle": "Metallurgical and Materials Transactions A",
+      "publisher": "",
+      "place": "",
+      "date": "2025-07-24",
+      "volume": "56",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "4436–4453",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Metall. Mater. Trans. A",
+      "DOI": "10.1007/s11661-025-07911-4",
+      "citationKey": "ochiezeHighTemperatureOxidationThermal2025",
+      "url": "https://doi.org/10.1007/s11661-025-07911-4",
+      "accessDate": "2025-07-24T21:31:20Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1543-1940",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Ceramics",
+          "type": 1
+        },
+        {
+          "tag": "Corrosion",
+          "type": 1
+        },
+        {
+          "tag": "Materials Science",
+          "type": 1
+        },
+        {
+          "tag": "Metal Oxides",
+          "type": 1
+        },
+        {
+          "tag": "Metals and Alloys",
+          "type": 1
+        },
+        {
+          "tag": "Phase Transition and Critical Phenomena",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {},
+      "dateAdded": "2025-07-24T21:31:20Z",
+      "dateModified": "2026-06-08T18:47:57Z"
+    }
+  },
+  {
+    "key": "A3KQAU5U",
+    "version": 1466,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/A3KQAU5U",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/A3KQAU5U",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Cao et al.",
+      "parsedDate": "2025-09-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "A3KQAU5U",
+      "version": 1466,
+      "itemType": "journalArticle",
+      "title": "{PanEvolution}: Integrating {CALPHAD}, microstructure modeling, and finite element method",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Weisheng",
+          "lastName": "Cao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fan",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kamalnath",
+          "lastName": "Kadirvel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shuanglin",
+          "lastName": "Chen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthew E.",
+          "lastName": "Krug"
+        }
+      ],
+      "abstractNote": "This paper introduces PanEvolution, a modeling platform that integrates CALPHAD, microstructure modeling, and finite element method (FEM). This work represents the third generation of Pandat software, designed to simulate the microstructure evolution of metallic materials during conventional manufacturing processes. The key features of PanEvolution include: (1) an integrated modeling framework that allows direct coupling of CALPHAD with various FEM software packages. This enables FEM packages to obtain accurate input of phase information for multi-component alloys and perform simulations of microstructure evolution for technically important metallic alloys, including precipitation, recrystallization, grain growth, and coarsening, during conventional manufacturing processes such as forging and rolling. (2) an open architecture that facilitates the easy replacement and swapping of fast-acting microstructure models.  This enables microstructure evolution and property models developed by academia or industry to be easily integrated into the PanEvolution platform to maximize their value in industrial applications.",
+      "publicationTitle": "CALPHAD",
+      "publisher": "",
+      "place": "",
+      "date": "2025-09-01",
+      "volume": "90",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "102851",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "CALPHAD",
+      "DOI": "10.1016/j.calphad.2025.102851",
+      "citationKey": "caoPanEvolutionIntegratingCALPHAD2025",
+      "url": "",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CALPHAD"
+        },
+        {
+          "tag": "Finite element method (FEM)"
+        },
+        {
+          "tag": "Integrated computational materials engineering (ICME)"
+        },
+        {
+          "tag": "Microstructure modeling"
+        },
+        {
+          "tag": "Multi-component alloys"
+        },
+        {
+          "tag": "PanEvolution"
+        },
+        {
+          "tag": "Pandat software"
+        }
+      ],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {},
+      "dateAdded": "2025-05-15T14:24:37Z",
+      "dateModified": "2026-06-08T18:47:42Z"
+    }
+  },
+  {
+    "key": "DHV8U7T8",
+    "version": 1464,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/DHV8U7T8",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/DHV8U7T8",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Timberlake and Payton",
+      "parsedDate": "2026-02-23",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "DHV8U7T8",
+      "version": 1464,
+      "itemType": "journalArticle",
+      "title": "Effects of {SEM} Distortions on {EBSD} Grain Size Measurements",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "D. Meiyan",
+          "lastName": "Timberlake"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Systematic discrepancies persist between results from g rain size measurement standards, such as ASTM E 112 and ASTM E 2627, when\ndifferent imaging techniques and analysis methods are used. The source of these discrepancies may be differences in imag ing physics, resolution limits, grain boundary definitions, post-processing practices, or combinations thereof. Geometric distortions and drift effects in scanning electron microscope imaging are systematically modeled using synthetic microstructures to assess their impact on electron backscatter diffraction-based grain size measurement accuracy. Standard methods are compared to a lesser-known method, the Triple Point Count (TPC). Most distortion types introduce smaller biases than the ex pected accuracy of the methods under typical imag ing conditions. TPC provides consistent performance across varying resolutions and sampling conditions. This provides further evidence that reported discrepancies are largely driven by an assumption made in the estimate for converting intercept measurements to ASTM grain size numbers, as recently reported by Evans et al.",
+      "publicationTitle": "Metallography, Microstructure, and Analysis",
+      "publisher": "",
+      "place": "",
+      "date": "2026-02-23",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Metallogr. Microstruct. Anal.",
+      "DOI": "10.1007/s13632-026-01317-3",
+      "citationKey": "timberlakeEffectsSEMDistortions2026",
+      "url": "https://doi.org/10.1007/s13632-026-01317-3",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Electron Backscatter Diffraction"
+        },
+        {
+          "tag": "Grain Size"
+        },
+        {
+          "tag": "Imaging distortions"
+        },
+        {
+          "tag": "Microstructure"
+        },
+        {
+          "tag": "Scanning Electron Microscopy"
+        }
+      ],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {},
+      "dateAdded": "2025-07-28T20:32:13Z",
+      "dateModified": "2026-06-08T18:47:31Z"
+    }
+  },
+  {
+    "key": "UYWAIBVI",
+    "version": 1462,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/UYWAIBVI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/UYWAIBVI",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Josyula et al.",
+      "parsedDate": "2026-05-15",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "UYWAIBVI",
+      "version": 1462,
+      "itemType": "journalArticle",
+      "title": "Computational Discovery of Medium-Entropy {SMA}s using {CALPHAD}, Machine Learning, and Economic Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "S.",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A. A.",
+          "lastName": "Oladipo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "U. P.",
+          "lastName": "Ochieze"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J. D.",
+          "lastName": "Maile"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Y.",
+          "lastName": "Noiman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "N.",
+          "lastName": "Simpson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Abstract\n            High-temperature shape memory alloys (SMAs) are essential for advanced actuation in aerospace and energy systems, yet their continued development is constrained by challenges in both equilibrium and metastable phase prediction, transformation temperature control, and material sustainability. This study presents a data-driven framework for discovery and multi-objective optimization of novel, concentrated, multi-component SMA compositions that integrates high-throughput CALPHAD (calculation of phase diagrams) with machine learning (ML). The framework is used to identify regions of B2 phase which have potential for exhibiting transitions to the B19’ phase upon cooling. An Extra Trees regression model was trained to predict martensitic and austenitic transformation temperatures. Compositions were selected for experimental validation using cost and supply chain risk metrics to promote practical viability. Selected compositions were synthesized via arc melting for experimental validation using differential scanning calorimetry and dilatometry. The integrated approach enables rapid exploration of complex compositional spaces, linking thermodynamic calculations with functional behavior and real-world constraints. Strengths and limitations of ML in the alloy optimization context are exposed and discussed, along with prospects of such a framework as a scalable pathway for accelerating the discovery and optimization of high-performance SMAs with tailored transformation behavior.",
+      "publicationTitle": "Journal of Phase Equilibria and Diffusion",
+      "publisher": "",
+      "place": "",
+      "date": "2026-05-15",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "J. Phase Equilib. Diffus.",
+      "DOI": "10.1007/s11669-026-01250-6",
+      "citationKey": "josyulaComputationalDiscoveryMediumEntropy2026",
+      "url": "https://link.springer.com/10.1007/s11669-026-01250-6",
+      "accessDate": "2026-05-15T18:10:17Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1547-7037, 1863-7345",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "CALPHAD"
+        },
+        {
+          "tag": "machine learning"
+        },
+        {
+          "tag": "martensitic transformation"
+        },
+        {
+          "tag": "materials characterization"
+        },
+        {
+          "tag": "metastability"
+        },
+        {
+          "tag": "phase transitions"
+        },
+        {
+          "tag": "shape memory alloys"
+        }
+      ],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-15T18:10:17Z",
+      "dateModified": "2026-06-08T18:47:20Z"
+    }
+  },
+  {
+    "key": "XD632FST",
+    "version": 1461,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/XD632FST",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/XD632FST",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton et al.",
+      "parsedDate": "2025-07-28",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "XD632FST",
+      "version": 1461,
+      "itemType": "computerProgram",
+      "title": "`mtex-grain-size` -- Functions for ASTM (and ISO) grain size characterization from electron backscatter diffraction (EBSD) data using the MTEX toolbox for MATLAB",
+      "creators": [
+        {
+          "creatorType": "contributor",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "D. M.",
+          "lastName": "Timberlake"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "K. S.",
+          "lastName": "Evans"
+        }
+      ],
+      "abstractNote": "Grain size measurement code used in the manuscript \"Effects of SEM Distortions on EBSD Grain Size Measurements\" by D. M. Timberlake and E. J. Payton. This is an update to the code used in K.S. Evans, D.M. Timberlake, P. Tyagi, V.M. Miller, and E.J. Payton, \"On the sources of discrepancies between grain size measurements,\" Metallogr. Microstruct. Anal. 13 (2024), pp 966–82 https://doi.org/10.1007/s13632-024-01124-8.",
+      "seriesTitle": "",
+      "versionNumber": "v.0.1.0",
+      "date": "2025-07-28",
+      "system": "",
+      "company": "Zenodo",
+      "place": "Cincinnati, OH, USA",
+      "programmingLanguage": "MATLAB",
+      "rights": "GNU General Public License v3.0 only",
+      "citationKey": "paytonMtexgrainsize2025",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.16541961",
+      "accessDate": "2025-07-28T19:37:25Z",
+      "DOI": "10.5281/ZENODO.16541961",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "DOI.org (Datacite)",
+      "callNumber": "",
+      "shortTitle": "paytonej/mtex-grain-size",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "RM8EMUNM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-07-28T19:37:25Z",
+      "dateModified": "2026-06-08T17:12:52Z"
+    }
+  },
+  {
     "key": "8E7V2LMI",
     "version": 1459,
     "library": {
@@ -957,151 +2217,8 @@
     }
   },
   {
-    "key": "UYWAIBVI",
-    "version": 1423,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/UYWAIBVI",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/UYWAIBVI",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Josyula et al.",
-      "parsedDate": "2026-05-15",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "UYWAIBVI",
-      "version": 1423,
-      "itemType": "journalArticle",
-      "title": "Computational Discovery of Medium-Entropy SMAs using CALPHAD, Machine Learning, and Economic Analysis",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "S.",
-          "lastName": "Josyula"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "A. A.",
-          "lastName": "Oladipo"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "U. P.",
-          "lastName": "Ochieze"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "J. D.",
-          "lastName": "Maile"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Y.",
-          "lastName": "Noiman"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "N.",
-          "lastName": "Simpson"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "Abstract\n            High-temperature shape memory alloys (SMAs) are essential for advanced actuation in aerospace and energy systems, yet their continued development is constrained by challenges in both equilibrium and metastable phase prediction, transformation temperature control, and material sustainability. This study presents a data-driven framework for discovery and multi-objective optimization of novel, concentrated, multi-component SMA compositions that integrates high-throughput CALPHAD (calculation of phase diagrams) with machine learning (ML). The framework is used to identify regions of B2 phase which have potential for exhibiting transitions to the B19’ phase upon cooling. An Extra Trees regression model was trained to predict martensitic and austenitic transformation temperatures. Compositions were selected for experimental validation using cost and supply chain risk metrics to promote practical viability. Selected compositions were synthesized via arc melting for experimental validation using differential scanning calorimetry and dilatometry. The integrated approach enables rapid exploration of complex compositional spaces, linking thermodynamic calculations with functional behavior and real-world constraints. Strengths and limitations of ML in the alloy optimization context are exposed and discussed, along with prospects of such a framework as a scalable pathway for accelerating the discovery and optimization of high-performance SMAs with tailored transformation behavior.",
-      "publicationTitle": "Journal of Phase Equilibria and Diffusion",
-      "publisher": "",
-      "place": "",
-      "date": "2026-05-15",
-      "volume": "",
-      "issue": "",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "J. Phase Equilib. Diffus.",
-      "DOI": "10.1007/s11669-026-01250-6",
-      "citationKey": "josyulaComputationalDiscoveryMediumEntropy2026",
-      "url": "https://link.springer.com/10.1007/s11669-026-01250-6",
-      "accessDate": "2026-05-15T18:10:17Z",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "1547-7037, 1863-7345",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "en",
-      "libraryCatalog": "DOI.org (Crossref)",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "CALPHAD"
-        },
-        {
-          "tag": "machine learning"
-        },
-        {
-          "tag": "martensitic transformation"
-        },
-        {
-          "tag": "materials characterization"
-        },
-        {
-          "tag": "metastability"
-        },
-        {
-          "tag": "phase transitions"
-        },
-        {
-          "tag": "shape memory alloys"
-        }
-      ],
-      "collections": [
-        "DYSCMR9B"
-      ],
-      "relations": {},
-      "dateAdded": "2026-05-15T18:10:17Z",
-      "dateModified": "2026-05-15T18:13:00Z"
-    }
-  },
-  {
     "key": "9Q4YRSZ4",
-    "version": 1417,
+    "version": 1463,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -1143,7 +2260,7 @@
     },
     "data": {
       "key": "9Q4YRSZ4",
-      "version": 1417,
+      "version": 1463,
       "parentItem": "UYWAIBVI",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -1153,7 +2270,7 @@
       "note": "",
       "contentType": "application/pdf",
       "charset": "",
-      "filename": "Josyula et al. - 2026 - Computational Discovery of Medium-Entropy SMAs using CALPHAD, Machine Learning, and Economic Analysi.pdf",
+      "filename": "Josyula et al. - 2026 - Computational Discovery of Medium-Entropy {SMA}s using {CALPHAD}, Machine Learning, and Economic Ana.pdf",
       "md5": "6991fa0210c9eb65806c715f54f7b24e",
       "mtime": 1778868684309,
       "tags": [],
@@ -2776,120 +3893,8 @@
     }
   },
   {
-    "key": "DHV8U7T8",
-    "version": 1217,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/DHV8U7T8",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/DHV8U7T8",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Timberlake and Payton",
-      "parsedDate": "2026-02-23",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "DHV8U7T8",
-      "version": 1217,
-      "itemType": "journalArticle",
-      "title": "Effects of SEM Distortions on EBSD Grain Size Measurements",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "D. Meiyan",
-          "lastName": "Timberlake"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "Systematic discrepancies persist between results from g rain size measurement standards, such as ASTM E 112 and ASTM E 2627, when\ndifferent imaging techniques and analysis methods are used. The source of these discrepancies may be differences in imag ing physics, resolution limits, grain boundary definitions, post-processing practices, or combinations thereof. Geometric distortions and drift effects in scanning electron microscope imaging are systematically modeled using synthetic microstructures to assess their impact on electron backscatter diffraction-based grain size measurement accuracy. Standard methods are compared to a lesser-known method, the Triple Point Count (TPC). Most distortion types introduce smaller biases than the ex pected accuracy of the methods under typical imag ing conditions. TPC provides consistent performance across varying resolutions and sampling conditions. This provides further evidence that reported discrepancies are largely driven by an assumption made in the estimate for converting intercept measurements to ASTM grain size numbers, as recently reported by Evans et al.",
-      "publicationTitle": "Metallography, Microstructure, and Analysis",
-      "publisher": "",
-      "place": "",
-      "date": "2026-02-23",
-      "volume": "",
-      "issue": "",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "Metallogr. Microstruct. Anal.",
-      "DOI": "10.1007/s13632-026-01317-3",
-      "citationKey": "timberlakeEffectsSEMDistortions2026",
-      "url": "https://doi.org/10.1007/s13632-026-01317-3",
-      "accessDate": "",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Electron Backscatter Diffraction"
-        },
-        {
-          "tag": "Grain Size"
-        },
-        {
-          "tag": "Imaging distortions"
-        },
-        {
-          "tag": "Microstructure"
-        },
-        {
-          "tag": "Scanning Electron Microscopy"
-        }
-      ],
-      "collections": [
-        "DYSCMR9B"
-      ],
-      "relations": {},
-      "dateAdded": "2025-07-28T20:32:13Z",
-      "dateModified": "2026-02-23T20:17:46Z"
-    }
-  },
-  {
     "key": "KJ2T6RA9",
-    "version": 1318,
+    "version": 1465,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -2931,7 +3936,7 @@
     },
     "data": {
       "key": "KJ2T6RA9",
-      "version": 1318,
+      "version": 1465,
       "parentItem": "DHV8U7T8",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -2941,7 +3946,7 @@
       "note": "",
       "contentType": "application/pdf",
       "charset": "",
-      "filename": "Timberlake and Payton - 2026 - Effects of SEM Distortions on EBSD Grain Size Measurements.pdf",
+      "filename": "Timberlake and Payton - 2026 - Effects of {SEM} Distortions on {EBSD} Grain Size Measurements.pdf",
       "md5": "8ce65ff60058afd4872839178ade1500",
       "mtime": 1771877826654,
       "tags": [],
@@ -3487,526 +4492,6 @@
     }
   },
   {
-    "key": "LZQZ95FG",
-    "version": 1175,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/LZQZ95FG",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/LZQZ95FG",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Ochieze et al.",
-      "parsedDate": "2025-07-24",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "LZQZ95FG",
-      "version": 1175,
-      "itemType": "journalArticle",
-      "title": "High-Temperature Oxidation and Thermal Expansion Behavior of NbTi–X (X = 5Co, 10Cr, 10Ni, 10CoCrNi) Refractory Medium Entropy Alloys",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "U. P.",
-          "lastName": "Ochieze"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "N.",
-          "lastName": "Simpson"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Z.",
-          "lastName": "Jestude"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "M. A.",
-          "lastName": "Steiner"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "The formation of Nb2O5 and other oxides in NbTi–X (X = 5Co, 10Cr, 10Ni, 10CoCrNi) after exposure to 800 °C accelerates oxidation kinetics, shifting from a parabolic rate law to a power-law exponent of two at 1200 °C. Subsequent oxidation at 800 °C for material initially exposed to oxidation at 1200 °C shows that the retained TiNb2O7 and CrNbO4 oxide scale substantially improves oxidation kinetics, transitioning from linear to parabolic behavior at this temperature. The oxide scales were heterogeneous, exhibiting regions with thin oxide layers alongside areas of thick, porous scales due to the formation of discontinuous metal and complex oxide structures. Microstructural analysis using scanning electron microscopy (SEM) revealed that the formation of metal oxides and complex oxides plays a crucial role in oxidation resistance. In alloys containing Co and Ni, TiNb2O7 and Nb2O5 layers are observed. Additionally, NbTi–10(CoCrNi) exhibited significant internal corrosion zones composed of various oxides. Quantitative X-ray diffraction (XRD) analysis of the oxide scales formed after 16 hours of oxidation confirmed that Nb2O5 and TiO2 were the predominant phases when oxidation resistance is relatively poor and TiNb2O7 and CrNbO4 are present when oxidation weight gain rates are comparatively lower. Furthermore, it is found that these alloys exhibit low, stable thermal expansion, with hysteresis primarily in the as-cast state due to phase transitions and internal stresses, which largely disappear after homogenization due to single-phase stability and reduced partitioning effects. These findings may provide valuable insights into the oxidation behavior, structural evolution, and thermal stability of these alloys, particularly in environments involving thermal cycling between high and low temperatures.",
-      "publicationTitle": "Metallurgical and Materials Transactions A",
-      "publisher": "",
-      "place": "",
-      "date": "2025-07-24",
-      "volume": "56",
-      "issue": "",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "4436–4453",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "Metall. Mater. Trans. A",
-      "DOI": "10.1007/s11661-025-07911-4",
-      "citationKey": "ochiezeHighTemperatureOxidationThermal2025",
-      "url": "https://doi.org/10.1007/s11661-025-07911-4",
-      "accessDate": "2025-07-24T21:31:20Z",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "1543-1940",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "en",
-      "libraryCatalog": "Springer Link",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Ceramics",
-          "type": 1
-        },
-        {
-          "tag": "Corrosion",
-          "type": 1
-        },
-        {
-          "tag": "Materials Science",
-          "type": 1
-        },
-        {
-          "tag": "Metal Oxides",
-          "type": 1
-        },
-        {
-          "tag": "Metals and Alloys",
-          "type": 1
-        },
-        {
-          "tag": "Phase Transition and Critical Phenomena",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "DYSCMR9B"
-      ],
-      "relations": {},
-      "dateAdded": "2025-07-24T21:31:20Z",
-      "dateModified": "2025-12-30T18:13:05Z"
-    }
-  },
-  {
-    "key": "JNBJUMSL",
-    "version": 1168,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/JNBJUMSL",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/JNBJUMSL",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Ochieze et al.",
-      "parsedDate": "2025-04-01",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "JNBJUMSL",
-      "version": 1168,
-      "itemType": "journalArticle",
-      "title": "Microstructural, oxidation, and mechanical behavior of NbTi-based refractory alloys with 5 to 10 pct Co, Cr, and Ni additions",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "U. P.",
-          "lastName": "Ochieze"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "L.",
-          "lastName": "Sun"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "N. A.",
-          "lastName": "Simpson"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "S.",
-          "lastName": "Josyula"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "T. K. J.",
-          "lastName": "Kim"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "J. L. W.",
-          "lastName": "Carter"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "M. A.",
-          "lastName": "Steiner"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "NbTi-based refractory alloys with additions of Co, Cr, and Ni represent an interesting medium-entropy alloy system with potential for protective oxide film formation, high strength, and ductility. This study investigates the microstructural evolution, oxidation behavior, and mechanical properties of NbTi-based alloys containing 5 to 10 at. pct Co, Cr, and Ni. CALPHAD predictions suggest that this composition range can be heat treated to obtain a predominantly body-centered cubic matrix phase. Mechanical properties, including microhardness, yield strength, maximum strength, and specific strength are evaluated through isothermal compression tests conducted between room temperature and 800 °C. The oxidation kinetics of these alloys are assessed through discontinuous oxidation tests. Parabolic oxidation kinetics were observed for NbTi–10Ni and NbTi–5Co, while linear oxidation kinetics were found for NbTi–10Cr and NbTi–10(CoCrNi). Microstructures and oxide layers are characterized using X-ray diffraction, electron backscatter diffraction, energy-dispersive X-ray spectroscopy, and scanning electron microscopy. All alloys exhibit significant mechanical softening between room temperature and 800 °C, with elastic-perfectly plastic flow observed at 800 °C. The addition of 10 pct Cr to NbTi resulted in two BCC phases up to 1050 °C, conflicting with CALPHAD predictions of a single-phase solid solution at this temperature, and resulting in higher flow stress at 800 °C. NbTi–10(CoCrNi) exhibited the lowest flow stress at 800 °C despite having more ‘cocktail effect’ potential and insufficient molar fractions of Co, Cr, or Ni to form a desirable protective oxide film.",
-      "publicationTitle": "Metallurgical and Materials Transactions A",
-      "publisher": "",
-      "place": "",
-      "date": "2025-04-01",
-      "volume": "56",
-      "issue": "4",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "1150-1170",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "Metall. Mater. Trans. A",
-      "DOI": "10.1007/s11661-025-07705-8",
-      "citationKey": "ochiezeMicrostructuralOxidationMechanical2025",
-      "url": "https://doi.org/10.1007/s11661-025-07705-8",
-      "accessDate": "2025-05-11T15:07:36Z",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "1543-1940",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "en",
-      "libraryCatalog": "Springer Link",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "DYSCMR9B"
-      ],
-      "relations": {},
-      "dateAdded": "2025-05-11T15:07:36Z",
-      "dateModified": "2025-12-30T18:12:03Z"
-    }
-  },
-  {
-    "key": "JP7R2MEL",
-    "version": 1168,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/JP7R2MEL",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/JP7R2MEL",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Balbus et al.",
-      "parsedDate": "2024-01-01",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "JP7R2MEL",
-      "version": 1168,
-      "itemType": "journalArticle",
-      "title": "Orientation dependent plasticity of the refractory multi-principal element alloy MoNbTi investigated via micropillar compression",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "G. H.",
-          "lastName": "Balbus"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "S. I.",
-          "lastName": "Rao"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "O. N.",
-          "lastName": "Senkov"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "Refractory multi-principal element alloys (RMPEAs) are promising candidate materials for use in high temperature structural applications and other extreme environments. Recent experiments and simulations have highlighted the unusual deformation behavior of an equiatomic MoNbTi alloy, which exhibits slip on higher order planes and sluggish edge dislocation mobility. In this work, we utilize micropillar compression and postmortem transmission electron microscopy to elucidate the orientation dependent deformation behavior of MoNbTi. Our results suggest that deformation in this system is largely mediated by kink-migration of screw dislocations, as evidenced by the presence of long screw dislocations and significant dislocation debris in postmortem observations, and the absence of twinning/anti-twinning asymmetry. Moreover, we report an unusual orientation dependence of the yield strength, owing to the high stress required to facilitate slip on {110} type planes. These results further demonstrate the unconventional plasticity in BCC RMPEAs, and provide experimental verification that kink-migration is the rate limiting feature in this alloy at low temperatures.",
-      "publicationTitle": "Acta Materialia",
-      "publisher": "",
-      "place": "",
-      "date": "2024-01-01",
-      "volume": "262",
-      "issue": "",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "119401",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "Acta Mater.",
-      "DOI": "10.1016/j.actamat.2023.119401",
-      "citationKey": "balbusOrientationDependentPlasticity2024",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1359645423007310",
-      "accessDate": "2025-05-11T15:08:38Z",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "1359-6454",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "ScienceDirect",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Dislocation Behavior"
-        },
-        {
-          "tag": "Mechanical Properties"
-        },
-        {
-          "tag": "Micropillar Compression"
-        },
-        {
-          "tag": "Orientation Effects"
-        },
-        {
-          "tag": "Refractory Multi-Principal Element Alloy"
-        },
-        {
-          "tag": "Transmission Electron Microscopy"
-        }
-      ],
-      "collections": [
-        "DYSCMR9B"
-      ],
-      "relations": {},
-      "dateAdded": "2025-05-11T15:08:38Z",
-      "dateModified": "2025-12-30T18:11:37Z"
-    }
-  },
-  {
-    "key": "N797KHD9",
-    "version": 1168,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/N797KHD9",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/N797KHD9",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Senkov et al.",
-      "parsedDate": "2024-01-01",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "N797KHD9",
-      "version": 1168,
-      "itemType": "journalArticle",
-      "title": "Influence of eutectoid structures on the mechanical properties and oxidation behavior of Hf-27%Ta and Hf-42%Ta alloys",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "O. N.",
-          "lastName": "Senkov"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "T. I.",
-          "lastName": "Daboiku"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "W. C.",
-          "lastName": "Voellmecke"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "S. J. M.",
-          "lastName": "Kuhr"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "T. M.",
-          "lastName": "Butler"
-        }
-      ],
-      "abstractNote": "Hf–Ta alloys have recently received much attention due to their favorable oxidation resistance and mechanical properties at temperatures beyond 1200 °C. However, at lower temperatures the oxidation resistance becomes poor and the alloys experience brittle to ductile transition. Both effects are likely due to their two-phase structure formed during eutectoid transformation. In the present work, we report mechanical properties and oxidation behavior of Hf-27%Ta and Hf-42%Ta (compositions are in atomic percent), which experience eutectoid transformation at ∼1083 °C and contain two phases, Hf-rich HCP and Ta-rich BCC, below this temperature. Alloys of the compositions corresponding to these two eutectoid phases, Hf-90%Ta (BCC) and Hf-3%Ta (HCP), were also produced and studied for comparison. The results show that in the temperature range of 25–1000 °C (i.e., below the eutectoid transformation) the compression strengths of Hf-90%Ta and Hf-3%Ta are considerably smaller than the strength of Hf-27%Ta or Hf-42%Ta, while above the eutectoid transformation, where the Hf-27%Ta and Hf-42%Ta alloys have single-phase BCC structures, the Hf-90%Ta and Hf-3%Ta become stronger than either Hf-27%Ta or Hf-42%Ta. It was concluded that the interfaces in the eutectoid structure of Hf-27%Ta produce considerable strengthening, which can exceed the strengths of the phases which comprise the microstructure. At 800 °C and 1000 °C, Hf-90%Ta oxidized rapidly in comparison to Hf-3%Ta due to the extensive formation of Ta2O5. It is suggested that the observed poor oxidation behavior of Hf-27%Ta below the temperature of the eutectoid transformation is likely controlled by the oxidation kinetics of the Hf-90%Ta BCC phase in the eutectoid structure of this alloy.",
-      "publicationTitle": "International Journal of Refractory Metals and Hard Materials",
-      "publisher": "",
-      "place": "",
-      "date": "2024-01-01",
-      "volume": "118",
-      "issue": "",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "106462",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "Int. J. Refract. Hard Met.",
-      "DOI": "10.1016/j.ijrmhm.2023.106462",
-      "citationKey": "senkovInfluenceEutectoidStructures2024",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0263436823003621",
-      "accessDate": "2024-05-07T15:03:12Z",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "0263-4368",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "ScienceDirect",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Binary Hf–Ta alloys",
-          "type": 1
-        },
-        {
-          "tag": "Mechanical properties",
-          "type": 1
-        },
-        {
-          "tag": "Microstructure",
-          "type": 1
-        },
-        {
-          "tag": "Oxidation behavior",
-          "type": 1
-        }
-      ],
-      "collections": [
-        "DYSCMR9B"
-      ],
-      "relations": {},
-      "dateAdded": "2025-05-11T14:59:40Z",
-      "dateModified": "2025-12-30T18:11:33Z"
-    }
-  },
-  {
     "key": "NVUWVGII",
     "version": 1173,
     "library": {
@@ -4284,144 +4769,6 @@
       "relations": {},
       "dateAdded": "2025-11-15T19:18:37Z",
       "dateModified": "2025-11-15T19:18:37Z"
-    }
-  },
-  {
-    "key": "A3KQAU5U",
-    "version": 1169,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/A3KQAU5U",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/A3KQAU5U",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Cao et al.",
-      "parsedDate": "2025-09-01",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "A3KQAU5U",
-      "version": 1169,
-      "itemType": "journalArticle",
-      "title": "{PanEvolution}: Integrating CALPHAD, microstructure modeling, and finite element method",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Weisheng",
-          "lastName": "Cao"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Fan",
-          "lastName": "Zhang"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Kamalnath",
-          "lastName": "Kadirvel"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Shuanglin",
-          "lastName": "Chen"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matthew E.",
-          "lastName": "Krug"
-        }
-      ],
-      "abstractNote": "This paper introduces PanEvolution, a modeling platform that integrates CALPHAD, microstructure modeling, and finite element method (FEM). This work represents the third generation of Pandat software, designed to simulate the microstructure evolution of metallic materials during conventional manufacturing processes. The key features of PanEvolution include: (1) an integrated modeling framework that allows direct coupling of CALPHAD with various FEM software packages. This enables FEM packages to obtain accurate input of phase information for multi-component alloys and perform simulations of microstructure evolution for technically important metallic alloys, including precipitation, recrystallization, grain growth, and coarsening, during conventional manufacturing processes such as forging and rolling. (2) an open architecture that facilitates the easy replacement and swapping of fast-acting microstructure models.  This enables microstructure evolution and property models developed by academia or industry to be easily integrated into the PanEvolution platform to maximize their value in industrial applications.",
-      "publicationTitle": "CALPHAD",
-      "publisher": "",
-      "place": "",
-      "date": "2025-09-01",
-      "volume": "90",
-      "issue": "",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "102851",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "CALPHAD",
-      "DOI": "10.1016/j.calphad.2025.102851",
-      "citationKey": "caoPanEvolutionIntegratingCALPHAD2025",
-      "url": "",
-      "accessDate": "",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "CALPHAD"
-        },
-        {
-          "tag": "Finite element method (FEM)"
-        },
-        {
-          "tag": "Integrated computational materials engineering (ICME)"
-        },
-        {
-          "tag": "Microstructure modeling"
-        },
-        {
-          "tag": "Multi-component alloys"
-        },
-        {
-          "tag": "PanEvolution"
-        },
-        {
-          "tag": "Pandat software"
-        }
-      ],
-      "collections": [
-        "DYSCMR9B"
-      ],
-      "relations": {},
-      "dateAdded": "2025-05-15T14:24:37Z",
-      "dateModified": "2025-10-10T10:58:31Z"
     }
   },
   {
@@ -8089,7 +8436,7 @@
   },
   {
     "key": "FR6TI2CW",
-    "version": 1311,
+    "version": 1472,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -8131,7 +8478,7 @@
     },
     "data": {
       "key": "FR6TI2CW",
-      "version": 1311,
+      "version": 1472,
       "parentItem": "N797KHD9",
       "itemType": "attachment",
       "linkMode": "imported_file",
@@ -8141,7 +8488,7 @@
       "note": "",
       "contentType": "application/pdf",
       "charset": "",
-      "filename": "Senkov et al. - 2024 - Influence of eutectoid structures on the mechanical properties and oxidation behavior of Hf-27%Ta an.pdf",
+      "filename": "Senkov et al. - 2024 - Influence of eutectoid structures on the mechanical properties and oxidation behavior of {Hf-27%Ta}.pdf",
       "md5": "12f4decb57c49ac525344a1c49d0a07d",
       "mtime": 1757335000564,
       "tags": [],
@@ -8431,225 +8778,8 @@
     }
   },
   {
-    "key": "JMRACVRP",
-    "version": 1168,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/JMRACVRP",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/JMRACVRP",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Lee et al.",
-      "parsedDate": "2024-02-01",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "JMRACVRP",
-      "version": 1168,
-      "itemType": "journalArticle",
-      "title": "Prevalence of heteroepitaxial recrystallization in the low solvus high refractory (LSHR) $\\gamma$-$\\gamma^\\prime$ superalloy",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Y.",
-          "lastName": "Lee"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E.",
-          "lastName": "Hershkovitz"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "H.",
-          "lastName": "Kim"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "K. N.",
-          "lastName": "Wertz"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "V. M.",
-          "lastName": "Miller"
-        }
-      ],
-      "abstractNote": "Heteroepitaxial recrystallization (HeRX) is a recently discovered recrystallization mechanism that can occur during thermomechanical processing of Ni-base superalloys. It is important to understand this mechanism because it offers insights into grain size control, which is critical to the tensile, fatigue, and creep properties of superalloys. In this paper, HeRX activity in the low solvus high refractory (LSHR) is quantitatively characterized using combined energy-dispersive X-ray spectroscopy and electron backscatter diffraction. The formation of heteroepitaxially recrystallized grains is observed within the intermediate-misfit γ–γ′ superalloy LSHR; this suggests the HeRX is more widespread than initially thought. Microstructural imaging indicates that the presence of a coherent γ shell formed via inverse precipitation is not a necessary condition for the nucleation of HeRX grains. HeRX grains are found to comprise the large grain tail of the grain size distribution, regardless of processing condition. The extent of HeRX grain formation and growth in LSHR is determined as a function of strain, forging rate, and thermal history.",
-      "publicationTitle": "Metallography, Microstructure, and Analysis",
-      "publisher": "",
-      "place": "",
-      "date": "2024-02-01",
-      "volume": "13",
-      "issue": "1",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "114-129",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "Metallogr. Microstruct. Anal.",
-      "DOI": "10.1007/s13632-023-01036-z",
-      "citationKey": "leePrevalenceHeteroepitaxialRecrystallization2024",
-      "url": "https://doi.org/10.1007/s13632-023-01036-z",
-      "accessDate": "2025-05-11T15:08:28Z",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "2192-9270",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "en",
-      "libraryCatalog": "Springer Link",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Heteroepitaxial Recrystallization"
-        },
-        {
-          "tag": "Ni-Superalloys"
-        },
-        {
-          "tag": "Recrystallization"
-        }
-      ],
-      "collections": [
-        "DYSCMR9B"
-      ],
-      "relations": {},
-      "dateAdded": "2025-05-11T15:08:28Z",
-      "dateModified": "2025-08-09T16:54:13Z"
-    }
-  },
-  {
-    "key": "XD632FST",
-    "version": 1175,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/XD632FST",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/XD632FST",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton et al.",
-      "parsedDate": "2025-07-28",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "XD632FST",
-      "version": 1175,
-      "itemType": "computerProgram",
-      "title": "mtex-grain-size",
-      "creators": [
-        {
-          "creatorType": "contributor",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "D. M.",
-          "lastName": "Timberlake"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "K. S.",
-          "lastName": "Evans"
-        }
-      ],
-      "abstractNote": "Grain size measurement code used in the manuscript \"Effects of SEM Distortions on EBSD Grain Size Measurements\" by D. M. Timberlake and E. J. Payton. This is an update to the code used in K.S. Evans, D.M. Timberlake, P. Tyagi, V.M. Miller, and E.J. Payton, \"On the sources of discrepancies between grain size measurements,\" Metallogr. Microstruct. Anal. 13 (2024), pp 966–82 https://doi.org/10.1007/s13632-024-01124-8.",
-      "seriesTitle": "",
-      "versionNumber": "v.0.1.0",
-      "date": "2025-07-28",
-      "system": "",
-      "company": "Zenodo",
-      "place": "Cincinnati, OH, USA",
-      "programmingLanguage": "MATLAB",
-      "rights": "GNU General Public License v3.0 only",
-      "citationKey": "paytonMtexgrainsize2025",
-      "url": "https://zenodo.org/doi/10.5281/zenodo.16541961",
-      "accessDate": "2025-07-28T19:37:25Z",
-      "DOI": "10.5281/ZENODO.16541961",
-      "ISBN": "",
-      "archive": "",
-      "archiveLocation": "",
-      "libraryCatalog": "DOI.org (Datacite)",
-      "callNumber": "",
-      "shortTitle": "paytonej/mtex-grain-size",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "RM8EMUNM"
-      ],
-      "relations": {},
-      "dateAdded": "2025-07-28T19:37:25Z",
-      "dateModified": "2025-07-28T19:38:44Z"
-    }
-  },
-  {
     "key": "A6M9IAWY",
-    "version": 1309,
+    "version": 1468,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -8691,7 +8821,7 @@
     },
     "data": {
       "key": "A6M9IAWY",
-      "version": 1309,
+      "version": 1468,
       "parentItem": "LZQZ95FG",
       "itemType": "attachment",
       "linkMode": "imported_url",
@@ -8701,7 +8831,7 @@
       "note": "",
       "contentType": "application/pdf",
       "charset": "",
-      "filename": "Ochieze et al. - 2025 - High-Temperature Oxidation and Thermal Expansion Behavior of NbTi–X (X = 5Co, 10Cr, 10Ni, 10CoCrNi).pdf",
+      "filename": "Ochieze et al. - 2025 - High-Temperature Oxidation and Thermal Expansion Behavior of {NbTi–X (X = 5Co, 10Cr, 10Ni, 10CoCrNi).pdf",
       "md5": "33108fd849e2dde529f8165b1621e696",
       "mtime": 1753392682376,
       "tags": [],
@@ -8836,136 +8966,6 @@
       "relations": {},
       "dateAdded": "2025-05-11T15:07:14Z",
       "dateModified": "2025-07-14T17:46:46Z"
-    }
-  },
-  {
-    "key": "2PD4QF2N",
-    "version": 1168,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/2PD4QF2N",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/2PD4QF2N",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Thome et al.",
-      "parsedDate": "2023-02-13",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "2PD4QF2N",
-      "version": 1168,
-      "itemType": "journalArticle",
-      "title": "Local maxima in martensite start temperatures in the transition region between lath and plate martensite in Fe-Ni alloys",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Pascal",
-          "lastName": "Thome"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Mike",
-          "lastName": "Schneider"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Victoria A.",
-          "lastName": "Yardley"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Gunther",
-          "lastName": "Eggeler"
-        }
-      ],
-      "abstractNote": "In the binary Fe-rich Fe-Ni system, martensite start temperatures MS decrease from 500 to 200 K when Ni concentrations increase from 20 to 30 at.%. It is well known that alloys with Ni concentrations below 28.5 at.% exhibit lath martensite (LM) microstructures (athermal transformation, small crystals, accommodation by dislocations). Above this concentration, plate martensite (PM) forms (burst-like transformation, large crystals, accommodation by twins). The present work is based on a combination of (i) ingot metallurgy for the manufacturing of Fe-Ni alloys with varying Ni-concentrations, (ii) thermal analysis to measure phase transformation temperatures with a special focus on MS, and (iii) analytical orientation imaging scanning electron microscopy for a quantitative description of microstructures and crystallographic features. For Ni-concentrations close to 28.5 at.%, the descending MS-curve shows a local maximum, which has been overlooked in prior works. Beyond the local maximum, MS temperatures decrease again and follow the overall trend. The local maximum is associated with the formation of transition martensite (TM) microstructure, which exhibits LM and PM features. TM forms at higher MS temperatures, as it is accommodated by simultaneous twinning and dislocation slip. An adopted version of the Clausius-Clapeyron equation explains the correlation between simultaneous accommodation and increased transformation temperatures.",
-      "publicationTitle": "Materials",
-      "publisher": "Multidisciplinary Digital Publishing Institute",
-      "place": "",
-      "date": "2023-02-13",
-      "volume": "16",
-      "issue": "4",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "1549",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "",
-      "DOI": "10.3390/ma16041549",
-      "citationKey": "thomeLocalMaximaMartensite2023",
-      "url": "https://www.mdpi.com/1996-1944/16/4/1549",
-      "accessDate": "2023-10-15T16:21:35Z",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "1996-1944",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "en",
-      "libraryCatalog": "www.mdpi.com",
-      "callNumber": "",
-      "rights": "http://creativecommons.org/licenses/by/3.0/",
-      "extra": "Number: 4",
-      "tags": [
-        {
-          "tag": "Fe-Ni Alloys"
-        },
-        {
-          "tag": "Lath Martensite"
-        },
-        {
-          "tag": "Martensite Start Temperature"
-        },
-        {
-          "tag": "Martensitic Microstructures"
-        },
-        {
-          "tag": "Plate Martensite"
-        },
-        {
-          "tag": "Transition Martensite"
-        }
-      ],
-      "collections": [
-        "DYSCMR9B"
-      ],
-      "relations": {},
-      "dateAdded": "2025-05-11T14:59:40Z",
-      "dateModified": "2025-07-14T17:44:35Z"
     }
   },
   {
