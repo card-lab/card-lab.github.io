@@ -1,15 +1,23 @@
 {
   "generated": true,
-  "nodeCount": 81,
-  "edgeCount": 665,
+  "nodeCount": 82,
+  "edgeCount": 672,
   "nodes": [
     {
       "id": "/",
       "label": "CARD Lab Timeline in Photos \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "index.html",
-      "indegree": 79,
+      "indegree": 80,
       "outdegree": 6,
-      "degree": 85
+      "degree": 86
+    },
+    {
+      "id": "/404 2.html",
+      "label": "Page Unplugged \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "404 2.html",
+      "indegree": 0,
+      "outdegree": 7,
+      "degree": 7
     },
     {
       "id": "/404.html",
@@ -87,9 +95,9 @@
       "id": "/capabilities/facilities.html",
       "label": "Facilities and Equipment \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "capabilities/facilities.html",
-      "indegree": 79,
+      "indegree": 80,
       "outdegree": 15,
-      "degree": 94
+      "degree": 95
     },
     {
       "id": "/capabilities/mmie-research.html",
@@ -119,17 +127,17 @@
       "id": "/easteregg.html",
       "label": "A Cartomancy Sequence Representing Graduate Studies \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "easteregg.html",
-      "indegree": 79,
+      "indegree": 80,
       "outdegree": 6,
-      "degree": 85
+      "degree": 86
     },
     {
       "id": "/impressum.html",
       "label": "Impressum \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "impressum.html",
-      "indegree": 79,
+      "indegree": 80,
       "outdegree": 6,
-      "degree": 85
+      "degree": 86
     },
     {
       "id": "/people/alumni.html",
@@ -391,9 +399,9 @@
       "id": "/people/current.html",
       "label": "Current Group Members \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/current.html",
-      "indegree": 79,
+      "indegree": 80,
       "outdegree": 25,
-      "degree": 104
+      "degree": 105
     },
     {
       "id": "/people/current/Alan_Do.html",
@@ -631,17 +639,17 @@
       "id": "/research/workproducts.html",
       "label": "Work Products \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "research/workproducts.html",
-      "indegree": 79,
+      "indegree": 80,
       "outdegree": 9,
-      "degree": 88
+      "degree": 89
     },
     {
       "id": "/site-map.html",
       "label": "Site Map \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "site-map.html",
-      "indegree": 79,
+      "indegree": 80,
       "outdegree": 6,
-      "degree": 85
+      "degree": 86
     },
     {
       "id": "/site_libs 2/revealjs/plugin/notes/speaker-view.html",
@@ -675,6 +683,34 @@
     },
     {
       "source": "/",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/404 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/404 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/404 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/404 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/404 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/404 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/404 2.html",
       "target": "/site-map.html"
     },
     {

@@ -716,7 +716,7 @@
     "href": "qc_report.html#summary",
     "title": "Site QC Report",
     "section": "Summary",
-    "text": "Summary\n\n\n\nMetric\nValue\n\n\n\n\nPages scanned\n87\n\n\n🔴 Errors\n0\n\n\n🟡 Warnings\n50\n\n\n🔵 Notes\n35\n\n\nTotal issues\n85\n\n\nChecked\n2026-06-17 14:18:19\n\n\n\nExternal links were skipped — re-run with --external to include them."
+    "text": "Summary\n\n\n\nMetric\nValue\n\n\n\n\nPages scanned\n88\n\n\n🔴 Errors\n0\n\n\n🟡 Warnings\n50\n\n\n🔵 Notes\n35\n\n\nTotal issues\n85\n\n\nChecked\n2026-06-17 14:33:00\n\n\n\nExternal links were skipped — re-run with --external to include them."
   },
   {
     "objectID": "qc_report.html#issues-by-category",
