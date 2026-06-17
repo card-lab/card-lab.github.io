@@ -962,7 +962,22 @@ def word_cloud_svg(freq_items, width=980, height=420):
         return "<p>No title-word data available.</p>"
 
     stop_words = set(STOPWORDS)
-    stop_words.update({"card", "lab", "labs", "work", "works", "paper", "papers", "study", "studies", "using", "based", "via", "analysis"})
+    _exclusions_paths = ["../files/word-cloud-exclusions-list.csv", "files/word-cloud-exclusions-list.csv"]
+    for _p in _exclusions_paths:
+        try:
+            import csv as _csv
+            with open(_p, newline='', encoding='utf-8') as _f:
+                stop_words.update(
+                    row[0].strip().lower()
+                    for row in _csv.reader(_f)
+                    if row and row[0].strip().lower() != 'word'
+                )
+            break
+        except FileNotFoundError:
+            continue
+        except Exception as _e:
+            print(f"Warning: could not load word cloud exclusions from {_p}: {_e}")
+            break
 
     if WordCloud is None:
         # Lightweight deterministic fallback when the wordcloud package is unavailable.
