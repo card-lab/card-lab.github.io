@@ -6,7 +6,7 @@ categories: ["equipment", "primary processing", "449 Mantei Center"]
 
 # ARC200 vacuum arc melter
 
-*[Arcast, Inc, Oxford, ME, USA](https://www.arcast.com/)*
+[*Arcast, Inc, Oxford, ME, USA*](https://www.arcast.com/)
 
 ::: {.callout-note}
 Vacuum arc melting

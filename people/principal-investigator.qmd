@@ -1309,19 +1309,15 @@ def citation_map_svg(rows, output_html_path=None):
     return fig.to_html(include_plotlyjs="cdn", full_html=False)
 
 
-zotero_raw = load_json_candidates(["../files/zotero-items.json", "files/zotero-items.json"])
-pre_uc_raw = load_json_candidates(["../files/Pre-UC.json", "files/Pre-UC.json"])
+zotero_raw = load_json_candidates(["../files/zotero-group-library.json", "files/zotero-group-library.json"])
+pi_raw = load_json_candidates(["../files/paytonej-pre-uc.json", "files/paytonej-pre-uc.json"])
 
 zotero_items = [x for x in (zotero_raw or []) if isinstance(x, dict) and x.get("data")]
-pre_uc_items = [normalize_pre_uc_item(x) for x in (pre_uc_raw or []) if isinstance(x, dict)]
+pi_items = [x for x in (pi_raw or []) if isinstance(x, dict) and x.get("data")]
 merged_items = [
     x
-    for x in dedupe_items(zotero_items + pre_uc_items)
+    for x in dedupe_items(zotero_items + pi_items)
     if has_payton_author(x)
-    or (
-        str((x.get("data") or {}).get("librarySource") or "").strip().lower() == "pre-uc"
-        and is_presentation_record(x)
-    )
 ]
 pi_dois = {normalize_doi(x.get("data", {}).get("DOI") or "") for x in merged_items}
 pi_dois = {x for x in pi_dois if x}

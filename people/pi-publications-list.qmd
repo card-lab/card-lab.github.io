@@ -505,19 +505,15 @@ def render_presentation_section(title, items):
     return f"<div class='pub-list'>{lines}</div>"
 
 
-zotero_raw = load_json_candidates(["../files/zotero-items.json", "files/zotero-items.json"])
-pre_uc_raw = load_json_candidates(["../files/Pre-UC.json", "files/Pre-UC.json"])
+zotero_raw = load_json_candidates(["../files/zotero-group-library.json", "files/zotero-group-library.json"])
+pi_raw = load_json_candidates(["../files/paytonej-pre-uc.json", "files/paytonej-pre-uc.json"])
 
 zotero_items = [item for item in (zotero_raw or []) if isinstance(item, dict) and item.get("data")]
-pre_uc_items = [normalize_pre_uc_item(item) for item in (pre_uc_raw or []) if isinstance(item, dict)]
+pi_items = [item for item in (pi_raw or []) if isinstance(item, dict) and item.get("data")]
 merged_items = [
     item
-    for item in dedupe_items(zotero_items + pre_uc_items)
+    for item in dedupe_items(zotero_items + pi_items)
     if has_payton_author(item)
-    or (
-        str((item.get("data") or {}).get("librarySource") or "").strip().lower() == "pre-uc"
-        and is_presentation_record(item)
-    )
 ]
 
 peer_reviewed = sorted(

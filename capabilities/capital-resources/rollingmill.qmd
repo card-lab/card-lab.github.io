@@ -4,18 +4,21 @@ image: "/files/photos/Capabilities/IMG_3098.jpeg"
 categories: [equipment, "secondary processing", "905C Rhodes Hall"]
 ---
 
-International Rolling Mills IRM-2050. 
+# Fenn Model 051 5” x 8” 2HI/4HI hot rolling mill
+
+[**International Rolling Mills, Pawtucket, RI, USA**](https://www.introllingmills.com)
 
 ::: {.callout-note}
 *Rolling* is a metal forming process that involves passing a material through a pair of rolls to reduce its thickness, improve its surface finish, and enhance its mechanical properties. This shaping process is used for producing sheet metal, plates, and structural components. Some 90% of all metal products go through a rolling process at some point in their manufacturing.
 :::
 
-![](/files/photos/Capabilities/IMG_3098.jpeg){image-alt="IRM-2050 Hot rolling mill in CARD Lab, 905C Rhodes Hall"}
+![](/files/photos/Capabilities/IMG_3098.jpeg){image-alt="Fenn Model 051 Hot rolling mill in CARD Lab, 905C Rhodes Hall"}
 
 Features:
 
-* Heated rollers with temperatures up to 230 °C
+* 5" diameter high carbon Cr alloy steel rolls with integrated heating cartridges for roll temperatures up to 230 °C
+* 15 HP motor with variable speed control
 * Adjacent furnace up to 1250 °C
-* Accommodates samples 8” wide with a maximum pressure of 50,000 lbs.
-* Instrumented with a load cell and thermocouples for precise control and monitoring of the rolling process.
+* Accommodates samples 8” wide with a separating force of 100,000 lbs.
+* Instrumented with a load cell for 50,000 lbs and thermocouples for precise control and monitoring of the rolling process
 

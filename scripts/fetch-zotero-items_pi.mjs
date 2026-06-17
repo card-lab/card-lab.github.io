@@ -1,10 +1,10 @@
 import { writeFile } from 'node:fs/promises';
 
-const ZOTERO_GROUP_ID = 5985739;
+const ZOTERO_GROUP_ID = 6542859;
 const PAGE_SIZE = 100;
 const MAX_RETRIES = 3;
 const RETRY_BASE_DELAY_MS = 1000;
-const OUTPUT_PATH = 'files/zotero-group-library.json';
+const OUTPUT_PATH = 'files/paytonej-pre-uc.json';
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));

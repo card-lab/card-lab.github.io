@@ -5,7 +5,7 @@ env:
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+    - cron: '0 16 * * 3' # Runs every Wednesday at midnight
   workflow_dispatch:
 
 permissions:
@@ -24,13 +24,16 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Fetch Zotero items cache
+      - name: Fetch Zotero group library cache
         run: node scripts/fetch-zotero-items.mjs
+
+      - name: Fetch PI personal Zotero library cache
+        run: node scripts/fetch-zotero-items_pi.mjs
 
       - name: Detect Zotero cache changes
         id: zotero_changed
         run: |
-          git add files/zotero-items.json
+          git add files/zotero-group-library.json files/paytonej-pre-uc.json
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No zotero cache changes detected."
@@ -70,6 +73,7 @@ jobs:
           conda run -n card-lab quarto render people/current.qmd --to html --no-execute
           conda run -n card-lab quarto render people/alumni.qmd --to html --no-execute
           conda run -n card-lab quarto render people/principal-investigator.qmd --to html
+          conda run -n card-lab quarto render people/pi-publications-list.qmd --to html
           conda run -n card-lab quarto render research/bibliometrics.ipynb --to html
           conda run -n card-lab quarto render research/scientometrics.ipynb --to html
 
@@ -78,8 +82,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add files/zotero-items.json
-          git add people/current people/alumni people/principal-investigator.qmd
+          git add files/zotero-group-library.json files/paytonej-pre-uc.json
+          git add people/current people/alumni people/principal-investigator.qmd people/pi-publications-list.qmd
           git add docs/people docs/research
           git add files/references_card-lab_cited.csv files/references_citing_card-lab.csv files/references_citing_pre-uc.csv
 

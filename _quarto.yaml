@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
   resources:
-    - files/zotero-items.json
+    - files/zotero-group-library.json
     - files/Pre-UC.json
     - files/map_of_references_card-lab_cited.html
     - files/map_of_references_citing_card-lab.html

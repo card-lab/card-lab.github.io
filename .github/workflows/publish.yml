@@ -3,12 +3,13 @@ on:
   push:
     branches: main
   schedule:
-    - cron: '0 3 * * 2' # Weekly on Tuesday at 03:00 UTC
+    - cron: '0 3 * * 3' # Weekly on Wednesday at 03:00 UTC
 
 name: Quarto Publish
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  CARD_LAB_SKIP_PRIVATE_RENDER_PATHS: "1"
 
 jobs:
   build-deploy:
@@ -58,7 +59,6 @@ jobs:
         with:
           target: gh-pages
         env:
-          CARD_LAB_SKIP_PRIVATE_RENDER_PATHS: "1"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Restore hidden standard render documents

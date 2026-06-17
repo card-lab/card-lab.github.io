@@ -283,7 +283,7 @@ include-in-header:
     
     async function fetchZoteroItems() {
     try {
-        const localResponse = await fetch('./files/zotero-items.json');
+        const localResponse = await fetch('./files/zotero-group-library.json');
         if (!localResponse.ok) {
             throw new Error(`Cache fetch failed: ${localResponse.status} ${localResponse.statusText}`);
         }

@@ -4,9 +4,7 @@ image: "/files/photos/Capabilities/REMADE_PROCAST.gif"
 categories: ["software", "computational fluid dynamics (CFD)", "905C Rhodes Hall"]
 ---
 
-
-
-# ProCAST 2025
+# ProCAST 2025 casting simulation software
 
 [*Keysight, Inc., Santa Rosa, CA, USA*](https://www.keysight.com/us/en/products/design-engineering-software/computer-aided-engineering-software/casting.html)
 

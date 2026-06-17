@@ -4,7 +4,7 @@ image: "/files/photos/Capabilities/Forming Die Stroke.png"
 categories: [software, FEM, "905C Rhodes Hall"]
 ---
 
-# DEFORM Premier 2025
+# DEFORM Premier 2025 deformation processing simulation software
 
 [*Scientific Forming Technologies Corporation, Columbus, OH, USA*](https://www.deform.com/)
 

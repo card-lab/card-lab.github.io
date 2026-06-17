@@ -4,7 +4,7 @@ image: "/files/photos/Capabilities/Images_4.png"
 categories: [software, CALPHAD, "449 Mantei Center"]
 ---
 
-Pandat 2025 Calculation of Phase Diagrams (CALPHAD) software
+# Pandat 2025 CALPHAD software suite
 
 [*Computherm, LLC, Madison, WI, USA*](https://www.computherm.com/)
 

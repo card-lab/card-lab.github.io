@@ -23,7 +23,7 @@ My vision for this site is to:
 
 * The people section is working. When the xlsx is updated, the necessary notebooks are executed via a pre-render script.
 * The section that pulls from Zotero works for the work products section of the website but not from the people section.
-   + Work products now use a repository cache file at `files/zotero-items.json`.
+   + Work products now use a repository cache file at `files/zotero-group-library.json`.
    + The cache refreshes weekly (and on demand) via the GitHub Action workflow `.github/workflows/fetch-zotero-items.yml`.
    + To force a refresh, run the `Fetch Zotero Items` workflow from the Actions tab.
 * Group member profile photos now sync from `private/Group Member Photos/` into `files/photos/People/` during pre-render.
