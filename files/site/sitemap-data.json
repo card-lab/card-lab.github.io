@@ -1,6 +1,6 @@
 {
   "generated": true,
-  "nodeCount": 80,
+  "nodeCount": 81,
   "edgeCount": 665,
   "nodes": [
     {
@@ -642,6 +642,14 @@
       "indegree": 79,
       "outdegree": 6,
       "degree": 85
+    },
+    {
+      "id": "/site_libs 2/revealjs/plugin/notes/speaker-view.html",
+      "label": "reveal.js - Speaker View",
+      "path": "site_libs 2/revealjs/plugin/notes/speaker-view.html",
+      "indegree": 0,
+      "outdegree": 0,
+      "degree": 0
     }
   ],
   "edges": [
