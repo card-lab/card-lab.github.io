@@ -1,20 +1,28 @@
 {
   "generated": true,
-  "nodeCount": 77,
-  "edgeCount": 634,
+  "nodeCount": 80,
+  "edgeCount": 665,
   "nodes": [
     {
       "id": "/",
       "label": "CARD Lab Timeline in Photos \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "index.html",
-      "indegree": 76,
+      "indegree": 79,
       "outdegree": 6,
-      "degree": 82
+      "degree": 85
     },
     {
       "id": "/404.html",
       "label": "Page Unplugged \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "404.html",
+      "indegree": 0,
+      "outdegree": 7,
+      "degree": 7
+    },
+    {
+      "id": "/TODO.html",
+      "label": "todo \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "TODO.html",
       "indegree": 0,
       "outdegree": 7,
       "degree": 7
@@ -79,9 +87,9 @@
       "id": "/capabilities/facilities.html",
       "label": "Facilities and Equipment \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "capabilities/facilities.html",
-      "indegree": 76,
+      "indegree": 79,
       "outdegree": 15,
-      "degree": 91
+      "degree": 94
     },
     {
       "id": "/capabilities/mmie-research.html",
@@ -111,25 +119,25 @@
       "id": "/easteregg.html",
       "label": "A Cartomancy Sequence Representing Graduate Studies \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "easteregg.html",
-      "indegree": 76,
+      "indegree": 79,
       "outdegree": 6,
-      "degree": 82
+      "degree": 85
     },
     {
       "id": "/impressum.html",
       "label": "Impressum \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "impressum.html",
-      "indegree": 76,
+      "indegree": 79,
       "outdegree": 6,
-      "degree": 82
+      "degree": 85
     },
     {
       "id": "/people/alumni.html",
       "label": "Alumni \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/alumni.html",
-      "indegree": 5,
+      "indegree": 7,
       "outdegree": 37,
-      "degree": 42
+      "degree": 44
     },
     {
       "id": "/people/alumni/Aaron_McMillen.html",
@@ -383,9 +391,9 @@
       "id": "/people/current.html",
       "label": "Current Group Members \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/current.html",
-      "indegree": 76,
+      "indegree": 79,
       "outdegree": 25,
-      "degree": 101
+      "degree": 104
     },
     {
       "id": "/people/current/Alan_Do.html",
@@ -516,12 +524,20 @@
       "degree": 8
     },
     {
+      "id": "/people/demographics 2.html",
+      "label": "CARD Lab Demographics \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/demographics 2.html",
+      "indegree": 0,
+      "outdegree": 12,
+      "degree": 12
+    },
+    {
       "id": "/people/demographics.html",
       "label": "CARD Lab Demographics \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/demographics.html",
-      "indegree": 5,
+      "indegree": 7,
       "outdegree": 11,
-      "degree": 16
+      "degree": 18
     },
     {
       "id": "/people/pi-publications-list.html",
@@ -535,25 +551,33 @@
       "id": "/people/principal-investigator.html",
       "label": "About the PI \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/principal-investigator.html",
-      "indegree": 5,
+      "indegree": 7,
       "outdegree": 12,
-      "degree": 17
+      "degree": 19
     },
     {
       "id": "/people/slideshow.html",
       "label": "CARD Lab Timeline in Photos \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/slideshow.html",
-      "indegree": 5,
+      "indegree": 7,
       "outdegree": 11,
-      "degree": 16
+      "degree": 18
+    },
+    {
+      "id": "/people/timeline 2.html",
+      "label": "Timeline \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/timeline 2.html",
+      "indegree": 0,
+      "outdegree": 12,
+      "degree": 12
     },
     {
       "id": "/people/timeline.html",
       "label": "Timeline \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/timeline.html",
-      "indegree": 5,
+      "indegree": 7,
       "outdegree": 11,
-      "degree": 16
+      "degree": 18
     },
     {
       "id": "/qc_report.html",
@@ -607,17 +631,17 @@
       "id": "/research/workproducts.html",
       "label": "Work Products \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "research/workproducts.html",
-      "indegree": 76,
+      "indegree": 79,
       "outdegree": 9,
-      "degree": 85
+      "degree": 88
     },
     {
       "id": "/site-map.html",
       "label": "Site Map \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "site-map.html",
-      "indegree": 76,
+      "indegree": 79,
       "outdegree": 6,
-      "degree": 82
+      "degree": 85
     }
   ],
   "edges": [
@@ -671,6 +695,34 @@
     },
     {
       "source": "/404.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/TODO.html",
+      "target": "/"
+    },
+    {
+      "source": "/TODO.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/TODO.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/TODO.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/TODO.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/TODO.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/TODO.html",
       "target": "/site-map.html"
     },
     {
@@ -2674,6 +2726,54 @@
       "target": "/site-map.html"
     },
     {
+      "source": "/people/demographics 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/people/alumni.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/people/demographics.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/people/principal-investigator.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/people/slideshow.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/people/timeline.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/site-map.html"
+    },
+    {
       "source": "/people/demographics.html",
       "target": "/"
     },
@@ -2835,6 +2935,54 @@
     },
     {
       "source": "/people/slideshow.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/people/alumni.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/people/demographics.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/people/principal-investigator.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/people/slideshow.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/people/timeline.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
       "target": "/site-map.html"
     },
     {
