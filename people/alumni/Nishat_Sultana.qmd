@@ -24,16 +24,16 @@ about:
       url: https://orcid.org/0000-0002-4922-8300
     - text: "![Flag of BD](https://flagcdn.com/bd.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/People%27s_Republic_of_Bangladesh
-    - text: "![Flag of AU](https://flagcdn.com/au.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/Australia
-    - text: "![Flag of NZ](https://flagcdn.com/nz.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/New_Zealand
     - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
-    - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/Ohio
+    - text: "![Flag of NZ](https://flagcdn.com/nz.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/New_Zealand
+    - text: "![Flag of AU](https://flagcdn.com/au.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Australia
     - text: "![Flag of Illinois](https://flagcdn.com/us-il.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Illinois
+    - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 

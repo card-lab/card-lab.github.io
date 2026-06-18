@@ -129,8 +129,6 @@ def _filter_expected_ci_private_skip_issues(issues: list["Issue"]) -> list["Issu
         "../people/timeline.ipynb",
         "people/demographics.ipynb",
         "people/timeline.ipynb",
-        "../files/Research_Group_Timeline_Slideshow.html",
-        "files/Research_Group_Timeline_Slideshow.html",
     }
 
     filtered: list[Issue] = []

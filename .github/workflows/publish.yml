@@ -3,7 +3,7 @@ on:
   push:
     branches: main
   schedule:
-    - cron: '0 3 * * 3' # Weekly on Wednesday at 03:00 UTC
+    - cron: '0 13 * * 4' # Weekly on Thursday at 1pm UTC (eastern time: 9am during standard time, 8am during daylight saving time)
 
 name: Quarto Publish
 
@@ -38,6 +38,27 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Install exiftool
+        run: sudo apt-get update && sudo apt-get install -y libimage-exiftool-perl
+
+      - name: Fetch previously published private-dependent pages
+        run: |
+          mkdir -p .ci-preserved-pages
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git fetch --depth=1 origin gh-pages:refs/remotes/origin/gh-pages
+            git worktree add .ci-gh-pages-snapshot origin/gh-pages
+            for item in people/demographics.html people/timeline.html people/timeline_files; do
+              if [[ -e ".ci-gh-pages-snapshot/$item" ]]; then
+                mkdir -p ".ci-preserved-pages/$(dirname "$item")"
+                cp -r ".ci-gh-pages-snapshot/$item" ".ci-preserved-pages/$item"
+                echo "[ci-render] Preserved previous output: $item"
+              fi
+            done
+            git worktree remove --force .ci-gh-pages-snapshot
+          else
+            echo "[ci-render] gh-pages branch not found; nothing to preserve"
+          fi
+
       - name: Hide private-dependent standard render documents
         run: |
           mkdir -p .ci-hidden-render-paths
@@ -51,15 +72,18 @@ jobs:
           _people-action.ipynb
           people/demographics.ipynb
           people/timeline.ipynb
-          files/Research_Group_Timeline_Slideshow.qmd
           EOF
 
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Render site
+        run: quarto render
+
+      - name: Restore previously published private-dependent pages
+        run: |
+          if [[ -d .ci-preserved-pages ]]; then
+            cp -r .ci-preserved-pages/. docs/
+            echo "[ci-render] Restored previously published private-dependent pages into docs/"
+            rm -rf .ci-preserved-pages
+          fi
 
       - name: Restore hidden standard render documents
         if: ${{ always() }}
@@ -79,7 +103,14 @@ jobs:
           _people-action.ipynb
           people/demographics.ipynb
           people/timeline.ipynb
-          files/Research_Group_Timeline_Slideshow.qmd
           EOF
 
           rm -rf .ci-hidden-render-paths
+
+      - name: Publish rendered site
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+          render: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

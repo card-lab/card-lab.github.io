@@ -5,7 +5,7 @@ env:
 
 on:
   schedule:
-    - cron: '0 16 * * 3' # Runs every Wednesday at midnight
+    - cron: '0 12 * * 2' # Runs every Thursday at 12pm UTC (eastern time: 8am during standard time, 7am during daylight saving time)
   workflow_dispatch:
 
 permissions:
