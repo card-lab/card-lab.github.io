@@ -1,15 +1,23 @@
 {
   "generated": true,
-  "nodeCount": 66,
-  "edgeCount": 535,
+  "nodeCount": 83,
+  "edgeCount": 684,
   "nodes": [
     {
       "id": "/",
       "label": "CARD Lab Timeline in Photos \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "index.html",
-      "indegree": 65,
+      "indegree": 81,
       "outdegree": 6,
-      "degree": 71
+      "degree": 87
+    },
+    {
+      "id": "/404 2.html",
+      "label": "Page Unplugged \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "404 2.html",
+      "indegree": 0,
+      "outdegree": 7,
+      "degree": 7
     },
     {
       "id": "/404.html",
@@ -34,6 +42,14 @@
       "indegree": 1,
       "outdegree": 7,
       "degree": 8
+    },
+    {
+      "id": "/capabilities/capital-resources/calphad 2.html",
+      "label": "High throughput thermodynamic calculations \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "capabilities/capital-resources/calphad 2.html",
+      "indegree": 0,
+      "outdegree": 7,
+      "degree": 7
     },
     {
       "id": "/capabilities/capital-resources/calphad.html",
@@ -79,9 +95,9 @@
       "id": "/capabilities/facilities.html",
       "label": "Facilities and Equipment \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "capabilities/facilities.html",
-      "indegree": 65,
+      "indegree": 81,
       "outdegree": 15,
-      "degree": 80
+      "degree": 96
     },
     {
       "id": "/capabilities/mmie-research.html",
@@ -111,25 +127,25 @@
       "id": "/easteregg.html",
       "label": "A Cartomancy Sequence Representing Graduate Studies \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "easteregg.html",
-      "indegree": 65,
+      "indegree": 81,
       "outdegree": 6,
-      "degree": 71
+      "degree": 87
     },
     {
       "id": "/impressum.html",
       "label": "Impressum \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "impressum.html",
-      "indegree": 65,
+      "indegree": 81,
       "outdegree": 6,
-      "degree": 71
+      "degree": 87
     },
     {
       "id": "/people/alumni.html",
       "label": "Alumni \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/alumni.html",
-      "indegree": 3,
-      "outdegree": 35,
-      "degree": 38
+      "indegree": 8,
+      "outdegree": 37,
+      "degree": 45
     },
     {
       "id": "/people/alumni/Aaron_McMillen.html",
@@ -138,6 +154,14 @@
       "indegree": 1,
       "outdegree": 7,
       "degree": 8
+    },
+    {
+      "id": "/people/alumni/Anh_Nguyen 2.html",
+      "label": "Anh Nguyen \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/alumni/Anh_Nguyen 2.html",
+      "indegree": 0,
+      "outdegree": 7,
+      "degree": 7
     },
     {
       "id": "/people/alumni/Anh_Nguyen.html",
@@ -196,6 +220,14 @@
       "degree": 8
     },
     {
+      "id": "/people/alumni/Ian_Giblin 2.html",
+      "label": "Ian Giblin \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/alumni/Ian_Giblin 2.html",
+      "indegree": 0,
+      "outdegree": 7,
+      "degree": 7
+    },
+    {
       "id": "/people/alumni/Ian_Giblin.html",
       "label": "Ian Giblin \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/alumni/Ian_Giblin.html",
@@ -210,6 +242,14 @@
       "indegree": 1,
       "outdegree": 7,
       "degree": 8
+    },
+    {
+      "id": "/people/alumni/Josh_Maile 2.html",
+      "label": "Josh Maile \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/alumni/Josh_Maile 2.html",
+      "indegree": 0,
+      "outdegree": 7,
+      "degree": 7
     },
     {
       "id": "/people/alumni/Josh_Maile.html",
@@ -300,6 +340,14 @@
       "degree": 8
     },
     {
+      "id": "/people/alumni/Sravya_Josyula 2.html",
+      "label": "Sravya Josyula \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/alumni/Sravya_Josyula 2.html",
+      "indegree": 0,
+      "outdegree": 7,
+      "degree": 7
+    },
+    {
       "id": "/people/alumni/Sravya_Josyula.html",
       "label": "Sravya Josyula \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/alumni/Sravya_Josyula.html",
@@ -332,6 +380,14 @@
       "degree": 8
     },
     {
+      "id": "/people/alumni/Zoey_Jestude 2.html",
+      "label": "Zoey Jestude \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/alumni/Zoey_Jestude 2.html",
+      "indegree": 0,
+      "outdegree": 7,
+      "degree": 7
+    },
+    {
       "id": "/people/alumni/Zoey_Jestude.html",
       "label": "Zoey Jestude \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/alumni/Zoey_Jestude.html",
@@ -343,9 +399,9 @@
       "id": "/people/current.html",
       "label": "Current Group Members \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/current.html",
-      "indegree": 65,
-      "outdegree": 23,
-      "degree": 88
+      "indegree": 81,
+      "outdegree": 25,
+      "degree": 106
     },
     {
       "id": "/people/current/Alan_Do.html",
@@ -378,6 +434,14 @@
       "indegree": 1,
       "outdegree": 7,
       "degree": 8
+    },
+    {
+      "id": "/people/current/Elif_Dursun 2.html",
+      "label": "Elif Dursun \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/current/Elif_Dursun 2.html",
+      "indegree": 0,
+      "outdegree": 7,
+      "degree": 7
     },
     {
       "id": "/people/current/Elif_Dursun.html",
@@ -452,12 +516,36 @@
       "degree": 8
     },
     {
+      "id": "/people/current/Yuval_Noiman 2.html",
+      "label": "Yuval Noiman \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/current/Yuval_Noiman 2.html",
+      "indegree": 0,
+      "outdegree": 7,
+      "degree": 7
+    },
+    {
       "id": "/people/current/Yuval_Noiman.html",
       "label": "Yuval Noiman \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/current/Yuval_Noiman.html",
       "indegree": 1,
       "outdegree": 7,
       "degree": 8
+    },
+    {
+      "id": "/people/demographics 2.html",
+      "label": "CARD Lab Demographics \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/demographics 2.html",
+      "indegree": 0,
+      "outdegree": 12,
+      "degree": 12
+    },
+    {
+      "id": "/people/demographics.html",
+      "label": "CARD Lab Demographics \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/demographics.html",
+      "indegree": 8,
+      "outdegree": 11,
+      "degree": 19
     },
     {
       "id": "/people/pi-publications-list.html",
@@ -471,17 +559,41 @@
       "id": "/people/principal-investigator.html",
       "label": "About the PI \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/principal-investigator.html",
-      "indegree": 3,
-      "outdegree": 10,
-      "degree": 13
+      "indegree": 8,
+      "outdegree": 12,
+      "degree": 20
+    },
+    {
+      "id": "/people/slideshow 2.html",
+      "label": "CARD Lab Timeline in Photos \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/slideshow 2.html",
+      "indegree": 0,
+      "outdegree": 12,
+      "degree": 12
     },
     {
       "id": "/people/slideshow.html",
       "label": "CARD Lab Timeline in Photos \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/slideshow.html",
-      "indegree": 3,
-      "outdegree": 9,
+      "indegree": 8,
+      "outdegree": 11,
+      "degree": 19
+    },
+    {
+      "id": "/people/timeline 2.html",
+      "label": "Timeline \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/timeline 2.html",
+      "indegree": 0,
+      "outdegree": 12,
       "degree": 12
+    },
+    {
+      "id": "/people/timeline.html",
+      "label": "Timeline \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/timeline.html",
+      "indegree": 8,
+      "outdegree": 11,
+      "degree": 19
     },
     {
       "id": "/qc_report.html",
@@ -492,44 +604,68 @@
       "degree": 7
     },
     {
+      "id": "/research/bibliometrics 2.html",
+      "label": "Bibliometrics \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "research/bibliometrics 2.html",
+      "indegree": 0,
+      "outdegree": 10,
+      "degree": 10
+    },
+    {
       "id": "/research/bibliometrics.html",
       "label": "Bibliometrics \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "research/bibliometrics.html",
-      "indegree": 3,
+      "indegree": 5,
       "outdegree": 9,
-      "degree": 12
+      "degree": 14
     },
     {
       "id": "/research/collaboration-network.html",
       "label": "Collaboration Network \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "research/collaboration-network.html",
-      "indegree": 3,
+      "indegree": 5,
       "outdegree": 9,
-      "degree": 12
+      "degree": 14
     },
     {
       "id": "/research/scientometrics.html",
       "label": "Scientometrics \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "research/scientometrics.html",
-      "indegree": 3,
+      "indegree": 5,
       "outdegree": 9,
-      "degree": 12
+      "degree": 14
+    },
+    {
+      "id": "/research/workproducts 2.html",
+      "label": "Work Products \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "research/workproducts 2.html",
+      "indegree": 0,
+      "outdegree": 10,
+      "degree": 10
     },
     {
       "id": "/research/workproducts.html",
       "label": "Work Products \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "research/workproducts.html",
-      "indegree": 65,
+      "indegree": 81,
       "outdegree": 9,
-      "degree": 74
+      "degree": 90
     },
     {
       "id": "/site-map.html",
       "label": "Site Map \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "site-map.html",
-      "indegree": 65,
+      "indegree": 81,
       "outdegree": 6,
-      "degree": 71
+      "degree": 87
+    },
+    {
+      "id": "/site_libs 2/revealjs/plugin/notes/speaker-view.html",
+      "label": "reveal.js - Speaker View",
+      "path": "site_libs 2/revealjs/plugin/notes/speaker-view.html",
+      "indegree": 0,
+      "outdegree": 0,
+      "degree": 0
     }
   ],
   "edges": [
@@ -558,6 +694,34 @@
       "target": "/site-map.html"
     },
     {
+      "source": "/404 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/404 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/404 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/404 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/404 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/404 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/404 2.html",
+      "target": "/site-map.html"
+    },
+    {
       "source": "/404.html",
       "target": "/"
     },
@@ -639,6 +803,34 @@
     },
     {
       "source": "/capabilities/capital-resources/arcmelting.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/capabilities/capital-resources/calphad 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/capabilities/capital-resources/calphad 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/capabilities/capital-resources/calphad 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/capabilities/capital-resources/calphad 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/capabilities/capital-resources/calphad 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/capabilities/capital-resources/calphad 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/capabilities/capital-resources/calphad 2.html",
       "target": "/site-map.html"
     },
     {
@@ -1147,6 +1339,10 @@
     },
     {
       "source": "/people/alumni.html",
+      "target": "/people/demographics.html"
+    },
+    {
+      "source": "/people/alumni.html",
       "target": "/people/principal-investigator.html"
     },
     {
@@ -1155,6 +1351,10 @@
     },
     {
       "source": "/people/alumni.html",
+      "target": "/people/timeline.html"
+    },
+    {
+      "source": "/people/alumni.html",
       "target": "/research/workproducts.html"
     },
     {
@@ -1190,6 +1390,34 @@
       "target": "/site-map.html"
     },
     {
+      "source": "/people/alumni/Anh_Nguyen 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/alumni/Anh_Nguyen 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/alumni/Anh_Nguyen 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/alumni/Anh_Nguyen 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/alumni/Anh_Nguyen 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/alumni/Anh_Nguyen 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/alumni/Anh_Nguyen 2.html",
+      "target": "/site-map.html"
+    },
+    {
       "source": "/people/alumni/Anh_Nguyen.html",
       "target": "/"
     },
@@ -1386,6 +1614,34 @@
       "target": "/site-map.html"
     },
     {
+      "source": "/people/alumni/Ian_Giblin 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/alumni/Ian_Giblin 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/alumni/Ian_Giblin 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/alumni/Ian_Giblin 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/alumni/Ian_Giblin 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/alumni/Ian_Giblin 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/alumni/Ian_Giblin 2.html",
+      "target": "/site-map.html"
+    },
+    {
       "source": "/people/alumni/Ian_Giblin.html",
       "target": "/"
     },
@@ -1439,6 +1695,34 @@
     },
     {
       "source": "/people/alumni/Jesus_Acosta.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/people/alumni/Josh_Maile 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/alumni/Josh_Maile 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/alumni/Josh_Maile 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/alumni/Josh_Maile 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/alumni/Josh_Maile 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/alumni/Josh_Maile 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/alumni/Josh_Maile 2.html",
       "target": "/site-map.html"
     },
     {
@@ -1750,6 +2034,34 @@
       "target": "/site-map.html"
     },
     {
+      "source": "/people/alumni/Sravya_Josyula 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/alumni/Sravya_Josyula 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/alumni/Sravya_Josyula 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/alumni/Sravya_Josyula 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/alumni/Sravya_Josyula 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/alumni/Sravya_Josyula 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/alumni/Sravya_Josyula 2.html",
+      "target": "/site-map.html"
+    },
+    {
       "source": "/people/alumni/Sravya_Josyula.html",
       "target": "/"
     },
@@ -1859,6 +2171,34 @@
     },
     {
       "source": "/people/alumni/Zach_Miller.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/people/alumni/Zoey_Jestude 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/alumni/Zoey_Jestude 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/alumni/Zoey_Jestude 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/alumni/Zoey_Jestude 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/alumni/Zoey_Jestude 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/alumni/Zoey_Jestude 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/alumni/Zoey_Jestude 2.html",
       "target": "/site-map.html"
     },
     {
@@ -1967,6 +2307,10 @@
     },
     {
       "source": "/people/current.html",
+      "target": "/people/demographics.html"
+    },
+    {
+      "source": "/people/current.html",
       "target": "/people/principal-investigator.html"
     },
     {
@@ -1975,6 +2319,10 @@
     },
     {
       "source": "/people/current.html",
+      "target": "/people/timeline.html"
+    },
+    {
+      "source": "/people/current.html",
       "target": "/research/workproducts.html"
     },
     {
@@ -2094,6 +2442,34 @@
       "target": "/site-map.html"
     },
     {
+      "source": "/people/current/Elif_Dursun 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/current/Elif_Dursun 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/current/Elif_Dursun 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/current/Elif_Dursun 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/current/Elif_Dursun 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/current/Elif_Dursun 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/current/Elif_Dursun 2.html",
+      "target": "/site-map.html"
+    },
+    {
       "source": "/people/current/Elif_Dursun.html",
       "target": "/"
     },
@@ -2346,6 +2722,34 @@
       "target": "/site-map.html"
     },
     {
+      "source": "/people/current/Yuval_Noiman 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/current/Yuval_Noiman 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/current/Yuval_Noiman 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/current/Yuval_Noiman 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/current/Yuval_Noiman 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/current/Yuval_Noiman 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/current/Yuval_Noiman 2.html",
+      "target": "/site-map.html"
+    },
+    {
       "source": "/people/current/Yuval_Noiman.html",
       "target": "/"
     },
@@ -2371,6 +2775,98 @@
     },
     {
       "source": "/people/current/Yuval_Noiman.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/people/alumni.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/people/demographics.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/people/principal-investigator.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/people/slideshow.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/people/timeline.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/demographics 2.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/people/demographics.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/demographics.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/demographics.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/demographics.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/demographics.html",
+      "target": "/people/alumni.html"
+    },
+    {
+      "source": "/people/demographics.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/demographics.html",
+      "target": "/people/principal-investigator.html"
+    },
+    {
+      "source": "/people/demographics.html",
+      "target": "/people/slideshow.html"
+    },
+    {
+      "source": "/people/demographics.html",
+      "target": "/people/timeline.html"
+    },
+    {
+      "source": "/people/demographics.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/demographics.html",
       "target": "/site-map.html"
     },
     {
@@ -2424,6 +2920,10 @@
     {
       "source": "/people/principal-investigator.html",
       "target": "/people/current.html"
+    },
+    {
+      "source": "/people/principal-investigator.html",
+      "target": "/people/demographics.html"
     },
     {
       "source": "/people/principal-investigator.html",
@@ -2435,10 +2935,62 @@
     },
     {
       "source": "/people/principal-investigator.html",
+      "target": "/people/timeline.html"
+    },
+    {
+      "source": "/people/principal-investigator.html",
       "target": "/research/workproducts.html"
     },
     {
       "source": "/people/principal-investigator.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/people/slideshow 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/slideshow 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/slideshow 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/slideshow 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/slideshow 2.html",
+      "target": "/people/alumni.html"
+    },
+    {
+      "source": "/people/slideshow 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/slideshow 2.html",
+      "target": "/people/demographics.html"
+    },
+    {
+      "source": "/people/slideshow 2.html",
+      "target": "/people/principal-investigator.html"
+    },
+    {
+      "source": "/people/slideshow 2.html",
+      "target": "/people/slideshow.html"
+    },
+    {
+      "source": "/people/slideshow 2.html",
+      "target": "/people/timeline.html"
+    },
+    {
+      "source": "/people/slideshow 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/slideshow 2.html",
       "target": "/site-map.html"
     },
     {
@@ -2467,10 +3019,18 @@
     },
     {
       "source": "/people/slideshow.html",
+      "target": "/people/demographics.html"
+    },
+    {
+      "source": "/people/slideshow.html",
       "target": "/people/principal-investigator.html"
     },
     {
       "source": "/people/slideshow.html",
+      "target": "/people/timeline.html"
+    },
+    {
+      "source": "/people/slideshow.html",
       "target": "/research/workproducts.html"
     },
     {
@@ -2478,6 +3038,98 @@
       "target": "/site-map.html"
     },
     {
+      "source": "/people/timeline 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/people/alumni.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/people/demographics.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/people/principal-investigator.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/people/slideshow.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/people/timeline.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/timeline 2.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/people/timeline.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/timeline.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/timeline.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/timeline.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/timeline.html",
+      "target": "/people/alumni.html"
+    },
+    {
+      "source": "/people/timeline.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/timeline.html",
+      "target": "/people/demographics.html"
+    },
+    {
+      "source": "/people/timeline.html",
+      "target": "/people/principal-investigator.html"
+    },
+    {
+      "source": "/people/timeline.html",
+      "target": "/people/slideshow.html"
+    },
+    {
+      "source": "/people/timeline.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/timeline.html",
+      "target": "/site-map.html"
+    },
+    {
       "source": "/qc_report.html",
       "target": "/"
     },
@@ -2503,6 +3155,46 @@
     },
     {
       "source": "/qc_report.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/research/bibliometrics 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/research/bibliometrics 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/research/bibliometrics 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/research/bibliometrics 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/research/bibliometrics 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/research/bibliometrics 2.html",
+      "target": "/research/bibliometrics.html"
+    },
+    {
+      "source": "/research/bibliometrics 2.html",
+      "target": "/research/collaboration-network.html"
+    },
+    {
+      "source": "/research/bibliometrics 2.html",
+      "target": "/research/scientometrics.html"
+    },
+    {
+      "source": "/research/bibliometrics 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/research/bibliometrics 2.html",
       "target": "/site-map.html"
     },
     {
@@ -2611,6 +3303,46 @@
     },
     {
       "source": "/research/scientometrics.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/research/workproducts 2.html",
+      "target": "/"
+    },
+    {
+      "source": "/research/workproducts 2.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/research/workproducts 2.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/research/workproducts 2.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/research/workproducts 2.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/research/workproducts 2.html",
+      "target": "/research/bibliometrics.html"
+    },
+    {
+      "source": "/research/workproducts 2.html",
+      "target": "/research/collaboration-network.html"
+    },
+    {
+      "source": "/research/workproducts 2.html",
+      "target": "/research/scientometrics.html"
+    },
+    {
+      "source": "/research/workproducts 2.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/research/workproducts 2.html",
       "target": "/site-map.html"
     },
     {
