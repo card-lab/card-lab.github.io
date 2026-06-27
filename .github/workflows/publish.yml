@@ -94,13 +94,44 @@ jobs:
       - name: Render site
         run: quarto render
 
-      - name: Restore previously published private-dependent pages
+      - name: Graft previously published content into freshly rendered pages
         run: |
-          if [[ -d .ci-preserved-pages ]]; then
-            cp -r .ci-preserved-pages/. docs/
-            echo "[ci-render] Restored previously published private-dependent pages into docs/"
-            rm -rf .ci-preserved-pages
+          if [[ ! -d .ci-preserved-pages ]]; then
+            exit 0
           fi
+
+          # Copying the previously published page wholesale would freeze its
+          # navbar/sidebar/CSS at whatever Quarto version and theme were
+          # current the last time someone ran `quarto publish gh-pages`
+          # locally, while every other page keeps pace with today's render —
+          # that drift is what shows up as "this page doesn't match the rest
+          # of the site". Instead, graft just the real content (main body +
+          # page-local table of contents) from the previously published page
+          # into the page Quarto just rendered from the stub, so the chrome
+          # always matches the current site and only the private-data-driven
+          # content stays pinned to the last real render.
+          for page in people/demographics.html people/timeline.html; do
+            preserved=".ci-preserved-pages/$page"
+            fresh="docs/$page"
+            if [[ ! -f "$preserved" ]]; then
+              continue
+            fi
+            if [[ -f "$fresh" ]]; then
+              python3 scripts/splice-preserved-content.py "$fresh" "$preserved" "$fresh"
+              echo "[ci-render] Grafted previously published content into: $fresh"
+            else
+              mkdir -p "$(dirname "$fresh")"
+              cp "$preserved" "$fresh"
+              echo "[ci-render] Restored previously published page as-is (nothing to graft into): $fresh"
+            fi
+          done
+
+          if [[ -d .ci-preserved-pages/people/timeline_files ]]; then
+            cp -r .ci-preserved-pages/people/timeline_files docs/people/timeline_files
+            echo "[ci-render] Restored supporting assets: people/timeline_files"
+          fi
+
+          rm -rf .ci-preserved-pages
 
       - name: Restore hidden standard render documents
         if: ${{ always() }}
