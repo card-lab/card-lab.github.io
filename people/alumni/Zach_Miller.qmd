@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>Z. D. C. Miller</em> (presenter), U. P. Ochieze, E. J. Payton, M. A. Steiner. (2025-09-30). SPU-32: Development of a new CALPHAD database for the Fe-Ni-P system. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>Z. D. C. Miller</em> (presenter), U. P. Ochieze, E. J. Payton, M. A. Steiner. (2025-09-30). SPU-32: Development of a new CALPHAD database for the Fe-Ni-P system. <em>MS&amp;T25: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/mst25" target="_blank">https://www.matscitech.org/mst25</a>.</div>
   </div>
 </div>
 ```

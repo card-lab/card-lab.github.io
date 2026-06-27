@@ -374,14 +374,10 @@ def presentation_citation(item, idx, total, use_initials=False):
 def is_software_dataset(item):
     data = item.get("data") or {}
     item_type = str(data.get("itemType") or "").strip().lower()
-    title = str(data.get("title") or "").lower()
     pub_title = str(data.get("publicationTitle") or "").lower()
-    extra = str(data.get("extra") or "").lower()
     if item_type in {"computerprogram", "dataset"}:
         return True
-    if "software" in title or "dataset" in title or "software" in extra or "dataset" in extra:
-        return True
-    if "data in brief" in pub_title or "dataset" in pub_title:
+    if "data in brief" in pub_title:
         return True
     return False
 

@@ -70,13 +70,13 @@ about:
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>Y. Noiman</em> (presenter), S. Josyula, E. J. Payton. (2026-10-06). Supply risk and cost-aware multi-objective materials discovery. <em>MS&amp;T26: Materials Science &amp; Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>Y. Noiman</em> (presenter), S. Josyula, E. J. Payton. (2026-10-06). Supply risk and cost-aware multi-objective materials discovery. <em>MS&amp;T26: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/MST26" target="_blank">https://www.matscitech.org/MST26</a>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>Y. Noiman</em> (presenter), S. Josyula, E. J. Payton. (2026-03-16). SPG-35: Computational Discovery of Medium-Entropy SMAs Using CALPHAD, Machine Learning, and Economic Analysis. <em>2026 TMS Annual Meeting &amp; Exhibition</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>Y. Noiman</em> (presenter), S. Josyula, E. J. Payton. (2026-03-16). SPG-35: Computational Discovery of Medium-Entropy SMAs Using CALPHAD, Machine Learning, and Economic Analysis. <em>2026 TMS Annual Meeting &amp; Exhibition</em>. <a href="https://www.tms.org/TMS2026/" target="_blank">https://www.tms.org/TMS2026/</a>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">S. Josyula, <em>Y. Noiman</em> (presenter), E. J. Payton, T. Giovannelli. (2025-09-30). Comparison of derivative-free and gradient-based minimization for multi-objective compositional design of shape memory alloys. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">S. Josyula, <em>Y. Noiman</em> (presenter), E. J. Payton, T. Giovannelli. (2025-09-30). Comparison of derivative-free and gradient-based minimization for multi-objective compositional design of shape memory alloys. <em>MS&amp;T25: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/mst25" target="_blank">https://www.matscitech.org/mst25</a>.</div>
   </div>
 </div>
 ```
@@ -86,7 +86,7 @@ about:
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>N. Jackson</em> (presenter), Y. Noiman, W. Li, N. Simpson, E. J. Payton. (2026-10-06). Characterization of forged axe microstructure. <em>MS&amp;T26: Materials Science &amp; Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>N. Jackson</em> (presenter), Y. Noiman, W. Li, N. Simpson, E. J. Payton. (2026-10-06). Characterization of forged axe microstructure. <em>MS&amp;T26: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/MST26" target="_blank">https://www.matscitech.org/MST26</a>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
     <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>I. P. Giblin</em> (presenter), J. D. Maile, Y. Noiman, E. J. Payton. (2024-10-08). SPU-37: The Design of Alloys for the Circular Economy. <em>MS&amp;T24: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/MST24" target="_blank">https://www.matscitech.org/MST24</a>.</div>

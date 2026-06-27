@@ -74,6 +74,23 @@ jobs:
           people/timeline.ipynb
           EOF
 
+          # people/demographics.ipynb and people/timeline.ipynb are linked from
+          # the site sidebar. If nothing exists at those paths, Quarto can't
+          # resolve the sidebar link to an output path and leaves the raw
+          # .ipynb href in the published site, which 404s for every visitor.
+          # Leave a lightweight stub (same front matter, no code cells) behind
+          # so Quarto can resolve the link; its rendered output gets
+          # overwritten by the previously published page below.
+          while IFS= read -r path; do
+            if [[ -f ".ci-hidden-render-paths/$path" ]]; then
+              python3 scripts/stub-private-notebook.py ".ci-hidden-render-paths/$path" "$path"
+              echo "[ci-render] Wrote placeholder stub for: $path"
+            fi
+          done <<'EOF'
+          people/demographics.ipynb
+          people/timeline.ipynb
+          EOF
+
       - name: Render site
         run: quarto render
 

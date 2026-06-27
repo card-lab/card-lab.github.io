@@ -22,10 +22,10 @@ about:
       url: https://www.linkedin.com/in/okechukwuobioha
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0000-7452-426X
-    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of NG](https://flagcdn.com/ng.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Federal_Republic_of_Nigeria
+    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio
 
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="csl-bib-body" style="line-height: 1.35; ">
 
 <div class="csl-entry" style="clear: left; ">
-<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">O. C. Obioha, “Improved constitutive descriptions of the flow behavior of aluminum alloy 2618,” MS Thesis, University of Cincinnati, Cincinnati, OH, USA, 2026.</div>
+<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">O. C. Obioha, “Improved constitutive descriptions of the flow behavior of aluminum alloy 2618,” MS Thesis, University of Cincinnati, Cincinnati, OH, USA, 2026. <a href="http://rave.ohiolink.edu/etdc/view?acc_num=ucin1778863427111592">http://rave.ohiolink.edu/etdc/view?acc_num=ucin1778863427111592</a></div>
 </div></div>
 ```
 

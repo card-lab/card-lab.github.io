@@ -23,10 +23,10 @@ about:
       url: https://orcid.org/0000-0003-0925-6240
     - text: "{{< iconify academicons google-scholar >}}"
       url: https://scholar.google.com/citations?user=QoU6EhUAAAAJ&hl=en
-    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of NG](https://flagcdn.com/ng.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Federal_Republic_of_Nigeria
+    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio
 
@@ -73,7 +73,7 @@ about:
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[7]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>Z. D. C. Miller</em> (presenter), U. P. Ochieze, E. J. Payton, M. A. Steiner. (2025-09-30). SPU-32: Development of a new CALPHAD database for the Fe-Ni-P system. <em>MS&amp;T25: Materials Science &amp; Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[7]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>Z. D. C. Miller</em> (presenter), U. P. Ochieze, E. J. Payton, M. A. Steiner. (2025-09-30). SPU-32: Development of a new CALPHAD database for the Fe-Ni-P system. <em>MS&amp;T25: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/mst25" target="_blank">https://www.matscitech.org/mst25</a>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
     <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[6]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. T. Oriola</em> (presenter), A. Nguyen, U. P. Ochieze, S. Josyula, H. Do, J. Maile, A. T. McMillen, W. C. Voellmecke, E. J. Payton. (2024-10-07). Additive manufacturing feasibility of refractory high entropy alloys. <em>MS&amp;T24: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/MST24" target="_blank">https://www.matscitech.org/MST24</a>.</div>
@@ -82,16 +82,16 @@ about:
     <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[5]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>U. P. Ochieze</em> (presenter), R. Kumar, S. Josyula, A. T. Oriola, M. A. Steiner, E. J. Payton. (2023-11-13). Laser Shock Peening Surface Modification Effects on Microstructure and Oxidation Behavior of NbTiCoCrNi Refractory Complex Concentrated Alloys. <em>High Entropy Alloys 2023</em>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Josyula</em> (presenter), R. Kumar, U. P. Ochieze, A. T. Oriola, E. J. Payton, A. E. P. Y. Puente. (2023-10-04). Fabricating Nitinol Microtubes via Gas-Phase Alloying: A Computational and Experimental Feasibility Study. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Josyula</em> (presenter), R. Kumar, U. P. Ochieze, A. T. Oriola, E. J. Payton, A. E. P. Y. Puente. (2023-10-04). Fabricating Nitinol Microtubes via Gas-Phase Alloying: A Computational and Experimental Feasibility Study. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>. <a href="https://www.matscitech.org/MST23/" target="_blank">https://www.matscitech.org/MST23/</a>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>R. Kumar</em> (presenter), U. P. Ochieze, B. K. Adhikari, A. T. Oriola, S. Josyula, S. J. Watzman, E. J. Payton. (2023-10-03). Thermal, Electrical, and Magnetic Properties of Multi-Principal Element Alloys. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>R. Kumar</em> (presenter), U. P. Ochieze, B. K. Adhikari, A. T. Oriola, S. Josyula, S. J. Watzman, E. J. Payton. (2023-10-03). Thermal, Electrical, and Magnetic Properties of Multi-Principal Element Alloys. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>. <a href="https://www.matscitech.org/MST23/" target="_blank">https://www.matscitech.org/MST23/</a>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>U. P. Ochieze</em> (presenter), A. T. Oriola, R. Kumar, S. Josyula, M. A. Steiner, E. J. Payton. (2023-10-03). Effects of Laser Shock Peening Surface Modification on Oxidation Behavior of NbTi-X Refractory Complex Concentrated Alloys. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>U. P. Ochieze</em> (presenter), A. T. Oriola, R. Kumar, S. Josyula, M. A. Steiner, E. J. Payton. (2023-10-03). Effects of Laser Shock Peening Surface Modification on Oxidation Behavior of NbTi-X Refractory Complex Concentrated Alloys. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>. <a href="https://www.matscitech.org/MST23/" target="_blank">https://www.matscitech.org/MST23/</a>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. T. Oriola</em> (presenter), R. Kumar, U. P. Ochieze, S. Josyula, G. H. Balbus, A. E. P. Y. Puente, E. J. Payton. (2023-10-03). Additive manufacturing feasibility of MoNbTi Refractory Complex Concentrated Alloys. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. T. Oriola</em> (presenter), R. Kumar, U. P. Ochieze, S. Josyula, G. H. Balbus, A. E. P. Y. Puente, E. J. Payton. (2023-10-03). Additive manufacturing feasibility of MoNbTi Refractory Complex Concentrated Alloys. <em>The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology</em>. <a href="https://www.matscitech.org/MST23/" target="_blank">https://www.matscitech.org/MST23/</a>.</div>
   </div>
 </div>
 ```

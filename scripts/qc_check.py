@@ -122,30 +122,16 @@ def _filter_expected_ci_private_skip_issues(issues: list["Issue"]) -> list["Issu
     if os.environ.get("CARD_LAB_SKIP_PRIVATE_RENDER_PATHS") != "1":
         return issues
 
-    expected_link_targets = {
-        "../people/demographics.html",
-        "../people/timeline.html",
-        "../people/demographics.ipynb",
-        "../people/timeline.ipynb",
-        "people/demographics.ipynb",
-        "people/timeline.ipynb",
-    }
-
     filtered: list[Issue] = []
     suppressed = 0
 
     for iss in issues:
-        is_expected_broken_link = (
-            iss.category == "broken-link"
-            and any(t in iss.detail for t in expected_link_targets)
-        )
-
         is_expected_missing_image = (
             iss.category == "image"
             and "../files/photos/People/" in iss.detail
         )
 
-        if is_expected_broken_link or is_expected_missing_image:
+        if is_expected_missing_image:
             suppressed += 1
             continue
 

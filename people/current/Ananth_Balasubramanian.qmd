@@ -55,7 +55,7 @@ about:
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. Balasubramanian</em> (presenter), N. Jackson, D. J. J. Mathis, E. J. Payton. (2026-10-06). Microstructural characterization and mechanical behavior of Ti-Ti6Al4V layered structures produced by wrought-laser wire DED hybrid manufacturing. <em>MS&amp;T26: Materials Science &amp; Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. Balasubramanian</em> (presenter), N. Jackson, D. J. J. Mathis, E. J. Payton. (2026-10-06). Microstructural characterization and mechanical behavior of Ti-Ti6Al4V layered structures produced by wrought-laser wire DED hybrid manufacturing. <em>MS&amp;T26: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/MST26" target="_blank">https://www.matscitech.org/MST26</a>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
     <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. Balasubramanian</em> (presenter), A. A. Oladipo, E. J. Payton. (2025-09-30). Microstructural Characterization and Mechanical Behavior of Ti6Al4V After Hybrid Directed Energy Deposition (DED) - Wrought Processing. <em>MS&amp;T25: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/mst25" target="_blank">https://www.matscitech.org/mst25</a>.</div>
@@ -71,7 +71,7 @@ about:
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>W. Li</em> (presenter), S. A. Golsorkhi, N. Jackson, A. Balasubramanian, E. J. Payton. (2026-10-06). Heterogeneous Deformation in Al/Ti Laminated Composites Processed by ARB: Role of Microstructure and Interface Evolution. <em>MS&amp;T26: Materials Science &amp; Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>W. Li</em> (presenter), S. A. Golsorkhi, N. Jackson, A. Balasubramanian, E. J. Payton. (2026-10-06). Heterogeneous Deformation in Al/Ti Laminated Composites Processed by ARB: Role of Microstructure and Interface Evolution. <em>MS&amp;T26: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/MST26" target="_blank">https://www.matscitech.org/MST26</a>.</div>
   </div>
 </div>
 ```

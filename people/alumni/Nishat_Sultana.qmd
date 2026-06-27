@@ -24,12 +24,12 @@ about:
       url: https://orcid.org/0000-0002-4922-8300
     - text: "![Flag of BD](https://flagcdn.com/bd.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/People%27s_Republic_of_Bangladesh
-    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/United_States_of_America
-    - text: "![Flag of NZ](https://flagcdn.com/nz.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/New_Zealand
     - text: "![Flag of AU](https://flagcdn.com/au.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Australia
+    - text: "![Flag of NZ](https://flagcdn.com/nz.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/New_Zealand
+    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Illinois](https://flagcdn.com/us-il.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Illinois
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
 ```{=html}
 <div class="csl-bib-body" style="line-height: 1.35; ">
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Hasan</em> (presenter), N. Sultana, J. Acosta, P. C. Neal, E. J. Payton. (2026-10-06). Thermodynamic Modeling and CVD Synthesis of Mo, Nb, and V MXene Precursors. <em>MS&amp;T26: Materials Science and Technology</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[4]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Hasan</em> (presenter), N. Sultana, J. Acosta, P. C. Neal, E. J. Payton. (2026-10-06). Thermodynamic Modeling and CVD Synthesis of Mo, Nb, and V MXene Precursors. <em>MS&amp;T26: Materials Science and Technology</em>. <a href="https://www.matscitech.org/MST26" target="_blank">https://www.matscitech.org/MST26</a>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
     <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">S. Hasan, <em>E. J. Payton</em> (presenter), P. C. Neal, N. Sultana. (2026-03-17). Experimental and thermodynamic analysis of CVD-based MXene synthesis. <em>The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition</em>. <a href="https://www.tms.org/TMS2026/" target="_blank">https://www.tms.org/TMS2026/</a>.</div>
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>S. Hasan</em> (presenter), N. Sultana, P. C. Neal, J. Acosta, E. J. Payton. (2025-10-01). Comparison of thermodynamic prediction with experimental observations of refractory metal carbides synthesized using CVD. <em>MS&amp;T25: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/mst25" target="_blank">https://www.matscitech.org/mst25</a>.</div>
   </div>
   <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>E. J. Payton</em> (presenter), S. Hasan, N. Sultana. (2025-03-25). ICME in chemical vapor deposition synthesis and characterization of 2D refractory metal carbides. <em>The Minerals Metals and Materials Society 2025 Annual Meeting and Exhibition</em>.</div>
+    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>E. J. Payton</em> (presenter), S. Hasan, N. Sultana. (2025-03-25). ICME in chemical vapor deposition synthesis and characterization of 2D refractory metal carbides. <em>The Minerals Metals and Materials Society 2025 Annual Meeting and Exhibition</em>. <a href="https://www.tms.org/tms2025" target="_blank">https://www.tms.org/tms2025</a>.</div>
   </div>
 </div>
 ```
