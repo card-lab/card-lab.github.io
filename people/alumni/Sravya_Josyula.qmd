@@ -28,10 +28,10 @@ about:
       url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio
-    - text: "![Flag of Texas](https://flagcdn.com/us-tx.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/Texas
     - text: "![Flag of California](https://flagcdn.com/us-ca.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/California
+    - text: "![Flag of Texas](https://flagcdn.com/us-tx.svg){width=0.25in}"
+      url: https://en.wikipedia.org/wiki/Texas
     - text: "![Flag of Pennsylvania](https://flagcdn.com/us-pa.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Pennsylvania
 

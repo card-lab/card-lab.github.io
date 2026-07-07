@@ -10,6 +10,14 @@ if [[ "${CARD_LAB_SKIP_PRIVATE_RENDER_PATHS:-}" == "1" ]]; then
   exit 0
 fi
 
+# GitHub Actions renders should never require private spreadsheet inputs unless
+# explicitly opted in, because ignored private files are not reliably present in
+# the publish worktree used by Quarto's publish action.
+if [[ "${GITHUB_ACTIONS:-}" == "true" && "${CARD_LAB_ALLOW_PRIVATE_RENDER_IN_CI:-}" != "1" ]]; then
+  echo "[pre-render] GitHub Actions detected; skipping private-dependent people pre-render path"
+  exit 0
+fi
+
 # Prevent recursive pre-render execution when this script invokes Quarto.
 if [[ "${CARD_LAB_SKIP_PEOPLE_ACTION_PRE_RENDER:-}" == "1" || "${CARD_LAB_SKIP_PEOPLE_NOTEBOOKS_PRE_RENDER:-}" == "1" ]]; then
   exit 0
