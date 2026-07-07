@@ -1,5 +1,232 @@
 [
   {
+    "key": "JAFTG9E7",
+    "version": 1686,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/JAFTG9E7",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/JAFTG9E7",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton et al.",
+      "parsedDate": "2026-06-23",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "JAFTG9E7",
+      "version": 1686,
+      "itemType": "manuscript",
+      "title": "The effects of heteroepitaxial recrystallization on supersolvus grain size in Ni-base superalloy LSHR",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "D. Meiyan",
+          "lastName": "Timberlake"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Darrian J. J.",
+          "lastName": "Mathis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuval",
+          "lastName": "Noiman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Victoria M.",
+          "lastName": "Miller"
+        }
+      ],
+      "abstractNote": "",
+      "manuscriptType": "Brief communication in preparation for submission to Metallurgical and Materials Transactions A",
+      "institution": "",
+      "place": "",
+      "date": "2026-06-23",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10514",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2026-06-23T16:17:40Z",
+      "dateModified": "2026-06-29T19:49:21Z"
+    }
+  },
+  {
+    "key": "4NIZMBD9",
+    "version": 1685,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/4NIZMBD9",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/4NIZMBD9",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Maile et al.",
+      "parsedDate": "2025-06-10",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "4NIZMBD9",
+      "version": 1685,
+      "itemType": "journalArticle",
+      "title": "Assessment of hot cracking susceptibility through interdendritic feeding simulations",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Joshua D.",
+          "lastName": "Maile"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Abdulquadri Tobi",
+          "lastName": "Oriola"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ian P.",
+          "lastName": "Giblin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Anh",
+          "lastName": "Nguyen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Established indexes for predicting hot cracking susceptibility exhibit limited agreement with experiments for additive manufacturing of new refractory alloys. A recent publication from Giorjao et al. proposes a new index based on the physics of liquid feeding into the interdendritic channels. Laminar flow simulations are performed with the Scheil solidification profile mirrored about a central axis, creating a funnel which is assumed can represent the interdendritic wall geometry. The pressure difference developed from flow in this geometry is hypothesized to correlate with cracking susceptibility, as it is expected that this parameter should scale with the ability of the interdendritic liquid to backfill shrinkage porosity. The approach has the advantage of utilizing parameters that can be predicted using CALPHAD software and databases; however, it exhibits a drawback that pressure drop is a function of geometry and simulation scale. In the present work, sensitivity studies were performed on geometric and viscosity parameters. An alternative to the constant flow rate assumption used by Giorjao et al. is proposed, in which the flow rate that results from the pressure difference imposed by solidification shrinkage is used as the crack susceptibility criterion. Results are subsequently compared to laser glazing experiments on four RHEAs, a set of stainless steels, and several Al alloys. It is found that the constant flow rate assumption produces better agreement with experiments than the model with a physics-based feeding pressure. Observations are discussed in the context of current literature and physical understanding of solidification in additive manufacturing.",
+      "publicationTitle": "Integrating Materials and Manufacturing Innovation",
+      "publisher": "",
+      "place": "",
+      "date": "2025-06-10",
+      "volume": "14",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "212-226",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Integr. Mater. Manuf. Innov.",
+      "DOI": "10.1007/s40192-025-00403-8",
+      "citationKey": "maileAssessmentHotCracking2025a",
+      "url": "https://doi.org/10.1007/s40192-025-00403-8",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Cracking susceptibility"
+        },
+        {
+          "tag": "High entropy alloys"
+        },
+        {
+          "tag": "Hot cracking"
+        },
+        {
+          "tag": "Refractory alloys"
+        },
+        {
+          "tag": "Solidification"
+        }
+      ],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {},
+      "dateAdded": "2025-05-14T18:47:56Z",
+      "dateModified": "2026-06-29T12:28:18Z"
+    }
+  },
+  {
     "key": "4FCS3HXR",
     "version": 1684,
     "library": {
@@ -4251,111 +4478,6 @@
     }
   },
   {
-    "key": "JAFTG9E7",
-    "version": 1581,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/JAFTG9E7",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/JAFTG9E7",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton et al.",
-      "parsedDate": "2026-06-23",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "JAFTG9E7",
-      "version": 1581,
-      "itemType": "manuscript",
-      "title": "The effects of heteroepitaxial recrystallization on supersolvus grain size in Ni-base superalloy LSHR",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "D. Meiyan",
-          "lastName": "Timberlake"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Darrian J. J.",
-          "lastName": "Mathis"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Yuval",
-          "lastName": "Noiman"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Victoria M.",
-          "lastName": "Miller"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "",
-      "manuscriptType": "Brief communication in preparation for submission to Metallurgical and Materials Transactions A",
-      "institution": "",
-      "place": "",
-      "date": "2026-06-23",
-      "numPages": "",
-      "number": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10514",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2026-06-23T16:17:40Z",
-      "dateModified": "2026-06-23T17:56:01Z"
-    }
-  },
-  {
     "key": "Y93DK87T",
     "version": 1580,
     "library": {
@@ -7226,133 +7348,6 @@
       "relations": {},
       "dateAdded": "2026-05-15T18:11:24Z",
       "dateModified": "2026-05-15T18:11:24Z"
-    }
-  },
-  {
-    "key": "4NIZMBD9",
-    "version": 1278,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/4NIZMBD9",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/4NIZMBD9",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Maile et al.",
-      "parsedDate": "2025-06-10",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "4NIZMBD9",
-      "version": 1278,
-      "itemType": "journalArticle",
-      "title": "Assessment of hot cracking susceptibility through interdendritic feeding simulations",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Joshua D.",
-          "lastName": "Maile"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Abdulquadri Tobi",
-          "lastName": "Oriola"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Ian P.",
-          "lastName": "Giblin"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Anh",
-          "lastName": "Nguyen"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "Established indexes for predicting hot cracking susceptibility exhibit limited agreement with experiments for additive manufacturing of new refractory alloys. A recent publication from Giorjao et al. proposes a new index based on the physics of liquid feeding into the interdendritic channels. Laminar flow simulations are performed with the Scheil solidification profile mirrored about a central axis, creating a funnel which is assumed can represent the interdendritic wall geometry. The pressure difference developed from flow in this geometry is hypothesized to correlate with cracking susceptibility, as it is expected that this parameter should scale with the ability of the interdendritic liquid to backfill shrinkage porosity. The approach has the advantage of utilizing parameters that can be predicted using CALPHAD software and databases; however, it exhibits a drawback that pressure drop is a function of geometry and simulation scale. In the present work, sensitivity studies were performed on geometric and viscosity parameters. An alternative to the constant flow rate assumption used by Giorjao et al. is proposed, in which the flow rate that results from the pressure difference imposed by solidification shrinkage is used as the crack susceptibility criterion. Results are subsequently compared to laser glazing experiments on four RHEAs, a set of stainless steels, and several Al alloys. It is found that the constant flow rate assumption produces better agreement with experiments than the model with a physics-based feeding pressure. Observations are discussed in the context of current literature and physical understanding of solidification in additive manufacturing.",
-      "publicationTitle": "Integrated Materials and Manufacturing Innovation",
-      "publisher": "",
-      "place": "",
-      "date": "2025-06-10",
-      "volume": "14",
-      "issue": "",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "212-226",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "Integr. Mater. Manuf. Innov.",
-      "DOI": "10.1007/s40192-025-00403-8",
-      "citationKey": "maileAssessmentHotCracking2025a",
-      "url": "https://doi.org/10.1007/s40192-025-00403-8",
-      "accessDate": "",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Cracking susceptibility"
-        },
-        {
-          "tag": "High entropy alloys"
-        },
-        {
-          "tag": "Hot cracking"
-        },
-        {
-          "tag": "Refractory alloys"
-        },
-        {
-          "tag": "Solidification"
-        }
-      ],
-      "collections": [
-        "DYSCMR9B"
-      ],
-      "relations": {},
-      "dateAdded": "2025-05-14T18:47:56Z",
-      "dateModified": "2026-04-04T12:20:59Z"
     }
   },
   {

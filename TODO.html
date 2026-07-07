@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-06-09">
+<meta name="dcterms.date" content="2026-07-07">
 <meta name="description" content="The Critical Alloy Research &amp; Discovery Lab (CARD Lab) at the University of Cincinnati develops and designs metallic materials critical for future economic and energy security.">
 
 <title>todo – Critical Alloy Research &amp; Discovery Lab</title>
@@ -42,14 +42,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-22a10d2cdf631752cd649d7c5388562a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-e00125132a27d40d906df44df90dcdb5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-22a10d2cdf631752cd649d7c5388562a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-bea7b4c11dd979bccb9d51503fdadf31.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-21bf8c0a1e66cffa9f330d8795d083cb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-bea7b4c11dd979bccb9d51503fdadf31.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -79,9 +79,39 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Critical Alloy Research &amp; Discovery Lab">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Critical Alloy Research &amp; Discovery Lab">
 </head>
 
@@ -153,7 +183,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#todo" id="toc-todo" class="nav-link active" data-scroll-target="#todo">TODO</a></li>
+  <li><a href="#todo" id="toc-todo" class="nav-link active" data-scroll-target="#todo">TODO</a>
+  <ul class="collapse">
+  <li><a href="#an-error-occurred-while-executing-the-following-cell" id="toc-an-error-occurred-while-executing-the-following-cell" class="nav-link" data-scroll-target="#an-error-occurred-while-executing-the-following-cell">An error occurred while executing the following cell:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -172,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 9, 2026</p>
+      <p class="date">July 7, 2026</p>
     </div>
   </div>
   
@@ -186,22 +219,59 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="todo" class="level1">
 <h1>TODO</h1>
-<ol type="1">
+<ul>
+<li>Please help resolve this error in the github action: ```Run eval “<span class="math inline">\((\)</span>HOME/miniforge/bin/conda shell.bash hook)” eval “<span class="math inline">\((\)</span>HOME/miniforge/bin/conda shell.bash hook)” conda run -n card-lab quarto render people/current.qmd –to html –no-execute conda run -n card-lab quarto render people/alumni.qmd –to html –no-execute conda run -n card-lab quarto render people/principal-investigator.qmd –to html conda run -n card-lab quarto render research/bibliometrics.ipynb –to html conda run -n card-lab quarto render research/scientometrics.ipynb –to html shell: /usr/bin/bash -e {0} env: FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true BUNDLE_EXT: linux-amd64.deb</li>
+</ul>
+<p>[pre-render] Timeline slideshow photo source not found; skipping sync: private/Timeline Slideshow Photos [pre-render] Individual file render detected; skipping people action pre-render</p>
+<p>pandoc to: html output-file: current.html standalone: true title-prefix: Critical Alloy Research &amp; Discovery Lab section-divs: true html-math-method: mathjax wrap: none default-image-extension: png css: - ../styles.css toc: true email-obfuscation: javascript variables: {}</p>
+<p>metadata document-css: false link-citations: true date-format: long lang: en engines: - path: /opt/quarto/share/extension-subtrees/julia-engine/_extensions/julia-engine/julia-engine.js theme: - cosmo - brand description-meta: The Critical Alloy Research &amp; Discovery Lab (CARD Lab) at the University of Cincinnati develops and designs metallic materials critical for future economic and energy security. date: last-modified title: Current Group Members listing: type: grid contents: current template: _partials/people-listing.ejs.md sort: date asc image-placeholder: files/images/anon.jpg date-format: MMM YYYY categories: numbered image-height: 250px grid-columns: 4 max-items: 100 filter-ui: - categories - date - title</p>
+<p>[post-render] Synced 31 asset(s) from files/photos/People to docs/files/photos/People [post-render] Synced 19 asset(s) from files/photos/Timeline Slideshow Photos to docs/files/photos/Timeline Slideshow Photos [post-render] Individual file render detected; skipping sitemap generation [post-render] Individual file render detected; skipping QC checks [post-render] qc_report.html not found; skipping copy [post-render] Individual file render detected; skipping qc_report render</p>
+<p>Output created: ../docs/people/current.html</p>
+<p>[pre-render] Timeline slideshow photo source not found; skipping sync: private/Timeline Slideshow Photos [pre-render] Individual file render detected; skipping people action pre-render</p>
+<p>pandoc to: html output-file: alumni.html standalone: true title-prefix: Critical Alloy Research &amp; Discovery Lab section-divs: true html-math-method: mathjax wrap: none default-image-extension: png css: - ../styles.css toc: true email-obfuscation: javascript variables: {}</p>
+<p>metadata document-css: false link-citations: true date-format: long lang: en engines: - path: /opt/quarto/share/extension-subtrees/julia-engine/_extensions/julia-engine/julia-engine.js theme: - cosmo - brand description-meta: The Critical Alloy Research &amp; Discovery Lab (CARD Lab) at the University of Cincinnati develops and designs metallic materials critical for future economic and energy security. date: last-modified title: Alumni listing: type: grid contents: alumni template: _partials/people-listing.ejs.md sort: member-to desc image-placeholder: files/images/anon.jpg date-format: MMM YYYY image-height: 250px grid-columns: 4 page-size: 100 categories: numbered filter-ui: - categories - date - title</p>
+<p>[post-render] Synced 31 asset(s) from files/photos/People to docs/files/photos/People [post-render] Synced 19 asset(s) from files/photos/Timeline Slideshow Photos to docs/files/photos/Timeline Slideshow Photos [post-render] Individual file render detected; skipping sitemap generation [post-render] Individual file render detected; skipping QC checks [post-render] qc_report.html not found; skipping copy [post-render] Individual file render detected; skipping qc_report render</p>
+<p>Output created: ../docs/people/alumni.html</p>
+<p>[pre-render] Timeline slideshow photo source not found; skipping sync: private/Timeline Slideshow Photos [pre-render] Individual file render detected; skipping people action pre-render</p>
+<p>Starting card-lab kernel…[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption. Done</p>
+<p>Executing ‘principal-investigator.quarto_ipynb’ Cell 1/6: ’‘…Done Cell 2/6:’‘…Done Cell 3/6:’‘…Done Cell 4/6:’‘…Done Cell 5/6:’‘…Done Cell 6/6:’’…Done</p>
+<p>pandoc to: html output-file: principal-investigator.html standalone: true title-prefix: Critical Alloy Research &amp; Discovery Lab section-divs: true html-math-method: mathjax wrap: none default-image-extension: png css: - ../styles.css toc: true email-obfuscation: javascript variables: {}</p>
+<p>metadata document-css: false link-citations: true lang: en engines: - path: /opt/quarto/share/extension-subtrees/julia-engine/<em>extensions/julia-engine/julia-engine.js theme: - cosmo - brand description-meta: The Critical Alloy Research &amp; Discovery Lab (CARD Lab) at the University of Cincinnati develops and designs metallic materials critical for future economic and energy security. date: today title: About the PI categories: - Principal Investigator date-format: DD MMMM YYYY about: template: trestles image: ../files/site/Payton_Eric_2_crop.jpg image-alt: photograph of Prof Eric Payton taken at the University of Cincinnati in August 2022 image-shape: round links: - text: ‘<iconify-icon role="img" inline="" icon="mdi:linkedin" aria-label="Icon linkedin from mdi Iconify.design set." title="Icon linkedin from mdi Iconify.design set."></iconify-icon>’ url: https://www.linkedin.com/in/paytonej - text: ‘<iconify-icon role="img" inline="" icon="simple-icons:orcid" aria-label="Icon orcid from simple-icons Iconify.design set." title="Icon orcid from simple-icons Iconify.design set."></iconify-icon>’ url: https://orcid.org/0000-0001-7478-9372 - text: ‘<iconify-icon role="img" inline="" icon="academicons:google-scholar" aria-label="Icon google-scholar from academicons Iconify.design set." title="Icon google-scholar from academicons Iconify.design set."></iconify-icon>’ url: https://scholar.google.com/citations?user=abYsKG8AAAAJ&amp;hl=en - text: ‘<iconify-icon role="img" inline="" icon="mdi:github" aria-label="Icon github from mdi Iconify.design set." title="Icon github from mdi Iconify.design set."></iconify-icon>’ url: https://github.com/paytonej - text: ‘<img src="https://flagcdn.com/us.svg" class="img-fluid" style="width:0.25in" alt="Flag of United States">’ url: https://en.wikipedia.org/wiki/United_States_of_America - text: ‘<img src="https://flagcdn.com/us-oh.svg" class="img-fluid" style="width:0.25in" alt="Flag of Ohio">’ url: https://en.wikipedia.org/wiki/Ohio - text: ‘<img src="https://flagcdn.com/us-ny.svg" class="img-fluid" style="width:0.25in" alt="Flag of New York">’ url: https://en.wikipedia.org/wiki/New_York</em>(state) - text: ‘<img src="https://flagcdn.com/us-va.svg" class="img-fluid" style="width:0.25in" alt="Flag of Virginia">’ url: https://en.wikipedia.org/wiki/Virginia - text: ‘<img src="https://flagcdn.com/us-in.svg" class="img-fluid" style="width:0.25in" alt="Flag of Indiana">’ url: https://en.wikipedia.org/wiki/Indiana - text: ‘<img src="https://flagcdn.com/us-nd.svg" class="img-fluid" style="width:0.25in" alt="Flag of North Dakota">’ url: https://en.wikipedia.org/wiki/North_Dakota - text: ‘<img src="https://flagcdn.com/us-tx.svg" class="img-fluid" style="width:0.25in" alt="Flag of Texas">’ url: https://en.wikipedia.org/wiki/Texas - text: ‘<img src="https://flagcdn.com/de.svg" class="img-fluid" style="width:0.25in" alt="Flag of Germany">’ url: https://en.wikipedia.org/wiki/Germany jupyter: card-lab</p>
+<p>[post-render] Synced 31 asset(s) from files/photos/People to docs/files/photos/People [post-render] Synced 19 asset(s) from files/photos/Timeline Slideshow Photos to docs/files/photos/Timeline Slideshow Photos [post-render] Individual file render detected; skipping sitemap generation [post-render] Individual file render detected; skipping QC checks [post-render] qc_report.html not found; skipping copy [post-render] Individual file render detected; skipping qc_report render</p>
+<p>Output created: ../docs/people/principal-investigator.html</p>
+<p>[pre-render] Timeline slideshow photo source not found; skipping sync: private/Timeline Slideshow Photos [pre-render] Individual file render detected; skipping people action pre-render</p>
+<p>Starting card-lab kernel…[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption. Done</p>
+<p>Executing ‘bibliometrics.ipynb’ Cell 1/16: ’‘…Done Cell 2/16:’‘…Done Cell 3/16:’‘…Done Cell 4/16:’‘…Done Cell 5/16:’‘…Done Cell 6/16:’‘…Done Cell 7/16:’‘…Done Cell 8/16:’‘…Done Cell 9/16:’‘…Done Cell 10/16:’‘…Done Cell 11/16:’‘…Done Cell 12/16:’‘…Done Cell 13/16:’‘…Done Cell 14/16:’‘…Done Cell 15/16:’‘…Done Cell 16/16:’’…Done</p>
+<p>pandoc to: html output-file: bibliometrics.html standalone: true title-prefix: Critical Alloy Research &amp; Discovery Lab section-divs: true html-math-method: mathjax wrap: none default-image-extension: png css: - ../styles.css toc: true email-obfuscation: javascript variables: {}</p>
+<p>metadata document-css: false link-citations: true lang: en engines: - path: /opt/quarto/share/extension-subtrees/julia-engine/_extensions/julia-engine/julia-engine.js theme: - cosmo - brand description-meta: The Critical Alloy Research &amp; Discovery Lab (CARD Lab) at the University of Cincinnati develops and designs metallic materials critical for future economic and energy security. date: today title: Bibliometrics date-format: DD MMMM YYYY jupyter: card-lab</p>
+<p>[post-render] Synced 31 asset(s) from files/photos/People to docs/files/photos/People [post-render] Synced 19 asset(s) from files/photos/Timeline Slideshow Photos to docs/files/photos/Timeline Slideshow Photos [post-render] Individual file render detected; skipping sitemap generation [post-render] Individual file render detected; skipping QC checks [post-render] qc_report.html not found; skipping copy [post-render] Individual file render detected; skipping qc_report render</p>
+<p>Output created: ../docs/research/bibliometrics.html</p>
+<p>[pre-render] Timeline slideshow photo source not found; skipping sync: private/Timeline Slideshow Photos [pre-render] Individual file render detected; skipping people action pre-render</p>
+<p>Starting card-lab kernel…[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption. Done</p>
+<p>Executing ‘scientometrics.ipynb’ Cell 1/14: ’‘…Done Cell 2/14:’‘…Done Cell 3/14:’‘…Done Cell 4/14:’‘…Done Cell 5/14:’‘…Done Cell 6/14:’‘…Done Cell 7/14:’‘…Done Cell 8/14:’‘…Done Cell 9/14:’‘…Done Cell 10/14:’’…</p>
+<section id="an-error-occurred-while-executing-the-following-cell" class="level2">
+<h2 class="anchored" data-anchor-id="an-error-occurred-while-executing-the-following-cell">An error occurred while executing the following cell:</h2>
+<p>plt.figure(figsize=(12, 7)) plt.imshow(wordcloud, interpolation=“bilinear”) plt.axis(“off”) plt.show() ——————</p>
+<hr>
+<p>NameError Traceback (most recent call last) Cell In[10], line 2 1 plt.figure(figsize=(12, 7)) —-&gt; 2 plt.imshow(wordcloud, interpolation=“bilinear”) 3 plt.axis(“off”) 4 plt.show()</p>
+<p>NameError: name ‘wordcloud’ is not defined</p>
+<p>WARN: Error encountered when rendering files ERROR conda.cli.main_run:execute(148): <code>conda run quarto render research/scientometrics.ipynb --to html</code> failed. (See above for error) Error: Process completed with exit code 1. ```</p>
+<ul>
 <li>Why is there a “null” showing up in the pie charts for demographics?</li>
-<li>Github workflow results in pages not rendering when they were supposed to be left alone</li>
+<li>Github workflow still running into failures</li>
 <li>Group roles legend still covers up bottom of plots</li>
 <li>Remove which, when, has from the word cloud list</li>
 <li>PI citation map should break down by continent like the others</li>
-<li>For intra-lab coauthorships, remove rows where coauthored papers is 1 and the number of coauthors is 1. Alternatively, exclude theses &amp; dissertations.</li>
 <li>“Connect with MMIE” links are broken</li>
 <li>Move site map to a different location. Perhaps as an icon on the left side.</li>
 <li>Cincinnati page is redundant with research @ UC page content</li>
 <li>Pandat and Rolling Mill listings are different from the others in formatting.</li>
 <li>Create front page presentation explaining the group.</li>
 <li>Move teaching to my own separate blog page on my own account.</li>
-</ol>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -278,7 +348,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/card-lab\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -633,7 +703,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- © June 9, 2026 Eric J Payton | 
+ © July 7, 2026 Eric J Payton | 
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="./impressum.html">
