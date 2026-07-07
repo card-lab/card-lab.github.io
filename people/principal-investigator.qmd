@@ -19,6 +19,8 @@ about:
       url: https://orcid.org/0000-0001-7478-9372
     - text: "{{< iconify academicons google-scholar >}}"
       url: https://scholar.google.com/citations?user=abYsKG8AAAAJ&hl=en
+    - text: "{{< iconify academicons:clarivate >}}"
+      url: https://www.webofscience.com/wos/author/record/QOB-1548-2026
     - text: "{{< iconify mdi github >}}"
       url: https://github.com/paytonej
     - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
