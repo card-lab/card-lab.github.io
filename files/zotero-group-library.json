@@ -1,5 +1,866 @@
 [
   {
+    "key": "F4DZD777",
+    "version": 1749,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/F4DZD777",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/F4DZD777",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/5985739/items/A3KQAU5U",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "F4DZD777",
+      "version": 1749,
+      "parentItem": "A3KQAU5U",
+      "itemType": "attachment",
+      "linkMode": "imported_file",
+      "title": "PDF",
+      "accessDate": "",
+      "url": "",
+      "note": "",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "Cao et al. - 2025 - {PanEvolution} Integrating {CALPHAD}, microstructure modeling, and finite element method.pdf",
+      "md5": "0ea436793a14271a8c6af5c1f4cbbce3",
+      "mtime": 1783438665429,
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-07-07T15:37:45Z",
+      "dateModified": "2026-07-07T15:37:45Z"
+    }
+  },
+  {
+    "key": "SXXCV5GW",
+    "version": 1747,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/SXXCV5GW",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/SXXCV5GW",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton et al.",
+      "parsedDate": "2026-06-22",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "SXXCV5GW",
+      "version": 1747,
+      "itemType": "journalArticle",
+      "title": "On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstructures",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. B.",
+          "lastName": "Dursun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Eggeler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "L.",
+          "lastName": "Agudo Jácome"
+        }
+      ],
+      "abstractNote": "In the present work we use electron backscatter diffraction (EBSD) in the scanning electron microscope (SEM) to study the evolution of local misorientations in the γ/γ´ microstructure of a single crystal Ni-based superalloy after exposures to creep conditions in the high temperature and low stress field. Sampling fields of statistically relevant dimensions were evaluated (16 x 12 µm2, corresponding to almost 1000 γ´ particles in the initial state). We apply a new method that allows for differentiation between diffraction signals from γ and γ´ phase regions. The spatial relationships between locations where misorientation accumulation occurs are investigated for dendritic and interdendritic regions loaded along the [001] and [110] crystallographic directions. Increases in intra- and inter-phase misorientation are observed as dislocation density increases, then saturates. The higher dislocation densities in γ channels than in γ´ particles seen by transmission electron microscopy are shown to be statistically stored on the micron size scale. Geometrically necessary misorientations are observed to cancel each other out over the macroscopic scale, resulting in no detectable macroscopic change in crystal orientation for total accumulated plastic strains of 6%. The limitations of the methods are discussed and areas in need of further work are highlighted.",
+      "publicationTitle": "Advanced Engineering Materials",
+      "publisher": "Wiley",
+      "place": "",
+      "date": "2026-06-22",
+      "volume": "in press",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1002/adem.71119",
+      "citationKey": "paytonEffectCreepLocal2025",
+      "url": "",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Creep"
+        },
+        {
+          "tag": "Electron backscatter diffraction (EBSD)"
+        },
+        {
+          "tag": "Gamma/gamma prime microstructure"
+        },
+        {
+          "tag": "Misorientations"
+        },
+        {
+          "tag": "Ni-based superalloys"
+        }
+      ],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {
+        "owl:sameAs": "http://zotero.org/groups/6314892/items/5QAYMH8R"
+      },
+      "dateAdded": "2026-01-27T11:54:21Z",
+      "dateModified": "2026-07-07T13:20:08Z"
+    }
+  },
+  {
+    "key": "DHV8U7T8",
+    "version": 1744,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/DHV8U7T8",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/DHV8U7T8",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Timberlake and Payton",
+      "parsedDate": "2026-02-23",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "DHV8U7T8",
+      "version": 1744,
+      "itemType": "journalArticle",
+      "title": "Effects of {SEM} Distortions on {EBSD} Grain Size Measurements",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "D. Meiyan",
+          "lastName": "Timberlake"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Systematic discrepancies persist between results from g rain size measurement standards, such as ASTM E 112 and ASTM E 2627, when\ndifferent imaging techniques and analysis methods are used. The source of these discrepancies may be differences in imag ing physics, resolution limits, grain boundary definitions, post-processing practices, or combinations thereof. Geometric distortions and drift effects in scanning electron microscope imaging are systematically modeled using synthetic microstructures to assess their impact on electron backscatter diffraction-based grain size measurement accuracy. Standard methods are compared to a lesser-known method, the Triple Point Count (TPC). Most distortion types introduce smaller biases than the ex pected accuracy of the methods under typical imag ing conditions. TPC provides consistent performance across varying resolutions and sampling conditions. This provides further evidence that reported discrepancies are largely driven by an assumption made in the estimate for converting intercept measurements to ASTM grain size numbers, as recently reported by Evans et al.",
+      "publicationTitle": "Metallography, Microstructure, and Analysis",
+      "publisher": "",
+      "place": "",
+      "date": "2026-02-23",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Metallogr. Microstruct. Anal.",
+      "DOI": "10.1007/s13632-026-01317-3",
+      "citationKey": "timberlakeEffectsSEMDistortions2026",
+      "url": "https://doi.org/10.1007/s13632-026-01317-3",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Electron backscatter diffraction (EBSD)"
+        },
+        {
+          "tag": "Grain size"
+        },
+        {
+          "tag": "Imaging distortions"
+        },
+        {
+          "tag": "Microstructure"
+        },
+        {
+          "tag": "Scanning electron microscopy (SEM)"
+        }
+      ],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {},
+      "dateAdded": "2025-07-28T20:32:13Z",
+      "dateModified": "2026-07-07T13:18:25Z"
+    }
+  },
+  {
+    "key": "RFVVLHP8",
+    "version": 1736,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/RFVVLHP8",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/RFVVLHP8",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2027-03-15",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "RFVVLHP8",
+      "version": 1736,
+      "itemType": "presentation",
+      "title": "Use of integrated simulations and experiments for deciphering characterization results from CVD-based MXene synthesis",
+      "creators": [
+        {
+          "creatorType": "contributor",
+          "firstName": "Sajjad",
+          "lastName": "Hasan"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Chemical Vapor Deposition (CVD) is a surface deposition technique that can be used to form thin layers of carbides as precursors to MXenes without the use of hydrofluoric acid for etch exfoliation. MXenes hold promise for a wide variety of applications such as energy generation and storage. High throughput characterization of CVD experiments forming different carbide stoichiometries faces many challenges, since multiple species can be observed to precipitate under similar conditions and thin films have lower signal-to-noise ratios in X-ray and electron diffraction. To address this challenge, we perform density functional theory calculations to aid in matching experimental X-ray diffraction patterns to the possible constituents (and combinations of constituents) that produce them. Results are discussed in the context of thermodynamics and kinetics of the processing, as well as the complementary characterization techniques such as Energy Dispersive X-Ray Spectroscopy (EDS) and Raman spectroscopy.",
+      "presentationType": "Invited oral presentation in the symposium \"2D Materials – Preparation, Properties, Modeling & Applications\"",
+      "date": "2027-03-15",
+      "meetingName": "The 2027 Minerals, Metals, and Materials Society Annual Meeting & Exhibition",
+      "place": "Orlando, FL",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10539",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "characterization"
+        },
+        {
+          "tag": "computational materials science and engineering"
+        },
+        {
+          "tag": "invited"
+        },
+        {
+          "tag": "thin films and interfaces"
+        }
+      ],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-07-07T00:02:40Z",
+      "dateModified": "2026-07-07T00:27:18Z"
+    }
+  },
+  {
+    "key": "XAQZ8FL6",
+    "version": 1733,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/XAQZ8FL6",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/XAQZ8FL6",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2027-03-15",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "XAQZ8FL6",
+      "version": 1733,
+      "itemType": "presentation",
+      "title": "A script so wild that Hollywood wouldn't dare: Thermodynamics, Soup Kitchens, and the first American royal",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "In 1798, while overseeing cannon production for the Bavarian army, he noticed that the drill boring through the metal barrel was dull, yet the metal kept generating heat, seemingly without limit. If heat could be produced indefinitely by friction alone, it couldn't be a substance being drained from the metal — it had to be a form of motion. We know the observer as “Count Rumford” from our textbooks. But who was this Count Rumford? He was a double-crossing spy in the American Revolution who fled the colonies for Europe. There, he became a real-life Forrest Gump of the enlightenment. Despite being of humble birth in rural Massachusetts, he ended up running the Bavarian military, redesigning fireplaces, inventing drip coffee, creating the first soup kitchen, founding both the Royal Institution and the American Academy of Sciences, being knighted… and he made enemies wherever he went.",
+      "presentationType": "Oral presentation submitted to the symposium \"Avoiding Plot Holes: Telling Compelling Stories (with Data)\"",
+      "date": "2027-03-15",
+      "meetingName": "The 2027 Minerals, Metals, and Materials Society Annual Meeting & Exhibition",
+      "place": "Orlando, FL",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10538",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "engineering education"
+        },
+        {
+          "tag": "thermodynamics"
+        },
+        {
+          "tag": "workforce development"
+        }
+      ],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-07-06T21:26:39Z",
+      "dateModified": "2026-07-07T00:17:16Z"
+    }
+  },
+  {
+    "key": "EVCISD94",
+    "version": 1732,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/EVCISD94",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/EVCISD94",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2027-02-12",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "EVCISD94",
+      "version": 1732,
+      "itemType": "presentation",
+      "title": "On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstructures",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Elif Betun",
+          "lastName": "Dursun"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Leonardo",
+          "lastName": "Agudo Jácome"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Invited oral presentation",
+      "date": "2027-02-12",
+      "meetingName": "From Elementary Processes to Macroscopic Properties: Material Science of Functional and Structural Engineering Materials",
+      "place": "Ruhr Universitaet Bochum, Bochum, Germany",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10540",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-07-07T00:12:15Z",
+      "dateModified": "2026-07-07T00:16:40Z"
+    }
+  },
+  {
+    "key": "8E7V2LMI",
+    "version": 1701,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/8E7V2LMI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/8E7V2LMI",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Hasan",
+      "parsedDate": "2026-10-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "8E7V2LMI",
+      "version": 1701,
+      "itemType": "presentation",
+      "title": "Thermodynamic Modeling and CVD Synthesis of Mo, Nb, and V MXene Precursors",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Sajjad",
+          "lastName": "Hasan"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Nishat",
+          "lastName": "Sultana"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Jesus",
+          "lastName": "Acosta"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Phillisity C.",
+          "lastName": "Neal"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "MXenes hold promise for a wide variety of applications such as energy generation and\nstorage. Chemical Vapor Deposition (CVD) is a surface deposition technique that\ncan be used to form thin layers of carbides as precursors to MXenes without the\nuse of hydrofluoric acid for etch exfoliation. In this research, we demonstrate\nthe CVD approach to develop stable MXene precursors in the form of MxC(x-1)\n(M=Mo, Nb, and V). A computational and theoretical approach was used to evaluate\nthe possibility of the formation of the materials, then experimental synthesis was performed to evaluate the predictions. The formation and composition of carbides was investigated using XRD, EDS and Raman spectroscopy. The\nresults demonstrate the potential of this technique to design and produce modified\nMXene for versatile applications, as well as fundamental challenges in understanding the thermodynamics and kinetics of the synthesis process.",
+      "presentationType": "Accepted for student oral presentation in the symposium \" Advances in Emerging Electronic Nanomaterials: Towards Next-Generation Microelectronics\"",
+      "date": "2026-10-06",
+      "meetingName": "MS&T26: Materials Science and Technology",
+      "place": "Pittsburgh, PA, USA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10468",
+      "url": "https://www.matscitech.org/MST26",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-16T15:44:39Z",
+      "dateModified": "2026-07-06T18:07:37Z"
+    }
+  },
+  {
+    "key": "8ZVS6ICW",
+    "version": 1700,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/8ZVS6ICW",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/8ZVS6ICW",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Golsorkhi et al.",
+      "parsedDate": "2026-07-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "8ZVS6ICW",
+      "version": 1700,
+      "itemType": "manuscript",
+      "title": "Transient Microstructural Heterogeneity During Minute-Scale Aging of Hot-Rolled NiTi",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Syed Aref",
+          "lastName": "Golsorkhi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ayobami Alice",
+          "lastName": "Oladipo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nicholas",
+          "lastName": "Simpson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthew Alan",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dinc",
+          "lastName": "Erdeniz"
+        }
+      ],
+      "abstractNote": "",
+      "manuscriptType": "Original research article",
+      "institution": "",
+      "place": "",
+      "date": "2026-07-06",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10537",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2026-07-06T13:05:51Z",
+      "dateModified": "2026-07-06T13:07:47Z"
+    }
+  },
+  {
+    "key": "X5EIIH4M",
+    "version": 1690,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/X5EIIH4M",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/X5EIIH4M",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Josyula et al.",
+      "parsedDate": "2026-07-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "X5EIIH4M",
+      "version": 1690,
+      "itemType": "manuscript",
+      "title": "Physics-augmented machine learning for predicting martensite transformation temperatures in shape memory alloys",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Sravya",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuval",
+          "lastName": "Noiman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthew Alan",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning (ML) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of ML models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor (ETR) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the ML model, an R2 value of 0.99 can be reached.",
+      "manuscriptType": "Journal Article",
+      "institution": "",
+      "place": "Original research article under review at Materials Research Innovations",
+      "date": "2026-07-06",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "josyulaPhysicsaugmentedMachineLearning2025",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2025-08-18T09:31:33Z",
+      "dateModified": "2026-07-06T12:22:22Z"
+    }
+  },
+  {
     "key": "JAFTG9E7",
     "version": 1686,
     "library": {
@@ -399,7 +1260,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Oral presentation in the symposium \"Light Metal Technology \u2014 Light Metal Technology\"",
+      "presentationType": "Oral presentation in the symposium \"Light Metal Technology — Light Metal Technology\"",
       "date": "2022-10-11",
       "meetingName": "Materials Science and Technology 2022",
       "place": "Pittsburgh, PA",
@@ -490,7 +1351,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Oral presentation in the symposium \"High Entropy Materials: Concentrated Solid Solutions, Intermetallics, Ceramics, Functional Materials and Beyond III \u2014 Processing and Properties II\"",
+      "presentationType": "Oral presentation in the symposium \"High Entropy Materials: Concentrated Solid Solutions, Intermetallics, Ceramics, Functional Materials and Beyond III — Processing and Properties II\"",
       "date": "2022-10-12",
       "meetingName": "Materials Science & Technology 2022",
       "place": "Pittsburgh, PA",
@@ -682,7 +1543,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Oral presentation in the symposium \"Advances in Multi-Principal Element Alloys II \u2014 Alloy Development and Application II\"",
+      "presentationType": "Oral presentation in the symposium \"Advances in Multi-Principal Element Alloys II — Alloy Development and Application II\"",
       "date": "2023-03-20",
       "meetingName": "2023 TMS Annual Meeting & Exhibition",
       "place": "San Diego, CA",
@@ -1099,7 +1960,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Oral presentation in the symposium \"Refractory Metals 2023 \u2014 Compositionally Complex Alloys - Ultimate Plus\"",
+      "presentationType": "Oral presentation in the symposium \"Refractory Metals 2023 — Compositionally Complex Alloys - Ultimate Plus\"",
       "date": "2023-03-22",
       "meetingName": "2023 TMS Annual Meeting & Exhibition",
       "place": "San Diego, CA",
@@ -1199,7 +2060,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Oral presentation in the symposium \"Refractory Metals 2023 \u2014 Compositionally Complex Alloys - Ultimate Plus\"",
+      "presentationType": "Oral presentation in the symposium \"Refractory Metals 2023 — Compositionally Complex Alloys - Ultimate Plus\"",
       "date": "2023-03-22",
       "meetingName": "2023 TMS Annual Meeting & Exhibition",
       "place": "San Diego, CA",
@@ -1284,7 +2145,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Oral presentation in the symposium \"Quantifying Microstructure Heterogeneity for Qualification of Additively Manufactured Materials \u2014 Roles for Modeling and Data Science\"",
+      "presentationType": "Oral presentation in the symposium \"Quantifying Microstructure Heterogeneity for Qualification of Additively Manufactured Materials — Roles for Modeling and Data Science\"",
       "date": "2023-03-23",
       "meetingName": "2023 TMS Annual Meeting & Exhibition",
       "place": "San Diego, CA",
@@ -1379,7 +2240,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Oral presentation in the symposium \"Algorithm Development in Materials Science and Engineering \u2014 AI/ML Algorithms and Applications\"",
+      "presentationType": "Oral presentation in the symposium \"Algorithm Development in Materials Science and Engineering — AI/ML Algorithms and Applications\"",
       "date": "2023-03-23",
       "meetingName": "2023 TMS Annual Meeting & Exhibition",
       "place": "San Diego, CA",
@@ -1485,7 +2346,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Poster presentation in the symposium \u201cHigh Entropy Materials: Concentrated Solid Solutions, Intermetallics, Ceramics, Functional Materials and Beyond IV\"",
+      "presentationType": "Poster presentation in the symposium “High Entropy Materials: Concentrated Solid Solutions, Intermetallics, Ceramics, Functional Materials and Beyond IV\"",
       "date": "2023-10-03",
       "meetingName": "The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology",
       "place": "Columbus, OH",
@@ -1586,7 +2447,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Poster presentation in the symposium \u201cHigh Entropy Materials: Concentrated Solid Solutions, Intermetallics, Ceramics, Functional Materials and Beyond IV\"",
+      "presentationType": "Poster presentation in the symposium “High Entropy Materials: Concentrated Solid Solutions, Intermetallics, Ceramics, Functional Materials and Beyond IV\"",
       "date": "2023-10-03",
       "meetingName": "The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology",
       "place": "Columbus, OH",
@@ -1692,7 +2553,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Poster presentation in the symposium \u201cHigh Entropy Materials: Concentrated Solid Solutions, Intermetallic, Ceramics, Functional Materials and Beyond IV\"",
+      "presentationType": "Poster presentation in the symposium “High Entropy Materials: Concentrated Solid Solutions, Intermetallic, Ceramics, Functional Materials and Beyond IV\"",
       "date": "2023-10-03",
       "meetingName": "The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology",
       "place": "Columbus, OH",
@@ -1773,7 +2634,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Oral presentation in the symposium \u201cHistory of Materials Science and Engineering.\u201d",
+      "presentationType": "Oral presentation in the symposium “History of Materials Science and Engineering.”",
       "date": "2023-10-03",
       "meetingName": "The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology",
       "place": "Columbus, OH",
@@ -1969,7 +2830,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Oral presentation in the symposium \u201cSynthesis, Characterization, Modeling and Applications of Functional Porous Materials\"",
+      "presentationType": "Oral presentation in the symposium “Synthesis, Characterization, Modeling and Applications of Functional Porous Materials\"",
       "date": "2023-10-04",
       "meetingName": "The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology",
       "place": "Columbus, OH",
@@ -2060,7 +2921,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Oral Presentation in the symposium \u201cMechanical Behavior at the Nanoscale VII\u201d",
+      "presentationType": "Oral Presentation in the symposium “Mechanical Behavior at the Nanoscale VII”",
       "date": "2024-03-04",
       "meetingName": "The Minerals Metals and Materials Society Annual Meeting and Exhibition 2024",
       "place": "Orlando, FL",
@@ -2161,7 +3022,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Oral presentation in the symposium \u201c2D Materials \u2013 Preparation, Properties, Modeling & Applications\"",
+      "presentationType": "Oral presentation in the symposium “2D Materials – Preparation, Properties, Modeling & Applications\"",
       "date": "2024-03-04",
       "meetingName": "The Minerals Metals and Materials Society Annual Meeting and Exhibition 2024",
       "place": "Orlando, FL",
@@ -2247,7 +3108,7 @@
         }
       ],
       "abstractNote": "Top-down etching and exfoliation for synthesis of 2D refractory metal carbides (functionalized as MXenes) has been demonstrated for a large number of compositions. However, bottom-up routes including chemical vapor deposition (CVD) have been less explored. Many papers have demonstrated liquid-phase (LP) CVD of Mo2C with Cu as the typical catalyst. This talk will address challenges associated with designing LP-CVD bottom-up approaches for other MnCn-1 refractory metal carbides from a thermodynamic and reaction equilibria perspective, showing that available thermodynamic data from density functional theory calculations (DFT) can guide synthesis but have substantial discrepancies with experimental results. Observations will be presented for several possible liquid and refractory metal substrate combinations, using CH4 as a carbon source and H2 as a reducing gas. DFT-based simulations of Raman spectra and modeled X-ray diffraction patterns will be compared with experimental observations and thermodynamic predictions of MnCn-1 where M is V, Nb, or Mo.",
-      "presentationType": "Invited oral presentation in the symposium \"2D Materials \u2013 Preparation, Properties, Modeling & Applications: Processing, Characterization, Modeling & Applications I\"",
+      "presentationType": "Invited oral presentation in the symposium \"2D Materials – Preparation, Properties, Modeling & Applications: Processing, Characterization, Modeling & Applications I\"",
       "date": "2025-03-25",
       "meetingName": "The Minerals Metals and Materials Society 2025 Annual Meeting and Exhibition",
       "place": "Las Vegas, NV, USA",
@@ -2341,7 +3202,7 @@
           "lastName": "Steiner"
         }
       ],
-      "abstractNote": "Dilute phosphorus alloying additions are known to impact the kinetics and phase equilibria of the Fe-Ni system at Ni-lean compositions typical of meteorites. Comparatively little attention has been paid to the Fe-Ni-P phase\nequilibria near equiatomic Fe-Ni compositions, where a hard-to-access L1_0 ordered phase is a potential replacement for rare-earth permanent magnets. As part of an effort to develop processing routes for Fe-Ni-P magnetic\nmaterials, this work aims to optimize existing open source CALPHAD databases over the\nequiatomic range. Improvements include incorporating the L1_0 (FeNi_3) ordered intermetallic phase (missing from previous\nefforts) and utilizing a more recent Gibbs energy model for the Fe-Ni binary subsystem.\nConstructed using the PanOptimizer module of CompuTherm\u2019s Pandat software,\nthe resulting database presents re-optimized ternary phase boundaries and incorporates the L1<SUB>2</SUB> phase in preparation for forthcoming experimental data at equiatomic and Ni-rich compositions.",
+      "abstractNote": "Dilute phosphorus alloying additions are known to impact the kinetics and phase equilibria of the Fe-Ni system at Ni-lean compositions typical of meteorites. Comparatively little attention has been paid to the Fe-Ni-P phase\nequilibria near equiatomic Fe-Ni compositions, where a hard-to-access L1_0 ordered phase is a potential replacement for rare-earth permanent magnets. As part of an effort to develop processing routes for Fe-Ni-P magnetic\nmaterials, this work aims to optimize existing open source CALPHAD databases over the\nequiatomic range. Improvements include incorporating the L1_0 (FeNi_3) ordered intermetallic phase (missing from previous\nefforts) and utilizing a more recent Gibbs energy model for the Fe-Ni binary subsystem.\nConstructed using the PanOptimizer module of CompuTherm’s Pandat software,\nthe resulting database presents re-optimized ternary phase boundaries and incorporates the L1<SUB>2</SUB> phase in preparation for forthcoming experimental data at equiatomic and Ni-rich compositions.",
       "presentationType": "Poster presentation in the Symposium \"2025 Undergraduate Student Poster Contest\"",
       "date": "2025-09-30",
       "meetingName": "MS&T25: Materials Science & Technology",
@@ -2778,7 +3639,7 @@
         {
           "creatorType": "contributor",
           "firstName": "Leonardo",
-          "lastName": "Agudo J\u00e1come"
+          "lastName": "Agudo Jácome"
         },
         {
           "creatorType": "contributor",
@@ -2786,7 +3647,7 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "Local misorientations evolve during creep while microstructure evolves. In this study, we used EBSD to study the evolution of local misorientations in the \u03b3/\u03b3\u00b4microstructure of a single crystal after exposures to high temperature, low stress creep. We analyzed fields corresponding to almost 1000 \u03b3\u00b4 particles\nin the initial state and employed a new method that allows for differentiation between diffraction signals from \u03b3 and \u03b3\u00b4 phase regions. We examined the spatial relationships between locations where misorientation accumulation\noccurs for dendritic and interdendritic regions for different loading directions. It is observed that intra- and inter-phase misorientations\nincrease as dislocation density increases, then saturates. The dislocation densities were higher in \u03b3 channels than in \u03b3\u00b4 particles on the micron size. Geometrically necessary misorientations on the microscale are observed to cancel each other out, resulting in undetectable macroscopic change in crystal orientation for accumulated plastic strains of 6%.",
+      "abstractNote": "Local misorientations evolve during creep while microstructure evolves. In this study, we used EBSD to study the evolution of local misorientations in the γ/γ´microstructure of a single crystal after exposures to high temperature, low stress creep. We analyzed fields corresponding to almost 1000 γ´ particles\nin the initial state and employed a new method that allows for differentiation between diffraction signals from γ and γ´ phase regions. We examined the spatial relationships between locations where misorientation accumulation\noccurs for dendritic and interdendritic regions for different loading directions. It is observed that intra- and inter-phase misorientations\nincrease as dislocation density increases, then saturates. The dislocation densities were higher in γ channels than in γ´ particles on the micron size. Geometrically necessary misorientations on the microscale are observed to cancel each other out, resulting in undetectable macroscopic change in crystal orientation for accumulated plastic strains of 6%.",
       "presentationType": "Accepted for poster presentation in the symposium \"2026 Graduate Student Poster Contest\"",
       "date": "2026-10-06",
       "meetingName": "MS&T26: Materials Science & Technology",
@@ -2887,7 +3748,7 @@
           "lastName": "Erdeniz"
         }
       ],
-      "abstractNote": "Recovery and recrystallization strongly influence the functional response of Ni-rich NiTi shape memory alloys by modifying defect density, grain structure, texture, and transformation pathways. In this study, hot-rolled Ni-rich NiTi was aged at 560 \u00baC for 1, 2, 4, 8, and 15 minutes to evaluate microstructural evolution during short-time heat treatment. Electron backscatter diffraction was used to quantify grain structure, grain kernel average misorientation, grain image quality, and crystallographic texture. The as-rolled condition exhibited high local misorientation and reduced pattern quality, consistent with stored deformation from hot rolling. After 1\u20132 minutes of aging, reduced local misorientation with retained deformation heterogeneity indicated recovery-dominated behavior. Near 4 minutes, improved pattern quality, lower misorientation, and clearer grain definition suggested active recrystallization. At 8 and 15 minutes, the microstructure approached a more stabilized recrystallized condition, with grain growth reducing orientation gradients and texture selectivity.",
+      "abstractNote": "Recovery and recrystallization strongly influence the functional response of Ni-rich NiTi shape memory alloys by modifying defect density, grain structure, texture, and transformation pathways. In this study, hot-rolled Ni-rich NiTi was aged at 560 ºC for 1, 2, 4, 8, and 15 minutes to evaluate microstructural evolution during short-time heat treatment. Electron backscatter diffraction was used to quantify grain structure, grain kernel average misorientation, grain image quality, and crystallographic texture. The as-rolled condition exhibited high local misorientation and reduced pattern quality, consistent with stored deformation from hot rolling. After 1–2 minutes of aging, reduced local misorientation with retained deformation heterogeneity indicated recovery-dominated behavior. Near 4 minutes, improved pattern quality, lower misorientation, and clearer grain definition suggested active recrystallization. At 8 and 15 minutes, the microstructure approached a more stabilized recrystallized condition, with grain growth reducing orientation gradients and texture selectivity.",
       "presentationType": "Accepted for student oral presentation in the symposium \"Microstructural Control in Materials Processing: Role of Phase Transformation Pathways\"",
       "date": "2026-10-06",
       "meetingName": "MS&T26: Materials Science & Technology",
@@ -2909,102 +3770,6 @@
       "relations": {},
       "dateAdded": "2026-05-15T03:12:02Z",
       "dateModified": "2026-06-25T04:00:27Z"
-    }
-  },
-  {
-    "key": "8E7V2LMI",
-    "version": 1657,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/8E7V2LMI",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/8E7V2LMI",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Hasan",
-      "parsedDate": "2026-10-06",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "8E7V2LMI",
-      "version": 1657,
-      "itemType": "presentation",
-      "title": "Thermodynamic Modeling and CVD Synthesis of Mo, Nb, and V MXene Precursors",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Sajjad",
-          "lastName": "Hasan"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Nishat",
-          "lastName": "Sultana"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Jesus",
-          "lastName": "Acosta"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Phillisity C.",
-          "lastName": "Neal"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "MXenes promise for a wide variety of applications such as energy generation and\nstorage. Chemical Vapor Deposition (CVD) is a surface deposition technique that\ncan be used to form thin layers of carbides as precursors to MXense without the\nuse of hydrofluoric acid for etch exfoliation. In this research, we demonstrate\nthe CVD approach to develop stable\u202fMXene\u202fprecursors in the form of\u202fMxC(x-1)\n(M=Mo, Nb, and V). A computational and theoretical approach was used to evaluate\nthe\u202fpossibility\u202fof the formation of the materials, then experimental synthesis was performed to evaluate the predictions. The formation and composition of carbides was investigated using XRD, EDS and Raman spectroscopy. The\nresults demonstrate the potential of this technique to design and produce modified\nMXene for versatile applications, as well as fundamental challenges in understanding the thermodynamics and kinetics of the synthesis process.",
-      "presentationType": "Accepted for student oral presentation in the symposium \" Advances in Emerging Electronic Nanomaterials: Towards Next-Generation Microelectronics\"",
-      "date": "2026-10-06",
-      "meetingName": "MS&T26: Materials Science and Technology",
-      "place": "Pittsburgh, PA, USA",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10468",
-      "url": "https://www.matscitech.org/MST26",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2026-05-16T15:44:39Z",
-      "dateModified": "2026-06-25T04:00:24Z"
     }
   },
   {
@@ -3079,7 +3844,7 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "The microstructure of a forged steel axe produced for the FIERF forging\ncompetition is characterized using scanning electron microscopy (SEM), electron\nbackscatter diffraction (EBSD), and energy dispersive X-ray spectroscopy (EDS).\nSEM provides high resolution imaging of deformation features, carbide distributions, and forging induced heterogeneities. EDS is used to verify elemental composition and assess chemical uniformity throughout the forged\ncomponent. EBSD mapping enables quantitative evaluation of grain size, crystallographic texture, and phase distribution, offering insight into\nstrain partitioning, recrystallization behavior, and the effectiveness of the thermomechanical processing route. Together, these techniques reveal the microstructural refinement and phase evolution generated during forging and establish clear links between processing conditions and the resulting material state. This integrated SEM EBSD EDS approach demonstrates the value of\nmultimodal characterization for understanding microstructure\u2013property relationships in forged steels.",
+      "abstractNote": "The microstructure of a forged steel axe produced for the FIERF forging\ncompetition is characterized using scanning electron microscopy (SEM), electron\nbackscatter diffraction (EBSD), and energy dispersive X-ray spectroscopy (EDS).\nSEM provides high resolution imaging of deformation features, carbide distributions, and forging induced heterogeneities. EDS is used to verify elemental composition and assess chemical uniformity throughout the forged\ncomponent. EBSD mapping enables quantitative evaluation of grain size, crystallographic texture, and phase distribution, offering insight into\nstrain partitioning, recrystallization behavior, and the effectiveness of the thermomechanical processing route. Together, these techniques reveal the microstructural refinement and phase evolution generated during forging and establish clear links between processing conditions and the resulting material state. This integrated SEM EBSD EDS approach demonstrates the value of\nmultimodal characterization for understanding microstructure–property relationships in forged steels.",
       "presentationType": "Accepted for poster presentation in the symposium \"2026 Graduate Student Poster Contest\"",
       "date": "2026-10-06",
       "meetingName": "MS&T26: Materials Science & Technology",
@@ -3755,7 +4520,7 @@
       "abstractNote": "",
       "presentationType": "Guest Lecture",
       "date": "2022-11-02",
-      "meetingName": "MECH5179C/6079C \u2013 Introduction to Additive Manufacturing (Prof. A. E. Paz y Puente)",
+      "meetingName": "MECH5179C/6079C – Introduction to Additive Manufacturing (Prof. A. E. Paz y Puente)",
       "place": "University of Cincinnati, Cincinnati, OH",
       "series": "",
       "sessionTitle": "",
@@ -4069,7 +4834,7 @@
           "lastName": "Obioha"
         }
       ],
-      "abstractNote": "Aluminum alloy 2618 (AA2618) is a high-strength, heat-treatable alloy used widely in the aerospace and automotive sectors due to its excellent mechanical properties at elevated temperatures. The present research investigates the hot working behavior of AA2618\nthrough uniaxial compression from 300 to 500 \u00b0C and strain-rates of 0.001 and 1 s-1. Flow stress increases with strain-rate and decreases with increasing temperature, as in similar alloys. However, strain-hardening rates remain very low across three orders of magnitude of strain-rate. Microstructural analyses suggest limited continuous dynamic recrystallization occurs. Dynamic recovery dominates, with new grain clusters forming locally and incompletely replacing the deformed grains after hot deformation. Secondary phase precipitates are observed to persist through deformation and recrystallization. The Lin-Wagoner constitutive model captured the measured flow behavior well, outperforming the Johnson-Cook and power law models in this temperature and strain-rate regime.",
+      "abstractNote": "Aluminum alloy 2618 (AA2618) is a high-strength, heat-treatable alloy used widely in the aerospace and automotive sectors due to its excellent mechanical properties at elevated temperatures. The present research investigates the hot working behavior of AA2618\nthrough uniaxial compression from 300 to 500 °C and strain-rates of 0.001 and 1 s-1. Flow stress increases with strain-rate and decreases with increasing temperature, as in similar alloys. However, strain-hardening rates remain very low across three orders of magnitude of strain-rate. Microstructural analyses suggest limited continuous dynamic recrystallization occurs. Dynamic recovery dominates, with new grain clusters forming locally and incompletely replacing the deformed grains after hot deformation. Secondary phase precipitates are observed to persist through deformation and recrystallization. The Lin-Wagoner constitutive model captured the measured flow behavior well, outperforming the Johnson-Cook and power law models in this temperature and strain-rate regime.",
       "thesisType": "MS Thesis",
       "university": "University of Cincinnati",
       "place": "Cincinnati, OH, USA",
@@ -4152,7 +4917,7 @@
           "lastName": "Oladipo"
         }
       ],
-      "abstractNote": "The orientation relationship (OR) between the crystallographic variants of martensite in prior austenite grains is a function of austenite composition at the time of transformation, making the OR indicative of a material\u2019s thermal history. The peak temperature reached in the intercritical region of a steel weld alters the composition of the transformed phase. This, in turn, influences material performance. To investigate whether the highest temperature reached could be predicted from a measurement of the OR, electron backscatter diffraction (EBSD) was utilized to investigate the crystallographic features of martensite of a plain carbon steel after quenching from temperatures in the intercritical region. The EBSD data of the characterized regions were analyzed within the MTEX tool to obtain the orientation relationships. The OR was quantified by the small angular deviations from Bain correspondence. Sparse scattering about the nominal \u201cKurdjumov-Sachs-like\u201d (i.e. exhibiting 24 distinct clusters on the pole figure) OR was attributed to plasticity during the transformation. The deviation from Bain correspondence of the OR was found to vary systematically with carbon concentration, but the trend differed significantly from that predicted by the phenomenological theory of martensitic transformations (PTMT). A fitted empirical model successfully predicted intercritical annealing temperature from the experimentally observed OR\u2013carbon relationship. This study concludes that the relationship between OR parameters and composition must be known a priori to use OR measurements for a \u201cforensic\u201d investigation of the maximum temperature reached in a heat-affected zone of a steel weld.",
+      "abstractNote": "The orientation relationship (OR) between the crystallographic variants of martensite in prior austenite grains is a function of austenite composition at the time of transformation, making the OR indicative of a material’s thermal history. The peak temperature reached in the intercritical region of a steel weld alters the composition of the transformed phase. This, in turn, influences material performance. To investigate whether the highest temperature reached could be predicted from a measurement of the OR, electron backscatter diffraction (EBSD) was utilized to investigate the crystallographic features of martensite of a plain carbon steel after quenching from temperatures in the intercritical region. The EBSD data of the characterized regions were analyzed within the MTEX tool to obtain the orientation relationships. The OR was quantified by the small angular deviations from Bain correspondence. Sparse scattering about the nominal “Kurdjumov-Sachs-like” (i.e. exhibiting 24 distinct clusters on the pole figure) OR was attributed to plasticity during the transformation. The deviation from Bain correspondence of the OR was found to vary systematically with carbon concentration, but the trend differed significantly from that predicted by the phenomenological theory of martensitic transformations (PTMT). A fitted empirical model successfully predicted intercritical annealing temperature from the experimentally observed OR–carbon relationship. This study concludes that the relationship between OR parameters and composition must be known a priori to use OR measurements for a “forensic” investigation of the maximum temperature reached in a heat-affected zone of a steel weld.",
       "thesisType": "MS Thesis",
       "university": "University of Cincinnati",
       "place": "Cincinnati, OH, USA",
@@ -4230,7 +4995,7 @@
       "version": 1587,
       "parentItem": "LZQZ95FG",
       "itemType": "note",
-      "note": "<div data-schema-version=\"9\"><p>Editor\u2019s choice paper</p>\n</div>",
+      "note": "<div data-schema-version=\"9\"><p>Editor’s choice paper</p>\n</div>",
       "tags": [],
       "relations": {},
       "dateAdded": "2026-06-24T19:19:19Z",
@@ -4284,7 +5049,7 @@
       "version": 1585,
       "parentItem": "CII5PFFW",
       "itemType": "note",
-      "note": "<div data-schema-version=\"9\"><p>Editor\u2019s choice paper</p>\n</div>",
+      "note": "<div data-schema-version=\"9\"><p>Editor’s choice paper</p>\n</div>",
       "tags": [],
       "relations": {},
       "dateAdded": "2026-06-24T19:18:47Z",
@@ -4380,101 +5145,6 @@
       "relations": {},
       "dateAdded": "2026-01-24T13:58:39Z",
       "dateModified": "2026-06-23T17:56:40Z"
-    }
-  },
-  {
-    "key": "X5EIIH4M",
-    "version": 1582,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/X5EIIH4M",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/X5EIIH4M",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Josyula et al.",
-      "parsedDate": "2026-06-19",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "X5EIIH4M",
-      "version": 1582,
-      "itemType": "manuscript",
-      "title": "Physics-augmented machine learning for predicting martensite transformation temperatures in shape memory alloys",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Sravya",
-          "lastName": "Josyula"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Yuval",
-          "lastName": "Noiman"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matthew Alan",
-          "lastName": "Steiner"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning (ML) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of ML models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor (ETR) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the ML model, an R2 value of 0.99 can be reached.",
-      "manuscriptType": "Journal Article",
-      "institution": "",
-      "place": "Original research article under review at Integrating Materials and Manufacturing Innovation",
-      "date": "2026-06-19",
-      "numPages": "",
-      "number": "",
-      "DOI": "",
-      "citationKey": "josyulaPhysicsaugmentedMachineLearning2025",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2025-08-18T09:31:33Z",
-      "dateModified": "2026-06-23T17:56:32Z"
     }
   },
   {
@@ -4849,7 +5519,7 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "Aluminum alloy 2618 (AA2618) is a high-strength, heat-treatable alloy used widely in the aerospace and automotive sectors due to its excellent mechanical properties at elevated temperatures. The present research investigates the hot working behavior of AA2618 through uniaxial compression from 300 to 500 \u00b0C and strain rates of 0.001 and 1 s-1. Flow stress increases with strain rate and decreases with increasing temperature, as in similar alloys. However, strain hardening rates remain very low across three orders of magnitude of strain rate. Microstructural analyses suggest limited continuous dynamic recrystallization occurs. Dynamic recovery dominates, with new grain clusters forming locally and incompletely replacing the deformed grains after hot deformation. Secondary phase precipitates are observed to persist through deformation and recrystallization. The Lin-Wagoner constitutive model captured the measured flow behavior well, outperforming the Johnson-Cook and power law models in this temperature and strain rate regime.",
+      "abstractNote": "Aluminum alloy 2618 (AA2618) is a high-strength, heat-treatable alloy used widely in the aerospace and automotive sectors due to its excellent mechanical properties at elevated temperatures. The present research investigates the hot working behavior of AA2618 through uniaxial compression from 300 to 500 °C and strain rates of 0.001 and 1 s-1. Flow stress increases with strain rate and decreases with increasing temperature, as in similar alloys. However, strain hardening rates remain very low across three orders of magnitude of strain rate. Microstructural analyses suggest limited continuous dynamic recrystallization occurs. Dynamic recovery dominates, with new grain clusters forming locally and incompletely replacing the deformed grains after hot deformation. Secondary phase precipitates are observed to persist through deformation and recrystallization. The Lin-Wagoner constitutive model captured the measured flow behavior well, outperforming the Johnson-Cook and power law models in this temperature and strain rate regime.",
       "manuscriptType": "Original research article in preparation for Journal of Materials Engineering and Performance",
       "institution": "",
       "place": "",
@@ -5250,7 +5920,7 @@
         }
       ],
       "abstractNote": "",
-      "presentationType": "Invited oral presentation in the symposium \"2D Materials \u2013 Preparation, Properties, Modeling & Applications\"",
+      "presentationType": "Invited oral presentation in the symposium \"2D Materials – Preparation, Properties, Modeling & Applications\"",
       "date": "2026-03-17",
       "meetingName": "The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition",
       "place": "San Diego, CA",
@@ -5350,7 +6020,7 @@
         }
       ],
       "abstractNote": "A software platform named PanEvolution has been developed for the simulation of microstructure evolution in metallic materials. The key features of this platform include: (1) an integrated framework that allows direct coupling with various Finite Element Method (FEM) software packages for processing inputs; (2) a modular design that facilitates the easy replacement and swapping of fast-acting microstructure models; and (3) seamless integration with a thermodynamic calculation engine based on CALPHAD method to obtain accurate input of phase information for technically important multi-component alloys. This enables the simulation of microstructure evolution in metallic alloys, including precipitation, recrystallization, grain growth, and coarsening, during conventional manufacturing processes such as forging and rolling. A general description of this framework, along with simulated examples, will be presented.",
-      "presentationType": "Invited oral presentation in the symposium \"Thermodynamics and Kinetics of Alloys III \u2014 Alloy Design and Thermodynamic Modeling\"",
+      "presentationType": "Invited oral presentation in the symposium \"Thermodynamics and Kinetics of Alloys III — Alloy Design and Thermodynamic Modeling\"",
       "date": "2025-03-24",
       "meetingName": "The Minerals Metals and Materials Society 2025 Annual Meeting and Exhibition",
       "place": "Las Vegas, NV",
@@ -5888,11 +6558,11 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "Hundreds of billions of dollars are currently being invested by many countries around the world to develop domestic manufacturing capabilities to achieve their clean energy and decarbonization goals. Electric vehicles, wind turbines, solar panels, microchips, and many carbon capture devices are dependent on minerals that are of limited availability worldwide. Many of these technologies are also steel and concrete intensive in their installations. Steel and concrete are counted among the most greatest decarbonization challenges the world faces. The adoption of hydrogen for industrial heating and reduction processes presents a risk to present steel-dominated transportation and storage infrastructure. Thus, humanity is faced with a conundrum: Many materials upon which we are dependent for addressing climate change are themselves substantial contributors to CO2 emissions. Shifting our economies from fuel-based to materials-based systems will require intensive mining of minerals for which the world\u2019s supply is limited, as well as construction of new buildings, manufacturing capabilities, and infrastructure. Furthermore, the rapid introduction of different specialty alloy grades over the past 40 years (responsible for significant improvements in safety and performance) presents a challenge for the creation of sustainable circular economies. This talk will explore the geopolitical, national security, economic security, and climate implications of a \u2018green gold rush\u2019 on secondary processing of metallic materials. It will trace the supply chains of a few regionally important critical materials from where they are mined through their role in alloys critical for the energy and economic security. Tools and prospects for sustainable metallurgy will be presented, along with some select basic science gaps that could be collaboratively addressed to the benefit of the international economy, climate, and society.",
+      "abstractNote": "Hundreds of billions of dollars are currently being invested by many countries around the world to develop domestic manufacturing capabilities to achieve their clean energy and decarbonization goals. Electric vehicles, wind turbines, solar panels, microchips, and many carbon capture devices are dependent on minerals that are of limited availability worldwide. Many of these technologies are also steel and concrete intensive in their installations. Steel and concrete are counted among the most greatest decarbonization challenges the world faces. The adoption of hydrogen for industrial heating and reduction processes presents a risk to present steel-dominated transportation and storage infrastructure. Thus, humanity is faced with a conundrum: Many materials upon which we are dependent for addressing climate change are themselves substantial contributors to CO2 emissions. Shifting our economies from fuel-based to materials-based systems will require intensive mining of minerals for which the world’s supply is limited, as well as construction of new buildings, manufacturing capabilities, and infrastructure. Furthermore, the rapid introduction of different specialty alloy grades over the past 40 years (responsible for significant improvements in safety and performance) presents a challenge for the creation of sustainable circular economies. This talk will explore the geopolitical, national security, economic security, and climate implications of a ‘green gold rush’ on secondary processing of metallic materials. It will trace the supply chains of a few regionally important critical materials from where they are mined through their role in alloys critical for the energy and economic security. Tools and prospects for sustainable metallurgy will be presented, along with some select basic science gaps that could be collaboratively addressed to the benefit of the international economy, climate, and society.",
       "presentationType": "Materials Engineering Department Seminar",
       "date": "2024-06-27",
       "meetingName": "",
-      "place": "Bundesanstalt f\u00fcr Materialpr\u00fcfung und Forschung (BAM), Berlin, Germany",
+      "place": "Bundesanstalt für Materialprüfung und Forschung (BAM), Berlin, Germany",
       "series": "",
       "sessionTitle": "",
       "DOI": "",
@@ -5917,114 +6587,6 @@
       "relations": {},
       "dateAdded": "2025-06-03T19:15:04Z",
       "dateModified": "2026-06-23T14:45:02Z"
-    }
-  },
-  {
-    "key": "SXXCV5GW",
-    "version": 1492,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/SXXCV5GW",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/SXXCV5GW",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton et al.",
-      "parsedDate": "2026-06-22",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "SXXCV5GW",
-      "version": 1492,
-      "itemType": "journalArticle",
-      "title": "On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstructures",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. B.",
-          "lastName": "Dursun"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "G.",
-          "lastName": "Eggeler"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "L.",
-          "lastName": "Agudo J\u00e1come"
-        }
-      ],
-      "abstractNote": "",
-      "publicationTitle": "Advanced Engineering Materials",
-      "publisher": "",
-      "place": "",
-      "date": "2026-06-22",
-      "volume": "in press",
-      "issue": "",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "",
-      "DOI": "",
-      "citationKey": "paytonEffectCreepLocal2025",
-      "url": "",
-      "accessDate": "",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "DYSCMR9B"
-      ],
-      "relations": {
-        "owl:sameAs": "http://zotero.org/groups/6314892/items/5QAYMH8R"
-      },
-      "dateAdded": "2026-01-27T11:54:21Z",
-      "dateModified": "2026-06-23T12:56:33Z"
     }
   },
   {
@@ -6359,7 +6921,7 @@
           "lastName": "Butler"
         }
       ],
-      "abstractNote": "Hf\u2013Ta alloys have recently received much attention due to their favorable oxidation resistance and mechanical properties at temperatures beyond 1200\u00a0\u00b0C. However, at lower temperatures the oxidation resistance becomes poor and the alloys experience brittle to ductile transition. Both effects are likely due to their two-phase structure formed during eutectoid transformation. In the present work, we report mechanical properties and oxidation behavior of Hf-27%Ta and Hf-42%Ta (compositions are in atomic percent), which experience eutectoid transformation at \u223c1083\u00a0\u00b0C and contain two phases, Hf-rich HCP and Ta-rich BCC, below this temperature. Alloys of the compositions corresponding to these two eutectoid phases, Hf-90%Ta (BCC) and Hf-3%Ta (HCP), were also produced and studied for comparison. The results show that in the temperature range of 25\u20131000\u00a0\u00b0C (i.e., below the eutectoid transformation) the compression strengths of Hf-90%Ta and Hf-3%Ta are considerably smaller than the strength of Hf-27%Ta or Hf-42%Ta, while above the eutectoid transformation, where the Hf-27%Ta and Hf-42%Ta alloys have single-phase BCC structures, the Hf-90%Ta and Hf-3%Ta become stronger than either Hf-27%Ta or Hf-42%Ta. It was concluded that the interfaces in the eutectoid structure of Hf-27%Ta produce considerable strengthening, which can exceed the strengths of the phases which comprise the microstructure. At 800\u00a0\u00b0C and 1000\u00a0\u00b0C, Hf-90%Ta oxidized rapidly in comparison to Hf-3%Ta due to the extensive formation of Ta2O5. It is suggested that the observed poor oxidation behavior of Hf-27%Ta below the temperature of the eutectoid transformation is likely controlled by the oxidation kinetics of the Hf-90%Ta BCC phase in the eutectoid structure of this alloy.",
+      "abstractNote": "Hf–Ta alloys have recently received much attention due to their favorable oxidation resistance and mechanical properties at temperatures beyond 1200 °C. However, at lower temperatures the oxidation resistance becomes poor and the alloys experience brittle to ductile transition. Both effects are likely due to their two-phase structure formed during eutectoid transformation. In the present work, we report mechanical properties and oxidation behavior of Hf-27%Ta and Hf-42%Ta (compositions are in atomic percent), which experience eutectoid transformation at ∼1083 °C and contain two phases, Hf-rich HCP and Ta-rich BCC, below this temperature. Alloys of the compositions corresponding to these two eutectoid phases, Hf-90%Ta (BCC) and Hf-3%Ta (HCP), were also produced and studied for comparison. The results show that in the temperature range of 25–1000 °C (i.e., below the eutectoid transformation) the compression strengths of Hf-90%Ta and Hf-3%Ta are considerably smaller than the strength of Hf-27%Ta or Hf-42%Ta, while above the eutectoid transformation, where the Hf-27%Ta and Hf-42%Ta alloys have single-phase BCC structures, the Hf-90%Ta and Hf-3%Ta become stronger than either Hf-27%Ta or Hf-42%Ta. It was concluded that the interfaces in the eutectoid structure of Hf-27%Ta produce considerable strengthening, which can exceed the strengths of the phases which comprise the microstructure. At 800 °C and 1000 °C, Hf-90%Ta oxidized rapidly in comparison to Hf-3%Ta due to the extensive formation of Ta2O5. It is suggested that the observed poor oxidation behavior of Hf-27%Ta below the temperature of the eutectoid transformation is likely controlled by the oxidation kinetics of the Hf-90%Ta BCC phase in the eutectoid structure of this alloy.",
       "publicationTitle": "International Journal of Refractory Metals and Hard Materials",
       "publisher": "",
       "place": "",
@@ -6391,7 +6953,7 @@
       "extra": "",
       "tags": [
         {
-          "tag": "Binary Hf\u2013Ta alloys",
+          "tag": "Binary Hf–Ta alloys",
           "type": 1
         },
         {
@@ -6492,7 +7054,7 @@
           "lastName": "Miller"
         }
       ],
-      "abstractNote": "Heteroepitaxial recrystallization (HeRX) is a recently discovered recrystallization mechanism that can occur during thermomechanical processing of Ni-base superalloys. It is important to understand this mechanism because it offers insights into grain size control, which is critical to the tensile, fatigue, and creep properties of superalloys. In this paper, HeRX activity in the low solvus high refractory (LSHR) is quantitatively characterized using combined energy-dispersive X-ray spectroscopy and electron backscatter diffraction. The formation of heteroepitaxially recrystallized grains is observed within the intermediate-misfit \u03b3\u2013\u03b3\u2032 superalloy LSHR; this suggests the HeRX is more widespread than initially thought. Microstructural imaging indicates that the presence of a coherent \u03b3 shell formed via inverse precipitation is not a necessary condition for the nucleation of HeRX grains. HeRX grains are found to comprise the large grain tail of the grain size distribution, regardless of processing condition. The extent of HeRX grain formation and growth in LSHR is determined as a function of strain, forging rate, and thermal history.",
+      "abstractNote": "Heteroepitaxial recrystallization (HeRX) is a recently discovered recrystallization mechanism that can occur during thermomechanical processing of Ni-base superalloys. It is important to understand this mechanism because it offers insights into grain size control, which is critical to the tensile, fatigue, and creep properties of superalloys. In this paper, HeRX activity in the low solvus high refractory (LSHR) is quantitatively characterized using combined energy-dispersive X-ray spectroscopy and electron backscatter diffraction. The formation of heteroepitaxially recrystallized grains is observed within the intermediate-misfit γ–γ′ superalloy LSHR; this suggests the HeRX is more widespread than initially thought. Microstructural imaging indicates that the presence of a coherent γ shell formed via inverse precipitation is not a necessary condition for the nucleation of HeRX grains. HeRX grains are found to comprise the large grain tail of the grain size distribution, regardless of processing condition. The extent of HeRX grain formation and growth in LSHR is determined as a function of strain, forging rate, and thermal history.",
       "publicationTitle": "Metallography, Microstructure, and Analysis",
       "publisher": "",
       "place": "",
@@ -6628,7 +7190,7 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "NbTi-based refractory alloys with additions of Co, Cr, and Ni represent an interesting medium-entropy alloy system with potential for protective oxide film formation, high strength, and ductility. This study investigates the microstructural evolution, oxidation behavior, and mechanical properties of NbTi-based alloys containing 5 to 10 at. pct Co, Cr, and Ni. CALPHAD predictions suggest that this composition range can be heat treated to obtain a predominantly body-centered cubic matrix phase. Mechanical properties, including microhardness, yield strength, maximum strength, and specific strength are evaluated through isothermal compression tests conducted between room temperature and 800\u00a0\u00b0C. The oxidation kinetics of these alloys are assessed through discontinuous oxidation tests. Parabolic oxidation kinetics were observed for NbTi\u201310Ni and NbTi\u20135Co, while linear oxidation kinetics were found for NbTi\u201310Cr and NbTi\u201310(CoCrNi). Microstructures and oxide layers are characterized using X-ray diffraction, electron backscatter diffraction, energy-dispersive X-ray spectroscopy, and scanning electron microscopy. All alloys exhibit significant mechanical softening between room temperature and 800\u00a0\u00b0C, with elastic-perfectly plastic flow observed at 800\u00a0\u00b0C. The addition of 10 pct Cr to NbTi resulted in two BCC phases up to 1050\u00a0\u00b0C, conflicting with CALPHAD predictions of a single-phase solid solution at this temperature, and resulting in higher flow stress at 800\u00a0\u00b0C. NbTi\u201310(CoCrNi) exhibited the lowest flow stress at 800\u00a0\u00b0C despite having more \u2018cocktail effect\u2019 potential and insufficient molar fractions of Co, Cr, or Ni to form a desirable protective oxide film.",
+      "abstractNote": "NbTi-based refractory alloys with additions of Co, Cr, and Ni represent an interesting medium-entropy alloy system with potential for protective oxide film formation, high strength, and ductility. This study investigates the microstructural evolution, oxidation behavior, and mechanical properties of NbTi-based alloys containing 5 to 10 at. pct Co, Cr, and Ni. CALPHAD predictions suggest that this composition range can be heat treated to obtain a predominantly body-centered cubic matrix phase. Mechanical properties, including microhardness, yield strength, maximum strength, and specific strength are evaluated through isothermal compression tests conducted between room temperature and 800 °C. The oxidation kinetics of these alloys are assessed through discontinuous oxidation tests. Parabolic oxidation kinetics were observed for NbTi–10Ni and NbTi–5Co, while linear oxidation kinetics were found for NbTi–10Cr and NbTi–10(CoCrNi). Microstructures and oxide layers are characterized using X-ray diffraction, electron backscatter diffraction, energy-dispersive X-ray spectroscopy, and scanning electron microscopy. All alloys exhibit significant mechanical softening between room temperature and 800 °C, with elastic-perfectly plastic flow observed at 800 °C. The addition of 10 pct Cr to NbTi resulted in two BCC phases up to 1050 °C, conflicting with CALPHAD predictions of a single-phase solid solution at this temperature, and resulting in higher flow stress at 800 °C. NbTi–10(CoCrNi) exhibited the lowest flow stress at 800 °C despite having more ‘cocktail effect’ potential and insufficient molar fractions of Co, Cr, or Ni to form a desirable protective oxide film.",
       "publicationTitle": "Metallurgical and Materials Transactions A",
       "publisher": "",
       "place": "",
@@ -6711,7 +7273,7 @@
       "key": "LZQZ95FG",
       "version": 1467,
       "itemType": "journalArticle",
-      "title": "High-Temperature Oxidation and Thermal Expansion Behavior of {NbTi\u2013X (X\u2009=\u20095Co, 10Cr, 10Ni, 10CoCrNi)} Refractory Medium Entropy Alloys",
+      "title": "High-Temperature Oxidation and Thermal Expansion Behavior of {NbTi–X (X = 5Co, 10Cr, 10Ni, 10CoCrNi)} Refractory Medium Entropy Alloys",
       "creators": [
         {
           "creatorType": "author",
@@ -6739,7 +7301,7 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "The formation of Nb2O5 and other oxides in NbTi\u2013X (X\u2009=\u20095Co, 10Cr, 10Ni, 10CoCrNi) after exposure to 800\u00a0\u00b0C accelerates oxidation kinetics, shifting from a parabolic rate law to a power-law exponent of two at 1200\u00a0\u00b0C. Subsequent oxidation at 800\u00a0\u00b0C for material initially exposed to oxidation at 1200\u00a0\u00b0C shows that the retained TiNb2O7 and CrNbO4 oxide scale substantially improves oxidation kinetics, transitioning from linear to parabolic behavior at this temperature. The oxide scales were heterogeneous, exhibiting regions with thin oxide layers alongside areas of thick, porous scales due to the formation of discontinuous metal and complex oxide structures. Microstructural analysis using scanning electron microscopy (SEM) revealed that the formation of metal oxides and complex oxides plays a crucial role in oxidation resistance. In alloys containing Co and Ni, TiNb2O7 and Nb2O5 layers are observed. Additionally, NbTi\u201310(CoCrNi) exhibited significant internal corrosion zones composed of various oxides. Quantitative X-ray diffraction (XRD) analysis of the oxide scales formed after 16 hours of oxidation confirmed that Nb2O5 and TiO2 were the predominant phases when oxidation resistance is relatively poor and TiNb2O7 and CrNbO4 are present when oxidation weight gain rates are comparatively lower. Furthermore, it is found that these alloys exhibit low, stable thermal expansion, with hysteresis primarily in the as-cast state due to phase transitions and internal stresses, which largely disappear after homogenization due to single-phase stability and reduced partitioning effects. These findings may provide valuable insights into the oxidation behavior, structural evolution, and thermal stability of these alloys, particularly in environments involving thermal cycling between high and low temperatures.",
+      "abstractNote": "The formation of Nb2O5 and other oxides in NbTi–X (X = 5Co, 10Cr, 10Ni, 10CoCrNi) after exposure to 800 °C accelerates oxidation kinetics, shifting from a parabolic rate law to a power-law exponent of two at 1200 °C. Subsequent oxidation at 800 °C for material initially exposed to oxidation at 1200 °C shows that the retained TiNb2O7 and CrNbO4 oxide scale substantially improves oxidation kinetics, transitioning from linear to parabolic behavior at this temperature. The oxide scales were heterogeneous, exhibiting regions with thin oxide layers alongside areas of thick, porous scales due to the formation of discontinuous metal and complex oxide structures. Microstructural analysis using scanning electron microscopy (SEM) revealed that the formation of metal oxides and complex oxides plays a crucial role in oxidation resistance. In alloys containing Co and Ni, TiNb2O7 and Nb2O5 layers are observed. Additionally, NbTi–10(CoCrNi) exhibited significant internal corrosion zones composed of various oxides. Quantitative X-ray diffraction (XRD) analysis of the oxide scales formed after 16 hours of oxidation confirmed that Nb2O5 and TiO2 were the predominant phases when oxidation resistance is relatively poor and TiNb2O7 and CrNbO4 are present when oxidation weight gain rates are comparatively lower. Furthermore, it is found that these alloys exhibit low, stable thermal expansion, with hysteresis primarily in the as-cast state due to phase transitions and internal stresses, which largely disappear after homogenization due to single-phase stability and reduced partitioning effects. These findings may provide valuable insights into the oxidation behavior, structural evolution, and thermal stability of these alloys, particularly in environments involving thermal cycling between high and low temperatures.",
       "publicationTitle": "Metallurgical and Materials Transactions A",
       "publisher": "",
       "place": "",
@@ -6749,7 +7311,7 @@
       "section": "",
       "partNumber": "",
       "partTitle": "",
-      "pages": "4436\u20134453",
+      "pages": "4436–4453",
       "series": "",
       "seriesTitle": "",
       "seriesText": "",
@@ -6841,7 +7403,7 @@
       },
       "creatorSummary": "Cao et al.",
       "parsedDate": "2025-09-01",
-      "numChildren": 0
+      "numChildren": 1
     },
     "data": {
       "key": "A3KQAU5U",
@@ -6942,118 +7504,6 @@
     }
   },
   {
-    "key": "DHV8U7T8",
-    "version": 1464,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/DHV8U7T8",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/DHV8U7T8",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Timberlake and Payton",
-      "parsedDate": "2026-02-23",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "DHV8U7T8",
-      "version": 1464,
-      "itemType": "journalArticle",
-      "title": "Effects of {SEM} Distortions on {EBSD} Grain Size Measurements",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "D. Meiyan",
-          "lastName": "Timberlake"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "Systematic discrepancies persist between results from g rain size measurement standards, such as ASTM E 112 and ASTM E 2627, when\ndifferent imaging techniques and analysis methods are used. The source of these discrepancies may be differences in imag ing physics, resolution limits, grain boundary definitions, post-processing practices, or combinations thereof. Geometric distortions and drift effects in scanning electron microscope imaging are systematically modeled using synthetic microstructures to assess their impact on electron backscatter diffraction-based grain size measurement accuracy. Standard methods are compared to a lesser-known method, the Triple Point Count (TPC). Most distortion types introduce smaller biases than the ex pected accuracy of the methods under typical imag ing conditions. TPC provides consistent performance across varying resolutions and sampling conditions. This provides further evidence that reported discrepancies are largely driven by an assumption made in the estimate for converting intercept measurements to ASTM grain size numbers, as recently reported by Evans et al.",
-      "publicationTitle": "Metallography, Microstructure, and Analysis",
-      "publisher": "",
-      "place": "",
-      "date": "2026-02-23",
-      "volume": "",
-      "issue": "",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "Metallogr. Microstruct. Anal.",
-      "DOI": "10.1007/s13632-026-01317-3",
-      "citationKey": "timberlakeEffectsSEMDistortions2026",
-      "url": "https://doi.org/10.1007/s13632-026-01317-3",
-      "accessDate": "",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Electron Backscatter Diffraction"
-        },
-        {
-          "tag": "Grain Size"
-        },
-        {
-          "tag": "Imaging distortions"
-        },
-        {
-          "tag": "Microstructure"
-        },
-        {
-          "tag": "Scanning Electron Microscopy"
-        }
-      ],
-      "collections": [
-        "DYSCMR9B"
-      ],
-      "relations": {},
-      "dateAdded": "2025-07-28T20:32:13Z",
-      "dateModified": "2026-06-08T18:47:31Z"
-    }
-  },
-  {
     "key": "UYWAIBVI",
     "version": 1462,
     "library": {
@@ -7135,7 +7585,7 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "Abstract\n            High-temperature shape memory alloys (SMAs) are essential for advanced actuation in aerospace and energy systems, yet their continued development is constrained by challenges in both equilibrium and metastable phase prediction, transformation temperature control, and material sustainability. This study presents a data-driven framework for discovery and multi-objective optimization of novel, concentrated, multi-component SMA compositions that integrates high-throughput CALPHAD (calculation of phase diagrams) with machine learning (ML). The framework is used to identify regions of B2 phase which have potential for exhibiting transitions to the B19\u2019 phase upon cooling. An Extra Trees regression model was trained to predict martensitic and austenitic transformation temperatures. Compositions were selected for experimental validation using cost and supply chain risk metrics to promote practical viability. Selected compositions were synthesized via arc melting for experimental validation using differential scanning calorimetry and dilatometry. The integrated approach enables rapid exploration of complex compositional spaces, linking thermodynamic calculations with functional behavior and real-world constraints. Strengths and limitations of ML in the alloy optimization context are exposed and discussed, along with prospects of such a framework as a scalable pathway for accelerating the discovery and optimization of high-performance SMAs with tailored transformation behavior.",
+      "abstractNote": "Abstract\n            High-temperature shape memory alloys (SMAs) are essential for advanced actuation in aerospace and energy systems, yet their continued development is constrained by challenges in both equilibrium and metastable phase prediction, transformation temperature control, and material sustainability. This study presents a data-driven framework for discovery and multi-objective optimization of novel, concentrated, multi-component SMA compositions that integrates high-throughput CALPHAD (calculation of phase diagrams) with machine learning (ML). The framework is used to identify regions of B2 phase which have potential for exhibiting transitions to the B19’ phase upon cooling. An Extra Trees regression model was trained to predict martensitic and austenitic transformation temperatures. Compositions were selected for experimental validation using cost and supply chain risk metrics to promote practical viability. Selected compositions were synthesized via arc melting for experimental validation using differential scanning calorimetry and dilatometry. The integrated approach enables rapid exploration of complex compositional spaces, linking thermodynamic calculations with functional behavior and real-world constraints. Strengths and limitations of ML in the alloy optimization context are exposed and discussed, along with prospects of such a framework as a scalable pathway for accelerating the discovery and optimization of high-performance SMAs with tailored transformation behavior.",
       "publicationTitle": "Journal of Phase Equilibria and Diffusion",
       "publisher": "",
       "place": "",
@@ -7258,7 +7708,7 @@
           "lastName": "Evans"
         }
       ],
-      "abstractNote": "Grain size measurement code used in the manuscript \"Effects of SEM Distortions on EBSD Grain Size Measurements\" by D. M. Timberlake and E. J. Payton. This is an update to the code used in K.S. Evans, D.M. Timberlake, P. Tyagi, V.M. Miller, and E.J. Payton, \"On the sources of discrepancies between grain size measurements,\" Metallogr. Microstruct. Anal. 13 (2024), pp 966\u201382 https://doi.org/10.1007/s13632-024-01124-8.",
+      "abstractNote": "Grain size measurement code used in the manuscript \"Effects of SEM Distortions on EBSD Grain Size Measurements\" by D. M. Timberlake and E. J. Payton. This is an update to the code used in K.S. Evans, D.M. Timberlake, P. Tyagi, V.M. Miller, and E.J. Payton, \"On the sources of discrepancies between grain size measurements,\" Metallogr. Microstruct. Anal. 13 (2024), pp 966–82 https://doi.org/10.1007/s13632-024-01124-8.",
       "seriesTitle": "",
       "versionNumber": "v.0.1.0",
       "date": "2025-07-28",
@@ -7533,7 +7983,7 @@
           "lastName": "Sultana"
         }
       ],
-      "abstractNote": "This thesis presents a first-principles study on the electrochemical behavior of Nb2C and Nb2CO2 MXenes as prospective anode materials for sodium-ion (SIBs) and lithium-ion batteries (LIBs). Density functional theory (DFT) calculations were employed to examine the impact of Li and Na intercalation on structural stability, adsorption energetics, ion diffusion, electronic properties, and open-circuit voltage (OCV). The analysis indicates that intercalation modifies the electronic structure of Nb2C without significant lattice distortion, consistent with Raman spectral variations. Adsorption energy evaluations reveal a preference for T4 and H3 surface sites, with Nb2CO2 demonstrating enhanced metal binding due to surface oxygen functionalization. Diffusion barrier calculations show that Nb2C offers lower migration resistance, particularly for Na ions, suggesting its suitability for high-rate charging in SIBs. Conversely, Nb2CO2 enhances charge retention via stronger electrostatic interactions but incurs higher diffusion barriers. Electronic structure analyses confirm the intrinsic metallicity of both MXenes, supporting efficient electron transport in battery applications. OCV calculations indicate that Nb2CO2 exhibits higher voltage output than Nb2C, underscoring the role of surface chemistry in tuning electrochemical properties. While Li-based systems exhibit marginally higher theoretical capacities, Na-based counterparts demonstrate comparable performance, endorsing their potential as a cost-effective and sustainable alternative. Overall, this work provides atomic-scale insights into the structure\u2013property relationships of Nb-based MXenes, establishing design principles for optimizing anode materials in next-generation energy storage systems.",
+      "abstractNote": "This thesis presents a first-principles study on the electrochemical behavior of Nb2C and Nb2CO2 MXenes as prospective anode materials for sodium-ion (SIBs) and lithium-ion batteries (LIBs). Density functional theory (DFT) calculations were employed to examine the impact of Li and Na intercalation on structural stability, adsorption energetics, ion diffusion, electronic properties, and open-circuit voltage (OCV). The analysis indicates that intercalation modifies the electronic structure of Nb2C without significant lattice distortion, consistent with Raman spectral variations. Adsorption energy evaluations reveal a preference for T4 and H3 surface sites, with Nb2CO2 demonstrating enhanced metal binding due to surface oxygen functionalization. Diffusion barrier calculations show that Nb2C offers lower migration resistance, particularly for Na ions, suggesting its suitability for high-rate charging in SIBs. Conversely, Nb2CO2 enhances charge retention via stronger electrostatic interactions but incurs higher diffusion barriers. Electronic structure analyses confirm the intrinsic metallicity of both MXenes, supporting efficient electron transport in battery applications. OCV calculations indicate that Nb2CO2 exhibits higher voltage output than Nb2C, underscoring the role of surface chemistry in tuning electrochemical properties. While Li-based systems exhibit marginally higher theoretical capacities, Na-based counterparts demonstrate comparable performance, endorsing their potential as a cost-effective and sustainable alternative. Overall, this work provides atomic-scale insights into the structure–property relationships of Nb-based MXenes, establishing design principles for optimizing anode materials in next-generation energy storage systems.",
       "thesisType": "MS Thesis",
       "university": "University of Cincinnati",
       "place": "Cincinnati, OH, USA",
@@ -7616,7 +8066,7 @@
           "lastName": "Oruganti"
         }
       ],
-      "abstractNote": "The Kirkendall effect, which arises from unequal atomic diffusion rates in alloys, can lead to the formation of detrimental porosity at material interfaces. However, the precise conditions that determine whether a system gives rise to the resulting vacancy flux through nucleation of pores are not fully understood. This research utilizes a theoretical and computational approach to investigate these factors in a simple A-B binary alloy system, establishing a relationship between a material\u2019s intrinsic defect structure and the macroscopic outcomes of interdiffusion. This study employs the Multi-component Diffusion with Vacancies (MDV) model, which treats vacancies as a dynamic, non-equilibrium component, in a parametric study of a one-dimensional A-B diffusion couple. The vacancy sink intensity coefficient, k_{sink}, exhibits a significant influence on the predicted material response. Low sink intensities lead to classic Kirkendall porosity driven by vacancy supersaturation. Conversely, high intensities suppress supersaturation and induce a powerful lattice contraction that causes an inversion of the Kirkendall marker shift, while intermediate intensities produce a kinetically hindered diffusion regime characterized by a distinct \"kink\" in the concentration profile. Ultimately, this research provides a unified framework demonstrating that Kirkendall porosity and lattice contraction are two competing outcomes on a continuum governed by a material's internal sink efficiency. By treating k_{sink} as a key physical variable rather than a simple fitting parameter, this work offers critical insights into the factors controlling microstructural evolution and stability in diffusion-critical systems.",
+      "abstractNote": "The Kirkendall effect, which arises from unequal atomic diffusion rates in alloys, can lead to the formation of detrimental porosity at material interfaces. However, the precise conditions that determine whether a system gives rise to the resulting vacancy flux through nucleation of pores are not fully understood. This research utilizes a theoretical and computational approach to investigate these factors in a simple A-B binary alloy system, establishing a relationship between a material’s intrinsic defect structure and the macroscopic outcomes of interdiffusion. This study employs the Multi-component Diffusion with Vacancies (MDV) model, which treats vacancies as a dynamic, non-equilibrium component, in a parametric study of a one-dimensional A-B diffusion couple. The vacancy sink intensity coefficient, k_{sink}, exhibits a significant influence on the predicted material response. Low sink intensities lead to classic Kirkendall porosity driven by vacancy supersaturation. Conversely, high intensities suppress supersaturation and induce a powerful lattice contraction that causes an inversion of the Kirkendall marker shift, while intermediate intensities produce a kinetically hindered diffusion regime characterized by a distinct \"kink\" in the concentration profile. Ultimately, this research provides a unified framework demonstrating that Kirkendall porosity and lattice contraction are two competing outcomes on a continuum governed by a material's internal sink efficiency. By treating k_{sink} as a key physical variable rather than a simple fitting parameter, this work offers critical insights into the factors controlling microstructural evolution and stability in diffusion-critical systems.",
       "thesisType": "MS Thesis",
       "university": "University of Cincinnati",
       "place": "Cincinnati, OH, USA",
@@ -7699,7 +8149,7 @@
           "lastName": "Josyula"
         }
       ],
-      "abstractNote": "The demand for high-performance materials, especially high-temperature shape memory alloys (SMAs), has driven significant progress in materials design. This study focuses on predicting the Martensitic Start (Ms) temperature of SMAs, a crucial factor in determining their suitability for high-temperature applications. To achieve this, CALPHAD was used to simulate phase diagrams across different alloy compositions, while machine learning techniques\u2014specifically regression models were applied to predict the Ms temperature based on compositional and physics-based descriptors. By utilizing a large and diverse dataset, machine learning significantly enhanced the predictive accuracy for Ms temperature. The vast amount of data allowed the models to learn complex, nonlinear relationships between various alloying elements and transformation temperatures, resulting in accurate and reliable predictions. In addition, this study highlights the importance of considering sustainability and supply risk analysis in alloy design. The integration of these analyses with the predictive modeling framework allows for the identification of alloys that not only exhibit desirable properties but also minimize reliance on critical and scarce materials. This contributes to more sustainable materials development, helping ensure a stable supply of raw materials for high-performance alloys. The combination of CALPHAD, machine learning, and supply risk analysis offers a comprehensive approach for designing alloys that are not only high-performing but also economically and environmentally sustainable, paving the way for better materials with broader applications in the future.",
+      "abstractNote": "The demand for high-performance materials, especially high-temperature shape memory alloys (SMAs), has driven significant progress in materials design. This study focuses on predicting the Martensitic Start (Ms) temperature of SMAs, a crucial factor in determining their suitability for high-temperature applications. To achieve this, CALPHAD was used to simulate phase diagrams across different alloy compositions, while machine learning techniques—specifically regression models were applied to predict the Ms temperature based on compositional and physics-based descriptors. By utilizing a large and diverse dataset, machine learning significantly enhanced the predictive accuracy for Ms temperature. The vast amount of data allowed the models to learn complex, nonlinear relationships between various alloying elements and transformation temperatures, resulting in accurate and reliable predictions. In addition, this study highlights the importance of considering sustainability and supply risk analysis in alloy design. The integration of these analyses with the predictive modeling framework allows for the identification of alloys that not only exhibit desirable properties but also minimize reliance on critical and scarce materials. This contributes to more sustainable materials development, helping ensure a stable supply of raw materials for high-performance alloys. The combination of CALPHAD, machine learning, and supply risk analysis offers a comprehensive approach for designing alloys that are not only high-performing but also economically and environmentally sustainable, paving the way for better materials with broader applications in the future.",
       "thesisType": "PhD Dissertation",
       "university": "University of Cincinnati",
       "place": "Cincinnati, OH, USA",
@@ -8172,7 +8622,7 @@
       "version": 1220,
       "parentItem": "UASFFCE8",
       "itemType": "note",
-      "note": "<div data-schema-version=\"9\"><p>2025 Editor\u2019s Choice Article</p>\n</div>",
+      "note": "<div data-schema-version=\"9\"><p>2025 Editor’s Choice Article</p>\n</div>",
       "tags": [],
       "relations": {},
       "dateAdded": "2026-02-25T17:20:10Z",
@@ -8241,7 +8691,7 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "The prior austenite grain (PAG) size of a low alloy high strength martensitic steel, AF9628, was refined by rapid austenitizing heat treatments at 825 and 850\u00a0\u00b0C. The reduction in PAG size of as high as 97% was obtained. After one rapid austenitizing cycle, the newly nucleated (small) PAGs were observed to be preferentially located at the prior austenite grain boundaries of starting microstructure, although a small number of fine PAGs were also observed in the interior of PAGs of starting microstructure. A more uniform distribution of fine PAGs was observed with an increase in the number of cycles. The average number of austenite nucleation sites in a given area was 43.4% higher at 850\u00a0\u00b0C than 825\u00a0\u00b0C after one cycle. A higher nucleation rate at 850\u00a0\u00b0C resulted in a smaller PAG size at this temperature than 825\u00a0\u00b0C after one and four cycles. A higher growth rate at 850\u00a0\u00b0C resulted in a larger PAG size at this temperature than 825\u00a0\u00b0C after sixteen cycles. Prior studies have discussed the role of growth rate in microstructure evolution during rapid austenitizing heat treatments at different temperatures and not the role of nucleation rate, which is discussed for the first time in current study. Furthermore, the X-ray diffraction results indicated a higher amount of retained austenite in the finest microstructure and it can affect the strength in these microstructures. This aspect of microstructure evolution is also not reported in prior studies on microstructural refinement with rapid austenitizing method.",
+      "abstractNote": "The prior austenite grain (PAG) size of a low alloy high strength martensitic steel, AF9628, was refined by rapid austenitizing heat treatments at 825 and 850 °C. The reduction in PAG size of as high as 97% was obtained. After one rapid austenitizing cycle, the newly nucleated (small) PAGs were observed to be preferentially located at the prior austenite grain boundaries of starting microstructure, although a small number of fine PAGs were also observed in the interior of PAGs of starting microstructure. A more uniform distribution of fine PAGs was observed with an increase in the number of cycles. The average number of austenite nucleation sites in a given area was 43.4% higher at 850 °C than 825 °C after one cycle. A higher nucleation rate at 850 °C resulted in a smaller PAG size at this temperature than 825 °C after one and four cycles. A higher growth rate at 850 °C resulted in a larger PAG size at this temperature than 825 °C after sixteen cycles. Prior studies have discussed the role of growth rate in microstructure evolution during rapid austenitizing heat treatments at different temperatures and not the role of nucleation rate, which is discussed for the first time in current study. Furthermore, the X-ray diffraction results indicated a higher amount of retained austenite in the finest microstructure and it can affect the strength in these microstructures. This aspect of microstructure evolution is also not reported in prior studies on microstructural refinement with rapid austenitizing method.",
       "publicationTitle": "Metallography, Microstructure, and Analysis",
       "publisher": "",
       "place": "",
@@ -8281,7 +8731,7 @@
           "type": 1
         },
         {
-          "tag": "Hall\u2013Petch effect",
+          "tag": "Hall–Petch effect",
           "type": 1
         },
         {
@@ -8436,7 +8886,7 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "Improved modeling of the flow response of aluminum alloys is needed for quality\ncontrol during forging of components in aerospace and automotive applications.\nIn this work, the flow behavior of aluminum alloy 2618 during plastic deformation in the range of 300-450 \u00b0C is characterized under strain rates\nbetween 0.001/s and 1.0/s using strain rate jump compression tests on a Gleeble 3500 thermomechanical tester. Nonlinear optimization is used to fit model parameters to the experimental observations. Several constitutive models are considered, including Johnson-Cook, Power law, and Arrhenius-type. The Lin-Wagoner model provides an accurate reproduction of the stress-strain behavior under transient strain rate conditions if the \u201cA\u201d parameter (corresponding to yield strength at the reference condition) is allowed to vary linearly with temperature. The flow stress response is rationalized through characterization of microstructure after deformation under different strain rate and temperature conditions.",
+      "abstractNote": "Improved modeling of the flow response of aluminum alloys is needed for quality\ncontrol during forging of components in aerospace and automotive applications.\nIn this work, the flow behavior of aluminum alloy 2618 during plastic deformation in the range of 300-450 °C is characterized under strain rates\nbetween 0.001/s and 1.0/s using strain rate jump compression tests on a Gleeble 3500 thermomechanical tester. Nonlinear optimization is used to fit model parameters to the experimental observations. Several constitutive models are considered, including Johnson-Cook, Power law, and Arrhenius-type. The Lin-Wagoner model provides an accurate reproduction of the stress-strain behavior under transient strain rate conditions if the “A” parameter (corresponding to yield strength at the reference condition) is allowed to vary linearly with temperature. The flow stress response is rationalized through characterization of microstructure after deformation under different strain rate and temperature conditions.",
       "presentationType": "Oral presentation in the symposium \"In Tribute to Robert Wagoner: A Pioneer in Metal Forming and Constitutive Modeling\"",
       "date": "2026-03-17",
       "meetingName": "The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition",
@@ -8633,7 +9083,7 @@
           "lastName": "Kim"
         }
       ],
-      "abstractNote": "In this work, we employ first-principles calculations to explore the potential of 2D-Nb2C and Nb2CO2 MXenes as anode materials for sodium- and lithium-ion batteries. Our study reveals that Li/Na intercalation induces electronic changes without significant structural distortion, as indicated by Raman spectra. Adsorption energy calculations show T4 and H3 as the most favorable sites for Nb2C and Nb2CO2, respectively, with stronger adsorption observed in oxygen-functionalized two dimensional Nb2CO2. Diffusion barrier analyses highlight a trade-off between ion mobility and adsorption stability. While Nb2CO2 ensures better charge retention due to strong adsorption and higher open circuit voltages, Nb\u2082C offers lower diffusion barriers\u2014especially for Na\u2014favoring fast ion transport. Bader charge analysis underscores the role of oxygen functionalization in enhancing charge transfer but increasing migration resistance. Electronic structure results confirm the metallic nature of both MXenes, with dominant Nb(d) contributions facilitating efficient electron transport. Despite Li-based systems achieving higher theoretical capacities, Na-based systems show competitive performance, particularly with Nb2C, offering a low-cost and sustainable alternative. Our findings provide critical insights into the design of next-generation anode materials, emphasizing surface engineering to optimize performance for scalable energy storage technologies.",
+      "abstractNote": "In this work, we employ first-principles calculations to explore the potential of 2D-Nb2C and Nb2CO2 MXenes as anode materials for sodium- and lithium-ion batteries. Our study reveals that Li/Na intercalation induces electronic changes without significant structural distortion, as indicated by Raman spectra. Adsorption energy calculations show T4 and H3 as the most favorable sites for Nb2C and Nb2CO2, respectively, with stronger adsorption observed in oxygen-functionalized two dimensional Nb2CO2. Diffusion barrier analyses highlight a trade-off between ion mobility and adsorption stability. While Nb2CO2 ensures better charge retention due to strong adsorption and higher open circuit voltages, Nb₂C offers lower diffusion barriers—especially for Na—favoring fast ion transport. Bader charge analysis underscores the role of oxygen functionalization in enhancing charge transfer but increasing migration resistance. Electronic structure results confirm the metallic nature of both MXenes, with dominant Nb(d) contributions facilitating efficient electron transport. Despite Li-based systems achieving higher theoretical capacities, Na-based systems show competitive performance, particularly with Nb2C, offering a low-cost and sustainable alternative. Our findings provide critical insights into the design of next-generation anode materials, emphasizing surface engineering to optimize performance for scalable energy storage technologies.",
       "presentationType": "Oral presentation in the symposium \"2D Materials: Synthesis, Properties, and Applications\"",
       "date": "2025-10-01",
       "meetingName": "MS&T25: Materials Science & Technology",
@@ -8976,7 +9426,7 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "Computational screening metrics through which the additive manufacturability of novel refractory high-entropy alloys can be rapidly assessed are investigated, with a focus on laser powder bed fusion. The rapid heating and cooling experienced in both laser powder bed fusion and laser directed energy deposition additive manufacturing techniques result in a processing regime that differs from conventional casting- and welding-based hot crack susceptibility metrics. Calculation of phase diagrams (CALPHAD) is used to predict possible phases, alloy compositions, and freezing ranges for a database of 100 alloys published in the literature, and it is shown that several established metrics can differ substantially from one another. A new additive manufacturing cracking susceptibility criterion is proposed, based on Pearson correlation with cumulative crack lengths observed in laser glaze experiments on selected alloys. Equilibrium freezing range was most correlated with cumulative crack length (Pearson r = 0.89), followed by the Scheil freezing range (r = 0.84) and Pugh\u2019s G/B ratio (r = \u2013\u00a00.90). Combined metrics, such as further improved predictive capability with correlations. Established crack susceptibility indices like Kou CSI (r = 0.54) and Clyne CSC (r = -0.86) were found to be less predictive for RHEAs under LPBF conditions.",
+      "abstractNote": "Computational screening metrics through which the additive manufacturability of novel refractory high-entropy alloys can be rapidly assessed are investigated, with a focus on laser powder bed fusion. The rapid heating and cooling experienced in both laser powder bed fusion and laser directed energy deposition additive manufacturing techniques result in a processing regime that differs from conventional casting- and welding-based hot crack susceptibility metrics. Calculation of phase diagrams (CALPHAD) is used to predict possible phases, alloy compositions, and freezing ranges for a database of 100 alloys published in the literature, and it is shown that several established metrics can differ substantially from one another. A new additive manufacturing cracking susceptibility criterion is proposed, based on Pearson correlation with cumulative crack lengths observed in laser glaze experiments on selected alloys. Equilibrium freezing range was most correlated with cumulative crack length (Pearson r = 0.89), followed by the Scheil freezing range (r = 0.84) and Pugh’s G/B ratio (r = – 0.90). Combined metrics, such as further improved predictive capability with correlations. Established crack susceptibility indices like Kou CSI (r = 0.54) and Clyne CSC (r = -0.86) were found to be less predictive for RHEAs under LPBF conditions.",
       "publicationTitle": "JOM",
       "publisher": "",
       "place": "",
@@ -8986,7 +9436,7 @@
       "section": "",
       "partNumber": "",
       "partTitle": "",
-      "pages": "7222\u20137234",
+      "pages": "7222–7234",
       "series": "",
       "seriesTitle": "",
       "seriesText": "",
@@ -9127,7 +9577,7 @@
       "section": "",
       "partNumber": "",
       "partTitle": "",
-      "pages": "7247\u20137263",
+      "pages": "7247–7263",
       "series": "",
       "seriesTitle": "",
       "seriesText": "",
@@ -9852,8 +10302,8 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "Refractory complex concentrated alloys (RCCAs) are notable for their high-temperature mechanical properties but less studied for low-temperature thermal behavior. CALPHAD high-throughput calculations were employed to investigate the BCC phase predominance within the Nbx(MoTi2V4)1-x alloy system. Niobium (Nb) addition at atomic concentrations of x= 9%, 23%, and 37% were investigated to discern their influence on the superconducting transition temperature (Tc), all while sustaining a nearly constant Valence Electron Concentration (VEC) of 4.9. This approach challenges the prevalent assumption of VEC's correlation with the Tc, aiming to identify potential deviations. Button specimens, cast via vacuum arc melting, underwent electrical resistivity assessments at varied temperatures, utilizing a Quantum Design DynaCool system. Microstructural and phase analysis was performed using analytical microscopy. Findings, analyzed alongside existing literature, were interpreted through Matthias\u2019 rules, aiming to deepen understanding of VEC's influence on superconductivity.",
-      "presentationType": "Oral presentation in the symposium \"High Entropy Materials: Concentrated Solid Solutions, Intermetallics, Ceramics, Functional Materials and Beyond V \u2014 Session V\"",
+      "abstractNote": "Refractory complex concentrated alloys (RCCAs) are notable for their high-temperature mechanical properties but less studied for low-temperature thermal behavior. CALPHAD high-throughput calculations were employed to investigate the BCC phase predominance within the Nbx(MoTi2V4)1-x alloy system. Niobium (Nb) addition at atomic concentrations of x= 9%, 23%, and 37% were investigated to discern their influence on the superconducting transition temperature (Tc), all while sustaining a nearly constant Valence Electron Concentration (VEC) of 4.9. This approach challenges the prevalent assumption of VEC's correlation with the Tc, aiming to identify potential deviations. Button specimens, cast via vacuum arc melting, underwent electrical resistivity assessments at varied temperatures, utilizing a Quantum Design DynaCool system. Microstructural and phase analysis was performed using analytical microscopy. Findings, analyzed alongside existing literature, were interpreted through Matthias’ rules, aiming to deepen understanding of VEC's influence on superconductivity.",
+      "presentationType": "Oral presentation in the symposium \"High Entropy Materials: Concentrated Solid Solutions, Intermetallics, Ceramics, Functional Materials and Beyond V — Session V\"",
       "date": "2024-10-08",
       "meetingName": "MS&T24: Materials Science & Technology",
       "place": "Pittsburgh, PA",
@@ -9953,7 +10403,7 @@
           "lastName": "Kumar"
         }
       ],
-      "abstractNote": "Current welding standards that are applied to additive manufacturing for Ti-6Al-4V (Ti64) specify acceptable colors for a heat-treated specimen. The present work continues investigations into the conditions under which the surface oxide scale color provides an accurate indication of underlying oxygen content and/or alpha case depth \u2013 for example, if the color results from the final step in treatment or a culmination of the entire heat treatment process. 35 specimens were heat treated at four temperatures and a variety of times to assess the effect that heat exposure has on the color and near-surface oxygen content of the specimen. The relationship between mass gain, oxide thickness, and oxide color was characterized as a function of heat treatment time and temperature. It is anticipated that a model relating oxide thickness to heat treatment conditions will help improve standards for welding and additive manufacturing of Ti64 in the future.",
+      "abstractNote": "Current welding standards that are applied to additive manufacturing for Ti-6Al-4V (Ti64) specify acceptable colors for a heat-treated specimen. The present work continues investigations into the conditions under which the surface oxide scale color provides an accurate indication of underlying oxygen content and/or alpha case depth – for example, if the color results from the final step in treatment or a culmination of the entire heat treatment process. 35 specimens were heat treated at four temperatures and a variety of times to assess the effect that heat exposure has on the color and near-surface oxygen content of the specimen. The relationship between mass gain, oxide thickness, and oxide color was characterized as a function of heat treatment time and temperature. It is anticipated that a model relating oxide thickness to heat treatment conditions will help improve standards for welding and additive manufacturing of Ti64 in the future.",
       "presentationType": "Poster presentation in the symposium \"2024 Graduate Student Poster Contest\"",
       "date": "2024-10-08",
       "meetingName": "MS&T24: Materials Science & Technology",
@@ -10070,7 +10520,7 @@
         }
       ],
       "abstractNote": "Refractory high entropy alloys (RHEAs) have received significant attention for their remarkable strength at very high temperatures making these alloys interesting for extreme environment applications. However, conventional thermomechanical processing remains extremely challenging. Researchers have proposed additive manufacturing as a potential solution for taking advantage of RHEA properties. This paper investigates screening metrics through which the additive manufacturability of RHEAs can be assessed, with focus on laser powder bed fusion. Crack susceptibility criteria are calculated using calculation of phase diagrams (CALPHAD) approach. Solidification predictions are used to predict possible phases, alloy compositions, and freezing-ranges for database of alloys published in literature. Cracking susceptibility differences and melt pool behavior are quantified and compared for key arc-melted alloy pairs, the correlation between crack propagation and microstructure are analyzed using scanning electron microscopy, electron backscatter diffraction, and energy dispersive spectroscopy. An assessment of prospects for additive manufacturing processability prediction for RHEAs will be presented.",
-      "presentationType": "Oral presentation in the symposium \"High Entropy Materials: Concentrated Solid Solutions, Intermetallics, Ceramics, Functional Materials and Beyond V \u2014 Session I\"",
+      "presentationType": "Oral presentation in the symposium \"High Entropy Materials: Concentrated Solid Solutions, Intermetallics, Ceramics, Functional Materials and Beyond V — Session I\"",
       "date": "2024-10-07",
       "meetingName": "MS&T24: Materials Science & Technology",
       "place": "Pittsburgh, PA",
@@ -10399,7 +10849,7 @@
       "note": "",
       "contentType": "application/pdf",
       "charset": "",
-      "filename": "Ochieze et al. - 2025 - High-Temperature Oxidation and Thermal Expansion Behavior of {NbTi\u2013X (X = 5Co, 10Cr, 10Ni, 10CoCrNi).pdf",
+      "filename": "Ochieze et al. - 2025 - High-Temperature Oxidation and Thermal Expansion Behavior of {NbTi–X (X = 5Co, 10Cr, 10Ni, 10CoCrNi).pdf",
       "md5": "33108fd849e2dde529f8165b1621e696",
       "mtime": 1753392682376,
       "tags": [],
@@ -10648,7 +11098,7 @@
           "lastName": "Woodfield"
         }
       ],
-      "abstractNote": "The software in the zip file supports relates to the report \"Cold Dwell Fatigue of Titanium Alloys: History, Current State, and Aviation Industry Perspective,\u201d available at https://doi.org/10.21949/rfzv-6285\n\nSoftware Description: One version of the application is available for download in a zip format. Once downloaded, the file can be unzipped and placed anywhere on a system that is Python capable, or it can be copied onto a flash drive or other media that can be used on a system that is Python capable. One file for the application installation is available for download: 1. PW24-Ti-Microtexture-Workflow-v2.0.1-Pubicly-Released",
+      "abstractNote": "The software in the zip file supports relates to the report \"Cold Dwell Fatigue of Titanium Alloys: History, Current State, and Aviation Industry Perspective,” available at https://doi.org/10.21949/rfzv-6285\n\nSoftware Description: One version of the application is available for download in a zip format. Once downloaded, the file can be unzipped and placed anywhere on a system that is Python capable, or it can be copied onto a flash drive or other media that can be used on a system that is Python capable. One file for the application installation is available for download: 1. PW24-Ti-Microtexture-Workflow-v2.0.1-Pubicly-Released",
       "seriesTitle": "",
       "versionNumber": "",
       "date": "2024-11-13",
@@ -10955,7 +11405,7 @@
       "key": "BF83HZB4",
       "version": 1168,
       "itemType": "conferencePaper",
-      "title": "On the\u00a0Formation of\u00a0Multiply Coherent Gamma Grains in\u00a0a\u00a0Powder Metallurgy Ni Base Superalloy",
+      "title": "On the Formation of Multiply Coherent Gamma Grains in a Powder Metallurgy Ni Base Superalloy",
       "creators": [
         {
           "creatorType": "author",
@@ -11000,7 +11450,7 @@
         {
           "creatorType": "editor",
           "firstName": "Corey",
-          "lastName": "O\u2019Connell"
+          "lastName": "O’Connell"
         },
         {
           "creatorType": "editor",
@@ -11023,7 +11473,7 @@
           "lastName": "Zhang"
         }
       ],
-      "abstractNote": "In this study, a unique microstructure where gamma grains contain multiple coherent primary \ngamma prime particles is reported. We term these unique features \u201cmultiply coherent grains\u201d (MCGs). While the gamma grains containing coherent primary gamma prime particles suggest the heteroepitaxial recrystallization (HeRX) mechanism, HeRX can only explain the presence of a single coherent primary gamma prime within a given gamma grain, not multiple. Other potential formation mechanisms of MCGs are assessed using combined energy dispersive spectroscopy and electron backscatter diffraction, then a likely formation mechanism is posited. The median grain size of MCGs surpasses other gamma grains, which shows the potential impact of MCG formation on the grain size distribution.",
+      "abstractNote": "In this study, a unique microstructure where gamma grains contain multiple coherent primary \ngamma prime particles is reported. We term these unique features “multiply coherent grains” (MCGs). While the gamma grains containing coherent primary gamma prime particles suggest the heteroepitaxial recrystallization (HeRX) mechanism, HeRX can only explain the presence of a single coherent primary gamma prime within a given gamma grain, not multiple. Other potential formation mechanisms of MCGs are assessed using combined energy dispersive spectroscopy and electron backscatter diffraction, then a likely formation mechanism is posited. The median grain size of MCGs surpasses other gamma grains, which shows the potential impact of MCG formation on the grain size distribution.",
       "proceedingsTitle": "Proceedings of the 15th International Symposium on Superalloys",
       "conferenceName": "Superalloys 2024",
       "publisher": "Springer Nature Switzerland",
@@ -11126,7 +11576,7 @@
           "lastName": "Miller"
         }
       ],
-      "abstractNote": "In this study, a unique microstructure with \u03b3 grains which contain with multiple coherent primary \u03b3' particles is reported. We term these unique features \u201cmultiply coherent grains\u201d (MCGs). While the \u03b3 grains containing coherent primary \u03b3' particles suggests the heteroepitaxial recrystallization (HeRX) mechanism, HeRX can only explain the presence of a single coherent primary \u03b3', not multiple. Other potential formation mechanisms for the MCGs are examined, and a formation mechanism based on a special case of Smith-Zener pinning-unpinning is proposed. The implications of the proposed mechanism on grain size evolution are discussed.",
+      "abstractNote": "In this study, a unique microstructure with γ grains which contain with multiple coherent primary γ' particles is reported. We term these unique features “multiply coherent grains” (MCGs). While the γ grains containing coherent primary γ' particles suggests the heteroepitaxial recrystallization (HeRX) mechanism, HeRX can only explain the presence of a single coherent primary γ', not multiple. Other potential formation mechanisms for the MCGs are examined, and a formation mechanism based on a special case of Smith-Zener pinning-unpinning is proposed. The implications of the proposed mechanism on grain size evolution are discussed.",
       "presentationType": "Poster presentation",
       "date": "2024-09-11",
       "meetingName": "Superalloys 2024: 15th International Symposium on Superalloys",
@@ -11339,7 +11789,7 @@
           "lastName": "Voellmecke"
         }
       ],
-      "abstractNote": "Improper welding of Ti-6Al-4V (Ti64) can lead to both surface oxidation and oxygen diffusion into the bulk, known as alpha case. Given the applications of Ti64 in critical structures, particularly in the aerospace domain, stringent guidelines are followed to determine weld acceptability. These are largely based on visual inspection of the color presented in the weld\u2019s heat-affected zone. In the present work, we analyze LCh color space data acquired through spectrophotometry of thermally oxidized Ti64 samples to determine the relationship of surface color with oxide layer thickness and alpha case depth. Samples were exposed for 2-210 minutes at temperatures ranging from 482-900\u00b0C. Surface color values were quantified, and cross-sectional microstructures were analyzed. Results show a correlation between the growth rates of the oxide and alpha case layers for oxide thicknesses greater than 0.5 microns, and a relationship between color and oxide thickness below 0.6 microns. Furthermore, the surface color was observed to transition through several repetitive cycles \u2013 called orders \u2013 before reaching a final, limiting color. While surface color has long been used to predict titanium weld quality, these standards do not consider the important cyclic nature of the color transitions, leading to the potential acceptance of substandard welds.",
+      "abstractNote": "Improper welding of Ti-6Al-4V (Ti64) can lead to both surface oxidation and oxygen diffusion into the bulk, known as alpha case. Given the applications of Ti64 in critical structures, particularly in the aerospace domain, stringent guidelines are followed to determine weld acceptability. These are largely based on visual inspection of the color presented in the weld’s heat-affected zone. In the present work, we analyze LCh color space data acquired through spectrophotometry of thermally oxidized Ti64 samples to determine the relationship of surface color with oxide layer thickness and alpha case depth. Samples were exposed for 2-210 minutes at temperatures ranging from 482-900°C. Surface color values were quantified, and cross-sectional microstructures were analyzed. Results show a correlation between the growth rates of the oxide and alpha case layers for oxide thicknesses greater than 0.5 microns, and a relationship between color and oxide thickness below 0.6 microns. Furthermore, the surface color was observed to transition through several repetitive cycles – called orders – before reaching a final, limiting color. While surface color has long been used to predict titanium weld quality, these standards do not consider the important cyclic nature of the color transitions, leading to the potential acceptance of substandard welds.",
       "thesisType": "MS Thesis",
       "university": "University of Cincinnati",
       "place": "Cincinnati, OH, USA",
@@ -11558,8 +12008,8 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "Medium-entropy alloy systems with the potential to exhibit protective oxide films, high strength and ductility were explored in this study, with emphasis on the microstructural evolution, oxidation behavior and mechanical properties of NbTi-based alloys containing 5-10 at% Co, Cr, and Ni. Predictions from CALPHAD suggest that this composition range can be heat treated to obtain predominantly body-centered cubic matrix. However, results obtained via analytical microscopy show that the addition of 10 at% Cr to NbTi resulted in two bcc phases up to 1050 \u00b0C. All alloys exhibit mechanical softening between room temperature and 800 \u00b0C, with high flow stresses at 400 \u00b0C. All alloys exhibited good ductility, with some alloys exhibiting potentially superplastic behavior. From the discontinuous oxidation tests results, NbTi-10Ni and NbTi-5Co exhibited parabolic oxidation kinetics while NbTi-10Cr and NbTi-10(CoCrNi) had linear oxidation kinetics, though NbTi-10Cr exhibited a sluggish linear oxidation at 800 \u00b0C.",
-      "presentationType": "Oral presentation in the symposium \"High Entropy Materials: Concentrated Solid Solutions, Intermetallics, Ceramics, Functional Materials and Beyond V \u2014 Session V\"",
+      "abstractNote": "Medium-entropy alloy systems with the potential to exhibit protective oxide films, high strength and ductility were explored in this study, with emphasis on the microstructural evolution, oxidation behavior and mechanical properties of NbTi-based alloys containing 5-10 at% Co, Cr, and Ni. Predictions from CALPHAD suggest that this composition range can be heat treated to obtain predominantly body-centered cubic matrix. However, results obtained via analytical microscopy show that the addition of 10 at% Cr to NbTi resulted in two bcc phases up to 1050 °C. All alloys exhibit mechanical softening between room temperature and 800 °C, with high flow stresses at 400 °C. All alloys exhibited good ductility, with some alloys exhibiting potentially superplastic behavior. From the discontinuous oxidation tests results, NbTi-10Ni and NbTi-5Co exhibited parabolic oxidation kinetics while NbTi-10Cr and NbTi-10(CoCrNi) had linear oxidation kinetics, though NbTi-10Cr exhibited a sluggish linear oxidation at 800 °C.",
+      "presentationType": "Oral presentation in the symposium \"High Entropy Materials: Concentrated Solid Solutions, Intermetallics, Ceramics, Functional Materials and Beyond V — Session V\"",
       "date": "2024-10-08",
       "meetingName": "MS&T24: Materials Science & Technology",
       "place": "Pittsburgh, PA",
@@ -11650,7 +12100,7 @@
         }
       ],
       "abstractNote": "Established indexes for predicting hot cracking susceptibility exhibit limited agreement with experiments for additive manufacturing of new refractory alloys. A recently published approach from Giorjao, et al. provides a means of prediction through assuming the Scheil solidification profile of a given alloy can represent its interdendritic wall geometry. Laminar flow simulations are performed with this profile mirrored about a central axis creating a funnel. Laminar flow in this geometry creates a pressure difference which is hypothesized to correlate with crack susceptibility. While the method described shows promise, no sensitivity study for the parameters has yet been published. Pressure drop simulations were automated in COMSOL Multiphysics software with the aid of Python to evaluate where the boundary conditions of validity are found in these parameters used in the model. Results are subsequently compared to laser glazing experiments on four RHEAs.",
-      "presentationType": "Poster presentation in the symposium \"Additive Manufacturing Modeling, Simulation, and Machine Learning: Microstructure, Mechanics, and Process \u2014 Poster Session\"",
+      "presentationType": "Poster presentation in the symposium \"Additive Manufacturing Modeling, Simulation, and Machine Learning: Microstructure, Mechanics, and Process — Poster Session\"",
       "date": "2024-10-08",
       "meetingName": "MS&T24: Materials Science & Technology",
       "place": "Pittsburgh, PA",
@@ -12468,7 +12918,7 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "The orientation relationship (OR) between the crystallographic variants of martensite in prior austenite grains is a function of austenite composition at the time of transformation, making the OR indicative of thermal history. It can, however, be challenging to distinguish between martensite, bainite, and\nferritic phases in some steel microstructure. Electron backscatter diffraction (EBSD) is an established technique for investigating crystallographic information such as crystallographic phase or grain boundary misorientation, including the well-known Kurdjumov\u2013Sachs and Nishiyama\u2013Wassermann OR models. This research investigates how the correlation of measured ORs in different steel weld regions can be utilized to predict thermal history. Crystallographic variants are characterized using EBSD while the orientation relationship is analyzed within the MTEX MATLAB toolbox. The correlation between the parent and product orientation relationship is demonstrated as a potential approach\nfor forensic metallurgy of pipeline steel welds.",
+      "abstractNote": "The orientation relationship (OR) between the crystallographic variants of martensite in prior austenite grains is a function of austenite composition at the time of transformation, making the OR indicative of thermal history. It can, however, be challenging to distinguish between martensite, bainite, and\nferritic phases in some steel microstructure. Electron backscatter diffraction (EBSD) is an established technique for investigating crystallographic information such as crystallographic phase or grain boundary misorientation, including the well-known Kurdjumov–Sachs and Nishiyama–Wassermann OR models. This research investigates how the correlation of measured ORs in different steel weld regions can be utilized to predict thermal history. Crystallographic variants are characterized using EBSD while the orientation relationship is analyzed within the MTEX MATLAB toolbox. The correlation between the parent and product orientation relationship is demonstrated as a potential approach\nfor forensic metallurgy of pipeline steel welds.",
       "presentationType": "Oral presentation in the symposium \"Developments in Plate and Line Pipe Steels\"",
       "date": "2025-09-30",
       "meetingName": "MS&T25: Materials Science & Technology",
@@ -12564,7 +13014,7 @@
           "lastName": "Payton"
         }
       ],
-      "abstractNote": "The potential of exploiting the chemistry of MXenes to tailor novel functional\nproperties has led to interest in these 2D materials for diverse applications.\nMost MXene synthesis has relied on the top-down etching method, leaving alternative approaches mostly unexplored. Chemical vapor deposition (CVD) has seen limited application in MXene processing. In this study, CVD was\nemployed to synthesize refractory metal carbides based on Mo, Nb, and V as MXene\nprecursors. By modulating the partial pressures of H\u2082 and CH\u2084, the stoichiometry of the resulting carbide crystals was manipulated. A\nthermodynamic analysis was performed to assess stability and predict the\nformation of carbides. The synthesis products were characterized using Rietveld refinement of X-ray diffraction data, which confirmed the successful formation of carbides under various CVD conditions. Discrepancy between experimentally observed carbides and thermodynamic analysis will be discussed. The results provide valuable insight into CVD as a method for MXene synthesis.",
+      "abstractNote": "The potential of exploiting the chemistry of MXenes to tailor novel functional\nproperties has led to interest in these 2D materials for diverse applications.\nMost MXene synthesis has relied on the top-down etching method, leaving alternative approaches mostly unexplored. Chemical vapor deposition (CVD) has seen limited application in MXene processing. In this study, CVD was\nemployed to synthesize refractory metal carbides based on Mo, Nb, and V as MXene\nprecursors. By modulating the partial pressures of H₂ and CH₄, the stoichiometry of the resulting carbide crystals was manipulated. A\nthermodynamic analysis was performed to assess stability and predict the\nformation of carbides. The synthesis products were characterized using Rietveld refinement of X-ray diffraction data, which confirmed the successful formation of carbides under various CVD conditions. Discrepancy between experimentally observed carbides and thermodynamic analysis will be discussed. The results provide valuable insight into CVD as a method for MXene synthesis.",
       "presentationType": "Oral Presentation in the symposium \"2D Materials: Synthesis, Properties, and Applications\"",
       "date": "2025-10-01",
       "meetingName": "MS&T25: Materials Science & Technology",

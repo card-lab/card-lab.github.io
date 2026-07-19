@@ -45,9 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-bea7b4c11dd979bccb9d51503fdadf31.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-21bf8c0a1e66cffa9f330d8795d083cb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-bea7b4c11dd979bccb9d51503fdadf31.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f30ae05844c9c2421e99f5ac470e73aa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-5a41e36de926dc097631de8523358e01.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f30ae05844c9c2421e99f5ac470e73aa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:site_name" content="Critical Alloy Research &amp; Discovery Lab">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -147,15 +147,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#publications" id="toc-publications" class="nav-link active" data-scroll-target="#publications">Publications</a></li>
-  <li><a href="#contributions" id="toc-contributions" class="nav-link" data-scroll-target="#contributions">Contributions</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <div class="quarto-about-trestles">
   <div class="about-entity">
@@ -190,7 +182,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
   </div>
   <div class="about-contents"><main class="content" id="quarto-document-content">
-
 <!-- card-lab-authorship-name: Nguyen, A. -->
 <div class="member-range-source" data-member-range="January 2024 to May 2024"></div>
 <script>
@@ -224,33 +215,8 @@ document.addEventListener("DOMContentLoaded", function () {
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 <script>(function(){function c(s){switch(s){case 'gold':return 'oa-gold';case 'green':return 'oa-green';case 'bronze':return 'oa-bronze';case 'hybrid':return 'oa-hybrid';case 'diamond':return 'oa-diamond';default:return 'oa-unknown';}}function d(t){if(!t)return null;const m=t.match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i);return m?m[0].toLowerCase().replace(/[.,;]$/,''):null;}async function e(){const n=[...document.querySelectorAll('.csl-entry,.citation')];const map=new Map();const dois=[];n.forEach((node)=>{let doi=null;for(const a of node.querySelectorAll('a[href]')){const h=a.getAttribute('href')||'';const k=h.includes('doi.org/')?h.split('doi.org/').pop():null;doi=d(k||a.textContent||h);if(doi)break;}if(!doi)doi=d(node.textContent||'');if(doi){map.set(doi,node);dois.push(doi);}});if(!dois.length)return;const chunks=[];for(let i=0;i<dois.length;i+=100)chunks.push(dois.slice(i,i+100));const works=[];for(const p of chunks){const f=p.map((x)=>encodeURIComponent(x)).join('|');try{const r=await fetch(`https://api.openalex.org/works?filter=doi:${f}`);if(!r.ok)continue;const j=await r.json();if(Array.isArray(j.results))works.push(...j.results);}catch(_){}}works.forEach((w)=>{const doi=(w.doi||'').replace(/^https?:\/\/doi.org\//i,'').toLowerCase();const node=map.get(doi);if(!node||node.querySelector('[data-people-citation-badges]'))return;const b=document.createElement('span');b.className='citation-badges';b.setAttribute('data-people-citation-badges','1');const a=document.createElement('span');a.className='altmetric-embed';a.setAttribute('data-badge-type','4');a.setAttribute('data-doi',doi);a.setAttribute('data-hide-no-mentions','true');b.appendChild(a);const dm=document.createElement('span');dm.className='__dimensions_badge_embed__';dm.setAttribute('data-style','small_rectangle');dm.setAttribute('data-doi',doi);dm.setAttribute('data-hide-zero-citations','true');b.appendChild(dm);if(w.open_access&&w.open_access.is_oa&&w.open_access.oa_url){const ol=document.createElement('a');ol.href=w.open_access.oa_url;ol.target='_blank';ol.className='oa-icon-link oa-icon '+c(w.open_access.oa_status||'unknown');const oi=document.createElement('span');oi.className='iconify';oi.setAttribute('data-icon','academicons:open-access');oi.setAttribute('data-width','20');oi.setAttribute('data-height','20');ol.appendChild(oi);b.appendChild(ol);const arr=w.open_access.oa_urls||[];const rx=/\.pdf(\?|$)/i;let pdf=null;if(Array.isArray(arr)){const pe=arr.find((x)=>rx.test((x&&x.url)||''));if(pe)pdf=pe.url;}if(!pdf&&rx.test(w.open_access.oa_url))pdf=w.open_access.oa_url;if(pdf){const pl=document.createElement('a');pl.href=pdf;pl.target='_blank';pl.className='pdf-icon-link pdf-icon';const pi=document.createElement('span');pi.className='iconify';pi.setAttribute('data-icon','mdi:file-pdf-box');pi.setAttribute('data-width','20');pi.setAttribute('data-height','20');pl.appendChild(pi);b.appendChild(pl);}}const inlineTarget=node.querySelector('.csl-right-inline')||node;inlineTarget.appendChild(b);});if(typeof _altmetric_embed_init==='function')_altmetric_embed_init();if(window.__dimensions_embed&&window.__dimensions_embed.addBadges)window.__dimensions_embed.addBadges();if(window.Iconify&&window.Iconify.scan)window.Iconify.scan();}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',e);}else{e();}})();</script>
-<section id="publications" class="level1">
-<h1>Publications</h1>
-<div class="csl-bib-body" style="line-height: 1.35; ">
-<div class="csl-entry" style="clear: left; ">
-<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. T. Oriola, J. D. Maile, A. Nguyen, H. Do, R. Kumar, and E. J. Payton, “Screening of Refractory High-Entropy Alloy Solidification Behavior Through Laser Glazing,” <i>JOM</i>, vol. 77, pp. 7247–7263, Aug. 2025, doi: <a href="https://doi.org/10.1007/s11837-025-07620-8.">10.1007/s11837-025-07620-8.</a></div>
-</div><div class="csl-entry" style="clear: left; ">
-<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">A. T. Oriola, J. D. Maile, A. Nguyen, and E. J. Payton, “Toward an index for predicting additive manufacturability of refractory high-entropy alloys,” <i>JOM</i>, vol. 77, pp. 7222–7234, Jul. 2025, doi: <a href="https://doi.org/10.1007/s11837-025-07552-3.">10.1007/s11837-025-07552-3.</a></div>
-</div><div class="csl-entry" style="clear: left; ">
-<div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 1em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">J. D. Maile, A. T. Oriola, I. P. Giblin, A. Nguyen, and E. J. Payton, “Assessment of hot cracking susceptibility through interdendritic feeding simulations,” <i>Integr. Mater. Manuf. Innov.</i>, vol. 14, pp. 212–226, Jun. 2025, doi: <a href="https://doi.org/10.1007/s40192-025-00403-8.">10.1007/s40192-025-00403-8.</a></div>
-</div></div>
-</section>
-<section id="contributions" class="level1">
-<h1>Contributions</h1>
-<div class="csl-bib-body" style="line-height: 1.35; ">
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[3]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>J. D. Maile</em> (presenter), A. T. Oriola, A. Nguyen, E. J. Payton. (2024-10-08). Assessment of New Hot Crack Susceptibility Index Based on Interdendritic Pressure Drop Simulations. <em>MS&amp;T24: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/MST24" target="_blank">https://www.matscitech.org/MST24</a>.</div>
-  </div>
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[2]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>A. T. Oriola</em> (presenter), A. Nguyen, U. P. Ochieze, S. Josyula, H. Do, J. Maile, A. T. McMillen, W. C. Voellmecke, E. J. Payton. (2024-10-07). Additive manufacturing feasibility of refractory high entropy alloys. <em>MS&amp;T24: Materials Science &amp; Technology</em>. <a href="https://www.matscitech.org/MST24" target="_blank">https://www.matscitech.org/MST24</a>.</div>
-  </div>
-  <div class="csl-entry" style="clear: left; ">
-    <div class="csl-left-margin" style="float: left; padding-right: 0.5em; text-align: right; width: 2em;">[1]</div><div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;"><em>E. J. Payton</em> (presenter), A. T. Oriola, A. Nguyen, H. Do, L. Sun, J. Maile. (2024-08-20). Additive manufacturing feasibility of refractory high entropy alloys. <em>32nd International Materials Research Congress (IMRC2024)</em>. <a href="https://www.mrs-mexico.org.mx/imrc2024" target="_blank">https://www.mrs-mexico.org.mx/imrc2024</a>.</div>
-  </div>
-</div>
 
 
-</section>
 </main></div>
 </div>
  <!-- /main -->
