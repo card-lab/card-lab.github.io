@@ -494,16 +494,28 @@ document.addEventListener('DOMContentLoaded', () => {
     
     async function fetchZoteroItems() {
     try {
-        const localResponse = await fetch('./files/zotero-group-library.json');
+        const localResponse = await fetch('../files/zotero-group-library.json');
         if (!localResponse.ok) {
             throw new Error(`Cache fetch failed: ${localResponse.status} ${localResponse.statusText}`);
         }
         return localResponse.json();
     } catch (cacheError) {
         console.warn('Falling back to live Zotero API:', cacheError.message);
-        const response = await fetch(`https://api.zotero.org/groups/${ZOTERO_GROUP_ID}/items?format=json&limit=5000`);
-        if (!response.ok) throw new Error(`Error fetching live data: ${response.statusText}`);
-        return response.json();
+        // The Zotero API caps each response at 100 items regardless of the
+        // requested limit, so a single fetch silently truncates the library.
+        // Page through with start/limit until a short page signals the end.
+        const pageSize = 100;
+        let start = 0;
+        const allItems = [];
+        while (true) {
+            const response = await fetch(`https://api.zotero.org/groups/${ZOTERO_GROUP_ID}/items?format=json&limit=${pageSize}&start=${start}`);
+            if (!response.ok) throw new Error(`Error fetching live data: ${response.statusText}`);
+            const items = await response.json();
+            allItems.push(...items);
+            if (items.length < pageSize) break;
+            start += pageSize;
+        }
+        return allItems;
     }
     }
     
