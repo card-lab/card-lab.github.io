@@ -1,27 +1,37 @@
 [
   {
+    "listing": "/capabilities/facilities.html",
+    "items": [
+      "/capabilities/capital-resources/fea.html",
+      "/capabilities/capital-resources/cfd.html",
+      "/capabilities/capital-resources/calphad.html",
+      "/capabilities/capital-resources/rollingmill.html",
+      "/capabilities/capital-resources/arcmelting.html"
+    ]
+  },
+  {
     "listing": "/people/alumni.html",
     "items": [
       "/people/alumni/Okey_Obioha.html",
       "/people/alumni/Chris_Le.html",
       "/people/alumni/Praise_Robert.html",
-      "/people/alumni/Zach_Miller.html",
       "/people/alumni/Nishat_Sultana.html",
-      "/people/alumni/Meiyan_Timberlake.html",
+      "/people/alumni/Zach_Miller.html",
+      "/people/alumni/Priam_Tyagi.html",
       "/people/alumni/Vinay_Oruganti.html",
       "/people/alumni/Logan_Herr.html",
-      "/people/alumni/Priam_Tyagi.html",
+      "/people/alumni/Meiyan_Timberlake.html",
       "/people/alumni/Aaron_McMillen.html",
-      "/people/alumni/Emilie_Maddox.html",
-      "/people/alumni/Josh_Maile.html",
-      "/people/alumni/Bill_Voellmecke.html",
       "/people/alumni/Gwynn_Pitz.html",
       "/people/alumni/Sravya_Josyula.html",
+      "/people/alumni/Emilie_Maddox.html",
+      "/people/alumni/Josh_Maile.html",
       "/people/alumni/Darrian_Mathis.html",
-      "/people/alumni/Tobi_Oriola.html",
+      "/people/alumni/Bill_Voellmecke.html",
       "/people/alumni/Phillisity_Neal.html",
       "/people/alumni/Ben_Honeck.html",
       "/people/alumni/Ravi_Kumar.html",
+      "/people/alumni/Tobi_Oriola.html",
       "/people/alumni/Ian_Giblin.html",
       "/people/alumni/Likun_Sun.html",
       "/people/alumni/Zoey_Jestude.html",
@@ -33,30 +43,20 @@
   {
     "listing": "/people/current.html",
     "items": [
-      "/people/current/Philip_Ochieze.html",
-      "/people/current/Talan_Saucedo-Lovejoy.html",
-      "/people/current/Sajjad_Hasan.html",
-      "/people/current/Nick_Jackson.html",
-      "/people/current/Alan_Do.html",
-      "/people/current/Yasmin_Horri.html",
       "/people/current/Alice_Oladipo.html",
-      "/people/current/Yuval_Noiman.html",
+      "/people/current/Philip_Ochieze.html",
+      "/people/current/Cameron_Gulley.html",
+      "/people/current/Ananth_Balasubramanian.html",
+      "/people/current/Talan_Saucedo-Lovejoy.html",
+      "/people/current/Yateendra_Guthula.html",
       "/people/current/Weihao_Li.html",
       "/people/current/Elif_Dursun.html",
-      "/people/current/Yateendra_Guthula.html",
-      "/people/current/Ananth_Balasubramanian.html",
-      "/people/current/Cameron_Gulley.html",
-      "/people/current/Emily_Crawley.html"
-    ]
-  },
-  {
-    "listing": "/capabilities/facilities.html",
-    "items": [
-      "/capabilities/capital-resources/fea.html",
-      "/capabilities/capital-resources/cfd.html",
-      "/capabilities/capital-resources/calphad.html",
-      "/capabilities/capital-resources/rollingmill.html",
-      "/capabilities/capital-resources/arcmelting.html"
+      "/people/current/Yuval_Noiman.html",
+      "/people/current/Nick_Jackson.html",
+      "/people/current/Sajjad_Hasan.html",
+      "/people/current/Emily_Crawley.html",
+      "/people/current/Yasmin_Horri.html",
+      "/people/current/Alan_Do.html"
     ]
   }
 ]

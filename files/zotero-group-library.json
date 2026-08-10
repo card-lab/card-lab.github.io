@@ -1,5 +1,540 @@
 [
   {
+    "key": "PHK6IEAE",
+    "version": 1776,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/PHK6IEAE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/PHK6IEAE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Earle, Jarin et al.",
+      "parsedDate": "2026",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "PHK6IEAE",
+      "version": 1776,
+      "itemType": "podcast",
+      "title": "Science Shouldn't Be A Luxury",
+      "creators": [
+        {
+          "creatorType": "podcaster",
+          "name": "Earle, Jarin"
+        },
+        {
+          "creatorType": "podcaster",
+          "name": "Yavitt, Ben"
+        },
+        {
+          "creatorType": "podcaster",
+          "name": "Payton, Eric J."
+        }
+      ],
+      "abstractNote": "",
+      "seriesTitle": "",
+      "episodeNumber": "",
+      "audioFileType": "",
+      "date": "2026",
+      "publisher": "University of Cincinnati",
+      "place": "",
+      "runningTime": "",
+      "DOI": "10.7945/9JKZ-2M42",
+      "citationKey": "earlejarinScienceShouldntBe",
+      "url": "https://scholar.uc.edu/show/q524jq55h",
+      "accessDate": "2026-07-24T21:51:01Z",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "AXRFTF8T"
+      ],
+      "relations": {},
+      "dateAdded": "2026-07-24T21:51:01Z",
+      "dateModified": "2026-07-24T21:51:28Z"
+    }
+  },
+  {
+    "key": "8ZWZDR9Z",
+    "version": 1773,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/8ZWZDR9Z",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/8ZWZDR9Z",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Whiters, Kennedy et al.",
+      "parsedDate": "2024",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "8ZWZDR9Z",
+      "version": 1773,
+      "itemType": "podcast",
+      "title": "Do Not Fear Failure",
+      "creators": [
+        {
+          "creatorType": "podcaster",
+          "name": "Whiters, Kennedy"
+        },
+        {
+          "creatorType": "podcaster",
+          "name": "Rowe, Annette R."
+        },
+        {
+          "creatorType": "podcaster",
+          "name": "Payton, Eric J."
+        }
+      ],
+      "abstractNote": "",
+      "seriesTitle": "",
+      "episodeNumber": "",
+      "audioFileType": "",
+      "date": "2024",
+      "publisher": "University of Cincinnati",
+      "place": "Cincinnati, OH, USA",
+      "runningTime": "",
+      "DOI": "10.7945/D9KF-7Y79",
+      "citationKey": "whiterskennedyNotFearFailure",
+      "url": "https://scholar.uc.edu/show/1z40kv57m",
+      "accessDate": "2026-07-24T21:49:35Z",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "AXRFTF8T"
+      ],
+      "relations": {},
+      "dateAdded": "2026-07-24T21:49:35Z",
+      "dateModified": "2026-07-24T21:50:05Z"
+    }
+  },
+  {
+    "key": "32ATFJJJ",
+    "version": 1769,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/32ATFJJJ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/32ATFJJJ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Collins, Trevon",
+      "parsedDate": "2026",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "32ATFJJJ",
+      "version": 1769,
+      "itemType": "podcast",
+      "title": "Bubbles and Biases: Demystifying Research and Sustainability",
+      "creators": [
+        {
+          "creatorType": "podcaster",
+          "name": "Collins, Trevon"
+        },
+        {
+          "creatorType": "contributor",
+          "name": "Bellur, Kishan"
+        },
+        {
+          "creatorType": "executiveProducer",
+          "name": "Payton, Eric"
+        }
+      ],
+      "abstractNote": "Through my college journey, the terms “research” and “zero-emissions” have become central to my academic identity. Not just because they reflect both my lab experience and keen interest in sustainable tech, but because they evoke a personal question that many high school seniors and college underclassmen grapple with: what does it mean to be a scientist? I’m Trevon Collins, a mechanical engineering student at Tennessee Technological University. In this podcast episode, I’ll share the answers I’ve found through investigating age-old secrets of phase change and their implications for the green transition.",
+      "seriesTitle": "Realize REU",
+      "episodeNumber": "",
+      "audioFileType": "mp3",
+      "date": "2026",
+      "publisher": "University of Cincinnati",
+      "place": "Cincinnati, OH, USA",
+      "runningTime": "",
+      "DOI": "10.7945/Y6M5-2F09",
+      "citationKey": "collinstrevonBubblesBiasesDemystifying",
+      "url": "https://scholar.uc.edu/show/n583xw82r",
+      "accessDate": "2026-07-24T18:41:16Z",
+      "shortTitle": "Bubbles and Biases",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "AXRFTF8T"
+      ],
+      "relations": {},
+      "dateAdded": "2026-07-24T18:41:16Z",
+      "dateModified": "2026-07-24T18:44:35Z"
+    }
+  },
+  {
+    "key": "SXXCV5GW",
+    "version": 1757,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/SXXCV5GW",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/SXXCV5GW",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton et al.",
+      "parsedDate": "2026-06-22",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "SXXCV5GW",
+      "version": 1757,
+      "itemType": "journalArticle",
+      "title": "On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstructures",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. B.",
+          "lastName": "Dursun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Eggeler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "L.",
+          "lastName": "Agudo Jácome"
+        }
+      ],
+      "abstractNote": "In the present work we use electron backscatter diffraction (EBSD) in the scanning electron microscope (SEM) to study the evolution of local misorientations in the γ/γ´ microstructure of a single crystal Ni-based superalloy after exposures to creep conditions in the high temperature and low stress field. Sampling fields of statistically relevant dimensions were evaluated (16 x 12 µm2, corresponding to almost 1000 γ´ particles in the initial state). We apply a new method that allows for differentiation between diffraction signals from γ and γ´ phase regions. The spatial relationships between locations where misorientation accumulation occurs are investigated for dendritic and interdendritic regions loaded along the [001] and [110] crystallographic directions. Increases in intra- and inter-phase misorientation are observed as dislocation density increases, then saturates. The higher dislocation densities in γ channels than in γ´ particles seen by transmission electron microscopy are shown to be statistically stored on the micron size scale. Geometrically necessary misorientations are observed to cancel each other out over the macroscopic scale, resulting in no detectable macroscopic change in crystal orientation for total accumulated plastic strains of 6%. The limitations of the methods are discussed and areas in need of further work are highlighted.",
+      "publicationTitle": "Advanced Engineering Materials",
+      "publisher": "Wiley",
+      "place": "",
+      "date": "2026-06-22",
+      "volume": "in press",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "e71119",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1002/adem.71119",
+      "citationKey": "paytonEffectCreepLocal2025",
+      "url": "",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Creep"
+        },
+        {
+          "tag": "Electron backscatter diffraction (EBSD)"
+        },
+        {
+          "tag": "Gamma/gamma prime microstructure"
+        },
+        {
+          "tag": "Misorientations"
+        },
+        {
+          "tag": "Ni-based superalloys"
+        }
+      ],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {
+        "owl:sameAs": "http://zotero.org/groups/6314892/items/5QAYMH8R"
+      },
+      "dateAdded": "2026-01-27T11:54:21Z",
+      "dateModified": "2026-07-24T16:41:04Z"
+    }
+  },
+  {
+    "key": "Z7FM4RH4",
+    "version": 1756,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/Z7FM4RH4",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/Z7FM4RH4",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/5985739/items/SXXCV5GW",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "Z7FM4RH4",
+      "version": 1756,
+      "parentItem": "SXXCV5GW",
+      "itemType": "attachment",
+      "linkMode": "imported_file",
+      "title": "PDF",
+      "accessDate": "",
+      "url": "",
+      "note": "",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "Payton et al. - 2026 - On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstru.pdf",
+      "md5": "147e8a80f6d51fce4d6ca99f0493d654",
+      "mtime": 1784911225212,
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-07-24T16:40:25Z",
+      "dateModified": "2026-07-24T16:40:25Z"
+    }
+  },
+  {
+    "key": "X5EIIH4M",
+    "version": 1754,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/X5EIIH4M",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/X5EIIH4M",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Josyula et al.",
+      "parsedDate": "2026-07-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "X5EIIH4M",
+      "version": 1754,
+      "itemType": "preprint",
+      "title": "Physics-augmented machine learning for predicting martensite transformation temperatures in shape memory alloys",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Sravya",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuval",
+          "lastName": "Noiman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthew Alan",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning (ML) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of ML models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor (ETR) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the ML model, an R2 value of 0.99 can be reached.",
+      "genre": "Journal Article",
+      "repository": "SSRN",
+      "archiveID": "7064979",
+      "place": "Original research article under review at Materials Research Innovations",
+      "date": "2026-07-06",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.2139/ssrn.7064979",
+      "citationKey": "josyulaPhysicsaugmentedMachineLearning2025",
+      "url": "https://dx.doi.org/10.2139/ssrn.7064979",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2025-08-18T09:31:33Z",
+      "dateModified": "2026-07-24T11:43:16Z"
+    }
+  },
+  {
     "key": "F4DZD777",
     "version": 1749,
     "library": {
@@ -60,130 +595,6 @@
       "relations": {},
       "dateAdded": "2026-07-07T15:37:45Z",
       "dateModified": "2026-07-07T15:37:45Z"
-    }
-  },
-  {
-    "key": "SXXCV5GW",
-    "version": 1747,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/SXXCV5GW",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/SXXCV5GW",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton et al.",
-      "parsedDate": "2026-06-22",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "SXXCV5GW",
-      "version": 1747,
-      "itemType": "journalArticle",
-      "title": "On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstructures",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. B.",
-          "lastName": "Dursun"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "G.",
-          "lastName": "Eggeler"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "L.",
-          "lastName": "Agudo Jácome"
-        }
-      ],
-      "abstractNote": "In the present work we use electron backscatter diffraction (EBSD) in the scanning electron microscope (SEM) to study the evolution of local misorientations in the γ/γ´ microstructure of a single crystal Ni-based superalloy after exposures to creep conditions in the high temperature and low stress field. Sampling fields of statistically relevant dimensions were evaluated (16 x 12 µm2, corresponding to almost 1000 γ´ particles in the initial state). We apply a new method that allows for differentiation between diffraction signals from γ and γ´ phase regions. The spatial relationships between locations where misorientation accumulation occurs are investigated for dendritic and interdendritic regions loaded along the [001] and [110] crystallographic directions. Increases in intra- and inter-phase misorientation are observed as dislocation density increases, then saturates. The higher dislocation densities in γ channels than in γ´ particles seen by transmission electron microscopy are shown to be statistically stored on the micron size scale. Geometrically necessary misorientations are observed to cancel each other out over the macroscopic scale, resulting in no detectable macroscopic change in crystal orientation for total accumulated plastic strains of 6%. The limitations of the methods are discussed and areas in need of further work are highlighted.",
-      "publicationTitle": "Advanced Engineering Materials",
-      "publisher": "Wiley",
-      "place": "",
-      "date": "2026-06-22",
-      "volume": "in press",
-      "issue": "",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "",
-      "DOI": "10.1002/adem.71119",
-      "citationKey": "paytonEffectCreepLocal2025",
-      "url": "",
-      "accessDate": "",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Creep"
-        },
-        {
-          "tag": "Electron backscatter diffraction (EBSD)"
-        },
-        {
-          "tag": "Gamma/gamma prime microstructure"
-        },
-        {
-          "tag": "Misorientations"
-        },
-        {
-          "tag": "Ni-based superalloys"
-        }
-      ],
-      "collections": [
-        "DYSCMR9B"
-      ],
-      "relations": {
-        "owl:sameAs": "http://zotero.org/groups/6314892/items/5QAYMH8R"
-      },
-      "dateAdded": "2026-01-27T11:54:21Z",
-      "dateModified": "2026-07-07T13:20:08Z"
     }
   },
   {
@@ -763,101 +1174,6 @@
       "relations": {},
       "dateAdded": "2026-07-06T13:05:51Z",
       "dateModified": "2026-07-06T13:07:47Z"
-    }
-  },
-  {
-    "key": "X5EIIH4M",
-    "version": 1690,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/X5EIIH4M",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/X5EIIH4M",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Josyula et al.",
-      "parsedDate": "2026-07-06",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "X5EIIH4M",
-      "version": 1690,
-      "itemType": "manuscript",
-      "title": "Physics-augmented machine learning for predicting martensite transformation temperatures in shape memory alloys",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Sravya",
-          "lastName": "Josyula"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Yuval",
-          "lastName": "Noiman"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matthew Alan",
-          "lastName": "Steiner"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning (ML) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of ML models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor (ETR) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the ML model, an R2 value of 0.99 can be reached.",
-      "manuscriptType": "Journal Article",
-      "institution": "",
-      "place": "Original research article under review at Materials Research Innovations",
-      "date": "2026-07-06",
-      "numPages": "",
-      "number": "",
-      "DOI": "",
-      "citationKey": "josyulaPhysicsaugmentedMachineLearning2025",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2025-08-18T09:31:33Z",
-      "dateModified": "2026-07-06T12:22:22Z"
     }
   },
   {
