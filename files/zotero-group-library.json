@@ -1,7 +1,243 @@
 [
   {
+    "key": "8HR3RF47",
+    "version": 1840,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/8HR3RF47",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/8HR3RF47",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/5985739/items/SNBBT9IA",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      }
+    },
+    "data": {
+      "key": "8HR3RF47",
+      "version": 1840,
+      "parentItem": "SNBBT9IA",
+      "itemType": "attachment",
+      "linkMode": "imported_url",
+      "title": "Snapshot",
+      "accessDate": "2026-08-17T16:03:21Z",
+      "url": "https://www.epa.gov/ghgemissions/electric-power-sector-emissions",
+      "note": "",
+      "contentType": "text/html",
+      "charset": "utf-8",
+      "filename": "electric-power-sector-emissions.html",
+      "md5": "214de43305002926a7f1135a2fb035f2",
+      "mtime": 1786982601200,
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-08-17T16:03:21Z",
+      "dateModified": "2026-08-17T16:03:21Z"
+    }
+  },
+  {
+    "key": "W8CWXTA7",
+    "version": 1837,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/W8CWXTA7",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/W8CWXTA7",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Jett Barham",
+      "parsedDate": "2026",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "W8CWXTA7",
+      "version": 1837,
+      "itemType": "podcast",
+      "title": "The Silent Technology Securing American Electrification",
+      "creators": [
+        {
+          "creatorType": "podcaster",
+          "name": "Jett Barham"
+        },
+        {
+          "creatorType": "contributor",
+          "name": "Matthew A. Steiner"
+        },
+        {
+          "creatorType": "executiveProducer",
+          "name": "Eric J. Payton"
+        }
+      ],
+      "abstractNote": "Rare earth elements. They are a hot topic in the news... but why? What technologies are they used in? Jett Barham, a materials engineering major at University of Kentucky, describes his summer doing research at University of Cincinnati and how new magnet research could shape the global energy landscape.",
+      "seriesTitle": "",
+      "episodeNumber": "",
+      "audioFileType": "",
+      "date": "2026",
+      "publisher": "University of Cincinnati",
+      "place": "Cincinnati, OH, USA",
+      "runningTime": "",
+      "DOI": "10.7945/nx1k-rf52",
+      "citationKey": "zotero-item-10592",
+      "url": "https://scholar.uc.edu/show/4j03d1369",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "AXRFTF8T"
+      ],
+      "relations": {},
+      "dateAdded": "2026-08-15T16:27:01Z",
+      "dateModified": "2026-08-15T17:58:00Z"
+    }
+  },
+  {
+    "key": "AH3FAWRS",
+    "version": 1836,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/AH3FAWRS",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/AH3FAWRS",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Jett Barham",
+      "parsedDate": "2026",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "AH3FAWRS",
+      "version": 1836,
+      "itemType": "podcast",
+      "title": "The Silent Technology Securing American Electrification - Alternate Version",
+      "creators": [
+        {
+          "creatorType": "podcaster",
+          "name": "Jett Barham"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Matthew A.",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "producer",
+          "name": "Corrie M. Mayer"
+        },
+        {
+          "creatorType": "executiveProducer",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Can magnets repel hurricanes? Well, no... but maybe new magnet technology could play a role in helping prevent future hurricanes. Jett Barham, a 4th year materials engineering undergraduate at the University of Kentucky explores motivations behind research into rare-earth free magnets while sharing his experience as a part of the 2026 REALIZE program at UC.",
+      "seriesTitle": "",
+      "episodeNumber": "",
+      "audioFileType": "",
+      "date": "2026",
+      "publisher": "University of Cincinnati",
+      "place": "Cincinnati, OH, USA",
+      "runningTime": "",
+      "DOI": "10.7945/mfpw-qe73",
+      "citationKey": "barhamSilentTechnologySecuring2026",
+      "url": "https://scholar.uc.edu/show/rb68xd82s",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "AXRFTF8T"
+      ],
+      "relations": {},
+      "dateAdded": "2026-08-15T17:55:33Z",
+      "dateModified": "2026-08-15T17:57:26Z"
+    }
+  },
+  {
     "key": "PHK6IEAE",
-    "version": 1776,
+    "version": 1826,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -35,27 +271,27 @@
           }
         }
       },
-      "creatorSummary": "Earle, Jarin et al.",
+      "creatorSummary": "Jarin O. Earle",
       "parsedDate": "2026",
       "numChildren": 0
     },
     "data": {
       "key": "PHK6IEAE",
-      "version": 1776,
+      "version": 1826,
       "itemType": "podcast",
       "title": "Science Shouldn't Be A Luxury",
       "creators": [
         {
           "creatorType": "podcaster",
-          "name": "Earle, Jarin"
+          "name": "Jarin O. Earle"
         },
         {
-          "creatorType": "podcaster",
-          "name": "Yavitt, Ben"
+          "creatorType": "contributor",
+          "name": "Benjamin M. Yavitt"
         },
         {
-          "creatorType": "podcaster",
-          "name": "Payton, Eric J."
+          "creatorType": "executiveProducer",
+          "name": "Eric J. Payton"
         }
       ],
       "abstractNote": "",
@@ -64,7 +300,7 @@
       "audioFileType": "",
       "date": "2026",
       "publisher": "University of Cincinnati",
-      "place": "",
+      "place": "Cincinnati, OH, USA",
       "runningTime": "",
       "DOI": "10.7945/9JKZ-2M42",
       "citationKey": "earlejarinScienceShouldntBe",
@@ -80,12 +316,12 @@
       ],
       "relations": {},
       "dateAdded": "2026-07-24T21:51:01Z",
-      "dateModified": "2026-07-24T21:51:28Z"
+      "dateModified": "2026-08-15T16:35:43Z"
     }
   },
   {
     "key": "8ZWZDR9Z",
-    "version": 1773,
+    "version": 1824,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -119,27 +355,27 @@
           }
         }
       },
-      "creatorSummary": "Whiters, Kennedy et al.",
+      "creatorSummary": "Kennedy D. Whiters",
       "parsedDate": "2024",
       "numChildren": 0
     },
     "data": {
       "key": "8ZWZDR9Z",
-      "version": 1773,
+      "version": 1824,
       "itemType": "podcast",
       "title": "Do Not Fear Failure",
       "creators": [
         {
           "creatorType": "podcaster",
-          "name": "Whiters, Kennedy"
+          "name": "Kennedy D. Whiters"
         },
         {
-          "creatorType": "podcaster",
-          "name": "Rowe, Annette R."
+          "creatorType": "contributor",
+          "name": "Annette R. Rowe"
         },
         {
-          "creatorType": "podcaster",
-          "name": "Payton, Eric J."
+          "creatorType": "executiveProducer",
+          "name": "Eric J. Payton"
         }
       ],
       "abstractNote": "",
@@ -164,12 +400,12 @@
       ],
       "relations": {},
       "dateAdded": "2026-07-24T21:49:35Z",
-      "dateModified": "2026-07-24T21:50:05Z"
+      "dateModified": "2026-08-15T16:35:16Z"
     }
   },
   {
     "key": "32ATFJJJ",
-    "version": 1769,
+    "version": 1823,
     "library": {
       "type": "group",
       "id": 5985739,
@@ -203,27 +439,31 @@
           }
         }
       },
-      "creatorSummary": "Collins, Trevon",
+      "creatorSummary": "Trevon L. Collins",
       "parsedDate": "2026",
       "numChildren": 0
     },
     "data": {
       "key": "32ATFJJJ",
-      "version": 1769,
+      "version": 1823,
       "itemType": "podcast",
       "title": "Bubbles and Biases: Demystifying Research and Sustainability",
       "creators": [
         {
           "creatorType": "podcaster",
-          "name": "Collins, Trevon"
+          "name": "Trevon L. Collins"
         },
         {
           "creatorType": "contributor",
-          "name": "Bellur, Kishan"
+          "name": "Ayaaz Yasin"
+        },
+        {
+          "creatorType": "contributor",
+          "name": "Kishan Bellur"
         },
         {
           "creatorType": "executiveProducer",
-          "name": "Payton, Eric"
+          "name": "Eric J. Payton"
         }
       ],
       "abstractNote": "Through my college journey, the terms “research” and “zero-emissions” have become central to my academic identity. Not just because they reflect both my lab experience and keen interest in sustainable tech, but because they evoke a personal question that many high school seniors and college underclassmen grapple with: what does it mean to be a scientist? I’m Trevon Collins, a mechanical engineering student at Tennessee Technological University. In this podcast episode, I’ll share the answers I’ve found through investigating age-old secrets of phase change and their implications for the green transition.",
@@ -248,7 +488,194 @@
       ],
       "relations": {},
       "dateAdded": "2026-07-24T18:41:16Z",
-      "dateModified": "2026-07-24T18:44:35Z"
+      "dateModified": "2026-08-15T16:34:49Z"
+    }
+  },
+  {
+    "key": "3EJASXZF",
+    "version": 1779,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/3EJASXZF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/3EJASXZF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Balasubramanian et al.",
+      "parsedDate": "2026-04-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "3EJASXZF",
+      "version": 1779,
+      "itemType": "preprint",
+      "title": "Mechanical behavior and characterization of the interface between wrought and wire-laser DED-processed Ti-6Al-4V",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Balasubramanian"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A. A.",
+          "lastName": "Oladipo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "",
+      "genre": "",
+      "repository": "SSRN",
+      "archiveID": "6141445",
+      "place": "Original research article under review at Journal of Materials Engineering and Performance",
+      "date": "2026-04-01",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.2139/ssrn.6141445",
+      "citationKey": "balasubramanianMechanicalBehaviorCharacterization2025",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2026-01-24T13:58:39Z",
+      "dateModified": "2026-08-12T18:14:22Z"
+    }
+  },
+  {
+    "key": "X5EIIH4M",
+    "version": 1778,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/X5EIIH4M",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/X5EIIH4M",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Josyula et al.",
+      "parsedDate": "2026-08-12",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "X5EIIH4M",
+      "version": 1778,
+      "itemType": "preprint",
+      "title": "Physics-augmented machine learning for predicting martensite transformation temperatures in shape memory alloys",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Sravya",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuval",
+          "lastName": "Noiman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthew Alan",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning (ML) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of ML models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor (ETR) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the ML model, an R2 value of 0.99 can be reached.",
+      "genre": "Journal Article",
+      "repository": "SSRN",
+      "archiveID": "7064979",
+      "place": "Original research article under review at JOM",
+      "date": "2026-08-12",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.2139/ssrn.7064979",
+      "citationKey": "josyulaPhysicsaugmentedMachineLearning2025",
+      "url": "https://dx.doi.org/10.2139/ssrn.7064979",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2025-08-18T09:31:33Z",
+      "dateModified": "2026-08-12T18:13:27Z"
     }
   },
   {
@@ -436,102 +863,6 @@
       "relations": {},
       "dateAdded": "2026-07-24T16:40:25Z",
       "dateModified": "2026-07-24T16:40:25Z"
-    }
-  },
-  {
-    "key": "X5EIIH4M",
-    "version": 1754,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/X5EIIH4M",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/X5EIIH4M",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Josyula et al.",
-      "parsedDate": "2026-07-06",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "X5EIIH4M",
-      "version": 1754,
-      "itemType": "preprint",
-      "title": "Physics-augmented machine learning for predicting martensite transformation temperatures in shape memory alloys",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Sravya",
-          "lastName": "Josyula"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Yuval",
-          "lastName": "Noiman"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matthew Alan",
-          "lastName": "Steiner"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning (ML) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of ML models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor (ETR) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the ML model, an R2 value of 0.99 can be reached.",
-      "genre": "Journal Article",
-      "repository": "SSRN",
-      "archiveID": "7064979",
-      "place": "Original research article under review at Materials Research Innovations",
-      "date": "2026-07-06",
-      "series": "",
-      "seriesNumber": "",
-      "DOI": "10.2139/ssrn.7064979",
-      "citationKey": "josyulaPhysicsaugmentedMachineLearning2025",
-      "url": "https://dx.doi.org/10.2139/ssrn.7064979",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2025-08-18T09:31:33Z",
-      "dateModified": "2026-07-24T11:43:16Z"
     }
   },
   {
@@ -5370,97 +5701,6 @@
       "relations": {},
       "dateAdded": "2026-06-24T19:18:47Z",
       "dateModified": "2026-06-24T19:18:57Z"
-    }
-  },
-  {
-    "key": "3EJASXZF",
-    "version": 1583,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/3EJASXZF",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/3EJASXZF",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Balasubramanian et al.",
-      "parsedDate": "2026-04-01",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "3EJASXZF",
-      "version": 1583,
-      "itemType": "preprint",
-      "title": "Mechanical behavior and characterization of the interface between wrought and wire-laser DED-processed Ti-6Al-4V",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "A.",
-          "lastName": "Balasubramanian"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "A. A.",
-          "lastName": "Oladipo"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "",
-      "genre": "",
-      "repository": "SSRN",
-      "archiveID": "",
-      "place": "Original research article under review at Journal of Materials Engineering and Performance",
-      "date": "2026-04-01",
-      "series": "",
-      "seriesNumber": "",
-      "DOI": "10.2139/ssrn.6141445",
-      "citationKey": "balasubramanianMechanicalBehaviorCharacterization2025",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2026-01-24T13:58:39Z",
-      "dateModified": "2026-06-23T17:56:40Z"
     }
   },
   {
