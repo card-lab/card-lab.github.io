@@ -1,5 +1,363 @@
 [
   {
+    "key": "QL2ELBMI",
+    "version": 703,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/QL2ELBMI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/QL2ELBMI",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Prokofiev et al.",
+      "parsedDate": "2010-08-31",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "QL2ELBMI",
+      "version": 703,
+      "itemType": "journalArticle",
+      "title": "Suppression of Ni<sub>4</sub>Ti<sub>3</sub> Precipitation by Grain Size Refinement in Ni-Rich NiTi Shape Memory Alloys",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Egor A.",
+          "lastName": "Prokofiev"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Juri A.",
+          "lastName": "Burow"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Zarnetta"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jan",
+          "lastName": "Frenzel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dmitry V.",
+          "lastName": "Gunderov"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ruslan Z.",
+          "lastName": "Valiev"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gunther",
+          "lastName": "Eggeler"
+        }
+      ],
+      "abstractNote": "Abstract\n            \nSevere plastic deformation (SPD) processes, such as equal channel angular pressing (ECAP) and high pressure torsion (HPT), are successfully employed to produce ultra fine grain (UFG) and nanocrystalline (NC) microstructures in a Ti–50.7 at% Ni shape memory alloy. The effect of grain size on subsequent Ni‐rich particle precipitation during annealing is investigated by transmission electron microscopy (TEM), selected area electron diffraction (SAD, SAED), and X‐ray diffraction (XRD). It is observed that Ni4Ti3 precipitation is suppressed in grains of cross‐sectional equivalent diameter below approximately 150 nm, and that particle coarsening is inhibited by very fine grain sizes. The results suggest that fine grain sizes impede precipitation processes by disrupting the formation of self‐accommodating particle arrays and that the arrays locally compensate for coherency strains during nucleation and growth.",
+      "publicationTitle": "Advanced Engineering Materials",
+      "publisher": "",
+      "place": "",
+      "date": "2010-08-31",
+      "volume": "12",
+      "issue": "8",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "747-753",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Adv Eng Mater",
+      "DOI": "10.1002/adem.201000101",
+      "citationKey": "prokofievSuppressionNi4Ti32010",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/adem.201000101",
+      "accessDate": "2025-09-08T02:29:18Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1438-1656, 1527-2648",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "callNumber": "",
+      "rights": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "DH5UPGCC"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-06T11:40:45Z",
+      "dateModified": "2026-09-14T12:41:39Z"
+    }
+  },
+  {
+    "key": "Q6NJWUTR",
+    "version": 702,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/Q6NJWUTR",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/Q6NJWUTR",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Frenzel et al.",
+      "parsedDate": "2011-04-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "Q6NJWUTR",
+      "version": 702,
+      "itemType": "journalArticle",
+      "title": "Improvement of NiTi Shape Memory Actuator Performance Through Ultra-Fine Grained and Nanocrystalline Microstructures",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jan",
+          "lastName": "Frenzel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Juri A.",
+          "lastName": "Burow"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stefan",
+          "lastName": "Rezanka"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gunther",
+          "lastName": "Eggeler"
+        }
+      ],
+      "abstractNote": "Abstract\n            Ultra‐fine grain sizes have been shown to enhance some key mechanical and functional properties of engineering materials, including shape memory alloys. While the effect of ultra‐fine and nanocrystalline grain sizes on pseudoelastic shape memory materials is well‐appreciated in medical device engineering, the effect of such microstructures on actuators has not been sufficiently characterized. In the present work, it is demonstrated that NiTi spring actuators with ultra‐fine grained microstructures can be obtained by conventional wire drawing in combination with heat treatments and that the final grain size can be controlled by varying the final annealing temperature. Annealing at 400 °C for 600 s allows for the evolution of microstructures with median grain sizes of about 34 nm, while annealing at 600 °C for the same length of time results in median grain sizes of about 5 µm. It is observed that the grain size strongly affects the elementary processes of the martensitic phase transformation. Small austenite grain sizes inhibit twinning accommodation of transformation strains, such that a higher driving force is required to nucleate martensite. This increase in the martensite nucleation barrier decreases the martensite transformation temperatures such that only partial transformation to martensite is possible upon cooling to room temperature. The incomplete martensitic transformation reduces the exploitable actuator stroke; however, a reduction in grain size is shown to improve the functional stability of the material during thermal and thermomechanical cycling by reducing the irreversible effects of dislocation plasticity.",
+      "publicationTitle": "Advanced Engineering Materials",
+      "publisher": "",
+      "place": "",
+      "date": "2011-04-01",
+      "volume": "13",
+      "issue": "4",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "256-268",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Adv Eng Mater",
+      "DOI": "10.1002/adem.201000285",
+      "citationKey": "frenzelImprovementNiTiShape2011",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/adem.201000285",
+      "accessDate": "2025-09-08T02:33:00Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1438-1656, 1527-2648",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "callNumber": "",
+      "rights": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "DH5UPGCC"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-06T11:40:45Z",
+      "dateModified": "2026-09-14T12:41:24Z"
+    }
+  },
+  {
+    "key": "2LNA8BH4",
+    "version": 701,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/2LNA8BH4",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/2LNA8BH4",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rao et al.",
+      "parsedDate": "2010-04-23",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "2LNA8BH4",
+      "version": 701,
+      "itemType": "journalArticle",
+      "title": "Where Does the Lithium Go? – A Study of the Precipitates in the Stir Zone of a Friction Stir Weld in a Li-containing 2xxx Series Al Alloy",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jiancun",
+          "lastName": "Rao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Somsen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Klaus",
+          "lastName": "Neuking"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gunther",
+          "lastName": "Eggeler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Aleksander",
+          "lastName": "Kostka"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jorge F.",
+          "lastName": "Dos Santos"
+        }
+      ],
+      "abstractNote": "The precipitates and microstructure features of the stir zone of friction stir welded 2198-T8 Al plates are studied. The primary strengthening precipitate phase (T1, Al2CuLi) dis- solves during friction stir welding, dumping significant amounts of Li into the matrix. The stir zone contains T1 and TB (Al7Cu4Li) particles that decorate the Al matrix grain boundaries, and b’/d’ (Al3(Li,Zr)) particles that are randomly distributed in the grain interior and appear to be of uniform composition. The result suggest that the Li atoms may form ternary precipitates with Al and Cu at the grain boundaries or coherent precipitates with Al and Zr in the grain interiors, or exist in a supersaturated solid solution in the Al matrix.",
+      "publicationTitle": "Advanced Engineering Materials",
+      "publisher": "",
+      "place": "",
+      "date": "2010-04-23",
+      "volume": "12",
+      "issue": "4",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "298-303",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Adv Eng Mater",
+      "DOI": "10.1002/adem.200900284",
+      "citationKey": "raoWhereDoesLithium2010",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/adem.200900284",
+      "accessDate": "2025-09-08T02:27:51Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1438-1656, 1527-2648",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Where Does the Lithium Go?",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "callNumber": "",
+      "rights": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "DH5UPGCC"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-06T11:40:45Z",
+      "dateModified": "2026-09-14T11:47:40Z"
+    }
+  },
+  {
     "key": "STEXNJQS",
     "version": 700,
     "library": {
@@ -6411,117 +6769,6 @@
     }
   },
   {
-    "key": "Q6NJWUTR",
-    "version": 575,
-    "library": {
-      "type": "group",
-      "id": 6542859,
-      "name": "paytonej-pre-ucinci",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/6542859/items/Q6NJWUTR",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/Q6NJWUTR",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Frenzel et al.",
-      "parsedDate": "2011-04-01",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "Q6NJWUTR",
-      "version": 575,
-      "itemType": "journalArticle",
-      "title": "Improvement of NiTi Shape Memory Actuator Performance Through Ultra‐Fine Grained and Nanocrystalline Microstructures",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Jan",
-          "lastName": "Frenzel"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Juri A.",
-          "lastName": "Burow"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Stefan",
-          "lastName": "Rezanka"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Gunther",
-          "lastName": "Eggeler"
-        }
-      ],
-      "abstractNote": "Abstract\n            Ultra‐fine grain sizes have been shown to enhance some key mechanical and functional properties of engineering materials, including shape memory alloys. While the effect of ultra‐fine and nanocrystalline grain sizes on pseudoelastic shape memory materials is well‐appreciated in medical device engineering, the effect of such microstructures on actuators has not been sufficiently characterized. In the present work, it is demonstrated that NiTi spring actuators with ultra‐fine grained microstructures can be obtained by conventional wire drawing in combination with heat treatments and that the final grain size can be controlled by varying the final annealing temperature. Annealing at 400 °C for 600 s allows for the evolution of microstructures with median grain sizes of about 34 nm, while annealing at 600 °C for the same length of time results in median grain sizes of about 5 µm. It is observed that the grain size strongly affects the elementary processes of the martensitic phase transformation. Small austenite grain sizes inhibit twinning accommodation of transformation strains, such that a higher driving force is required to nucleate martensite. This increase in the martensite nucleation barrier decreases the martensite transformation temperatures such that only partial transformation to martensite is possible upon cooling to room temperature. The incomplete martensitic transformation reduces the exploitable actuator stroke; however, a reduction in grain size is shown to improve the functional stability of the material during thermal and thermomechanical cycling by reducing the irreversible effects of dislocation plasticity.",
-      "publicationTitle": "Advanced Engineering Materials",
-      "publisher": "",
-      "place": "",
-      "date": "2011-04-01",
-      "volume": "13",
-      "issue": "4",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "256-268",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "Adv Eng Mater",
-      "DOI": "10.1002/adem.201000285",
-      "citationKey": "frenzelImprovementNiTiShape2011",
-      "url": "https://onlinelibrary.wiley.com/doi/10.1002/adem.201000285",
-      "accessDate": "2025-09-08T02:33:00Z",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "1438-1656, 1527-2648",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "en",
-      "libraryCatalog": "DOI.org (Crossref)",
-      "callNumber": "",
-      "rights": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "DH5UPGCC"
-      ],
-      "relations": {},
-      "dateAdded": "2026-05-06T11:40:45Z",
-      "dateModified": "2026-06-23T17:21:30Z"
-    }
-  },
-  {
     "key": "9Y7FN96V",
     "version": 574,
     "library": {
@@ -6847,253 +7094,6 @@
       "relations": {},
       "dateAdded": "2026-05-06T11:40:45Z",
       "dateModified": "2026-06-23T17:19:35Z"
-    }
-  },
-  {
-    "key": "2LNA8BH4",
-    "version": 571,
-    "library": {
-      "type": "group",
-      "id": 6542859,
-      "name": "paytonej-pre-ucinci",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/6542859/items/2LNA8BH4",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/2LNA8BH4",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Rao et al.",
-      "parsedDate": "2010-04-23",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "2LNA8BH4",
-      "version": 571,
-      "itemType": "journalArticle",
-      "title": "Where Does the Lithium Go? – A Study of the Precipitates in the Stir Zone of a Friction Stir Weld in a Li‐containing 2xxx Series Al Alloy",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Jiancun",
-          "lastName": "Rao"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Christoph",
-          "lastName": "Somsen"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Klaus",
-          "lastName": "Neuking"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Gunther",
-          "lastName": "Eggeler"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Aleksander",
-          "lastName": "Kostka"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Jorge F.",
-          "lastName": "Dos Santos"
-        }
-      ],
-      "abstractNote": "The precipitates and microstructure features of the stir zone of friction stir welded 2198-T8 Al plates are studied. The primary strengthening precipitate phase (T1, Al2CuLi) dis- solves during friction stir welding, dumping significant amounts of Li into the matrix. The stir zone contains T1 and TB (Al7Cu4Li) particles that decorate the Al matrix grain boundaries, and b’/d’ (Al3(Li,Zr)) particles that are randomly distributed in the grain interior and appear to be of uniform composition. The result suggest that the Li atoms may form ternary precipitates with Al and Cu at the grain boundaries or coherent precipitates with Al and Zr in the grain interiors, or exist in a supersaturated solid solution in the Al matrix.",
-      "publicationTitle": "Advanced Engineering Materials",
-      "publisher": "",
-      "place": "",
-      "date": "2010-04-23",
-      "volume": "12",
-      "issue": "4",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "298-303",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "Adv Eng Mater",
-      "DOI": "10.1002/adem.200900284",
-      "citationKey": "raoWhereDoesLithium2010",
-      "url": "https://onlinelibrary.wiley.com/doi/10.1002/adem.200900284",
-      "accessDate": "2025-09-08T02:27:51Z",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "1438-1656, 1527-2648",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "Where Does the Lithium Go?",
-      "language": "en",
-      "libraryCatalog": "DOI.org (Crossref)",
-      "callNumber": "",
-      "rights": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "DH5UPGCC"
-      ],
-      "relations": {},
-      "dateAdded": "2026-05-06T11:40:45Z",
-      "dateModified": "2026-06-23T17:18:48Z"
-    }
-  },
-  {
-    "key": "QL2ELBMI",
-    "version": 570,
-    "library": {
-      "type": "group",
-      "id": 6542859,
-      "name": "paytonej-pre-ucinci",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/6542859/items/QL2ELBMI",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/QL2ELBMI",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Prokofiev et al.",
-      "parsedDate": "2010-08-31",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "QL2ELBMI",
-      "version": 570,
-      "itemType": "journalArticle",
-      "title": "Suppression of Ni<sub>4</sub> Ti<sub>3</sub> Precipitation by Grain Size Refinement in Ni‐Rich NiTi Shape Memory Alloys",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Egor A.",
-          "lastName": "Prokofiev"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Juri A.",
-          "lastName": "Burow"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Robert",
-          "lastName": "Zarnetta"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Jan",
-          "lastName": "Frenzel"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Dmitry V.",
-          "lastName": "Gunderov"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Ruslan Z.",
-          "lastName": "Valiev"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Gunther",
-          "lastName": "Eggeler"
-        }
-      ],
-      "abstractNote": "Abstract\n            \nSevere plastic deformation (SPD) processes, such as equal channel angular pressing (ECAP) and high pressure torsion (HPT), are successfully employed to produce ultra fine grain (UFG) and nanocrystalline (NC) microstructures in a Ti–50.7 at% Ni shape memory alloy. The effect of grain size on subsequent Ni‐rich particle precipitation during annealing is investigated by transmission electron microscopy (TEM), selected area electron diffraction (SAD, SAED), and X‐ray diffraction (XRD). It is observed that Ni4Ti3 precipitation is suppressed in grains of cross‐sectional equivalent diameter below approximately 150 nm, and that particle coarsening is inhibited by very fine grain sizes. The results suggest that fine grain sizes impede precipitation processes by disrupting the formation of self‐accommodating particle arrays and that the arrays locally compensate for coherency strains during nucleation and growth.",
-      "publicationTitle": "Advanced Engineering Materials",
-      "publisher": "",
-      "place": "",
-      "date": "2010-08-31",
-      "volume": "12",
-      "issue": "8",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "747-753",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "Adv Eng Mater",
-      "DOI": "10.1002/adem.201000101",
-      "citationKey": "prokofievSuppressionNi4Ti32010",
-      "url": "https://onlinelibrary.wiley.com/doi/10.1002/adem.201000101",
-      "accessDate": "2025-09-08T02:29:18Z",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "1438-1656, 1527-2648",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "en",
-      "libraryCatalog": "DOI.org (Crossref)",
-      "callNumber": "",
-      "rights": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "DH5UPGCC"
-      ],
-      "relations": {},
-      "dateAdded": "2026-05-06T11:40:45Z",
-      "dateModified": "2026-06-23T17:18:37Z"
     }
   },
   {
