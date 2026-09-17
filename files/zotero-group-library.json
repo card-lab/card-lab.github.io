@@ -1,5 +1,578 @@
 [
   {
+    "key": "8EKWU47V",
+    "version": 1853,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/8EKWU47V",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/8EKWU47V",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2022-11-02",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "8EKWU47V",
+      "version": 1853,
+      "itemType": "presentation",
+      "title": "Microstructure Evolution in Laser Powder Bed Fusion",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Guest Lecture",
+      "date": "2022-11-02",
+      "meetingName": "MECH5179C/6079C – Introduction to Additive Manufacturing (Prof. A. E. Paz y Puente)",
+      "place": "University of Cincinnati, Cincinnati, OH",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10524",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "guest lecture"
+        },
+        {
+          "tag": "invited"
+        }
+      ],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-06-24T23:30:20Z",
+      "dateModified": "2026-09-14T11:43:32Z"
+    }
+  },
+  {
+    "key": "X3T3IKQ9",
+    "version": 1852,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/X3T3IKQ9",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/X3T3IKQ9",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ochieze",
+      "parsedDate": "2024-10-08",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "X3T3IKQ9",
+      "version": 1852,
+      "itemType": "presentation",
+      "title": "Influence of Co, Cr, and Ni Alloying Elements on the Microstructural, Oxidation and Mechanical behavior of NbTi-Based Alloys",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Ugochukwu Philip",
+          "lastName": "Ochieze"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Likun",
+          "lastName": "Sun"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Nicholas",
+          "lastName": "Simpson"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Sravya",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Matthew Alan",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Medium-entropy alloy systems with the potential to exhibit protective oxide films, high strength and ductility were explored in this study, with emphasis on the microstructural evolution, oxidation behavior and mechanical properties of NbTi-based alloys containing 5-10 at% Co, Cr, and Ni. Predictions from CALPHAD suggest that this composition range can be heat treated to obtain predominantly body-centered cubic matrix. However, results obtained via analytical microscopy show that the addition of 10 at% Cr to NbTi resulted in two bcc phases up to 1050 °C. All alloys exhibit mechanical softening between room temperature and 800 °C, with high flow stresses at 400 °C. All alloys exhibited good ductility, with some alloys exhibiting potentially superplastic behavior. From the discontinuous oxidation tests results, NbTi-10Ni and NbTi-5Co exhibited parabolic oxidation kinetics while NbTi-10Cr and NbTi-10(CoCrNi) had linear oxidation kinetics, though NbTi-10Cr exhibited a sluggish linear oxidation at 800 °C.",
+      "presentationType": "Oral presentation in the symposium \"High Entropy Materials: Concentrated Solid Solutions, Intermetallics, Ceramics, Functional Materials and Beyond V — Session V\"",
+      "date": "2024-10-08",
+      "meetingName": "MS&T24: Materials Science & Technology",
+      "place": "Pittsburgh, PA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "ocheizeInfluenceCoCr2024",
+      "url": "https://www.matscitech.org/MST24",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2025-07-07T23:48:09Z",
+      "dateModified": "2026-09-14T06:06:06Z"
+    }
+  },
+  {
+    "key": "U8NNYID7",
+    "version": 1851,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/U8NNYID7",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/U8NNYID7",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Oriola",
+      "parsedDate": "2023-10-03",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "U8NNYID7",
+      "version": 1851,
+      "itemType": "presentation",
+      "title": "Additive manufacturing feasibility of MoNbTi Refractory Complex Concentrated Alloys",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "A. T.",
+          "lastName": "Oriola"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "R.",
+          "lastName": "Kumar"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "U. P.",
+          "lastName": "Ochieze"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "S.",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "G. H.",
+          "lastName": "Balbus"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "A. E.",
+          "lastName": "Paz y Puente"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Poster presentation in the symposium “High Entropy Materials: Concentrated Solid Solutions, Intermetallic, Ceramics, Functional Materials and Beyond IV\"",
+      "date": "2023-10-03",
+      "meetingName": "The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology",
+      "place": "Columbus, OH",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "oriolaAdditiveManufacturingFeasibility2023",
+      "url": "https://www.matscitech.org/MST23/",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2025-06-03T19:15:04Z",
+      "dateModified": "2026-09-14T04:49:56Z"
+    }
+  },
+  {
+    "key": "IYJZFEYT",
+    "version": 1849,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/IYJZFEYT",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/IYJZFEYT",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Oruganti",
+      "parsedDate": "2024-10-08",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "IYJZFEYT",
+      "version": 1849,
+      "itemType": "presentation",
+      "title": "SPG-50: Phase field modelling of microtubes formation in NiTi shape memory alloys",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "V.",
+          "lastName": "Oruganti"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "S.",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "R.",
+          "lastName": "Kumar"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "A. E.",
+          "lastName": "Paz y Puente"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Phase field is an important approach for simulating microstructure evolution at the mesoscale. Within the domain of polycrystalline metals, vacancy transport exerts a clear influence on microstructural changes. The vacancy dynamics and pore nucleation in the Ni-Ti alloy system are explained by the sharp interface phase field model. This research aims to simulate and understand the formation and evolution of Kirkendall pores near the center of Ti-coated Ni wires during interdiffusion, resulting in the creation of NiTi shape memory alloy microtubes. The sharp interface model was implemented in multiphysics software and different boundary conditions were explored to gain a greater understanding of the pore nucleation process that leads to microtube formation. The role of various simulation conditions in producing agreements and discrepancies with experimental observations will be discussed, along with prospects for connecting CALPHAD mobility databases to multiphysics software to investigate other alloy systems.",
+      "presentationType": "Poster presentation in the symposium \"2024 Graduate Student Poster Contest\"",
+      "date": "2024-10-08",
+      "meetingName": "MS&T24: Materials Science & Technology",
+      "place": "Pittsburgh, PA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "orugantiSPG50PhaseField2024",
+      "url": "https://www.matscitech.org/MST24",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2025-06-03T19:15:04Z",
+      "dateModified": "2026-09-14T04:48:26Z"
+    }
+  },
+  {
+    "key": "SXXCV5GW",
+    "version": 1847,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/SXXCV5GW",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/SXXCV5GW",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton et al.",
+      "parsedDate": "2026-06-22",
+      "numChildren": 2
+    },
+    "data": {
+      "key": "SXXCV5GW",
+      "version": 1847,
+      "itemType": "journalArticle",
+      "title": "On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstructures",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. B.",
+          "lastName": "Dursun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "G.",
+          "lastName": "Eggeler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "L.",
+          "lastName": "Agudo Jácome"
+        }
+      ],
+      "abstractNote": "In the present work we use electron backscatter diffraction (EBSD) in the scanning electron microscope (SEM) to study the evolution of local misorientations in the γ/γ´ microstructure of a single crystal Ni-based superalloy after exposures to creep conditions in the high temperature and low stress field. Sampling fields of statistically relevant dimensions were evaluated (16 x 12 µm2, corresponding to almost 1000 γ´ particles in the initial state). We apply a new method that allows for differentiation between diffraction signals from γ and γ´ phase regions. The spatial relationships between locations where misorientation accumulation occurs are investigated for dendritic and interdendritic regions loaded along the [001] and [110] crystallographic directions. Increases in intra- and inter-phase misorientation are observed as dislocation density increases, then saturates. The higher dislocation densities in γ channels than in γ´ particles seen by transmission electron microscopy are shown to be statistically stored on the micron size scale. Geometrically necessary misorientations are observed to cancel each other out over the macroscopic scale, resulting in no detectable macroscopic change in crystal orientation for total accumulated plastic strains of 6%. The limitations of the methods are discussed and areas in need of further work are highlighted.",
+      "publicationTitle": "Advanced Engineering Materials",
+      "publisher": "Wiley",
+      "place": "",
+      "date": "2026-06-22",
+      "volume": "28",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "e71119",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1002/adem.71119",
+      "citationKey": "paytonEffectCreepLocal2025",
+      "url": "",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Creep"
+        },
+        {
+          "tag": "Electron backscatter diffraction (EBSD)"
+        },
+        {
+          "tag": "Gamma/gamma prime microstructure"
+        },
+        {
+          "tag": "Misorientations"
+        },
+        {
+          "tag": "Ni-based superalloys"
+        }
+      ],
+      "collections": [
+        "DYSCMR9B"
+      ],
+      "relations": {
+        "owl:sameAs": "http://zotero.org/groups/6314892/items/5QAYMH8R"
+      },
+      "dateAdded": "2026-01-27T11:54:21Z",
+      "dateModified": "2026-09-12T20:07:58Z"
+    }
+  },
+  {
+    "key": "6G76Y4TX",
+    "version": 1846,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/6G76Y4TX",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/6G76Y4TX",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/5985739/items/SXXCV5GW",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "6G76Y4TX",
+      "version": 1846,
+      "parentItem": "SXXCV5GW",
+      "itemType": "attachment",
+      "linkMode": "imported_file",
+      "title": "PDF",
+      "accessDate": "",
+      "url": "",
+      "note": "",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "Payton et al. - 2026 - On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstru.pdf",
+      "md5": "e114a5bd7d9e3a5ccd0737a1175d38cd",
+      "mtime": 1789243638367,
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-09-12T20:07:18Z",
+      "dateModified": "2026-09-12T20:07:18Z"
+    }
+  },
+  {
     "key": "3EJASXZF",
     "version": 1843,
     "library": {
@@ -676,193 +1249,6 @@
       "relations": {},
       "dateAdded": "2025-08-18T09:31:33Z",
       "dateModified": "2026-08-12T18:13:27Z"
-    }
-  },
-  {
-    "key": "SXXCV5GW",
-    "version": 1757,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/SXXCV5GW",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/SXXCV5GW",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton et al.",
-      "parsedDate": "2026-06-22",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "SXXCV5GW",
-      "version": 1757,
-      "itemType": "journalArticle",
-      "title": "On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstructures",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. B.",
-          "lastName": "Dursun"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "G.",
-          "lastName": "Eggeler"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "L.",
-          "lastName": "Agudo Jácome"
-        }
-      ],
-      "abstractNote": "In the present work we use electron backscatter diffraction (EBSD) in the scanning electron microscope (SEM) to study the evolution of local misorientations in the γ/γ´ microstructure of a single crystal Ni-based superalloy after exposures to creep conditions in the high temperature and low stress field. Sampling fields of statistically relevant dimensions were evaluated (16 x 12 µm2, corresponding to almost 1000 γ´ particles in the initial state). We apply a new method that allows for differentiation between diffraction signals from γ and γ´ phase regions. The spatial relationships between locations where misorientation accumulation occurs are investigated for dendritic and interdendritic regions loaded along the [001] and [110] crystallographic directions. Increases in intra- and inter-phase misorientation are observed as dislocation density increases, then saturates. The higher dislocation densities in γ channels than in γ´ particles seen by transmission electron microscopy are shown to be statistically stored on the micron size scale. Geometrically necessary misorientations are observed to cancel each other out over the macroscopic scale, resulting in no detectable macroscopic change in crystal orientation for total accumulated plastic strains of 6%. The limitations of the methods are discussed and areas in need of further work are highlighted.",
-      "publicationTitle": "Advanced Engineering Materials",
-      "publisher": "Wiley",
-      "place": "",
-      "date": "2026-06-22",
-      "volume": "in press",
-      "issue": "",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "e71119",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "",
-      "DOI": "10.1002/adem.71119",
-      "citationKey": "paytonEffectCreepLocal2025",
-      "url": "",
-      "accessDate": "",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "Creep"
-        },
-        {
-          "tag": "Electron backscatter diffraction (EBSD)"
-        },
-        {
-          "tag": "Gamma/gamma prime microstructure"
-        },
-        {
-          "tag": "Misorientations"
-        },
-        {
-          "tag": "Ni-based superalloys"
-        }
-      ],
-      "collections": [
-        "DYSCMR9B"
-      ],
-      "relations": {
-        "owl:sameAs": "http://zotero.org/groups/6314892/items/5QAYMH8R"
-      },
-      "dateAdded": "2026-01-27T11:54:21Z",
-      "dateModified": "2026-07-24T16:41:04Z"
-    }
-  },
-  {
-    "key": "Z7FM4RH4",
-    "version": 1756,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/Z7FM4RH4",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/Z7FM4RH4",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/5985739/items/SXXCV5GW",
-        "type": "application/json"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "numChildren": 0
-    },
-    "data": {
-      "key": "Z7FM4RH4",
-      "version": 1756,
-      "parentItem": "SXXCV5GW",
-      "itemType": "attachment",
-      "linkMode": "imported_file",
-      "title": "PDF",
-      "accessDate": "",
-      "url": "",
-      "note": "",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "Payton et al. - 2026 - On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstru.pdf",
-      "md5": "147e8a80f6d51fce4d6ca99f0493d654",
-      "mtime": 1784911225212,
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2026-07-24T16:40:25Z",
-      "dateModified": "2026-07-24T16:40:25Z"
     }
   },
   {
@@ -3118,112 +3504,6 @@
     }
   },
   {
-    "key": "U8NNYID7",
-    "version": 1670,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/U8NNYID7",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/U8NNYID7",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Oriola",
-      "parsedDate": "2023-10-03",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "U8NNYID7",
-      "version": 1670,
-      "itemType": "presentation",
-      "title": "Additive manufacturing feasibility of MoNbTi Refractory Complex Concentrated Alloys",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "A. T.",
-          "lastName": "Oriola"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "R.",
-          "lastName": "Kumar"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "U. P.",
-          "lastName": "Ochieze"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "S.",
-          "lastName": "Josyula"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "G. H.",
-          "lastName": "Balbus"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "A. E. Paz y",
-          "lastName": "Puente"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Poster presentation in the symposium “High Entropy Materials: Concentrated Solid Solutions, Intermetallic, Ceramics, Functional Materials and Beyond IV\"",
-      "date": "2023-10-03",
-      "meetingName": "The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology",
-      "place": "Columbus, OH",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "oriolaAdditiveManufacturingFeasibility2023",
-      "url": "https://www.matscitech.org/MST23/",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2025-06-03T19:15:04Z",
-      "dateModified": "2026-06-25T04:04:02Z"
-    }
-  },
-  {
     "key": "H2HVJULN",
     "version": 1669,
     "library": {
@@ -5110,89 +5390,6 @@
       "relations": {},
       "dateAdded": "2026-06-24T23:45:46Z",
       "dateModified": "2026-06-24T23:50:14Z"
-    }
-  },
-  {
-    "key": "8EKWU47V",
-    "version": 1624,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/8EKWU47V",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/8EKWU47V",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2022-11-02",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "8EKWU47V",
-      "version": 1624,
-      "itemType": "presentation",
-      "title": "Microstructure Evolution in Laser Powder Bed Fusion",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Eric",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Guest Lecture",
-      "date": "2022-11-02",
-      "meetingName": "MECH5179C/6079C – Introduction to Additive Manufacturing (Prof. A. E. Paz y Puente)",
-      "place": "University of Cincinnati, Cincinnati, OH",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10524",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "guest lecture"
-        },
-        {
-          "tag": "invited"
-        }
-      ],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2026-06-24T23:30:20Z",
-      "dateModified": "2026-06-24T23:33:29Z"
     }
   },
   {
@@ -12488,107 +12685,6 @@
     }
   },
   {
-    "key": "X3T3IKQ9",
-    "version": 1174,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/X3T3IKQ9",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/X3T3IKQ9",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Ocheize",
-      "parsedDate": "2024-10-08",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "X3T3IKQ9",
-      "version": 1174,
-      "itemType": "presentation",
-      "title": "Influence of Co, Cr, and Ni Alloying Elements on the Microstructural, Oxidation and Mechanical behavior of NbTi-Based Alloys",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Ugochukwu Philip",
-          "lastName": "Ocheize"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Likun",
-          "lastName": "Sun"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Nicholas",
-          "lastName": "Simpson"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Sravya",
-          "lastName": "Josyula"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Matthew Alan",
-          "lastName": "Steiner"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "Medium-entropy alloy systems with the potential to exhibit protective oxide films, high strength and ductility were explored in this study, with emphasis on the microstructural evolution, oxidation behavior and mechanical properties of NbTi-based alloys containing 5-10 at% Co, Cr, and Ni. Predictions from CALPHAD suggest that this composition range can be heat treated to obtain predominantly body-centered cubic matrix. However, results obtained via analytical microscopy show that the addition of 10 at% Cr to NbTi resulted in two bcc phases up to 1050 °C. All alloys exhibit mechanical softening between room temperature and 800 °C, with high flow stresses at 400 °C. All alloys exhibited good ductility, with some alloys exhibiting potentially superplastic behavior. From the discontinuous oxidation tests results, NbTi-10Ni and NbTi-5Co exhibited parabolic oxidation kinetics while NbTi-10Cr and NbTi-10(CoCrNi) had linear oxidation kinetics, though NbTi-10Cr exhibited a sluggish linear oxidation at 800 °C.",
-      "presentationType": "Oral presentation in the symposium \"High Entropy Materials: Concentrated Solid Solutions, Intermetallics, Ceramics, Functional Materials and Beyond V — Session V\"",
-      "date": "2024-10-08",
-      "meetingName": "MS&T24: Materials Science & Technology",
-      "place": "Pittsburgh, PA",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "ocheizeInfluenceCoCr2024",
-      "url": "https://www.matscitech.org/MST24",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2025-07-07T23:48:09Z",
-      "dateModified": "2025-07-07T23:50:03Z"
-    }
-  },
-  {
     "key": "DQVXXWGW",
     "version": 1174,
     "library": {
@@ -13228,102 +13324,6 @@
       "relations": {},
       "dateAdded": "2025-06-03T19:15:04Z",
       "dateModified": "2025-07-07T23:25:46Z"
-    }
-  },
-  {
-    "key": "IYJZFEYT",
-    "version": 1170,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/IYJZFEYT",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/IYJZFEYT",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Oruganti",
-      "parsedDate": "2024-10-08",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "IYJZFEYT",
-      "version": 1170,
-      "itemType": "presentation",
-      "title": "SPG-50: Phase field modelling of microtubes formation in NiTi shape memory alloys",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "V.",
-          "lastName": "Oruganti"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "S.",
-          "lastName": "Josyula"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "R.",
-          "lastName": "Kumar"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "A. E. Paz y",
-          "lastName": "Puente"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "Phase field is an important approach for simulating microstructure evolution at the mesoscale. Within the domain of polycrystalline metals, vacancy transport exerts a clear influence on microstructural changes. The vacancy dynamics and pore nucleation in the Ni-Ti alloy system are explained by the sharp interface phase field model. This research aims to simulate and understand the formation and evolution of Kirkendall pores near the center of Ti-coated Ni wires during interdiffusion, resulting in the creation of NiTi shape memory alloy microtubes. The sharp interface model was implemented in multiphysics software and different boundary conditions were explored to gain a greater understanding of the pore nucleation process that leads to microtube formation. The role of various simulation conditions in producing agreements and discrepancies with experimental observations will be discussed, along with prospects for connecting CALPHAD mobility databases to multiphysics software to investigate other alloy systems.",
-      "presentationType": "Poster presentation in the symposium \"2024 Graduate Student Poster Contest\"",
-      "date": "2024-10-08",
-      "meetingName": "MS&T24: Materials Science & Technology",
-      "place": "Pittsburgh, PA",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "orugantiSPG50PhaseField2024",
-      "url": "https://www.matscitech.org/MST24",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2025-06-03T19:15:04Z",
-      "dateModified": "2025-07-07T23:18:50Z"
     }
   },
   {
