@@ -1,5 +1,805 @@
 [
   {
+    "key": "BDEV3B7E",
+    "version": 717,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/BDEV3B7E",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/BDEV3B7E",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/6542859/items/MBBSYT6W",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "BDEV3B7E",
+      "version": 717,
+      "parentItem": "MBBSYT6W",
+      "itemType": "note",
+      "note": "<div data-schema-version=\"9\"><p>Co-presented.</p>\n</div>",
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-09-20T14:40:25Z",
+      "dateModified": "2026-09-20T14:40:31Z"
+    }
+  },
+  {
+    "key": "IYDZTZ2J",
+    "version": 715,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/IYDZTZ2J",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/IYDZTZ2J",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/6542859/items/CDFH9NVH",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "IYDZTZ2J",
+      "version": 715,
+      "parentItem": "CDFH9NVH",
+      "itemType": "note",
+      "note": "<div data-schema-version=\"9\"><p>Co-presented.</p>\n</div>",
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-05-06T11:24:16Z",
+      "dateModified": "2026-09-20T14:40:04Z"
+    }
+  },
+  {
+    "key": "RRZVV8PY",
+    "version": 714,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/RRZVV8PY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/RRZVV8PY",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2014-09-11",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "RRZVV8PY",
+      "version": 714,
+      "itemType": "presentation",
+      "title": "Crystal orientations and texture",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Guest Lecture",
+      "date": "9/11/2014",
+      "meetingName": "CEMS 349: X-ray Characterization (Prof. Scott Misture)",
+      "place": "Alfred University, Alfred, NY",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10529",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "guest lecture"
+        }
+      ],
+      "collections": [
+        "4UBC7IS3"
+      ],
+      "relations": {},
+      "dateAdded": "2026-06-25T05:50:42Z",
+      "dateModified": "2026-09-20T13:11:49Z"
+    }
+  },
+  {
+    "key": "NSRE8MBS",
+    "version": 713,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/NSRE8MBS",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/NSRE8MBS",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2019-11-05",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "NSRE8MBS",
+      "version": 713,
+      "itemType": "presentation",
+      "title": "Probabilistic reconstruction of austenite microstructures from EBSD data",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "A. F.",
+          "lastName": "Brust"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "V.",
+          "lastName": "Sinha"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "T. J.",
+          "lastName": "Hobbs"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "S. R.",
+          "lastName": "Niezgoda"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Poster presentation",
+      "date": "2019-11-05",
+      "meetingName": "Annual DoD Steels Research Summit",
+      "place": "Aberdeen Proving Ground, MD",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "paytonProbabilisticReconstructionAustenite2019",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "4UBC7IS3"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-06T11:24:16Z",
+      "dateModified": "2026-09-20T13:07:29Z"
+    }
+  },
+  {
+    "key": "B6QLDUNE",
+    "version": 712,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/B6QLDUNE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/B6QLDUNE",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/6542859/items/78L5FY3V",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "B6QLDUNE",
+      "version": 712,
+      "parentItem": "78L5FY3V",
+      "itemType": "note",
+      "note": "<div data-schema-version=\"9\"><p><code>2017 Editor’s Choice Article</code></p>\n</div>",
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-09-19T17:05:58Z",
+      "dateModified": "2026-09-19T17:06:10Z"
+    }
+  },
+  {
+    "key": "VG8KJ893",
+    "version": 709,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/VG8KJ893",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/VG8KJ893",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2012-06-21",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "VG8KJ893",
+      "version": 709,
+      "itemType": "presentation",
+      "title": "Fast orientation projection using OpenGL",
+      "creators": [
+        {
+          "creatorType": "contributor",
+          "firstName": "G.",
+          "lastName": "Nolze"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Eric",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Oral presentation",
+      "date": "2012-06-21",
+      "meetingName": "EBSD 2012 (sponsored by the Microanalysis Society)",
+      "place": "Carnegie Mellon University, Pittsburgh, PA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "paytonFastOrientationProjection2012",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "4UBC7IS3"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-06T11:24:16Z",
+      "dateModified": "2026-09-19T16:35:20Z"
+    }
+  },
+  {
+    "key": "6R3XLFMT",
+    "version": 708,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/6R3XLFMT",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/6R3XLFMT",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2010-02-19",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "6R3XLFMT",
+      "version": 708,
+      "itemType": "presentation",
+      "title": "Semi-automated characterization of the gamma prime phase in Ni-based superalloys via high-resolution backscatter imaging, segmentation, and stereology",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "P. J.",
+          "lastName": "Phillips"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "M. J.",
+          "lastName": "Mills"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Poster presented at the symposium \"Characterization of minerals, metals and materials\"",
+      "date": "2010-02-19",
+      "meetingName": "TMS Annual Meeting 2010",
+      "place": "Seattle, WA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "paytonSemiautomatedCharacterizationGamma2009",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "4UBC7IS3"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-06T11:24:16Z",
+      "dateModified": "2026-09-19T16:34:47Z"
+    }
+  },
+  {
+    "key": "H7F3SNAY",
+    "version": 707,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/H7F3SNAY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/H7F3SNAY",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2012-03-26",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "H7F3SNAY",
+      "version": 707,
+      "itemType": "presentation",
+      "title": "EBSD-based characterization of the hierarchy of interfaces in a tempered martensite ferritic steel during long-term creep",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "A.",
+          "lastName": "Aghajani"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "V. A.",
+          "lastName": "Yardley"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Poster presentation",
+      "date": "2012-03-26",
+      "meetingName": "EBSD 2012 (sponsored by the Royal Microscopical Society)",
+      "place": "National Physical Laboratory, Teddington, UK",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "paytonEBSDbasedCharacterizationHierarchy2012",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "4UBC7IS3"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-06T11:24:16Z",
+      "dateModified": "2026-09-19T16:32:59Z"
+    }
+  },
+  {
+    "key": "TF92JXW4",
+    "version": 706,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/TF92JXW4",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/TF92JXW4",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Limmer et al.",
+      "parsedDate": "2023-08-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "TF92JXW4",
+      "version": 706,
+      "itemType": "report",
+      "title": "Report of the 2022 Department of Defense Steels Summit",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Krista R.",
+          "lastName": "Limmer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel M.",
+          "lastName": "Field"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Katherine M.",
+          "lastName": "Sebeck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Manny",
+          "lastName": "Gonzales"
+        },
+        {
+          "creatorType": "author",
+          "name": "Sujeily Soto-Medina"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthew C.",
+          "lastName": "Draper"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maya",
+          "lastName": "Nath"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Andelle",
+          "lastName": "Kudzal"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "The annual Department of Defense (DoD) Steels Summit was held 15-16 November 2022 at Aberdeen Proving Ground, Maryland, to bring together the government, industrial, and academic community working on defense-relevant steel development to more rapidly advance material development and implementation. This report contains the meeting agenda, technical abstracts, and summary. Appendixes with proceedings and posters presented during the meeting are also included.",
+      "reportNumber": "ARL-SR-0476",
+      "reportType": "Special Technical Report",
+      "institution": "DEVCOM Army Research Laboratory",
+      "place": "Aberdeen Proving Ground, MD 21005 USA",
+      "date": "2023-08-01",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "limmerReport2022Department2023",
+      "url": "https://apps.dtic.mil/sti/trecms/pdf/AD1208795.pdf",
+      "accessDate": "2025-09-08T13:33:31Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "apps.dtic.mil",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "XJNUBABF"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-06T11:24:29Z",
+      "dateModified": "2026-09-16T18:32:36Z"
+    }
+  },
+  {
+    "key": "CPNAGYSS",
+    "version": 705,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/CPNAGYSS",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/CPNAGYSS",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ladonis",
+      "parsedDate": "2015-10-05",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "CPNAGYSS",
+      "version": 705,
+      "itemType": "presentation",
+      "title": "Nanoparticle Evolution of Nickel Catalysts via Low Voltage in-situ High Temperature SEM",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Alec C.",
+          "lastName": "Ladonis"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Scott T.",
+          "lastName": "Misture"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Poster presentation in the ACerS Basic Science Division Ceramographic Competition",
+      "date": "2015-10-05",
+      "meetingName": "Materials Science and Technology 2015",
+      "place": "Columbus, OH, USA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10515",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "4UBC7IS3"
+      ],
+      "relations": {},
+      "dateAdded": "2026-06-23T16:57:28Z",
+      "dateModified": "2026-09-16T18:28:46Z"
+    }
+  },
+  {
     "key": "QL2ELBMI",
     "version": 703,
     "library": {
@@ -438,82 +1238,6 @@
       "relations": {},
       "dateAdded": "2026-05-06T11:24:16Z",
       "dateModified": "2026-06-25T05:55:13Z"
-    }
-  },
-  {
-    "key": "RRZVV8PY",
-    "version": 699,
-    "library": {
-      "type": "group",
-      "id": 6542859,
-      "name": "paytonej-pre-ucinci",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/6542859/items/RRZVV8PY",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/RRZVV8PY",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2014-09-11",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "RRZVV8PY",
-      "version": 699,
-      "itemType": "presentation",
-      "title": "Crystal orientations and texture",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Guest Lecture",
-      "date": "9/11/2014",
-      "meetingName": "CEMS 349: X-ray Characterization (Prof. Scott Misture)",
-      "place": "Alfred University, Alfred, NY",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10529",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "4UBC7IS3"
-      ],
-      "relations": {},
-      "dateAdded": "2026-06-25T05:50:42Z",
-      "dateModified": "2026-06-25T05:54:15Z"
     }
   },
   {
@@ -2293,7 +3017,7 @@
       },
       "creatorSummary": "Payton and Evans",
       "parsedDate": "2021-03-16",
-      "numChildren": 0
+      "numChildren": 1
     },
     "data": {
       "key": "MBBSYT6W",
@@ -3415,102 +4139,6 @@
     }
   },
   {
-    "key": "NSRE8MBS",
-    "version": 658,
-    "library": {
-      "type": "group",
-      "id": 6542859,
-      "name": "paytonej-pre-ucinci",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/6542859/items/NSRE8MBS",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/NSRE8MBS",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2019-11-05",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "NSRE8MBS",
-      "version": 658,
-      "itemType": "presentation",
-      "title": "Probabilistic reconstruction of austenite microstructures from EBSD data",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "A. F.",
-          "lastName": "Brust"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "V.",
-          "lastName": "Sinha"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "T. J.",
-          "lastName": "Hobbs"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "S. R.",
-          "lastName": "Niezgoda"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Poster presentation",
-      "date": "2019-11-05",
-      "meetingName": "Annual DoD Steels Research Summit",
-      "place": "Aberdeen Proving Grounds, MD",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "paytonProbabilisticReconstructionAustenite2019",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "4UBC7IS3"
-      ],
-      "relations": {},
-      "dateAdded": "2026-05-06T11:24:16Z",
-      "dateModified": "2026-06-25T00:58:24Z"
-    }
-  },
-  {
     "key": "9M4QFXK4",
     "version": 657,
     "library": {
@@ -4112,60 +4740,6 @@
     }
   },
   {
-    "key": "6HLV3Y4P",
-    "version": 640,
-    "library": {
-      "type": "group",
-      "id": 6542859,
-      "name": "paytonej-pre-ucinci",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/6542859/items/6HLV3Y4P",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/6HLV3Y4P",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/6542859/items/FJ3Y4TKZ",
-        "type": "application/json"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "numChildren": 0
-    },
-    "data": {
-      "key": "6HLV3Y4P",
-      "version": 640,
-      "parentItem": "FJ3Y4TKZ",
-      "itemType": "note",
-      "note": "<div data-schema-version=\"9\"><p><code>Editor’s Choice Paper</code></p>\n</div>",
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2026-06-24T19:18:16Z",
-      "dateModified": "2026-06-24T19:18:18Z"
-    }
-  },
-  {
     "key": "HQKU3GF8",
     "version": 639,
     "library": {
@@ -4300,92 +4874,6 @@
       "relations": {},
       "dateAdded": "2026-05-06T11:24:16Z",
       "dateModified": "2026-06-24T19:06:01Z"
-    }
-  },
-  {
-    "key": "CPNAGYSS",
-    "version": 602,
-    "library": {
-      "type": "group",
-      "id": 6542859,
-      "name": "paytonej-pre-ucinci",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/6542859/items/CPNAGYSS",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/CPNAGYSS",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Ladonis",
-      "parsedDate": "2015-10-05",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "CPNAGYSS",
-      "version": 602,
-      "itemType": "presentation",
-      "title": "Nanoparticle Evolution of Nickel Catalysts via Low Voltage in-situ High Temperature SEM",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Alec C.",
-          "lastName": "Ladonis"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Scott T.",
-          "lastName": "Misture"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Poster presentation in the ACerS Basic Science Division Ceramographic Comptetition",
-      "date": "2015-10-05",
-      "meetingName": "Materials Science and Technology 2015",
-      "place": "Columbus, OH, USA",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10515",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "4UBC7IS3"
-      ],
-      "relations": {},
-      "dateAdded": "2026-06-23T16:57:28Z",
-      "dateModified": "2026-06-24T19:01:20Z"
     }
   },
   {
@@ -9327,7 +9815,7 @@
       },
       "creatorSummary": "Sinha et al.",
       "parsedDate": "2017-12-01",
-      "numChildren": 0
+      "numChildren": 1
     },
     "data": {
       "key": "78L5FY3V",
@@ -12601,130 +13089,6 @@
     }
   },
   {
-    "key": "TF92JXW4",
-    "version": 165,
-    "library": {
-      "type": "group",
-      "id": 6542859,
-      "name": "paytonej-pre-ucinci",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/6542859/items/TF92JXW4",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/TF92JXW4",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Limmer et al.",
-      "parsedDate": "2023-08-01",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "TF92JXW4",
-      "version": 165,
-      "itemType": "report",
-      "title": "Report of the 2022 Department of Defense Steels Summit",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Krista R.",
-          "lastName": "Limmer"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Daniel M.",
-          "lastName": "Field"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Katherine M.",
-          "lastName": "Sebeck"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Manny",
-          "lastName": "Gonzales"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Sujeily",
-          "lastName": "Soto-medina"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matthew C.",
-          "lastName": "Draper"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Maya",
-          "lastName": "Nath"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Andelle",
-          "lastName": "Kudzal"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "The annual Department of Defense (DoD) Steels Summit was held 15-16 November 2022 at Aberdeen Proving Ground, Maryland, to bring together the government, industrial, and academic community working on defense-relevant steel development to more rapidly advance material development and implementation. This report contains the meeting agenda, technical abstracts, and summary. Appendixes with proceedings and posters presented during the meeting are also included.",
-      "reportNumber": "ARL-SR-0476",
-      "reportType": "Special Technical Report",
-      "institution": "DEVCOM Army Research Laboratory",
-      "place": "Aberdeen Proving Ground, MD 21005 USA",
-      "date": "2023-08-01",
-      "seriesTitle": "",
-      "seriesNumber": "",
-      "pages": "",
-      "DOI": "",
-      "ISBN": "",
-      "citationKey": "limmerReport2022Department2023",
-      "url": "https://apps.dtic.mil/sti/trecms/pdf/AD1208795.pdf",
-      "accessDate": "2025-09-08T13:33:31Z",
-      "ISSN": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "en",
-      "libraryCatalog": "apps.dtic.mil",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "XJNUBABF"
-      ],
-      "relations": {},
-      "dateAdded": "2026-05-06T11:24:29Z",
-      "dateModified": "2026-05-06T11:24:29Z"
-    }
-  },
-  {
     "key": "BJR7RR6F",
     "version": 164,
     "library": {
@@ -12850,87 +13214,6 @@
       "relations": {},
       "dateAdded": "2026-05-06T11:24:29Z",
       "dateModified": "2026-05-06T11:24:29Z"
-    }
-  },
-  {
-    "key": "VG8KJ893",
-    "version": 159,
-    "library": {
-      "type": "group",
-      "id": 6542859,
-      "name": "paytonej-pre-ucinci",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/6542859/items/VG8KJ893",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/VG8KJ893",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2012-06-21",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "VG8KJ893",
-      "version": 159,
-      "itemType": "presentation",
-      "title": "Fast orientation projection using OpenGL",
-      "creators": [
-        {
-          "creatorType": "contributor",
-          "firstName": "G.",
-          "lastName": "Nolze"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Eric",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Oral presentation",
-      "date": "2012-06-21",
-      "meetingName": "EBSD 2012 (sponsored by the Microanalysis Society",
-      "place": "Carnegie Mellon University, Pittsburgh, PA",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "paytonFastOrientationProjection2012",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "4UBC7IS3"
-      ],
-      "relations": {},
-      "dateAdded": "2026-05-06T11:24:16Z",
-      "dateModified": "2026-05-06T11:24:16Z"
     }
   },
   {
@@ -13988,92 +14271,6 @@
     }
   },
   {
-    "key": "6R3XLFMT",
-    "version": 120,
-    "library": {
-      "type": "group",
-      "id": 6542859,
-      "name": "paytonej-pre-ucinci",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/6542859/items/6R3XLFMT",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/6R3XLFMT",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2009-02-19",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "6R3XLFMT",
-      "version": 120,
-      "itemType": "presentation",
-      "title": "Semi-automated characterization of the gamma prime phase in Ni-based superalloys via high-resolution backscatter imaging, segmentation, and stereology",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "P. J.",
-          "lastName": "Phillips"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "M. J.",
-          "lastName": "Mills"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Poster presented at the symposium \"Characterization of minerals, metals and materials\"",
-      "date": "2009-02-19",
-      "meetingName": "TMS Annual Meeting 2010",
-      "place": "Seattle, WA",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "paytonSemiautomatedCharacterizationGamma2009",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "4UBC7IS3"
-      ],
-      "relations": {},
-      "dateAdded": "2026-05-06T11:24:16Z",
-      "dateModified": "2026-05-06T11:24:16Z"
-    }
-  },
-  {
     "key": "UR22GT9B",
     "version": 117,
     "library": {
@@ -14405,92 +14602,6 @@
       "itemType": "note",
       "note": "<p>Awarded 2nd place poster prize</p>",
       "tags": [],
-      "relations": {},
-      "dateAdded": "2026-05-06T11:24:16Z",
-      "dateModified": "2026-05-06T11:24:16Z"
-    }
-  },
-  {
-    "key": "H7F3SNAY",
-    "version": 113,
-    "library": {
-      "type": "group",
-      "id": 6542859,
-      "name": "paytonej-pre-ucinci",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/6542859/items/H7F3SNAY",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/H7F3SNAY",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2012-03-26",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "H7F3SNAY",
-      "version": 113,
-      "itemType": "presentation",
-      "title": "EBSD-based characterization of the hierarchy of interfaces in a tempered martensite ferritic steel during long-term creep",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "A.",
-          "lastName": "Aghajani"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "V. A.",
-          "lastName": "Yardley"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Poster presentation",
-      "date": "2012-03-26",
-      "meetingName": "EBSD 2012 (sponsored by the Royal Microscopy Society)",
-      "place": "National Physical Laboratory, Teddington, UK",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "paytonEBSDbasedCharacterizationHierarchy2012",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "4UBC7IS3"
-      ],
       "relations": {},
       "dateAdded": "2026-05-06T11:24:16Z",
       "dateModified": "2026-05-06T11:24:16Z"
@@ -14987,60 +15098,6 @@
       "collections": [
         "4UBC7IS3"
       ],
-      "relations": {},
-      "dateAdded": "2026-05-06T11:24:16Z",
-      "dateModified": "2026-05-06T11:24:16Z"
-    }
-  },
-  {
-    "key": "IYDZTZ2J",
-    "version": 88,
-    "library": {
-      "type": "group",
-      "id": 6542859,
-      "name": "paytonej-pre-ucinci",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/6542859/items/IYDZTZ2J",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/IYDZTZ2J",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/6542859/items/CDFH9NVH",
-        "type": "application/json"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "numChildren": 0
-    },
-    "data": {
-      "key": "IYDZTZ2J",
-      "version": 88,
-      "parentItem": "CDFH9NVH",
-      "itemType": "note",
-      "note": "<p>Co-presented</p>",
-      "tags": [],
       "relations": {},
       "dateAdded": "2026-05-06T11:24:16Z",
       "dateModified": "2026-05-06T11:24:16Z"

@@ -1,5 +1,1961 @@
 [
   {
+    "key": "9BP5UR4V",
+    "version": 1886,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/9BP5UR4V",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/9BP5UR4V",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/5985739/items/LZQZ95FG",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "9BP5UR4V",
+      "version": 1886,
+      "parentItem": "LZQZ95FG",
+      "itemType": "note",
+      "note": "<div data-schema-version=\"9\"><p>2025 Editor’s Choice Article. Nominated by Metallurgical &amp; Materials Transactions A for 2026 Henry Marion Howe Medal.</p>\n</div>",
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-06-24T19:19:19Z",
+      "dateModified": "2026-09-21T02:33:09Z"
+    }
+  },
+  {
+    "key": "3EJASXZF",
+    "version": 1884,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/3EJASXZF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/3EJASXZF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Balasubramanian et al.",
+      "parsedDate": "2026-08-12",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "3EJASXZF",
+      "version": 1884,
+      "itemType": "preprint",
+      "title": "Mechanical behavior and characterization of the interface between wrought and wire-laser DED-processed Ti-6Al-4V",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Balasubramanian"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A. A.",
+          "lastName": "Oladipo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "",
+      "genre": "",
+      "repository": "SSRN",
+      "archiveID": "6141445",
+      "place": "Under revision for Journal of Materials Engineering and Performance",
+      "date": "2026-08-12",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.2139/ssrn.6141445",
+      "citationKey": "balasubramanianMechanicalBehaviorCharacterization2025",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2026-01-24T13:58:39Z",
+      "dateModified": "2026-09-19T23:16:40Z"
+    }
+  },
+  {
+    "key": "BXZPXIIM",
+    "version": 1883,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/BXZPXIIM",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/BXZPXIIM",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/5985739/items/UASFFCE8",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "BXZPXIIM",
+      "version": 1883,
+      "parentItem": "UASFFCE8",
+      "itemType": "note",
+      "note": "<div data-schema-version=\"9\"><p>2025 Editor’s Choice Article</p>\n</div>",
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-02-25T17:20:10Z",
+      "dateModified": "2026-09-19T17:01:48Z"
+    }
+  },
+  {
+    "key": "LCKZTDL4",
+    "version": 1881,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/LCKZTDL4",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/LCKZTDL4",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Balbus",
+      "parsedDate": "2024-03-04",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "LCKZTDL4",
+      "version": 1881,
+      "itemType": "presentation",
+      "title": "Orientation dependent plasticity of the refractory multi-principal element alloy MoNbTi investigated via micropillar compression",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "G. H.",
+          "lastName": "Balbus"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "O. N.",
+          "lastName": "Senkov"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "S. I.",
+          "lastName": "Rao"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Oral Presentation in the symposium “Mechanical Behavior at the Nanoscale VII”",
+      "date": "2024-03-04",
+      "meetingName": "The Minerals, Metals, and Materials Society Annual Meeting and Exhibition 2024",
+      "place": "Orlando, FL",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "balbusOrientationDependentPlasticity2024a",
+      "url": "https://www.tms.org/tms2024",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2025-06-03T19:15:04Z",
+      "dateModified": "2026-09-19T16:52:24Z"
+    }
+  },
+  {
+    "key": "MWAB8VFJ",
+    "version": 1880,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/MWAB8VFJ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/MWAB8VFJ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2024-03-04",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "MWAB8VFJ",
+      "version": 1880,
+      "itemType": "presentation",
+      "title": "Chemical vapor deposition synthesis of 2D refractory metal carbides",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "P. C.",
+          "lastName": "Neal"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "J.",
+          "lastName": "Acosta"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "A.",
+          "lastName": "Ruditskiy"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "A. N.",
+          "lastName": "Giordano"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "W. J.",
+          "lastName": "Kennedy"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Oral presentation in the symposium “2D Materials – Preparation, Properties, Modeling & Applications\"",
+      "date": "2024-03-04",
+      "meetingName": "The Minerals, Metals, and Materials Society Annual Meeting and Exhibition 2024",
+      "place": "Orlando, FL",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "paytonChemicalVaporDeposition2024",
+      "url": "https://www.tms.org/tms2024",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2025-06-03T19:15:04Z",
+      "dateModified": "2026-09-19T16:52:07Z"
+    }
+  },
+  {
+    "key": "ECHVQC7L",
+    "version": 1879,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/ECHVQC7L",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/ECHVQC7L",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2025-03-25",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "ECHVQC7L",
+      "version": 1879,
+      "itemType": "presentation",
+      "title": "ICME in chemical vapor deposition synthesis and characterization of 2D refractory metal carbides",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "S.",
+          "lastName": "Hasan"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "N.",
+          "lastName": "Sultana"
+        }
+      ],
+      "abstractNote": "Top-down etching and exfoliation for synthesis of 2D refractory metal carbides (functionalized as MXenes) has been demonstrated for a large number of compositions. However, bottom-up routes including chemical vapor deposition (CVD) have been less explored. Many papers have demonstrated liquid-phase (LP) CVD of Mo2C with Cu as the typical catalyst. This talk will address challenges associated with designing LP-CVD bottom-up approaches for other MnCn-1 refractory metal carbides from a thermodynamic and reaction equilibria perspective, showing that available thermodynamic data from density functional theory calculations (DFT) can guide synthesis but have substantial discrepancies with experimental results. Observations will be presented for several possible liquid and refractory metal substrate combinations, using CH4 as a carbon source and H2 as a reducing gas. DFT-based simulations of Raman spectra and modeled X-ray diffraction patterns will be compared with experimental observations and thermodynamic predictions of MnCn-1 where M is V, Nb, or Mo.",
+      "presentationType": "Invited oral presentation in the symposium \"2D Materials – Preparation, Properties, Modeling & Applications: Processing, Characterization, Modeling & Applications I\"",
+      "date": "2025-03-25",
+      "meetingName": "The Minerals, Metals, and Materials Society 2025 Annual Meeting and Exhibition",
+      "place": "Las Vegas, NV, USA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "paytonICMEChemicalVapor2025",
+      "url": "https://www.tms.org/tms2025",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "invited"
+        }
+      ],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2025-06-03T19:15:04Z",
+      "dateModified": "2026-09-19T16:52:01Z"
+    }
+  },
+  {
+    "key": "7DMSFKSA",
+    "version": 1878,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/7DMSFKSA",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/7DMSFKSA",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Zhang",
+      "parsedDate": "2025-03-24",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "7DMSFKSA",
+      "version": 1878,
+      "itemType": "presentation",
+      "title": "A Software Platform Integrating Microstructure Modeling with Finite Element Method",
+      "creators": [
+        {
+          "creatorType": "contributor",
+          "firstName": "Weisheng",
+          "lastName": "Cao"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Fan",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Kamalnath",
+          "lastName": "Kadirvel"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Matthew E.",
+          "lastName": "Krug"
+        }
+      ],
+      "abstractNote": "A software platform named PanEvolution has been developed for the simulation of microstructure evolution in metallic materials. The key features of this platform include: (1) an integrated framework that allows direct coupling with various Finite Element Method (FEM) software packages for processing inputs; (2) a modular design that facilitates the easy replacement and swapping of fast-acting microstructure models; and (3) seamless integration with a thermodynamic calculation engine based on CALPHAD method to obtain accurate input of phase information for technically important multi-component alloys. This enables the simulation of microstructure evolution in metallic alloys, including precipitation, recrystallization, grain growth, and coarsening, during conventional manufacturing processes such as forging and rolling. A general description of this framework, along with simulated examples, will be presented.",
+      "presentationType": "Invited oral presentation in the symposium \"Thermodynamics and Kinetics of Alloys III — Alloy Design and Thermodynamic Modeling\"",
+      "date": "2025-03-24",
+      "meetingName": "The Minerals, Metals, and Materials Society 2025 Annual Meeting and Exhibition",
+      "place": "Las Vegas, NV",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zhangSoftwarePlatformIntegrating2025",
+      "url": "https://www.tms.org/TMS2025/",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "invited"
+        },
+        {
+          "tag": "seminar"
+        }
+      ],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2025-06-03T19:15:04Z",
+      "dateModified": "2026-09-19T16:51:53Z"
+    }
+  },
+  {
+    "key": "PPY2EBRN",
+    "version": 1877,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/PPY2EBRN",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/PPY2EBRN",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2026-03-17",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "PPY2EBRN",
+      "version": 1877,
+      "itemType": "presentation",
+      "title": "Experimental and thermodynamic analysis of CVD-based MXene synthesis",
+      "creators": [
+        {
+          "creatorType": "contributor",
+          "firstName": "Sajjad",
+          "lastName": "Hasan"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Phillicity C.",
+          "lastName": "Neal"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Nishat",
+          "lastName": "Sultana"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Invited oral presentation in the symposium \"2D Materials – Preparation, Properties, Modeling & Applications\"",
+      "date": "2026-03-17",
+      "meetingName": "The Minerals, Metals, and Materials Society 2026 Annual Meeting and Exhibition",
+      "place": "San Diego, CA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "paytonExperimentalThermodynamicAnalysis2026",
+      "url": "https://www.tms.org/TMS2026/",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "invited"
+        }
+      ],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2025-07-01T02:25:37Z",
+      "dateModified": "2026-09-19T16:51:43Z"
+    }
+  },
+  {
+    "key": "HXP54ASF",
+    "version": 1876,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/HXP54ASF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/HXP54ASF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2026-03-17",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "HXP54ASF",
+      "version": 1876,
+      "itemType": "presentation",
+      "title": "Improving the constitutive modeling of AA2618 through strain rate jump testing and parameter optimization",
+      "creators": [
+        {
+          "creatorType": "contributor",
+          "firstName": "Okechukwu C.",
+          "lastName": "Obioha"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Christopher A",
+          "lastName": "Calhoun"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Yateendra",
+          "lastName": "Guthula"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Matthew A.",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Improved modeling of the flow response of aluminum alloys is needed for quality\ncontrol during forging of components in aerospace and automotive applications.\nIn this work, the flow behavior of aluminum alloy 2618 during plastic deformation in the range of 300-450 °C is characterized under strain rates\nbetween 0.001/s and 1.0/s using strain rate jump compression tests on a Gleeble 3500 thermomechanical tester. Nonlinear optimization is used to fit model parameters to the experimental observations. Several constitutive models are considered, including Johnson-Cook, Power law, and Arrhenius-type. The Lin-Wagoner model provides an accurate reproduction of the stress-strain behavior under transient strain rate conditions if the “A” parameter (corresponding to yield strength at the reference condition) is allowed to vary linearly with temperature. The flow stress response is rationalized through characterization of microstructure after deformation under different strain rate and temperature conditions.",
+      "presentationType": "Oral presentation in the symposium \"In Tribute to Robert Wagoner: A Pioneer in Metal Forming and Constitutive Modeling\"",
+      "date": "2026-03-17",
+      "meetingName": "The Minerals, Metals, and Materials Society 2026 Annual Meeting and Exhibition",
+      "place": "San Diego, CA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "paytonImprovingConstitutiveModeling2026",
+      "url": "https://www.tms.org/TMS2026/",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2025-07-04T13:07:14Z",
+      "dateModified": "2026-09-19T16:51:35Z"
+    }
+  },
+  {
+    "key": "QY6V4YRP",
+    "version": 1874,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/QY6V4YRP",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/QY6V4YRP",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2024-06-27",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "QY6V4YRP",
+      "version": 1874,
+      "itemType": "presentation",
+      "title": "Critical Alloys for Sustainability: Conundrums, Challenges, and Creating a Path to the Future",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Hundreds of billions of dollars are currently being invested by many countries around the world to develop domestic manufacturing capabilities to achieve their clean energy and decarbonization goals. Electric vehicles, wind turbines, solar panels, microchips, and many carbon capture devices are dependent on minerals that are of limited availability worldwide. Many of these technologies are also steel and concrete intensive in their installations. Steel and concrete are counted among the most greatest decarbonization challenges the world faces. The adoption of hydrogen for industrial heating and reduction processes presents a risk to present steel-dominated transportation and storage infrastructure. Thus, humanity is faced with a conundrum: Many materials upon which we are dependent for addressing climate change are themselves substantial contributors to CO2 emissions. Shifting our economies from fuel-based to materials-based systems will require intensive mining of minerals for which the world’s supply is limited, as well as construction of new buildings, manufacturing capabilities, and infrastructure. Furthermore, the rapid introduction of different specialty alloy grades over the past 40 years (responsible for significant improvements in safety and performance) presents a challenge for the creation of sustainable circular economies. This talk will explore the geopolitical, national security, economic security, and climate implications of a ‘green gold rush’ on secondary processing of metallic materials. It will trace the supply chains of a few regionally important critical materials from where they are mined through their role in alloys critical for the energy and economic security. Tools and prospects for sustainable metallurgy will be presented, along with some select basic science gaps that could be collaboratively addressed to the benefit of the international economy, climate, and society.",
+      "presentationType": "Materials Engineering Department Seminar",
+      "date": "2024-06-27",
+      "meetingName": "",
+      "place": "Bundesanstalt für Materialforschung und -prüfung (BAM), Berlin, Germany",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "paytonCriticalAlloysSustainability2024",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "invited"
+        },
+        {
+          "tag": "seminar"
+        }
+      ],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2025-06-03T19:15:04Z",
+      "dateModified": "2026-09-19T16:50:50Z"
+    }
+  },
+  {
+    "key": "C4V6F5LV",
+    "version": 1873,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/C4V6F5LV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/C4V6F5LV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ochieze et al.",
+      "parsedDate": "2026-05-12",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "C4V6F5LV",
+      "version": 1873,
+      "itemType": "manuscript",
+      "title": "Anomalous Behavior of Dilute Phosphorus Alloying on Phase Transformations in the Fe-Ni System",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "U. P.",
+          "lastName": "Ochieze"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "S. A.",
+          "lastName": "Golsorkhi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M. A.",
+          "lastName": "Steiner"
+        }
+      ],
+      "abstractNote": "",
+      "manuscriptType": "Original research article in preparation for Acta Materialia",
+      "institution": "",
+      "place": "",
+      "date": "2026-05-12",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10456",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-12T10:07:50Z",
+      "dateModified": "2026-09-19T16:38:59Z"
+    }
+  },
+  {
+    "key": "98A8YZTV",
+    "version": 1872,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/98A8YZTV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/98A8YZTV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Josyula",
+      "parsedDate": "2023-10-04",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "98A8YZTV",
+      "version": 1872,
+      "itemType": "presentation",
+      "title": "Fabricating Nitinol Microtubes via Gas-Phase Alloying: A Computational and Experimental Feasibility Study",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "S.",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "R.",
+          "lastName": "Kumar"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "U. P.",
+          "lastName": "Ochieze"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "A. T.",
+          "lastName": "Oriola"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "A. E.",
+          "lastName": "Paz y Puente"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Oral presentation in the symposium “Synthesis, Characterization, Modeling and Applications of Functional Porous Materials\"",
+      "date": "2023-10-04",
+      "meetingName": "The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology",
+      "place": "Columbus, OH",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "josyulaFabricatingNitinolMicrotubes2023",
+      "url": "https://www.matscitech.org/MST23/",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2025-06-03T19:15:04Z",
+      "dateModified": "2026-09-19T16:38:34Z"
+    }
+  },
+  {
+    "key": "K3B35IUM",
+    "version": 1870,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/K3B35IUM",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/K3B35IUM",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Lee",
+      "parsedDate": "2023-03-20",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "K3B35IUM",
+      "version": 1870,
+      "itemType": "presentation",
+      "title": "Experimental Observation of Heteroepitaxial Recrystallization (HeRX) outside of Low Lattice Misfit Ni-based Superalloys",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Y.",
+          "lastName": "Lee"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "E.",
+          "lastName": "Hershkovitz"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "H.",
+          "lastName": "Kim"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "E. J.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "V. M.",
+          "lastName": "Miller"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Poster presentation in the Structural Materials Division 2023 Graduate Student Poster Contest",
+      "date": "2023-03-20",
+      "meetingName": "2023 TMS Annual Meeting & Exhibition",
+      "place": "San Diego, CA",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "leeExperimentalObservationHeteroepitaxial2023",
+      "url": "https://www.tms.org/tms2023",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2025-06-03T19:15:04Z",
+      "dateModified": "2026-09-19T16:37:41Z"
+    }
+  },
+  {
+    "key": "2THWR7YH",
+    "version": 1869,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/2THWR7YH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/2THWR7YH",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Obioha et al.",
+      "parsedDate": "2026-05-25",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "2THWR7YH",
+      "version": 1869,
+      "itemType": "manuscript",
+      "title": "Improved constitutive descriptions of the flow behavior of AA2618",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Okechukwu Chikwado",
+          "lastName": "Obioha"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Joshua D.",
+          "lastName": "Maile"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ugochukwu Philip",
+          "lastName": "Ochieze"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuval",
+          "lastName": "Noiman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christopher A",
+          "lastName": "Calhoun"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthew Alan",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "Aluminum alloy 2618 (AA2618) is a high-strength, heat-treatable alloy used widely in the aerospace and automotive sectors due to its excellent mechanical properties at elevated temperatures. The present research investigates the hot working behavior of AA2618 through uniaxial compression from 300 to 500 °C and strain rates of 0.001 and 1 s-1. Flow stress increases with strain rate and decreases with increasing temperature, as in similar alloys. However, strain hardening rates remain very low across three orders of magnitude of strain rate. Microstructural analyses suggest limited continuous dynamic recrystallization occurs. Dynamic recovery dominates, with new grain clusters forming locally and incompletely replacing the deformed grains after hot deformation. Secondary phase precipitates are observed to persist through deformation and recrystallization. The Lin-Wagoner constitutive model captured the measured flow behavior well, outperforming the Johnson-Cook and power law models in this temperature and strain rate regime.",
+      "manuscriptType": "Original research article in preparation for Journal of Materials Engineering and Performance",
+      "institution": "",
+      "place": "",
+      "date": "2026-05-25",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10500",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2026-05-26T01:28:55Z",
+      "dateModified": "2026-09-19T16:37:12Z"
+    }
+  },
+  {
+    "key": "WEXJHURW",
+    "version": 1868,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/WEXJHURW",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/WEXJHURW",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Pilchak",
+      "parsedDate": "2023-06-12",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "WEXJHURW",
+      "version": 1868,
+      "itemType": "presentation",
+      "title": "Industry-wide Learning and Perspectives on Management of Cold-Dwell Fatigue Capabilities",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "A.",
+          "lastName": "Pilchak"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "T.",
+          "lastName": "Broderick"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "P.",
+          "lastName": "Delaleau"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "K.",
+          "lastName": "Fox"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "T.",
+          "lastName": "Masuyaki"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "E.",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "J.-M.",
+          "lastName": "Ruppert"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "B.",
+          "lastName": "Streich"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "V.",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "M.",
+          "lastName": "Wiedemann"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "A.",
+          "lastName": "Woodfield"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Keynote address",
+      "date": "2023-06-12",
+      "meetingName": "World Titanium Conference",
+      "place": "Edinburgh International Conference Centre, Edinburgh, Scotland, UK",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "pilchakIndustrywideLearningPerspectives2023",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "invited"
+        },
+        {
+          "tag": "keynote"
+        }
+      ],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2025-06-03T19:15:04Z",
+      "dateModified": "2026-09-19T16:34:09Z"
+    }
+  },
+  {
+    "key": "IA9MUMYQ",
+    "version": 1866,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/IA9MUMYQ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/IA9MUMYQ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2024-11-12",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "IA9MUMYQ",
+      "version": 1866,
+      "itemType": "presentation",
+      "title": "Materials for Hydrogen Storage",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Guest Lecture",
+      "date": "2024-11-12",
+      "meetingName": "AEEM 6061 - Sustainable Liquid Hydrogen (LH2) Power Systems (Instructors: Steve Ross and Prof. Shaaban Abdallah)",
+      "place": "University of Cincinnati, Cincinnati, OH",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10527",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "guest lecture"
+        },
+        {
+          "tag": "invited"
+        }
+      ],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-06-24T23:45:46Z",
+      "dateModified": "2026-09-19T16:32:16Z"
+    }
+  },
+  {
+    "key": "GZDJ7F36",
+    "version": 1865,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/GZDJ7F36",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/GZDJ7F36",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2025-10-21",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "GZDJ7F36",
+      "version": 1865,
+      "itemType": "presentation",
+      "title": "Materials for Hydrogen Storage",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Guest Lecture",
+      "date": "2025-10-21",
+      "meetingName": "AEEM 6061 - Sustainable Liquid Hydrogen (LH2) Power Systems (Instructors: Steve Ross and Prof. Shaaban Abdallah)",
+      "place": "University of Cincinnati, Cincinnati, OH",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "paytonMaterialsHydrogenStorage2024",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "guest lecture"
+        },
+        {
+          "tag": "invited"
+        }
+      ],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-06-24T23:50:27Z",
+      "dateModified": "2026-09-19T16:32:02Z"
+    }
+  },
+  {
+    "key": "F5BKRQ52",
+    "version": 1863,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/F5BKRQ52",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/F5BKRQ52",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/5985739/items/PAYF2FGP",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      }
+    },
+    "data": {
+      "key": "F5BKRQ52",
+      "version": 1863,
+      "parentItem": "PAYF2FGP",
+      "itemType": "attachment",
+      "linkMode": "imported_url",
+      "title": "jgme",
+      "accessDate": "2026-09-18T11:07:48Z",
+      "url": "https://jgme.kglmeridian.com/view/journals/jgme/14/5/article-p515.xml",
+      "note": "",
+      "contentType": "text/html",
+      "charset": "utf-8",
+      "filename": "article-p515.html",
+      "md5": "19fb54ddd9b30f20a357ae1c451996cf",
+      "mtime": 1789729668356,
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-09-18T11:07:48Z",
+      "dateModified": "2026-09-18T11:07:48Z"
+    }
+  },
+  {
+    "key": "EVCISD94",
+    "version": 1860,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/EVCISD94",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/EVCISD94",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2027-02-12",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "EVCISD94",
+      "version": 1860,
+      "itemType": "presentation",
+      "title": "On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstructures",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Elif Betun",
+          "lastName": "Dursun"
+        },
+        {
+          "creatorType": "contributor",
+          "firstName": "Leonardo",
+          "lastName": "Agudo Jácome"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Invited oral presentation",
+      "date": "2027-02-12",
+      "meetingName": "From Elementary Processes to Macroscopic Properties: Material Science of Functional and Structural Engineering Materials",
+      "place": "Ruhr Universitaet Bochum, Bochum, Germany",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10540",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "invited"
+        }
+      ],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-07-07T00:12:15Z",
+      "dateModified": "2026-09-16T19:12:56Z"
+    }
+  },
+  {
+    "key": "7MSCVNNZ",
+    "version": 1858,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/7MSCVNNZ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/7MSCVNNZ",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/5985739/items/CII5PFFW",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "7MSCVNNZ",
+      "version": 1858,
+      "parentItem": "CII5PFFW",
+      "itemType": "note",
+      "note": "<div data-schema-version=\"9\"><p>2024 Editor’s Choice Article</p>\n</div>",
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-06-24T19:18:47Z",
+      "dateModified": "2026-09-16T18:42:59Z"
+    }
+  },
+  {
+    "key": "8ZVS6ICW",
+    "version": 1855,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/8ZVS6ICW",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/8ZVS6ICW",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Golsorkhi et al.",
+      "parsedDate": "2026-07-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "8ZVS6ICW",
+      "version": 1855,
+      "itemType": "manuscript",
+      "title": "Transient Microstructural Heterogeneity During Minute-Scale Aging of Hot-Rolled NiTi",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Syed Aref",
+          "lastName": "Golsorkhi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ayobami Alice",
+          "lastName": "Oladipo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nicholas",
+          "lastName": "Simpson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthew Alan",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dinc",
+          "lastName": "Erdeniz"
+        }
+      ],
+      "abstractNote": "",
+      "manuscriptType": "Original research article in preparation for submission to Materials Characterization",
+      "institution": "",
+      "place": "",
+      "date": "2026-07-06",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10537",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2026-07-06T13:05:51Z",
+      "dateModified": "2026-09-16T16:09:25Z"
+    }
+  },
+  {
+    "key": "XAQZ8FL6",
+    "version": 1854,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/XAQZ8FL6",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/XAQZ8FL6",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Payton",
+      "parsedDate": "2027-03-15",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "XAQZ8FL6",
+      "version": 1854,
+      "itemType": "presentation",
+      "title": "A script so wild that Hollywood wouldn't dare: Thermodynamics, Soup Kitchens, and the first American royal",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Eric J.",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "In 1798, while overseeing cannon production for the Bavarian army, he noticed that the drill boring through the metal barrel was dull, yet the metal kept generating heat, seemingly without limit. If heat could be produced indefinitely by friction alone, it couldn't be a substance being drained from the metal — it had to be a form of motion. We know the observer as “Count Rumford” from our textbooks. But who was this Count Rumford? He was a double-crossing spy in the American Revolution who fled the colonies for Europe. There, he became a real-life Forrest Gump of the enlightenment. Despite being of humble birth in rural Massachusetts, he ended up running the Bavarian military, redesigning fireplaces, inventing drip coffee, creating the first soup kitchen, founding both the Royal Institution and the American Academy of Sciences, being knighted… and he made enemies wherever he went.",
+      "presentationType": "Oral presentation accepted to the symposium \"Avoiding Plot Holes: Telling Compelling Stories (with Data)\"",
+      "date": "2027-03-15",
+      "meetingName": "The 2027 Minerals, Metals, and Materials Society Annual Meeting & Exhibition",
+      "place": "Orlando, FL",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "zotero-item-10538",
+      "url": "",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "engineering education"
+        },
+        {
+          "tag": "thermodynamics"
+        },
+        {
+          "tag": "workforce development"
+        }
+      ],
+      "collections": [
+        "Z9X5QWSH"
+      ],
+      "relations": {},
+      "dateAdded": "2026-07-06T21:26:39Z",
+      "dateModified": "2026-09-16T14:50:17Z"
+    }
+  },
+  {
     "key": "8EKWU47V",
     "version": 1853,
     "library": {
@@ -570,97 +2526,6 @@
       "relations": {},
       "dateAdded": "2026-09-12T20:07:18Z",
       "dateModified": "2026-09-12T20:07:18Z"
-    }
-  },
-  {
-    "key": "3EJASXZF",
-    "version": 1843,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/3EJASXZF",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/3EJASXZF",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Balasubramanian et al.",
-      "parsedDate": "2026-08-12",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "3EJASXZF",
-      "version": 1843,
-      "itemType": "preprint",
-      "title": "Mechanical behavior and characterization of the interface between wrought and wire-laser DED-processed Ti-6Al-4V",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "A.",
-          "lastName": "Balasubramanian"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "A. A.",
-          "lastName": "Oladipo"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "",
-      "genre": "",
-      "repository": "SSRN",
-      "archiveID": "6141445",
-      "place": "Accepted pending revisions to Journal of Materials Engineering and Performance",
-      "date": "2026-08-12",
-      "series": "",
-      "seriesNumber": "",
-      "DOI": "10.2139/ssrn.6141445",
-      "citationKey": "balasubramanianMechanicalBehaviorCharacterization2025",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2026-01-24T13:58:39Z",
-      "dateModified": "2026-08-19T01:16:06Z"
     }
   },
   {
@@ -1521,178 +3386,6 @@
     }
   },
   {
-    "key": "XAQZ8FL6",
-    "version": 1733,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/XAQZ8FL6",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/XAQZ8FL6",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2027-03-15",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "XAQZ8FL6",
-      "version": 1733,
-      "itemType": "presentation",
-      "title": "A script so wild that Hollywood wouldn't dare: Thermodynamics, Soup Kitchens, and the first American royal",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "In 1798, while overseeing cannon production for the Bavarian army, he noticed that the drill boring through the metal barrel was dull, yet the metal kept generating heat, seemingly without limit. If heat could be produced indefinitely by friction alone, it couldn't be a substance being drained from the metal — it had to be a form of motion. We know the observer as “Count Rumford” from our textbooks. But who was this Count Rumford? He was a double-crossing spy in the American Revolution who fled the colonies for Europe. There, he became a real-life Forrest Gump of the enlightenment. Despite being of humble birth in rural Massachusetts, he ended up running the Bavarian military, redesigning fireplaces, inventing drip coffee, creating the first soup kitchen, founding both the Royal Institution and the American Academy of Sciences, being knighted… and he made enemies wherever he went.",
-      "presentationType": "Oral presentation submitted to the symposium \"Avoiding Plot Holes: Telling Compelling Stories (with Data)\"",
-      "date": "2027-03-15",
-      "meetingName": "The 2027 Minerals, Metals, and Materials Society Annual Meeting & Exhibition",
-      "place": "Orlando, FL",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10538",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "engineering education"
-        },
-        {
-          "tag": "thermodynamics"
-        },
-        {
-          "tag": "workforce development"
-        }
-      ],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2026-07-06T21:26:39Z",
-      "dateModified": "2026-07-07T00:17:16Z"
-    }
-  },
-  {
-    "key": "EVCISD94",
-    "version": 1732,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/EVCISD94",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/EVCISD94",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2027-02-12",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "EVCISD94",
-      "version": 1732,
-      "itemType": "presentation",
-      "title": "On the effect of creep on local lattice orientation in  single crystal Ni-based superalloy microstructures",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Elif Betun",
-          "lastName": "Dursun"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Leonardo",
-          "lastName": "Agudo Jácome"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Invited oral presentation",
-      "date": "2027-02-12",
-      "meetingName": "From Elementary Processes to Macroscopic Properties: Material Science of Functional and Structural Engineering Materials",
-      "place": "Ruhr Universitaet Bochum, Bochum, Germany",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10540",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2026-07-07T00:12:15Z",
-      "dateModified": "2026-07-07T00:16:40Z"
-    }
-  },
-  {
     "key": "8E7V2LMI",
     "version": 1701,
     "library": {
@@ -1786,111 +3479,6 @@
       "relations": {},
       "dateAdded": "2026-05-16T15:44:39Z",
       "dateModified": "2026-07-06T18:07:37Z"
-    }
-  },
-  {
-    "key": "8ZVS6ICW",
-    "version": 1700,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/8ZVS6ICW",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/8ZVS6ICW",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Golsorkhi et al.",
-      "parsedDate": "2026-07-06",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "8ZVS6ICW",
-      "version": 1700,
-      "itemType": "manuscript",
-      "title": "Transient Microstructural Heterogeneity During Minute-Scale Aging of Hot-Rolled NiTi",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Syed Aref",
-          "lastName": "Golsorkhi"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Ayobami Alice",
-          "lastName": "Oladipo"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Nicholas",
-          "lastName": "Simpson"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matthew Alan",
-          "lastName": "Steiner"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Dinc",
-          "lastName": "Erdeniz"
-        }
-      ],
-      "abstractNote": "",
-      "manuscriptType": "Original research article",
-      "institution": "",
-      "place": "",
-      "date": "2026-07-06",
-      "numPages": "",
-      "number": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10537",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2026-07-06T13:05:51Z",
-      "dateModified": "2026-07-06T13:07:47Z"
     }
   },
   {
@@ -2405,102 +3993,6 @@
       "relations": {},
       "dateAdded": "2025-06-03T19:15:04Z",
       "dateModified": "2026-06-25T04:05:23Z"
-    }
-  },
-  {
-    "key": "K3B35IUM",
-    "version": 1681,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/K3B35IUM",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/K3B35IUM",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Lee",
-      "parsedDate": "2023-03-20",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "K3B35IUM",
-      "version": 1681,
-      "itemType": "presentation",
-      "title": "Experimental Observation of Heteroepitaxial Recrystallization (HeRX) outside of Low Lattice Misfit Ni-based Superalloys",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Y.",
-          "lastName": "Lee"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "E.",
-          "lastName": "Hershokovitz"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "H.",
-          "lastName": "Kim"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "V. M.",
-          "lastName": "Miller"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Poster presentation in the Structural Materials Division 2023 Graduate Student Poster Contest",
-      "date": "2023-03-20",
-      "meetingName": "2023 TMS Annual Meeting & Exhibition",
-      "place": "San Diego, CA",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "leeExperimentalObservationHeteroepitaxial2023",
-      "url": "https://www.tms.org/tms2023",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2025-06-03T19:15:04Z",
-      "dateModified": "2026-06-25T04:04:56Z"
     }
   },
   {
@@ -3680,389 +5172,6 @@
     }
   },
   {
-    "key": "98A8YZTV",
-    "version": 1667,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/98A8YZTV",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/98A8YZTV",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Josyula",
-      "parsedDate": "2023-10-04",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "98A8YZTV",
-      "version": 1667,
-      "itemType": "presentation",
-      "title": "Fabricating Nitinol Microtubes via Gas-Phase Alloying: A Computational and Experimental Feasibility Study",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "S.",
-          "lastName": "Josyula"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "R.",
-          "lastName": "Kumar"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "U. P.",
-          "lastName": "Ochieze"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "A. T.",
-          "lastName": "Oriola"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "A. E. Paz y",
-          "lastName": "Puente"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Oral presentation in the symposium “Synthesis, Characterization, Modeling and Applications of Functional Porous Materials\"",
-      "date": "2023-10-04",
-      "meetingName": "The Minerals, Metals, and Materials Society Fall Meeting at Materials Science and Technology",
-      "place": "Columbus, OH",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "josyulaFabricatingNitinolMicrotubes2023",
-      "url": "https://www.matscitech.org/MST23/",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2025-06-03T19:15:04Z",
-      "dateModified": "2026-06-25T04:03:49Z"
-    }
-  },
-  {
-    "key": "LCKZTDL4",
-    "version": 1666,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/LCKZTDL4",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/LCKZTDL4",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Balbus",
-      "parsedDate": "2024-03-04",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "LCKZTDL4",
-      "version": 1666,
-      "itemType": "presentation",
-      "title": "Orientation dependent plasticity of the refractory multi-principal element alloy MoNbTi investigated via micropillar compression",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "G. H.",
-          "lastName": "Balbus"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "O. N.",
-          "lastName": "Senkov"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "S. I.",
-          "lastName": "Rao"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Oral Presentation in the symposium “Mechanical Behavior at the Nanoscale VII”",
-      "date": "2024-03-04",
-      "meetingName": "The Minerals Metals and Materials Society Annual Meeting and Exhibition 2024",
-      "place": "Orlando, FL",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "balbusOrientationDependentPlasticity2024a",
-      "url": "https://www.tms.org/tms2024",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2025-06-03T19:15:04Z",
-      "dateModified": "2026-06-25T04:03:16Z"
-    }
-  },
-  {
-    "key": "MWAB8VFJ",
-    "version": 1665,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/MWAB8VFJ",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/MWAB8VFJ",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2024-03-04",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "MWAB8VFJ",
-      "version": 1665,
-      "itemType": "presentation",
-      "title": "Chemical vapor deposition synthesis of 2D refractory metal carbides",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "P. C.",
-          "lastName": "Neal"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "J.",
-          "lastName": "Acosta"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "A.",
-          "lastName": "Ruditskiy"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "A. N.",
-          "lastName": "Giordano"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "W. J.",
-          "lastName": "Kennedy"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Oral presentation in the symposium “2D Materials – Preparation, Properties, Modeling & Applications\"",
-      "date": "2024-03-04",
-      "meetingName": "The Minerals Metals and Materials Society Annual Meeting and Exhibition 2024",
-      "place": "Orlando, FL",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "paytonChemicalVaporDeposition2024",
-      "url": "https://www.tms.org/tms2024",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2025-06-03T19:15:04Z",
-      "dateModified": "2026-06-25T04:03:12Z"
-    }
-  },
-  {
-    "key": "ECHVQC7L",
-    "version": 1664,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/ECHVQC7L",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/ECHVQC7L",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2025-03-25",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "ECHVQC7L",
-      "version": 1664,
-      "itemType": "presentation",
-      "title": "ICME in chemical vapor deposition synthesis and characterization of 2D refractory metal carbides",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "S.",
-          "lastName": "Hasan"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "N.",
-          "lastName": "Sultana"
-        }
-      ],
-      "abstractNote": "Top-down etching and exfoliation for synthesis of 2D refractory metal carbides (functionalized as MXenes) has been demonstrated for a large number of compositions. However, bottom-up routes including chemical vapor deposition (CVD) have been less explored. Many papers have demonstrated liquid-phase (LP) CVD of Mo2C with Cu as the typical catalyst. This talk will address challenges associated with designing LP-CVD bottom-up approaches for other MnCn-1 refractory metal carbides from a thermodynamic and reaction equilibria perspective, showing that available thermodynamic data from density functional theory calculations (DFT) can guide synthesis but have substantial discrepancies with experimental results. Observations will be presented for several possible liquid and refractory metal substrate combinations, using CH4 as a carbon source and H2 as a reducing gas. DFT-based simulations of Raman spectra and modeled X-ray diffraction patterns will be compared with experimental observations and thermodynamic predictions of MnCn-1 where M is V, Nb, or Mo.",
-      "presentationType": "Invited oral presentation in the symposium \"2D Materials – Preparation, Properties, Modeling & Applications: Processing, Characterization, Modeling & Applications I\"",
-      "date": "2025-03-25",
-      "meetingName": "The Minerals Metals and Materials Society 2025 Annual Meeting and Exhibition",
-      "place": "Las Vegas, NV, USA",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "paytonICMEChemicalVapor2025",
-      "url": "https://www.tms.org/tms2025",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "invited"
-        }
-      ],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2025-06-03T19:15:04Z",
-      "dateModified": "2026-06-25T04:01:45Z"
-    }
-  },
-  {
     "key": "PBKIEL7S",
     "version": 1663,
     "library": {
@@ -5227,172 +6336,6 @@
     }
   },
   {
-    "key": "GZDJ7F36",
-    "version": 1645,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/GZDJ7F36",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/GZDJ7F36",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2025-10-21",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "GZDJ7F36",
-      "version": 1645,
-      "itemType": "presentation",
-      "title": "Materials for Hydrogen Storage",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Guest Lecture",
-      "date": "2025-10-21",
-      "meetingName": "AEEM 6061 - Sustainable Liquid Hydrogen (LH2) Power Systems (Instructors: Steve Ross and Prof. Shabaan Abdallah)",
-      "place": "University of Cincinnati, Cincinnati, OH",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "paytonMaterialsHydrogenStorage2024",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "guest lecture"
-        },
-        {
-          "tag": "invited"
-        }
-      ],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2026-06-24T23:50:27Z",
-      "dateModified": "2026-06-24T23:50:42Z"
-    }
-  },
-  {
-    "key": "IA9MUMYQ",
-    "version": 1643,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/IA9MUMYQ",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/IA9MUMYQ",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2024-11-12",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "IA9MUMYQ",
-      "version": 1643,
-      "itemType": "presentation",
-      "title": "Materials for Hydrogen Storage",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Guest Lecture",
-      "date": "2024-11-12",
-      "meetingName": "AEEM 6061 - Sustainable Liquid Hydrogen (LH2) Power Systems (Instructors: Steve Ross and Prof. Shabaan Abdallah)",
-      "place": "University of Cincinnati, Cincinnati, OH",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10527",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "guest lecture"
-        },
-        {
-          "tag": "invited"
-        }
-      ],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2026-06-24T23:45:46Z",
-      "dateModified": "2026-06-24T23:50:14Z"
-    }
-  },
-  {
     "key": "BAVWBQGB",
     "version": 1615,
     "library": {
@@ -5793,114 +6736,6 @@
     }
   },
   {
-    "key": "9BP5UR4V",
-    "version": 1587,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/9BP5UR4V",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/9BP5UR4V",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/5985739/items/LZQZ95FG",
-        "type": "application/json"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "numChildren": 0
-    },
-    "data": {
-      "key": "9BP5UR4V",
-      "version": 1587,
-      "parentItem": "LZQZ95FG",
-      "itemType": "note",
-      "note": "<div data-schema-version=\"9\"><p>Editor’s choice paper</p>\n</div>",
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2026-06-24T19:19:19Z",
-      "dateModified": "2026-06-24T19:19:29Z"
-    }
-  },
-  {
-    "key": "7MSCVNNZ",
-    "version": 1585,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/7MSCVNNZ",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/7MSCVNNZ",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/5985739/items/CII5PFFW",
-        "type": "application/json"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "numChildren": 0
-    },
-    "data": {
-      "key": "7MSCVNNZ",
-      "version": 1585,
-      "parentItem": "CII5PFFW",
-      "itemType": "note",
-      "note": "<div data-schema-version=\"9\"><p>Editor’s choice paper</p>\n</div>",
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2026-06-24T19:18:47Z",
-      "dateModified": "2026-06-24T19:18:57Z"
-    }
-  },
-  {
     "key": "Y93DK87T",
     "version": 1580,
     "library": {
@@ -6093,211 +6928,6 @@
       "relations": {},
       "dateAdded": "2026-04-06T13:33:47Z",
       "dateModified": "2026-06-23T17:49:35Z"
-    }
-  },
-  {
-    "key": "C4V6F5LV",
-    "version": 1577,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/C4V6F5LV",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/C4V6F5LV",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Ochieze et al.",
-      "parsedDate": "2026-05-12",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "C4V6F5LV",
-      "version": 1577,
-      "itemType": "manuscript",
-      "title": "Anomalous Behavior of Dilute Phosphorus Alloying on Phase Transformations in the Fe-Ni System",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "U. P.",
-          "lastName": "Ochieze"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "A. S.",
-          "lastName": "Golsorkhi"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "M. A.",
-          "lastName": "Steiner"
-        }
-      ],
-      "abstractNote": "",
-      "manuscriptType": "Original research article in preparation for Acta Materialia",
-      "institution": "",
-      "place": "",
-      "date": "2026-05-12",
-      "numPages": "",
-      "number": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10456",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2026-05-12T10:07:50Z",
-      "dateModified": "2026-06-23T17:49:05Z"
-    }
-  },
-  {
-    "key": "2THWR7YH",
-    "version": 1576,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/2THWR7YH",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/2THWR7YH",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Obioha et al.",
-      "parsedDate": "2026-05-25",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "2THWR7YH",
-      "version": 1576,
-      "itemType": "manuscript",
-      "title": "Improved constitutive descriptions of the flow behavior of AA2618",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Okechukwu Chikwado",
-          "lastName": "Obioha"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Joshua D.",
-          "lastName": "Maile"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Ugochukwu Philip",
-          "lastName": "Ocheize"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Yuval",
-          "lastName": "Noiman"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Christopher A",
-          "lastName": "Calhoun"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matthew Alan",
-          "lastName": "Steiner"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "Aluminum alloy 2618 (AA2618) is a high-strength, heat-treatable alloy used widely in the aerospace and automotive sectors due to its excellent mechanical properties at elevated temperatures. The present research investigates the hot working behavior of AA2618 through uniaxial compression from 300 to 500 °C and strain rates of 0.001 and 1 s-1. Flow stress increases with strain rate and decreases with increasing temperature, as in similar alloys. However, strain hardening rates remain very low across three orders of magnitude of strain rate. Microstructural analyses suggest limited continuous dynamic recrystallization occurs. Dynamic recovery dominates, with new grain clusters forming locally and incompletely replacing the deformed grains after hot deformation. Secondary phase precipitates are observed to persist through deformation and recrystallization. The Lin-Wagoner constitutive model captured the measured flow behavior well, outperforming the Johnson-Cook and power law models in this temperature and strain rate regime.",
-      "manuscriptType": "Original research article in preparation for Journal of Materials Engineering and Performance",
-      "institution": "",
-      "place": "",
-      "date": "2026-05-25",
-      "numPages": "",
-      "number": "",
-      "DOI": "",
-      "citationKey": "zotero-item-10500",
-      "url": "",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2026-05-26T01:28:55Z",
-      "dateModified": "2026-06-23T17:48:52Z"
     }
   },
   {
@@ -6606,204 +7236,6 @@
     }
   },
   {
-    "key": "PPY2EBRN",
-    "version": 1504,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/PPY2EBRN",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/PPY2EBRN",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2026-03-17",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "PPY2EBRN",
-      "version": 1504,
-      "itemType": "presentation",
-      "title": "Experimental and thermodynamic analysis of CVD-based MXene synthesis",
-      "creators": [
-        {
-          "creatorType": "contributor",
-          "firstName": "Sajjad",
-          "lastName": "Hasan"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Phillicity C.",
-          "lastName": "Neal"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Nishat",
-          "lastName": "Sultana"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Invited oral presentation in the symposium \"2D Materials – Preparation, Properties, Modeling & Applications\"",
-      "date": "2026-03-17",
-      "meetingName": "The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition",
-      "place": "San Diego, CA",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "paytonExperimentalThermodynamicAnalysis2026",
-      "url": "https://www.tms.org/TMS2026/",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "invited"
-        }
-      ],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2025-07-01T02:25:37Z",
-      "dateModified": "2026-06-23T14:49:06Z"
-    }
-  },
-  {
-    "key": "7DMSFKSA",
-    "version": 1500,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/7DMSFKSA",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/7DMSFKSA",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Zhang",
-      "parsedDate": "2025-03-24",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "7DMSFKSA",
-      "version": 1500,
-      "itemType": "presentation",
-      "title": "A Software Platform Integrating Microstructure Modeling with Finite Element Method",
-      "creators": [
-        {
-          "creatorType": "contributor",
-          "firstName": "Weisheng",
-          "lastName": "Cao"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Fan",
-          "lastName": "Zhang"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Kamalnath",
-          "lastName": "Kadirvel"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Matthew E.",
-          "lastName": "Krug"
-        }
-      ],
-      "abstractNote": "A software platform named PanEvolution has been developed for the simulation of microstructure evolution in metallic materials. The key features of this platform include: (1) an integrated framework that allows direct coupling with various Finite Element Method (FEM) software packages for processing inputs; (2) a modular design that facilitates the easy replacement and swapping of fast-acting microstructure models; and (3) seamless integration with a thermodynamic calculation engine based on CALPHAD method to obtain accurate input of phase information for technically important multi-component alloys. This enables the simulation of microstructure evolution in metallic alloys, including precipitation, recrystallization, grain growth, and coarsening, during conventional manufacturing processes such as forging and rolling. A general description of this framework, along with simulated examples, will be presented.",
-      "presentationType": "Invited oral presentation in the symposium \"Thermodynamics and Kinetics of Alloys III — Alloy Design and Thermodynamic Modeling\"",
-      "date": "2025-03-24",
-      "meetingName": "The Minerals Metals and Materials Society 2025 Annual Meeting and Exhibition",
-      "place": "Las Vegas, NV",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "zhangSoftwarePlatformIntegrating2025",
-      "url": "https://www.tms.org/TMS2025/",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "invited"
-        },
-        {
-          "tag": "seminar"
-        }
-      ],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2025-06-03T19:15:04Z",
-      "dateModified": "2026-06-23T14:48:12Z"
-    }
-  },
-  {
     "key": "MJCF68RW",
     "version": 1498,
     "library": {
@@ -7024,139 +7456,6 @@
     }
   },
   {
-    "key": "WEXJHURW",
-    "version": 1496,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/WEXJHURW",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/WEXJHURW",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Pilchak",
-      "parsedDate": "2023-06-12",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "WEXJHURW",
-      "version": 1496,
-      "itemType": "presentation",
-      "title": "Industry-wide Learning and Perspectives on Management of Cold-Dwell Fatigue Capabilities",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "A.",
-          "lastName": "Pilchak"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "T.",
-          "lastName": "Broderick"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "P.",
-          "lastName": "Delaleau"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "K.",
-          "lastName": "Fox"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "T.",
-          "lastName": "Masuyaki"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "E.",
-          "lastName": "Payton"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "J.-M.",
-          "lastName": "Ruppert"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "B.",
-          "lastName": "Streich"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "V.",
-          "lastName": "Venkatesh"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "M.",
-          "lastName": "Wiedemann"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "A.",
-          "lastName": "Woodfield"
-        }
-      ],
-      "abstractNote": "",
-      "presentationType": "Keynote address",
-      "date": "2023-06-12",
-      "meetingName": "World Titanium Conference",
-      "place": "Edinburgh International Conference Centre, Edinborough, UK",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "pilchakIndustrywideLearningPerspectives2023",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "invited"
-        },
-        {
-          "tag": "keynote"
-        }
-      ],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2025-06-03T19:15:04Z",
-      "dateModified": "2026-06-23T14:46:24Z"
-    }
-  },
-  {
     "key": "YXY3BXYX",
     "version": 1494,
     "library": {
@@ -7257,89 +7556,6 @@
       "relations": {},
       "dateAdded": "2025-06-03T19:15:04Z",
       "dateModified": "2026-06-23T14:45:50Z"
-    }
-  },
-  {
-    "key": "QY6V4YRP",
-    "version": 1493,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/QY6V4YRP",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/QY6V4YRP",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2024-06-27",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "QY6V4YRP",
-      "version": 1493,
-      "itemType": "presentation",
-      "title": "Critical Alloys for Sustainability: Conundrums, Challenges, and Creating a Path to the Future",
-      "creators": [
-        {
-          "creatorType": "presenter",
-          "firstName": "E. J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "Hundreds of billions of dollars are currently being invested by many countries around the world to develop domestic manufacturing capabilities to achieve their clean energy and decarbonization goals. Electric vehicles, wind turbines, solar panels, microchips, and many carbon capture devices are dependent on minerals that are of limited availability worldwide. Many of these technologies are also steel and concrete intensive in their installations. Steel and concrete are counted among the most greatest decarbonization challenges the world faces. The adoption of hydrogen for industrial heating and reduction processes presents a risk to present steel-dominated transportation and storage infrastructure. Thus, humanity is faced with a conundrum: Many materials upon which we are dependent for addressing climate change are themselves substantial contributors to CO2 emissions. Shifting our economies from fuel-based to materials-based systems will require intensive mining of minerals for which the world’s supply is limited, as well as construction of new buildings, manufacturing capabilities, and infrastructure. Furthermore, the rapid introduction of different specialty alloy grades over the past 40 years (responsible for significant improvements in safety and performance) presents a challenge for the creation of sustainable circular economies. This talk will explore the geopolitical, national security, economic security, and climate implications of a ‘green gold rush’ on secondary processing of metallic materials. It will trace the supply chains of a few regionally important critical materials from where they are mined through their role in alloys critical for the energy and economic security. Tools and prospects for sustainable metallurgy will be presented, along with some select basic science gaps that could be collaboratively addressed to the benefit of the international economy, climate, and society.",
-      "presentationType": "Materials Engineering Department Seminar",
-      "date": "2024-06-27",
-      "meetingName": "",
-      "place": "Bundesanstalt für Materialprüfung und Forschung (BAM), Berlin, Germany",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "paytonCriticalAlloysSustainability2024",
-      "url": "",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [
-        {
-          "tag": "invited"
-        },
-        {
-          "tag": "seminar"
-        }
-      ],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2025-06-03T19:15:04Z",
-      "dateModified": "2026-06-23T14:45:02Z"
     }
   },
   {
@@ -9329,60 +9545,6 @@
     }
   },
   {
-    "key": "BXZPXIIM",
-    "version": 1220,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/BXZPXIIM",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/BXZPXIIM",
-        "type": "text/html"
-      },
-      "up": {
-        "href": "https://api.zotero.org/groups/5985739/items/UASFFCE8",
-        "type": "application/json"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "numChildren": 0
-    },
-    "data": {
-      "key": "BXZPXIIM",
-      "version": 1220,
-      "parentItem": "UASFFCE8",
-      "itemType": "note",
-      "note": "<div data-schema-version=\"9\"><p>2025 Editor’s Choice Article</p>\n</div>",
-      "tags": [],
-      "relations": {},
-      "dateAdded": "2026-02-25T17:20:10Z",
-      "dateModified": "2026-02-25T17:20:34Z"
-    }
-  },
-  {
     "key": "UASFFCE8",
     "version": 1219,
     "library": {
@@ -9565,102 +9727,6 @@
       "relations": {},
       "dateAdded": "2026-02-23T20:17:06Z",
       "dateModified": "2026-02-23T20:17:06Z"
-    }
-  },
-  {
-    "key": "HXP54ASF",
-    "version": 1205,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/HXP54ASF",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/HXP54ASF",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Payton",
-      "parsedDate": "2026-03-17",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "HXP54ASF",
-      "version": 1205,
-      "itemType": "presentation",
-      "title": "Improving the constitutive modeling of AA2618 through strain rate jump testing and parameter optimization",
-      "creators": [
-        {
-          "creatorType": "contributor",
-          "firstName": "Okechukwu C.",
-          "lastName": "Obioha"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Christopher A",
-          "lastName": "Calhoun"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Yateendra",
-          "lastName": "Guthula"
-        },
-        {
-          "creatorType": "contributor",
-          "firstName": "Matthew A.",
-          "lastName": "Steiner"
-        },
-        {
-          "creatorType": "presenter",
-          "firstName": "Eric J.",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "Improved modeling of the flow response of aluminum alloys is needed for quality\ncontrol during forging of components in aerospace and automotive applications.\nIn this work, the flow behavior of aluminum alloy 2618 during plastic deformation in the range of 300-450 °C is characterized under strain rates\nbetween 0.001/s and 1.0/s using strain rate jump compression tests on a Gleeble 3500 thermomechanical tester. Nonlinear optimization is used to fit model parameters to the experimental observations. Several constitutive models are considered, including Johnson-Cook, Power law, and Arrhenius-type. The Lin-Wagoner model provides an accurate reproduction of the stress-strain behavior under transient strain rate conditions if the “A” parameter (corresponding to yield strength at the reference condition) is allowed to vary linearly with temperature. The flow stress response is rationalized through characterization of microstructure after deformation under different strain rate and temperature conditions.",
-      "presentationType": "Oral presentation in the symposium \"In Tribute to Robert Wagoner: A Pioneer in Metal Forming and Constitutive Modeling\"",
-      "date": "2026-03-17",
-      "meetingName": "The Minerals Metals and Materials Society 2026 Annual Meeting and Exhibition",
-      "place": "San Diego, CA",
-      "series": "",
-      "sessionTitle": "",
-      "DOI": "",
-      "citationKey": "paytonImprovingConstitutiveModeling2026",
-      "url": "https://www.tms.org/TMS2026/",
-      "accessDate": "",
-      "shortTitle": "",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "Z9X5QWSH"
-      ],
-      "relations": {},
-      "dateAdded": "2025-07-04T13:07:14Z",
-      "dateModified": "2026-02-23T16:31:19Z"
     }
   },
   {
