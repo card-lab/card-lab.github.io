@@ -1,5 +1,101 @@
 [
   {
+    "key": "X5EIIH4M",
+    "version": 1887,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/X5EIIH4M",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/X5EIIH4M",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Josyula et al.",
+      "parsedDate": "2026-08-12",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "X5EIIH4M",
+      "version": 1887,
+      "itemType": "preprint",
+      "title": "Physics-augmented machine learning for predicting martensite transformation temperatures in shape memory alloys",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Sravya",
+          "lastName": "Josyula"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yuval",
+          "lastName": "Noiman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthew Alan",
+          "lastName": "Steiner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eric John",
+          "lastName": "Payton"
+        }
+      ],
+      "abstractNote": "The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning (ML) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of ML models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor (ETR) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the ML model, an R2 value of 0.99 can be reached.",
+      "genre": "Journal Article",
+      "repository": "SSRN",
+      "archiveID": "7064979",
+      "place": "Under revision for JOM",
+      "date": "2026-08-12",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.2139/ssrn.7064979",
+      "citationKey": "josyulaPhysicsaugmentedMachineLearning2025",
+      "url": "https://dx.doi.org/10.2139/ssrn.7064979",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "W788PN5I"
+      ],
+      "relations": {},
+      "dateAdded": "2025-08-18T09:31:33Z",
+      "dateModified": "2026-09-28T13:12:41Z"
+    }
+  },
+  {
     "key": "9BP5UR4V",
     "version": 1886,
     "library": {
@@ -3018,102 +3114,6 @@
       "relations": {},
       "dateAdded": "2026-07-24T18:41:16Z",
       "dateModified": "2026-08-15T16:34:49Z"
-    }
-  },
-  {
-    "key": "X5EIIH4M",
-    "version": 1778,
-    "library": {
-      "type": "group",
-      "id": 5985739,
-      "name": "UC CARD LAB",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/uc_card_lab",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/5985739/items/X5EIIH4M",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/uc_card_lab/items/X5EIIH4M",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Josyula et al.",
-      "parsedDate": "2026-08-12",
-      "numChildren": 0
-    },
-    "data": {
-      "key": "X5EIIH4M",
-      "version": 1778,
-      "itemType": "preprint",
-      "title": "Physics-augmented machine learning for predicting martensite transformation temperatures in shape memory alloys",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Sravya",
-          "lastName": "Josyula"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Yuval",
-          "lastName": "Noiman"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Matthew Alan",
-          "lastName": "Steiner"
-        },
-        {
-          "creatorType": "author",
-          "firstName": "Eric John",
-          "lastName": "Payton"
-        }
-      ],
-      "abstractNote": "The desire to be able to tailor transformation temperatures in shape memory alloys has led to widespread interest in applying machine learning (ML) to optimization of alloy compositions. Some research has indicated that augmentation of training datasets with physics-based predictors can improve accuracy of ML models. The present study tests this hypothesis for multiple decision tree-based models, training them on a comprehensive dataset of over 7000 alloys. The Extra Trees Regressor (ETR) was found to achieve the highest accuracy with an R2 value of 0.8743, effectively reproducing non-linear relationships between composition and transformation temperatures. Inclusion of certain physics-based parameters is found to improve accuracy over composition alone, with R2 value of 0.93. In agreement with prior published work, the model performance is further improved by integrating processing information. With the inclusion of both physics-based predictors and processing information in the ML model, an R2 value of 0.99 can be reached.",
-      "genre": "Journal Article",
-      "repository": "SSRN",
-      "archiveID": "7064979",
-      "place": "Original research article under review at JOM",
-      "date": "2026-08-12",
-      "series": "",
-      "seriesNumber": "",
-      "DOI": "10.2139/ssrn.7064979",
-      "citationKey": "josyulaPhysicsaugmentedMachineLearning2025",
-      "url": "https://dx.doi.org/10.2139/ssrn.7064979",
-      "accessDate": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "",
-      "libraryCatalog": "",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "W788PN5I"
-      ],
-      "relations": {},
-      "dateAdded": "2025-08-18T09:31:33Z",
-      "dateModified": "2026-08-12T18:13:27Z"
     }
   },
   {
