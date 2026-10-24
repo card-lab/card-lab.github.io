@@ -1,15 +1,15 @@
 {
   "generated": true,
-  "nodeCount": 68,
-  "edgeCount": 565,
+  "nodeCount": 72,
+  "edgeCount": 597,
   "nodes": [
     {
       "id": "/",
       "label": "CARD Lab Timeline in Photos \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "index.html",
-      "indegree": 67,
+      "indegree": 71,
       "outdegree": 6,
-      "degree": 73
+      "degree": 77
     },
     {
       "id": "/404.html",
@@ -79,9 +79,9 @@
       "id": "/capabilities/facilities.html",
       "label": "Facilities and Equipment \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "capabilities/facilities.html",
-      "indegree": 67,
+      "indegree": 71,
       "outdegree": 15,
-      "degree": 82
+      "degree": 86
     },
     {
       "id": "/capabilities/mmie-research.html",
@@ -111,25 +111,25 @@
       "id": "/easteregg.html",
       "label": "A Cartomancy Sequence Representing Graduate Studies \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "easteregg.html",
-      "indegree": 67,
+      "indegree": 71,
       "outdegree": 6,
-      "degree": 73
+      "degree": 77
     },
     {
       "id": "/impressum.html",
       "label": "Impressum \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "impressum.html",
-      "indegree": 67,
+      "indegree": 71,
       "outdegree": 6,
-      "degree": 73
+      "degree": 77
     },
     {
       "id": "/people/alumni.html",
       "label": "Alumni \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/alumni.html",
       "indegree": 5,
-      "outdegree": 37,
-      "degree": 42
+      "outdegree": 40,
+      "degree": 45
     },
     {
       "id": "/people/alumni/Aaron_McMillen.html",
@@ -180,9 +180,9 @@
       "degree": 8
     },
     {
-      "id": "/people/alumni/Emilie_Maddox.html",
-      "label": "Emilie Maddox \u2013 Critical Alloy Research &amp; Discovery Lab",
-      "path": "people/alumni/Emilie_Maddox.html",
+      "id": "/people/alumni/Emily_Crawley.html",
+      "label": "Emily Crawley \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/alumni/Emily_Crawley.html",
       "indegree": 1,
       "outdegree": 7,
       "degree": 8
@@ -244,9 +244,9 @@
       "degree": 8
     },
     {
-      "id": "/people/alumni/Mikki_Keller_(von_Schaumberg).html",
-      "label": "Mikki Keller (von Schaumberg) \u2013 Critical Alloy Research &amp; Discovery Lab",
-      "path": "people/alumni/Mikki_Keller_(von_Schaumberg).html",
+      "id": "/people/alumni/Mikki_Keller_(von_Schaumburg).html",
+      "label": "Mikki Keller (von Schaumburg) \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/alumni/Mikki_Keller_(von_Schaumburg).html",
       "indegree": 1,
       "outdegree": 7,
       "degree": 8
@@ -308,6 +308,14 @@
       "degree": 8
     },
     {
+      "id": "/people/alumni/Talan_Saucedo-Lovejoy.html",
+      "label": "Talan Saucedo-Lovejoy \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/alumni/Talan_Saucedo-Lovejoy.html",
+      "indegree": 1,
+      "outdegree": 7,
+      "degree": 8
+    },
+    {
       "id": "/people/alumni/Tobi_Oriola.html",
       "label": "Tobi Oriola \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/alumni/Tobi_Oriola.html",
@@ -319,6 +327,22 @@
       "id": "/people/alumni/Vinay_Oruganti.html",
       "label": "Vinay Oruganti \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/alumni/Vinay_Oruganti.html",
+      "indegree": 1,
+      "outdegree": 7,
+      "degree": 8
+    },
+    {
+      "id": "/people/alumni/Yasmin_Horri.html",
+      "label": "Yasmin Horri \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/alumni/Yasmin_Horri.html",
+      "indegree": 1,
+      "outdegree": 7,
+      "degree": 8
+    },
+    {
+      "id": "/people/alumni/Yateendra_Guthula.html",
+      "label": "Yateendra Guthula \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/alumni/Yateendra_Guthula.html",
       "indegree": 1,
       "outdegree": 7,
       "degree": 8
@@ -343,9 +367,9 @@
       "id": "/people/current.html",
       "label": "Current Group Members \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/current.html",
-      "indegree": 67,
-      "outdegree": 25,
-      "degree": 92
+      "indegree": 71,
+      "outdegree": 26,
+      "degree": 97
     },
     {
       "id": "/people/current/Alan_Do.html",
@@ -388,9 +412,17 @@
       "degree": 8
     },
     {
-      "id": "/people/current/Emily_Crawley.html",
-      "label": "Emily Crawley \u2013 Critical Alloy Research &amp; Discovery Lab",
-      "path": "people/current/Emily_Crawley.html",
+      "id": "/people/current/Emilie_Maddox.html",
+      "label": "Emilie Maddox \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/current/Emilie_Maddox.html",
+      "indegree": 1,
+      "outdegree": 7,
+      "degree": 8
+    },
+    {
+      "id": "/people/current/Gouri_Priya_Naroju.html",
+      "label": "Gouri Priya Naroju \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/current/Gouri_Priya_Naroju.html",
       "indegree": 1,
       "outdegree": 7,
       "degree": 8
@@ -412,6 +444,14 @@
       "degree": 8
     },
     {
+      "id": "/people/current/Quinn_Jorgensen.html",
+      "label": "Quinn Jorgensen \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/current/Quinn_Jorgensen.html",
+      "indegree": 1,
+      "outdegree": 7,
+      "degree": 8
+    },
+    {
       "id": "/people/current/Sajjad_Hasan.html",
       "label": "Sajjad Hasan \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/current/Sajjad_Hasan.html",
@@ -420,9 +460,17 @@
       "degree": 8
     },
     {
-      "id": "/people/current/Talan_Saucedo-Lovejoy.html",
-      "label": "Talan Saucedo-Lovejoy \u2013 Critical Alloy Research &amp; Discovery Lab",
-      "path": "people/current/Talan_Saucedo-Lovejoy.html",
+      "id": "/people/current/Terra_Williams.html",
+      "label": "Terra Williams \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/current/Terra_Williams.html",
+      "indegree": 1,
+      "outdegree": 7,
+      "degree": 8
+    },
+    {
+      "id": "/people/current/Trisha_Maheshwari.html",
+      "label": "Trisha Maheshwari \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/current/Trisha_Maheshwari.html",
       "indegree": 1,
       "outdegree": 7,
       "degree": 8
@@ -431,22 +479,6 @@
       "id": "/people/current/Weihao_Li.html",
       "label": "Weihao Li \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/current/Weihao_Li.html",
-      "indegree": 1,
-      "outdegree": 7,
-      "degree": 8
-    },
-    {
-      "id": "/people/current/Yasmin_Horri.html",
-      "label": "Yasmin Horri \u2013 Critical Alloy Research &amp; Discovery Lab",
-      "path": "people/current/Yasmin_Horri.html",
-      "indegree": 1,
-      "outdegree": 7,
-      "degree": 8
-    },
-    {
-      "id": "/people/current/Yateendra_Guthula.html",
-      "label": "Yateendra Guthula \u2013 Critical Alloy Research &amp; Discovery Lab",
-      "path": "people/current/Yateendra_Guthula.html",
       "indegree": 1,
       "outdegree": 7,
       "degree": 8
@@ -535,17 +567,17 @@
       "id": "/research/workproducts.html",
       "label": "Work Products \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "research/workproducts.html",
-      "indegree": 67,
+      "indegree": 71,
       "outdegree": 9,
-      "degree": 76
+      "degree": 80
     },
     {
       "id": "/site-map.html",
       "label": "Site Map \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "site-map.html",
-      "indegree": 67,
+      "indegree": 71,
       "outdegree": 6,
-      "degree": 73
+      "degree": 77
     }
   ],
   "edges": [
@@ -1079,7 +1111,7 @@
     },
     {
       "source": "/people/alumni.html",
-      "target": "/people/alumni/Emilie_Maddox.html"
+      "target": "/people/alumni/Emily_Crawley.html"
     },
     {
       "source": "/people/alumni.html",
@@ -1111,7 +1143,7 @@
     },
     {
       "source": "/people/alumni.html",
-      "target": "/people/alumni/Mikki_Keller_(von_Schaumberg).html"
+      "target": "/people/alumni/Mikki_Keller_(von_Schaumburg).html"
     },
     {
       "source": "/people/alumni.html",
@@ -1143,11 +1175,23 @@
     },
     {
       "source": "/people/alumni.html",
+      "target": "/people/alumni/Talan_Saucedo-Lovejoy.html"
+    },
+    {
+      "source": "/people/alumni.html",
       "target": "/people/alumni/Tobi_Oriola.html"
     },
     {
       "source": "/people/alumni.html",
       "target": "/people/alumni/Vinay_Oruganti.html"
+    },
+    {
+      "source": "/people/alumni.html",
+      "target": "/people/alumni/Yasmin_Horri.html"
+    },
+    {
+      "source": "/people/alumni.html",
+      "target": "/people/alumni/Yateendra_Guthula.html"
     },
     {
       "source": "/people/alumni.html",
@@ -1354,31 +1398,31 @@
       "target": "/site-map.html"
     },
     {
-      "source": "/people/alumni/Emilie_Maddox.html",
+      "source": "/people/alumni/Emily_Crawley.html",
       "target": "/"
     },
     {
-      "source": "/people/alumni/Emilie_Maddox.html",
+      "source": "/people/alumni/Emily_Crawley.html",
       "target": "/capabilities/facilities.html"
     },
     {
-      "source": "/people/alumni/Emilie_Maddox.html",
+      "source": "/people/alumni/Emily_Crawley.html",
       "target": "/easteregg.html"
     },
     {
-      "source": "/people/alumni/Emilie_Maddox.html",
+      "source": "/people/alumni/Emily_Crawley.html",
       "target": "/impressum.html"
     },
     {
-      "source": "/people/alumni/Emilie_Maddox.html",
+      "source": "/people/alumni/Emily_Crawley.html",
       "target": "/people/current.html"
     },
     {
-      "source": "/people/alumni/Emilie_Maddox.html",
+      "source": "/people/alumni/Emily_Crawley.html",
       "target": "/research/workproducts.html"
     },
     {
-      "source": "/people/alumni/Emilie_Maddox.html",
+      "source": "/people/alumni/Emily_Crawley.html",
       "target": "/site-map.html"
     },
     {
@@ -1578,31 +1622,31 @@
       "target": "/site-map.html"
     },
     {
-      "source": "/people/alumni/Mikki_Keller_(von_Schaumberg).html",
+      "source": "/people/alumni/Mikki_Keller_(von_Schaumburg).html",
       "target": "/"
     },
     {
-      "source": "/people/alumni/Mikki_Keller_(von_Schaumberg).html",
+      "source": "/people/alumni/Mikki_Keller_(von_Schaumburg).html",
       "target": "/capabilities/facilities.html"
     },
     {
-      "source": "/people/alumni/Mikki_Keller_(von_Schaumberg).html",
+      "source": "/people/alumni/Mikki_Keller_(von_Schaumburg).html",
       "target": "/easteregg.html"
     },
     {
-      "source": "/people/alumni/Mikki_Keller_(von_Schaumberg).html",
+      "source": "/people/alumni/Mikki_Keller_(von_Schaumburg).html",
       "target": "/impressum.html"
     },
     {
-      "source": "/people/alumni/Mikki_Keller_(von_Schaumberg).html",
+      "source": "/people/alumni/Mikki_Keller_(von_Schaumburg).html",
       "target": "/people/current.html"
     },
     {
-      "source": "/people/alumni/Mikki_Keller_(von_Schaumberg).html",
+      "source": "/people/alumni/Mikki_Keller_(von_Schaumburg).html",
       "target": "/research/workproducts.html"
     },
     {
-      "source": "/people/alumni/Mikki_Keller_(von_Schaumberg).html",
+      "source": "/people/alumni/Mikki_Keller_(von_Schaumburg).html",
       "target": "/site-map.html"
     },
     {
@@ -1802,6 +1846,34 @@
       "target": "/site-map.html"
     },
     {
+      "source": "/people/alumni/Talan_Saucedo-Lovejoy.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/alumni/Talan_Saucedo-Lovejoy.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/alumni/Talan_Saucedo-Lovejoy.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/alumni/Talan_Saucedo-Lovejoy.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/alumni/Talan_Saucedo-Lovejoy.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/alumni/Talan_Saucedo-Lovejoy.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/alumni/Talan_Saucedo-Lovejoy.html",
+      "target": "/site-map.html"
+    },
+    {
       "source": "/people/alumni/Tobi_Oriola.html",
       "target": "/"
     },
@@ -1855,6 +1927,62 @@
     },
     {
       "source": "/people/alumni/Vinay_Oruganti.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/people/alumni/Yasmin_Horri.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/alumni/Yasmin_Horri.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/alumni/Yasmin_Horri.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/alumni/Yasmin_Horri.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/alumni/Yasmin_Horri.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/alumni/Yasmin_Horri.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/alumni/Yasmin_Horri.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/people/alumni/Yateendra_Guthula.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/alumni/Yateendra_Guthula.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/alumni/Yateendra_Guthula.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/alumni/Yateendra_Guthula.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/alumni/Yateendra_Guthula.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/alumni/Yateendra_Guthula.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/alumni/Yateendra_Guthula.html",
       "target": "/site-map.html"
     },
     {
@@ -1955,7 +2083,11 @@
     },
     {
       "source": "/people/current.html",
-      "target": "/people/current/Emily_Crawley.html"
+      "target": "/people/current/Emilie_Maddox.html"
+    },
+    {
+      "source": "/people/current.html",
+      "target": "/people/current/Gouri_Priya_Naroju.html"
     },
     {
       "source": "/people/current.html",
@@ -1967,23 +2099,23 @@
     },
     {
       "source": "/people/current.html",
+      "target": "/people/current/Quinn_Jorgensen.html"
+    },
+    {
+      "source": "/people/current.html",
       "target": "/people/current/Sajjad_Hasan.html"
     },
     {
       "source": "/people/current.html",
-      "target": "/people/current/Talan_Saucedo-Lovejoy.html"
+      "target": "/people/current/Terra_Williams.html"
+    },
+    {
+      "source": "/people/current.html",
+      "target": "/people/current/Trisha_Maheshwari.html"
     },
     {
       "source": "/people/current.html",
       "target": "/people/current/Weihao_Li.html"
-    },
-    {
-      "source": "/people/current.html",
-      "target": "/people/current/Yasmin_Horri.html"
-    },
-    {
-      "source": "/people/current.html",
-      "target": "/people/current/Yateendra_Guthula.html"
     },
     {
       "source": "/people/current.html",
@@ -2154,31 +2286,59 @@
       "target": "/site-map.html"
     },
     {
-      "source": "/people/current/Emily_Crawley.html",
+      "source": "/people/current/Emilie_Maddox.html",
       "target": "/"
     },
     {
-      "source": "/people/current/Emily_Crawley.html",
+      "source": "/people/current/Emilie_Maddox.html",
       "target": "/capabilities/facilities.html"
     },
     {
-      "source": "/people/current/Emily_Crawley.html",
+      "source": "/people/current/Emilie_Maddox.html",
       "target": "/easteregg.html"
     },
     {
-      "source": "/people/current/Emily_Crawley.html",
+      "source": "/people/current/Emilie_Maddox.html",
       "target": "/impressum.html"
     },
     {
-      "source": "/people/current/Emily_Crawley.html",
+      "source": "/people/current/Emilie_Maddox.html",
       "target": "/people/current.html"
     },
     {
-      "source": "/people/current/Emily_Crawley.html",
+      "source": "/people/current/Emilie_Maddox.html",
       "target": "/research/workproducts.html"
     },
     {
-      "source": "/people/current/Emily_Crawley.html",
+      "source": "/people/current/Emilie_Maddox.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/people/current/Gouri_Priya_Naroju.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/current/Gouri_Priya_Naroju.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/current/Gouri_Priya_Naroju.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/current/Gouri_Priya_Naroju.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/current/Gouri_Priya_Naroju.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/current/Gouri_Priya_Naroju.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/current/Gouri_Priya_Naroju.html",
       "target": "/site-map.html"
     },
     {
@@ -2238,6 +2398,34 @@
       "target": "/site-map.html"
     },
     {
+      "source": "/people/current/Quinn_Jorgensen.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/current/Quinn_Jorgensen.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/current/Quinn_Jorgensen.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/current/Quinn_Jorgensen.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/current/Quinn_Jorgensen.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/current/Quinn_Jorgensen.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/current/Quinn_Jorgensen.html",
+      "target": "/site-map.html"
+    },
+    {
       "source": "/people/current/Sajjad_Hasan.html",
       "target": "/"
     },
@@ -2266,31 +2454,59 @@
       "target": "/site-map.html"
     },
     {
-      "source": "/people/current/Talan_Saucedo-Lovejoy.html",
+      "source": "/people/current/Terra_Williams.html",
       "target": "/"
     },
     {
-      "source": "/people/current/Talan_Saucedo-Lovejoy.html",
+      "source": "/people/current/Terra_Williams.html",
       "target": "/capabilities/facilities.html"
     },
     {
-      "source": "/people/current/Talan_Saucedo-Lovejoy.html",
+      "source": "/people/current/Terra_Williams.html",
       "target": "/easteregg.html"
     },
     {
-      "source": "/people/current/Talan_Saucedo-Lovejoy.html",
+      "source": "/people/current/Terra_Williams.html",
       "target": "/impressum.html"
     },
     {
-      "source": "/people/current/Talan_Saucedo-Lovejoy.html",
+      "source": "/people/current/Terra_Williams.html",
       "target": "/people/current.html"
     },
     {
-      "source": "/people/current/Talan_Saucedo-Lovejoy.html",
+      "source": "/people/current/Terra_Williams.html",
       "target": "/research/workproducts.html"
     },
     {
-      "source": "/people/current/Talan_Saucedo-Lovejoy.html",
+      "source": "/people/current/Terra_Williams.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/people/current/Trisha_Maheshwari.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/current/Trisha_Maheshwari.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/current/Trisha_Maheshwari.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/current/Trisha_Maheshwari.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/current/Trisha_Maheshwari.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/current/Trisha_Maheshwari.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/current/Trisha_Maheshwari.html",
       "target": "/site-map.html"
     },
     {
@@ -2319,62 +2535,6 @@
     },
     {
       "source": "/people/current/Weihao_Li.html",
-      "target": "/site-map.html"
-    },
-    {
-      "source": "/people/current/Yasmin_Horri.html",
-      "target": "/"
-    },
-    {
-      "source": "/people/current/Yasmin_Horri.html",
-      "target": "/capabilities/facilities.html"
-    },
-    {
-      "source": "/people/current/Yasmin_Horri.html",
-      "target": "/easteregg.html"
-    },
-    {
-      "source": "/people/current/Yasmin_Horri.html",
-      "target": "/impressum.html"
-    },
-    {
-      "source": "/people/current/Yasmin_Horri.html",
-      "target": "/people/current.html"
-    },
-    {
-      "source": "/people/current/Yasmin_Horri.html",
-      "target": "/research/workproducts.html"
-    },
-    {
-      "source": "/people/current/Yasmin_Horri.html",
-      "target": "/site-map.html"
-    },
-    {
-      "source": "/people/current/Yateendra_Guthula.html",
-      "target": "/"
-    },
-    {
-      "source": "/people/current/Yateendra_Guthula.html",
-      "target": "/capabilities/facilities.html"
-    },
-    {
-      "source": "/people/current/Yateendra_Guthula.html",
-      "target": "/easteregg.html"
-    },
-    {
-      "source": "/people/current/Yateendra_Guthula.html",
-      "target": "/impressum.html"
-    },
-    {
-      "source": "/people/current/Yateendra_Guthula.html",
-      "target": "/people/current.html"
-    },
-    {
-      "source": "/people/current/Yateendra_Guthula.html",
-      "target": "/research/workproducts.html"
-    },
-    {
-      "source": "/people/current/Yateendra_Guthula.html",
       "target": "/site-map.html"
     },
     {
