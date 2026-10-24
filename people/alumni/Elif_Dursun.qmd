@@ -1,13 +1,14 @@
 ---
 title: "Elif Dursun"
 categories: ["PhD - Secondary Advisee", "PhD - Primary Advisee"]
-member-since: 2026-05-01 00:00:00
+member-from: 2026-05-01 00:00:00
+member-to: 2026-10-15 00:00:00
 date: today
 date-modified: 2026-05-01 00:00:00
-date-format: "MMMM YYYY"
+date-format: "MMM YYYY"
 language:
   title-block-published: "Updated"
-  title-block-modified: "Joined"
+  title-block-modified: "Member from"
 execute:
   echo: false
 image: ../../files/photos/People/Elif_Dursun.jpg
@@ -21,17 +22,32 @@ about:
       url: https://www.linkedin.com/in/elif-betül-şahin-a8403620a
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0002-3019-2536
-    - text: "![Flag of Türkiye](https://flagcdn.com/tr.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/Republic_of_T%C3%BCrkiye
-    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/United_States_of_America
-    - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
-      url: https://en.wikipedia.org/wiki/Ohio
 
 ---
 
 <!-- card-lab-authorship-name: Dursun, E. B. -->
 
+
+```{=html}
+<div class="member-range-source" data-member-range="May 2026 to October 2026"></div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const source = document.querySelector(".member-range-source");
+  const modified = document.querySelector(".quarto-title-meta .date-modified");
+  if (source && modified) {
+    const range = source.dataset.memberRange || modified.textContent;
+    const contents = modified.closest(".quarto-title-meta-contents");
+    const heading = contents ? contents.previousElementSibling : null;
+    if (heading && heading.classList.contains("quarto-title-meta-heading")) {
+      heading.textContent = `Member from ${range}`;
+      if (contents) { contents.remove(); }
+    } else {
+      modified.textContent = range;
+    }
+  }
+});
+</script>
+```
 
 
 ```{=html}

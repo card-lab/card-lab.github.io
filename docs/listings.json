@@ -2,7 +2,6 @@
   {
     "listing": "/people/current.html",
     "items": [
-      "/people/current/Elif_Dursun.html",
       "/people/current/Cameron_Gulley.html",
       "/people/current/Terra_Williams.html",
       "/people/current/Alice_Oladipo.html",
@@ -22,6 +21,7 @@
   {
     "listing": "/people/alumni.html",
     "items": [
+      "/people/alumni/Elif_Dursun.html",
       "/people/alumni/Talan_Saucedo-Lovejoy.html",
       "/people/alumni/Yateendra_Guthula.html",
       "/people/alumni/Emily_Crawley.html",

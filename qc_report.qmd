@@ -1,6 +1,6 @@
 ---
 title: "Site QC Report"
-subtitle: "Automated quality-control scan · 2026-10-24 13:39:02"
+subtitle: "Automated quality-control scan · 2026-10-24 14:28:23"
 date: "2026-10-24"
 date-format: "MMMM D, YYYY"
 toc: true
@@ -15,19 +15,19 @@ toc-title: "Checks"
 ::: {.callout-warning}
 ## 🟡 Overall Status
 
-**23 warnings found.** No hard errors, but some issues need attention.
+**28 warnings found.** No hard errors, but some issues need attention.
 :::
 
 ## Summary
 
 | Metric | Value |
 |:-------|------:|
-| Pages scanned | 77 |
+| Pages scanned | 78 |
 | 🔴 Errors | 0 |
-| 🟡 Warnings | 23 |
+| 🟡 Warnings | 28 |
 | 🔵 Notes | 28 |
-| Total issues | 51 |
-| Checked | 2026-10-24 13:39:02 |
+| Total issues | 56 |
+| Checked | 2026-10-24 14:28:23 |
 
 
 External links were **skipped** — re-run with `--external` to include them.
@@ -66,9 +66,14 @@ External links were **skipped** — re-run with `--external` to include them.
 
 ### Missing / Bad Image {#image}
 
-🟡 14
+🟡 19
 
 <table style="width:100%;border-collapse:collapse;font-size:.85rem;"><thead><tr style="background:#f3f4f6;"><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;white-space:nowrap;">Level</th><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;">Page / Source</th><th style="padding:6px 10px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;border-bottom:2px solid #e5e7eb;">Detail</th></tr></thead><tbody><tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">files/Research_Group_Timeline_Slideshow.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Image tag has no <code>src</code> attribute</td></tr>
+<tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">files/Research_Group_Timeline_Slideshow.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Image tag has no <code>src</code> attribute</td></tr>
+<tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">files/Research_Group_Timeline_Slideshow.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Image tag has no <code>src</code> attribute</td></tr>
+<tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">files/Research_Group_Timeline_Slideshow.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Image tag has no <code>src</code> attribute</td></tr>
+<tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">files/Research_Group_Timeline_Slideshow.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Image tag has no <code>src</code> attribute</td></tr>
+<tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">files/Research_Group_Timeline_Slideshow.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Image tag has no <code>src</code> attribute</td></tr>
 <tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">files/Research_Group_Timeline_Slideshow.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Image tag has no <code>src</code> attribute</td></tr>
 <tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">files/Research_Group_Timeline_Slideshow.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Image tag has no <code>src</code> attribute</td></tr>
 <tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;white-space:nowrap;"><span style="background:#fef3c7;color:#92400e;padding:1px 7px;border-radius:9px;font-size:.75rem;font-weight:700;text-transform:uppercase;">warning</span></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:.8rem;word-break:break-all;">files/Research_Group_Timeline_Slideshow.html</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;font-size:.85rem;">Image tag has no <code>src</code> attribute</td></tr>
