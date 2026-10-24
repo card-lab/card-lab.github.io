@@ -12,7 +12,9 @@ Acta Met.,
 Acta Metal. Mater.,
 Acta Metall,
 Acta Metall.,
+Acta Metallurgica,
 Acta Numerica,15.9375
+Adap@ve computa@on and machine learning,
 Add. Manuf.,
 Addit Manuf,
 Addit. Manuf.,
@@ -22,9 +24,11 @@ Adv. Eng. Mater.,
 Adv. Funct. Mater.,
 Adv. Mater.,
 Adv. Sci.,
+Advanced Engineering Materials,
 Advanced Structured Materials,0.508130081300813
 Advances and Applications in Metallography,
 AIP Conf. Proc.,0.0
+An Introduc:on to Sta:s:cal Learning: with Applica:ons in R,
 Ann. Rev. Mater. Sci.,
 Annu. Rev. Mater. Res.,
 APL Energy,4.9125
@@ -33,6 +37,7 @@ Appl Math Model,
 Appl. Phys. A,
 Appl. Phys. Lett.,
 Appl. Surf. Sci.,
+Applied Materials Today,
 Applied Sciences,3.1817030494917513
 Arch. Eisenhüttenwesen,
 Arch. Metall. Mater.,
@@ -45,6 +50,7 @@ C. R. Phys.,
 Calphad,1.6623376623376624
 Carbon Trends,5.3076923076923075
 Ceram. Int.,
+Chem. Educator,
 Chem. Mater.,
 ChemElectroChem,4.920238095238095
 Chemosensors,4.397094430992736
@@ -58,6 +64,7 @@ Comput. Mech.,0.0
 Comput. Methods Appl. Mech. Eng.,
 Comput. Optim. Appl.,
 Comput. Sci. Eng.,
+Computa:onal Materials Science,
 Computational Materials Science,3.4787294384571754
 Corros. Sci.,
 Crystals,2.887214983713355
@@ -65,17 +72,21 @@ Curr. Appl. Phys.,
 Data Br.,
 Data Brief,2.2203994293865907
 EES Batter.,
+EGU General Assembly Conference Abstracts,
 Electronic Journal of Differential Equations (EJDE) [Electronic Only],0.0
 Energies,4.025438653708173
 Energy Procedia,0.0
 Energy Storage Mater.,
 Engineering Structures,6.815001005429318
 Erkenntnis,0.7380952380952381
+ern Recogni:on and Machine Learning,
+Es@ma@on of Transforma@on Temperatures in Ti-Ni-Pd Shape Memory Alloys,
 Eur. J. Phys.,
 Exp. Math.,
 Exp. Mech.,
 Front. Mater.,
 Front. Phys.,
+"Hands-on machine learning with Scikit-Learn, Keras and TensorFlow: concepts, tools, and techniques to build intelligent systems",
 Health Care Manag. Sci.,
 IEEE Trans. Autom. Control,
 Infrared Phys. Technol.,
@@ -93,6 +104,7 @@ Integr. Mater. Manuf. Innov.,
 Inter Metalcast,
 Interface Joint Strength between SS316L Wrought Substrate and Powder Bed Fusion Built Parts,
 Intermetallics,4.732848232848233
+Interna:onal Materials Reviews,
 International Journal of Fatigue,6.307581227436823
 International Journal of Materials Research,1.157676348547718
 IOP Conf. Ser. Mater. Sci. Eng.,
@@ -154,15 +166,17 @@ JANNAF J. Propulsion Energ.,
 JOM,1.6906758756783424
 Jom,1.6906758756783424
 Journal of Alloys and Compounds,5.315599816549827
+Journal of Machine Learning Research,
 Journal of Manufacturing Processes,7.621897810218978
 Journal of Materials Processing Technology,7.543083900226757
 Journal of Materials Research,6.608295528191834
 Journal of Materials Research and Technology,6.608295528191834
-Journal of Materials Science,3.6343551505109084
+Journal of Materials Science,3.634355150510909
 Journal of Microscopy,1.8333333333333333
 JPE,0.0
 Le J. Phys. Colloq.,
 "London, Edinburgh, Dublin Philosophical Magazine J. Sci.",
+Machine Learning,
 Mat. Sci. Eng. A,
 Mat. Sci. Techn.,
 Mater Charact,
@@ -191,11 +205,15 @@ Materials,19.82953577512777
 Materials & Design,5.205035971223022
 Materials (Basel),
 Materials Characterization,4.9818181818181815
+Materials Research Le]ers,
 Materials Research Letters,6.459375
 Materials Science and Engineering: A,5.982984293193717
 Materials Today,4.336065573770492
+Materials Today Advances,
+Materials Today Communica:ons,
 Mechanical behavior of materials,3.627880184331797
-Mendeley Data,0.012750699850442918
+"mendeleev -A Python resource for proper:es of chemical elements, ions and isotopes",
+Mendeley Data,0.0127506998504429
 Met. Mater. Int.,
 Met. Mater. Trans. A,
 Met. Sci.,0.0
@@ -214,7 +232,7 @@ Metall. Trans. B,
 Metallogr. Microstruct. Anal.,
 Metallography,0.0
 Metallurgical and Materials Transactions A,2.5367875647668394
-Metals,3.6557692307692307
+Metals,3.65576923076923
 Micromachines,3.429610238510762
 Micron,1.967032967032967
 Microsc. Microanal.,
@@ -236,7 +254,9 @@ Next Energy,4.024390243902439
 Next Mater.,
 npj Comput. Mater.,
 Opt. Laser Technol.,
+Orienta@on Dependence of Shape Memory Effect and Superelas@city in (TiZrHf)50Ni25Co10Cu15 High-Entropy Alloy Single Crystals,
 Oxid. Met.,
+PhD Disserta@on,
 Phil. Mag. A,
 Phil. Trans. R. Soc. A,
 Philos. Mag.,
@@ -249,6 +269,7 @@ Phys. Chem. Chem. Phys.,0.0
 Phys. Chem. Chem. Phys. (Incorporating Faraday Transactions),
 Phys. Lett.,0.0
 Phys. Metals Metallogr,
+Phys. Rev,
 Phys. Rev. A,
 Phys. Rev. B,
 Phys. Rev. Lett.,
@@ -284,6 +305,7 @@ Scripta Mater.,
 Scripta Materialia,4.978336221837089
 "Selective Laser Melting of Duplex Stainless Steel 2205: Effect of Post-Processing Heat Treatment on Microstructure, Mechanical Properties, and Corrosion Resistance",
 Sensors,4.346088615645537
+Shap. Mem. Superelas:city,
 Shap. Mem. Superelasticity,
 Shape Mem. Superelasticity,
 Shape Memory and Superelasticity,1.7297297297297298
@@ -291,6 +313,8 @@ Society for Industrial and Applied Mathematics,1.0700116686114352
 SoftwareX,1.9068901303538175
 Solid State Phenom.,
 Solid State Phenomena,0.5859872611464968
+Springer Series in Sta@s@cs,
+"Sta@c structure, collec@ve dynamics and transport coefficients in the liquid Li-Pb alloy. An ab ini:o molecular dynamics study",
 Stahl Eisen,0.0
 Surf. Coat. Technol.,
 Surf. Interfaces,
@@ -305,6 +329,7 @@ Trans. AIME,0.0
 Trans. Amer. Inst. Min. Met. Eng.,
 Trans. IMF,
 Transportation Research Part C: Emerging Technologies,6.576923076923077
+"Tree-based methods for sta:s:cal learning in R, First edi@on. in Chapman & Hall/CRC data science series",
 Ultramicroscopy,2.29136690647482
 Vacuum,3.892682926829268
 Virtual and Physical Prototyping,9.54025044722719
