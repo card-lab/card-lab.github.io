@@ -22,9 +22,6 @@ about:
 
 ---
 
-<!-- card-lab-authorship-name:  -->
-
-
 
 ```{=html}
 <style>
