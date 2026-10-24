@@ -27,7 +27,7 @@ from bs4 import BeautifulSoup, NavigableString
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 ZOTERO_GROUP_ID = "5985739"
-LOCAL_ZOTERO_ITEMS_PATH = PROJECT_ROOT / "files" / "zotero-items.json"
+LOCAL_ZOTERO_ITEMS_PATH = PROJECT_ROOT / "files" / "zotero-group-library.json"
 CITATION_FORMAT = "ieee"
 
 PROFILE_GLOBS = ("people/current/*.qmd", "people/alumni/*.qmd")
@@ -47,16 +47,14 @@ def load_local_zotero_items(path: Path = LOCAL_ZOTERO_ITEMS_PATH) -> list[dict]:
     if _LOCAL_ZOTERO_ITEMS_CACHE is not None:
         return _LOCAL_ZOTERO_ITEMS_CACHE
 
-    try:
-        with path.open("r", encoding="utf-8") as f:
-            data = json.load(f)
-        if isinstance(data, list):
-            _LOCAL_ZOTERO_ITEMS_CACHE = data
-            return _LOCAL_ZOTERO_ITEMS_CACHE
-    except Exception as exc:
-        print(f"Warning: failed to load local Zotero items from {path}: {exc}")
+    # An empty item list would make every profile look like it has no
+    # publications and strip all existing sections, so fail loudly instead.
+    with path.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+    if not isinstance(data, list) or not data:
+        raise RuntimeError(f"Zotero cache {path} is empty or not a list of items")
 
-    _LOCAL_ZOTERO_ITEMS_CACHE = []
+    _LOCAL_ZOTERO_ITEMS_CACHE = data
     return _LOCAL_ZOTERO_ITEMS_CACHE
 
 
@@ -135,7 +133,8 @@ def get_formatted_citations(item_keys: list[str], style: str) -> str:
         response = requests.get(url, headers=headers, params=fallback_params, timeout=60)
 
     if response.status_code != 200:
-        return ""
+        # Raise so update_profile leaves the existing sections untouched.
+        raise RuntimeError(f"Zotero bib request failed with HTTP {response.status_code}")
 
     month_map = {
         "jan": 1,
@@ -456,7 +455,8 @@ def extract_authorship_name(text: str, title: str) -> str:
     if comment_match:
         value = comment_match.group(1).strip()
         if value:
-            return value
+            # Match the notebook's lookup key: "Le, C. T." -> "Le, C" (first initial only).
+            return value.split(".")[0].strip()
 
     # Fallback used in notebook when Authorship Name is missing.
     title_parts = [part for part in title.split() if part]
@@ -547,6 +547,11 @@ def update_profile(path: Path) -> bool:
 
 
 def main() -> None:
+    try:
+        load_local_zotero_items()
+    except Exception as exc:
+        raise SystemExit(f"[update-people-publications] aborting, profiles left unchanged: {exc}")
+
     changed = 0
     checked = 0
     for pattern in PROFILE_GLOBS:

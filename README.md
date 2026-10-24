@@ -108,6 +108,15 @@ Generally, just:
 
 `quarto publish gh-pages`
 
+Full render:
+
+```{bash}
+conda activate card-lab
+rm -f .quarto/people-sheet.sha256 && rm -rf _freeze
+quarto publish gh-pages
+```
+
+
 ## TO DO
 
 * Reduce redundancy in writing and modifying photos. If there is no change, don't re-write.

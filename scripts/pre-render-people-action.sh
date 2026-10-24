@@ -183,6 +183,14 @@ for notebook in "${NOTEBOOKS[@]}"; do
   CARD_LAB_SKIP_PEOPLE_ACTION_PRE_RENDER=1 CARD_LAB_SKIP_PEOPLE_NOTEBOOKS_PRE_RENDER=1 quarto render "$notebook"
 done
 
+# Written by people/demographics.ipynb; only present when some hometowns failed to geocode.
+GEOCODE_NOT_FOUND_LOG="private/geocode-not-found.log"
+if [[ -s "$GEOCODE_NOT_FOUND_LOG" ]]; then
+  echo "[pre-render] WARNING: hometowns not found by the geocoder (left off the demographics map):" >&2
+  sed 's/^/[pre-render]   /' "$GEOCODE_NOT_FOUND_LOG" >&2
+  echo "[pre-render] Fix these in the spreadsheet or add them to private/hometown_coordinates.txt (see $GEOCODE_NOT_FOUND_LOG)" >&2
+fi
+
 echo "[pre-render] Sanitizing people flag links"
 python_bin="$(find_python || true)"
 if [[ -z "$python_bin" ]]; then

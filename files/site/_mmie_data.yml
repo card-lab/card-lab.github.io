@@ -1,0 +1,76 @@
+# _mmie_data.yml
+# ---------------------------------------------------------------
+# Data file for capabilities/mmie-research.qmd
+# Edit values here for a quick manual update, OR run:
+#   python scripts/update_mmie_data.py
+# to have Claude scrape the latest figures and rewrite this file.
+# ---------------------------------------------------------------
+
+last_updated: "May 2025"
+
+uc_facts:
+  founded: "1819"
+  enrollment: "~53,000"
+  research_expenditure: "$740 million"
+  nsf_rank_public: "31st among public universities"
+  coop_rank: "Top 5 (U.S. News & World Report)"
+  student_coop_earnings: "$94 million/year"
+  carnegie_class: "R1 — Very High Research Activity"
+
+ceas_facts:
+  undergrad_enrollment: "~4,300"
+  grad_enrollment: "~1,340"
+  annual_grants: "$17+ million"
+  coop_founded: "1906"
+
+mmie_facts:
+  research_centers: "6"
+  degree_programs: "8"          # update if new programs are added
+  research_areas_count: "15+"
+
+highlights:
+  - "Birthplace of cooperative education (Herman Schneider, 1906)"
+  - "R1 Carnegie classification — Very High Research Activity"
+  - "SDRC faculty spin-off became the foundation of Siemens Digital Industries Software"
+  - "Albert Sabin (UC) developed the first oral polio vaccine"
+  - "George Rieveschl (UC) invented Benadryl — the first antihistamine"
+  - "CEAS Cleanroom: a regional hub for semiconductor & micro/nano fabrication R&D"
+  - "Research partnership with Thales (defense, space, aeronautics) at Digital Futures"
+  - "GE Aerospace Next Engineers program hosted by UC through 2028"
+  - "NSF ranked UC #31 among public universities for research activity (2022–23 survey)"
+
+research_areas:
+  - "Intelligent Manufacturing & Industry 4.0/5.0"
+  - "Additive Manufacturing & 3D-Printed Metallic Materials"
+  - "Thermal & Fluid Systems"
+  - "Structural Dynamics & Acoustics"
+  - "Nano/Biomechanics & Nanomaterials"
+  - "Energy Materials & Nanodevices"
+  - "Metallurgy & Phase Transformations"
+  - "Nuclear Engineering & Materials"
+  - "Polymers & Soft Matter"
+  - "Computational Materials Modeling"
+  - "Dynamics & Controls"
+  - "Data Analytics & AI for Engineering"
+
+degree_list:
+  - "B.S. Mechanical Engineering"
+  - "B.S. Industrial & Systems Engineering"
+  - "B.S. Mechanical Engineering Technology"
+  - "Minor in Materials Science & Engineering"
+  - "M.Eng. Mechanical Engineering (coursework)"
+  - "M.S. Mechanical Engineering (thesis)"
+  - "M.Eng. Materials Science & Engineering (coursework)"
+  - "M.S. Materials Science & Engineering (thesis)"
+  - "Ph.D. Mechanical Engineering"
+  - "Ph.D. Materials Science & Engineering"
+
+industry_partners:
+  - "GE Aerospace"
+  - "Siemens Digital Industries"
+  - "Thales"
+  - "Procter & Gamble"
+  - "Cincinnati Incorporated"
+  - "Materion"
+  - "Air Force Research Laboratory (AFRL)"
+  - "NASA"

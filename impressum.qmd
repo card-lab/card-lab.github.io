@@ -3,9 +3,9 @@ title: "Impressum"
 sidebar: false
 toc: false
 code-fold: true
+jupyter: card-lab
 execute:
   echo: false
-  jupyter: card-lab
 author:
   name: 
     given: Eric J.
