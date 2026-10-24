@@ -6,7 +6,7 @@ categories: [equipment, "secondary processing", "905C Rhodes Hall"]
 
 # Fenn Model 051 5” x 8” 2HI/4HI hot rolling mill
 
-[**International Rolling Mills, Pawtucket, RI, USA**](https://www.introllingmills.com)
+[*International Rolling Mills, Pawtucket, RI, USA*](https://www.introllingmills.com)
 
 ::: {.callout-note}
 *Rolling* is a metal forming process that involves passing a material through a pair of rolls to reduce its thickness, improve its surface finish, and enhance its mechanical properties. This shaping process is used for producing sheet metal, plates, and structural components. Some 90% of all metal products go through a rolling process at some point in their manufacturing.
