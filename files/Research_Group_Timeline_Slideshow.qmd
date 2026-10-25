@@ -25,6 +25,7 @@ jupyter:
 # Copy MacOS Finder comments to image captions using exiftool
 # This requires exiftool, which you can get by 'brew install exiftool'
 
+import json
 import subprocess
 from pathlib import Path
 import xattr
@@ -53,13 +54,32 @@ def get_finder_comment(file_path):
     except Exception:
         return None
 
+def get_metadata_description(image_path):
+    """Description embedded in the photo's metadata (XMP, IPTC, or EXIF), or None."""
+    result = subprocess.run(
+        ["exiftool", "-j", "-XMP-dc:Description", "-IPTC:Caption-Abstract", "-EXIF:ImageDescription", str(image_path)],
+        capture_output=True, text=True
+    )
+    if result.returncode != 0:
+        return None
+    data = json.loads(result.stdout)[0]
+    for key in ("Description", "Caption-Abstract", "ImageDescription"):
+        value = str(data.get(key) or "").strip()
+        if value:
+            return value
+    return None
+
 def write_caption_with_exiftool(image_path, comment):
     if not comment:
         print(f"No comment for: {image_path.name}")
         return
+    if get_metadata_description(image_path) == comment.strip():
+        return  # Already captioned; rewriting would change the file on every render.
     try:
         subprocess.run([
             "exiftool",
+            "-charset", "iptc=UTF8",
+            "-IPTC:CodedCharacterSet=UTF8",
             f"-IPTC:Caption-Abstract={comment}",
             f"-XMP-dc:Description={comment}",
             "-overwrite_original",
@@ -77,6 +97,7 @@ def copy_and_downsample_image(src_path, dst_path, max_width_px=MAX_IMAGE_WIDTH_P
     try:
         with Image.open(src_path) as img:
             exif = img.getexif()
+            exif.pop(0x8825, None)  # GPSInfo: don't publish where the photo was taken
             img = ImageOps.exif_transpose(img)
 
             if img.width > max_width_px:
@@ -96,14 +117,17 @@ def copy_and_downsample_image(src_path, dst_path, max_width_px=MAX_IMAGE_WIDTH_P
             img.save(dst_path, **save_kwargs)
             print(f"Synced: {src_path.name} -> {dst_path.name} ({img.width}px wide)")
     except Exception as e:
-        # Fallback to raw copy if Pillow cannot process this file.
+        # Fallback to raw copy if Pillow cannot process this file, minus its location data.
         shutil.copy2(src_path, dst_path)
+        subprocess.run(["exiftool", "-gps:all=", "-xmp:gps*=", "-overwrite_original", str(dst_path)], check=False)
         print(f"Copied without downsampling: {src_path.name} ({e})")
 
 def main():
     for img_path in PRIVATE_IMAGE_DIR.rglob("*"):
         if img_path.suffix.lower() in SUPPORTED_EXTENSIONS:
-            comment = get_finder_comment(str(img_path))
+            # The Finder comment wins; otherwise keep the original's own description,
+            # which downsampling drops (Pillow only carries over the EXIF block).
+            comment = get_finder_comment(str(img_path)) or get_metadata_description(img_path)
             rel_path = img_path.relative_to(PRIVATE_IMAGE_DIR)
             public_path = PUBLIC_IMAGE_DIR / rel_path
 
@@ -125,6 +149,7 @@ if __name__ == "__main__":
 #| output: asis
 
 import os
+import re
 from pathlib import Path
 from datetime import datetime
 from PIL import Image
@@ -154,7 +179,7 @@ def get_exif_data(image_path):
 
 def get_exif_metadata_caption(image_path):
     result = subprocess.run(
-        ['exiftool', '-j', '-XMP-dc:Description', '-IPTC:Caption-Abstract', image_path],
+        ['exiftool', '-j', '-XMP-dc:Description', '-IPTC:Caption-Abstract', '-EXIF:ImageDescription', image_path],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         text=True
@@ -163,18 +188,26 @@ def get_exif_metadata_caption(image_path):
         raise RuntimeError(result.stderr)
 
     data = json.loads(result.stdout)[0]
-    xmp = data.get("Description")
-    iptc = data.get("Caption-Abstract")
-
-    return xmp.strip() if xmp else (iptc.strip() if iptc else None)
+    for key in ("Description", "Caption-Abstract", "ImageDescription"):
+        value = str(data.get(key) or "").strip()
+        if value:
+            return value
+    return None
 
 def get_caption(image_path):
     """Construct a caption from EXIF metadata or file creation time."""
     exif = get_exif_data(image_path)
     comment = get_exif_metadata_caption(image_path)
 
-    date = exif.get("DateTimeOriginal", "") or exif.get("DateTime", "")
-    # Fallback to filesystem timestamp if no EXIF date is available
+    # The YYYY-MM-DD the filename starts with is the event date (it also orders
+    # the slides), so it wins over the camera's EXIF date.
+    date = ""
+    name_date = re.match(r"(\d{4}-\d{2}-\d{2})", Path(image_path).name)
+    if name_date:
+        date = f"{name_date.group(1)} 00:00:00"
+    if not date:
+        date = exif.get("DateTimeOriginal", "") or exif.get("DateTime", "")
+    # Last resort: filesystem timestamp, which copying a file resets
     if not date:
         stat = os.stat(image_path)
         date = datetime.fromtimestamp(stat.st_ctime).strftime("%Y-%m-%d %H:%M:%S")
