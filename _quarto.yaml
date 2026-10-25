@@ -27,6 +27,8 @@ execute:
 
 website:
   title: "Critical Alloy Research & Discovery Lab"
+  # Lets every render (local and CI) write sitemap.xml and robots.txt and use absolute open-graph URLs.
+  site-url: https://card-lab.github.io
   favicon: files/site/3-clubs-favicon-r.png
   open-graph: true
   
