@@ -47,16 +47,33 @@ jobs:
           if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
             git fetch --depth=1 origin gh-pages:refs/remotes/origin/gh-pages
             git worktree add .ci-gh-pages-snapshot origin/gh-pages
-            for item in people/demographics.html people/timeline.html people/timeline_files; do
-              if [[ -e ".ci-gh-pages-snapshot/$item" ]]; then
-                mkdir -p ".ci-preserved-pages/$(dirname "$item")"
-                cp -r ".ci-gh-pages-snapshot/$item" ".ci-preserved-pages/$item"
-                echo "[ci-render] Preserved previous output: $item"
-              fi
-            done
-            git worktree remove --force .ci-gh-pages-snapshot
           else
-            echo "[ci-render] gh-pages branch not found; nothing to preserve"
+            echo "[ci-render] gh-pages branch not found; only committed docs/ copies are available"
+          fi
+
+          # Use whichever copy was rendered more recently: the one committed to
+          # main under docs/ (a local render that was pushed) or the live one on
+          # gh-pages (the last publish). This must run before `quarto render`
+          # overwrites docs/.
+          for page in people/demographics.html people/timeline.html; do
+            source="$(python3 scripts/pick-newer-private-page.py "docs/$page" ".ci-gh-pages-snapshot/$page")"
+            if [[ -z "$source" ]]; then
+              continue
+            fi
+            mkdir -p ".ci-preserved-pages/$(dirname "$page")"
+            cp "$source" ".ci-preserved-pages/$page"
+            echo "[ci-render] Preserved previous output: $page (from $source)"
+
+            # The timeline's figures live beside it; keep them from the same render.
+            assets="$(dirname "$source")/timeline_files"
+            if [[ "$page" == people/timeline.html && -d "$assets" ]]; then
+              cp -r "$assets" .ci-preserved-pages/people/timeline_files
+              echo "[ci-render] Preserved previous output: people/timeline_files (from $assets)"
+            fi
+          done
+
+          if [[ -d .ci-gh-pages-snapshot ]]; then
+            git worktree remove --force .ci-gh-pages-snapshot
           fi
 
       - name: Hide private-dependent standard render documents
