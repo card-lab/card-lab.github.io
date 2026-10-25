@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Quinn Jorgensen – Critical Alloy Research &amp; Discovery Lab">
-<meta property="og:image" content="../../files/photos/People/Quinn_Jorgensen.jpg">
+<meta property="og:image" content="https://card-lab.github.io/files/photos/People/Quinn_Jorgensen.jpg">
 <meta property="og:site_name" content="Critical Alloy Research &amp; Discovery Lab">
 </head>
 
@@ -277,7 +277,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/card-lab\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
