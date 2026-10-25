@@ -2,7 +2,7 @@
 title: "Cameron Gulley"
 categories: ["MEng - Primary Advisee"]
 member-since: 2026-05-01 00:00:00
-member-order: 7
+member-order: 8
 date: today
 date-modified: 2026-05-01 00:00:00
 date-format: "MMMM YYYY"

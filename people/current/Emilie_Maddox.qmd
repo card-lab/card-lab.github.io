@@ -2,7 +2,7 @@
 title: "Emilie Maddox"
 categories: ["PhD - Primary Advisee", "BS - Senior Capstone Project"]
 member-since: 2026-08-15 00:00:00
-member-order: 6
+member-order: 7
 date: today
 date-modified: 2026-08-15 00:00:00
 date-format: "MMMM YYYY"

@@ -2,7 +2,7 @@
 title: "Philip Ochieze"
 categories: ["PhD - Secondary Advisee", "PhD - Primary Advisee"]
 member-since: 2024-01-01 00:00:00
-member-order: 9
+member-order: 13
 date: today
 date-modified: 2024-01-01 00:00:00
 date-format: "MMMM YYYY"

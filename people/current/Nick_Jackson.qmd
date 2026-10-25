@@ -2,7 +2,7 @@
 title: "Nick Jackson"
 categories: ["PhD - Primary Advisee"]
 member-since: 2025-08-15 00:00:00
-member-order: 4
+member-order: 5
 date: today
 date-modified: 2025-08-15 00:00:00
 date-format: "MMMM YYYY"
