@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,10 +14,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -44,14 +47,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-22a10d2cdf631752cd649d7c5388562a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-e00125132a27d40d906df44df90dcdb5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-22a10d2cdf631752cd649d7c5388562a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-5a1ecfbf7c62ecdc1fccefde01323ca1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-37bceac753999f853a17ece9fb25cdf1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-5a1ecfbf7c62ecdc1fccefde01323ca1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -121,7 +124,7 @@ cursor: default;
 </style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -152,7 +155,7 @@ window.Quarto = {
 
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="Alumni – Critical Alloy Research &amp; Discovery Lab">
-<meta property="og:image" content="https://card-lab.github.io/files/photos/People/Elif_Dursun.jpg">
+<meta property="og:image" content="../files/photos/People/Elif_Dursun.jpg">
 <meta property="og:site_name" content="Critical Alloy Research &amp; Discovery Lab">
 <meta property="og:image:alt" content="Photo of Elif Dursun">
 </head>
@@ -343,7 +346,7 @@ window.Quarto = {
 </style>
 <div class="people-listing list">
 
-  <div class="listing-item" data-index="0" data-categories="UGhEJTIwLSUyMFNlY29uZGFyeSUyMEFkdmlzZWUlMkNQaEQlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067328" data-listing-date-modified-sort="1777608000000" data-listing-reading-time-sort="3" data-listing-word-count-sort="459">
+  <div class="listing-item" data-index="0" data-categories="UGhEJTIwLSUyMFNlY29uZGFyeSUyMEFkdmlzZWUlMkNQaEQlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1777593600000" data-listing-reading-time-sort="3" data-listing-word-count-sort="459">
     <article class="card h-100">
       
       <a href="../people/alumni/Elif_Dursun.html" class="text-decoration-none">
@@ -371,7 +374,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="1" data-categories="QlMlMjAtJTIwRXhwZXJpZW50aWFsJTIwRXhwbG9yYXRpb24lMjBQcm9ncmFtJTIwUmVzZWFyY2hlciUyMChGdWxsLVRpbWUlMjBmb3IlMjBDcmVkaXQp" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067329" data-listing-date-modified-sort="1779076800000" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
+  <div class="listing-item" data-index="1" data-categories="QlMlMjAtJTIwRXhwZXJpZW50aWFsJTIwRXhwbG9yYXRpb24lMjBQcm9ncmFtJTIwUmVzZWFyY2hlciUyMChGdWxsLVRpbWUlMjBmb3IlMjBDcmVkaXQp" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1779062400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
     <article class="card h-100">
       
       <a href="../people/alumni/Talan_Saucedo-Lovejoy.html" class="text-decoration-none">
@@ -397,7 +400,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="2" data-categories="TUVuZyUyMC0lMjBQcmltYXJ5JTIwQWR2aXNlZQ==" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067329" data-listing-date-modified-sort="1777608000000" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
+  <div class="listing-item" data-index="2" data-categories="TUVuZyUyMC0lMjBQcmltYXJ5JTIwQWR2aXNlZQ==" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1777593600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
     <article class="card h-100">
       
       <a href="../people/alumni/Emily_Crawley.html" class="text-decoration-none">
@@ -423,7 +426,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="3" data-categories="TVMlMjAtJTIwU2Vjb25kYXJ5JTIwQWR2aXNlZQ==" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067328" data-listing-date-modified-sort="1746072000000" data-listing-reading-time-sort="2" data-listing-word-count-sort="331">
+  <div class="listing-item" data-index="3" data-categories="TVMlMjAtJTIwU2Vjb25kYXJ5JTIwQWR2aXNlZQ==" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1746057600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="331">
     <article class="card h-100">
       
       <a href="../people/alumni/Yateendra_Guthula.html" class="text-decoration-none">
@@ -449,7 +452,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="4" data-categories="QlMlMjAtJTIwUmVzZWFyY2glMjBFeHBlcmllbmNlJTIwZm9yJTIwVW5kZXJncmFkdWF0ZXMlMjAoRnVsbC1UaW1lJTIwUGFpZCk=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067329" data-listing-date-modified-sort="1779076800000" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
+  <div class="listing-item" data-index="4" data-categories="QlMlMjAtJTIwUmVzZWFyY2glMjBFeHBlcmllbmNlJTIwZm9yJTIwVW5kZXJncmFkdWF0ZXMlMjAoRnVsbC1UaW1lJTIwUGFpZCk=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1779062400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
     <article class="card h-100">
       
       <a href="../people/alumni/Yasmin_Horri.html" class="text-decoration-none">
@@ -475,7 +478,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="5" data-categories="QlMlMjAtJTIwRXhwZXJpZW50aWFsJTIwRXhwbG9yYXRpb24lMjBQcm9ncmFtJTIwUmVzZWFyY2hlciUyMChGdWxsLVRpbWUlMjBmb3IlMjBDcmVkaXQp" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067329" data-listing-date-modified-sort="1768453200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="327">
+  <div class="listing-item" data-index="5" data-categories="QlMlMjAtJTIwRXhwZXJpZW50aWFsJTIwRXhwbG9yYXRpb24lMjBQcm9ncmFtJTIwUmVzZWFyY2hlciUyMChGdWxsLVRpbWUlMjBmb3IlMjBDcmVkaXQp" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1768435200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="327">
     <article class="card h-100">
       
       <a href="../people/alumni/Darrian_Mathis.html" class="text-decoration-none">
@@ -501,7 +504,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="6" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067326" data-listing-date-modified-sort="1692072000000" data-listing-reading-time-sort="3" data-listing-word-count-sort="455">
+  <div class="listing-item" data-index="6" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1692057600000" data-listing-reading-time-sort="3" data-listing-word-count-sort="455">
     <article class="card h-100">
       
       <a href="../people/alumni/Okey_Obioha.html" class="text-decoration-none">
@@ -527,7 +530,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="7" data-categories="UGhEJTIwLSUyMFByaW1hcnklMjBBZHZpc2Vl" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067329" data-listing-date-modified-sort="1755230400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="259">
+  <div class="listing-item" data-index="7" data-categories="UGhEJTIwLSUyMFByaW1hcnklMjBBZHZpc2Vl" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1755216000000" data-listing-reading-time-sort="2" data-listing-word-count-sort="259">
     <article class="card h-100">
       
       <a href="../people/alumni/Chris_Le.html" class="text-decoration-none">
@@ -553,7 +556,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="8" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067326" data-listing-date-modified-sort="1692072000000" data-listing-reading-time-sort="2" data-listing-word-count-sort="311">
+  <div class="listing-item" data-index="8" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1692057600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="311">
     <article class="card h-100">
       
       <a href="../people/alumni/Praise_Robert.html" class="text-decoration-none">
@@ -579,7 +582,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="9" data-categories="QlMlMjAtJTIwVW5kZXJncmFkdWF0ZSUyMEluZGVwZW5kZW50JTIwU3R1ZHklMjBSZXNlYXJjaGVyJTIwKFBhcnQlMjBUaW1lJTIwZm9yJTIwQ3JlZGl0KSUyQ0JTJTIwLSUyMFVuZGVyZ3JhZHVhdGUlMjBGdWxsLVRpbWUlMjBSZXNlYXJjaCUyMChQYWlkKQ==" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067328" data-listing-date-modified-sort="1754625600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="324">
+  <div class="listing-item" data-index="9" data-categories="QlMlMjAtJTIwVW5kZXJncmFkdWF0ZSUyMEluZGVwZW5kZW50JTIwU3R1ZHklMjBSZXNlYXJjaGVyJTIwKFBhcnQlMjBUaW1lJTIwZm9yJTIwQ3JlZGl0KSUyQ0JTJTIwLSUyMFVuZGVyZ3JhZHVhdGUlMjBGdWxsLVRpbWUlMjBSZXNlYXJjaCUyMChQYWlkKQ==" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1754611200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="324">
     <article class="card h-100">
       
       <a href="../people/alumni/Zach_Miller.html" class="text-decoration-none">
@@ -607,7 +610,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="10" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067325" data-listing-date-modified-sort="1692072000000" data-listing-reading-time-sort="4" data-listing-word-count-sort="697">
+  <div class="listing-item" data-index="10" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1692057600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="697">
     <article class="card h-100">
       
       <a href="../people/alumni/Nishat_Sultana.html" class="text-decoration-none">
@@ -633,7 +636,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="11" data-categories="QlMlMjAtJTIwRXhwZXJpZW50aWFsJTIwRXhwbG9yYXRpb24lMjBQcm9ncmFtJTIwUmVzZWFyY2hlciUyMChGdWxsLVRpbWUlMjBmb3IlMjBDcmVkaXQpJTJDQlMlMjAtJTIwVW5kZXJncmFkJTIwQ28tT3AlMjBSZXNlYXJjaCUyMEZlbGxvd3NoaXA=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067326" data-listing-date-modified-sort="1746072000000" data-listing-reading-time-sort="3" data-listing-word-count-sort="457">
+  <div class="listing-item" data-index="11" data-categories="QlMlMjAtJTIwRXhwZXJpZW50aWFsJTIwRXhwbG9yYXRpb24lMjBQcm9ncmFtJTIwUmVzZWFyY2hlciUyMChGdWxsLVRpbWUlMjBmb3IlMjBDcmVkaXQpJTJDQlMlMjAtJTIwVW5kZXJncmFkJTIwQ28tT3AlMjBSZXNlYXJjaCUyMEZlbGxvd3NoaXA=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1746057600000" data-listing-reading-time-sort="3" data-listing-word-count-sort="457">
     <article class="card h-100">
       
       <a href="../people/alumni/Priam_Tyagi.html" class="text-decoration-none">
@@ -661,7 +664,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="12" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWUlMkNCUyUyMC0lMjBVbmRlcmdyYWQlMjBDby1PcCUyMFJlc2VhcmNoJTIwRmVsbG93c2hpcA==" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067325" data-listing-date-modified-sort="1723694400000" data-listing-reading-time-sort="4" data-listing-word-count-sort="604">
+  <div class="listing-item" data-index="12" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWUlMkNCUyUyMC0lMjBVbmRlcmdyYWQlMjBDby1PcCUyMFJlc2VhcmNoJTIwRmVsbG93c2hpcA==" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1723680000000" data-listing-reading-time-sort="4" data-listing-word-count-sort="604">
     <article class="card h-100">
       
       <a href="../people/alumni/Meiyan_Timberlake.html" class="text-decoration-none">
@@ -689,7 +692,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="13" data-categories="TUVuZyUyMC0lMjBQcmltYXJ5JTIwQWR2aXNlZQ==" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067328" data-listing-date-modified-sort="1723694400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
+  <div class="listing-item" data-index="13" data-categories="TUVuZyUyMC0lMjBQcmltYXJ5JTIwQWR2aXNlZQ==" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1723680000000" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
     <article class="card h-100">
       
       <a href="../people/alumni/Logan_Herr.html" class="text-decoration-none">
@@ -715,7 +718,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="14" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067324" data-listing-date-modified-sort="1684123200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="377">
+  <div class="listing-item" data-index="14" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1684108800000" data-listing-reading-time-sort="2" data-listing-word-count-sort="377">
     <article class="card h-100">
       
       <a href="../people/alumni/Vinay_Oruganti.html" class="text-decoration-none">
@@ -741,7 +744,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="15" data-categories="TVMlMjAtJTIwU2Vjb25kYXJ5JTIwQWR2aXNlZSUyQ01TJTIwLSUyMFByaW1hcnklMjBBZHZpc2Vl" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067325" data-listing-date-modified-sort="1702616400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="330">
+  <div class="listing-item" data-index="15" data-categories="TVMlMjAtJTIwU2Vjb25kYXJ5JTIwQWR2aXNlZSUyQ01TJTIwLSUyMFByaW1hcnklMjBBZHZpc2Vl" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1702598400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="330">
     <article class="card h-100">
       
       <a href="../people/alumni/Aaron_McMillen.html" class="text-decoration-none">
@@ -769,7 +772,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="16" data-categories="QlMlMjAtJTIwRXhwZXJpZW50aWFsJTIwRXhwbG9yYXRpb24lMjBQcm9ncmFtJTIwUmVzZWFyY2hlciUyMChGdWxsLVRpbWUlMjBmb3IlMjBDcmVkaXQp" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067327" data-listing-date-modified-sort="1735707600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
+  <div class="listing-item" data-index="16" data-categories="QlMlMjAtJTIwRXhwZXJpZW50aWFsJTIwRXhwbG9yYXRpb24lMjBQcm9ncmFtJTIwUmVzZWFyY2hlciUyMChGdWxsLVRpbWUlMjBmb3IlMjBDcmVkaXQp" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1735689600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
     <article class="card h-100">
       
       <a href="../people/alumni/Gwynn_Pitz.html" class="text-decoration-none">
@@ -795,7 +798,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="17" data-categories="UGhEJTIwLSUyMFByaW1hcnklMjBBZHZpc2VlJTJDUGhEJTIwLSUyMFNlY29uZGFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067323" data-listing-date-modified-sort="1715745600000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1198">
+  <div class="listing-item" data-index="17" data-categories="UGhEJTIwLSUyMFByaW1hcnklMjBBZHZpc2VlJTJDUGhEJTIwLSUyMFNlY29uZGFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1715731200000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1198">
     <article class="card h-100">
       
       <a href="../people/alumni/Sravya_Josyula.html" class="text-decoration-none">
@@ -823,33 +826,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="18" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067324" data-listing-date-modified-sort="1692072000000" data-listing-reading-time-sort="3" data-listing-word-count-sort="515">
-    <article class="card h-100">
-      
-      <a href="../people/alumni/Bill_Voellmecke.html" class="text-decoration-none">
-        <img src="../files/photos/People/anon.jpg" class="card-img-top listing-image" alt="Photo of Bill Voellmecke">
-      </a>
-      
-      <div class="card-body">
-        <h5 class="card-title mb-2 listing-title anchored">
-          <a href="../people/alumni/Bill_Voellmecke.html" class="text-decoration-none">Bill Voellmecke</a>
-        </h5>
-
-        
-        
-        <p class="mb-2 listing-categories">
-          
-          <span class="badge text-bg-light border me-1 mb-1 listing-category">MS - Primary Advisee</span>
-          
-        </p>
-        
-
-        <p class="small text-uppercase fw-semibold text-body-secondary mb-0"><span class="listing-membership-label"></span> <span class="listing-date">August 2023 to May 2025</span></p>
-      </div>
-    </article>
-  </div>
-
-  <div class="listing-item" data-index="19" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067324" data-listing-date-modified-sort="1692072000000" data-listing-reading-time-sort="4" data-listing-word-count-sort="768">
+  <div class="listing-item" data-index="18" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1692057600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="768">
     <article class="card h-100">
       
       <a href="../people/alumni/Josh_Maile.html" class="text-decoration-none">
@@ -875,7 +852,33 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="20" data-categories="QlMlMjAtJTIwVW5kZXJncmFkdWF0ZSUyMEluZGVwZW5kZW50JTIwU3R1ZHklMjBSZXNlYXJjaGVyJTIwKFBhcnQlMjBUaW1lJTIwZm9yJTIwQ3JlZGl0KQ==" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067327" data-listing-date-modified-sort="1723694400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
+  <div class="listing-item" data-index="19" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1692057600000" data-listing-reading-time-sort="3" data-listing-word-count-sort="515">
+    <article class="card h-100">
+      
+      <a href="../people/alumni/Bill_Voellmecke.html" class="text-decoration-none">
+        <img src="../files/photos/People/anon.jpg" class="card-img-top listing-image" alt="Photo of Bill Voellmecke">
+      </a>
+      
+      <div class="card-body">
+        <h5 class="card-title mb-2 listing-title anchored">
+          <a href="../people/alumni/Bill_Voellmecke.html" class="text-decoration-none">Bill Voellmecke</a>
+        </h5>
+
+        
+        
+        <p class="mb-2 listing-categories">
+          
+          <span class="badge text-bg-light border me-1 mb-1 listing-category">MS - Primary Advisee</span>
+          
+        </p>
+        
+
+        <p class="small text-uppercase fw-semibold text-body-secondary mb-0"><span class="listing-membership-label"></span> <span class="listing-date">August 2023 to May 2025</span></p>
+      </div>
+    </article>
+  </div>
+
+  <div class="listing-item" data-index="20" data-categories="QlMlMjAtJTIwVW5kZXJncmFkdWF0ZSUyMEluZGVwZW5kZW50JTIwU3R1ZHklMjBSZXNlYXJjaGVyJTIwKFBhcnQlMjBUaW1lJTIwZm9yJTIwQ3JlZGl0KQ==" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1723680000000" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
     <article class="card h-100">
       
       <a href="../people/alumni/Ben_Honeck.html" class="text-decoration-none">
@@ -901,7 +904,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="21" data-categories="QlMlMjAtJTIwUmVzZWFyY2glMjBWb2x1bnRlZXIlMkNCUyUyMC0lMjBVbmRlcmdyYWR1YXRlJTIwUGFydC1UaW1lJTIwUmVzZWFyY2glMjAoUGFpZCklMkNCUyUyMC0lMjBSZXNlYXJjaCUyMEV4cGVyaWVuY2UlMjBmb3IlMjBVbmRlcmdyYWR1YXRlcyUyMChGdWxsLVRpbWUlMjBQYWlkKQ==" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067323" data-listing-date-modified-sort="1702616400000" data-listing-reading-time-sort="4" data-listing-word-count-sort="763">
+  <div class="listing-item" data-index="21" data-categories="QlMlMjAtJTIwUmVzZWFyY2glMjBWb2x1bnRlZXIlMkNCUyUyMC0lMjBVbmRlcmdyYWR1YXRlJTIwUGFydC1UaW1lJTIwUmVzZWFyY2glMjAoUGFpZCklMkNCUyUyMC0lMjBSZXNlYXJjaCUyMEV4cGVyaWVuY2UlMjBmb3IlMjBVbmRlcmdyYWR1YXRlcyUyMChGdWxsLVRpbWUlMjBQYWlkKQ==" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1702598400000" data-listing-reading-time-sort="4" data-listing-word-count-sort="763">
     <article class="card h-100">
       
       <a href="../people/alumni/Phillisity_Neal.html" class="text-decoration-none">
@@ -931,33 +934,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="22" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067322" data-listing-date-modified-sort="1660536000000" data-listing-reading-time-sort="5" data-listing-word-count-sort="924">
-    <article class="card h-100">
-      
-      <a href="../people/alumni/Ravi_Kumar.html" class="text-decoration-none">
-        <img src="../files/photos/People/Ravi_Kumar.jpg" class="card-img-top listing-image" alt="Photo of Ravi Kumar">
-      </a>
-      
-      <div class="card-body">
-        <h5 class="card-title mb-2 listing-title anchored">
-          <a href="../people/alumni/Ravi_Kumar.html" class="text-decoration-none">Ravi Kumar</a>
-        </h5>
-
-        
-        
-        <p class="mb-2 listing-categories">
-          
-          <span class="badge text-bg-light border me-1 mb-1 listing-category">MS - Primary Advisee</span>
-          
-        </p>
-        
-
-        <p class="small text-uppercase fw-semibold text-body-secondary mb-0"><span class="listing-membership-label"></span> <span class="listing-date">August 2022 to December 2024</span></p>
-      </div>
-    </article>
-  </div>
-
-  <div class="listing-item" data-index="23" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067322" data-listing-date-modified-sort="1660536000000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1037">
+  <div class="listing-item" data-index="22" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1660521600000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1037">
     <article class="card h-100">
       
       <a href="../people/alumni/Tobi_Oriola.html" class="text-decoration-none">
@@ -983,7 +960,33 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="24" data-categories="QlMlMjAtJTIwUmVzZWFyY2glMjBFeHBlcmllbmNlJTIwZm9yJTIwVW5kZXJncmFkdWF0ZXMlMjAoRnVsbC1UaW1lJTIwUGFpZCk=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067327" data-listing-date-modified-sort="1715745600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="379">
+  <div class="listing-item" data-index="23" data-categories="TVMlMjAtJTIwUHJpbWFyeSUyMEFkdmlzZWU=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1660521600000" data-listing-reading-time-sort="5" data-listing-word-count-sort="924">
+    <article class="card h-100">
+      
+      <a href="../people/alumni/Ravi_Kumar.html" class="text-decoration-none">
+        <img src="../files/photos/People/Ravi_Kumar.jpg" class="card-img-top listing-image" alt="Photo of Ravi Kumar">
+      </a>
+      
+      <div class="card-body">
+        <h5 class="card-title mb-2 listing-title anchored">
+          <a href="../people/alumni/Ravi_Kumar.html" class="text-decoration-none">Ravi Kumar</a>
+        </h5>
+
+        
+        
+        <p class="mb-2 listing-categories">
+          
+          <span class="badge text-bg-light border me-1 mb-1 listing-category">MS - Primary Advisee</span>
+          
+        </p>
+        
+
+        <p class="small text-uppercase fw-semibold text-body-secondary mb-0"><span class="listing-membership-label"></span> <span class="listing-date">August 2022 to December 2024</span></p>
+      </div>
+    </article>
+  </div>
+
+  <div class="listing-item" data-index="24" data-categories="QlMlMjAtJTIwUmVzZWFyY2glMjBFeHBlcmllbmNlJTIwZm9yJTIwVW5kZXJncmFkdWF0ZXMlMjAoRnVsbC1UaW1lJTIwUGFpZCk=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1715731200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="379">
     <article class="card h-100">
       
       <a href="../people/alumni/Ian_Giblin.html" class="text-decoration-none">
@@ -1009,7 +1012,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="25" data-categories="UG9zdGRvY3RvcmFsJTIwUmVzZWFyY2hlcg==" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067327" data-listing-date-modified-sort="1715745600000" data-listing-reading-time-sort="3" data-listing-word-count-sort="522">
+  <div class="listing-item" data-index="25" data-categories="UG9zdGRvY3RvcmFsJTIwUmVzZWFyY2hlcg==" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1715731200000" data-listing-reading-time-sort="3" data-listing-word-count-sort="522">
     <article class="card h-100">
       
       <a href="../people/alumni/Likun_Sun.html" class="text-decoration-none">
@@ -1035,7 +1038,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="26" data-categories="QlMlMjAtJTIwUmVzZWFyY2glMjBFeHBlcmllbmNlJTIwZm9yJTIwVW5kZXJncmFkdWF0ZXMlMjAoRnVsbC1UaW1lJTIwUGFpZCk=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067327" data-listing-date-modified-sort="1715745600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="323">
+  <div class="listing-item" data-index="26" data-categories="QlMlMjAtJTIwUmVzZWFyY2glMjBFeHBlcmllbmNlJTIwZm9yJTIwVW5kZXJncmFkdWF0ZXMlMjAoRnVsbC1UaW1lJTIwUGFpZCk=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1715731200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="323">
     <article class="card h-100">
       
       <a href="../people/alumni/Zoey_Jestude.html" class="text-decoration-none">
@@ -1061,7 +1064,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="27" data-categories="QlMlMjAtJTIwRXhwZXJpZW50aWFsJTIwRXhwbG9yYXRpb24lMjBQcm9ncmFtJTIwUmVzZWFyY2hlciUyMChGdWxsLVRpbWUlMjBmb3IlMjBDcmVkaXQp" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067326" data-listing-date-modified-sort="1704085200000" data-listing-reading-time-sort="4" data-listing-word-count-sort="613">
+  <div class="listing-item" data-index="27" data-categories="QlMlMjAtJTIwRXhwZXJpZW50aWFsJTIwRXhwbG9yYXRpb24lMjBQcm9ncmFtJTIwUmVzZWFyY2hlciUyMChGdWxsLVRpbWUlMjBmb3IlMjBDcmVkaXQp" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1704067200000" data-listing-reading-time-sort="4" data-listing-word-count-sort="613">
     <article class="card h-100">
       
       <a href="../people/alumni/Anh_Nguyen.html" class="text-decoration-none">
@@ -1087,7 +1090,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="28" data-categories="QlMlMjAtJTIwVW5kZXJncmFkdWF0ZSUyMFBhcnQtVGltZSUyMFJlc2VhcmNoJTIwKFBhaWQpJTJDQlMlMjAtJTIwUmVzZWFyY2glMjBFeHBlcmllbmNlJTIwZm9yJTIwVW5kZXJncmFkdWF0ZXMlMjAoRnVsbC1UaW1lJTIwUGFpZCk=" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067323" data-listing-date-modified-sort="1692072000000" data-listing-reading-time-sort="4" data-listing-word-count-sort="702">
+  <div class="listing-item" data-index="28" data-categories="QlMlMjAtJTIwVW5kZXJncmFkdWF0ZSUyMFBhcnQtVGltZSUyMFJlc2VhcmNoJTIwKFBhaWQpJTJDQlMlMjAtJTIwUmVzZWFyY2glMjBFeHBlcmllbmNlJTIwZm9yJTIwVW5kZXJncmFkdWF0ZXMlMjAoRnVsbC1UaW1lJTIwUGFpZCk=" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1692057600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="702">
     <article class="card h-100">
       
       <a href="../people/alumni/Jesus_Acosta.html" class="text-decoration-none">
@@ -1115,7 +1118,7 @@ window.Quarto = {
     </article>
   </div>
 
-  <div class="listing-item" data-index="29" data-categories="TUVuZyUyMC0lMjBQcmltYXJ5JTIwQWR2aXNlZQ==" data-listing-date-sort="1792900800000" data-listing-file-modified-sort="1792945067324" data-listing-date-modified-sort="1672549200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
+  <div class="listing-item" data-index="29" data-categories="TUVuZyUyMC0lMjBQcmltYXJ5JTIwQWR2aXNlZQ==" data-listing-date-sort="1792886400000" data-listing-file-modified-sort="1792945400500" data-listing-date-modified-sort="1672531200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
     <article class="card h-100">
       
       <a href="../people/alumni/Mikki_Keller_(von_Schaumburg).html" class="text-decoration-none">
@@ -1217,7 +1220,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/card-lab\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
