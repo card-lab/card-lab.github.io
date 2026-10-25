@@ -128,8 +128,8 @@
       "label": "Alumni \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/alumni.html",
       "indegree": 5,
-      "outdegree": 40,
-      "degree": 45
+      "outdegree": 41,
+      "degree": 46
     },
     {
       "id": "/people/alumni/Aaron_McMillen.html",
@@ -175,6 +175,14 @@
       "id": "/people/alumni/Darrian_Mathis.html",
       "label": "Darrian Mathis \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/alumni/Darrian_Mathis.html",
+      "indegree": 1,
+      "outdegree": 7,
+      "degree": 8
+    },
+    {
+      "id": "/people/alumni/Elif_Dursun.html",
+      "label": "Elif Dursun \u2013 Critical Alloy Research &amp; Discovery Lab",
+      "path": "people/alumni/Elif_Dursun.html",
       "indegree": 1,
       "outdegree": 7,
       "degree": 8
@@ -368,8 +376,8 @@
       "label": "Current Group Members \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/current.html",
       "indegree": 71,
-      "outdegree": 26,
-      "degree": 97
+      "outdegree": 25,
+      "degree": 96
     },
     {
       "id": "/people/current/Alan_Do.html",
@@ -399,14 +407,6 @@
       "id": "/people/current/Cameron_Gulley.html",
       "label": "Cameron Gulley \u2013 Critical Alloy Research &amp; Discovery Lab",
       "path": "people/current/Cameron_Gulley.html",
-      "indegree": 1,
-      "outdegree": 7,
-      "degree": 8
-    },
-    {
-      "id": "/people/current/Elif_Dursun.html",
-      "label": "Elif Dursun \u2013 Critical Alloy Research &amp; Discovery Lab",
-      "path": "people/current/Elif_Dursun.html",
       "indegree": 1,
       "outdegree": 7,
       "degree": 8
@@ -1111,6 +1111,10 @@
     },
     {
       "source": "/people/alumni.html",
+      "target": "/people/alumni/Elif_Dursun.html"
+    },
+    {
+      "source": "/people/alumni.html",
       "target": "/people/alumni/Emily_Crawley.html"
     },
     {
@@ -1395,6 +1399,34 @@
     },
     {
       "source": "/people/alumni/Darrian_Mathis.html",
+      "target": "/site-map.html"
+    },
+    {
+      "source": "/people/alumni/Elif_Dursun.html",
+      "target": "/"
+    },
+    {
+      "source": "/people/alumni/Elif_Dursun.html",
+      "target": "/capabilities/facilities.html"
+    },
+    {
+      "source": "/people/alumni/Elif_Dursun.html",
+      "target": "/easteregg.html"
+    },
+    {
+      "source": "/people/alumni/Elif_Dursun.html",
+      "target": "/impressum.html"
+    },
+    {
+      "source": "/people/alumni/Elif_Dursun.html",
+      "target": "/people/current.html"
+    },
+    {
+      "source": "/people/alumni/Elif_Dursun.html",
+      "target": "/research/workproducts.html"
+    },
+    {
+      "source": "/people/alumni/Elif_Dursun.html",
       "target": "/site-map.html"
     },
     {
@@ -2079,10 +2111,6 @@
     },
     {
       "source": "/people/current.html",
-      "target": "/people/current/Elif_Dursun.html"
-    },
-    {
-      "source": "/people/current.html",
       "target": "/people/current/Emilie_Maddox.html"
     },
     {
@@ -2255,34 +2283,6 @@
     },
     {
       "source": "/people/current/Cameron_Gulley.html",
-      "target": "/site-map.html"
-    },
-    {
-      "source": "/people/current/Elif_Dursun.html",
-      "target": "/"
-    },
-    {
-      "source": "/people/current/Elif_Dursun.html",
-      "target": "/capabilities/facilities.html"
-    },
-    {
-      "source": "/people/current/Elif_Dursun.html",
-      "target": "/easteregg.html"
-    },
-    {
-      "source": "/people/current/Elif_Dursun.html",
-      "target": "/impressum.html"
-    },
-    {
-      "source": "/people/current/Elif_Dursun.html",
-      "target": "/people/current.html"
-    },
-    {
-      "source": "/people/current/Elif_Dursun.html",
-      "target": "/research/workproducts.html"
-    },
-    {
-      "source": "/people/current/Elif_Dursun.html",
       "target": "/site-map.html"
     },
     {
