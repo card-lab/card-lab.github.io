@@ -2,6 +2,7 @@
 title: "Philip Ochieze"
 categories: ["PhD - Secondary Advisee", "PhD - Primary Advisee"]
 member-since: 2024-01-01 00:00:00
+member-order: 9
 date: today
 date-modified: 2024-01-01 00:00:00
 date-format: "MMMM YYYY"
@@ -23,9 +24,9 @@ about:
       url: https://orcid.org/0000-0003-0925-6240
     - text: "{{< iconify academicons google-scholar >}}"
       url: https://scholar.google.com/citations?user=QoU6EhUAAAAJ&hl=en
-    - text: "![Flag of NG](https://flagcdn.com/ng.svg){width=0.25in}"
+    - text: "![Flag of Nigeria](https://flagcdn.com/ng.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Federal_Republic_of_Nigeria
-    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio

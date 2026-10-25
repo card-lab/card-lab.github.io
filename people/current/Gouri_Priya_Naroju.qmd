@@ -2,6 +2,7 @@
 title: "Gouri Priya Naroju"
 categories: ["Optional Practical Training (OPT)"]
 member-since: 2026-07-03 00:00:00
+member-order: 12
 date: today
 date-modified: 2026-07-03 00:00:00
 date-format: "MMMM YYYY"
@@ -19,7 +20,7 @@ about:
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/gouripnaroju
-    - text: "![Flag of IN](https://flagcdn.com/in.svg){width=0.25in}"
+    - text: "![Flag of India](https://flagcdn.com/in.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Republic_of_India
 
 ---

@@ -2,6 +2,7 @@
 title: "Cameron Gulley"
 categories: ["MEng - Primary Advisee"]
 member-since: 2026-05-01 00:00:00
+member-order: 7
 date: today
 date-modified: 2026-05-01 00:00:00
 date-format: "MMMM YYYY"
@@ -19,7 +20,7 @@ about:
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/cameron-gulley-35653a144
-    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio

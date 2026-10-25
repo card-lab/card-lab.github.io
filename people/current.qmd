@@ -6,7 +6,7 @@ listing:
   type: grid
   contents: current
   template: _partials/people-listing.ejs.md
-  sort: "date asc"
+  sort: "member-order asc"
   image-placeholder: files/images/anon.jpg
   date-format: "MMM YYYY"
   categories: numbered

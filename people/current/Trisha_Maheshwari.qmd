@@ -2,6 +2,7 @@
 title: "Trisha Maheshwari"
 categories: ["High School Intern"]
 member-since: 2026-08-15 00:00:00
+member-order: 14
 date: today
 date-modified: 2026-08-15 00:00:00
 date-format: "MMMM YYYY"

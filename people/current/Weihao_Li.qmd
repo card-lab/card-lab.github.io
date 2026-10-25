@@ -2,6 +2,7 @@
 title: "Weihao Li"
 categories: ["MS - Primary Advisee"]
 member-since: 2025-08-15 00:00:00
+member-order: 5
 date: today
 date-modified: 2025-08-15 00:00:00
 date-format: "MMMM YYYY"
@@ -19,9 +20,9 @@ about:
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/weihao-li-9b957b379
-    - text: "![Flag of CN](https://flagcdn.com/cn.svg){width=0.25in}"
+    - text: "![Flag of China](https://flagcdn.com/cn.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/People%27s_Republic_of_China
-    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio

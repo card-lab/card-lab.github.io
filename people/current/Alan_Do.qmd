@@ -2,6 +2,7 @@
 title: "Alan Do"
 categories: ["BS - Experiential Exploration Program Researcher (Full-Time for Credit)"]
 member-since: 2026-01-01 00:00:00
+member-order: 11
 date: today
 date-modified: 2026-01-01 00:00:00
 date-format: "MMMM YYYY"
@@ -19,9 +20,9 @@ about:
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/dohg020904
-    - text: "![Flag of VN](https://flagcdn.com/vn.svg){width=0.25in}"
+    - text: "![Flag of Viet Nam](https://flagcdn.com/vn.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Socialist_Republic_of_Viet_Nam
-    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio

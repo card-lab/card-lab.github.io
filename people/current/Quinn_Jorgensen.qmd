@@ -2,6 +2,7 @@
 title: "Quinn Jorgensen"
 categories: ["BS - Research Volunteer"]
 member-since: 2026-08-15 00:00:00
+member-order: 13
 date: today
 date-modified: 2026-08-15 00:00:00
 date-format: "MMMM YYYY"
@@ -10,16 +11,16 @@ language:
   title-block-modified: "Joined"
 execute:
   echo: false
-image: ../../files/photos/People/anon.jpg
+image: ../../files/photos/People/Quinn_Jorgensen.jpg
 about:
   template: trestles
-  image: ../../files/photos/People/anon.jpg
-  image-alt: "Stock photo of a dog wearing glasses. (Unfortunately no photo of Quinn Jorgensen was available)"
+  image: ../../files/photos/People/Quinn_Jorgensen.jpg
+  image-alt: "Photo of Quinn Jorgensen"
   image-shape: round
   links:
     - text: "{{< iconify mdi linkedin >}}"
       url: https://www.linkedin.com/in/quinnjorgensen
-    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio

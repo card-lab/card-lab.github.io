@@ -6,7 +6,9 @@ listing:
   type: grid
   contents: alumni
   template: _partials/people-listing.ejs.md
-  sort: "member-to desc"
+  sort:
+    - "member-to desc"
+    - "member-from desc"
   image-placeholder: files/images/anon.jpg
   date-format: "MMM YYYY"
   image-height: 250px

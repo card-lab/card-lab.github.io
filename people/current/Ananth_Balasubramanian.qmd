@@ -2,6 +2,7 @@
 title: "Ananth Balasubramanian"
 categories: ["PhD - Primary Advisee", "PhD - Secondary Advisee"]
 member-since: 2024-08-15 00:00:00
+member-order: 1
 date: today
 date-modified: 2024-08-15 00:00:00
 date-format: "MMMM YYYY"
@@ -21,9 +22,9 @@ about:
       url: https://www.linkedin.com/in/ananthbala95
     - text: "{{< iconify simple-icons orcid >}}"
       url: https://orcid.org/0009-0001-0431-5822
-    - text: "![Flag of IN](https://flagcdn.com/in.svg){width=0.25in}"
+    - text: "![Flag of India](https://flagcdn.com/in.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Republic_of_India
-    - text: "![Flag of US](https://flagcdn.com/us.svg){width=0.25in}"
+    - text: "![Flag of United States](https://flagcdn.com/us.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/United_States_of_America
     - text: "![Flag of Ohio](https://flagcdn.com/us-oh.svg){width=0.25in}"
       url: https://en.wikipedia.org/wiki/Ohio
