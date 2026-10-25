@@ -147,20 +147,6 @@ compute_file_hash() {
   shasum -a 256 -- "$file_path" | awk '{print $1}'
 }
 
-find_python() {
-  if command -v python3 >/dev/null 2>&1; then
-    command -v python3
-    return
-  fi
-
-  if command -v python >/dev/null 2>&1; then
-    command -v python
-    return
-  fi
-
-  return 1
-}
-
 current_sheet_hash="$(compute_file_hash "$SPREADSHEET_PATH")"
 current_photos_hash="$(compute_photos_hash "$PRIVATE_PHOTOS_DIR")"
 current_notebooks_hash="$(compute_files_hash "${CACHE_KEY_FILES[@]}")"
@@ -192,13 +178,8 @@ if [[ -s "$GEOCODE_NOT_FOUND_LOG" ]]; then
 fi
 
 echo "[pre-render] Sanitizing people flag links"
-python_bin="$(find_python || true)"
-if [[ -z "$python_bin" ]]; then
-  echo "[pre-render] Python interpreter not found; cannot sanitize people flag links" >&2
-  exit 1
-fi
-
-"$python_bin" scripts/sanitize-people-flag-links.py
+# card-lab's Python has pycountry, which turns flag codes into country names for the alt text.
+scripts/card-lab-python.sh scripts/sanitize-people-flag-links.py
 
 mkdir -p "$(dirname "$STAMP_PATH")"
 printf '%s\n%s\n%s\n' "$current_sheet_hash" "$current_photos_hash" "$current_notebooks_hash" > "$STAMP_PATH"
