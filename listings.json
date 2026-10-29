@@ -1,21 +1,12 @@
 [
   {
-    "listing": "/people/current.html",
+    "listing": "/capabilities/facilities.html",
     "items": [
-      "/people/current/Ananth_Balasubramanian.html",
-      "/people/current/Sajjad_Hasan.html",
-      "/people/current/Alan_Do.html",
-      "/people/current/Yuval_Noiman.html",
-      "/people/current/Nick_Jackson.html",
-      "/people/current/Weihao_Li.html",
-      "/people/current/Emilie_Maddox.html",
-      "/people/current/Cameron_Gulley.html",
-      "/people/current/Gouri_Priya_Naroju.html",
-      "/people/current/Quinn_Jorgensen.html",
-      "/people/current/Trisha_Maheshwari.html",
-      "/people/current/Terra_Williams.html",
-      "/people/current/Philip_Ochieze.html",
-      "/people/current/Alice_Oladipo.html"
+      "/capabilities/capital-resources/fea.html",
+      "/capabilities/capital-resources/cfd.html",
+      "/capabilities/capital-resources/calphad.html",
+      "/capabilities/capital-resources/rollingmill.html",
+      "/capabilities/capital-resources/arcmelting.html"
     ]
   },
   {
@@ -33,8 +24,8 @@
       "/people/alumni/Zach_Miller.html",
       "/people/alumni/Nishat_Sultana.html",
       "/people/alumni/Priam_Tyagi.html",
-      "/people/alumni/Meiyan_Timberlake.html",
       "/people/alumni/Logan_Herr.html",
+      "/people/alumni/Meiyan_Timberlake.html",
       "/people/alumni/Vinay_Oruganti.html",
       "/people/alumni/Aaron_McMillen.html",
       "/people/alumni/Gwynn_Pitz.html",
@@ -43,8 +34,8 @@
       "/people/alumni/Josh_Maile.html",
       "/people/alumni/Ben_Honeck.html",
       "/people/alumni/Phillisity_Neal.html",
-      "/people/alumni/Ravi_Kumar.html",
       "/people/alumni/Tobi_Oriola.html",
+      "/people/alumni/Ravi_Kumar.html",
       "/people/alumni/Ian_Giblin.html",
       "/people/alumni/Likun_Sun.html",
       "/people/alumni/Zoey_Jestude.html",
@@ -54,13 +45,22 @@
     ]
   },
   {
-    "listing": "/capabilities/facilities.html",
+    "listing": "/people/current.html",
     "items": [
-      "/capabilities/capital-resources/fea.html",
-      "/capabilities/capital-resources/cfd.html",
-      "/capabilities/capital-resources/calphad.html",
-      "/capabilities/capital-resources/rollingmill.html",
-      "/capabilities/capital-resources/arcmelting.html"
+      "/people/current/Ananth_Balasubramanian.html",
+      "/people/current/Sajjad_Hasan.html",
+      "/people/current/Alan_Do.html",
+      "/people/current/Yuval_Noiman.html",
+      "/people/current/Nick_Jackson.html",
+      "/people/current/Weihao_Li.html",
+      "/people/current/Emilie_Maddox.html",
+      "/people/current/Cameron_Gulley.html",
+      "/people/current/Gouri_Priya_Naroju.html",
+      "/people/current/Quinn_Jorgensen.html",
+      "/people/current/Trisha_Maheshwari.html",
+      "/people/current/Terra_Williams.html",
+      "/people/current/Philip_Ochieze.html",
+      "/people/current/Alice_Oladipo.html"
     ]
   }
 ]
