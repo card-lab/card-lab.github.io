@@ -1,5 +1,178 @@
 [
   {
+    "key": "9UYBV5QS",
+    "version": 720,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/9UYBV5QS",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/9UYBV5QS",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/6542859/items/E5LZS5V5",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      }
+    },
+    "data": {
+      "key": "9UYBV5QS",
+      "version": 720,
+      "parentItem": "E5LZS5V5",
+      "itemType": "attachment",
+      "linkMode": "imported_url",
+      "title": "Snapshot",
+      "accessDate": "2026-11-03T14:44:59Z",
+      "url": "https://doi.org/10.1063/12.0000838",
+      "note": "",
+      "contentType": "text/html",
+      "charset": "utf-8",
+      "filename": "12.html",
+      "md5": "763c22a0de47011ce064d1984a5e9250",
+      "mtime": 1793717099104,
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-11-03T14:44:59Z",
+      "dateModified": "2026-11-03T14:44:59Z"
+    }
+  },
+  {
+    "key": "E5LZS5V5",
+    "version": 718,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/E5LZS5V5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/E5LZS5V5",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Poole et al.",
+      "parsedDate": "2020-11-02",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "E5LZS5V5",
+      "version": 718,
+      "itemType": "journalArticle",
+      "title": "Shock dynamics in periodic two-dimensional composites",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Lauren L.",
+          "lastName": "Poole"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Manny",
+          "lastName": "Gonzales"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Abdel R.",
+          "lastName": "Moustafa"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Austin R. C.",
+          "lastName": "Gerlt"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zachary C.",
+          "lastName": "Cordero"
+        }
+      ],
+      "abstractNote": "Recently developed hybrid additive manufacturing techniques can create architectured composites where the constituents are patterned in a periodic array, with a characteristic length scale on the order of several hundred microns. This control over mesostructure can be used to fabricate materials with precisely controlled shock dynamics tailored for a specific response e.g., shielding, munition casing, etc. In the present work, we use hydrocode simulations to determine the structure of planar impacts in periodic two-dimensional composites and to assess their ability to dissipate shock compression. Additionally, localized, geometry-induced wave scattering is related to the bulk dispersive properties of the material.",
+      "publicationTitle": "AIP Conference Proceedings",
+      "publisher": "",
+      "place": "",
+      "date": "2020-11-02",
+      "volume": "2272",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "120020",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "AIP Conf. Proc.",
+      "DOI": "10.1063/12.0000838",
+      "citationKey": "pooleShockDynamicsPeriodic2020",
+      "url": "https://doi.org/10.1063/12.0000838",
+      "accessDate": "2026-11-03T14:44:53Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0094-243X",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Silverchair",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "DH5UPGCC"
+      ],
+      "relations": {},
+      "dateAdded": "2026-11-03T14:44:53Z",
+      "dateModified": "2026-11-03T14:44:53Z"
+    }
+  },
+  {
     "key": "BDEV3B7E",
     "version": 717,
     "library": {
