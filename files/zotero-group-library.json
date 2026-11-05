@@ -1,5 +1,68 @@
 [
   {
+    "key": "6E6D7KDB",
+    "version": 1906,
+    "library": {
+      "type": "group",
+      "id": 5985739,
+      "name": "UC CARD LAB",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/uc_card_lab",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/5985739/items/6E6D7KDB",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/uc_card_lab/items/6E6D7KDB",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/5985739/items/E8RMI6GN",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "6E6D7KDB",
+      "version": 1906,
+      "parentItem": "E8RMI6GN",
+      "itemType": "attachment",
+      "linkMode": "imported_file",
+      "title": "PDF",
+      "accessDate": "",
+      "url": "",
+      "note": "",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "Oladipo - 2026 - Forensic metallurgy of steel thermal histories Prospects through EBSD characterization.pdf",
+      "md5": "40a1dbede20cda6899b5753e88c941f5",
+      "mtime": 1793647982151,
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-11-02T19:33:02Z",
+      "dateModified": "2026-11-02T19:33:02Z"
+    }
+  },
+  {
     "key": "3NAFNSSY",
     "version": 1896,
     "library": {
@@ -6566,7 +6629,7 @@
       },
       "creatorSummary": "Oladipo",
       "parsedDate": "2026-05-01",
-      "numChildren": 0
+      "numChildren": 1
     },
     "data": {
       "key": "E8RMI6GN",
