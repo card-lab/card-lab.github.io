@@ -1,5 +1,957 @@
 [
   {
+    "key": "X9ZF7P8V",
+    "version": 737,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/X9ZF7P8V",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/X9ZF7P8V",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/6542859/items/PS22KMNL",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "X9ZF7P8V",
+      "version": 737,
+      "parentItem": "PS22KMNL",
+      "itemType": "attachment",
+      "linkMode": "imported_url",
+      "title": "PDF",
+      "accessDate": "2026-11-04T19:14:41Z",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2026/07/Science-A-New-Golden-Age.pdf",
+      "note": "",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "Kratsios - A REPORT TO THE PRESIDENT.pdf",
+      "md5": "92025d7c35e8874affe31079ef9a9bb7",
+      "mtime": 1793819681746,
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-11-04T19:14:41Z",
+      "dateModified": "2026-11-04T19:14:42Z"
+    }
+  },
+  {
+    "key": "PS22KMNL",
+    "version": 735,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/PS22KMNL",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/PS22KMNL",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Kratsios",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "PS22KMNL",
+      "version": 735,
+      "itemType": "journalArticle",
+      "title": "A REPORT TO THE PRESIDENT",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Kratsios"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "",
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "kratsiosREPORTPRESIDENT",
+      "url": "",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "DH5UPGCC"
+      ],
+      "relations": {},
+      "dateAdded": "2026-11-04T19:14:42Z",
+      "dateModified": "2026-11-04T19:14:42Z"
+    }
+  },
+  {
+    "key": "SQ69NBHV",
+    "version": 734,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/SQ69NBHV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/SQ69NBHV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "SQ69NBHV",
+      "version": 734,
+      "itemType": "attachment",
+      "linkMode": "imported_url",
+      "title": "https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-national-defense-strategy.pdf",
+      "accessDate": "2026-11-04T19:13:38Z",
+      "url": "https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-national-defense-strategy.pdf",
+      "note": "",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "2026-national-defense-strategy.pdf",
+      "md5": "3e72539deeb04ce53aa826cdf1158f62",
+      "mtime": 1793819618357,
+      "tags": [],
+      "collections": [
+        "DH5UPGCC"
+      ],
+      "relations": {},
+      "dateAdded": "2026-11-04T19:13:38Z",
+      "dateModified": "2026-11-04T19:13:38Z"
+    }
+  },
+  {
+    "key": "9WEPD783",
+    "version": 732,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/9WEPD783",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/9WEPD783",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/6542859/items/736Y5CGU",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "9WEPD783",
+      "version": 732,
+      "parentItem": "736Y5CGU",
+      "itemType": "attachment",
+      "linkMode": "imported_url",
+      "title": "PDF",
+      "accessDate": "2026-11-03T23:16:31Z",
+      "url": "https://arl.devcom.army.mil/wp-content/uploads/sites/3/ARL-TR-9542.pdf",
+      "note": "",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "Parker - 2022 - A Novice’s Guide to Approximating the Material Stresses and System Requirements for Hypersonic Fligh.pdf",
+      "md5": "62fec1f27e04e1c9ad1ed15a27ba2c22",
+      "mtime": 1793747791548,
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-11-03T23:16:31Z",
+      "dateModified": "2026-11-03T23:16:32Z"
+    }
+  },
+  {
+    "key": "736Y5CGU",
+    "version": 730,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/736Y5CGU",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/736Y5CGU",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Parker",
+      "parsedDate": "2022-09-07",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "736Y5CGU",
+      "version": 730,
+      "itemType": "report",
+      "title": "A Novice’s Guide to Approximating the Material Stresses and System Requirements for Hypersonic Flight",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Thomas",
+          "lastName": "Parker"
+        }
+      ],
+      "abstractNote": "",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "DEVCOM Army Research Laboratory",
+      "place": "Aberdeen Proving Ground, MD",
+      "date": "2022-09-07",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "10.21236/AD1180064",
+      "ISBN": "",
+      "citationKey": "parkerNovicesGuideApproximating2022",
+      "url": "https://apps.dtic.mil/sti/citations/trecms/AD1180064",
+      "accessDate": "2026-11-03T23:16:32Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "DH5UPGCC"
+      ],
+      "relations": {},
+      "dateAdded": "2026-11-03T23:16:32Z",
+      "dateModified": "2026-11-03T23:16:32Z"
+    }
+  },
+  {
+    "key": "JRQCN2SV",
+    "version": 729,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/JRQCN2SV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/JRQCN2SV",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/6542859/items/5K43U3QS",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "JRQCN2SV",
+      "version": 729,
+      "parentItem": "5K43U3QS",
+      "itemType": "attachment",
+      "linkMode": "imported_url",
+      "title": "Full Text PDF",
+      "accessDate": "2026-11-03T23:07:25Z",
+      "url": "https://www.nature.com/articles/s41467-024-46753-3.pdf",
+      "note": "",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "Peters et al. - 2024 - Materials design for hypersonics.pdf",
+      "md5": "1387c0cdccf20dd82503dbdb8d2c81e0",
+      "mtime": 1793747245681,
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-11-03T23:07:25Z",
+      "dateModified": "2026-11-03T23:07:25Z"
+    }
+  },
+  {
+    "key": "5K43U3QS",
+    "version": 727,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/5K43U3QS",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/5K43U3QS",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Peters et al.",
+      "parsedDate": "2024-04-18",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "5K43U3QS",
+      "version": 727,
+      "itemType": "journalArticle",
+      "title": "Materials design for hypersonics",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Adam B.",
+          "lastName": "Peters"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dajie",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Samuel",
+          "lastName": "Chen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Catherine",
+          "lastName": "Ott"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Corey",
+          "lastName": "Oses"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stefano",
+          "lastName": "Curtarolo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ian",
+          "lastName": "McCue"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tresa M.",
+          "lastName": "Pollock"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Suhas",
+          "lastName": "Eswarappa Prameela"
+        }
+      ],
+      "abstractNote": "Hypersonic vehicles must withstand extreme conditions during flights that exceed five times the speed of sound. These systems have the potential to facilitate rapid access to space, bolster defense capabilities, and create a new paradigm for transcontinental earth-to-earth travel. However, extreme aerothermal environments create significant challenges for vehicle materials and structures. This work addresses the critical need to develop resilient refractory alloys, composites, and ceramics. We will highlight key design principles for critical vehicle areas such as primary structures, thermal protection, and propulsion systems; the role of theory and computation; and strategies for advancing laboratory-scale materials to manufacturable flight-ready components.",
+      "publicationTitle": "Nature Communications",
+      "publisher": "Nature Publishing Group",
+      "place": "",
+      "date": "2024-04-18",
+      "volume": "15",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "3328",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Nat Commun",
+      "DOI": "10.1038/s41467-024-46753-3",
+      "citationKey": "petersMaterialsDesignHypersonics2024",
+      "url": "https://www.nature.com/articles/s41467-024-46753-3",
+      "accessDate": "2026-11-03T23:07:24Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "2041-1723",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "www.nature.com",
+      "callNumber": "",
+      "rights": "2024 The Author(s)",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Ceramics",
+          "type": 1
+        },
+        {
+          "tag": "Composites",
+          "type": 1
+        },
+        {
+          "tag": "Metals and alloys",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "DH5UPGCC"
+      ],
+      "relations": {},
+      "dateAdded": "2026-11-03T23:07:24Z",
+      "dateModified": "2026-11-03T23:07:24Z"
+    }
+  },
+  {
+    "key": "4LMBBSBJ",
+    "version": 726,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/4LMBBSBJ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/4LMBBSBJ",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/6542859/items/N3X9S6KL",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "4LMBBSBJ",
+      "version": 726,
+      "parentItem": "N3X9S6KL",
+      "itemType": "attachment",
+      "linkMode": "imported_url",
+      "title": "Full Text PDF",
+      "accessDate": "2026-11-03T19:17:03Z",
+      "url": "https://www.mdpi.com/1996-1944/19/16/3432/pdf?version=1786608058",
+      "note": "",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "Diliūnas et al. - 2026 - Hierarchical and Fractal-Inspired Mechanical Metamaterials A Mechanics-Oriented Review of Multiscal.pdf",
+      "md5": "f7a439a56ad969d1ec242ad464071b78",
+      "mtime": 1793733423083,
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-11-03T19:17:03Z",
+      "dateModified": "2026-11-03T19:17:03Z"
+    }
+  },
+  {
+    "key": "N3X9S6KL",
+    "version": 723,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/N3X9S6KL",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/N3X9S6KL",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Diliūnas et al.",
+      "parsedDate": "2026-01",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "N3X9S6KL",
+      "version": 723,
+      "itemType": "journalArticle",
+      "title": "Hierarchical and Fractal-Inspired Mechanical Metamaterials: A Mechanics-Oriented Review of Multiscale Design, Strength, Deformation, and Energy Absorption",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Saulius",
+          "lastName": "Diliūnas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Vitalis",
+          "lastName": "Leišis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tilmutė",
+          "lastName": "Pilkaitė"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Inga",
+          "lastName": "Skiedraitė"
+        }
+      ],
+      "abstractNote": "Classical continuum descriptions based on homogenized parameters, such as modulus and relative density, become inadequate when performance is governed by deliberately engineered multiscale architecture rather than by composition, as in hierarchical and fractal-inspired mechanical metamaterials. In these materials, geometry couples deformation across length scales in ways that single-scale models cannot capture. This review synthesizes theoretical, numerical, and experimental literature published mainly over the last two decades, with emphasis on the last five years. It draws preferentially on peer-reviewed journal articles and highly cited studies; strictly periodic single-scale metamaterials and general electromagnetic–metamaterial literature are cited only where needed to establish historical context and are not otherwise within the scope of this review. The specific contribution of this review is threefold: (i) a mechanics-oriented classification of hierarchical and fractal-inspired architectures according to the deformation mechanism they activate (bending-, stretching-, membrane-, or buckling-dominated), rather than by geometric appearance alone; (ii) an explicit structure-mechanism-property-function framework linking multiscale geometry to strength, failure evolution, and energy absorption, tested against automotive crashworthiness as an application case study; and (iii) a critical account of when fractal–mathematical descriptors (scale invariance, similarity ratio, iteration depth, and fractal dimension) are mechanically meaningful, since many finite hierarchical lattices are fractal-inspired rather than fractal in the strict mathematical sense. The synthesis shows that relative density alone is an insufficient performance descriptor: outcomes depend on whether deformation is bending-, stretching-, membrane-, or buckling-dominated, and hierarchy or fractal-inspired recursion improves performance only when each structural level is assigned a distinct mechanical role rather than repeating geometry without function. The crashworthiness case study confirms that no single architecture is universally optimal once force efficiency, intrusion control, and manufacturability are considered alongside energy absorption. Future progress requires integrated structure-mechanism-property-function frameworks that combine theoretical modeling, high-resolution simulation, data-driven design, and experimental validation, with complexity justified only when it is mechanically purposeful, validated, and manufacturable at scale.",
+      "publicationTitle": "Materials",
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "place": "",
+      "date": "2026/1",
+      "volume": "19",
+      "issue": "16",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "3432",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.3390/ma19163432",
+      "citationKey": "diliunasHierarchicalFractalInspiredMechanical2026",
+      "url": "https://www.mdpi.com/1996-1944/19/16/3432",
+      "accessDate": "2026-11-03T19:17:01Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1996-1944",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Hierarchical and Fractal-Inspired Mechanical Metamaterials",
+      "language": "en",
+      "libraryCatalog": "www.mdpi.com",
+      "callNumber": "",
+      "rights": "http://creativecommons.org/licenses/by/3.0/",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "architecture-controlled mechanics",
+          "type": 1
+        },
+        {
+          "tag": "crashworthiness",
+          "type": 1
+        },
+        {
+          "tag": "energy absorption",
+          "type": 1
+        },
+        {
+          "tag": "failure modes",
+          "type": 1
+        },
+        {
+          "tag": "fractal-inspired architectures",
+          "type": 1
+        },
+        {
+          "tag": "hierarchical structures",
+          "type": 1
+        },
+        {
+          "tag": "mechanical metamaterials",
+          "type": 1
+        },
+        {
+          "tag": "multiscale design",
+          "type": 1
+        },
+        {
+          "tag": "strength-to-weight performance",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "DH5UPGCC"
+      ],
+      "relations": {},
+      "dateAdded": "2026-11-03T19:17:01Z",
+      "dateModified": "2026-11-03T19:17:01Z"
+    }
+  },
+  {
+    "key": "2ZXNCS6R",
+    "version": 725,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/2ZXNCS6R",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/2ZXNCS6R",
+        "type": "text/html"
+      },
+      "up": {
+        "href": "https://api.zotero.org/groups/6542859/items/94VR34JR",
+        "type": "application/json"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "numChildren": 0
+    },
+    "data": {
+      "key": "2ZXNCS6R",
+      "version": 725,
+      "parentItem": "94VR34JR",
+      "itemType": "attachment",
+      "linkMode": "imported_url",
+      "title": "Full Text PDF",
+      "accessDate": "2026-11-03T19:16:58Z",
+      "url": "https://www.nature.com/articles/s41467-026-69845-8.pdf",
+      "note": "",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "Zhang et al. - 2026 - Nanoporosity-driven deformation of additively manufactured nano-architected metals.pdf",
+      "md5": "a6739d5756e8b2e23e47ae19cd47f0e8",
+      "mtime": 1793733418794,
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-11-03T19:16:58Z",
+      "dateModified": "2026-11-03T19:16:58Z"
+    }
+  },
+  {
+    "key": "94VR34JR",
+    "version": 721,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/94VR34JR",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/94VR34JR",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Zhang et al.",
+      "parsedDate": "2026-02-28",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "94VR34JR",
+      "version": 721,
+      "itemType": "journalArticle",
+      "title": "Nanoporosity-driven deformation of additively manufactured nano-architected metals",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Wenxin",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zhi",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Huajian",
+          "lastName": "Gao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julia R.",
+          "lastName": "Greer"
+        }
+      ],
+      "abstractNote": "3D printing methods for small-scale metals enable a unique 10–100 nm dimensional niche where functional feature sizes, critical microstructural detail and atomic-level defects converge, challenging conventional hierarchical relationships and carrying significant nanomechanical implications. We introduce a metal nano-printing system combining two-photon lithography, hydrogel infusion-based additive manufacturing and in situ mechanical experiments on 3D nano-architected Ni, achieving ~100 nm critical dimensions, ~10 nm surface roughness, and a broad range of geometries (periodic vs. non-periodic; beam-based vs. shell-based) with superior specific strengths of ~100 MPa·g − 1·cm3 enabled by an unambiguous smaller is stronger size effect. Experiments identify concentrated-porosity regions as primary deformation-initiation sources and quantify their distribution as input for physics-informed, multiscale finite-element simulations that accurately predict size-dependent mechanical properties governed by nanoporosity-driven deformation. This work integrates experimental and computational approaches for the fabrication, characterization, and evaluation of nano- and micro-architected metals for nanotechnology and nanoscale manufacturing systems.",
+      "publicationTitle": "Nature Communications",
+      "publisher": "Nature Publishing Group",
+      "place": "",
+      "date": "2026-02-28",
+      "volume": "17",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "3279",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Nat Commun",
+      "DOI": "10.1038/s41467-026-69845-8",
+      "citationKey": "zhangNanoporositydrivenDeformationAdditively2026",
+      "url": "https://www.nature.com/articles/s41467-026-69845-8",
+      "accessDate": "2026-11-03T19:16:56Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "2041-1723",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "www.nature.com",
+      "callNumber": "",
+      "rights": "2026 The Author(s)",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Structural properties",
+          "type": 1
+        },
+        {
+          "tag": "Synthesis and processing",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "DH5UPGCC"
+      ],
+      "relations": {},
+      "dateAdded": "2026-11-03T19:16:56Z",
+      "dateModified": "2026-11-03T19:16:56Z"
+    }
+  },
+  {
     "key": "9UYBV5QS",
     "version": 720,
     "library": {
