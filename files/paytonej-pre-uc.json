@@ -1,5 +1,93 @@
 [
   {
+    "key": "PS22KMNL",
+    "version": 744,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/PS22KMNL",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/PS22KMNL",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Kratsios",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "PS22KMNL",
+      "version": 744,
+      "itemType": "journalArticle",
+      "title": "A REPORT TO THE PRESIDENT",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Kratsios"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "",
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "kratsiosREPORTPRESIDENT",
+      "url": "",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2026-11-04T19:14:42Z",
+      "dateModified": "2026-11-04T19:14:42Z"
+    }
+  },
+  {
     "key": "X9ZF7P8V",
     "version": 737,
     "library": {
@@ -63,98 +151,8 @@
     }
   },
   {
-    "key": "PS22KMNL",
-    "version": 735,
-    "library": {
-      "type": "group",
-      "id": 6542859,
-      "name": "paytonej-pre-ucinci",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/6542859/items/PS22KMNL",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/PS22KMNL",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Kratsios",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "PS22KMNL",
-      "version": 735,
-      "itemType": "journalArticle",
-      "title": "A REPORT TO THE PRESIDENT",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Michael",
-          "lastName": "Kratsios"
-        }
-      ],
-      "abstractNote": "",
-      "publicationTitle": "",
-      "publisher": "",
-      "place": "",
-      "date": "",
-      "volume": "",
-      "issue": "",
-      "section": "",
-      "partNumber": "",
-      "partTitle": "",
-      "pages": "",
-      "series": "",
-      "seriesTitle": "",
-      "seriesText": "",
-      "journalAbbreviation": "",
-      "DOI": "",
-      "citationKey": "kratsiosREPORTPRESIDENT",
-      "url": "",
-      "accessDate": "",
-      "PMID": "",
-      "PMCID": "",
-      "ISSN": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "en",
-      "libraryCatalog": "Zotero",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "DH5UPGCC"
-      ],
-      "relations": {},
-      "dateAdded": "2026-11-04T19:14:42Z",
-      "dateModified": "2026-11-04T19:14:42Z"
-    }
-  },
-  {
     "key": "SQ69NBHV",
-    "version": 734,
+    "version": 743,
     "library": {
       "type": "group",
       "id": 6542859,
@@ -192,7 +190,7 @@
     },
     "data": {
       "key": "SQ69NBHV",
-      "version": 734,
+      "version": 743,
       "itemType": "attachment",
       "linkMode": "imported_url",
       "title": "https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-national-defense-strategy.pdf",
@@ -205,12 +203,92 @@
       "md5": "3e72539deeb04ce53aa826cdf1158f62",
       "mtime": 1793819618357,
       "tags": [],
-      "collections": [
-        "DH5UPGCC"
-      ],
+      "collections": [],
       "relations": {},
       "dateAdded": "2026-11-04T19:13:38Z",
       "dateModified": "2026-11-04T19:13:38Z"
+    }
+  },
+  {
+    "key": "736Y5CGU",
+    "version": 742,
+    "library": {
+      "type": "group",
+      "id": 6542859,
+      "name": "paytonej-pre-ucinci",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6542859/items/736Y5CGU",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/736Y5CGU",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 591537,
+        "username": "paytone",
+        "name": "Eric Payton",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/paytone",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Parker",
+      "parsedDate": "2022-09-07",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "736Y5CGU",
+      "version": 742,
+      "itemType": "report",
+      "title": "A Novice’s Guide to Approximating the Material Stresses and System Requirements for Hypersonic Flight",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Thomas",
+          "lastName": "Parker"
+        }
+      ],
+      "abstractNote": "",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "DEVCOM Army Research Laboratory",
+      "place": "Aberdeen Proving Ground, MD",
+      "date": "2022-09-07",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "10.21236/AD1180064",
+      "ISBN": "",
+      "citationKey": "parkerNovicesGuideApproximating2022",
+      "url": "https://apps.dtic.mil/sti/citations/trecms/AD1180064",
+      "accessDate": "2026-11-03T23:16:32Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [],
+      "relations": {},
+      "dateAdded": "2026-11-03T23:16:32Z",
+      "dateModified": "2026-11-03T23:16:32Z"
     }
   },
   {
@@ -273,90 +351,6 @@
       "tags": [],
       "relations": {},
       "dateAdded": "2026-11-03T23:16:31Z",
-      "dateModified": "2026-11-03T23:16:32Z"
-    }
-  },
-  {
-    "key": "736Y5CGU",
-    "version": 730,
-    "library": {
-      "type": "group",
-      "id": 6542859,
-      "name": "paytonej-pre-ucinci",
-      "links": {
-        "alternate": {
-          "href": "https://www.zotero.org/groups/paytonej-pre-ucinci",
-          "type": "text/html"
-        }
-      }
-    },
-    "links": {
-      "self": {
-        "href": "https://api.zotero.org/groups/6542859/items/736Y5CGU",
-        "type": "application/json"
-      },
-      "alternate": {
-        "href": "https://www.zotero.org/groups/paytonej-pre-ucinci/items/736Y5CGU",
-        "type": "text/html"
-      }
-    },
-    "meta": {
-      "createdByUser": {
-        "id": 591537,
-        "username": "paytone",
-        "name": "Eric Payton",
-        "links": {
-          "alternate": {
-            "href": "https://www.zotero.org/paytone",
-            "type": "text/html"
-          }
-        }
-      },
-      "creatorSummary": "Parker",
-      "parsedDate": "2022-09-07",
-      "numChildren": 1
-    },
-    "data": {
-      "key": "736Y5CGU",
-      "version": 730,
-      "itemType": "report",
-      "title": "A Novice’s Guide to Approximating the Material Stresses and System Requirements for Hypersonic Flight",
-      "creators": [
-        {
-          "creatorType": "author",
-          "firstName": "Thomas",
-          "lastName": "Parker"
-        }
-      ],
-      "abstractNote": "",
-      "reportNumber": "",
-      "reportType": "",
-      "institution": "DEVCOM Army Research Laboratory",
-      "place": "Aberdeen Proving Ground, MD",
-      "date": "2022-09-07",
-      "seriesTitle": "",
-      "seriesNumber": "",
-      "pages": "",
-      "DOI": "10.21236/AD1180064",
-      "ISBN": "",
-      "citationKey": "parkerNovicesGuideApproximating2022",
-      "url": "https://apps.dtic.mil/sti/citations/trecms/AD1180064",
-      "accessDate": "2026-11-03T23:16:32Z",
-      "ISSN": "",
-      "archive": "",
-      "archiveLocation": "",
-      "shortTitle": "",
-      "language": "en",
-      "libraryCatalog": "DOI.org (Crossref)",
-      "callNumber": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "DH5UPGCC"
-      ],
-      "relations": {},
-      "dateAdded": "2026-11-03T23:16:32Z",
       "dateModified": "2026-11-03T23:16:32Z"
     }
   },
@@ -425,7 +419,7 @@
   },
   {
     "key": "5K43U3QS",
-    "version": 727,
+    "version": 741,
     "library": {
       "type": "group",
       "id": 6542859,
@@ -465,7 +459,7 @@
     },
     "data": {
       "key": "5K43U3QS",
-      "version": 727,
+      "version": 741,
       "itemType": "journalArticle",
       "title": "Materials design for hypersonics",
       "creators": [
@@ -559,9 +553,7 @@
           "type": 1
         }
       ],
-      "collections": [
-        "DH5UPGCC"
-      ],
+      "collections": [],
       "relations": {},
       "dateAdded": "2026-11-03T23:07:24Z",
       "dateModified": "2026-11-03T23:07:24Z"
@@ -632,7 +624,7 @@
   },
   {
     "key": "N3X9S6KL",
-    "version": 723,
+    "version": 740,
     "library": {
       "type": "group",
       "id": 6542859,
@@ -672,7 +664,7 @@
     },
     "data": {
       "key": "N3X9S6KL",
-      "version": 723,
+      "version": 740,
       "itemType": "journalArticle",
       "title": "Hierarchical and Fractal-Inspired Mechanical Metamaterials: A Mechanics-Oriented Review of Multiscale Design, Strength, Deformation, and Energy Absorption",
       "creators": [
@@ -765,9 +757,7 @@
           "type": 1
         }
       ],
-      "collections": [
-        "DH5UPGCC"
-      ],
+      "collections": [],
       "relations": {},
       "dateAdded": "2026-11-03T19:17:01Z",
       "dateModified": "2026-11-03T19:17:01Z"
@@ -838,7 +828,7 @@
   },
   {
     "key": "94VR34JR",
-    "version": 721,
+    "version": 739,
     "library": {
       "type": "group",
       "id": 6542859,
@@ -878,7 +868,7 @@
     },
     "data": {
       "key": "94VR34JR",
-      "version": 721,
+      "version": 739,
       "itemType": "journalArticle",
       "title": "Nanoporosity-driven deformation of additively manufactured nano-architected metals",
       "creators": [
@@ -943,9 +933,7 @@
           "type": 1
         }
       ],
-      "collections": [
-        "DH5UPGCC"
-      ],
+      "collections": [],
       "relations": {},
       "dateAdded": "2026-11-03T19:16:56Z",
       "dateModified": "2026-11-03T19:16:56Z"
@@ -1015,7 +1003,7 @@
   },
   {
     "key": "E5LZS5V5",
-    "version": 718,
+    "version": 738,
     "library": {
       "type": "group",
       "id": 6542859,
@@ -1055,7 +1043,7 @@
     },
     "data": {
       "key": "E5LZS5V5",
-      "version": 718,
+      "version": 738,
       "itemType": "journalArticle",
       "title": "Shock dynamics in periodic two-dimensional composites",
       "creators": [
@@ -1116,9 +1104,7 @@
       "rights": "",
       "extra": "",
       "tags": [],
-      "collections": [
-        "DH5UPGCC"
-      ],
+      "collections": [],
       "relations": {},
       "dateAdded": "2026-11-03T14:44:53Z",
       "dateModified": "2026-11-03T14:44:53Z"
