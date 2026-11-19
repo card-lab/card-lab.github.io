@@ -1,5 +1,15 @@
 [
   {
+    "listing": "/capabilities/facilities.html",
+    "items": [
+      "/capabilities/capital-resources/fea.html",
+      "/capabilities/capital-resources/cfd.html",
+      "/capabilities/capital-resources/calphad.html",
+      "/capabilities/capital-resources/rollingmill.html",
+      "/capabilities/capital-resources/arcmelting.html"
+    ]
+  },
+  {
     "listing": "/people/current.html",
     "items": [
       "/people/current/Ananth_Balasubramanian.html",
@@ -51,16 +61,6 @@
       "/people/alumni/Anh_Nguyen.html",
       "/people/alumni/Jesus_Acosta.html",
       "/people/alumni/Mikki_Keller_(von_Schaumburg).html"
-    ]
-  },
-  {
-    "listing": "/capabilities/facilities.html",
-    "items": [
-      "/capabilities/capital-resources/fea.html",
-      "/capabilities/capital-resources/cfd.html",
-      "/capabilities/capital-resources/calphad.html",
-      "/capabilities/capital-resources/rollingmill.html",
-      "/capabilities/capital-resources/arcmelting.html"
     ]
   }
 ]
